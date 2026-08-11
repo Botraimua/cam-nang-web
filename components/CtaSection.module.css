@@ -1,0 +1,70 @@
+.wrap {
+  padding: 64px 20px;
+}
+
+.card {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 28px;
+  padding: 56px 28px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.sparkle,
+.sparkleB {
+  position: absolute;
+  color: var(--purple-pale);
+  font-size: 28px;
+  opacity: 0.7;
+}
+
+.sparkle {
+  top: 22px;
+  left: 32px;
+}
+
+.sparkleB {
+  bottom: 22px;
+  right: 32px;
+}
+
+.eyebrow {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.16);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.heading {
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 900;
+  margin: 16px 0 10px;
+}
+
+.desc {
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 24px;
+  background: var(--yellow);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 14px 30px;
+  font-weight: 800;
+  font-family: var(--font-heading), sans-serif;
+  transition: transform 0.15s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}

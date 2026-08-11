@@ -1,0 +1,72 @@
+.progress {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reset {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--purple-dark);
+  text-decoration: underline;
+  padding: 2px 4px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+}
+
+.item {
+  border-bottom: 1px dashed var(--border);
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.label {
+  display: flex;
+  gap: 14px;
+  padding: 16px 4px;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--purple);
+  margin-top: 3px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.stepTitle {
+  display: block;
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+  transition: color 0.15s;
+}
+
+.stepDetail {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.done .stepTitle {
+  text-decoration: line-through;
+  color: var(--ink-soft);
+}
+
+.done {
+  opacity: 0.75;
+}

@@ -1,0 +1,241 @@
+/* ===== HERO ===== */
+.hero {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 72px 20px 32px;
+  text-align: center;
+}
+
+.heroEyebrow {
+  display: inline-block;
+  background: var(--purple-pale);
+  color: var(--purple-dark);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.heroTitle {
+  font-size: clamp(34px, 6vw, 56px);
+  font-weight: 900;
+  margin: 18px auto 14px;
+  max-width: 640px;
+}
+
+.heroDesc {
+  color: var(--ink-soft);
+  font-size: 18px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* ===== TÌM KIẾM ===== */
+.searchForm {
+  max-width: 620px;
+  margin: 28px auto 0;
+  display: flex;
+  gap: 6px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s;
+}
+
+.searchForm:focus-within {
+  border-color: var(--purple);
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  padding: 12px 18px;
+  font-size: 16px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchButton {
+  background: var(--purple);
+  color: #fff;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-weight: 700;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.searchButton:hover {
+  background: var(--purple-dark);
+}
+
+.suggestions {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.suggestionChip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  transition: all 0.15s;
+}
+
+.suggestionChip:hover {
+  border-color: var(--purple);
+  color: var(--purple-dark);
+  background: var(--purple-pale);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ===== DẢI TRANG TRÍ ===== */
+.ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  justify-content: center;
+  padding: 30px 20px;
+  color: var(--ink-soft);
+  font-weight: 700;
+  font-family: var(--font-heading), sans-serif;
+}
+
+.ribbonItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.ribbonStar {
+  color: var(--purple);
+}
+
+/* ===== KHO CẨM NANG ===== */
+.guides {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+  scroll-margin-top: 80px;
+}
+
+.sectionHeading {
+  margin-bottom: 20px;
+}
+
+.eyebrow {
+  display: block;
+  color: var(--purple-dark);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.sectionHeading h2 {
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 900;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 28px;
+}
+
+.filterLabel {
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.pill {
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink-soft);
+  transition: all 0.15s;
+}
+
+.pill:hover {
+  border-color: var(--purple);
+  color: var(--purple-dark);
+}
+
+.pill[aria-pressed="true"] {
+  background: var(--purple);
+  border-color: var(--purple);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.empty {
+  text-align: center;
+  padding: 48px 0;
+  color: var(--ink-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.emptyButton {
+  margin-top: 6px;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 700;
+}
+
+.emptyButton:hover {
+  background: var(--purple-dark);
+}
+
+.sentinel {
+  height: 1px;
+}
+
+.status {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 18px 0 0;
+  font-size: 14px;
+}

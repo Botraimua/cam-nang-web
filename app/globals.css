@@ -1,0 +1,89 @@
+/* ===== Bảng màu — đúng 16 biến đã kiểm chứng từ trang tham khảo ===== */
+:root {
+  --ink: #202844;
+  --ink-soft: #566078;
+  --paper: #fffaf1;
+  --surface: #ffffff;
+  --purple: #6548e8;
+  --purple-dark: #4b32c4;
+  --purple-pale: #e9e2ff;
+  --coral: #ff7557;
+  --yellow: #ffd45c;
+  --mint: #a8e7ca;
+  --sky: #acdffa;
+  --pink: #ffc9db;
+  --lavender: #c8baff;
+  --peach: #ffc89f;
+  --border: #dcd6c9;
+  --focus: #2d6cdf;
+
+  --radius: 20px;
+  --radius-sm: 12px;
+  --shadow: 0 2px 0 rgba(32, 40, 68, 0.06), 0 14px 34px -18px rgba(32, 40, 68, 0.22);
+  --container: 1080px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body), system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), var(--font-body), system-ui, sans-serif;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p, ul, ol {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+input {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--purple-pale);
+}
+
+/* Mỗi danh mục một tông màu (map đúng bản gốc: xe-co=coral, suc-khoe=sky, tien-bac=yellow,
+   nha-cua=mint, an-uong=pink, giay-to=lavender, cong-viec/khac=peach) */
+.tone-coral    { --tone: var(--coral); }
+.tone-yellow   { --tone: var(--yellow); }
+.tone-mint     { --tone: var(--mint); }
+.tone-sky      { --tone: var(--sky); }
+.tone-pink     { --tone: var(--pink); }
+.tone-lavender { --tone: var(--lavender); }
+.tone-peach    { --tone: var(--peach); }

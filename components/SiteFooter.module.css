@@ -1,0 +1,26 @@
+.footer {
+  border-top: 1.5px dashed var(--border);
+  padding: 32px 20px 48px;
+}
+
+.inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.brand {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.tagline,
+.credit {
+  color: var(--ink-soft);
+  font-size: 14px;
+}
