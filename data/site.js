@@ -5,9 +5,8 @@ export const site = {
   name: "Biết Liền!",
   tagline: "Cẩm nang việc đời thường",
 
-  // ❗ Sau khi deploy lên Vercel, đổi thành domain thật (vd "https://biet-lien.vercel.app")
-  // để sitemap + thẻ chia sẻ mạng xã hội trỏ đúng địa chỉ.
-  url: "http://localhost:3000",
+  // Domain thật trên Vercel (đổi tiếp nếu sau này gắn tên miền riêng)
+  url: "https://cam-nang-web.vercel.app",
 
   description:
     "Cẩm nang ngắn gọn cho những việc đời thường chưa ai kịp chỉ bạn — đọc vài bước là làm được liền.",
