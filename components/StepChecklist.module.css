@@ -1,72 +1,93 @@
 .progress {
-  font-size: 14px;
   color: var(--ink-soft);
-  margin-bottom: 8px;
-  display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
   flex-wrap: wrap;
 }
 
 .reset {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--purple-dark);
   text-decoration: underline;
+  text-underline-offset: 3px;
   padding: 2px 4px;
 }
 
-.list {
+.steps {
+  gap: 18px;
+  margin-top: 20px;
   list-style: none;
-  padding: 0;
-  counter-reset: step;
+  display: grid;
 }
 
-.item {
-  border-bottom: 1px dashed var(--border);
-}
-
-.item:last-child {
-  border-bottom: 0;
+.step {
+  border: 2px solid var(--ink);
+  box-shadow: 5px 6px 0 var(--ink);
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  transition: background-color 0.18s, opacity 0.18s;
 }
 
 .label {
   display: flex;
-  gap: 14px;
-  padding: 16px 4px;
-  cursor: pointer;
+  gap: 16px;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .checkbox {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   accent-color: var(--purple);
-  margin-top: 3px;
-  flex-shrink: 0;
+  margin-top: 4px;
+  flex: none;
   cursor: pointer;
 }
 
-.stepTitle {
+.body {
+  min-width: 0;
+}
+
+.num {
+  color: var(--purple-dark);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 900;
   display: block;
+  margin-bottom: 4px;
+}
+
+.body h3 {
   font-family: var(--font-heading), sans-serif;
-  font-weight: 800;
-  font-size: 17px;
-  transition: color 0.15s;
+  font-size: 21px;
+  font-weight: 900;
 }
 
-.stepDetail {
-  display: block;
+.body p {
   color: var(--ink-soft);
-  font-size: 15px;
-  margin-top: 2px;
-}
-
-.done .stepTitle {
-  text-decoration: line-through;
-  color: var(--ink-soft);
+  margin-top: 8px;
+  line-height: 1.65;
 }
 
 .done {
-  opacity: 0.75;
+  background: #f4fbf7;
+}
+
+.done h3 {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--mint);
+}
+
+@media (max-width: 560px) {
+  .step {
+    padding: 20px;
+  }
 }

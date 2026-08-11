@@ -1,81 +1,139 @@
 .card {
-  position: relative;
+  border: 2px solid var(--ink);
   background: var(--surface);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px;
-  display: flex;
+  min-width: 0;
+  min-height: 238px;
+  box-shadow: 4px 5px 0 var(--ink), inset 0 -8px 18px #6548e80a;
+  cursor: pointer;
+  border-radius: 21px;
   flex-direction: column;
-  gap: 12px;
-  height: 100%;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-}
-
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow);
-  border-color: var(--tone, var(--purple));
-}
-
-.chips {
+  padding: 18px;
+  transition: background-color 0.18s, box-shadow 0.18s;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-}
-
-.catChip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--tone, var(--purple-pale));
-  color: var(--ink);
-  border-radius: 999px;
-  padding: 4px 12px;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.readChip {
-  background: var(--paper);
-  border: 1px dashed var(--border);
-  color: var(--ink-soft);
-  border-radius: 999px;
-  padding: 4px 12px;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.title {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-/* Cho cả thẻ bấm được nhưng vẫn giữ ngữ nghĩa link trên tiêu đề */
-.titleLink::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: var(--radius);
-}
-
-.excerpt {
-  color: var(--ink-soft);
-  font-size: 15px;
-  flex-grow: 1;
-}
-
-.author {
-  font-size: 13px;
-  color: var(--ink-soft);
-}
-
-.author a {
   position: relative;
-  font-weight: 700;
+  overflow: hidden;
+}
+
+.header {
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  display: flex;
+}
+
+.icon {
+  border: 2px solid var(--ink);
+  background: var(--tone, var(--peach));
+  border-radius: 15px;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  line-height: 1;
+  display: grid;
+  flex: none;
+}
+
+.meta {
+  min-width: 0;
+  color: var(--ink-soft);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  gap: 5px 9px;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+}
+
+.meta span:first-child {
   color: var(--purple-dark);
 }
 
-.author a:hover {
+.link {
+  min-width: 0;
+  color: inherit;
+  margin-top: 16px;
+  display: block;
+}
+
+/* Cho cả thẻ bấm được */
+.link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.link h3 {
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: -0.5px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: clamp(18px, 1.6vw, 21px);
+  font-weight: 900;
+  line-height: 1.17;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.link p {
+  color: var(--ink-soft);
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.author {
+  min-width: 0;
+  color: var(--purple-dark);
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+  margin-top: auto;
+  padding-top: 14px;
+  font-size: 12px;
+  font-weight: 800;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  display: inline-flex;
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+}
+
+.link:focus-visible,
+.author:focus-visible {
+  outline: 3px solid var(--purple);
+  outline-offset: 4px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    box-shadow: 4px 5px 0 var(--ink), inset 0 -8px 18px #6548e814;
+    background: #fdfbff;
+  }
+  .author:hover {
+    color: var(--purple);
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    min-height: 0;
+    box-shadow: 5px 6px 0 var(--ink);
+    border-radius: 24px;
+    padding: 21px;
+  }
+  .icon {
+    border-radius: 17px;
+  }
+  .link h3 {
+    font-size: 21px;
+  }
+  .link p {
+    font-size: 14px;
+  }
 }

@@ -1,26 +1,68 @@
 .footer {
-  border-top: 1.5px dashed var(--border);
-  padding: 32px 20px 48px;
+  border-top: 2px solid var(--border);
+  width: min(1180px, 100% - 40px);
+  min-height: 100px;
+  color: var(--ink-soft);
+  margin: 0 auto;
+  padding: 28px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 
 .inner {
-  max-width: var(--container);
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 16px;
 }
 
 .brand {
   font-family: var(--font-heading), sans-serif;
-  font-weight: 900;
+  letter-spacing: -0.5px;
+  align-items: center;
+  gap: 10px;
   font-size: 18px;
+  font-weight: 900;
+  color: var(--ink);
+  display: inline-flex;
 }
 
-.tagline,
+.brandMark {
+  border: 2px solid var(--ink);
+  color: #fff;
+  background: var(--purple);
+  width: 38px;
+  height: 34px;
+  box-shadow: 2px 3px 0 var(--ink);
+  border-radius: 12px 12px 12px 4px;
+  place-items: center;
+  font-size: 13px;
+  display: grid;
+  transform: rotate(-3deg);
+}
+
+.tagline {
+  margin-top: 6px;
+}
+
 .credit {
-  color: var(--ink-soft);
-  font-size: 14px;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  display: inline-flex;
+}
+
+.heart {
+  color: var(--coral);
+  font-size: 18px;
+  line-height: 1;
+}
+
+@media (max-width: 560px) {
+  .footer {
+    width: min(100% - 32px, 1180px);
+  }
 }

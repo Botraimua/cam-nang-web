@@ -42,21 +42,19 @@ export default function StepChecklist({ slug, steps }) {
   return (
     <div>
       <p className={styles.progress} role="status">
-        {allDone
-          ? "Xong hết rồi, đỉnh quá! 🎉"
-          : `Đã xong ${done.length}/${steps.length} bước`}
+        {allDone ? "Xong hết rồi, đỉnh quá! 🎉" : `Đã xong ${done.length}/${steps.length} bước`}
         {done.length > 0 && (
           <button type="button" className={styles.reset} onClick={reset}>
             Làm lại từ đầu
           </button>
         )}
       </p>
-      <ol className={styles.list}>
+      <ol className={styles.steps}>
         {steps.map((step, i) => {
           const checked = done.includes(i);
           return (
-            <li key={i} className={styles.item}>
-              <label className={`${styles.label} ${checked ? styles.done : ""}`}>
+            <li key={i} className={`${styles.step} ${checked ? styles.done : ""}`}>
+              <label className={styles.label}>
                 <input
                   type="checkbox"
                   className={styles.checkbox}
@@ -64,9 +62,12 @@ export default function StepChecklist({ slug, steps }) {
                   disabled={!loaded}
                   onChange={() => toggle(i)}
                 />
-                <span>
-                  <span className={styles.stepTitle}>{step.title}</span>
-                  {step.detail && <span className={styles.stepDetail}>{step.detail}</span>}
+                <span className={styles.body}>
+                  <span className={styles.num} aria-hidden="true">
+                    Bước {i + 1}
+                  </span>
+                  <h3>{step.title}</h3>
+                  {step.detail && <p>{step.detail}</p>}
                 </span>
               </label>
             </li>

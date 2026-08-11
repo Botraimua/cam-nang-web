@@ -1,4 +1,4 @@
-/* ===== Bảng màu — đúng 16 biến đã kiểm chứng từ trang tham khảo ===== */
+/* ===== Bảng màu — đúng bộ biến đã kiểm chứng từ trang tham khảo ===== */
 :root {
   --ink: #202844;
   --ink-soft: #566078;
@@ -16,15 +16,13 @@
   --peach: #ffc89f;
   --border: #dcd6c9;
   --focus: #2d6cdf;
-
-  --radius: 20px;
-  --radius-sm: 12px;
-  --shadow: 0 2px 0 rgba(32, 40, 68, 0.06), 0 14px 34px -18px rgba(32, 40, 68, 0.22);
-  --container: 1080px;
+  --shadow-color: #53432e24;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -32,22 +30,29 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: var(--font-body), system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: var(--paper);
+  min-height: 100vh;
   color: var(--ink);
-  line-height: 1.65;
+  background: var(--paper);
+  font-family: var(--font-body), Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--font-heading), var(--font-body), system-ui, sans-serif;
+  font-family: var(--font-heading), var(--font-body), sans-serif;
   line-height: 1.2;
-  margin: 0;
 }
 
-p, ul, ol {
-  margin: 0;
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -56,34 +61,41 @@ a {
 }
 
 button {
-  font: inherit;
+  color: inherit;
   cursor: pointer;
   border: 0;
   background: none;
-  color: inherit;
-}
-
-input {
-  font: inherit;
-  color: inherit;
 }
 
 :focus-visible {
   outline: 3px solid var(--focus);
-  outline-offset: 2px;
-  border-radius: 6px;
+  outline-offset: 4px;
 }
 
 ::selection {
-  background: var(--purple-pale);
+  color: var(--ink);
+  background: var(--yellow);
 }
 
-/* Mỗi danh mục một tông màu (map đúng bản gốc: xe-co=coral, suc-khoe=sky, tien-bac=yellow,
-   nha-cua=mint, an-uong=pink, giay-to=lavender, cong-viec/khac=peach) */
-.tone-coral    { --tone: var(--coral); }
+/* Mỗi danh mục một tông màu — giá trị nền icon đúng bản tham khảo
+   (coral dùng bản nhạt #ffad98 cho nền icon, --coral đậm dành cho mảng nhấn) */
+.tone-coral    { --tone: #ffad98; }
 .tone-yellow   { --tone: var(--yellow); }
 .tone-mint     { --tone: var(--mint); }
 .tone-sky      { --tone: var(--sky); }
 .tone-pink     { --tone: var(--pink); }
 .tone-lavender { --tone: var(--lavender); }
 .tone-peach    { --tone: var(--peach); }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  ::before,
+  ::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

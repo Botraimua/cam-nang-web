@@ -6,31 +6,30 @@ import styles from "./GuideCard.module.css";
 export default function GuideCard({ guide }) {
   const cat = categoryMap[guide.category];
   return (
-    <article className={`${styles.card} tone-${cat?.tone || "peach"}`}>
-      <div className={styles.chips}>
-        <span className={styles.catChip}>
-          <span aria-hidden="true">{cat?.emoji}</span> {cat?.name}
-        </span>
-        <span className={styles.readChip}>{guide.readTimeMinutes} phút đọc</span>
+    <article className={styles.card}>
+      <div className={styles.header}>
+        <div className={`${styles.icon} tone-${cat?.tone || "peach"}`} aria-hidden="true">
+          {cat?.emoji}
+        </div>
+        <div className={styles.meta}>
+          <span>{cat?.name}</span>
+          <span>{guide.readTimeMinutes} phút đọc</span>
+        </div>
       </div>
-      <h3 className={styles.title}>
-        <Link href={`/cam-nang/${guide.slug}`} className={styles.titleLink}>
-          {guide.title}
-        </Link>
-      </h3>
-      <p className={styles.excerpt}>{guide.excerpt}</p>
-      {guide.author?.name && (
-        <p className={styles.author}>
-          {site.detail.authorPrefix}{" "}
-          {guide.author.url ? (
-            <a href={guide.author.url} target="_blank" rel="noopener noreferrer">
-              {guide.author.name}
-            </a>
-          ) : (
-            guide.author.name
-          )}
-        </p>
-      )}
+      <Link href={`/cam-nang/${guide.slug}`} className={styles.link}>
+        <h3>{guide.title}</h3>
+        <p>{guide.excerpt}</p>
+      </Link>
+      {guide.author?.name ? (
+        <a
+          className={styles.author}
+          href={guide.author.url || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {site.detail.authorPrefix} {guide.author.name}
+        </a>
+      ) : null}
     </article>
   );
 }

@@ -3,6 +3,7 @@
 
 export const site = {
   name: "Biết Liền!",
+  brandMark: "?!", // chữ trong ô logo vuông tím
   tagline: "Cẩm nang việc đời thường",
 
   // Domain thật trên Vercel (đổi tiếp nếu sau này gắn tên miền riêng)
@@ -16,6 +17,12 @@ export const site = {
     title: "Chuyện ai cũng gặp, chẳng ai kịp chỉ.",
     description:
       "Chưa biết là chuyện bình thường. Gõ thứ đang làm bạn bối rối, đọc vài bước ngắn gọn, xong việc liền tay.",
+    // Cụm minh hoạ bên phải hero (2 thẻ dán + tia sáng)
+    visual: {
+      question: "Hả?",
+      questionNote: "Ai cũng có lần đầu tiên.",
+      answerNote: "Từng bước một là xong.",
+    },
   },
 
   search: {
@@ -26,15 +33,16 @@ export const site = {
     suggestions: ["CCCD", "thuê trọ", "thay nhớt"],
   },
 
-  ribbon: ["Bí hả?", "Ai cũng có lần đầu tiên.", "Từng bước một là xong."],
-
   guides: {
     eyebrow: "Kho cẩm nang",
     heading: "Chọn chuyện bạn đang gặp",
+    sideNote: "Gõ vài chữ hoặc lọc theo nhóm — mỗi bài chỉ vài phút đọc, làm được ngay.",
     filterLabel: "Lọc theo:",
     allLabel: "Tất cả",
-    empty: "Chưa có cẩm nang nào khớp từ khoá này. Thử chữ khác nhé!",
+    emptyTitle: "Chưa tìm thấy cẩm nang nào",
+    empty: "Thử từ khoá khác, hoặc xem tất cả rồi lọc dần nhé!",
     emptyButton: "Xem tất cả cẩm nang",
+    loading: "Đang tải thêm...",
   },
 
   howItWorks: {
@@ -43,14 +51,17 @@ export const site = {
     description: "Mục tiêu không phải thành chuyên gia — chỉ cần biết bước tiếp theo.",
     steps: [
       {
+        emoji: "🔍",
         title: "Tìm đúng chuyện",
         detail: "Gõ câu hỏi y như cách bạn vẫn nói hằng ngày, không cần từ khoá chuẩn.",
       },
       {
+        emoji: "📋",
         title: "Đọc vài bước",
         detail: "Chỉ những gì cần biết, xếp theo đúng thứ tự cần làm.",
       },
       {
+        emoji: "✅",
         title: "Tick là xong",
         detail: "Làm tới đâu đánh dấu tới đó — xong việc là xong chuyện.",
       },
@@ -62,12 +73,14 @@ export const site = {
     heading: "Chuyện gì cũng có cách làm.",
     description: "Bắt đầu từ việc đang khiến bạn lúng túng nhất hôm nay.",
     button: "Khám phá cẩm nang",
+    sticker: "Nhẹ cả đầu!",
   },
 
   detail: {
     sticker: "Xong là biết liền!",
     quickKicker: "Nói ngắn gọn",
     quickHeading: "Bạn cần làm gì?",
+    tocTitle: "Trong bài này",
     prepareHeading: "Chuẩn bị gì trước?",
     stepsHeading: "Làm từng bước",
     notesHeading: "Điều cần lưu ý",

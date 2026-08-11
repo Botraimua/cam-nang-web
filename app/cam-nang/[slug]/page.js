@@ -38,142 +38,170 @@ export default async function GuidePage({ params }) {
   const d = site.detail;
   const hasSources = guide.sources?.length > 0 || guide.author?.url;
 
+  const toc = [
+    guide.prepare?.length > 0 && { id: "chuan-bi", label: d.prepareHeading },
+    guide.steps?.length > 0 && { id: "cac-buoc", label: d.stepsHeading },
+    guide.notes?.length > 0 && { id: "luu-y", label: d.notesHeading },
+    guide.faq?.length > 0 && { id: "cau-hoi", label: d.faqHeading },
+    hasSources && { id: "nguon", label: d.sourcesHeading },
+  ].filter(Boolean);
+
   return (
     <>
       <SiteHeader />
-      <main className={`${styles.page} tone-${cat?.tone || "peach"}`}>
-        <article className={styles.article}>
-          {/* Breadcrumb */}
-          <nav className={styles.breadcrumb} aria-label="Breadcrumb">
-            <Link href="/#cam-nang">{d.breadcrumbAll}</Link>
-            <span aria-hidden="true">›</span>
-            <Link href="/#cam-nang">{cat?.name}</Link>
-            <span aria-hidden="true">›</span>
-            <span className={styles.breadcrumbCurrent}>{guide.title}</span>
-          </nav>
+      <main>
+        {/* Breadcrumb */}
+        <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+          <Link href="/#cam-nang">← {d.breadcrumbAll}</Link>
+        </nav>
 
-          {/* Meta */}
-          <div className={styles.metaRow}>
-            <span className={styles.catChip}>
+        {/* Hero 2 cột */}
+        <header className={styles.hero}>
+          <div>
+            <span className={`${styles.categoryTag} tone-${cat?.tone || "peach"}`}>
               <span aria-hidden="true">{cat?.emoji}</span> {cat?.name}
             </span>
-            <span className={styles.readChip}>{guide.readTimeMinutes} phút đọc</span>
-            {guide.author?.name && (
-              <span className={styles.author}>
-                {d.authorPrefix}{" "}
-                {guide.author.url ? (
+            <h1 id="guide-title">{guide.title}</h1>
+            <p className={styles.excerpt}>{guide.excerpt}</p>
+            <div className={styles.meta}>
+              <span>⏱ {guide.readTimeMinutes} phút đọc</span>
+              {guide.author?.name &&
+                (guide.author.url ? (
                   <a href={guide.author.url} target="_blank" rel="noopener noreferrer">
-                    {guide.author.name}
+                    {d.authorPrefix} {guide.author.name}
                   </a>
                 ) : (
-                  guide.author.name
-                )}
-              </span>
-            )}
+                  <span>
+                    {d.authorPrefix} {guide.author.name}
+                  </span>
+                ))}
+            </div>
           </div>
+          <div className={`${styles.heroIcon} tone-${cat?.tone || "peach"}`} aria-hidden="true">
+            <span className={styles.heroEmoji}>{cat?.emoji}</span>
+            <span className={styles.heroSticker}>{d.sticker}</span>
+          </div>
+        </header>
 
-          <h1 className={styles.title} id="guide-title">
-            {guide.title}
-          </h1>
-          <p className={styles.lead}>{guide.excerpt}</p>
-          <p className={styles.sticker} aria-hidden="true">
-            {d.sticker}
-          </p>
-
-          {/* Bạn cần làm gì? */}
-          {guide.quickAnswer && (
-            <section className={styles.card}>
-              <p className={styles.kicker}>{d.quickKicker}</p>
-              <h2>{d.quickHeading}</h2>
-              <p className={styles.body}>{guide.quickAnswer}</p>
+        {/* Nói ngắn gọn */}
+        {guide.quickAnswer && (
+          <section className={styles.quickAnswer} aria-labelledby="quick-title">
+            <span className={styles.quickIcon} aria-hidden="true">
+              ⚡
+            </span>
+            <div>
+              <span className={styles.kicker}>{d.quickKicker}</span>
+              <h2 id="quick-title">{d.quickHeading}</h2>
+              <p>{guide.quickAnswer}</p>
               {hasSources && (
                 <a className={styles.jump} href="#nguon">
                   {d.sourcesJump}
                 </a>
               )}
-            </section>
-          )}
-
-          {/* Chuẩn bị gì trước? */}
-          {guide.prepare?.length > 0 && (
-            <section className={styles.card}>
-              <h2>{d.prepareHeading}</h2>
-              <ul className={styles.prepareList}>
-                {guide.prepare.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {/* Làm từng bước — có checklist (nâng cấp so với trang tham khảo) */}
-          {guide.steps?.length > 0 && (
-            <section className={styles.card}>
-              <h2>{d.stepsHeading}</h2>
-              <StepChecklist slug={guide.slug} steps={guide.steps} />
-            </section>
-          )}
-
-          {/* Điều cần lưu ý */}
-          {guide.notes?.length > 0 && (
-            <section className={styles.card}>
-              <h2>{d.notesHeading}</h2>
-              <ul className={styles.notesList}>
-                {guide.notes.map((n) => (
-                  <li key={n}>{n}</li>
-                ))}
-              </ul>
-              <p className={styles.disclaimer}>{d.disclaimer}</p>
-            </section>
-          )}
-
-          {/* Câu hỏi thường gặp */}
-          {guide.faq?.length > 0 && (
-            <section className={styles.card}>
-              <h2>{d.faqHeading}</h2>
-              <dl className={styles.faq}>
-                {guide.faq.map((f) => (
-                  <div key={f.q} className={styles.faqItem}>
-                    <dt>{f.q}</dt>
-                    <dd>{f.a}</dd>
-                  </div>
-                ))}
-              </dl>
-            </section>
-          )}
-
-          {/* Nguồn tham khảo */}
-          {hasSources && (
-            <section className={styles.card} id="nguon">
-              <h2>{d.sourcesHeading}</h2>
-              <ul className={styles.sourcesList}>
-                {guide.author?.url && (
-                  <li>
-                    <a href={guide.author.url} target="_blank" rel="noopener noreferrer">
-                      Bài chia sẻ gốc của {guide.author.name}
-                    </a>
-                  </li>
-                )}
-                {(guide.sources || []).map((s) => (
-                  <li key={s.url}>
-                    <a href={s.url} target="_blank" rel="noopener noreferrer">
-                      {s.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {/* CTA cuối trang */}
-          <section className={styles.bottomCta}>
-            <p className={styles.kicker}>{d.bottomKicker}</p>
-            <h2 id="bottom-cta-title">{d.bottomHeading}</h2>
-            <Link href="/#cam-nang" className={styles.bottomButton}>
-              {d.bottomButton}
-            </Link>
+            </div>
           </section>
-        </article>
+        )}
+
+        {/* Mục lục + nội dung */}
+        <div className={styles.contentLayout}>
+          <aside className={styles.toc}>
+            <p>{d.tocTitle}</p>
+            <nav>
+              {toc.map((t) => (
+                <a key={t.id} href={`#${t.id}`}>
+                  {t.label}
+                </a>
+              ))}
+            </nav>
+          </aside>
+
+          <article className={styles.article}>
+            {guide.prepare?.length > 0 && (
+              <section id="chuan-bi">
+                <h2>{d.prepareHeading}</h2>
+                <ul className={styles.checklist}>
+                  {guide.prepare.map((item) => (
+                    <li key={item}>
+                      <span className={styles.checkDot} aria-hidden="true">
+                        ✓
+                      </span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {guide.steps?.length > 0 && (
+              <section id="cac-buoc">
+                <h2>{d.stepsHeading}</h2>
+                <StepChecklist slug={guide.slug} steps={guide.steps} />
+              </section>
+            )}
+
+            {guide.notes?.length > 0 && (
+              <section id="luu-y">
+                <h2>{d.notesHeading}</h2>
+                <div className={styles.warningBox}>
+                  <span aria-hidden="true" className={styles.warnIcon}>
+                    ⚠️
+                  </span>
+                  <ul>
+                    {guide.notes.map((n) => (
+                      <li key={n}>{n}</li>
+                    ))}
+                  </ul>
+                </div>
+                <p className={styles.disclaimer}>{d.disclaimer}</p>
+              </section>
+            )}
+
+            {guide.faq?.length > 0 && (
+              <section id="cau-hoi">
+                <h2>{d.faqHeading}</h2>
+                <div className={styles.faqs}>
+                  {guide.faq.map((f) => (
+                    <details key={f.q}>
+                      <summary>{f.q}</summary>
+                      <p>{f.a}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {hasSources && (
+              <section id="nguon">
+                <h2>{d.sourcesHeading}</h2>
+                <ul className={styles.sources}>
+                  {guide.author?.url && (
+                    <li>
+                      <a href={guide.author.url} target="_blank" rel="noopener noreferrer">
+                        ↗ Bài chia sẻ gốc của {guide.author.name}
+                      </a>
+                    </li>
+                  )}
+                  {(guide.sources || []).map((s) => (
+                    <li key={s.url}>
+                      <a href={s.url} target="_blank" rel="noopener noreferrer">
+                        ↗ {s.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+          </article>
+        </div>
+
+        {/* CTA cuối trang */}
+        <section className={styles.bottomCta}>
+          <div>
+            <span className={styles.kicker}>{d.bottomKicker}</span>
+            <h2 id="bottom-cta-title">{d.bottomHeading}</h2>
+          </div>
+          <Link href="/#cam-nang">{d.bottomButton} →</Link>
+        </section>
       </main>
       <SiteFooter />
     </>

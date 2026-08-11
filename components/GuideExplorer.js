@@ -10,6 +10,15 @@ import styles from "./GuideExplorer.module.css";
 
 const PAGE_SIZE = 12; // giống trang tham khảo: hiện 12 thẻ mỗi lượt
 
+function SearchIcon() {
+  return (
+    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" />
+      <line x1="15.5" y1="15.5" x2="21" y2="21" />
+    </svg>
+  );
+}
+
 export default function GuideExplorer() {
   const [query, setQuery] = useState("");
   const [activeCat, setActiveCat] = useState("all");
@@ -58,64 +67,71 @@ export default function GuideExplorer() {
 
   return (
     <>
-      {/* ===== HERO ===== */}
-      <section className={styles.hero}>
-        <span className={styles.heroEyebrow}>{site.hero.eyebrow}</span>
-        <h1 className={styles.heroTitle} id="hero-title">
-          {site.hero.title}
-        </h1>
-        <p className={styles.heroDesc}>{site.hero.description}</p>
+      {/* ===== HERO 2 CỘT ===== */}
+      <section className={styles.hero} aria-labelledby="hero-title">
+        <div className={styles.heroCopy}>
+          <span className={styles.heroLabel}>{site.hero.eyebrow}</span>
+          <h1 id="hero-title">{site.hero.title}</h1>
+          <p className={styles.heroDescription}>{site.hero.description}</p>
 
-        {/* ===== TÌM KIẾM ===== */}
-        <form className={styles.searchForm} onSubmit={handleSubmit} role="search">
-          <label className={styles.srOnly} htmlFor="search-input">
-            {site.search.label}
-          </label>
-          <input
-            id="search-input"
-            type="search"
-            className={styles.searchInput}
-            placeholder={site.search.placeholder}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            autoComplete="off"
-          />
-          <button type="submit" className={styles.searchButton} aria-label="Tìm cẩm nang">
-            {site.search.button}
-          </button>
-        </form>
-        <div className={styles.suggestions}>
-          <span>{site.search.suggestionsLabel}</span>
-          {site.search.suggestions.map((s) => (
-            <button key={s} type="button" className={styles.suggestionChip} onClick={() => setQuery(s)}>
-              {s}
+          <form className={styles.search} role="search" onSubmit={handleSubmit}>
+            <SearchIcon />
+            <label className={styles.srOnly} htmlFor="guide-search">
+              {site.search.label}
+            </label>
+            <input
+              id="guide-search"
+              type="search"
+              placeholder={site.search.placeholder}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              autoComplete="off"
+            />
+            <button type="submit" aria-label="Tìm cẩm nang">
+              <span>{site.search.button}</span>
+              <span aria-hidden="true">→</span>
             </button>
-          ))}
+          </form>
+
+          <div className={styles.suggestions} aria-label="Gợi ý tìm kiếm">
+            <span>{site.search.suggestionsLabel}</span>
+            {site.search.suggestions.map((s) => (
+              <button key={s} type="button" onClick={() => setQuery(s)}>
+                {s}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.heroVisual} aria-hidden="true">
+          <div className={styles.questionCard}>
+            <span>{site.hero.visual.question}</span>
+            <p>{site.hero.visual.questionNote}</p>
+          </div>
+          <div className={styles.answerCard}>
+            <span className={styles.check}>✓</span>
+            <p>{site.hero.visual.answerNote}</p>
+          </div>
+          <span className={styles.sparkOne}>✦</span>
+          <span className={styles.sparkTwo}>✦</span>
         </div>
       </section>
 
-      {/* ===== DẢI TRANG TRÍ ===== */}
-      <div className={styles.ribbon} aria-hidden="true">
-        {site.ribbon.map((text, i) => (
-          <span key={text} className={styles.ribbonItem}>
-            {i > 0 && <span className={styles.ribbonStar}>✦</span>}
-            {text}
-          </span>
-        ))}
-      </div>
-
       {/* ===== KHO CẨM NANG ===== */}
-      <section id="cam-nang" className={styles.guides}>
+      <section className={styles.guides} id="cam-nang" aria-labelledby="guides-title">
         <div className={styles.sectionHeading}>
-          <span className={styles.eyebrow}>{site.guides.eyebrow}</span>
-          <h2 id="guides-title">{site.guides.heading}</h2>
+          <div>
+            <span className={styles.eyebrow}>{site.guides.eyebrow}</span>
+            <h2 id="guides-title">{site.guides.heading}</h2>
+          </div>
+          <p>{site.guides.sideNote}</p>
         </div>
 
-        <div className={styles.filters}>
+        <div className={styles.filters} aria-label="Lọc cẩm nang">
           <span className={styles.filterLabel}>{site.guides.filterLabel}</span>
           <button
             type="button"
-            className={styles.pill}
+            className={styles.filterButton}
             aria-pressed={activeCat === "all"}
             onClick={() => setActiveCat("all")}
           >
@@ -125,38 +141,39 @@ export default function GuideExplorer() {
             <button
               key={c.slug}
               type="button"
-              className={styles.pill}
+              className={styles.filterButton}
               aria-pressed={activeCat === c.slug}
               onClick={() => setActiveCat(c.slug)}
               title={c.description}
             >
-              <span aria-hidden="true">{c.emoji}</span> {c.name}
+              {c.name}
             </button>
           ))}
         </div>
 
         {visible.length > 0 ? (
-          <div className={styles.grid}>
+          <div className={styles.guideGrid} aria-live="polite">
             {visible.map((g) => (
               <GuideCard key={g.slug} guide={g} />
             ))}
           </div>
         ) : (
-          <div className={styles.empty}>
-            <p style={{ fontSize: 40 }} aria-hidden="true">
+          <div className={styles.emptyState}>
+            <span style={{ fontSize: 44 }} aria-hidden="true">
               🔍
-            </p>
+            </span>
+            <h3>{site.guides.emptyTitle}</h3>
             <p>{site.guides.empty}</p>
-            <button type="button" className={styles.emptyButton} onClick={resetAll}>
+            <button type="button" onClick={resetAll}>
               {site.guides.emptyButton}
             </button>
           </div>
         )}
 
-        {hasMore && <div ref={sentinelRef} className={styles.sentinel} aria-hidden="true" />}
+        {hasMore && <div ref={sentinelRef} className={styles.loadSentinel} aria-hidden="true" />}
         {hasMore && (
-          <p className={styles.status} role="status">
-            Đang tải thêm...
+          <p className={styles.loadStatus} role="status">
+            {site.guides.loading}
           </p>
         )}
       </section>

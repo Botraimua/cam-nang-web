@@ -18,7 +18,11 @@
 //   faq             – [{ q, a }]
 //   sources         – [{ label, url }] nguồn tham khảo (có thể để [])
 
-export const guides = [
+import { partA } from "./parts/partA.js";
+import { partB } from "./parts/partB.js";
+import { partC } from "./parts/partC.js";
+
+const baseGuides = [
   {
     slug: "lam-lai-cccd-khi-bi-mat",
     title: "Làm lại CCCD khi bị mất",
@@ -407,5 +411,11 @@ export const guides = [
     sources: [],
   },
 ];
+
+// Gộp bài gốc + 3 phần do AI soạn (data/parts/), xếp alphabet theo slug
+// (giống cách trang tham khảo sắp xếp kho bài)
+export const guides = [...baseGuides, ...partA, ...partB, ...partC].sort((a, b) =>
+  a.slug.localeCompare(b.slug, "en")
+);
 
 export const guideMap = Object.fromEntries(guides.map((g) => [g.slug, g]));
