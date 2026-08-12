@@ -10,6 +10,17 @@ export const categories = [
   { slug: "suc-khoe", name: "Sức khỏe", description: "Khám bệnh, thuốc men", emoji: "🩺", tone: "sky" },
   { slug: "cong-viec", name: "Công việc", description: "Hồ sơ, hợp đồng, ngày phép", emoji: "💼", tone: "peach" },
   { slug: "khac", name: "Kỹ năng khác", description: "Chuyện lặt vặt mà quan trọng", emoji: "✨", tone: "peach" },
+  {
+    slug: "18-plus",
+    name: "18+",
+    description: "Chuyện tế nhị, sức khỏe giới tính",
+    emoji: "🔞",
+    tone: "lavender",
+  },
 ];
+
+// Nhóm bài chỉ hiện khi người đọc chủ động chọn đúng bộ lọc này (hoặc đang tìm kiếm),
+// không nằm lẫn trong lượt xem mặc định — xem components/GuideExplorer.js
+export const ADULT_CATEGORY = "18-plus";
 
 export const categoryMap = Object.fromEntries(categories.map((c) => [c.slug, c]));

@@ -25,6 +25,8 @@ import { partC } from "./parts/partC.js";
 import { xuHuong } from "./parts/xu-huong.js";
 // Nhóm bài về dùng trợ lý AI trong việc đời thường
 import { aiGuides } from "./parts/ai.js";
+// Nhóm 18+ — chỉ hiện khi người đọc chủ động chọn bộ lọc 18+ hoặc đang tìm kiếm
+import { muoiTamCong } from "./parts/muoi-tam-cong.js";
 // Bài do bạn đọc gửi, tự thêm vào khi biên tập viên duyệt (xem HUONG-DAN-DUYET.md)
 import community from "./parts/community.json";
 
@@ -431,6 +433,7 @@ export const guides = [
   ...stamp(partC, "2026-08-11"),
   ...stamp(xuHuong, "2026-08-12"),
   ...stamp(aiGuides, "2026-08-12"),
+  ...stamp(muoiTamCong, "2026-08-12"),
   ...community, // bài cộng đồng đã có sẵn ngày do máy đóng dấu lúc duyệt
 ].sort(
   (a, b) =>

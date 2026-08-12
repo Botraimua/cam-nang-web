@@ -2,9 +2,9 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { guides } from "@/data/guides";
-import { categories, categoryMap } from "@/data/categories";
+import { categories, categoryMap, ADULT_CATEGORY } from "@/data/categories";
 import { site } from "@/data/site";
-import { matchesQuery } from "@/lib/text";
+import { scoreMatch } from "@/lib/text";
 import GuideCard from "./GuideCard";
 import MarqueeBand from "./MarqueeBand";
 import styles from "./GuideExplorer.module.css";
@@ -27,10 +27,25 @@ export default function GuideExplorer() {
   const sentinelRef = useRef(null);
 
   const filtered = useMemo(() => {
-    return guides.filter((g) => {
-      if (activeCat !== "all" && g.category !== activeCat) return false;
-      return matchesQuery(g, categoryMap[g.category]?.name || "", query);
-    });
+    const dangTimKiem = query.trim().length > 0;
+    const ketQua = [];
+
+    for (const g of guides) {
+      if (activeCat !== "all" && g.category !== activeCat) continue;
+      // Bài 18+ chỉ hiện khi người đọc chủ động chọn bộ lọc 18+ hoặc đang gõ tìm kiếm,
+      // để người vào lướt bình thường không gặp phải chủ đề tế nhị ngoài ý muốn.
+      if (g.category === ADULT_CATEGORY && activeCat !== ADULT_CATEGORY && !dangTimKiem) {
+        continue;
+      }
+      const diem = scoreMatch(g, categoryMap[g.category]?.name || "", query);
+      if (diem > 0) ketQua.push({ g, diem });
+    }
+
+    // Khi tìm kiếm thì bài khớp tiêu đề lên trước; cùng mức điểm vẫn giữ thứ tự
+    // mới nhất trước (sort của JS ổn định nên không xáo trộn thứ tự gốc).
+    if (dangTimKiem) ketQua.sort((a, b) => b.diem - a.diem);
+
+    return ketQua.map((x) => x.g);
   }, [query, activeCat]);
 
   // Đổi từ khoá / danh mục thì quay về trang đầu
