@@ -493,9 +493,9 @@ export const muoiTamCong = [
 
   {
     slug: "bi-doa-tung-anh-nhay-cam-xu-ly-sao",
-    title: "Bị doạ tung ảnh nhạy cảm: xử lý sao",
+    title: "Bị tống tiền bằng ảnh nhạy cảm: xử lý sao",
     excerpt:
-      "Đừng chuyển tiền. Đừng im lặng một mình. Đây là kịch bản lừa đảo có công thức, và bạn không phải người đầu tiên.",
+      "Đừng chuyển tiền. Đừng im lặng một mình. Đây là kịch bản tống tiền có công thức, và bạn không phải người đầu tiên.",
     readTimeMinutes: 3,
     category: "18-plus",
     author: null,
