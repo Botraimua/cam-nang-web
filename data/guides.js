@@ -31,6 +31,9 @@ import { namGioi } from "./parts/nam-gioi.js";
 import { nuGioi } from "./parts/nu-gioi.js";
 // Nhóm 18+ — chỉ hiện khi người đọc chủ động chọn bộ lọc 18+ hoặc đang tìm kiếm
 import { muoiTamCong } from "./parts/muoi-tam-cong.js";
+// Bài người lớn nằm trong mục Nam giới / Nữ giới (đánh dấu adult: true nên cũng được ẩn)
+import { namGioiNguoiLon } from "./parts/nam-gioi-nguoi-lon.js";
+import { nuGioiNguoiLon } from "./parts/nu-gioi-nguoi-lon.js";
 // Bài do bạn đọc gửi, tự thêm vào khi biên tập viên duyệt (xem HUONG-DAN-DUYET.md)
 import community from "./parts/community.json";
 
@@ -440,6 +443,8 @@ export const guides = [
   ...stamp(treEm, "2026-08-12"),
   ...stamp(namGioi, "2026-08-12"),
   ...stamp(nuGioi, "2026-08-12"),
+  ...stamp(namGioiNguoiLon, "2026-08-12"),
+  ...stamp(nuGioiNguoiLon, "2026-08-12"),
   ...stamp(muoiTamCong, "2026-08-12"),
   ...community, // bài cộng đồng đã có sẵn ngày do máy đóng dấu lúc duyệt
 ].sort(

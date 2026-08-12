@@ -30,11 +30,18 @@ export default function GuideExplorer() {
     const dangTimKiem = query.trim().length > 0;
     const ketQua = [];
 
+    // Bài người lớn = nằm trong mục 18+, hoặc được đánh dấu adult (bài tế nhị
+    // trong mục Nam giới / Nữ giới).
+    const laNguoiLon = (g) => g.adult === true || g.category === ADULT_CATEGORY;
+
     for (const g of guides) {
-      if (activeCat !== "all" && g.category !== activeCat) continue;
-      // Bài 18+ chỉ hiện khi người đọc chủ động chọn bộ lọc 18+ hoặc đang gõ tìm kiếm,
-      // để người vào lướt bình thường không gặp phải chủ đề tế nhị ngoài ý muốn.
-      if (g.category === ADULT_CATEGORY && activeCat !== ADULT_CATEGORY && !dangTimKiem) {
+      if (activeCat === ADULT_CATEGORY) {
+        // Mục 18+ gom toàn bộ bài người lớn, kể cả bài của mục Nam giới / Nữ giới
+        if (!laNguoiLon(g)) continue;
+      } else if (activeCat !== "all") {
+        if (g.category !== activeCat) continue;
+      } else if (laNguoiLon(g) && !dangTimKiem) {
+        // Lướt trang chủ bình thường thì ẩn bài tế nhị, trừ khi đang chủ động tìm
         continue;
       }
       const diem = scoreMatch(g, categoryMap[g.category]?.name || "", query);
