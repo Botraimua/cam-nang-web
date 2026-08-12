@@ -79,12 +79,16 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
             const slug = '${{ steps.luu.outputs.slug }}';
+            // Lấy địa chỉ trang từ data/site.js để đổi tên miền là tự khớp, khỏi sửa ở đây
+            const siteSrc = fs.readFileSync('data/site.js', 'utf8');
+            const base = (siteSrc.match(/url:\s*"(https?:\/\/[^"]+)"/) || [])[1] || 'https://bietlien.vercel.app';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `✅ **Đã đăng bài!**\n\nBài sẽ lên web sau khoảng 1 phút:\nhttps://cam-nang-web.vercel.app/cam-nang/${slug}`
+              body: `✅ **Đã đăng bài!**\n\nBài sẽ lên web sau khoảng 1 phút:\n${base.replace(/\/$/, '')}/cam-nang/${slug}`
             });
             await github.rest.issues.update({
               owner: context.repo.owner,

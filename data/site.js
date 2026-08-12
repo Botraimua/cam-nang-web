@@ -6,8 +6,9 @@ export const site = {
   brandMark: "?!", // chữ trong ô logo vuông tím
   tagline: "Cẩm nang việc đời thường",
 
-  // Domain thật trên Vercel (đổi tiếp nếu sau này gắn tên miền riêng)
-  url: "https://cam-nang-web.vercel.app",
+  // Địa chỉ chính của trang. Đổi ở đây là sitemap, thẻ chia sẻ mạng xã hội
+  // và email báo duyệt bài đều tự dùng địa chỉ mới.
+  url: "https://bietlien.vercel.app",
 
   description:
     "Cẩm nang ngắn gọn cho những việc đời thường chưa ai kịp chỉ bạn — đọc vài bước là làm được liền.",
