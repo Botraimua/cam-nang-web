@@ -127,6 +127,37 @@ html {
   }
 }
 
+/* ===== Nội dung trang hiện lên mượt khi mới vào (dùng cho trang chi tiết) ===== */
+@media (prefers-reduced-motion: no-preference) {
+  .pageEnter {
+    animation: page-enter 0.4s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  }
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ===== Câu hỏi thường gặp xổ ra/thu vào mượt thay vì giật cục ===== */
+@supports (interpolate-size: allow-keywords) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+
+  details::details-content {
+    block-size: 0;
+    overflow: hidden;
+    transition: block-size 0.32s ease, content-visibility 0.32s allow-discrete;
+  }
+
+  details[open]::details-content {
+    block-size: auto;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

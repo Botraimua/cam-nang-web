@@ -3,6 +3,7 @@ import GuideExplorer from "@/components/GuideExplorer";
 import HowItWorks from "@/components/HowItWorks";
 import CtaSection from "@/components/CtaSection";
 import SiteFooter from "@/components/SiteFooter";
+import ScrollTop from "@/components/ScrollTop";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
         <CtaSection />
       </main>
       <SiteFooter />
+      <ScrollTop />
     </>
   );
 }

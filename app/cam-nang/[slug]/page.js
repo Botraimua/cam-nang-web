@@ -7,6 +7,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import StepChecklist from "@/components/StepChecklist";
 import TocNav from "@/components/TocNav";
+import ScrollTop from "@/components/ScrollTop";
 import styles from "./page.module.css";
 
 // Render tĩnh sẵn toàn bộ trang chi tiết (SSG — giống trang tham khảo)
@@ -50,7 +51,7 @@ export default async function GuidePage({ params }) {
   return (
     <>
       <SiteHeader />
-      <main>
+      <main className="pageEnter">
         {/* Thanh tiến độ đọc (CSS scroll-driven, tự ẩn ở trình duyệt chưa hỗ trợ) */}
         <div className={styles.readProgress} aria-hidden="true" />
 
@@ -199,6 +200,7 @@ export default async function GuidePage({ params }) {
         </section>
       </main>
       <SiteFooter />
+      <ScrollTop />
     </>
   );
 }

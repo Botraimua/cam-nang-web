@@ -173,9 +173,10 @@ export default function GuideExplorer() {
         </div>
 
         {visible.length > 0 ? (
-          <div className={styles.guideGrid} aria-live="polite">
-            {visible.map((g) => (
-              <GuideCard key={g.slug} guide={g} className="revealUp" />
+          // key theo danh mục: đổi bộ lọc thì cả lưới xuất hiện lại lần lượt cho mượt
+          <div className={styles.guideGrid} aria-live="polite" key={activeCat}>
+            {visible.map((g, i) => (
+              <GuideCard key={g.slug} guide={g} index={i} />
             ))}
           </div>
         ) : (

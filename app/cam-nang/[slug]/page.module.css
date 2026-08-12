@@ -55,8 +55,14 @@
   padding: 10px 14px;
   font-size: 14px;
   font-weight: 800;
-  transition: background-color 0.18s, color 0.18s;
+  transition: background-color 0.18s, color 0.18s, transform 0.18s;
   display: inline-flex;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .breadcrumb a:hover {
+    transform: translateX(-3px);
+  }
 }
 
 /* ===== Hero ===== */
@@ -302,6 +308,14 @@
   padding: 15px 18px;
   line-height: 1.5;
   display: flex;
+  transition: transform 0.18s, border-color 0.18s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .checklist li:hover {
+    transform: translateX(4px);
+    border-color: #198754;
+  }
 }
 
 .checkDot {
@@ -358,6 +372,14 @@
   overflow: hidden;
 }
 
+.faqs details {
+  transition: box-shadow 0.22s, transform 0.22s;
+}
+
+.faqs details[open] {
+  box-shadow: 4px 5px 0 var(--ink);
+}
+
 .faqs summary {
   cursor: pointer;
   min-height: 58px;
@@ -365,6 +387,35 @@
   padding: 17px 20px;
   font-weight: 900;
   line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background-color 0.18s;
+}
+
+/* Dấu ▸ tự xoay xuống khi mở */
+.faqs summary::marker,
+.faqs summary::-webkit-details-marker {
+  content: "";
+  display: none;
+}
+
+.faqs summary::before {
+  content: "▸";
+  color: var(--purple);
+  font-size: 15px;
+  flex: none;
+  transition: transform 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.4);
+}
+
+.faqs details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .faqs summary:hover {
+    background: #fffdf6;
+  }
 }
 
 .faqs details p {
