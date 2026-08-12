@@ -21,6 +21,8 @@
 import { partA } from "./parts/partA.js";
 import { partB } from "./parts/partB.js";
 import { partC } from "./parts/partC.js";
+// Nhóm bài theo chủ đề đang được quan tâm — cần rà lại định kỳ vì quy định hay đổi
+import { xuHuong } from "./parts/xu-huong.js";
 // Bài do bạn đọc gửi, tự thêm vào khi biên tập viên duyệt (xem HUONG-DAN-DUYET.md)
 import community from "./parts/community.json";
 
@@ -416,8 +418,13 @@ const baseGuides = [
 
 // Gộp bài gốc + 3 phần do AI soạn (data/parts/), xếp alphabet theo slug
 // (giống cách trang tham khảo sắp xếp kho bài)
-export const guides = [...baseGuides, ...partA, ...partB, ...partC, ...community].sort((a, b) =>
-  a.slug.localeCompare(b.slug, "en")
-);
+export const guides = [
+  ...baseGuides,
+  ...partA,
+  ...partB,
+  ...partC,
+  ...xuHuong,
+  ...community,
+].sort((a, b) => a.slug.localeCompare(b.slug, "en"));
 
 export const guideMap = Object.fromEntries(guides.map((g) => [g.slug, g]));
