@@ -232,6 +232,28 @@
   }
 }
 
+.submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+/* Bẫy bot — ẩn khỏi mắt người dùng lẫn trình đọc màn hình */
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.publicNote {
+  margin-top: 14px;
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .backBtn {
   display: block;
   margin-top: 20px;

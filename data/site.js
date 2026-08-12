@@ -125,6 +125,15 @@ export const site = {
     contentLabel: "Chia sẻ hướng dẫn của bạn",
     contentPlaceholder: "Kể các bước bạn đã làm, điều nên tránh, và link nguồn chính thức nếu có.",
     submit: "Gửi hướng dẫn",
+    sending: "Đang gửi...",
+    publicNote:
+      "Bài gửi vào hàng chờ duyệt công khai; biên tập viên xem lại trước khi đăng lên trang.",
+    doneTitle: "Đã gửi rồi, cảm ơn bạn!",
+    doneDesc:
+      "Bài của bạn đang nằm trong hàng chờ. Biên tập viên đọc và duyệt xong là bài lên trang — thường trong vòng vài ngày.",
+    doneClose: "Xong",
+    errorTitle: "Chưa gửi được",
+    errorDesc: "Đường truyền có vẻ trục trặc. Bạn thử lại, hoặc gửi thẳng cho tụi mình bên dưới nhé.",
     sendTitle: "Gần xong rồi!",
     sendDesc: "Nội dung đã soạn sẵn — chọn một cách gửi bên dưới:",
     sendMail: "📧 Mở email để gửi",

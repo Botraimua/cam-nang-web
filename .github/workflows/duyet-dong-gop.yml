@@ -1,0 +1,88 @@
+name: Duyet dong gop
+
+# Chạy khi biên tập viên duyệt một phiếu đóng góp:
+#   - Bình luận "/duyet" trong phiếu (chỉ chủ repo mới có tác dụng), HOẶC
+#   - Gắn nhãn "duyet" cho phiếu
+on:
+  issues:
+    types: [labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  dang-bai:
+    if: >
+      (github.event_name == 'issues' && github.event.label.name == 'duyet') ||
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.pull_request == null &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
+       startsWith(github.event.comment.body, '/duyet'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Tao bai tu phieu
+        id: tao
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/publish-contribution.mjs
+
+      - name: Bao loi neu khong tao duoc
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let reason = 'Không rõ lý do — xem chi tiết trong tab Actions.';
+            try { reason = fs.readFileSync('publish-error.txt', 'utf8'); } catch {}
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `❌ **Chưa đăng được bài.**\n\n${reason}\n\nSửa lại nội dung phiếu rồi bình luận \`/duyet\` lần nữa nhé.`
+            });
+
+      - name: Kiem tra build truoc khi dang
+        run: |
+          npm ci
+          npm run build
+
+      - name: Luu bai vao repo
+        id: luu
+        run: |
+          SLUG=$(cat published-slug.txt)
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          rm -f published-slug.txt publish-error.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/parts/community.json
+          git commit -m "Dang bai dong gop #${{ github.event.issue.number }}: $SLUG"
+          git push
+
+      - name: Bao da dang xong
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const slug = '${{ steps.luu.outputs.slug }}';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `✅ **Đã đăng bài!**\n\nBài sẽ lên web sau khoảng 1 phút:\nhttps://cam-nang-web.vercel.app/cam-nang/${slug}`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });

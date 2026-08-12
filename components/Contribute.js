@@ -10,8 +10,12 @@ import styles from "./Contribute.module.css";
 // gửi qua email hoặc sao chép — trung thực, không giả vờ "đã gửi".
 export default function Contribute() {
   const [open, setOpen] = useState(false);
-  const [stage, setStage] = useState("form"); // "form" | "send"
-  const [form, setForm] = useState({ title: "", category: "", name: "", content: "" });
+  // "form" → "done" khi gửi tự động thành công
+  //        → "send" (gửi thủ công qua email/sao chép) khi chưa cấu hình hoặc lỗi mạng
+  const [stage, setStage] = useState("form");
+  const [sending, setSending] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const [form, setForm] = useState({ title: "", category: "", name: "", content: "", website: "" });
   const [copied, setCopied] = useState(false);
   const firstFieldRef = useRef(null);
   const c = site.contribute;
@@ -35,15 +39,36 @@ export default function Contribute() {
     setOpen(false);
     setStage("form");
     setCopied(false);
+    setFailed(false);
   }
 
   function update(key, value) {
     setForm((f) => ({ ...f, [key]: value }));
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    setStage("send");
+    setSending(true);
+    setFailed(false);
+    try {
+      const res = await fetch("/api/dong-gop", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setStage("done");
+      } else {
+        // Chưa gắn chìa khoá (503) hoặc lỗi khác: chuyển sang gửi thủ công
+        setFailed(res.status !== 503);
+        setStage("send");
+      }
+    } catch {
+      setFailed(true);
+      setStage("send");
+    } finally {
+      setSending(false);
+    }
   }
 
   const catName = categories.find((x) => x.slug === form.category)?.name || "(chưa chọn)";
@@ -159,16 +184,38 @@ export default function Contribute() {
                     onChange={(e) => update("content", e.target.value)}
                   />
 
-                  <button type="submit" className={styles.submit}>
-                    {c.submit}
+                  {/* Bẫy bot: người thật không thấy trường này */}
+                  <input
+                    type="text"
+                    name="website"
+                    className={styles.honeypot}
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                    value={form.website}
+                    onChange={(e) => update("website", e.target.value)}
+                  />
+
+                  <button type="submit" className={styles.submit} disabled={sending}>
+                    {sending ? c.sending : c.submit}
                   </button>
+                  <p className={styles.publicNote}>{c.publicNote}</p>
                 </form>
+              </>
+            ) : stage === "done" ? (
+              <>
+                <span className={styles.kicker}>{c.kicker}</span>
+                <h2 id="contribute-title">{c.doneTitle}</h2>
+                <p className={styles.desc}>{c.doneDesc}</p>
+                <button type="button" className={styles.submit} onClick={closeModal}>
+                  {c.doneClose}
+                </button>
               </>
             ) : (
               <>
                 <span className={styles.kicker}>{c.kicker}</span>
-                <h2 id="contribute-title">{c.sendTitle}</h2>
-                <p className={styles.desc}>{c.sendDesc}</p>
+                <h2 id="contribute-title">{failed ? c.errorTitle : c.sendTitle}</h2>
+                <p className={styles.desc}>{failed ? c.errorDesc : c.sendDesc}</p>
 
                 <pre className={styles.previewBox}>{bodyText}</pre>
 
