@@ -48,13 +48,13 @@ Làm xong phần này thì **không cần mở GitHub nữa**: bài mới về t
 ### Bước 1 — Thêm Gmail vào tài khoản GitHub
 
 1. Vào https://github.com/settings/emails
-2. Ô **Add email address** → nhập `comtimbanggia11@gmail.com` → bấm **Add**
+2. Ô **Add email address** → nhập `contimbanggia11@gmail.com` → bấm **Add**
 3. Mở Gmail đó, tìm thư từ GitHub → bấm **Verify email address** (xác nhận)
 
 ### Bước 2 — Cho GitHub gửi thông báo về Gmail đó
 
 1. Vào https://github.com/settings/notifications
-2. Mục **Default notification email** → chọn `comtimbanggia11@gmail.com`
+2. Mục **Default notification email** → chọn `contimbanggia11@gmail.com`
 3. Ngay bên dưới, mục **Email notification preferences** → **tick ô "Include your own updates"**
    *(rất quan trọng: phiếu do web tạo ra mang danh tài khoản của chị, không tick ô này thì GitHub tưởng chị tự làm nên không báo)*
 
