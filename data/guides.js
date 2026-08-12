@@ -23,6 +23,8 @@ import { partB } from "./parts/partB.js";
 import { partC } from "./parts/partC.js";
 // Nhóm bài theo chủ đề đang được quan tâm — cần rà lại định kỳ vì quy định hay đổi
 import { xuHuong } from "./parts/xu-huong.js";
+// Nhóm bài về dùng trợ lý AI trong việc đời thường
+import { aiGuides } from "./parts/ai.js";
 // Bài do bạn đọc gửi, tự thêm vào khi biên tập viên duyệt (xem HUONG-DAN-DUYET.md)
 import community from "./parts/community.json";
 
@@ -420,15 +422,20 @@ const baseGuides = [
 // giữ nguyên ngày của nó (nhờ ...g đặt sau) — sửa bài thì nhớ cập nhật ngày.
 const stamp = (list, date) => list.map((g) => ({ publishedAt: date, ...g }));
 
-// Gộp bài gốc + 3 phần do AI soạn (data/parts/), xếp alphabet theo slug
-// (giống cách trang tham khảo sắp xếp kho bài)
+// Gộp tất cả các nhóm bài, xếp BÀI MỚI NHẤT LÊN ĐẦU.
+// Cùng ngày thì xếp theo vần cho ổn định, không nhảy lung tung mỗi lần tải trang.
 export const guides = [
   ...stamp(baseGuides, "2026-08-11"),
   ...stamp(partA, "2026-08-11"),
   ...stamp(partB, "2026-08-11"),
   ...stamp(partC, "2026-08-11"),
   ...stamp(xuHuong, "2026-08-12"),
+  ...stamp(aiGuides, "2026-08-12"),
   ...community, // bài cộng đồng đã có sẵn ngày do máy đóng dấu lúc duyệt
-].sort((a, b) => a.slug.localeCompare(b.slug, "en"));
+].sort(
+  (a, b) =>
+    (b.publishedAt || "").localeCompare(a.publishedAt || "") ||
+    a.slug.localeCompare(b.slug, "en")
+);
 
 export const guideMap = Object.fromEntries(guides.map((g) => [g.slug, g]));

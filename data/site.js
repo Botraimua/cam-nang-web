@@ -44,7 +44,7 @@ export const site = {
   },
 
   guides: {
-    eyebrow: "Kho cẩm nang",
+    eyebrow: "Mới nhất lên đầu",
     heading: "Chọn chuyện bạn đang gặp",
     sideNote: "Gõ vài chữ hoặc lọc theo nhóm — mỗi bài chỉ vài phút đọc, làm được ngay.",
     filterLabel: "Lọc theo:",
