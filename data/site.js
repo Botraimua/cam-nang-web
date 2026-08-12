@@ -108,6 +108,33 @@ export const site = {
       "Quy trình, ứng dụng và mức phí có thể thay đổi theo thời điểm hoặc địa phương — nếu thấy khác, cứ hỏi trực tiếp nơi bạn đến.",
   },
 
+  // Form "Đóng góp" — bài gửi sẽ được soạn sẵn để gửi về email bên dưới
+  contribute: {
+    button: "Đóng góp",
+    kicker: "Cùng góp cho đỡ bối rối",
+    heading: "Chia sẻ một cẩm nang",
+    description:
+      "Bạn kể tự nhiên thôi — tụi mình sẽ biên tập gọn thành từng bước và duyệt kỹ trước khi đăng.",
+    titleLabel: "Tiêu đề",
+    titlePlaceholder: "Ví dụ: Lần đầu đi làm thẻ ngân hàng?",
+    categoryLabel: "Danh mục",
+    categoryPlaceholder: "Chọn danh mục",
+    nameLabel: "Tên của bạn hoặc Threads",
+    nameOptional: "(không bắt buộc)",
+    namePlaceholder: "Ngọc, @ngoc.02 hoặc link trang của bạn",
+    contentLabel: "Chia sẻ hướng dẫn của bạn",
+    contentPlaceholder: "Kể các bước bạn đã làm, điều nên tránh, và link nguồn chính thức nếu có.",
+    submit: "Gửi hướng dẫn",
+    sendTitle: "Gần xong rồi!",
+    sendDesc: "Nội dung đã soạn sẵn — chọn một cách gửi bên dưới:",
+    sendMail: "📧 Mở email để gửi",
+    sendCopy: "📋 Sao chép nội dung",
+    copied: "Đã sao chép! Dán vào Zalo/tin nhắn gửi tụi mình nhé",
+    back: "← Quay lại sửa",
+    // ❗ Email nhận bài đóng góp — chị đổi tại đây nếu muốn dùng địa chỉ khác
+    email: "lap.ttt@tuongminh.com.vn",
+  },
+
   footer: {
     tagline: "Ngắn gọn. Dễ làm. Không phán xét.",
     credit: "Làm với ♥ cho những lần đầu bớt bối rối.",

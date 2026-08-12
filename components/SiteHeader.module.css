@@ -42,7 +42,7 @@
   display: flex;
 }
 
-.nav a {
+.navLink {
   border-radius: 999px;
   min-height: 44px;
   padding: 12px 16px;
@@ -52,7 +52,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .nav a:hover {
+  .navLink:hover {
     background: var(--purple-pale);
   }
 }
@@ -69,7 +69,8 @@
     width: 42px;
     height: 38px;
   }
-  .nav {
+  /* Trên điện thoại: ẩn 2 link cuộn, GIỮ nút Đóng góp */
+  .navLink {
     display: none;
   }
 }
