@@ -10,6 +10,9 @@ export const categories = [
   { slug: "suc-khoe", name: "Sức khỏe", description: "Khám bệnh, thuốc men", emoji: "🩺", tone: "sky" },
   { slug: "cong-viec", name: "Công việc", description: "Hồ sơ, hợp đồng, ngày phép", emoji: "💼", tone: "peach" },
   { slug: "khac", name: "Kỹ năng khác", description: "Chuyện lặt vặt mà quan trọng", emoji: "✨", tone: "peach" },
+  { slug: "tre-em", name: "Trẻ em", description: "Nuôi con, thủ tục, an toàn", emoji: "🧒", tone: "mint" },
+  { slug: "nam-gioi", name: "Nam giới", description: "Đồ lót, phong cách, chăm mình", emoji: "👔", tone: "sky" },
+  { slug: "nu-gioi", name: "Nữ giới", description: "Đồ lót, phong cách, chăm mình", emoji: "👗", tone: "pink" },
   {
     slug: "18-plus",
     name: "18+",
