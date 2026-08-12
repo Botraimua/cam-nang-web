@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "slug": "bai-thu-so-3-gui-sau-khi-bat-thong-bao",
+    "title": "Bài thử số 3 gửi sau khi bật thông báo",
+    "excerpt": "Bài này gửi ngay sau khi chị bật ô Include your own updates, để kiểm tra email có về Gmail không. Duyệt xong sẽ xoá đi.",
+    "readTimeMinutes": 1,
+    "category": "khac",
+    "author": null,
+    "quickAnswer": "Bài này gửi ngay sau khi chị bật ô Include your own updates, để kiểm tra email có về Gmail không. Duyệt xong sẽ xoá đi.",
+    "prepare": [],
+    "steps": [
+      {
+        "title": "Mở Gmail",
+        "detail": "Tìm thư mới nhất từ GitHub, tiêu đề có chữ Bài thử số 3."
+      },
+      {
+        "title": "Bấm Trả lời",
+        "detail": "Gõ /duyet vào dòng đầu tiên rồi gửi."
+      },
+      {
+        "title": "Chờ một phút",
+        "detail": "Sẽ có email thứ hai báo đã đăng bài kèm đường dẫn."
+      }
+    ],
+    "notes": [
+      "Nhận được email báo lại là toàn bộ dây chuyền đã chạy trọn vẹn."
+    ],
+    "faq": [],
+    "sources": [],
+    "fromIssue": 3
+  }
+]
