@@ -1,8 +1,10 @@
 name: Duyet dong gop
 
-# Chạy khi biên tập viên duyệt một phiếu đóng góp:
-#   - Bình luận "/duyet" trong phiếu (chỉ chủ repo mới có tác dụng), HOẶC
-#   - Gắn nhãn "duyet" cho phiếu
+# Duyệt bài đóng góp. Ba cách đều được:
+#   1. Trả lời email thông báo với nội dung /duyet  (không cần mở GitHub)
+#   2. Bình luận /duyet ngay trong phiếu trên GitHub
+#   3. Gắn nhãn "duyet" cho phiếu
+# Từ chối: trả lời /tuchoi (hoặc bấm Close issue)
 on:
   issues:
     types: [labeled]
@@ -16,11 +18,15 @@ permissions:
 jobs:
   dang-bai:
     if: >
-      (github.event_name == 'issues' && github.event.label.name == 'duyet') ||
-      (github.event_name == 'issue_comment' &&
-       github.event.issue.pull_request == null &&
-       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
-       startsWith(github.event.comment.body, '/duyet'))
+      github.event.issue.state == 'open' &&
+      (
+        (github.event_name == 'issues' && github.event.label.name == 'duyet') ||
+        (github.event_name == 'issue_comment' &&
+         github.event.issue.pull_request == null &&
+         contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
+         (contains(github.event.comment.body, '/duyet') ||
+          contains(github.event.comment.body, '/duyệt')))
+      )
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,7 +55,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `❌ **Chưa đăng được bài.**\n\n${reason}\n\nSửa lại nội dung phiếu rồi bình luận \`/duyet\` lần nữa nhé.`
+              body: `❌ **Chưa đăng được bài.**\n\n${reason}\n\nSửa lại nội dung phiếu rồi trả lời \`/duyet\` lần nữa nhé.`
             });
 
       - name: Kiem tra build truoc khi dang
@@ -79,6 +85,33 @@ jobs:
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: `✅ **Đã đăng bài!**\n\nBài sẽ lên web sau khoảng 1 phút:\nhttps://cam-nang-web.vercel.app/cam-nang/${slug}`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
+
+  tu-choi:
+    if: >
+      github.event_name == 'issue_comment' &&
+      github.event.issue.state == 'open' &&
+      github.event.issue.pull_request == null &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
+      (contains(github.event.comment.body, '/tuchoi') ||
+       contains(github.event.comment.body, '/khongduyet'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dong phieu
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '🗑️ **Đã bỏ qua bài này** — không đăng lên web.'
             });
             await github.rest.issues.update({
               owner: context.repo.owner,

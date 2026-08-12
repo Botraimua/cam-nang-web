@@ -41,13 +41,52 @@ Vào web, bấm **Đóng góp**, điền thử một bài rồi gửi. Nếu hi�
 
 ---
 
+## 📬 PHẦN 1B — Nhận thông báo và duyệt ngay trong Gmail (làm MỘT LẦN)
+
+Làm xong phần này thì **không cần mở GitHub nữa**: bài mới về thẳng Gmail, chị bấm **Trả lời** gõ `/duyet` là bài lên web.
+
+### Bước 1 — Thêm Gmail vào tài khoản GitHub
+
+1. Vào https://github.com/settings/emails
+2. Ô **Add email address** → nhập `comtimbanggia11@gmail.com` → bấm **Add**
+3. Mở Gmail đó, tìm thư từ GitHub → bấm **Verify email address** (xác nhận)
+
+### Bước 2 — Cho GitHub gửi thông báo về Gmail đó
+
+1. Vào https://github.com/settings/notifications
+2. Mục **Default notification email** → chọn `comtimbanggia11@gmail.com`
+3. Ngay bên dưới, mục **Email notification preferences** → **tick ô "Include your own updates"**
+   *(rất quan trọng: phiếu do web tạo ra mang danh tài khoản của chị, không tick ô này thì GitHub tưởng chị tự làm nên không báo)*
+
+### Bước 3 — Bật theo dõi kho code
+
+1. Vào https://github.com/Botraimua/cam-nang-web
+2. Nút **Watch** góc trên bên phải → chọn **All Activity**
+
+Xong! Từ giờ mỗi bài gửi mới sẽ vào Gmail của chị.
+
+### Duyệt ngay trong Gmail
+
+Mở thư thông báo → bấm **Trả lời (Reply)** → gõ vào **dòng đầu tiên**:
+
+| Gõ | Kết quả |
+|---|---|
+| `/duyet` | Bài được dựng và đăng lên web (~1 phút) |
+| `/tuchoi` | Bỏ qua bài, không đăng gì cả |
+
+Rồi bấm Gửi. Máy sẽ trả lời lại bằng một email nữa báo đã đăng xong kèm link bài.
+
+> 💡 Muốn **sửa nội dung** trước khi đăng thì phải mở GitHub (bấm link trong email). Còn duyệt/từ chối thẳng thì làm trong Gmail là đủ.
+
+---
+
 ## ✅ PHẦN 2 — Duyệt bài hằng ngày
 
 ### Xem bài đang chờ
 
-Vào https://github.com/Botraimua/cam-nang-web/issues (nên cài **app GitHub trên điện thoại** để nhận thông báo và duyệt mọi lúc).
+Cách tiện nhất: **trả lời email** như hướng dẫn ở Phần 1B.
 
-GitHub cũng tự gửi email cho chị mỗi khi có bài mới.
+Muốn xem toàn bộ hàng chờ: https://github.com/Botraimua/cam-nang-web/issues (cài thêm **app GitHub trên điện thoại** cũng tiện).
 
 ### Sửa nội dung trước khi đăng
 
@@ -82,7 +121,7 @@ Mã danh mục hợp lệ: `xe-co`, `giay-to`, `tien-bac`, `nha-cua`, `an-uong`,
 
 ### Duyệt — chỉ một chữ
 
-Bình luận vào phiếu:
+Trả lời email thông báo, hoặc bình luận vào phiếu:
 
 ```
 /duyet
@@ -94,7 +133,7 @@ Nếu nội dung có chỗ máy không hiểu, nó sẽ bình luận báo lý do
 
 ### Từ chối bài
 
-Chỉ cần bấm **Close issue** — không đăng gì cả.
+Trả lời email bằng `/tuchoi`, hoặc bấm **Close issue** trên GitHub — không đăng gì cả.
 
 ### Gỡ bài đã đăng
 
