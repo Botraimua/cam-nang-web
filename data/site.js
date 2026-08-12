@@ -140,8 +140,9 @@ export const site = {
     sendCopy: "📋 Sao chép nội dung",
     copied: "Đã sao chép! Dán vào Zalo/tin nhắn gửi tụi mình nhé",
     back: "← Quay lại sửa",
-    // ❗ Email nhận bài đóng góp — chị đổi tại đây nếu muốn dùng địa chỉ khác
-    email: "lap.ttt@tuongminh.com.vn",
+    // ❗ Email nhận bài đóng góp khi hệ thống tự động trục trặc.
+    // Địa chỉ này hiện công khai trên trang, đổi tại đây nếu cần.
+    email: "contimbanggia11@gmail.com",
   },
 
   footer: {
