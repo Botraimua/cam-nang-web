@@ -3,10 +3,10 @@ import { categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
 import styles from "./GuideCard.module.css";
 
-export default function GuideCard({ guide }) {
+export default function GuideCard({ guide, className = "" }) {
   const cat = categoryMap[guide.category];
   return (
-    <article className={styles.card}>
+    <article className={`${styles.card} ${className}`}>
       <div className={styles.header}>
         <div className={`${styles.icon} tone-${cat?.tone || "peach"}`} aria-hidden="true">
           {cat?.emoji}

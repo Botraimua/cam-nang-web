@@ -87,6 +87,46 @@ button {
 .tone-lavender { --tone: var(--lavender); }
 .tone-peach    { --tone: var(--peach); }
 
+/* ===== Chất liệu "giấy in": lớp hạt noise mảnh phủ toàn trang ===== */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Thanh cuộn thanh mảnh, hợp tông */
+html {
+  scrollbar-color: #b9b2a3 transparent;
+  scrollbar-width: thin;
+}
+
+/* ===== Tiện ích scroll-reveal (CSS scroll-driven animation — không cần JS)
+   Trình duyệt chưa hỗ trợ sẽ hiển thị bình thường, không mất nội dung ===== */
+@keyframes reveal-rise {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .revealUp {
+      animation: reveal-rise 0.8s linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

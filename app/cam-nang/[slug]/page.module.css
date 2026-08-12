@@ -8,6 +8,39 @@
   margin-right: auto;
 }
 
+/* ===== Thanh tiến độ đọc (scroll-driven animation) ===== */
+.readProgress {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    .readProgress {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      z-index: 60;
+      background: linear-gradient(90deg, var(--purple), var(--coral));
+      transform-origin: 0 50%;
+      transform: scaleX(0);
+      animation: grow-progress linear both;
+      animation-timeline: scroll(root);
+    }
+  }
+}
+
+@keyframes grow-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
 /* ===== Breadcrumb ===== */
 .breadcrumb {
   padding: 35px 0 28px;
@@ -397,8 +430,13 @@
   gap: 9px;
   padding: 14px 20px;
   font-weight: 800;
-  transition: background-color 0.18s, box-shadow 0.18s;
+  transition: background-color 0.18s, box-shadow 0.1s, transform 0.1s;
   display: inline-flex;
+}
+
+.bottomCta a:active {
+  transform: translate(2px, 3px);
+  box-shadow: 1px 2px 0 var(--ink);
 }
 
 /* ===== Hover ===== */

@@ -4,7 +4,7 @@ import styles from "./CtaSection.module.css";
 
 export default function CtaSection() {
   return (
-    <section className={styles.panel}>
+    <section className={`${styles.panel} revealUp`}>
       <span className={styles.sticker} aria-hidden="true">
         {site.cta.sticker}
       </span>

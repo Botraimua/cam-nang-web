@@ -250,7 +250,7 @@
 
 .sectionHeading {
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   gap: 40px;
   margin-bottom: 34px;
   display: flex;
@@ -495,5 +495,156 @@
   }
   .guides {
     padding: 58px 0;
+  }
+}
+
+/* ============================================================
+   GÓI "SANG XỊN MỊN" — vệt bút dạ, chuyển động, chi tiết nhỏ
+   ============================================================ */
+
+/* Vệt bút dạ vàng trên tiêu đề hero — quẹt phần thân dưới chữ, không đè dòng trên */
+.accent {
+  background: linear-gradient(100deg, #ffd45c00 0%, var(--yellow) 5%, #ffdf7c 95%, #ffd45c00 100%);
+  background-size: 100% 68%;
+  background-position: 0 88%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 0 12px 5px 8px;
+  margin-left: -8px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Nút xoá từ khoá trong ô tìm kiếm */
+.clearBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  color: var(--ink-soft);
+  font-weight: 800;
+  flex: none;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.clearBtn:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Dòng đếm kết quả cạnh bộ lọc */
+.count {
+  margin-left: auto;
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Cảm giác "lún" khi bấm nút */
+.search button,
+.filterButton,
+.suggestions button,
+.emptyState button {
+  transition: transform 0.1s, background-color 0.18s, border-color 0.18s, box-shadow 0.1s;
+}
+
+.search button:active,
+.emptyState button:active {
+  transform: translate(1px, 2px) scale(0.98);
+}
+
+.filterButton:active,
+.suggestions button:active {
+  transform: translateY(2px) scale(0.97);
+}
+
+/* Chuyển động nhẹ trong hero (tôn trọng prefers-reduced-motion qua rule global) */
+@media (prefers-reduced-motion: no-preference) {
+  .hero::before {
+    animation: blob-drift 14s ease-in-out infinite alternate;
+  }
+
+  .heroVisual::before {
+    animation: blob-breathe 9s ease-in-out infinite alternate;
+  }
+
+  .questionCard {
+    animation: float-question 5.5s ease-in-out infinite alternate;
+  }
+
+  .answerCard {
+    animation: float-answer 6.5s ease-in-out 0.8s infinite alternate;
+  }
+
+  .sparkOne {
+    animation: twinkle-one 2.6s ease-in-out infinite alternate;
+  }
+
+  .sparkTwo {
+    animation: twinkle-two 3.1s ease-in-out 1.3s infinite alternate;
+  }
+}
+
+@keyframes blob-drift {
+  from {
+    transform: rotate(17deg) translateY(0);
+    border-radius: 44% 56% 62% 38%;
+  }
+  to {
+    transform: rotate(21deg) translateY(-14px);
+    border-radius: 56% 44% 48% 52%;
+  }
+}
+
+@keyframes blob-breathe {
+  from {
+    transform: rotate(-5deg) scale(1);
+    border-radius: 47% 53% 42% 58%;
+  }
+  to {
+    transform: rotate(-2deg) scale(1.04);
+    border-radius: 53% 47% 56% 44%;
+  }
+}
+
+@keyframes float-question {
+  from {
+    transform: rotate(-6deg) translateY(0);
+  }
+  to {
+    transform: rotate(-4.5deg) translateY(-9px);
+  }
+}
+
+@keyframes float-answer {
+  from {
+    transform: rotate(5deg) translateY(0);
+  }
+  to {
+    transform: rotate(6.5deg) translateY(-8px);
+  }
+}
+
+@keyframes twinkle-one {
+  from {
+    transform: rotate(-12deg) scale(0.85);
+    opacity: 0.7;
+  }
+  to {
+    transform: rotate(-4deg) scale(1.12);
+    opacity: 1;
+  }
+}
+
+@keyframes twinkle-two {
+  from {
+    transform: scale(0.8);
+    opacity: 0.65;
+  }
+  to {
+    transform: scale(1.15);
+    opacity: 1;
   }
 }

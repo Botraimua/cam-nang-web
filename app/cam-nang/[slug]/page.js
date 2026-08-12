@@ -6,6 +6,7 @@ import { site } from "@/data/site";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import StepChecklist from "@/components/StepChecklist";
+import TocNav from "@/components/TocNav";
 import styles from "./page.module.css";
 
 // Render tĩnh sẵn toàn bộ trang chi tiết (SSG — giống trang tham khảo)
@@ -50,6 +51,9 @@ export default async function GuidePage({ params }) {
     <>
       <SiteHeader />
       <main>
+        {/* Thanh tiến độ đọc (CSS scroll-driven, tự ẩn ở trình duyệt chưa hỗ trợ) */}
+        <div className={styles.readProgress} aria-hidden="true" />
+
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb} aria-label="Breadcrumb">
           <Link href="/#cam-nang">← {d.breadcrumbAll}</Link>
@@ -104,16 +108,7 @@ export default async function GuidePage({ params }) {
 
         {/* Mục lục + nội dung */}
         <div className={styles.contentLayout}>
-          <aside className={styles.toc}>
-            <p>{d.tocTitle}</p>
-            <nav>
-              {toc.map((t) => (
-                <a key={t.id} href={`#${t.id}`}>
-                  {t.label}
-                </a>
-              ))}
-            </nav>
-          </aside>
+          <TocNav title={d.tocTitle} items={toc} />
 
           <article className={styles.article}>
             {guide.prepare?.length > 0 && (

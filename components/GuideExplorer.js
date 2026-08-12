@@ -6,6 +6,7 @@ import { categories, categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
 import { matchesQuery } from "@/lib/text";
 import GuideCard from "./GuideCard";
+import MarqueeBand from "./MarqueeBand";
 import styles from "./GuideExplorer.module.css";
 
 const PAGE_SIZE = 12; // giống trang tham khảo: hiện 12 thẻ mỗi lượt
@@ -71,7 +72,10 @@ export default function GuideExplorer() {
       <section className={styles.hero} aria-labelledby="hero-title">
         <div className={styles.heroCopy}>
           <span className={styles.heroLabel}>{site.hero.eyebrow}</span>
-          <h1 id="hero-title">{site.hero.title}</h1>
+          <h1 id="hero-title">
+            {site.hero.title}{" "}
+            {site.hero.titleAccent && <span className={styles.accent}>{site.hero.titleAccent}</span>}
+          </h1>
           <p className={styles.heroDescription}>{site.hero.description}</p>
 
           <form className={styles.search} role="search" onSubmit={handleSubmit}>
@@ -87,6 +91,16 @@ export default function GuideExplorer() {
               onChange={(e) => setQuery(e.target.value)}
               autoComplete="off"
             />
+            {query && (
+              <button
+                type="button"
+                className={styles.clearBtn}
+                onClick={() => setQuery("")}
+                aria-label="Xoá từ khoá"
+              >
+                ✕
+              </button>
+            )}
             <button type="submit" aria-label="Tìm cẩm nang">
               <span>{site.search.button}</span>
               <span aria-hidden="true">→</span>
@@ -116,6 +130,9 @@ export default function GuideExplorer() {
           <span className={styles.sparkTwo}>✦</span>
         </div>
       </section>
+
+      {/* ===== DẢI CHỮ CHẠY ===== */}
+      <MarqueeBand />
 
       {/* ===== KHO CẨM NANG ===== */}
       <section className={styles.guides} id="cam-nang" aria-labelledby="guides-title">
@@ -149,12 +166,16 @@ export default function GuideExplorer() {
               {c.name}
             </button>
           ))}
+          <span className={styles.count} role="status">
+            {filtered.length} {site.guides.countLabel}
+            {query.trim() ? ` ${site.guides.countFor} "${query.trim()}"` : ""}
+          </span>
         </div>
 
         {visible.length > 0 ? (
           <div className={styles.guideGrid} aria-live="polite">
             {visible.map((g) => (
-              <GuideCard key={g.slug} guide={g} />
+              <GuideCard key={g.slug} guide={g} className="revealUp" />
             ))}
           </div>
         ) : (

@@ -3,7 +3,7 @@ import styles from "./HowItWorks.module.css";
 
 export default function HowItWorks() {
   return (
-    <section id="cach-dung" className={styles.panel} aria-labelledby="how-title">
+    <section id="cach-dung" className={`${styles.panel} revealUp`} aria-labelledby="how-title">
       <div className={styles.intro}>
         <span className={styles.eyebrow}>{site.howItWorks.eyebrow}</span>
         <h2 id="how-title">{site.howItWorks.heading}</h2>

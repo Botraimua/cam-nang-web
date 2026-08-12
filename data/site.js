@@ -14,7 +14,8 @@ export const site = {
 
   hero: {
     eyebrow: "Cẩm nang việc đời thường",
-    title: "Chuyện ai cũng gặp, chẳng ai kịp chỉ.",
+    title: "Chuyện ai cũng gặp,",
+    titleAccent: "chẳng ai kịp chỉ.", // phần được tô vệt bút dạ vàng
     description:
       "Chưa biết là chuyện bình thường. Gõ thứ đang làm bạn bối rối, đọc vài bước ngắn gọn, xong việc liền tay.",
     // Cụm minh hoạ bên phải hero (2 thẻ dán + tia sáng)
@@ -24,6 +25,15 @@ export const site = {
       answerNote: "Từng bước một là xong.",
     },
   },
+
+  // Dải chữ chạy ngang giữa hero và kho cẩm nang
+  marquee: [
+    "Ai cũng từng là lính mới",
+    "Không biết thì hỏi, ngại gì",
+    "Từng bước một là xong",
+    "Xong việc, nhẹ đầu",
+    "Biết là làm liền!",
+  ],
 
   search: {
     label: "Tìm kiếm cẩm nang",
@@ -43,6 +53,8 @@ export const site = {
     empty: "Thử từ khoá khác, hoặc xem tất cả rồi lọc dần nhé!",
     emptyButton: "Xem tất cả cẩm nang",
     loading: "Đang tải thêm...",
+    countLabel: "cẩm nang", // dòng đếm kết quả: "52 cẩm nang" / "5 cẩm nang cho 'trọ'"
+    countFor: "cho",
   },
 
   howItWorks: {
