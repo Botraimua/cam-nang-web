@@ -33,10 +33,17 @@ while ((m = catRe.exec(catSource)) !== null) {
 if (!validCategories.length) fail("Không đọc được danh mục từ data/categories.js");
 
 // ===== Tách các mục "## ..." trong nội dung phiếu =====
+// Cắt theo từng dòng tiêu đề "## " — cách này giữ được cả mục nằm CUỐI phiếu
+const sections = new Map();
+for (const chunk of issueBody.split(/^##[ \t]+/m).slice(1)) {
+  const lineBreak = chunk.indexOf("\n");
+  const heading = (lineBreak === -1 ? chunk : chunk.slice(0, lineBreak)).trim();
+  const content = lineBreak === -1 ? "" : chunk.slice(lineBreak + 1);
+  sections.set(heading.toLowerCase(), content.trim());
+}
+
 function getSection(name) {
-  const re = new RegExp(`^##\\s*${name}\\s*$([\\s\\S]*?)(?=^##\\s|\\Z)`, "im");
-  const found = issueBody.match(re);
-  return found ? found[1].trim() : "";
+  return sections.get(name.toLowerCase()) || "";
 }
 
 function toLines(block) {
@@ -133,7 +140,8 @@ const wordCount = [summary, ...stepLines, ...noteLines, ...prepareLines].join(" 
 const readTimeMinutes = Math.min(6, Math.max(1, Math.round(wordCount / 180)));
 
 // ===== Chống trùng slug =====
-const community = JSON.parse(fs.readFileSync(COMMUNITY_FILE, "utf8"));
+// replace(/^﻿/, ""): bỏ ký tự ẩn đầu file nếu ai đó lỡ lưu bằng trình soạn thảo Windows
+const community = JSON.parse(fs.readFileSync(COMMUNITY_FILE, "utf8").replace(/^﻿/, ""));
 const existingSlugs = new Set(community.map((g) => g.slug));
 for (const file of ["guides.js", "parts/partA.js", "parts/partB.js", "parts/partC.js"]) {
   const src = fs.readFileSync(path.join(process.cwd(), "data", file), "utf8");
