@@ -5,3 +5,7 @@ out/
 .env*
 *.log
 .DS_Store
+
+# File tạm do scripts/publish-contribution.mjs sinh ra khi duyệt bài
+published-slug.txt
+publish-error.txt

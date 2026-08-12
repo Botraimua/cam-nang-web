@@ -100,6 +100,7 @@ export const site = {
     sourcesHeading: "Nguồn tham khảo",
     sourcesJump: "Xem nguồn tham khảo ↓",
     authorPrefix: "Hướng dẫn bởi",
+    publishedPrefix: "Đăng ngày",
     bottomKicker: "Vậy là biết cách rồi",
     bottomHeading: "Còn chuyện gì đang làm bạn bí?",
     bottomButton: "Xem cẩm nang khác",

@@ -416,15 +416,19 @@ const baseGuides = [
   },
 ];
 
+// Đóng dấu ngày đăng cho cả nhóm bài. Bài nào tự có publishedAt riêng thì
+// giữ nguyên ngày của nó (nhờ ...g đặt sau) — sửa bài thì nhớ cập nhật ngày.
+const stamp = (list, date) => list.map((g) => ({ publishedAt: date, ...g }));
+
 // Gộp bài gốc + 3 phần do AI soạn (data/parts/), xếp alphabet theo slug
 // (giống cách trang tham khảo sắp xếp kho bài)
 export const guides = [
-  ...baseGuides,
-  ...partA,
-  ...partB,
-  ...partC,
-  ...xuHuong,
-  ...community,
+  ...stamp(baseGuides, "2026-08-11"),
+  ...stamp(partA, "2026-08-11"),
+  ...stamp(partB, "2026-08-11"),
+  ...stamp(partC, "2026-08-11"),
+  ...stamp(xuHuong, "2026-08-12"),
+  ...community, // bài cộng đồng đã có sẵn ngày do máy đóng dấu lúc duyệt
 ].sort((a, b) => a.slug.localeCompare(b.slug, "en"));
 
 export const guideMap = Object.fromEntries(guides.map((g) => [g.slug, g]));

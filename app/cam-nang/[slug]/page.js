@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { guides, guideMap } from "@/data/guides";
 import { categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
+import { formatDate } from "@/lib/date";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import StepChecklist from "@/components/StepChecklist";
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }) {
       description: guide.excerpt,
       type: "article",
       locale: "vi_VN",
+      publishedTime: guide.publishedAt,
     },
   };
 }
@@ -70,6 +72,12 @@ export default async function GuidePage({ params }) {
             <p className={styles.excerpt}>{guide.excerpt}</p>
             <div className={styles.meta}>
               <span>⏱ {guide.readTimeMinutes} phút đọc</span>
+              {guide.publishedAt && (
+                <span>
+                  📅 {site.detail.publishedPrefix}{" "}
+                  <time dateTime={guide.publishedAt}>{formatDate(guide.publishedAt)}</time>
+                </span>
+              )}
               {guide.author?.name &&
                 (guide.author.url ? (
                   <a href={guide.author.url} target="_blank" rel="noopener noreferrer">

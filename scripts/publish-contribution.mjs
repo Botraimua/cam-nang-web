@@ -158,10 +158,14 @@ if (existingSlugs.has(slug)) {
 
 const excerpt = (summary || stepLines[0] || title).slice(0, 200);
 
+// Ngày duyệt bài chính là ngày đăng
+const publishedAt = new Date().toISOString().slice(0, 10);
+
 const guide = {
   slug,
   title,
   excerpt,
+  publishedAt,
   readTimeMinutes,
   category: category.slug,
   author,
@@ -178,4 +182,6 @@ community.push(guide);
 fs.writeFileSync(COMMUNITY_FILE, `${JSON.stringify(community, null, 2)}\n`, "utf8");
 
 fs.writeFileSync("published-slug.txt", slug, "utf8");
-console.log(`Da them bai: ${slug} (${steps.length} buoc, ${readTimeMinutes} phut doc)`);
+console.log(
+  `Da them bai: ${slug} (${steps.length} buoc, ${readTimeMinutes} phut doc, ngay ${publishedAt})`
+);

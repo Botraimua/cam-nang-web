@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
+import { formatDate } from "@/lib/date";
 import styles from "./GuideCard.module.css";
 
 export default function GuideCard({ guide, className = "", index = 0 }) {
@@ -26,16 +27,25 @@ export default function GuideCard({ guide, className = "", index = 0 }) {
         <h3>{guide.title}</h3>
         <p>{guide.excerpt}</p>
       </Link>
-      {guide.author?.name ? (
-        <a
-          className={styles.author}
-          href={guide.author.url || "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {site.detail.authorPrefix} {guide.author.name}
-        </a>
-      ) : null}
+      <div className={styles.footer}>
+        {guide.author?.name ? (
+          <a
+            className={styles.author}
+            href={guide.author.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {site.detail.authorPrefix} {guide.author.name}
+          </a>
+        ) : (
+          <span />
+        )}
+        {guide.publishedAt && (
+          <time className={styles.date} dateTime={guide.publishedAt}>
+            {formatDate(guide.publishedAt)}
+          </time>
+        )}
+      </div>
     </article>
   );
 }

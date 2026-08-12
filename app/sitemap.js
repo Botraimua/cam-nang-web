@@ -8,7 +8,7 @@ export default function sitemap() {
     { url: base, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     ...guides.map((g) => ({
       url: `${base}/cam-nang/${g.slug}`,
-      lastModified: new Date(),
+      lastModified: g.publishedAt ? new Date(g.publishedAt) : new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     })),

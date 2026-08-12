@@ -128,13 +128,21 @@
   overflow: hidden;
 }
 
+/* Chân thẻ: tác giả bên trái, ngày đăng bên phải */
+.footer {
+  margin-top: auto;
+  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .author {
   min-width: 0;
   color: var(--purple-dark);
   text-underline-offset: 3px;
   overflow-wrap: anywhere;
-  margin-top: auto;
-  padding-top: 14px;
   font-size: 12px;
   font-weight: 800;
   text-decoration: underline;
@@ -142,7 +150,15 @@
   display: inline-flex;
   position: relative;
   z-index: 1;
-  width: fit-content;
+}
+
+.date {
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  flex: none;
 }
 
 .link:focus-visible,
