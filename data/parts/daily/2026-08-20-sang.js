@@ -1,10 +1,10 @@
-// Bài đăng ngày 2026-08-20
+// Bài đăng ngày 2026-08-20 — khung 7h sáng
 // Mỗi bài phải có publishedAt: "2026-08-20"
 // Bài tế nhị nhớ thêm adult: true
 
 const NGAY = "2026-08-20";
 
-export const day20260820 = [
+export const day20260820sang = [
   // ═══════════════════════ XE CỘ ═══════════════════════
   {
     slug: "dang-ky-xe-may-moi-mua",

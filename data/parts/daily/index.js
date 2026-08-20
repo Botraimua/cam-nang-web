@@ -10,8 +10,10 @@
 // Muốn GỠ nguyên một ngày: xoá dòng import và dòng spread tương ứng, rồi xoá file.
 
 
-import { day20260820 } from "./2026-08-20.js";
+import { day20260820sang } from "./2026-08-20-sang.js";
+import { day20260820trua } from "./2026-08-20-trua.js";
 
 export const dailyGuides = [
-  ...day20260820,
+  ...day20260820trua,
+  ...day20260820sang,
 ];
