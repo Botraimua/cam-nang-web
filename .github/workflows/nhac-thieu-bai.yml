@@ -1,0 +1,49 @@
+name: Nhac thieu bai
+
+# 23h mỗi tối kiểm xem cả 4 khung giờ đã đăng đủ chưa. Thiếu thì gửi email nhắc.
+#
+# Cần cái này vì tác vụ đăng bài chỉ chạy khi app Claude đang mở — hôm nào máy
+# tắt thì không có bài mà cũng chẳng ai báo. Workflow này chạy trên máy chủ
+# GitHub nên luôn hoạt động, kể cả khi máy ở nhà đã tắt.
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # 16h UTC = 23h giờ Việt Nam
+  workflow_dispatch: # bấm chạy tay được từ tab Actions
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  kiem-tra:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Kiem 4 khung gio
+        id: kiem
+        run: node scripts/kiem-khung-gio.mjs
+
+      - name: Bao thieu bai
+        if: steps.kiem.outputs.thieu != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHU_REPO: ${{ github.repository_owner }}
+        run: |
+          TIEU_DE=$(cat bao-cao/tieu-de.txt)
+
+          URL=$(gh issue create --repo "$GITHUB_REPOSITORY" \
+                  --title "$TIEU_DE" \
+                  --body-file bao-cao/noi-dung.md \
+                  --assignee "$CHU_REPO" 2>/dev/null) \
+            || URL=$(gh issue create --repo "$GITHUB_REPOSITORY" \
+                  --title "$TIEU_DE" \
+                  --body-file bao-cao/noi-dung.md)
+
+          echo "Da mo phieu nhac: $URL"
+          gh issue close "$URL" --repo "$GITHUB_REPOSITORY"

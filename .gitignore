@@ -9,3 +9,6 @@ out/
 # File tạm do scripts/publish-contribution.mjs sinh ra khi duyệt bài
 published-slug.txt
 publish-error.txt
+
+# Thu muc tam cua bao cao dang bai (workflow tu sinh, khong luu vao repo)
+bao-cao/

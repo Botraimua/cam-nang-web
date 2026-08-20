@@ -1,0 +1,112 @@
+name: Bao cao dang bai
+
+# Sau mỗi lần đăng bài (có file mới trong data/parts/daily/), workflow này:
+#   1. Soạn báo cáo: đăng mấy bài, thuộc mục nào, link từng bài
+#   2. Chờ Vercel dựng lại trang rồi kiểm tra thật xem bài mở được chưa
+#   3. Mở một phiếu báo cáo → GitHub gửi email về hộp thư chủ repo → tự đóng phiếu lại
+#
+# Không cần mật khẩu email hay cấu hình gì thêm: GitHub tự gửi mail cho người
+# theo dõi repo. Muốn tắt/bật thì vào github.com → Settings → Notifications.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/parts/daily/**"
+  workflow_dispatch: # bấm chạy tay từ tab Actions để gửi lại báo cáo lần đăng gần nhất
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  bao-cao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # cần commit trước để biết file nào vừa đổi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Soan bao cao
+        id: soan
+        run: |
+          set +e
+          node scripts/bao-cao.mjs
+          MA=$?
+          set -e
+          # 78 = không có bài nào mới, bỏ qua chứ không coi là lỗi
+          if [ "$MA" = "78" ]; then
+            echo "bo_qua=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          exit $MA
+
+      - name: Cho web len song roi kiem tra
+        if: steps.soan.outputs.bo_qua != 'true'
+        run: |
+          BASE=$(cat bao-cao/base-url.txt)
+          DAU=$(head -1 bao-cao/slugs.txt)
+
+          # Vercel dựng lại trang mất khoảng 30–60 giây. Chờ tối đa 5 phút.
+          LEN_ROI=""
+          for i in $(seq 1 30); do
+            MA=$(curl -s -o /dev/null -w "%{http_code}" "$BASE/cam-nang/$DAU" || echo 000)
+            if [ "$MA" = "200" ]; then LEN_ROI="co"; break; fi
+            sleep 10
+          done
+
+          if [ -z "$LEN_ROI" ]; then
+            KET_QUA="⚠️ **Chờ 5 phút vẫn chưa thấy bài trên web.** Bài đã lưu vào kho an toàn rồi, nhưng Vercel có thể đang dựng chậm hoặc gặp lỗi — vào vercel.com xem giúp nhé."
+          else
+            OK=0
+            TONG=0
+            while read -r S; do
+              [ -z "$S" ] && continue
+              TONG=$((TONG + 1))
+              MA=$(curl -s -o /dev/null -w "%{http_code}" "$BASE/cam-nang/$S" || echo 000)
+              if [ "$MA" = "200" ]; then OK=$((OK + 1)); fi
+            done < bao-cao/slugs.txt
+
+            if [ "$OK" = "$TONG" ]; then
+              KET_QUA="🌐 **Đã lên sóng — kiểm tra $OK/$TONG bài đều mở được.** [Mở trang]($BASE)"
+            else
+              KET_QUA="⚠️ **Mới có $OK/$TONG bài mở được trên web.** Có bài chưa lên, xem lại giúp nhé."
+            fi
+          fi
+
+          {
+            echo ""
+            echo "$KET_QUA"
+            echo ""
+            echo "---"
+            echo ""
+            echo "*Thông báo tự động sau mỗi lần đăng bài. Chị không cần trả lời — phiếu này tự đóng lại.*"
+          } >> bao-cao/noi-dung.md
+
+      - name: Gui bao cao ve hop thu
+        if: steps.soan.outputs.bo_qua != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHU_REPO: ${{ github.repository_owner }}
+        run: |
+          TIEU_DE=$(cat bao-cao/tieu-de.txt)
+
+          # Gán phiếu cho chủ repo để chắc chắn có email.
+          # Nếu vì lý do gì không gán được thì vẫn mở phiếu bình thường.
+          URL=$(gh issue create --repo "$GITHUB_REPOSITORY" \
+                  --title "$TIEU_DE" \
+                  --body-file bao-cao/noi-dung.md \
+                  --assignee "$CHU_REPO" 2>/dev/null) \
+            || URL=$(gh issue create --repo "$GITHUB_REPOSITORY" \
+                  --title "$TIEU_DE" \
+                  --body-file bao-cao/noi-dung.md)
+
+          echo "Da mo phieu bao cao: $URL"
+
+          # Đóng ngay cho gọn danh sách phiếu — email đã gửi lúc mở rồi.
+          # Đóng lại cũng tránh phiếu này lọt vào luồng duyệt bài đóng góp.
+          gh issue close "$URL" --repo "$GITHUB_REPOSITORY"
