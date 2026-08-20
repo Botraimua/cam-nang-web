@@ -26,6 +26,9 @@ const TEN_KHUNG = {
   toi: "khung tối",
 };
 
+// Thứ tự thời gian thật trong ngày, dùng để xếp file cho đúng
+const THU_TU_KHUNG = ["sang", "trua", "chieu", "toi"];
+
 // ── Giờ Việt Nam (UTC+7). Máy chạy GitHub Actions dùng giờ UTC nên phải tự bù. ──
 function gioVietNam() {
   const t = new Date(Date.now() + 7 * 60 * 60 * 1000);
@@ -73,17 +76,29 @@ function fileVuaDoi() {
   const ds = ra
     .split("\n")
     .map((d) => d.trim())
-    .filter((d) => d.endsWith(".js") && !d.endsWith("index.js"));
+    .filter((d) => d.endsWith(".js") && !d.endsWith("index.js"))
+    // Bỏ file đã bị xoá trong chính commit đó, không thì import sẽ vấp
+    .filter((d) => fs.existsSync(path.join(GOC, d)));
 
   if (ds.length) return ds;
 
-  // Dự phòng: file ngày mới nhất trong thư mục
+  // Dự phòng (chạy tay từ tab Actions): lấy lần đăng gần nhất CÓ BÀI.
+  // Phải xếp theo thứ tự thời gian thật, không xếp theo vần — vì theo vần thì
+  // "trua" lại đứng sau "toi", chọn nhầm khung.
   const thuMuc = path.join(GOC, "data", "parts", "daily");
-  const tenFile = fs
+  const moiNhat = fs
     .readdirSync(thuMuc)
-    .filter((t) => /^\d{4}-\d{2}-\d{2}-\w+\.js$/.test(t))
-    .sort();
-  return tenFile.length ? [`data/parts/daily/${tenFile[tenFile.length - 1]}`] : [];
+    .filter((t) => /^\d{4}-\d{2}-\d{2}-(sang|trua|chieu|toi)\.js$/.test(t))
+    .map((t) => ({
+      ten: t,
+      ngay: t.slice(0, 10),
+      thuTu: THU_TU_KHUNG.indexOf(t.slice(11, -3)),
+      soBai: (fs.readFileSync(path.join(thuMuc, t), "utf8").match(/slug:\s*"/g) || []).length,
+    }))
+    .filter((f) => f.soBai > 0)
+    .sort((a, b) => a.ngay.localeCompare(b.ngay) || a.thuTu - b.thuTu);
+
+  return moiNhat.length ? [`data/parts/daily/${moiNhat[moiNhat.length - 1].ten}`] : [];
 }
 
 // ── Đọc bài trong một file ngày ──
