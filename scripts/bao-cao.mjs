@@ -176,9 +176,11 @@ fs.mkdirSync(THU_MUC_RA, { recursive: true });
 fs.writeFileSync(path.join(THU_MUC_RA, "tieu-de.txt"), tieuDe, "utf8");
 fs.writeFileSync(path.join(THU_MUC_RA, "noi-dung.md"), d.join("\n"), "utf8");
 fs.writeFileSync(path.join(THU_MUC_RA, "base-url.txt"), base, "utf8");
+// Phải có dòng trống ở cuối, không thì vòng `while read` trong workflow
+// bỏ sót đúng bài cuối cùng (đã dính lỗi này một lần: báo 14/14 thay vì 15/15).
 fs.writeFileSync(
   path.join(THU_MUC_RA, "slugs.txt"),
-  bai.map((g) => g.slug).join("\n"),
+  bai.map((g) => g.slug).join("\n") + "\n",
   "utf8"
 );
 

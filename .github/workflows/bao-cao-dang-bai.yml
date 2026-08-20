@@ -64,7 +64,8 @@ jobs:
           else
             OK=0
             TONG=0
-            while read -r S; do
+            # `|| [ -n "$S" ]` để vẫn xử lý dòng cuối khi file thiếu ký tự xuống dòng
+            while read -r S || [ -n "$S" ]; do
               [ -z "$S" ] && continue
               TONG=$((TONG + 1))
               MA=$(curl -s -o /dev/null -w "%{http_code}" "$BASE/cam-nang/$S" || echo 000)
