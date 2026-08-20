@@ -21,6 +21,13 @@ permissions:
 
 jobs:
   bao-cao:
+    # Tác vụ đăng bài đẩy lên sau MỖI MỤC (3 lần một khung) để đứt giữa chừng
+    # không mất sạch. Nhưng chị chỉ cần MỘT mail cho cả khung, nên hai lần đẩy
+    # đầu gắn dấu [chua-xong] và bị bỏ qua ở đây. Lần đẩy cuối không có dấu đó
+    # sẽ gửi mail, và báo cáo vốn đọc cả file nên vẫn đủ 15 bài.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      !contains(github.event.head_commit.message, '[chua-xong]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

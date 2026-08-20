@@ -21,6 +21,11 @@ const KHUNG = [
   { ma: "toi", ten: "Khung tối (22h)", muc: "Nam giới · Nữ giới · 18+" },
 ];
 
+// Mỗi khung đăng 3 mục × 5 bài. Từ khi tác vụ đẩy lên sau MỖI MỤC thay vì đợi
+// xong cả khung, một khung có thể dừng giữa chừng ở 5 hoặc 10 bài. Trước đây
+// script chỉ bắt khung rỗng nên khung đăng dở lọt lưới — giờ bắt cả hai.
+const DU_MOI_KHUNG = 15;
+
 // Giờ Việt Nam (UTC+7) — máy chạy GitHub Actions dùng giờ UTC nên phải tự bù
 function ngayVietNam() {
   const t = new Date(Date.now() + 7 * 60 * 60 * 1000);
@@ -43,13 +48,22 @@ const ketQua = KHUNG.map((k) => {
   return { ...k, so };
 });
 
-const thieu = ketQua.filter((k) => k.so === null || k.so === 0);
+const thieu = ketQua.filter((k) => k.so === null || k.so < DU_MOI_KHUNG);
+const dangDo = thieu.filter((k) => k.so > 0);
 const tongBai = ketQua.reduce((n, k) => n + (k.so || 0), 0);
 
 // In ra cho người xem log Actions
 console.log(`Ngay ${ngay}: dang duoc ${tongBai} bai / ${KHUNG.length} khung gio`);
 for (const k of ketQua) {
-  console.log(`  ${k.ma.padEnd(6)} ${k.so === null ? "CHUA CO FILE" : k.so + " bai"}`);
+  const tinh =
+    k.so === null
+      ? "CHUA CO FILE"
+      : k.so === 0
+        ? "FILE RONG"
+        : k.so < DU_MOI_KHUNG
+          ? `DANG DO ${k.so}/${DU_MOI_KHUNG}`
+          : `${k.so} bai`;
+  console.log(`  ${k.ma.padEnd(6)} ${tinh}`);
 }
 
 // Báo cho workflow biết có thiếu hay không
@@ -67,21 +81,39 @@ if (!thieu.length) {
 
 // ── Soạn báo cáo thiếu bài ──
 const d = [];
-d.push(`Ngày **${ngayDep}** mới đăng được **${tongBai} bài**, thiếu **${thieu.length}/4 khung giờ**.`);
+d.push(
+  `Ngày **${ngayDep}** mới đăng được **${tongBai}/${DU_MOI_KHUNG * KHUNG.length} bài**, ` +
+    `có **${thieu.length}/4 khung giờ** chưa đăng đủ.`
+);
 d.push("");
 d.push("| Khung giờ | Nội dung | Kết quả |");
 d.push("| --- | --- | --- |");
 for (const k of ketQua) {
   const tinh =
-    k.so === null ? "❌ chưa chạy" : k.so === 0 ? "❌ file rỗng" : `✅ ${k.so} bài`;
+    k.so === null
+      ? "❌ chưa chạy"
+      : k.so === 0
+        ? "❌ file rỗng"
+        : k.so < DU_MOI_KHUNG
+          ? `⚠️ đăng dở ${k.so}/${DU_MOI_KHUNG} bài`
+          : `✅ ${k.so} bài`;
   d.push(`| ${k.ten} | ${k.muc} | ${tinh} |`);
 }
 d.push("");
 d.push("### Vì sao có thể thiếu");
 d.push("");
-d.push("Tác vụ đăng bài **chỉ chạy khi app Claude đang mở**. Nếu lúc đó máy tắt,");
-d.push("app đóng, hoặc mất mạng thì khung giờ đó bị bỏ qua.");
+d.push("Tác vụ đăng bài **chỉ chạy khi app Claude đang mở**, và mỗi khung mất khá lâu");
+d.push("để viết đủ 15 bài. Nếu giữa chừng máy tắt, máy ngủ, app đóng hay mất mạng thì");
+d.push("khung đó dừng lại ở chỗ đang làm.");
 d.push("");
+if (dangDo.length) {
+  d.push(
+    `**Khung đăng dở** (${dangDo.map((k) => k.ten).join(", ")}) nghĩa là bài đã viết ` +
+      "vẫn còn và đã lên web — chỉ thiếu phần chưa kịp làm. Chạy bù sẽ viết tiếp cho đủ, " +
+      "không viết lại từ đầu."
+  );
+  d.push("");
+}
 d.push("### Muốn bù thì làm gì");
 d.push("");
 d.push("Mở app Claude lên và nhắn: *“chạy bù khung sáng”* (hoặc trưa / chiều / tối).");
@@ -93,7 +125,7 @@ d.push("*Thông báo tự động lúc 23h mỗi ngày. Chị không cần trả
 fs.mkdirSync(THU_MUC_RA, { recursive: true });
 fs.writeFileSync(
   path.join(THU_MUC_RA, "tieu-de.txt"),
-  `⚠️ Ngày ${ngayDep} thiếu ${thieu.length}/4 khung đăng bài`,
+  `⚠️ Ngày ${ngayDep}: ${thieu.length}/4 khung chưa đăng đủ bài`,
   "utf8"
 );
 fs.writeFileSync(path.join(THU_MUC_RA, "noi-dung.md"), d.join("\n"), "utf8");
