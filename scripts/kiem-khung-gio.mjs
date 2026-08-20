@@ -9,6 +9,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { NGAY_DANG_CUOI, BAI_MOI_KHUNG, conTrongDotDang } from "../data/lich-dang-bai.js";
 
 const GOC = process.cwd();
 const THU_MUC_NGAY = path.join(GOC, "data", "parts", "daily");
@@ -24,7 +25,7 @@ const KHUNG = [
 // Mỗi khung đăng 3 mục × 5 bài. Từ khi tác vụ đẩy lên sau MỖI MỤC thay vì đợi
 // xong cả khung, một khung có thể dừng giữa chừng ở 5 hoặc 10 bài. Trước đây
 // script chỉ bắt khung rỗng nên khung đăng dở lọt lưới — giờ bắt cả hai.
-const DU_MOI_KHUNG = 15;
+const DU_MOI_KHUNG = BAI_MOI_KHUNG;
 
 // Giờ Việt Nam (UTC+7) — máy chạy GitHub Actions dùng giờ UTC nên phải tự bù
 function ngayVietNam() {
@@ -42,6 +43,17 @@ function demBaiTrongFile(duongDan) {
 const ngay = process.argv[2] || ngayVietNam();
 const [nam, thang, ngayTrongThang] = ngay.split("-");
 const ngayDep = `${ngayTrongThang}/${thang}/${nam}`;
+
+// ── Chốt chặn: hết đợt đăng thì im lặng ──
+// Lịch 23h này chạy trên máy chủ GitHub nên nó KHÔNG tự biết chị đã dừng đăng
+// bài. Không có đoạn này thì từ ngày đầu tiên sau đợt, đêm nào chị cũng nhận
+// một mail "thiếu 4/4 khung" — mãi mãi. Ngày dừng nằm ở data/lich-dang-bai.js.
+if (!conTrongDotDang(ngay)) {
+  console.log(
+    `Ngay ${ngay} da qua ngay dang cuoi (${NGAY_DANG_CUOI}) — dot dang bai da ket thuc, khong bao gi.`
+  );
+  process.exit(0);
+}
 
 const ketQua = KHUNG.map((k) => {
   const so = demBaiTrongFile(path.join(THU_MUC_NGAY, `${ngay}-${k.ma}.js`));
