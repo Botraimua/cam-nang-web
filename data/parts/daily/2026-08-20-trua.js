@@ -1564,4 +1564,121 @@ export const day20260820trua = [
     ],
     sources: [],
   },
+
+  {
+    slug: "goi-cap-cuu-115-noi-gi",
+    title: "Gọi cấp cứu 115: nói gì và làm gì trong lúc chờ",
+    excerpt:
+      "Người trước mặt bạn đổ gục, tay run bấm số mà đầu trống rỗng. Biết trước phải nói gì giúp xe tới nhanh hơn và giúp bạn không đứng chết trân.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Câu đầu tiên phải là ĐỊA CHỈ, càng cụ thể càng tốt, vì nếu cuộc gọi bị ngắt thì ít ra xe vẫn biết đường đi. Sau đó nói ngắn gọn: chuyện gì xảy ra, người bị nạn còn tỉnh không, còn thở không, bao nhiêu tuổi. Bật loa ngoài để rảnh hai tay, làm theo hướng dẫn của tổng đài và ĐỪNG cúp máy trước khi họ nói bạn cúp được. Cử một người ra đầu ngõ đón xe.",
+    prepare: [
+      "Số 115 lưu sẵn trong danh bạ, cùng số của người thân cần báo tin",
+      "Địa chỉ nhà bạn viết đầy đủ dán ở tủ lạnh — trong lúc hoảng loạn người ta quên cả số nhà mình",
+      "Ghi chú trong điện thoại về bệnh nền, thuốc đang dùng và dị ứng của người trong nhà",
+      "Biết trước bệnh viện gần nhất có cấp cứu 24/7 và đường đi tới đó",
+      "Một cái đèn pin hoặc đèn điện thoại nếu chuyện xảy ra ban đêm ở nơi tối",
+    ],
+    steps: [
+      {
+        title: "Trước hết: đảm bảo an toàn cho chính bạn",
+        detail:
+          "Nếu có điện giật thì ngắt cầu dao trước khi chạm vào người bị nạn. Nếu có khói, khí gas, hay tai nạn giao thông thì đưa mình ra khỏi vùng nguy hiểm trước. Bạn thành nạn nhân thứ hai thì không còn ai gọi cấp cứu nữa.",
+      },
+      {
+        title: "Gọi 115 ngay, đừng chần chừ tự chở đi",
+        detail:
+          "Với những tình huống nặng, xe cấp cứu có thiết bị và nhân viên xử trí ngay trên đường. Tự chở bằng xe máy hoặc taxi có thể làm nặng thêm, nhất là khi nghi chấn thương cột sống. Cứ gọi và mô tả, tổng đài sẽ tư vấn cho bạn.",
+      },
+      {
+        title: "Câu đầu tiên: ĐỊA CHỈ, thật cụ thể",
+        detail:
+          "Nói ngay số nhà, tên đường, phường, quận, và một mốc dễ nhận biết như 'đối diện trường X' hay 'ngay cạnh quán cà phê Y'. Nói địa chỉ trước mọi thứ khác. Nếu sóng rớt giữa chừng thì ít nhất xe đã có đích để chạy.",
+      },
+      {
+        title: "Nói ngắn gọn chuyện gì đang xảy ra",
+        detail:
+          "Ví dụ: 'Chú tôi 60 tuổi đột ngột ngã quỵ, méo miệng, không nói được rõ'. Hoặc 'Người đàn ông khoảng 30 tuổi tai nạn xe máy, đầu chảy máu, còn tỉnh'. Mô tả thứ bạn nhìn thấy, đừng cố chẩn đoán bệnh gì.",
+      },
+      {
+        title: "Trả lời hai câu quan trọng nhất: còn tỉnh không, còn thở không",
+        detail:
+          "Gọi to và vỗ nhẹ vai xem có phản ứng không. Nhìn lồng ngực có nhô lên hạ xuống không, ghé tai nghe. Hai thông tin này quyết định mức độ khẩn cấp mà tổng đài xếp cho ca của bạn, nên hãy kiểm tra thật rồi trả lời, đừng đoán.",
+      },
+      {
+        title: "Cho số điện thoại của bạn và giữ máy thông",
+        detail:
+          "Đọc rõ số của bạn để họ gọi lại nếu cần chỉ đường. Sau khi cúp máy thì đừng gọi cho ai khác bằng số đó — dùng máy người khác để báo tin cho gia đình, giữ máy của bạn trống cho tổng đài và tài xế.",
+      },
+      {
+        title: "Bật loa ngoài và làm theo hướng dẫn của tổng đài",
+        detail:
+          "Nhân viên trực có thể hướng dẫn bạn ép tim, đặt tư thế nằm nghiêng, hoặc cách cầm máu ngay qua điện thoại. Bật loa ngoài để bạn rảnh cả hai tay. ĐỪNG cúp máy cho tới khi họ nói bạn có thể cúp.",
+      },
+      {
+        title: "Cử một người ra đầu ngõ đón xe",
+        detail:
+          "Ngõ nhỏ, chung cư nhiều toà, khu trọ san sát — tài xế rất dễ mất vài phút quý giá để tìm. Nhờ ai đó ra đứng ngoài đường lớn vẫy tay, mở sẵn cổng, gọi thang máy chờ ở tầng trệt. Việc này nghe nhỏ mà rút ngắn thời gian thật sự.",
+      },
+      {
+        title: "Trong lúc chờ: đừng di chuyển người nghi chấn thương cột sống",
+        detail:
+          "Người ngã cao, tai nạn giao thông, hoặc kêu đau cổ đau lưng thì để yên tại chỗ, chỉ giữ đầu cổ thẳng và trấn an. Xốc nách kéo đi là việc có thể gây tổn thương vĩnh viễn. Chỉ di chuyển khi chỗ đó đang nguy hiểm như có cháy.",
+      },
+      {
+        title: "Người bất tỉnh nhưng còn thở: đặt nằm nghiêng an toàn",
+        detail:
+          "Nghiêng người sang một bên, đầu hơi ngửa, tay dưới đỡ đầu. Tư thế này giúp đờm dãi hoặc chất nôn chảy ra ngoài thay vì tràn vào đường thở. Ở lại cạnh họ và theo dõi nhịp thở liên tục.",
+      },
+      {
+        title: "ĐỪNG cho người bất tỉnh ăn uống hay uống thuốc",
+        detail:
+          "Không đổ nước, không nhét thuốc, không cạo gió, không vắt chanh vào miệng người đang lơ mơ hay bất tỉnh. Những việc này có thể làm sặc vào phổi. Cũng đừng nhét vật gì vào miệng người đang co giật — đó là quan niệm sai và gây hại.",
+      },
+      {
+        title: "Gom sẵn giấy tờ và thông tin trong lúc chờ",
+        detail:
+          "CCCD, thẻ BHYT, sổ khám bệnh cũ, danh sách thuốc đang dùng, và ghi nhớ chính xác giờ triệu chứng bắt đầu. Câu 'bắt đầu lúc mấy giờ' là câu bác sĩ chắc chắn sẽ hỏi, và với một số tình huống nó quyết định cách xử trí.",
+      },
+      {
+        title: "Khi xe tới: báo cáo gọn trong 30 giây",
+        detail:
+          "Nói theo thứ tự: chuyện xảy ra lúc mấy giờ, diễn biến ra sao, người này có bệnh nền gì, đang uống thuốc gì, có dị ứng gì. Đừng kể dài dòng. Sau đó nhường chỗ cho nhân viên y tế làm việc và trả lời khi được hỏi.",
+      },
+      {
+        title: "Sau khi mọi chuyện qua: chuẩn bị cho lần sau",
+        detail:
+          "Dán địa chỉ nhà lên tủ lạnh, lưu số 115, ghi bệnh nền và thuốc của người thân vào ghi chú điện thoại, và cân nhắc học một lớp sơ cứu cơ bản. Nhiều bệnh viện và tổ chức có lớp ngắn — đây là thứ bạn mong không bao giờ phải dùng nhưng sẽ biết ơn khi cần.",
+      },
+    ],
+    notes: [
+      "Bài này là hướng dẫn về quy trình gọi cấp cứu, KHÔNG PHẢI TƯ VẤN Y KHOA và không thay thế đào tạo sơ cấp cứu chính quy. Trong mọi tình huống, hãy làm theo hướng dẫn trực tiếp của nhân viên y tế.",
+      "GỌI CẤP CỨU NGAY, KHÔNG CHỜ ĐỢI khi thấy: bất tỉnh hoặc lơ mơ không đánh thức được; khó thở nặng, tím tái môi và đầu ngón tay; đau ngực dữ dội hoặc đau ngực lan ra tay trái, lên hàm; méo miệng, yếu liệt một bên người, nói ngọng đột ngột; co giật kéo dài hoặc co giật lần đầu tiên; chảy máu ồ ạt không cầm được; nôn ra máu hoặc đi ngoài ra máu nhiều; chấn thương nặng vùng đầu, cổ, ngực, bụng; nghi ngộ độc hoặc uống nhầm hoá chất; hoặc bỏng rộng, bỏng do điện.",
+      "VỚI TRẺ NHỎ VÀ NGƯỜI GIÀ hãy hạ thấp ngưỡng gọi cấp cứu. Trẻ sơ sinh sốt cao, trẻ bỏ bú li bì, người già ngã đập đầu dù trông vẫn tỉnh — tất cả đều nên được nhân viên y tế đánh giá, đừng tự theo dõi ở nhà.",
+      "Nếu bạn hoặc ai đó có ý nghĩ tự làm hại bản thân, hãy gọi cấp cứu và nói với người thân ngay. Đừng để người đó ở một mình.",
+    ],
+    faq: [
+      {
+        q: "Gọi 115 có mất tiền không?",
+        a: "Cuộc gọi tới tổng đài là miễn phí, còn chi phí vận chuyển và cấp cứu thì tuỳ đơn vị, tuỳ nơi và tuỳ mức bảo hiểm — hỏi trực tiếp cho chắc. Nhưng đừng để băn khoăn về tiền làm bạn chậm gọi trong tình huống nguy kịch.",
+      },
+      {
+        q: "Nếu tôi gọi mà hoá ra không nghiêm trọng thì sao?",
+        a: "Không sao cả và bạn không bị phạt vì lo lắng thật lòng. Tổng đài sẽ hỏi vài câu để phân loại, và nếu chưa cần xe thì họ hướng dẫn bạn cách xử lý hoặc khuyên đưa đi khám. Gọi thừa vẫn tốt hơn gọi muộn.",
+      },
+      {
+        q: "Ở khu vực xe cấp cứu khó vào thì làm sao?",
+        a: "Nói rõ tình trạng đường ngay khi gọi: ngõ nhỏ, đường đang sửa, chung cư mấy toà. Tổng đài sẽ tính phương án và có thể yêu cầu bạn đưa người bệnh ra điểm hẹn nếu tình trạng cho phép. Cử người ra đón là việc cần làm ngay.",
+      },
+      {
+        q: "Tôi không biết sơ cứu thì có nên làm gì không?",
+        a: "Việc quan trọng nhất bạn làm được là gọi 115 và làm theo hướng dẫn qua điện thoại. Nhân viên trực được đào tạo để hướng dẫn người không có chuyên môn từng bước. Bạn không cần biết trước, chỉ cần gọi và nghe.",
+      },
+    ],
+    sources: [],
+  },
 ];

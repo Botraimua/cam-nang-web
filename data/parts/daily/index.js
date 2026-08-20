@@ -8,6 +8,13 @@
 //    Lệnh đó tự tạo file ngày mới và tự thêm vào danh sách bên dưới.
 //
 // Muốn GỠ nguyên một ngày: xoá dòng import và dòng spread tương ứng, rồi xoá file.
+//
+// 📮 MỘT KHUNG ĐƯỢC ĐẨY LÊN LÀM 3 LẦN, mỗi mục một lần, để đứt giữa chừng không
+//    mất sạch. Hai lần đầu gắn dấu [chua-xong] ở đầu commit message nên GitHub
+//    bỏ qua, không gửi mail; lần cuối bỏ dấu đó đi thì mail mới gửi — và báo cáo
+//    vốn đọc cả file nên vẫn đủ 15 bài. Xem .github/workflows/bao-cao-dang-bai.yml.
+//    Vì vậy một file khung có thể tạm thời ít hơn 15 bài — đó là bình thường
+//    trong lúc đang đăng, chỉ bất thường nếu tới 23h vẫn chưa đủ.
 
 
 import { day20260820sang } from "./2026-08-20-sang.js";
