@@ -539,4 +539,539 @@ export const day20260820chieu = [
     ],
     sources: [],
   },
+
+  {
+    slug: "mat-dien-thoai-lam-gi-trong-gio-dau",
+    title: "Mất điện thoại: làm gì trong một giờ đầu tiên",
+    excerpt:
+      "Cái máy đắt tiền là chuyện nhỏ. Thứ đáng lo là ngân hàng, Zalo, email và ảnh giấy tờ nằm trong đó. Đây là thứ tự việc cần làm ngay.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Thứ tự ưu tiên: gọi tổng đài nhà mạng khoá SIM ngay (vì SIM là chìa khoá nhận mã OTP), rồi khoá ứng dụng ngân hàng qua tổng đài hoặc web, rồi đăng xuất từ xa và đổi mật khẩu email chính, cuối cùng mới tính chuyện định vị máy. Mượn điện thoại người khác cũng làm được hết. Đừng đi tìm máy trước rồi mới khoá tài khoản — kẻ lấy máy cần đúng khoảng thời gian bạn đang loay hoay đó.",
+    prepare: [
+      "Một điện thoại mượn tạm và chỗ ngồi yên tĩnh vài phút — việc này cần bình tĩnh chứ không cần chạy",
+      "Số tổng đài nhà mạng và tổng đài ngân hàng — nên lưu sẵn trong sổ tay hoặc nhớ trong đầu từ hôm nay",
+      "Email chính và mật khẩu của bạn, hoặc cách khôi phục email nếu bạn không nhớ",
+      "CCCD để ra cửa hàng nhà mạng cấp lại SIM",
+      "Địa chỉ cửa hàng nhà mạng gần nhất và giờ mở cửa",
+    ],
+    steps: [
+      {
+        title: "Gọi ngay vào máy mình một lần",
+        detail:
+          "Mượn máy người khác gọi vào số của bạn. Có khi máy chỉ rơi ở quán và ai đó nhặt được sẽ nghe. Đổ chuông vài lần không ai nghe, hoặc thuê bao ngay lập tức, thì chuyển sang bước tiếp theo — đừng gọi mãi mất thời gian vàng.",
+      },
+      {
+        title: "Khoá SIM trước tất cả mọi thứ",
+        detail:
+          "SIM là thứ nhận mã OTP của ngân hàng và của mọi tài khoản. Gọi tổng đài nhà mạng của bạn, nói: em bị mất điện thoại, em muốn khoá SIM số này ngay ạ. Họ sẽ hỏi thông tin chủ thuê bao để xác minh. Khoá SIM xong là kẻ lấy máy mất cửa quan trọng nhất.",
+      },
+      {
+        title: "Khoá ứng dụng ngân hàng và ví điện tử",
+        detail:
+          "Gọi tổng đài từng ngân hàng bạn có tài khoản, yêu cầu khoá dịch vụ ngân hàng số. Nếu bạn còn đăng nhập được trên máy tính thì tự đăng xuất mọi thiết bị và đổi mật khẩu. Đừng bỏ qua ví điện tử và ứng dụng mua sắm có lưu thẻ.",
+      },
+      {
+        title: "Đổi mật khẩu email chính và đăng xuất từ xa",
+        detail:
+          "Email chính là cửa để lấy lại hoặc chiếm mọi tài khoản khác. Vào email trên máy tính, đổi mật khẩu, rồi tìm mục thiết bị đang đăng nhập và đăng xuất hết. Việc này quan trọng ngang với khoá ngân hàng.",
+      },
+      {
+        title: "Dùng chức năng tìm thiết bị của hãng",
+        detail:
+          "Máy Android vào trang tìm thiết bị của Google, máy iPhone vào iCloud. Bạn xem được vị trí gần đúng, phát âm thanh, và quan trọng nhất là bật chế độ mất máy để khoá màn hình kèm số liên lạc.",
+      },
+      {
+        title: "Bật chế độ mất máy, đừng vội xoá dữ liệu",
+        detail:
+          "Chế độ mất máy khoá máy lại nhưng vẫn cho bạn theo dõi vị trí. Xoá dữ liệu từ xa là bước cuối cùng, vì xoá xong là mất luôn khả năng định vị. Chỉ xoá khi bạn đã chắc không lấy lại được máy.",
+      },
+      {
+        title: "Đăng xuất Zalo, Facebook, Messenger từ xa",
+        detail:
+          "Đăng nhập trên máy tính, vào phần bảo mật, xem danh sách phiên đang hoạt động và thoát hết các thiết bị lạ. Rất nhiều vụ lừa vay tiền bạn bè bắt đầu từ một cái điện thoại bị mất mà chủ nhân quên đăng xuất.",
+      },
+      {
+        title: "Nhắn cho người thân biết bạn mất máy",
+        detail:
+          "Nhắn vào nhóm gia đình hoặc nhóm bạn thân: mình mất điện thoại, nếu có ai nhắn tin vay tiền từ số hoặc tài khoản của mình thì đừng chuyển, gọi kiểm tra trước. Câu nhắn này chặn được kiểu lừa phổ biến nhất.",
+      },
+      {
+        title: "Ra cửa hàng nhà mạng cấp lại SIM",
+        detail:
+          "Mang CCCD chính chủ. Nếu SIM đăng ký tên người khác thì phải có người đó đi cùng hoặc uỷ quyền — đây là lý do nên đăng ký SIM chính chủ ngay từ đầu. Có SIM mới là bạn lấy lại được hầu hết tài khoản.",
+      },
+      {
+        title: "Trình báo công an nếu nghi bị lấy cắp",
+        detail:
+          "Ra công an phường nơi xảy ra việc, khai rõ thời gian, địa điểm, loại máy, số IMEI nếu có. Giữ giấy xác nhận trình báo — nhiều trường hợp cần tờ này khi làm việc với bảo hiểm hoặc nhà mạng.",
+      },
+      {
+        title: "Cảnh giác với tin nhắn dụ đăng nhập iCloud hoặc tài khoản Google",
+        detail:
+          "Vài ngày sau, bạn có thể nhận tin nhắn báo đã tìm thấy máy kèm một đường dẫn lạ. Đó gần như chắc chắn là lừa đảo để lấy tài khoản của bạn và mở khoá máy. Không bấm vào, không nhập mật khẩu ở bất cứ trang nào đến từ tin nhắn lạ.",
+      },
+      {
+        title: "Sau khi ổn định, dựng lại hàng phòng thủ",
+        detail:
+          "Máy mới thì đặt khoá màn hình, bật xác thực hai lớp bằng ứng dụng chứ không chỉ bằng tin nhắn, bật sao lưu tự động, và ghi số IMEI của máy ra một chỗ ngoài máy. Lần sau nếu có chuyện, bạn sẽ mất 10 phút thay vì cả tuần.",
+      },
+    ],
+    notes: [
+      "Thứ tự rất quan trọng: SIM trước, ngân hàng sau, email tiếp theo. Nhiều người mất tiền vì đi tìm máy trong 30 phút đầu thay vì khoá tài khoản.",
+      "ĐỪNG lưu ảnh chụp CCCD, sổ đỏ, hay ảnh thẻ ngân hàng trong thư viện ảnh điện thoại. Đây là kho vàng cho kẻ lấy máy.",
+      "Ghi số IMEI của máy ra giấy hoặc lưu ở nơi khác ngay hôm nay. Bấm mã bàn phím quen thuộc hoặc xem trong phần thông tin máy, và cũng có trên vỏ hộp máy.",
+      "Đăng ký SIM chính chủ. SIM đứng tên người khác thì lúc cần cấp lại gấp bạn sẽ rất khổ.",
+    ],
+    faq: [
+      {
+        q: "Máy em có mật khẩu màn hình rồi, vẫn phải khoá SIM gấp thế à?",
+        a: "Vẫn phải. SIM tháo ra lắp sang máy khác là dùng được ngay, không cần biết mật khẩu máy của bạn — và SIM chính là thứ nhận mã OTP.",
+      },
+      {
+        q: "Em nhìn thấy vị trí máy trên bản đồ, có nên tự tới lấy không?",
+        a: "Không nên đi một mình tới địa chỉ lạ. Vị trí hiển thị có sai số vài chục mét, và bạn không biết mình sẽ gặp ai. Cung cấp thông tin đó cho công an khi trình báo thì an toàn hơn nhiều.",
+      },
+      {
+        q: "Em không nhớ mật khẩu email, giờ đăng xuất từ xa kiểu gì?",
+        a: "Dùng chức năng quên mật khẩu trên máy tính và khôi phục bằng email phụ hoặc câu hỏi bảo mật. Nếu khôi phục lại cần mã gửi về số điện thoại đã mất, hãy làm SIM mới trước rồi quay lại bước này.",
+      },
+      {
+        q: "Xoá dữ liệu từ xa rồi thì có lấy lại ảnh được không?",
+        a: "Chỉ khi bạn đã bật sao lưu lên tài khoản đám mây từ trước. Đây là lý do rất thực tế để bật sao lưu tự động ngay hôm nay, đừng đợi tới lúc mất máy.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "chuyen-khoan-nham-hoac-bi-lua-lam-gi",
+    title: "Chuyển khoản nhầm hoặc bị lừa: làm gì trong giờ đầu",
+    excerpt:
+      "Bấm xong mới thấy sai số tài khoản, hoặc mới hiểu ra mình vừa bị lừa. Vài chục phút đầu quyết định bạn có lấy lại được tiền hay không.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Gọi ngay tổng đài ngân hàng của bạn, đọc mã giao dịch và yêu cầu tra soát, đồng thời nói rõ là bị lừa hay chuyển nhầm — hai trường hợp có quy trình khác nhau. Nếu là lừa đảo, ra công an phường trình báo trong ngày và mang theo mọi bằng chứng. Chụp màn hình mọi thứ trước khi kẻ lừa kịp xoá tin nhắn hoặc khoá tài khoản. Tiền còn nằm trong tài khoản nhận thì cơ hội phong toả cao; tiền đã bị rút ra thì rất khó.",
+    prepare: [
+      "Mã giao dịch và ảnh chụp biên lai chuyển tiền — ngân hàng cần con số này để tra soát",
+      "Ảnh chụp toàn bộ tin nhắn, cuộc gọi, trang web đã dẫn bạn tới việc chuyển tiền",
+      "Số tổng đài ngân hàng lấy từ mặt sau thẻ hoặc từ ứng dụng chính thức, không lấy từ tin nhắn lạ",
+      "CCCD để đi trình báo và làm đơn tra soát tại quầy",
+      "Một người thân đi cùng nếu bạn đang hoảng — người bình tĩnh giúp bạn kể sự việc mạch lạc hơn",
+    ],
+    steps: [
+      {
+        title: "Dừng lại, đừng chuyển thêm đồng nào nữa",
+        detail:
+          "Kịch bản lừa đảo phổ biến là dụ bạn chuyển tiếp lần hai, lần ba với lý do sai cú pháp, cần nộp phí gỡ phong toả. Không có khoản nào đúng cả. Ngắt máy, chặn số, và bắt đầu từ bước dưới.",
+      },
+      {
+        title: "Chụp màn hình mọi bằng chứng ngay lập tức",
+        detail:
+          "Tin nhắn, số điện thoại gọi tới, tên tài khoản nhận, số tài khoản, đường dẫn trang web, biên lai giao dịch. Kẻ lừa thường thu hồi tin nhắn sau vài phút. Chụp trước rồi tính sau.",
+      },
+      {
+        title: "Gọi tổng đài ngân hàng ngay, đúng số chính thức",
+        detail:
+          "Lấy số tổng đài từ mặt sau thẻ hoặc trong ứng dụng ngân hàng. Nói thẳng: em vừa chuyển nhầm hoặc em vừa bị lừa chuyển tiền, em muốn tra soát và phong toả giao dịch, mã giao dịch là ... Càng sớm thì khả năng tiền chưa bị rút càng cao.",
+      },
+      {
+        title: "Nói rõ đây là chuyển nhầm hay bị lừa",
+        detail:
+          "Hai việc khác nhau. Chuyển nhầm là bạn gõ sai số tài khoản, ngân hàng sẽ liên hệ chủ tài khoản nhận đề nghị hoàn trả. Bị lừa là có dấu hiệu tội phạm, ngân hàng sẽ hướng dẫn bạn kết hợp trình báo công an. Nói sai loại là hồ sơ đi sai đường.",
+      },
+      {
+        title: "Ra quầy ngân hàng làm đơn tra soát bằng văn bản",
+        detail:
+          "Gọi điện là để chặn nhanh, nhưng đơn giấy mới là hồ sơ chính thức. Mang CCCD, biên lai, và bản in bằng chứng. Xin giữ một bản đơn có dấu tiếp nhận và hỏi: bao lâu thì em có kết quả tra soát ạ?",
+      },
+      {
+        title: "Trình báo công an trong ngày nếu bị lừa",
+        detail:
+          "Ra công an phường nơi bạn ở. Mang bằng chứng đã in. Kể theo trình tự thời gian, tránh kể lộn xộn. Xin giấy tiếp nhận tin báo — ngân hàng thường cần giấy này để xử lý tiếp phần phong toả.",
+      },
+      {
+        title: "Đổi ngay mật khẩu nếu bạn từng nhập vào trang lạ",
+        detail:
+          "Nếu bạn đã nhập tài khoản, mật khẩu, hoặc mã OTP vào một trang web nào đó, coi như tài khoản đó đã bị lộ. Đổi mật khẩu ngân hàng, email, và bật xác thực hai lớp. Kiểm tra cả các tài khoản dùng chung mật khẩu đó.",
+      },
+      {
+        title: "Kiểm tra xem có khoản vay lạ đứng tên mình không",
+        detail:
+          "Một số vụ lừa nhắm tới giấy tờ chứ không chỉ tiền. Nếu bạn đã gửi ảnh CCCD hoặc video khuôn mặt cho người lạ, hãy theo dõi kỹ và kiểm tra thông tin tín dụng của mình để phát hiện khoản vay không phải của bạn.",
+      },
+      {
+        title: "Nếu là chuyển nhầm, hãy kiên nhẫn theo quy trình",
+        detail:
+          "Ngân hàng không được tự ý trừ tiền của người nhận. Họ liên hệ và đề nghị hoàn trả. Người nhận thiện chí thì vài ngày là xong; người nhận cố tình giữ thì bạn có thể phải nhờ tới cơ quan chức năng. Đừng tự nhắn tin đe doạ người nhận.",
+      },
+      {
+        title: "Theo dõi hồ sơ, đừng nộp xong rồi để đó",
+        detail:
+          "Ghi lại tên cán bộ tiếp nhận, mã hồ sơ, ngày hẹn trả kết quả. Gọi hỏi lại đúng hẹn. Hồ sơ được nhắc thường được xử lý nhanh hơn hồ sơ im lặng.",
+      },
+      {
+        title: "Cảnh giác với dịch vụ lấy lại tiền bị lừa",
+        detail:
+          "Ngay sau khi bạn bị lừa, sẽ có tài khoản nhắn tin nhận lấy lại tiền với phí trả trước. Đó là lớp lừa thứ hai nhắm vào chính nạn nhân. Không có dịch vụ tư nhân nào lấy lại được tiền cho bạn.",
+      },
+      {
+        title: "Dựng hàng rào cho lần sau",
+        detail:
+          "Đặt hạn mức chuyển tiền mỗi ngày ở mức vừa đủ dùng, bật thông báo biến động số dư, và tạo thói quen gọi thoại xác nhận trước khi chuyển bất kỳ khoản lớn nào, kể cả khi người nhắn là người thân.",
+      },
+    ],
+    notes: [
+      "Thời gian là yếu tố quyết định. Gọi ngân hàng trong 15 phút đầu khác hẳn gọi sau hai ngày.",
+      "KHÔNG bao giờ đọc mã OTP cho bất kỳ ai, kể cả người tự xưng nhân viên ngân hàng, công an, hay nhân viên giao hàng. Không cơ quan nào cần mã OTP của bạn.",
+      "Không có ai gọi điện yêu cầu bạn chuyển tiền vào tài khoản để chứng minh trong sạch. Đó luôn là lừa đảo, không có ngoại lệ.",
+      "Cảm giác xấu hổ khiến nhiều người im lặng và mất trắng. Bị lừa không phải là ngu — các kịch bản này được dựng rất công phu. Nói ra sớm mới có cơ hội cứu tiền.",
+    ],
+    faq: [
+      {
+        q: "Em chuyển nhầm cho người lạ, ngân hàng có tự lấy lại giúp em không?",
+        a: "Ngân hàng liên hệ và đề nghị người nhận hoàn trả, nhưng không được tự động trừ tiền tài khoản của người khác. Nếu họ không hợp tác, bạn có thể nhờ cơ quan chức năng can thiệp.",
+      },
+      {
+        q: "Em bị lừa số tiền nhỏ, có đáng đi trình báo không?",
+        a: "Đáng. Một mình bạn thì nhỏ, nhưng cùng một tài khoản đó lừa hàng chục người thì hồ sơ mới đủ để xử lý. Trình báo cũng là cách bảo vệ người khác.",
+      },
+      {
+        q: "Người nhận nói sẽ trả nhưng đòi em chuyển phí trước, có nên không?",
+        a: "Không. Không có loại phí nào để nhận lại tiền của chính mình. Đây là chiêu lừa tiếp theo. Mọi việc hoàn trả nên đi qua ngân hàng, không đi qua thoả thuận riêng.",
+      },
+      {
+        q: "Em lỡ bấm vào đường dẫn lạ nhưng chưa nhập gì, có sao không?",
+        a: "Thường thì bấm vào chưa mất tiền, nhưng vẫn nên kiểm tra máy, không cài ứng dụng ngoài kho chính thức, đổi mật khẩu ngân hàng cho chắc và theo dõi thông báo biến động số dư vài ngày.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "bat-xac-thuc-hai-lop-cho-tai-khoan",
+    title: "Bật xác thực hai lớp cho các tài khoản quan trọng",
+    excerpt:
+      "Mật khẩu mạnh tới đâu cũng có ngày lộ. Xác thực hai lớp là cái chốt cửa thứ hai, bật một lần dùng mãi mãi, mất chừng 20 phút cho hết mọi tài khoản.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Bật theo thứ tự quan trọng: email chính trước, rồi ngân hàng và ví điện tử, rồi Facebook và Zalo, cuối cùng là các tài khoản mua sắm. Ưu tiên dùng ứng dụng tạo mã như Google Authenticator hoặc Microsoft Authenticator thay vì nhận mã qua tin nhắn, vì tin nhắn có thể bị chiếm khi mất SIM. Sau khi bật, nhớ lưu mã dự phòng ra giấy và cất cùng giấy tờ quan trọng — không lưu trong chính cái điện thoại đó.",
+    prepare: [
+      "Điện thoại đang dùng và một chỗ ngồi yên 20 phút",
+      "Một ứng dụng tạo mã xác thực tải từ kho ứng dụng chính thức",
+      "Danh sách tài khoản quan trọng của bạn, viết ra giấy để không bỏ sót",
+      "Một tờ giấy để chép mã dự phòng, cất chung với giấy tờ tuỳ thân",
+      "Mật khẩu hiện tại của các tài khoản đó — bật xác thực hai lớp thường phải đăng nhập lại",
+    ],
+    steps: [
+      {
+        title: "Hiểu nhanh xác thực hai lớp là gì",
+        detail:
+          "Là cái chốt thứ hai sau mật khẩu. Người lạ có mật khẩu của bạn vẫn không vào được vì thiếu mã đổi mỗi 30 giây trên máy bạn. Nghe kỹ thuật nhưng thao tác chỉ là bật một công tắc và quét một mã vuông.",
+      },
+      {
+        title: "Liệt kê tài khoản theo mức thiệt hại nếu mất",
+        detail:
+          "Email chính đứng đầu vì nó khôi phục được mọi tài khoản khác. Rồi tới ngân hàng, ví điện tử, mạng xã hội, tài khoản mua sắm có lưu thẻ. Làm theo thứ tự này, nếu hết thời gian thì ít nhất bạn đã khoá những cửa lớn nhất.",
+      },
+      {
+        title: "Cài ứng dụng tạo mã trước",
+        detail:
+          "Vào kho ứng dụng chính thức của máy, tìm Google Authenticator hoặc Microsoft Authenticator, cài đặt. Đừng tải từ đường dẫn ai gửi cho bạn. Ứng dụng này chạy được cả khi không có mạng.",
+      },
+      {
+        title: "Bắt đầu từ email chính",
+        detail:
+          "Vào phần cài đặt tài khoản, tìm mục bảo mật rồi tìm dòng có chữ xác minh hai bước hoặc xác thực hai yếu tố. Chọn dùng ứng dụng tạo mã, màn hình sẽ hiện một mã vuông. Mở ứng dụng vừa cài, bấm thêm tài khoản, quét mã vuông đó.",
+      },
+      {
+        title: "Nhập mã sáu số để hoàn tất",
+        detail:
+          "Ứng dụng hiện dãy sáu số đổi mỗi 30 giây. Gõ dãy đó vào trang web để xác nhận. Nếu báo sai, thường là do bạn gõ chậm quá và mã đã đổi — chờ dãy mới rồi gõ lại nhanh hơn.",
+      },
+      {
+        title: "Lưu mã dự phòng ra giấy ngay lúc đó",
+        detail:
+          "Sau khi bật, hệ thống cho bạn một loạt mã dự phòng dùng khi mất điện thoại. Đây là bước nhiều người bấm bỏ qua rồi khóc sau. Chép ra giấy, cất cùng giấy tờ tuỳ thân, hoặc chụp lại và cất ở một nơi khác với chiếc điện thoại đó.",
+      },
+      {
+        title: "Làm tiếp với ngân hàng và ví điện tử",
+        detail:
+          "Ngân hàng thường dùng phương thức riêng của họ như xác thực trong ứng dụng hoặc mã do ứng dụng ngân hàng tạo. Vào mục cài đặt bảo mật trong ứng dụng và chọn phương thức mạnh nhất họ có, thường là xác thực trong ứng dụng chứ không phải tin nhắn.",
+      },
+      {
+        title: "Bật cho Facebook, Zalo và các mạng xã hội",
+        detail:
+          "Tài khoản mạng xã hội bị chiếm là nguồn của những vụ nhắn tin vay tiền bạn bè. Vào phần bảo mật, bật xác thực hai lớp, chọn ứng dụng tạo mã nếu có. Đồng thời xem lại danh sách thiết bị đang đăng nhập và thoát các thiết bị lạ.",
+      },
+      {
+        title: "Kiểm tra lại số điện thoại và email khôi phục",
+        detail:
+          "Nhiều tài khoản vẫn còn số điện thoại từ mười năm trước. Cập nhật lại cho đúng số và email bạn đang dùng, nếu không thì lúc cần khôi phục bạn sẽ bị chặn ở đúng bước đó.",
+      },
+      {
+        title: "Thử đăng xuất rồi đăng nhập lại một lần",
+        detail:
+          "Làm thử ngay khi bạn còn đang rảnh, để chắc chắn quy trình chạy. Phát hiện trục trặc lúc này dễ chịu hơn nhiều so với phát hiện lúc bạn đang gấp.",
+      },
+      {
+        title: "Sao lưu ứng dụng tạo mã hoặc bật đồng bộ",
+        detail:
+          "Một số ứng dụng tạo mã cho phép đồng bộ lên tài khoản đám mây. Bật lên thì đổi máy đỡ khổ. Nếu bạn không muốn đồng bộ, hãy chắc chắn mình đã giữ mã dự phòng của từng tài khoản.",
+      },
+      {
+        title: "Đặt lịch rà lại mỗi sáu tháng",
+        detail:
+          "Đặt một lời nhắc định kỳ: kiểm tra thiết bị lạ đang đăng nhập, cập nhật số điện thoại khôi phục, đổi mật khẩu những chỗ quan trọng. Mười phút mỗi nửa năm, rẻ hơn nhiều so với một lần bị chiếm tài khoản.",
+      },
+    ],
+    notes: [
+      "Nhận mã qua tin nhắn vẫn tốt hơn không có gì, nhưng yếu hơn ứng dụng tạo mã vì kẻ xấu có thể chiếm số điện thoại của bạn.",
+      "KHÔNG đọc mã sáu số cho bất kỳ ai gọi tới, kể cả người xưng là nhân viên hỗ trợ. Mã đó chỉ để bạn tự gõ vào màn hình đăng nhập của mình.",
+      "Nếu mất điện thoại mà không có mã dự phòng, việc lấy lại tài khoản có thể mất nhiều ngày và đôi khi không lấy lại được. Đừng bỏ qua bước lưu mã dự phòng.",
+      "Đừng dùng chung một mật khẩu cho email và ngân hàng. Xác thực hai lớp không cứu được nếu bạn tự dùng một chìa khoá cho mọi ổ.",
+    ],
+    faq: [
+      {
+        q: "Bật xác thực hai lớp thì mỗi lần đăng nhập đều phải nhập mã à, có phiền không?",
+        a: "Trên thiết bị quen thuộc bạn có thể chọn ghi nhớ, nên thực tế chỉ phải nhập khi đăng nhập ở máy mới. Đổi lại, người lạ có mật khẩu của bạn cũng không vào được.",
+      },
+      {
+        q: "Em đổi điện thoại thì các mã trong ứng dụng có mất không?",
+        a: "Có, nếu bạn không bật đồng bộ hoặc không chuyển sang máy mới trước khi xoá máy cũ. Trước khi đổi máy, hãy dùng chức năng chuyển tài khoản trong ứng dụng tạo mã, hoặc chuẩn bị sẵn mã dự phòng.",
+      },
+      {
+        q: "Em không rành công nghệ, có cách nào đơn giản hơn không?",
+        a: "Có: dùng mã gửi qua tin nhắn cho các tài khoản ít quan trọng, và nhờ người thân giúp cài ứng dụng tạo mã cho email và ngân hàng. Làm được hai chỗ đó thôi cũng đã chặn phần lớn rủi ro.",
+      },
+      {
+        q: "Em bật rồi mà giờ mất luôn cả điện thoại lẫn giấy ghi mã dự phòng thì sao?",
+        a: "Dùng quy trình khôi phục tài khoản của nhà cung cấp: xác minh bằng email phụ, số điện thoại cũ, hoặc trả lời các câu hỏi về lịch sử tài khoản. Quá trình này lâu và không chắc chắn, nên hãy giữ mã dự phòng ngay từ đầu.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "di-tau-hoa-lan-dau",
+    title: "Đi tàu hoả lần đầu: đặt vé, lên ga, chọn chỗ nằm",
+    excerpt:
+      "Tàu hoả rẻ hơn máy bay, thoải mái hơn xe khách, nhưng nhiều người chưa đi bao giờ nên ngại. Thật ra dễ hơn bạn tưởng nhiều.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Đặt vé online trên trang bán vé chính thức của ngành đường sắt hoặc ra ga mua trực tiếp, chọn đúng loại chỗ theo quãng đường: ghế ngồi cho chặng dưới bốn năm tiếng, giường nằm cho chặng qua đêm. Đến ga trước giờ tàu chạy khoảng 30 phút, mang theo CCCD trùng với tên trên vé. Trên tàu có nhà vệ sinh, ổ điện và người bán đồ ăn đi qua thường xuyên, nên bạn không cần chuẩn bị quá nhiều.",
+    prepare: [
+      "CCCD hoặc giấy tờ tuỳ thân trùng tên với vé — nhân viên có kiểm tra",
+      "Vé điện tử lưu trong điện thoại và chụp màn hình phòng khi hết mạng",
+      "Áo khoác mỏng vì điều hoà trên tàu thường lạnh, nhất là ban đêm",
+      "Sạc dự phòng và tai nghe — chuyến dài, ổ điện có thể phải chia nhau",
+      "Ít tiền mặt lẻ để mua đồ ăn trên tàu hoặc gửi xe ở ga",
+    ],
+    steps: [
+      {
+        title: "Chọn tuyến và giờ tàu phù hợp",
+        detail:
+          "Tra lịch trên trang bán vé chính thức của đường sắt. Cùng một tuyến có nhiều chuyến, giờ khác nhau và giá khác nhau. Chuyến đêm tiết kiệm được một đêm khách sạn nếu bạn ngủ được trên tàu.",
+      },
+      {
+        title: "Hiểu các loại chỗ trước khi chọn",
+        detail:
+          "Thường có ghế ngồi cứng, ghế ngồi mềm, giường nằm khoang sáu và giường nằm khoang bốn. Khoang bốn rộng và yên hơn nhưng đắt hơn. Chặng dưới bốn năm tiếng thì ghế ngồi mềm là đủ; chặng qua đêm nên chọn giường nằm.",
+      },
+      {
+        title: "Chọn tầng giường cho đúng ý",
+        detail:
+          "Giường tầng một dễ lên xuống, tiện đi vệ sinh ban đêm, nhưng hay bị người khác ngồi nhờ ban ngày. Tầng trên yên tĩnh và riêng tư hơn nhưng leo trèo hơi cực và nóng hơn. Người lớn tuổi nên chọn tầng một.",
+      },
+      {
+        title: "Đặt vé online và thanh toán",
+        detail:
+          "Vào trang bán vé chính thức, nhập ga đi ga đến và ngày, chọn chỗ trên sơ đồ. Nhập họ tên và số giấy tờ đúng như trên CCCD, sai một chữ có thể phải làm lại. Thanh toán xong bạn nhận vé điện tử qua email.",
+      },
+      {
+        title: "Kiểm tra kỹ ga đi và ga đến",
+        detail:
+          "Nhiều thành phố có hơn một ga, và có ga phụ nằm khá xa trung tâm. Đọc kỹ tên ga trên vé rồi tra đường đi trước, đừng mặc định ga nào cũng ở trung tâm.",
+      },
+      {
+        title: "Đến ga sớm khoảng 30 phút",
+        detail:
+          "Đủ để tìm cửa vào đúng, qua kiểm soát vé và tìm toa. Không cần đến sớm cả tiếng như đi máy bay. Nếu đi giờ cao điểm hoặc dịp lễ thì cộng thêm 15 phút cho chắc.",
+      },
+      {
+        title: "Tìm đúng toa và đúng số giường",
+        detail:
+          "Trên vé ghi số toa và số chỗ. Số toa dán ở thành tàu bên ngoài, nhân viên đứng ở cửa mỗi toa. Cứ đưa vé và hỏi: anh chị ơi toa số mấy đi lối này ạ. Đừng lên bừa một toa rồi đi bộ dọc tàu, vướng lắm.",
+      },
+      {
+        title: "Cất hành lý đúng chỗ",
+        detail:
+          "Túi nhỏ để trên giá phía trên đầu hoặc dưới gầm giường tầng một. Vali lớn để ở khoang đầu toa. Đồ quý giá thì giữ bên người, nhất là khi ngủ — không phải vì tàu nguy hiểm, mà vì tàu dừng nhiều ga và người lên xuống liên tục.",
+      },
+      {
+        title: "Làm quen với tiện nghi trên tàu",
+        detail:
+          "Nhà vệ sinh ở hai đầu toa, có loại bệt và loại xổm. Nước nóng để pha mì thường có ở đầu toa. Ổ điện thường ít nên đây là lúc sạc dự phòng có giá trị. Người bán đồ ăn đẩy xe qua vài lần mỗi chặng.",
+      },
+      {
+        title: "Cư xử dễ chịu trong khoang",
+        detail:
+          "Bạn đang ngủ chung phòng với người lạ vài tiếng. Nói chuyện nhỏ tiếng sau 22h, không mở loa ngoài, không ăn đồ nặng mùi, hỏi trước khi ngồi nhờ giường tầng một của người khác. Chuyến đi dễ chịu hay không phần lớn nằm ở đây.",
+      },
+      {
+        title: "Canh giờ xuống ga",
+        detail:
+          "Đặt báo thức trước giờ tàu tới ga khoảng 30 phút, nhất là khi đi chuyến đêm. Tàu dừng ở mỗi ga chỉ vài phút. Hỏi nhân viên toa để họ gọi bạn dậy cũng được, nhiều người vẫn làm vậy.",
+      },
+      {
+        title: "Ra khỏi ga và tính đường về",
+        detail:
+          "Trước khi đi, xem sẵn cách rời ga đến: có xe buýt không, đặt xe công nghệ có tiện không, ga có xa trung tâm không. Xuống tàu lúc 4 giờ sáng ở một ga lạ mà chưa biết đi đâu là trải nghiệm không vui.",
+      },
+    ],
+    notes: [
+      "Mua vé ở trang chính thức hoặc ra ga. Cẩn thận với các trang bán vé giá rẻ bất thường và các tài khoản mạng xã hội nhận đặt hộ vé — vé giả thì bạn mất cả tiền lẫn chuyến đi.",
+      "Dịp lễ Tết vé bán hết rất nhanh, thường mở bán trước cả tháng. Đặt sớm là cách duy nhất chắc chắn có chỗ.",
+      "Tên trên vé phải trùng giấy tờ. Vé mua hộ đứng tên người khác có thể bị từ chối cho lên tàu.",
+      "Giá vé và quy định đổi trả tuỳ thời điểm và tuỳ tuyến — xem điều kiện vé trước khi bấm thanh toán, vì nhiều loại vé rẻ không được đổi trả.",
+    ],
+    faq: [
+      {
+        q: "Đi tàu có phải cân hành lý như máy bay không?",
+        a: "Thường thoải mái hơn máy bay nhiều, bạn mang được vali lớn mà không bị cân từng ký. Nhưng vẫn có giới hạn với hàng cồng kềnh — nếu mang đồ đặc biệt thì hỏi ga trước.",
+      },
+      {
+        q: "Em đi một mình, giường nằm chung khoang với người lạ có an toàn không?",
+        a: "Nhìn chung là an toàn và rất nhiều người vẫn đi như vậy. Giữ đồ giá trị bên người khi ngủ, khoá vali, và nếu thấy bất an thì báo nhân viên toa để đổi chỗ nếu còn.",
+      },
+      {
+        q: "Mang theo trẻ nhỏ thì nên chọn loại chỗ nào?",
+        a: "Khoang bốn giường là dễ chịu nhất vì kín và yên hơn, và nên lấy giường tầng một để bé không leo trèo. Đi chặng dài với trẻ nhỏ thì tàu thường thoải mái hơn xe khách vì bé đi lại được.",
+      },
+      {
+        q: "Tàu trễ giờ có được đền bù không?",
+        a: "Chính sách tuỳ hãng và tuỳ mức độ trễ, thường không có đền bù cho trễ ngắn. Nếu bạn có lịch nối chuyến quan trọng, hãy chừa khoảng trống vài tiếng thay vì trông vào việc đền bù.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "goi-tho-sua-chua-tai-nha-khong-bi-hoi-gia",
+    title: "Gọi thợ sửa chữa tại nhà mà không bị hét giá",
+    excerpt:
+      "Vòi nước rỉ, điều hoà không mát, ổ điện chập. Gọi thợ thì sợ bị vẽ việc, không gọi thì hỏng nặng thêm. Đây là cách hỏi và chốt giá cho yên tâm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Chốt giá trước khi thợ động vào máy, không phải sau. Gọi ít nhất hai nơi để so, hỏi rõ ba con số: phí đến kiểm tra, giá công sửa, và giá linh kiện nếu phải thay. Yêu cầu thợ gọi báo giá trước khi thay bất cứ thứ gì, và giữ lại linh kiện cũ để đối chiếu. Chụp ảnh hiện trạng trước khi thợ làm, và luôn xin số điện thoại cùng thông tin bảo hành sau khi xong.",
+    prepare: [
+      "Ảnh và video ngắn về chỗ hỏng, kèm tiếng động lạ nếu có — gửi trước giúp thợ báo giá sát hơn",
+      "Tên và mã máy nếu là điều hoà, máy giặt, bình nóng lạnh — thường dán ở mặt bên hoặc phía sau",
+      "Ít nhất hai số điện thoại thợ để so giá, ưu tiên người quen giới thiệu",
+      "Giấy bảo hành nếu máy còn hạn — còn bảo hành thì gọi hãng chứ đừng gọi thợ ngoài",
+      "Tiền mặt hoặc tài khoản chuyển khoản, và một tờ giấy ghi lại giá đã thoả thuận",
+    ],
+    steps: [
+      {
+        title: "Kiểm tra vài thứ đơn giản trước khi gọi ai",
+        detail:
+          "Rất nhiều ca gọi thợ hoá ra là mất điện một pha, aptomat bị nhảy, remote hết pin, hoặc lưới lọc điều hoà bám bụi dày. Kiểm tra vài phút, bạn có thể tiết kiệm cả tiền công lẫn một buổi chờ.",
+      },
+      {
+        title: "Xem máy còn bảo hành không",
+        detail:
+          "Còn hạn bảo hành thì gọi tổng đài hãng, đừng gọi thợ ngoài — thợ ngoài mở máy ra là mất bảo hành. Tìm số tổng đài trên tem máy hoặc trang chính thức của hãng, không lấy số từ tờ rơi dán ở cột điện.",
+      },
+      {
+        title: "Tìm thợ theo thứ tự ưu tiên",
+        detail:
+          "Người quen đã dùng và hài lòng là tốt nhất. Sau đó tới nhóm cư dân toà nhà hoặc khu phố, nơi người ta hay chê thẳng nếu thợ làm ẩu. Cuối cùng mới tới quảng cáo trên mạng, và nên chọn nơi có địa chỉ cửa hàng rõ ràng.",
+      },
+      {
+        title: "Mô tả bệnh thật cụ thể khi gọi",
+        detail:
+          "Thay vì nói điều hoà hỏng, hãy nói máy vẫn chạy nhưng không mát, chạy khoảng 20 phút thì kêu to rồi tự tắt, đã dùng ba năm. Mô tả rõ thì báo giá sát hơn và thợ mang đúng đồ nghề, đỡ phải quay lại lần hai.",
+      },
+      {
+        title: "Hỏi thẳng ba con số ngay trên điện thoại",
+        detail:
+          "Câu để nguyên văn: anh cho em hỏi phí đến kiểm tra là bao nhiêu, nếu sửa thì tiền công khoảng bao nhiêu, và nếu phải thay linh kiện thì anh báo giá trước cho em nhé. Nghe ba câu trả lời này là bạn đã biết nên gọi tiếp hay gọi nơi khác.",
+      },
+      {
+        title: "Hỏi luôn phí kiểm tra có được trừ vào tiền sửa không",
+        detail:
+          "Nhiều nơi tính phí đến kiểm tra và trừ vào tiền sửa nếu bạn đồng ý sửa. Hỏi trước cho rõ: nếu em không sửa thì em trả bao nhiêu ạ? Đây là chỗ hay phát sinh cãi vã lúc thanh toán.",
+      },
+      {
+        title: "Gọi hai đến ba nơi rồi so",
+        detail:
+          "Mất thêm 10 phút gọi điện nhưng bạn có mốc giá. Chênh lệch gấp đôi ba lần cho cùng một bệnh là chuyện thường gặp. Nếu một nơi báo rẻ bất thường, hỏi kỹ xem giá đó đã gồm công và vật tư chưa.",
+      },
+      {
+        title: "Chụp ảnh hiện trạng trước khi thợ làm",
+        detail:
+          "Chụp chỗ hỏng, chụp cả tường và sàn xung quanh. Nếu sau đó có hỏng thêm hoặc trầy xước, bạn có cơ sở để nói chuyện. Việc này mất 30 giây và tránh được những tranh cãi khó chịu.",
+      },
+      {
+        title: "Yêu cầu báo giá lại trước khi thay bất cứ thứ gì",
+        detail:
+          "Nói ngay từ đầu: anh cứ kiểm tra xong báo em giá rồi em đồng ý anh mới thay nhé. Chiêu vẽ việc phổ biến nhất là thay xong rồi mới báo giá, lúc đó bạn không còn đường lùi.",
+      },
+      {
+        title: "Giữ lại linh kiện cũ",
+        detail:
+          "Nói nhẹ nhàng: anh để lại đồ cũ cho em nhé. Việc này khiến chuyện thay đồ khống khó xảy ra hơn hẳn, và bạn cũng nhìn được linh kiện cũ có thật sự hỏng không.",
+      },
+      {
+        title: "Nghiệm thu tại chỗ trước khi trả tiền",
+        detail:
+          "Bật máy lên chạy thử vài phút ngay trước mặt thợ. Vòi nước thì mở xả và nhìn kỹ chỗ nối. Đừng trả tiền rồi mới thử, vì thợ đi rồi thì gọi lại rất mất công.",
+      },
+      {
+        title: "Xin bảo hành và lưu số thợ",
+        detail:
+          "Hỏi: anh bảo hành cho em bao lâu ạ? Ghi lại vào tin nhắn hoặc giấy có ghi ngày, nội dung sửa, số tiền. Lưu số thợ kèm ghi chú như thợ điện nước tốt, kèm ngày và giá — lần sau bạn khỏi phải dò lại từ đầu.",
+      },
+    ],
+    notes: [
+      "Chốt giá trước khi làm là nguyên tắc quan trọng nhất. Sau khi máy đã bị tháo tung ra thì bạn mất hết thế thương lượng.",
+      "Cẩn thận với chiêu bệnh nặng lắm phải thay cả cụm. Nếu số tiền lớn, cứ nói để em hỏi thêm rồi gọi lại, và gọi một thợ khác đến xem.",
+      "Với việc điện nước trong nhà thuê, hỏi chủ nhà trước — nhiều khoản sửa chữa thuộc trách nhiệm chủ nhà chứ không phải của bạn.",
+      "Việc liên quan tới điện, gas hoặc kết cấu nhà thì đừng tự làm theo video trên mạng. Tiết kiệm vài trăm nghìn mà đổi lấy rủi ro cháy nổ là không đáng.",
+    ],
+    faq: [
+      {
+        q: "Thợ tới rồi mới báo giá cao gấp mấy lần lúc gọi điện, em từ chối được không?",
+        a: "Được. Bạn trả phí đến kiểm tra như đã thoả thuận rồi mời thợ về. Đây chính là lý do phải hỏi rõ phí kiểm tra ngay từ cuộc gọi đầu tiên.",
+      },
+      {
+        q: "Làm sao biết linh kiện thợ thay là hàng thật?",
+        a: "Yêu cầu xem hộp và tem trước khi lắp, giữ lại linh kiện cũ, và xin hoá đơn hoặc giấy bảo hành ghi rõ tên linh kiện. Thợ đàng hoàng không ngại mấy việc này.",
+      },
+      {
+        q: "Sửa xong vài ngày lại hỏng y như cũ thì sao?",
+        a: "Gọi lại đúng thợ đó và nhắc thời hạn bảo hành đã thoả thuận. Đây là lúc tin nhắn ghi lại nội dung sửa phát huy tác dụng. Nếu thợ né tránh, đừng gọi lại lần ba — tìm nơi khác và coi như học phí.",
+      },
+      {
+        q: "Em ở một mình, gọi thợ lạ tới nhà có nên không?",
+        a: "Nên chọn nơi có địa chỉ rõ ràng, hẹn giờ ban ngày, và nếu được thì nhờ người quen sang ngồi cùng. Cất tiền và giấy tờ khỏi tầm nhìn, và không để thợ đi lại tự do trong nhà khi bạn không có mặt.",
+      },
+    ],
+    sources: [],
+  },
 ];
