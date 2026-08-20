@@ -37,6 +37,8 @@ import { muoiTamCong } from "./parts/muoi-tam-cong.js";
 // Bài người lớn nằm trong mục Nam giới / Nữ giới (đánh dấu adult: true nên cũng được ẩn)
 import { namGioiNguoiLon } from "./parts/nam-gioi-nguoi-lon.js";
 import { nuGioiNguoiLon } from "./parts/nu-gioi-nguoi-lon.js";
+// Bài đăng hằng ngày — mỗi ngày một file trong data/parts/daily/
+import { dailyGuides } from "./parts/daily/index.js";
 // Bài do bạn đọc gửi, tự thêm vào khi biên tập viên duyệt (xem HUONG-DAN-DUYET.md)
 import community from "./parts/community.json";
 
@@ -59,6 +61,7 @@ export const guides = [
   ...stamp(namGioiNguoiLon, "2026-08-12"),
   ...stamp(nuGioiNguoiLon, "2026-08-12"),
   ...stamp(muoiTamCong, "2026-08-12"),
+  ...dailyGuides, // bài đăng hằng ngày, mỗi bài tự mang publishedAt của ngày đó
   ...community, // bài cộng đồng đã có sẵn ngày do máy đóng dấu lúc duyệt
 ].sort(
   (a, b) =>
