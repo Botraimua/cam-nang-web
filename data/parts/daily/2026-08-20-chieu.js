@@ -1074,4 +1074,539 @@ export const day20260820chieu = [
     ],
     sources: [],
   },
+
+  {
+    slug: "lam-the-bhyt-va-dinh-danh-cho-con-nho",
+    title: "Làm thẻ bảo hiểm y tế và định danh cho con nhỏ",
+    excerpt:
+      "Trẻ dưới 6 tuổi được cấp thẻ bảo hiểm y tế miễn phí, nhưng nhiều nhà tới lúc con ốm mới phát hiện chưa có thẻ. Đây là cách làm cho xong trong một buổi.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Thẻ bảo hiểm y tế cho trẻ dưới 6 tuổi thường được làm cùng lúc với đăng ký khai sinh tại UBND phường xã, theo cơ chế liên thông. Nếu con đã có khai sinh mà chưa có thẻ, mang giấy khai sinh và CCCD của bố mẹ ra UBND phường xã hoặc cơ quan bảo hiểm xã hội để làm. Ngày nay nhiều nơi chỉ cần mã số định danh cá nhân của trẻ là tra ra thẻ, không cần thẻ giấy. Kiểm tra ngay hôm nay xem con đã có thẻ chưa, đừng đợi tới lúc vào viện.",
+    prepare: [
+      "Giấy khai sinh của con, bản gốc và một bản sao",
+      "CCCD của bố hoặc mẹ, và sổ hộ khẩu điện tử hoặc giấy xác nhận cư trú nếu nơi tiếp nhận yêu cầu",
+      "Mã số định danh cá nhân của con — thường được cấp cùng khai sinh, ghi trên giấy khai sinh",
+      "Điện thoại đã cài VNeID của bố hoặc mẹ, nếu muốn tra cứu và làm online",
+      "Tên cơ sở y tế bạn muốn đăng ký khám ban đầu cho con, nên chọn nơi gần nhà",
+    ],
+    steps: [
+      {
+        title: "Kiểm tra xem con đã có thẻ chưa trước khi đi đâu cả",
+        detail:
+          "Nhiều trẻ đã được cấp thẻ tự động qua liên thông khai sinh mà bố mẹ không biết. Tra trên ứng dụng VssID hoặc cổng thông tin của cơ quan bảo hiểm xã hội bằng mã định danh của con. Có rồi thì bạn tiết kiệm được cả buổi đi lại.",
+      },
+      {
+        title: "Tìm mã số định danh cá nhân của con",
+        detail:
+          "Mã này thường in trên giấy khai sinh cấp những năm gần đây, hoặc trên giấy chứng nhận đăng ký thường trú. Không tìm thấy thì ra công an phường xã nơi đăng ký thường trú hỏi, họ tra được trong hệ thống.",
+      },
+      {
+        title: "Nếu chưa có thẻ, ra UBND phường xã nơi cư trú",
+        detail:
+          "Nói rõ: em muốn làm thẻ bảo hiểm y tế cho con em, cháu sinh ngày ... và chưa có thẻ. Cán bộ hộ tịch hoặc bộ phận một cửa sẽ hướng dẫn theo quy trình đang áp dụng tại địa phương bạn.",
+      },
+      {
+        title: "Điền tờ khai và chọn nơi khám ban đầu",
+        detail:
+          "Bạn được chọn cơ sở y tế đăng ký khám chữa bệnh ban đầu cho con. Chọn nơi gần nhà và có khoa nhi, vì trẻ ốm thường vào ban đêm và bạn sẽ không muốn đi xa. Chọn sai vẫn đổi được nhưng phải đợi đến kỳ được phép thay đổi.",
+      },
+      {
+        title: "Nộp hồ sơ và lấy giấy hẹn",
+        detail:
+          "Nộp xong nhớ cầm giấy hẹn hoặc mã hồ sơ, chụp ảnh lại. Hỏi luôn: bao lâu thì có thẻ ạ, và trong thời gian chờ nếu cháu phải đi viện thì em dùng giấy tờ gì? Câu hỏi thứ hai rất quan trọng.",
+      },
+      {
+        title: "Biết cách dùng khi chưa có thẻ giấy",
+        detail:
+          "Trong lúc chờ, nhiều cơ sở y tế chấp nhận mã định danh của trẻ hoặc thông tin trên ứng dụng VssID. Cứ mang theo giấy khai sinh và giấy hẹn khi đưa con đi khám, và nói rõ với bộ phận tiếp nhận là cháu đang chờ cấp thẻ.",
+      },
+      {
+        title: "Cài ứng dụng VssID và thêm thông tin con vào",
+        detail:
+          "Ứng dụng của cơ quan bảo hiểm xã hội cho phép xem thẻ điện tử của cả gia đình. Có thẻ trong điện thoại thì bạn không sợ quên thẻ giấy lúc đưa con đi cấp cứu — mà lúc đó thì chắc chắn bạn sẽ quên.",
+      },
+      {
+        title: "Kiểm tra kỹ thông tin trên thẻ khi nhận",
+        detail:
+          "Soi từng chữ: họ tên, ngày sinh, giới tính, nơi khám ban đầu. Sai một chữ trong tên hay lệch một ngày sinh là lúc nhập viện sẽ rắc rối. Sai thì báo sửa ngay, đừng để đó.",
+      },
+      {
+        title: "Làm định danh điện tử cho con nếu địa phương đã triển khai",
+        detail:
+          "Nhiều nơi đã cho phép tích hợp thông tin của trẻ vào tài khoản định danh của bố mẹ. Ra công an phường xã hỏi: em muốn thêm thông tin của con vào tài khoản định danh của em thì làm thế nào ạ. Có cái này thì đi khám, đi học đỡ phải mang giấy tờ.",
+      },
+      {
+        title: "Nhớ mốc con tròn 6 tuổi",
+        detail:
+          "Thẻ cấp cho trẻ dưới 6 tuổi có hạn tới một mốc nhất định quanh thời điểm con đủ 6 tuổi. Sau đó con thường tham gia bảo hiểm y tế theo diện học sinh qua nhà trường. Đặt một lời nhắc trước mốc đó vài tháng để không bị đứt quãng.",
+      },
+      {
+        title: "Lưu tất cả giấy tờ của con vào một chỗ",
+        detail:
+          "Một túi hồ sơ riêng cho con: khai sinh, thẻ bảo hiểm, sổ tiêm chủng, sổ khám bệnh. Chụp ảnh lưu lên đám mây nữa. Lúc 2 giờ sáng con sốt cao, bạn sẽ cảm ơn chính mình vì đã làm việc này.",
+      },
+      {
+        title: "Hỏi luôn về quyền lợi để khỏi thiệt",
+        detail:
+          "Hỏi cán bộ hoặc nơi khám: cháu khám đúng tuyến thì được chi trả thế nào, trái tuyến thì sao ạ. Mức chi trả và quy định tuyến thay đổi theo thời điểm — hỏi cơ quan bảo hiểm xã hội hoặc bệnh viện cho chắc.",
+      },
+    ],
+    notes: [
+      "Đừng đợi con ốm mới đi làm thẻ. Lúc đó bạn vừa lo vừa phải chạy giấy tờ, và chi phí khám chữa bệnh không có thẻ khá nặng.",
+      "Thông tin trên thẻ phải trùng khớp giấy khai sinh từng chữ. Sai lệch nhỏ cũng gây rắc rối khi làm thủ tục nhập viện.",
+      "Mọi quy định về mức hưởng, thời hạn thẻ và thủ tục cấp lại đều thay đổi theo thời điểm và tuỳ nơi — hỏi UBND phường xã hoặc cơ quan bảo hiểm xã hội cho chắc.",
+      "Không đưa ảnh giấy khai sinh và mã định danh của con cho người lạ hay đăng lên mạng xã hội. Đây là thông tin có thể bị lợi dụng.",
+    ],
+    faq: [
+      {
+        q: "Con em sinh ở tỉnh khác nơi vợ chồng em đang ở, làm thẻ ở đâu?",
+        a: "Thường làm theo nơi cư trú của trẻ. Cứ ra UBND phường xã nơi gia đình đang ở trình bày, mang theo giấy khai sinh và giấy tờ cư trú, họ sẽ hướng dẫn đúng cho trường hợp của bạn.",
+      },
+      {
+        q: "Em làm mất thẻ của con thì sao?",
+        a: "Xin cấp lại tại cơ quan bảo hiểm xã hội hoặc qua ứng dụng VssID. Nhiều nơi hiện chỉ cần mã định danh là tra được thông tin, nên mất thẻ giấy không còn nghiêm trọng như trước.",
+      },
+      {
+        q: "Con em đi khám ở bệnh viện không phải nơi đăng ký ban đầu có được không?",
+        a: "Được, nhưng mức chi trả có thể khác nhau giữa đúng tuyến và trái tuyến, trừ trường hợp cấp cứu. Trong tình huống cấp cứu thì cứ đưa con tới cơ sở gần nhất, đừng chần chừ vì chuyện tuyến.",
+      },
+      {
+        q: "Em chưa đăng ký thường trú cho con thì có làm thẻ được không?",
+        a: "Bạn nên hoàn tất đăng ký thường trú hoặc tạm trú cho con trước, vì nhiều thủ tục sau này đều dựa vào đó. Ra công an phường xã hỏi luôn trong cùng buổi đi làm giấy tờ cho gọn.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "tre-non-tieu-chay-bu-nuoc-tai-nha",
+    title: "Trẻ nôn và tiêu chảy: bù nước tại nhà, khi nào đi viện",
+    excerpt:
+      "Con nôn liên tục, đi ngoài nhiều lần, cha mẹ lo nhất là mất nước. Đây là cách bù nước cho đúng và những dấu hiệu bắt buộc phải đưa con đi viện ngay.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Việc quan trọng nhất không phải cầm tiêu chảy mà là bù nước. Dùng dung dịch bù nước và điện giải mua ở nhà thuốc, pha đúng theo hướng dẫn in trên gói, cho con uống từng thìa nhỏ và uống liên tục thay vì uống ừng ực. Vẫn cho con ăn uống bình thường, không kiêng khem. Tuyệt đối không tự mua thuốc cầm tiêu chảy hay kháng sinh cho trẻ. Nếu con li bì, không uống được, nôn liên tục, đi ngoài ra máu, khóc không ra nước mắt hoặc tiểu rất ít, hãy đưa đi viện ngay.",
+    prepare: [
+      "Gói dung dịch bù nước và điện giải mua tại nhà thuốc — nên có sẵn trong nhà có trẻ nhỏ",
+      "Nước đun sôi để nguội và dụng cụ đong chính xác để pha đúng theo hướng dẫn trên gói",
+      "Thìa nhỏ hoặc xi lanh không kim để đút từng ít một khi con không chịu uống",
+      "Giấy bút hoặc ghi chú điện thoại để đếm số lần nôn, số lần đi ngoài, số lần tiểu",
+      "Số điện thoại phòng khám nhi gần nhà và đường đi tới bệnh viện gần nhất",
+    ],
+    steps: [
+      {
+        title: "Bình tĩnh quan sát con trước đã",
+        detail:
+          "Điều cần đánh giá không phải số lần đi ngoài mà là tình trạng chung: con còn chơi được không, còn uống được không, còn tỉnh táo không. Một đứa trẻ đi ngoài nhiều lần nhưng vẫn chơi và uống tốt thường đỡ đáng lo hơn đứa đi ít lần nhưng lả đi.",
+      },
+      {
+        title: "Bắt đầu bù nước ngay, đừng chờ xem sao",
+        detail:
+          "Mất nước diễn ra nhanh hơn cha mẹ tưởng, nhất là với trẻ nhỏ. Pha dung dịch bù nước điện giải theo đúng hướng dẫn in trên gói và bắt đầu cho uống sớm.",
+      },
+      {
+        title: "Pha đúng theo hướng dẫn, không pha đặc cho nhanh khỏi",
+        detail:
+          "Pha đặc hơn hướng dẫn có thể khiến tình trạng nặng thêm chứ không nhanh khỏi. Đong đúng lượng nước ghi trên gói, dùng nước đun sôi để nguội, khuấy tan hết. Không pha bằng nước ngọt, nước trái cây hay sữa.",
+      },
+      {
+        title: "Cho uống từng ít một, liên tục",
+        detail:
+          "Đút từng thìa nhỏ, cách nhau vài phút. Uống nhiều một lúc dễ khiến con nôn ra hết. Nếu con vừa nôn, chờ khoảng 10 phút cho dịu rồi bắt đầu lại với lượng ít hơn nữa.",
+      },
+      {
+        title: "Đếm số lần tiểu — đây là thước đo dễ nhất",
+        detail:
+          "Tiểu đều đặn và nước tiểu nhạt màu là dấu hiệu con còn đủ nước. Tiểu rất ít, nước tiểu sẫm màu, hoặc nhiều giờ liền tã không ướt là dấu hiệu mất nước và cần đi khám.",
+      },
+      {
+        title: "Vẫn cho con ăn, đừng bắt nhịn",
+        detail:
+          "Kiêng ăn không giúp con nhanh khỏi mà làm con yếu thêm. Cho ăn thức ăn quen thuộc, mềm, chia nhiều bữa nhỏ. Trẻ còn bú thì tiếp tục bú, thậm chí bú nhiều cữ hơn bình thường.",
+      },
+      {
+        title: "TUYỆT ĐỐI không tự mua thuốc cho con uống",
+        detail:
+          "Không tự mua thuốc cầm tiêu chảy, thuốc chống nôn hay kháng sinh. Ở trẻ nhỏ, những thứ này có thể che lấp dấu hiệu bệnh nặng hoặc gây hại. Mọi thuốc dùng cho trẻ phải do người khám trực tiếp cho con bạn chỉ định.",
+      },
+      {
+        title: "Giữ vệ sinh để cả nhà không lây",
+        detail:
+          "Tiêu chảy do virus lây rất nhanh trong nhà. Rửa tay bằng xà phòng sau mỗi lần thay tã và trước khi chuẩn bị đồ ăn, giặt riêng quần áo dính bẩn, lau bề mặt bằng dung dịch tẩy rửa thông thường.",
+      },
+      {
+        title: "Ghi lại diễn biến theo giờ",
+        detail:
+          "Ghi số lần nôn, số lần đi ngoài, tính chất phân, số lần tiểu, nhiệt độ, lượng nước con uống được. Khi đi khám, tờ giấy này giúp bác sĩ đánh giá nhanh và chính xác hơn nhiều so với việc bạn cố nhớ.",
+      },
+      {
+        title: "Đi khám sớm nếu con dưới 6 tháng tuổi",
+        detail:
+          "Trẻ càng nhỏ càng mất nước nhanh và càng khó đánh giá tại nhà. Với trẻ dưới 6 tháng, đừng theo dõi lâu ở nhà — cho con đi khám sớm là lựa chọn an toàn.",
+      },
+      {
+        title: "Biết trước đường tới bệnh viện gần nhất",
+        detail:
+          "Lưu sẵn địa chỉ và số điện thoại khoa nhi gần nhà, biết trước gửi xe ở đâu, cổng cấp cứu nằm bên nào. Chuẩn bị lúc bình thường để lúc hoảng không phải vừa bế con vừa dò bản đồ.",
+      },
+      {
+        title: "Sau khi con khỏi, cho ăn bù dần",
+        detail:
+          "Trẻ thường sụt cân nhẹ sau đợt tiêu chảy. Cho ăn thêm bữa trong một hai tuần sau đó để con lấy lại sức, chứ không cần ép ăn dồn dập trong vài ngày.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA CON ĐI VIỆN NGAY: con LI BÌ, KHÓ ĐÁNH THỨC, hoặc quấy khóc bất thường không dỗ được; KHÔNG UỐNG ĐƯỢC hoặc NÔN RA HẾT MỌI THỨ; NÔN RA DỊCH XANH VÀNG; ĐI NGOÀI RA MÁU; SỐT CAO KHÔNG HẠ; MẮT TRŨNG, KHÓC KHÔNG CÓ NƯỚC MẮT, MIỆNG KHÔ; NHIỀU GIỜ LIỀN KHÔNG TIỂU hoặc TÃ KHÔNG ƯỚT; THỞ NHANH BẤT THƯỜNG; BỤNG CHƯỚNG ĐAU; hoặc TRẺ DƯỚI 6 THÁNG TUỔI bị nôn và tiêu chảy.",
+      "Bài viết này không phải tư vấn y khoa. Đây chỉ là hướng dẫn chăm sóc chung — người quyết định con bạn cần gì phải là bác sĩ khám trực tiếp cho cháu.",
+      "Không dùng nước ngọt có ga, nước tăng lực hay nước trái cây đóng hộp để bù nước cho trẻ tiêu chảy. Đường trong đó có thể làm tiêu chảy nặng thêm.",
+      "Nếu trong nhà có nhiều trẻ, tách riêng đồ dùng ăn uống và khăn tắm trong vài ngày. Tiêu chảy do virus lây lan rất nhanh giữa anh chị em.",
+    ],
+    faq: [
+      {
+        q: "Con em cứ uống vào là nôn ra, làm sao bù nước được?",
+        a: "Giảm xuống thật ít, kiểu một thìa cà phê mỗi vài phút, và kiên trì. Nếu con vẫn nôn ra hết trong nhiều giờ và không giữ được gì trong bụng, đó là lúc phải đưa đi viện chứ không cố ở nhà.",
+      },
+      {
+        q: "Có nên cho con uống nước cháo muối tự nấu thay dung dịch mua ngoài không?",
+        a: "Dung dịch bù nước điện giải pha sẵn theo hướng dẫn là lựa chọn chuẩn hơn vì tỉ lệ đã được tính toán. Tự pha muối đường tại nhà dễ sai tỉ lệ và có thể gây hại. Nếu không mua được, hãy hỏi ý kiến nhân viên y tế.",
+      },
+      {
+        q: "Bao nhiêu lần đi ngoài một ngày thì gọi là tiêu chảy phải lo?",
+        a: "Số lần chỉ là một phần. Điều đáng lo hơn là con có mất nước không và tình trạng chung thế nào. Một đứa trẻ đi ngoài nhiều lần nhưng vẫn tỉnh táo, uống tốt, tiểu đều thì theo dõi được ở nhà; ngược lại thì phải đi khám.",
+      },
+      {
+        q: "Khi nào con được đi học lại?",
+        a: "Thường là khi con hết nôn, hết tiêu chảy và ăn uống lại bình thường trong ít nhất một ngày. Nhiều trường có quy định riêng, nên hỏi cô giáo trước khi cho con đi học lại.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "chuan-bi-cho-con-vao-lop-mot",
+    title: "Chuẩn bị cho con vào lớp 1: hồ sơ và tâm lý",
+    excerpt:
+      "Không phải chuyện dạy trước chương trình. Việc cần làm là hồ sơ nộp đúng hạn và một đứa trẻ không sợ đi học.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Hai việc song song: hồ sơ và tâm lý. Về hồ sơ, hỏi trường tiểu học theo tuyến nơi bạn cư trú về thời gian tuyển sinh và danh mục giấy tờ — thường gồm giấy khai sinh, giấy tờ cư trú và giấy hoàn thành chương trình mầm non. Nhiều nơi đã đăng ký online. Về tâm lý, đừng dạy trước cả sách giáo khoa; hãy tập cho con tự đi vệ sinh, tự xúc ăn, ngồi yên 20 phút, biết hỏi khi cần và biết tên bố mẹ cùng số điện thoại.",
+    prepare: [
+      "Giấy khai sinh của con, bản gốc và bản sao",
+      "Giấy tờ chứng minh cư trú của gia đình theo yêu cầu của trường tuyến",
+      "Giấy chứng nhận hoàn thành chương trình mầm non nếu trường yêu cầu",
+      "Sổ tiêm chủng và thông tin sức khoẻ của con, nhất là nếu con có dị ứng hay bệnh mạn tính",
+      "Số điện thoại của trường và mốc thời gian tuyển sinh — ghi vào lịch điện thoại ngay",
+    ],
+    steps: [
+      {
+        title: "Xác định trường theo tuyến của gia đình",
+        detail:
+          "Trẻ thường được phân tuyến theo nơi cư trú. Hỏi UBND phường xã hoặc hỏi trực tiếp trường tiểu học gần nhà: cháu nhà em ở địa chỉ này thì thuộc tuyến trường nào ạ. Biết sớm thì bạn có thời gian tính phương án.",
+      },
+      {
+        title: "Hỏi mốc thời gian tuyển sinh và đăng ký online",
+        detail:
+          "Nhiều địa phương đã đăng ký tuyển sinh trực tuyến trong một khoảng thời gian ngắn. Bỏ lỡ khung thời gian đó thì bạn phải đi nộp trực tiếp và có thể gặp bất lợi. Ghi mốc vào lịch kèm nhắc trước một tuần.",
+      },
+      {
+        title: "Chuẩn bị hồ sơ đầy đủ từ sớm",
+        detail:
+          "Danh mục thường gồm giấy khai sinh, giấy tờ cư trú, giấy hoàn thành chương trình mầm non và đơn xin học theo mẫu. Danh mục cụ thể tuỳ nơi và tuỳ năm — gọi hỏi trường để lấy danh sách chính xác thay vì nghe truyền miệng.",
+      },
+      {
+        title: "Đi thăm trường cùng con một lần trước khi nhập học",
+        detail:
+          "Dẫn con đi qua cổng trường, chỉ cho con thấy sân chơi và lớp học. Một lần đến thăm làm ngôi trường bớt xa lạ hơn nhiều so với mười lần bố mẹ kể.",
+      },
+      {
+        title: "Tập cho con những kỹ năng tự phục vụ",
+        detail:
+          "Tự đi vệ sinh và tự lau, tự xúc ăn, tự mặc áo khoác, tự mở hộp sữa và cặp sách. Ở lớp 1 cô không thể làm hộ cho từng bé. Đây là thứ giúp con tự tin hơn nhiều so với việc biết đọc trước.",
+      },
+      {
+        title: "Tập ngồi yên và tập trung khoảng 20 phút",
+        detail:
+          "Chơi cùng con những việc cần ngồi lâu: tô màu, xếp hình, nghe kể chuyện. Tăng dần thời gian. Không cần ép, cứ biến thành trò chơi. Đây là kỹ năng quyết định con có theo được tiết học hay không.",
+      },
+      {
+        title: "Dạy con biết hỏi và biết nói ra khi có chuyện",
+        detail:
+          "Tập cho con nói những câu cụ thể: cô ơi con muốn đi vệ sinh, cô ơi con chưa hiểu, con không thích bạn làm thế. Đứa trẻ dám nói ra là đứa trẻ ít gặp rắc rối ở trường nhất.",
+      },
+      {
+        title: "Dạy con nhớ tên bố mẹ và số điện thoại",
+        detail:
+          "Tập cho con thuộc lòng họ tên đầy đủ của bố mẹ và ít nhất một số điện thoại. Đồng thời thống nhất rõ ai được đón con, và dặn con không đi theo bất kỳ ai khác kể cả người quen, trừ khi bố mẹ đã báo trước.",
+      },
+      {
+        title: "Điều chỉnh giờ ngủ trước ngày khai giảng vài tuần",
+        detail:
+          "Đẩy giờ đi ngủ và giờ dậy sớm dần, mỗi ngày sớm hơn khoảng 15 phút. Đổi đột ngột vào ngày đầu tiên là công thức chắc chắn cho một tuần đầu mệt mỏi cho cả nhà.",
+      },
+      {
+        title: "Sắm đồ vừa đủ, đừng sắm cho vui",
+        detail:
+          "Cặp nhẹ vừa lưng con, hộp bút đơn giản không nhiều trò, bình nước con tự mở được. Cặp quá nặng và đồ dùng nhiều chi tiết chỉ làm con phân tâm và mỏi lưng. Viết tên con lên mọi món đồ.",
+      },
+      {
+        title: "Không doạ con bằng chuyện đi học",
+        detail:
+          "Tránh những câu kiểu vào lớp 1 là hết được chơi, hay cô giáo nghiêm lắm đấy. Đứa trẻ bước vào lớp với nỗi sợ có sẵn sẽ mất nhiều tháng mới gỡ ra được. Hãy kể về những thứ vui: bạn mới, giờ ra chơi, những thứ con sắp biết làm.",
+      },
+      {
+        title: "Giữ liên lạc với giáo viên trong tháng đầu",
+        detail:
+          "Chào hỏi cô, cho cô biết vài điều về con bạn: cháu nhút nhát, cháu dị ứng thứ này, cháu hay quên đồ. Hỏi cô sau vài tuần: cháu hoà nhập thế nào ạ. Thông tin sớm giúp cả bạn lẫn cô xử lý mọi chuyện nhẹ nhàng hơn.",
+      },
+    ],
+    notes: [
+      "Không cần dạy trước cả chương trình lớp 1. Điều con cần là tự phục vụ được, ngồi tập trung được và dám nói ra khi cần.",
+      "Mốc thời gian tuyển sinh thường ngắn và không giống nhau giữa các địa phương. Gọi hỏi trường trực tiếp thay vì tin vào thông tin truyền miệng trong nhóm phụ huynh.",
+      "Nếu con có bệnh mạn tính, dị ứng thức ăn hay cần dùng thuốc theo chỉ định, hãy báo rõ bằng văn bản cho nhà trường ngay từ đầu năm học.",
+      "Thủ tục, giấy tờ và quy định phân tuyến thay đổi theo từng năm và tuỳ nơi — hỏi nhà trường hoặc UBND phường xã cho chắc.",
+    ],
+    faq: [
+      {
+        q: "Con em chưa biết đọc biết viết, vào lớp 1 có theo kịp không?",
+        a: "Chương trình lớp 1 được thiết kế cho trẻ bắt đầu từ đầu. Điều quan trọng hơn là con có tập trung được và dám hỏi khi chưa hiểu hay không. Nếu sau vài tháng con vẫn chật vật, hãy trao đổi với giáo viên thay vì tự ép con học thêm ở nhà.",
+      },
+      {
+        q: "Nhà em không đúng tuyến trường em muốn cho con học, làm sao?",
+        a: "Hỏi trường về diện tuyển sinh ngoài tuyến và điều kiện cụ thể, thường phụ thuộc vào chỉ tiêu còn lại. Đồng thời chuẩn bị phương án ở trường tuyến để không bị động khi hết chỉ tiêu.",
+      },
+      {
+        q: "Con em khóc không chịu vào lớp trong tuần đầu, em nên làm gì?",
+        a: "Chia tay dứt khoát và ngắn gọn ở cổng trường, đúng như đã hứa với con, rồi đi. Kéo dài việc chia tay làm con khóc lâu hơn. Trao đổi với cô để cô để mắt tới con trong ngày, và hỏi lại buổi chiều xem con ổn không.",
+      },
+      {
+        q: "Có nên cho con đi học thêm trước khi vào lớp 1 không?",
+        a: "Không bắt buộc, và học trước quá nhiều đôi khi khiến con chán khi vào lớp vì thấy quá quen thuộc. Nếu muốn chuẩn bị, hãy đầu tư vào kỹ năng tự phục vụ, khả năng tập trung và thói quen đọc sách cùng bố mẹ.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "con-bi-bat-nat-o-truong-cha-me-lam-gi",
+    title: "Con bị bắt nạt ở trường: cha mẹ làm gì cho đúng",
+    excerpt:
+      "Con về nhà lầm lì, mất đồ liên tục, viện cớ không muốn đi học. Điều tệ nhất bạn có thể làm lúc này là nổi giận. Đây là trình tự bình tĩnh và hiệu quả.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Trước hết hãy nghe con nói mà không cắt lời, không tra hỏi dồn dập, và tuyệt đối không trách con sao không đánh lại. Ghi lại sự việc cụ thể theo ngày giờ. Sau đó làm việc với giáo viên chủ nhiệm bằng thái độ hợp tác và bằng sự việc, đề nghị một kế hoạch cụ thể và một mốc kiểm tra lại. Không tự tìm gặp đứa trẻ kia hay gia đình họ để nói chuyện. Nếu tình trạng không đổi sau mốc đã hẹn, chuyển lên ban giám hiệu bằng văn bản.",
+    prepare: [
+      "Một khoảng thời gian yên tĩnh với con, không tivi, không điện thoại, không anh chị em bên cạnh",
+      "Sổ hoặc ghi chú điện thoại để ghi lại từng sự việc: ngày, giờ, ai, làm gì, có ai chứng kiến",
+      "Ảnh chụp bằng chứng nếu có: đồ bị hỏng, vết trên người, tin nhắn trên mạng",
+      "Số điện thoại và email của giáo viên chủ nhiệm",
+      "Sự bình tĩnh của chính bạn — đây là thứ khó chuẩn bị nhất và cũng quan trọng nhất",
+    ],
+    steps: [
+      {
+        title: "Nhận ra dấu hiệu sớm",
+        detail:
+          "Con bỗng không muốn đi học, hay kêu đau bụng đau đầu vào buổi sáng, mất đồ dùng liên tục, đồ đạc bị hỏng, ngủ kém, ít kể chuyện ở lớp hơn hẳn trước. Một dấu hiệu thì chưa nói lên gì, nhưng vài dấu hiệu cùng lúc thì đáng để hỏi han.",
+      },
+      {
+        title: "Mở lời bằng câu hỏi nhẹ, không tra khảo",
+        detail:
+          "Thay vì hỏi có đứa nào bắt nạt con không, hãy hỏi những câu dễ trả lời: hôm nay ở lớp con ngồi cạnh ai, giờ ra chơi con chơi với bạn nào, có chuyện gì làm con thấy khó chịu không. Trẻ thường mở lòng khi được hỏi cụ thể chứ không phải khi bị chất vấn.",
+      },
+      {
+        title: "Nghe hết và giữ mặt bình thản",
+        detail:
+          "Đây là bước khó nhất. Nếu bạn bật khóc hoặc nổi giận, con sẽ học được rằng kể chuyện này làm bố mẹ đau và lần sau con sẽ giấu. Cứ nghe, gật đầu, hỏi thêm: rồi sao nữa con, việc đó xảy ra bao lâu rồi.",
+      },
+      {
+        title: "Nói rõ với con ba câu quan trọng",
+        detail:
+          "Con nói ra là đúng. Đây không phải lỗi của con. Bố mẹ sẽ cùng con giải quyết chứ không bỏ mặc. Ba câu này gỡ được phần lớn gánh nặng mà một đứa trẻ bị bắt nạt đang mang.",
+      },
+      {
+        title: "Tuyệt đối không trách con",
+        detail:
+          "Tránh những câu như sao con không đánh lại, sao con hiền thế, chắc con cũng có làm gì nó. Những câu này khiến con thấy mình có lỗi vì đã bị bắt nạt, và đảm bảo lần sau con sẽ không kể gì nữa.",
+      },
+      {
+        title: "Ghi lại sự việc bằng dữ kiện cụ thể",
+        detail:
+          "Ngày nào, giờ nào, ở đâu, ai làm gì, có ai nhìn thấy. Chụp ảnh đồ hỏng hoặc dấu vết. Khi làm việc với nhà trường, một danh sách sự việc cụ thể có sức thuyết phục hơn hẳn câu con tôi bị bắt nạt suốt.",
+      },
+      {
+        title: "Hỏi con muốn bố mẹ làm gì trước khi hành động",
+        detail:
+          "Nhiều đứa trẻ sợ bố mẹ báo trường vì lo bị trả thù. Cứ hỏi: con thấy nếu bố mẹ nói với cô thì sao. Nghe lo lắng của con và bàn cách cùng nhau. Con được tham gia quyết định thì sẽ hợp tác thay vì giấu diếm.",
+      },
+      {
+        title: "Gặp giáo viên chủ nhiệm với thái độ hợp tác",
+        detail:
+          "Đặt lịch hẹn riêng, đừng nói chuyện này ở cổng trường. Mở đầu bằng: em muốn trao đổi với cô về một việc và em mong cô cùng em tìm cách. Trình bày bằng sự việc đã ghi. Giáo viên là đồng minh quan trọng nhất của bạn, đừng biến họ thành đối thủ ngay từ câu đầu tiên.",
+      },
+      {
+        title: "Đề nghị một kế hoạch cụ thể và một mốc kiểm tra",
+        detail:
+          "Đừng dừng ở việc kể xong rồi về. Hỏi: cô dự định xử lý thế nào, mình có thể sắp xếp chỗ ngồi khác không, cô để mắt giúp em giờ ra chơi được không, và hai tuần nữa em xin gặp lại cô để xem tình hình thế nào ạ. Có mốc thì việc mới chạy.",
+      },
+      {
+        title: "Không tự đi tìm đứa trẻ kia hoặc gia đình họ",
+        detail:
+          "Người lớn tới nói chuyện trực tiếp với một đứa trẻ khác gần như luôn làm mọi thứ tệ hơn, và có thể khiến bạn từ vị thế đúng thành người có lỗi. Mọi việc nên đi qua nhà trường.",
+      },
+      {
+        title: "Dạy con vài câu và vài cách phản ứng",
+        detail:
+          "Tập với con câu ngắn nói dứt khoát rồi bỏ đi: dừng lại, mình không thích thế. Dạy con đi cùng bạn, ở gần chỗ có người lớn vào giờ ra chơi, và tìm cô giáo ngay khi có chuyện. Mục tiêu không phải là đánh lại mà là không ở một mình.",
+      },
+      {
+        title: "Nếu không chuyển biến, chuyển lên ban giám hiệu bằng văn bản",
+        detail:
+          "Sau mốc đã hẹn mà tình hình vẫn thế, gửi đơn hoặc email tới ban giám hiệu, nêu sự việc theo ngày, những gì đã trao đổi với giáo viên, và đề nghị cụ thể. Giữ lại bản đã gửi. Trường hợp con bị thương hoặc bị đe doạ nghiêm trọng, hãy đưa con đi khám để có giấy tờ và cân nhắc trình báo cơ quan chức năng.",
+      },
+    ],
+    notes: [
+      "Bắt nạt trên mạng cũng là bắt nạt. Chụp màn hình trước khi chặn hoặc xoá, vì đó là bằng chứng duy nhất bạn có.",
+      "Hãy để mắt cả chiều ngược lại: nếu con bạn là người bắt nạt bạn khác, xử lý sớm và bình tĩnh sẽ tốt cho con hơn nhiều so với việc bênh con vô điều kiện.",
+      "Nếu con có dấu hiệu buồn kéo dài, sợ đi học, ngủ kém nhiều tuần, hoặc nói những câu tiêu cực về bản thân, hãy tìm tới chuyên gia tâm lý học đường hoặc bác sĩ. Đây không phải chuyện tự qua đi.",
+      "Giữ liên lạc đều với giáo viên ngay cả khi mọi việc đã ổn. Trẻ bị bắt nạt một lần có nguy cơ gặp lại tình huống tương tự, và việc theo dõi tiếp giúp phát hiện sớm.",
+    ],
+    faq: [
+      {
+        q: "Con em không chịu kể gì cả dù em biết có chuyện, làm sao?",
+        a: "Đừng ép. Nói với con rằng bố mẹ luôn ở đây và con kể lúc nào cũng được, rồi tạo những khoảng thời gian dễ nói chuyện như lúc đi xe, lúc nấu ăn cùng. Trẻ hay mở lời khi không phải nhìn thẳng vào mặt bố mẹ. Nếu vẫn không được, nhờ giáo viên hoặc một người lớn con tin tưởng.",
+      },
+      {
+        q: "Em có nên dạy con đánh lại không?",
+        a: "Đánh lại thường làm con gặp rắc rối kỷ luật và không giải quyết được gốc, nhất là khi bên kia đông hơn hoặc lớn hơn. Điều cần dạy là nói dứt khoát, rời khỏi tình huống, và báo người lớn ngay. Con vẫn có quyền tự vệ khi bị tấn công, nhưng đó là phương án cuối chứ không phải cách xử lý.",
+      },
+      {
+        q: "Giáo viên nói chỉ là trẻ con trêu nhau thôi, em phải làm sao?",
+        a: "Đưa danh sách sự việc cụ thể đã ghi, chỉ ra tính lặp đi lặp lại và tác động lên con: con bỏ ăn, sợ đi học. Nếu vẫn không được ghi nhận, chuyển lên ban giám hiệu bằng văn bản. Có giấy tờ thì mọi việc được xử lý khác hẳn.",
+      },
+      {
+        q: "Có nên chuyển trường cho con không?",
+        a: "Đây là phương án cuối, sau khi đã thử làm việc với nhà trường. Chuyển trường giải quyết được tình huống trước mắt nhưng không dạy con cách xử lý, và bản thân việc chuyển cũng là một xáo trộn lớn. Nếu môi trường thực sự không an toàn cho con thì chuyển là đúng — hãy quyết định cùng con chứ không quyết thay con.",
+      },
+    ],
+    sources: [],
+  },
+
+  {
+    slug: "cho-con-di-xe-may-va-qua-duong-an-toan",
+    title: "Chở con đi xe máy và dạy con qua đường an toàn",
+    excerpt:
+      "Đoạn đường từ nhà tới trường là quãng nguy hiểm nhất trong ngày của con. Vài thói quen nhỏ, làm đều đặn, thay đổi hẳn mức độ an toàn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Ba việc quan trọng nhất: mũ bảo hiểm đúng cỡ trẻ em và luôn cài quai, chở đúng số người và cho con ngồi ở tư thế an toàn thay vì đứng trước xe, và dạy con nguyên tắc qua đường bằng cách đi cùng con nhiều lần chứ không chỉ dặn miệng. Với ô tô, trẻ nhỏ cần ngồi ghế an toàn phù hợp lứa tuổi ở hàng ghế sau. Tập cho con thói quen dừng lại ở mép đường, nhìn cả hai chiều, và chỉ bước khi xe đã thực sự dừng.",
+    prepare: [
+      "Mũ bảo hiểm cỡ trẻ em, vừa đầu con, còn nguyên vẹn — mũ quá rộng gần như vô tác dụng",
+      "Áo sáng màu hoặc có dải phản quang cho những hôm đi sớm về muộn",
+      "Ghế an toàn phù hợp độ tuổi và cân nặng nếu nhà bạn đi ô tô",
+      "Một buổi rảnh để đi bộ cùng con trên đúng đoạn đường con hay đi",
+      "Sự kiên nhẫn để nhắc lại nhiều lần — trẻ học bằng lặp lại, không phải bằng một bài giảng",
+    ],
+    steps: [
+      {
+        title: "Chọn mũ bảo hiểm vừa đầu con",
+        detail:
+          "Đội vào lắc nhẹ đầu, mũ không được xoay hay trượt. Quai cài phải vừa khít, đút được khoảng một ngón tay giữa quai và cằm. Đừng mua mũ rộng để dùng được lâu — mũ rộng bảo vệ rất kém.",
+      },
+      {
+        title: "Cài quai mọi lúc, kể cả đi gần",
+        detail:
+          "Phần lớn tai nạn xảy ra ở quãng đường ngắn quen thuộc. Mũ không cài quai thì văng ra ngay khi va chạm. Biến việc cài quai thành thói quen cố định trước khi nổ máy, làm đều tới mức con tự nhắc bạn.",
+      },
+      {
+        title: "Cho con ngồi phía sau và ngồi đúng tư thế",
+        detail:
+          "Đứng hoặc ngồi phía trước xe rất nguy hiểm vì con là bộ phận va chạm đầu tiên. Con đủ lớn để ngồi sau thì phải chống được chân lên gác chân và ôm được người lái. Dùng đai an toàn dành cho trẻ nếu con hay ngủ gật trên xe.",
+      },
+      {
+        title: "Chở đúng số người và đi tốc độ phù hợp",
+        detail:
+          "Xe chở quá số người thì mất cân bằng và phanh kém hẳn. Đi trong khu đông dân và gần cổng trường thì chậm lại — đây là nơi trẻ con lao ra bất ngờ nhiều nhất.",
+      },
+      {
+        title: "Dùng ghế an toàn khi đi ô tô",
+        detail:
+          "Trẻ nhỏ ngồi ghế an toàn phù hợp lứa tuổi và cân nặng, đặt ở hàng ghế sau. Không bế con ngồi ghế trước, kể cả đi gần. Quy định cụ thể về độ tuổi và chiều cao thay đổi theo thời điểm — tra quy định hiện hành cho chắc.",
+      },
+      {
+        title: "Đi bộ cùng con trên đúng đoạn đường con hay đi",
+        detail:
+          "Dặn miệng ở nhà không hiệu quả bằng đi thật. Đi cùng con vài lần, vừa đi vừa chỉ: chỗ này khuất tầm nhìn, chỗ này xe hay rẽ nhanh, chỗ này mình qua đường được. Trẻ ghi nhớ bằng địa điểm cụ thể.",
+      },
+      {
+        title: "Dạy con quy tắc dừng lại và nhìn",
+        detail:
+          "Dừng hẳn ở mép đường, nhìn trái, nhìn phải, nhìn lại trái lần nữa, lắng nghe tiếng xe. Chỉ bước khi chắc chắn. Cho con tự quyết định lúc nào qua trong khi bạn đứng cạnh, để con luyện phán đoán chứ không chỉ nắm tay bố mẹ đi theo.",
+      },
+      {
+        title: "Dạy con không tin vào tín hiệu, tin vào chiếc xe đã dừng",
+        detail:
+          "Đèn xanh cho người đi bộ không có nghĩa mọi xe đều dừng. Dạy con nhìn vào xe và người lái, chỉ bước khi xe thực sự dừng lại. Đây là điểm khác biệt lớn nhất giữa lý thuyết và đường phố thật.",
+      },
+      {
+        title: "Dạy con giơ tay và đi thẳng, không chạy",
+        detail:
+          "Giơ tay để người lái xe nhìn thấy, đi với tốc độ đều và dứt khoát. Chạy vụt qua đường dễ vấp ngã và khiến người lái không kịp phán đoán. Vừa qua đường vừa nhìn điện thoại thì tuyệt đối không.",
+      },
+      {
+        title: "Đặt quy tắc rõ ràng ở cổng trường",
+        detail:
+          "Thống nhất một điểm hẹn cố định, con đứng đợi ở đó chứ không tự băng qua đường sang tìm bố mẹ. Nói rõ với con: nếu bố mẹ đến muộn, con cứ đứng yên ở chỗ hẹn, đừng đi đâu và đừng đi theo ai.",
+      },
+      {
+        title: "Làm gương, vì con sao chép chứ không nghe lời",
+        detail:
+          "Bạn vượt đèn đỏ một lần thì mười lời dặn thành vô nghĩa. Đội mũ, dừng đèn đỏ, đi đúng phần đường, không dùng điện thoại khi lái — con nhìn bạn làm và học chính xác điều đó.",
+      },
+      {
+        title: "Nhắc lại đều đặn và nâng dần mức tự lập",
+        detail:
+          "Trẻ nhỏ cần người lớn nắm tay. Lớn hơn thì để con đi trước còn bạn đi sau quan sát. Chỉ cho con tự đi khi bạn đã thấy con phán đoán tốt nhiều lần trên đúng tuyến đường đó, và bắt đầu bằng quãng ngắn.",
+      },
+    ],
+    notes: [
+      "Mũ bảo hiểm đã từng va đập mạnh thì nên thay, kể cả khi nhìn bên ngoài vẫn lành. Lớp xốp bên trong đã hỏng thì mũ không còn tác dụng bảo vệ.",
+      "Trẻ dưới khoảng 10 tuổi thường chưa ước lượng chính xác tốc độ và khoảng cách của xe đang tới. Đừng để con tự qua đường lớn chỉ vì con nói con làm được.",
+      "Đừng doạ con bằng những câu kiểu ra đường là chết. Mục tiêu là con biết làm gì, chứ không phải con sợ đường. Hãy dạy bằng việc làm cụ thể và lặp lại.",
+      "Quy định về đội mũ bảo hiểm cho trẻ, ghế an toàn trên ô tô và mức xử phạt thay đổi theo thời điểm — tra quy định hiện hành cho chắc.",
+    ],
+    faq: [
+      {
+        q: "Con em nhất định không chịu đội mũ, làm sao bây giờ?",
+        a: "Cho con tự chọn mũ mình thích trong số mũ đạt chuẩn, và đặt quy tắc bất di bất dịch: chưa đội mũ thì xe chưa nổ máy. Không tranh cãi, không thoả hiệp lần nào cả — chỉ cần nhượng bộ một lần là cuộc chiến quay lại từ đầu.",
+      },
+      {
+        q: "Mấy tuổi thì cho con tự đi bộ đến trường được?",
+        a: "Không có mốc tuổi chung, vì phụ thuộc vào quãng đường, mật độ xe và chính đứa trẻ. Cách đánh giá thực tế: đi cùng con nhiều lần và để con dẫn đường; khi con phán đoán đúng liên tục trong nhiều buổi thì mới cân nhắc, và bắt đầu bằng đoạn ngắn nhất.",
+      },
+      {
+        q: "Con em hay ngủ gật khi ngồi sau xe máy, có cách nào không?",
+        a: "Dùng đai an toàn dành cho trẻ để cố định con vào người lái, và tránh những chuyến đi dài vào giờ con hay buồn ngủ. Nếu con đã ngủ, dừng xe ở chỗ an toàn để chỉnh lại tư thế chứ đừng vừa chạy vừa xoay người giữ con.",
+      },
+      {
+        q: "Đi ô tô quãng ngắn thì có cần ghế an toàn không?",
+        a: "Có. Phần lớn va chạm xảy ra ở quãng đường ngắn quen thuộc và ở tốc độ không cao. Bế con trên tay trong ô tô là tư thế nguy hiểm nhất khi phanh gấp.",
+      },
+    ],
+    sources: [],
+  },
 ];
