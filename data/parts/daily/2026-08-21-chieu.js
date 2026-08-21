@@ -1040,4 +1040,539 @@ export const day20260821chieu = [
     ],
     sources: [],
   },
+  {
+    slug: "tre-hoc-di-vat-va-sac-phong-ngua-va-xu-tri",
+    title: "Trẻ hóc dị vật: phòng trước, và làm gì trong phút đầu tiên",
+    excerpt:
+      "Hóc dị vật xảy ra trong im lặng — trẻ không kêu được. Đọc trước một lần để nếu ngày nào đó gặp, bạn không đứng chết trân.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Trẻ còn ho được, còn khóc được thì đường thở chưa tắc hẳn — khuyến khích con ho, không móc tay vào miệng, và đưa đi khám ngay. Trẻ không ho được, không kêu được, mặt tím tái, ôm cổ là tắc nghẽn hoàn toàn: gọi cấp cứu 115 ngay lập tức và bắt đầu sơ cứu trong lúc chờ. Đây là tình huống tính bằng giây, nên việc quan trọng nhất bạn làm được hôm nay là phòng ngừa và đi học một buổi sơ cứu thực hành.",
+    prepare: [
+      "Số cấp cứu 115 và số bệnh viện gần nhà, lưu sẵn và dán lên tủ lạnh",
+      "Một buổi học sơ cứu có thực hành — đọc chữ không thay được việc tập bằng tay",
+      "Danh sách những món trong nhà cần cất khỏi tầm tay trẻ dưới ba tuổi",
+      "Ghế ăn có đai an toàn, để con ngồi yên khi ăn thay vì vừa chạy vừa nhai",
+      "Người lớn trong nhà, gồm cả ông bà và người giúp việc, cùng biết những nguyên tắc này",
+    ],
+    steps: [
+      {
+        title: "Biết trước những thứ hay gây hóc nhất",
+        detail:
+          "Hạt tròn cứng, nho nguyên quả, xúc xích cắt khoanh dày, kẹo cứng, thạch rau câu, bỏng ngô, cà rốt sống. Đồ chơi nhỏ, pin cúc áo, nắp bút, đồng xu. Ghi nhớ danh sách này còn hữu ích hơn mọi kỹ thuật sơ cứu.",
+      },
+      {
+        title: "Cắt nhỏ và làm mềm thức ăn cho trẻ dưới bốn tuổi",
+        detail:
+          "Nho và cà chua bi cắt dọc làm tư, xúc xích cắt dọc rồi mới cắt khúc, tránh để miếng tròn vừa khít đường thở. Trẻ nhỏ chưa có đủ răng hàm để nghiền, đây không phải chuyện cẩn thận thái quá.",
+      },
+      {
+        title: "Bắt buộc ngồi yên khi ăn",
+        detail:
+          "Không cho con vừa chạy vừa ăn, không đút khi con đang cười, đang khóc hay đang nằm. Không dọa hay ép ăn khiến trẻ khóc rồi hít vào — rất nhiều ca hóc xảy ra đúng lúc đó.",
+      },
+      {
+        title: "Cất kỹ pin cúc áo và nam châm nhỏ",
+        detail:
+          "Pin cúc áo nuốt phải có thể gây tổn thương nghiêm trọng rất nhanh, kể cả khi trẻ vẫn thở bình thường. Nghi ngờ con nuốt pin thì đưa đi viện NGAY, không chờ theo dõi ở nhà.",
+      },
+      {
+        title: "Nhận biết dấu hiệu tắc nghẽn hoàn toàn",
+        detail:
+          "Trẻ đột ngột im bặt khi đang ăn hoặc đang chơi, hai tay ôm cổ, mặt đỏ rồi chuyển tím, không ho ra tiếng, không khóc được. Khác hẳn với ho sặc sụa ầm ĩ. Im lặng mới là dấu hiệu nguy hiểm.",
+      },
+      {
+        title: "Gọi 115 trước hoặc nhờ người khác gọi",
+        detail:
+          "Có người bên cạnh thì hét lên: “Gọi 115 ngay, con hóc rồi.” Chỉ có một mình thì bật loa ngoài rồi vừa gọi vừa sơ cứu. Đừng bỏ hết để bế con chạy ra xe khi chưa ai gọi.",
+      },
+      {
+        title: "Trẻ còn ho được thì để con ho",
+        detail:
+          "Ho là cơ chế tống dị vật hiệu quả nhất. Đứng cạnh trấn an, khuyến khích con ho mạnh. TUYỆT ĐỐI không đưa tay móc họng con khi không nhìn thấy rõ dị vật — thao tác đó thường đẩy dị vật vào sâu hơn.",
+      },
+      {
+        title: "Tắc nghẽn hoàn toàn: sơ cứu ngay trong lúc chờ",
+        detail:
+          "Với trẻ nhỏ, kỹ thuật cơ bản là vỗ lưng giữa hai bả vai kết hợp ép ngực hoặc ép bụng tuỳ độ tuổi, với tư thế đầu thấp hơn thân. Kỹ thuật này phải được học bằng tay chứ không phải bằng chữ — đây chính là lý do bạn nên đăng ký một buổi thực hành sơ cứu trước khi cần tới nó.",
+      },
+      {
+        title: "Không dốc ngược và rung lắc",
+        detail:
+          "Xách ngược chân trẻ dốc xuống rồi lắc là cách nhiều người vẫn làm theo lời truyền miệng, nhưng có thể gây chấn thương và làm mất thời gian vàng. Cũng không vuốt ngực, không cho uống nước, không cho ăn cơm để trôi dị vật.",
+      },
+      {
+        title: "Vẫn phải đi viện kể cả khi con đã hết ho",
+        detail:
+          "Dị vật ra được rồi vẫn cần bác sĩ kiểm tra, vì mảnh nhỏ có thể còn sót trong đường thở và gây viêm phổi vài ngày sau. Nói rõ với bác sĩ con hóc thứ gì, lúc mấy giờ, kéo dài bao lâu.",
+      },
+      {
+        title: "Đi học sơ cứu thật, một buổi thôi",
+        detail:
+          "Nhiều bệnh viện nhi và tổ chức chữ thập đỏ có lớp sơ cứu cho cha mẹ, thực hành trên mô hình. Rủ luôn ông bà và người trông trẻ đi cùng. Đây là việc cụ thể nhất bạn làm được sau khi đọc bài này.",
+      },
+      {
+        title: "Rà lại nhà một lượt tối nay",
+        detail:
+          "Bò xuống ngang tầm mắt con và nhìn quanh phòng: cái gì lọt vừa lõi giấy vệ sinh là lọt vừa miệng trẻ. Nhặt hết những thứ đó lên cao. Mất mười lăm phút, nhưng giải quyết được phần lớn rủi ro.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA ĐI VIỆN NGAY hoặc gọi 115: trẻ KHÔNG THỞ ĐƯỢC, không khóc được, không ho ra tiếng; MÔI HOẶC MẶT TÍM TÁI; LỊM ĐI, GỌI KHÔNG PHẢN ỨNG; thở rít, khò khè kéo dài sau khi bị sặc; NGHI NUỐT PIN CÚC ÁO, NAM CHÂM hoặc VẬT SẮC NHỌN; ho dai dẳng hoặc sốt trong vài ngày sau một lần bị sặc.",
+      "Đây không phải tư vấn y khoa. Bài viết giúp bạn nhận biết và chuẩn bị trước, không thay thế việc học sơ cứu có thực hành và không thay thế bác sĩ.",
+      "Trẻ dưới ba tuổi là nhóm nguy cơ cao nhất, nhưng trẻ lớn vẫn hóc — thường do vừa ăn vừa đùa. Nguyên tắc ngồi yên khi ăn áp dụng cho cả nhà.",
+      "Dặn rõ ông bà và người trông trẻ đừng cho trẻ nhỏ ăn hạt, thạch, kẹo cứng. Nói trước một lần, nhẹ nhàng nhưng dứt khoát, còn hơn để xảy ra chuyện rồi trách nhau.",
+    ],
+    faq: [
+      {
+        q: "Con ho sặc sụa vài giây rồi hết, có cần đi khám không?",
+        a: "Nếu sau đó con chơi bình thường, thở đều, không ho thêm thì thường theo dõi tại nhà là được. Nhưng nếu con ho dai dẳng, thở khò khè, hoặc sốt trong những ngày sau, hãy đưa đi khám và kể rõ chuyện bị sặc.",
+      },
+      {
+        q: "Có nên vỗ lưng cho mọi trường hợp không?",
+        a: "Không. Khi trẻ vẫn ho được và khóc được thì việc cần làm là để con tự ho và đưa đi khám. Các thao tác sơ cứu chỉ dành cho tình huống trẻ không thở được, và nên được học thực hành trước.",
+      },
+      {
+        q: "Con nuốt phải đồng xu nhưng vẫn chơi bình thường thì sao?",
+        a: "Vẫn cần đưa đi khám để bác sĩ xác định vật đang ở đâu, kể cả khi trẻ không có biểu hiện gì. Riêng pin cúc áo và nam châm là trường hợp phải đi ngay lập tức, không chờ đợi.",
+      },
+      {
+        q: "Học sơ cứu ở đâu?",
+        a: "Hỏi bệnh viện nhi tại địa phương, hội chữ thập đỏ, hoặc trường mầm non của con — nhiều trường có tổ chức buổi hướng dẫn cho phụ huynh. Chọn lớp có thực hành trên mô hình, đừng chỉ xem video.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "lam-ho-chieu-cho-con",
+    title: "Làm hộ chiếu cho con: giấy tờ, ảnh, và những chỗ hay bị trả hồ sơ",
+    excerpt:
+      "Hộ chiếu cho trẻ không giống của người lớn: khác về thời hạn, khác về ảnh, và khác ở chỗ ai được ký thay con.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Trẻ em làm hộ chiếu riêng theo hồ sơ do cha mẹ hoặc người giám hộ đứng ra khai và ký thay. Chuẩn bị giấy khai sinh, căn cước của cha mẹ, ảnh đúng chuẩn nền trắng, và tờ khai theo mẫu có xác nhận nếu thuộc diện phải xác nhận. Có thể nộp trực tuyến qua cổng dịch vụ công rồi tới cơ quan quản lý xuất nhập cảnh để hoàn tất. Hộ chiếu cấp cho trẻ nhỏ có thời hạn ngắn hơn của người lớn, nên đừng ngạc nhiên khi thấy hạn chỉ vài năm.",
+    prepare: [
+      "Giấy khai sinh của con, bản gốc và một bản sao",
+      "Căn cước công dân của cha hoặc mẹ đứng ra làm hồ sơ, còn hạn",
+      "Ảnh của con đúng chuẩn hộ chiếu, nền trắng, chụp gần đây",
+      "Tài khoản định danh VNeID của cha mẹ, nếu nộp hồ sơ trực tuyến",
+      "Tiền lệ phí và một buổi rảnh, tránh đợt cao điểm trước kỳ nghỉ hè",
+    ],
+    steps: [
+      {
+        title: "Gọi hỏi cơ quan xuất nhập cảnh trước một cuộc",
+        detail:
+          "Hỏi: “Em muốn làm hộ chiếu cho con nhỏ thì cần mang những giấy tờ gì, nộp trực tuyến trước được không ạ.” Yêu cầu về giấy tờ có thay đổi theo thời điểm và có khác nhau giữa các nơi, hỏi một cuộc đỡ đi hai lần.",
+      },
+      {
+        title: "Chuẩn bị giấy khai sinh cho chuẩn",
+        detail:
+          "Mang bản gốc để đối chiếu và bản sao để nộp. Tên con trên giấy khai sinh phải trùng khớp tuyệt đối với tên khai trong hồ sơ, kể cả dấu. Sai một dấu là hồ sơ bị trả.",
+      },
+      {
+        title: "Chụp ảnh đúng chuẩn — chỗ hay hỏng nhất",
+        detail:
+          "Nền trắng, mặt nhìn thẳng, không đội mũ, không che tóc lên trán, hai tai lộ rõ, không cười hở răng. Với em bé, ra tiệm ảnh nói rõ là chụp hộ chiếu cho trẻ — họ có cách đặt bé nằm trên nền trắng. Ảnh chụp bằng điện thoại ở nhà rất hay bị loại.",
+      },
+      {
+        title: "Điền tờ khai theo mẫu",
+        detail:
+          "Cha mẹ khai và ký thay con. Điền thông tin con theo giấy khai sinh, thông tin cha mẹ theo căn cước. Chữ viết rõ ràng, không tẩy xoá — tờ khai bị gạch xoá thường phải viết lại từ đầu.",
+      },
+      {
+        title: "Nộp trực tuyến trước nếu nơi bạn ở có hỗ trợ",
+        detail:
+          "Vào Cổng dịch vụ công và tìm dịch vụ cấp hộ chiếu phổ thông, đăng nhập bằng VNeID của cha mẹ. Khai trước rồi tới nộp bản giấy sẽ nhanh hơn nhiều so với ngồi khai tại chỗ giữa lúc đông người.",
+      },
+      {
+        title: "Đưa con đi cùng khi nộp hồ sơ",
+        detail:
+          "Nhiều nơi yêu cầu có mặt trẻ để đối chiếu. Chọn khung giờ con tỉnh táo, mang theo nước và đồ ăn nhẹ, vì chờ đợi với trẻ nhỏ là phần mệt nhất của cả thủ tục.",
+      },
+      {
+        title: "Trường hợp cha mẹ ly hôn hoặc chỉ một người đi làm",
+        detail:
+          "Hỏi rõ nơi tiếp nhận xem có cần văn bản đồng ý của người còn lại hay giấy tờ về quyền nuôi con không. Đây là điểm hay vướng nhất, nên gọi hỏi trước thay vì tới nơi mới biết.",
+      },
+      {
+        title: "Đóng lệ phí và giữ biên lai",
+        detail:
+          "Hỏi rõ số tiền và cách nộp. Mức lệ phí thay đổi theo quy định từng thời kỳ và khác nhau giữa cấp thường và cấp nhanh. Giữ biên lai cùng giấy hẹn trong một túi hồ sơ.",
+      },
+      {
+        title: "Đăng ký nhận kết quả qua bưu điện",
+        detail:
+          "Bước nhỏ mà tiết kiệm cả buổi đi lại. Ghi địa chỉ nơi bạn thật sự đang ở và số điện thoại luôn nghe được.",
+      },
+      {
+        title: "Nhận hộ chiếu và soi từng dòng",
+        detail:
+          "Kiểm tra họ tên, ngày sinh, giới tính, số hộ chiếu và ngày hết hạn. Phát hiện sai thì báo lại ngay trong lúc còn ở quầy hoặc liên hệ sớm nhất có thể — sai sót phát hiện muộn xử lý rất phiền.",
+      },
+      {
+        title: "Chụp lưu và cất kỹ",
+        detail:
+          "Chụp trang thông tin lưu trong máy và gửi vào email của chính mình. Khi đi nước ngoài mà mất hộ chiếu, có ảnh này thì việc xin giấy tờ thay thế nhanh hơn hẳn.",
+      },
+      {
+        title: "Đặt nhắc trước ngày hết hạn sáu tháng",
+        detail:
+          "Hộ chiếu trẻ em hạn ngắn, và nhiều nước yêu cầu hộ chiếu còn hạn tối thiểu sáu tháng khi nhập cảnh. Đặt lịch nhắc trong điện thoại ngay hôm nhận, đừng tin vào trí nhớ.",
+      },
+    ],
+    notes: [
+      "Thời hạn hộ chiếu cấp cho trẻ nhỏ ngắn hơn của người lớn, và quy định cụ thể có thay đổi theo từng thời kỳ — hỏi cơ quan xuất nhập cảnh để biết con bạn thuộc diện nào.",
+      "Đi du lịch nước ngoài còn cần visa của nước đến và đôi khi cần giấy tờ chứng minh quan hệ cha con, mẹ con khi chỉ một người đưa trẻ đi. Tìm hiểu yêu cầu của nước đến từ sớm.",
+      "Đừng nhờ dịch vụ trôi nổi hứa làm nhanh trên mạng. Thủ tục này cha mẹ tự làm được, và đưa giấy khai sinh cùng căn cước cho người lạ là rủi ro không đáng có.",
+      "Ảnh bị loại là lý do trả hồ sơ phổ biến nhất. Ra tiệm ảnh có kinh nghiệm chụp hộ chiếu cho trẻ, tốn thêm chút tiền nhưng chắc chắn.",
+    ],
+    faq: [
+      {
+        q: "Trẻ sơ sinh làm hộ chiếu được không?",
+        a: "Được, trẻ ở mọi độ tuổi đều có thể được cấp hộ chiếu riêng, do cha mẹ hoặc người giám hộ khai và ký thay. Phần khó nhất thường chỉ là chụp được tấm ảnh đạt chuẩn.",
+      },
+      {
+        q: "Ông bà đưa cháu đi làm hộ chiếu được không?",
+        a: "Thường phải là cha mẹ hoặc người giám hộ hợp pháp đứng tên hồ sơ. Trường hợp đặc biệt cần giấy tờ chứng minh quyền giám hộ — gọi hỏi cơ quan tiếp nhận trước khi đi.",
+      },
+      {
+        q: "Bao lâu thì có hộ chiếu?",
+        a: "Tuỳ nơi và tuỳ thời điểm, thường tính bằng tuần với hồ sơ nộp theo diện thông thường. Sát kỳ nghỉ hè là lúc đông nhất, nên làm sớm trước chuyến đi ít nhất vài tháng.",
+      },
+      {
+        q: "Con đổi tên hoặc thông tin thay đổi thì sao?",
+        a: "Phải làm lại hộ chiếu theo thông tin mới, mang theo giấy tờ chứng minh việc thay đổi đã được ghi nhận hợp lệ. Đừng đi du lịch với hộ chiếu ghi tên khác giấy khai sinh hiện tại.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "con-di-lac-o-noi-dong-nguoi",
+    title: "Con đi lạc ở nơi đông người: dạy con trước và xử lý khi xảy ra",
+    excerpt:
+      "Trẻ lạc thường chỉ cách bố mẹ vài chục mét. Vấn đề là bé không biết phải làm gì, còn bố mẹ thì mất bình tĩnh.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Dạy con một quy tắc duy nhất, dễ nhớ: lạc thì đứng yên tại chỗ và tìm người mặc đồng phục để nhờ giúp. Trước khi vào nơi đông người, chụp một tấm ảnh con hôm đó và chỉ cho con điểm hẹn. Khi con lạc, hãy hô to tên và mô tả con thật rõ ràng cho người xung quanh, đồng thời báo ngay cho bảo vệ hoặc quầy thông tin để họ phát thông báo và kiểm soát lối ra.",
+    prepare: [
+      "Một tấm ảnh chụp con ngay hôm đó, thấy rõ mặt và bộ quần áo đang mặc",
+      "Vòng tay hoặc thẻ ghi số điện thoại của bố mẹ, đeo cho trẻ nhỏ chưa nhớ được số",
+      "Một câu quy tắc ngắn đã tập với con vài lần ở nhà",
+      "Điểm hẹn cụ thể được chỉ tận nơi ngay khi vừa vào khu vực đông người",
+      "Điện thoại đủ pin và đã lưu số của người đi cùng",
+    ],
+    steps: [
+      {
+        title: "Chụp một tấm ảnh con trước khi vào",
+        detail:
+          "Chụp ngay ở cổng, thấy rõ mặt và trang phục hôm nay. Khi cần mô tả cho bảo vệ, đưa ảnh ra nhanh hơn và chính xác hơn nhiều so với việc bạn cố nhớ con mặc áo màu gì trong lúc hoảng.",
+      },
+      {
+        title: "Dạy con quy tắc đứng yên",
+        detail:
+          "Nói với con bằng ngôn ngữ của trẻ: “Nếu con không thấy mẹ, con đứng yên tại chỗ đó, đừng đi tìm mẹ. Mẹ sẽ quay lại đúng chỗ đó tìm con.” Trẻ chạy đi tìm bố mẹ là lý do khiến khoảng cách xa dần.",
+      },
+      {
+        title: "Dạy con nhận ra ai là người nên nhờ",
+        detail:
+          "Ưu tiên người mặc đồng phục: bảo vệ, nhân viên siêu thị, người bán hàng đứng sau quầy. Nếu không thấy ai, nhờ một người phụ nữ đang đi cùng trẻ con. Dạy con câu cụ thể: “Con bị lạc mẹ, cô giúp con gọi mẹ với ạ.”",
+      },
+      {
+        title: "Tập cho con thuộc số điện thoại",
+        detail:
+          "Biến số điện thoại thành một bài hát hoặc câu vè, tập vài phút mỗi tối. Trẻ chưa thuộc thì đeo vòng tay có ghi số, hoặc viết số vào mặt trong cánh tay bằng bút không phai trước khi đi chơi.",
+      },
+      {
+        title: "Chỉ điểm hẹn ngay khi vừa vào",
+        detail:
+          "Chọn một chỗ dễ thấy và cố định: quầy thông tin, cổng chính, cây thông lớn ở sảnh. Dắt con tới tận nơi, chỉ tay và nói: “Đây là chỗ mình gặp nhau nếu lạc.” Nói suông ở nhà thì con không hình dung được.",
+      },
+      {
+        title: "Cho con mặc màu nổi và dễ nhận",
+        detail:
+          "Áo màu sáng, hoặc chi tiết dễ mô tả. Trong biển người, câu “bé gái áo vàng có mũ đỏ” hiệu quả hơn nhiều so với “bé gái tóc ngắn”.",
+      },
+      {
+        title: "Khi con lạc: hô to tên con và mô tả",
+        detail:
+          "Đừng lặng lẽ chạy vòng quanh. Hô to tên con và nói rõ với những người xung quanh: “Cháu nhà tôi bốn tuổi, áo vàng, quần bò, vừa đứng đây thôi.” Nhiều người cùng nhìn thì cơ hội tìm thấy tăng lên rất nhiều.",
+      },
+      {
+        title: "Báo ngay cho bảo vệ hoặc quầy thông tin",
+        detail:
+          "Đây là việc cần làm trong hai phút đầu, đừng chờ tìm một lúc rồi mới báo. Họ có loa phát thanh, có camera, và có thể kiểm soát các lối ra. Đưa luôn tấm ảnh bạn đã chụp.",
+      },
+      {
+        title: "Cử người ở lại chỗ cũ",
+        detail:
+          "Nếu đi từ hai người lớn trở lên, một người phải đứng nguyên tại nơi con lạc, vì đó là chỗ con được dạy quay lại. Người còn lại đi tìm theo hướng dẫn của bảo vệ.",
+      },
+      {
+        title: "Tìm ở tầm thấp và những nơi trẻ thích",
+        detail:
+          "Trẻ nhỏ khuất sau giá hàng, gầm bàn, quầy đồ chơi, khu vực có màn hình hoạt hình. Cúi xuống mà nhìn — tầm mắt người lớn hay bỏ sót đúng những chỗ đó.",
+      },
+      {
+        title: "Quá mười lăm phút chưa thấy thì báo công an",
+        detail:
+          "Gọi 113 hoặc tới công an gần nhất, cung cấp ảnh và mô tả. Đừng ngại làm to chuyện — báo sớm luôn tốt hơn, và không ai trách bạn nếu sau đó tìm thấy con ở quầy kem.",
+      },
+      {
+        title: "Khi tìm được, ôm con trước đã",
+        detail:
+          "Đừng mắng ngay cả khi bạn vừa trải qua mười phút kinh hoàng. Trẻ bị mắng sau khi lạc sẽ học được rằng lạc là chuyện đáng giấu, và lần sau bé sẽ trốn thay vì nhờ giúp. Khen con vì đã đứng yên, rồi nhắc lại quy tắc nhẹ nhàng.",
+      },
+    ],
+    notes: [
+      "Đừng viết tên con to lên áo, cặp hay bình nước ở nơi ai cũng nhìn thấy. Người lạ gọi đúng tên khiến trẻ tin tưởng ngay. Ghi số điện thoại ở mặt trong quần áo hoặc trong vòng tay thì an toàn hơn.",
+      "Phần lớn trường hợp trẻ đi lạc là do bé mải nhìn thứ gì đó rồi rẽ nhầm hướng, và kết thúc trong vòng vài phút. Giữ bình tĩnh giúp bạn mô tả rõ ràng và tìm nhanh hơn.",
+      "Dạy con rằng người lớn tử tế không bao giờ nhờ trẻ con giúp tìm chó lạc hay dẫn đường. Nếu có ai nhờ như vậy, con nên đi tìm người mặc đồng phục ngay.",
+      "Tập thử một lần ở siêu thị: hỏi con “nếu bây giờ con không thấy mẹ thì con làm gì” và nghe con trả lời. Tập một lần đáng giá hơn dặn mười lần.",
+    ],
+    faq: [
+      {
+        q: "Nên cho con đeo thiết bị định vị không?",
+        a: "Đồng hồ định vị có ích với trẻ lớn hơn, nhưng đừng để nó thay thế việc dạy quy tắc. Pin hết, sóng yếu, máy rơi — lúc đó cái cứu con vẫn là việc bé biết đứng yên và biết nhờ ai.",
+      },
+      {
+        q: "Con quá nhỏ, chưa nói được thì làm sao?",
+        a: "Với trẻ chưa nói rõ, biện pháp chính là phòng ngừa: đeo vòng ghi số điện thoại, mặc màu nổi, và luôn giữ trong tầm tay ở nơi đông người. Địu hoặc xe đẩy vẫn an toàn hơn nắm tay khi đám đông chen lấn.",
+      },
+      {
+        q: "Có nên dạy con sợ người lạ không?",
+        a: "Không nên dạy sợ tất cả người lạ, vì khi lạc thì chính người lạ là người giúp con. Hãy dạy cụ thể ai nên nhờ — người mặc đồng phục, người đứng sau quầy — và điều gì thì không bao giờ làm, như đi theo ai đó tới chỗ khác.",
+      },
+      {
+        q: "Đi chơi công viên nước hay bãi biển thì khác gì?",
+        a: "Rủi ro cao hơn nhiều vì có thêm yếu tố nước và vì trẻ mặc đồ bơi trông giống nhau. Cho con mặc áo phao màu nổi, quy định rõ ranh giới được chơi, và luôn có một người lớn chỉ làm mỗi việc là nhìn trẻ.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "an-toan-trong-nha-cho-tre-nho",
+    title: "Đi một vòng nhà để chống tai nạn cho trẻ nhỏ",
+    excerpt:
+      "Bỏng, ngã, điện giật, đuối nước — phần lớn tai nạn của trẻ dưới năm tuổi xảy ra ngay trong nhà, vào lúc người lớn chỉ quay đi một phút.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Dành một buổi tối bò quanh nhà ở tầm mắt của con và xử lý theo bốn nhóm: nóng, cao, điện, nước. Cất phích nước và bật lửa lên cao, chặn cầu thang và ban công, bịt ổ điện, và không bao giờ để trẻ một mình gần bất kỳ vật chứa nước nào, kể cả xô lau nhà. Cố định tủ kệ vào tường — trẻ leo trèo làm đổ tủ là tai nạn ít người nghĩ tới nhưng rất nặng.",
+    prepare: [
+      "Nút bịt ổ điện, chốt an toàn cho tủ, miếng bọc góc bàn — mua ở cửa hàng đồ trẻ em hoặc trên mạng",
+      "Vài chiếc đai hoặc giá cố định tủ kệ vào tường",
+      "Một cửa chắn cầu thang nếu nhà có tầng",
+      "Hộp có khoá để cất thuốc và hoá chất tẩy rửa",
+      "Số cấp cứu 115 và bệnh viện gần nhất dán lên tủ lạnh",
+    ],
+    steps: [
+      {
+        title: "Bò một vòng quanh nhà ở tầm mắt con",
+        detail:
+          "Nghe buồn cười nhưng đây là bước hiệu quả nhất. Ở độ cao đó bạn sẽ thấy dây điện thò ra, ổ cắm hở, chân bàn kính, cái xô nước sau cánh cửa — những thứ đứng thẳng không bao giờ nhìn thấy.",
+      },
+      {
+        title: "Nhóm nóng: phích nước, bếp, ấm siêu tốc",
+        detail:
+          "Phích nước và ấm điện đặt sát tường, dây điện không thõng xuống mép bàn cho trẻ kéo. Quay cán xoong vào phía trong khi nấu. Không bế con khi đang bưng đồ nóng, và không để bát canh nóng ở mép bàn có khăn trải bàn thò xuống.",
+      },
+      {
+        title: "Nhóm cao: cầu thang, ban công, cửa sổ",
+        detail:
+          "Lắp cửa chắn ở cả đầu và chân cầu thang. Ban công và cửa sổ phải có lưới hoặc song chắn, khoảng cách giữa các song đủ hẹp. Quan trọng: không kê ghế, thùng, chậu cây gần lan can — trẻ leo lên đó là vượt qua mọi rào chắn.",
+      },
+      {
+        title: "Cố định tủ kệ vào tường",
+        detail:
+          "Tủ quần áo, kệ tivi, giá sách đều có thể đổ khi trẻ kéo ngăn ra rồi đu lên. Dùng đai cố định vào tường, mất mười phút mỗi cái. Tivi đặt trên tủ thấp thì bắt giá treo lên tường thay vì để đứng.",
+      },
+      {
+        title: "Nhóm điện: ổ cắm, dây, thiết bị sạc",
+        detail:
+          "Bịt các ổ cắm trong tầm với. Không để dây sạc cắm sẵn thõng xuống sàn, trẻ ngậm đầu dây sạc là tình huống có thật. Ổ cắm ở nơi ẩm như nhà tắm cần đặc biệt chú ý.",
+      },
+      {
+        title: "Nhóm nước: mọi vật chứa nước đều nguy hiểm",
+        detail:
+          "Trẻ nhỏ có thể đuối trong lượng nước rất ít. Đổ hết xô chậu ngay sau khi dùng, đóng nắp bồn cầu, không để chậu nước tắm đầy trong nhà tắm. TUYỆT ĐỐI không rời trẻ dù chỉ một phút khi con đang trong bồn tắm, kể cả để đi lấy khăn.",
+      },
+      {
+        title: "Cất thuốc và hoá chất vào chỗ có khoá",
+        detail:
+          "Không để thuốc trong túi xách vứt trên ghế sofa, không để nước rửa chén hay nước tẩy dưới bồn rửa. Đặc biệt không bao giờ chiết hoá chất sang chai nước ngọt — đây là nguyên nhân của rất nhiều ca ngộ độc ở trẻ.",
+      },
+      {
+        title: "Bọc góc nhọn và chú ý đồ thuỷ tinh",
+        detail:
+          "Bàn kính, góc bàn trà, cạnh tủ ngang tầm đầu con — bọc lại bằng miếng silicon. Trẻ tập đi ngã liên tục, và cùng một cú ngã, va vào góc nhọn khác hẳn ngã xuống sàn.",
+      },
+      {
+        title: "Rà đồ chơi và vật nhỏ",
+        detail:
+          "Bất cứ thứ gì lọt vừa lõi giấy vệ sinh đều lọt vừa miệng trẻ dưới ba tuổi. Kiểm tra đồ chơi có chi tiết rời, pin cúc áo trong điều khiển và đồ chơi phát nhạc — ngăn pin phải có ốc vặn.",
+      },
+      {
+        title: "Chú ý dây rèm và dây điện thõng",
+        detail:
+          "Dây kéo rèm cửa tạo thành vòng là nguy cơ siết cổ. Buộc gọn lên cao hoặc cắt bỏ vòng dây. Cũng gom gọn dây quạt, dây đèn để trẻ không kéo đổ.",
+      },
+      {
+        title: "Dặn cả nhà cùng một quy tắc",
+        detail:
+          "An toàn hỏng ở chỗ mỗi người làm một kiểu. Nói rõ với ông bà và người trông trẻ vài nguyên tắc cứng: không để phích nước dưới đất, không mở cửa ban công, đổ xô nước sau khi dùng. Ít quy tắc nhưng ai cũng nhớ thì tốt hơn một danh sách dài.",
+      },
+      {
+        title: "Kiểm lại mỗi khi con biết thêm kỹ năng mới",
+        detail:
+          "Con biết lẫy, biết bò, biết đứng, biết leo — mỗi mốc là một danh sách nguy cơ mới. Ngôi nhà an toàn cho bé sáu tháng chưa chắc an toàn cho bé mười lăm tháng biết kéo ghế.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA ĐI VIỆN NGAY sau tai nạn tại nhà: trẻ NGÃ ĐẬP ĐẦU rồi nôn, lơ mơ, ngủ li bì gọi khó dậy, hoặc chảy máu, chảy dịch ở tai mũi; BỎNG rộp da, bỏng ở mặt, tay, bộ phận sinh dục, hoặc bỏng do điện dù nhìn ngoài nhẹ; NGHI UỐNG NHẦM hoá chất hoặc thuốc; KHÓ THỞ, TÍM TÁI, LỊM ĐI.",
+      "Đây không phải tư vấn y khoa. Bài này giúp bạn phòng ngừa; mọi chấn thương hay nghi ngộ độc đều cần bác sĩ đánh giá.",
+      "Bỏng thì làm mát ngay bằng nước sạch mát chảy trong nhiều phút, không bôi kem đánh răng, nước mắm hay mỡ trăn — những cách truyền miệng này làm vết thương nặng hơn và khó xử lý.",
+      "Nghi con uống nhầm hoá chất thì KHÔNG móc họng gây nôn, hãy mang theo chính chai hoá chất đó tới bệnh viện để bác sĩ biết chất gì.",
+    ],
+    faq: [
+      {
+        q: "Nhà thuê không đục tường được thì cố định tủ kiểu gì?",
+        a: "Có loại đai dán chịu lực hoặc thanh chống giữa tủ và tường không cần khoan. Cách khác là hạ bớt đồ nặng xuống ngăn dưới và bỏ hẳn những kệ cao lêu nghêu trong phòng trẻ chơi.",
+      },
+      {
+        q: "Có cần mua hết các loại đồ chống trẻ nghịch không?",
+        a: "Không cần mua theo bộ. Ưu tiên bốn thứ đáng tiền nhất: cửa chắn cầu thang, nút bịt ổ điện, đai cố định tủ, và khoá tủ đựng hoá chất. Phần còn lại thì sắp xếp lại đồ trong nhà là giải quyết được.",
+      },
+      {
+        q: "Ông bà không chịu thay đổi thói quen thì làm sao?",
+        a: "Đừng tranh luận chung chung, hãy đề nghị đúng một việc cụ thể mỗi lần và nói lý do ngắn gọn: “Bà để phích nước lên bàn cao giúp con nhé, bé mới biết đi hay bám vào bàn ạ.” Việc cụ thể dễ được chấp nhận hơn nhiều so với một bài giảng về an toàn.",
+      },
+      {
+        q: "Bao giờ thì bỏ bớt được các biện pháp này?",
+        a: "Tuỳ từng thứ và tuỳ đứa trẻ. Rào cầu thang thường giữ tới khi con lên xuống vững vàng; lưới ban công thì nên giữ lâu dài. Nguyên tắc chung là chỉ bỏ khi con đã hiểu và tự giữ được, không phải khi con đủ tuổi.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "chon-truong-mam-non-va-ngay-dau-di-lop",
+    title: "Chọn trường mầm non và sống sót qua tuần đầu con đi lớp",
+    excerpt:
+      "Con khóc ở cổng trường, mẹ khóc trên đường về. Tuần đầu tiên là phần khó nhất, và có cách để nó bớt khó.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Chọn trường thì đi xem tận nơi vào giờ trẻ đang hoạt động, nhìn ba thứ: cô giáo nói chuyện với trẻ thế nào, bếp và nhà vệ sinh có sạch không, và sân chơi có an toàn không. Hỏi rõ sĩ số mỗi lớp, số cô mỗi lớp, và cách trường liên lạc với phụ huynh khi con ốm. Tuần đầu nên cho con đi nửa buổi, chào tạm biệt ngắn gọn và dứt khoát, và tuyệt đối không trốn đi khi con không để ý.",
+    prepare: [
+      "Danh sách hai tới ba trường gần nhà, tiện đường đi làm của bạn",
+      "Một buổi đi xem trường vào giờ trẻ đang học, không phải giờ vắng",
+      "Danh sách câu hỏi viết sẵn, vì tới nơi rất dễ quên",
+      "Đồ dùng của con theo yêu cầu của trường: quần áo dự phòng, bình nước, ba lô nhỏ",
+      "Vài tuần trước ngày nhập học để tập cho con làm quen dần",
+    ],
+    steps: [
+      {
+        title: "Ưu tiên trường gần nhà hoặc gần chỗ làm",
+        detail:
+          "Trường tốt mà đi lại bốn mươi phút mỗi chiều sẽ vắt kiệt cả nhà sau vài tháng. Gần còn có nghĩa là bạn tới nhanh khi con ốm. Đây là tiêu chí thực tế mà nhiều phụ huynh đánh giá thấp lúc đầu.",
+      },
+      {
+        title: "Đi xem trường vào giờ trẻ đang hoạt động",
+        detail:
+          "Xin tới khoảng giữa buổi sáng, đừng xem lúc trẻ đã về hết. Bạn cần thấy lớp học lúc ồn ào thật sự để biết cô xử lý thế nào khi có bé khóc, có bé giành đồ chơi.",
+      },
+      {
+        title: "Quan sát cách cô nói chuyện với trẻ",
+        detail:
+          "Đây là thứ quan trọng hơn mọi tờ rơi quảng cáo. Cô có ngồi xuống ngang tầm trẻ không, giọng có bình tĩnh không, có bé nào bị bỏ ngồi một góc quá lâu không. Cảm giác của bạn trong mười phút này thường rất chính xác.",
+      },
+      {
+        title: "Xem bếp, nhà vệ sinh và chỗ ngủ",
+        detail:
+          "Xin xem cả ba chỗ, đừng ngại. Bếp sạch, có lịch thực đơn công khai, nhà vệ sinh không nặng mùi, chỗ ngủ thoáng và có chăn gối riêng cho từng bé. Trường ngại cho xem những nơi này là một dấu hiệu.",
+      },
+      {
+        title: "Hỏi sĩ số và số cô mỗi lớp",
+        detail:
+          "Hỏi thẳng: “Lớp của con em có bao nhiêu bé và bao nhiêu cô ạ, giờ ăn và giờ ngủ thì có thêm người hỗ trợ không ạ.” Con số này quyết định con bạn được để mắt tới nhiều hay ít, hơn mọi thứ khác.",
+      },
+      {
+        title: "Hỏi về cách xử lý khi con ốm hoặc có va chạm",
+        detail:
+          "“Nếu con sốt ở lớp thì trường làm gì và báo cho em lúc nào ạ? Nếu hai bé va vào nhau thì trường báo phụ huynh thế nào ạ?” Trường có quy trình rõ ràng sẽ trả lời trôi chảy; trường lúng túng ở câu này thì bạn nên cân nhắc.",
+      },
+      {
+        title: "Hỏi chuyện phụ huynh đang đứng chờ ở cổng",
+        detail:
+          "Nguồn tin thật nhất. Hỏi nhẹ nhàng: “Chị cho em hỏi bé nhà chị học ở đây lâu chưa ạ, chị thấy các cô thế nào ạ.” Vài câu ở cổng trường đáng giá hơn cả buổi đọc bình luận trên mạng.",
+      },
+      {
+        title: "Đọc kỹ phần học phí và các khoản thu",
+        detail:
+          "Hỏi rõ tổng chi phí một tháng gồm những khoản gì, có khoản nào thu theo năm không, nghỉ ốm dài ngày có được trừ tiền ăn không. Ghi lại để so sánh giữa các trường, vì mỗi nơi tách khoản một kiểu.",
+      },
+      {
+        title: "Tập cho con làm quen trước vài tuần",
+        detail:
+          "Kể chuyện về trường bằng giọng vui vẻ, đi ngang trường chỉ cho con xem sân chơi, tập cho con ngủ trưa và ăn theo giờ của lớp. Con quen giờ giấc trước thì tuần đầu nhẹ đi rất nhiều.",
+      },
+      {
+        title: "Tuần đầu đi nửa buổi nếu trường cho phép",
+        detail:
+          "Vài ngày đầu chỉ gửi tới trước giờ ăn trưa, rồi tăng dần. Nhiều trường có sẵn lộ trình làm quen như vậy — hỏi trước khi nhập học.",
+      },
+      {
+        title: "Chào tạm biệt ngắn, dứt khoát, và đừng trốn đi",
+        detail:
+          "Ôm con, nói một câu cố định mỗi ngày: “Mẹ đi làm, chiều mẹ đón con ở đúng chỗ này nhé.” Rồi đi thật. Quay lại nhiều lần khiến con khóc lâu hơn. Trốn đi lúc con không để ý là tệ nhất — hôm sau con sẽ bám chặt vì không dám rời mắt khỏi bạn.",
+      },
+      {
+        title: "Đón đúng giờ trong những ngày đầu",
+        detail:
+          "Đúng giờ quan trọng hơn bạn nghĩ. Con cần thấy lời hứa buổi sáng là thật. Vài ngày đầu, cố gắng đón sớm hơn một chút, đừng để con là bé cuối cùng còn ngồi lại.",
+      },
+      {
+        title: "Hỏi cô mỗi ngày một câu cụ thể",
+        detail:
+          "Thay vì “hôm nay con thế nào ạ”, hãy hỏi: “Hôm nay con ăn được mấy phần ạ, có ngủ trưa không ạ, có chơi với bạn nào không ạ.” Câu hỏi cụ thể cho bạn thông tin thật và cũng cho cô thấy bạn quan tâm.",
+      },
+    ],
+    notes: [
+      "Con khóc trong một tới hai tuần đầu là bình thường. Nhưng nếu con khóc dữ dội kéo dài nhiều tuần, sợ hãi bất thường, sụt cân, hoặc có dấu hiệu thay đổi rõ rệt về giấc ngủ và hành vi, hãy trao đổi thẳng với trường và cân nhắc lại lựa chọn.",
+      "Kiểm tra trường có giấy phép hoạt động hợp lệ không, đặc biệt với nhóm trẻ tư nhân nhỏ. Đây là việc nên hỏi thẳng và xem giấy tờ, không ngại gì cả.",
+      "Học phí, các khoản thu và quy định nhận trẻ khác nhau theo từng trường và từng địa phương, lại thay đổi theo năm học — hỏi trực tiếp nhà trường thay vì tin thông tin cũ trên mạng.",
+      "Dạy con vài câu tự bảo vệ trước khi đi lớp: gọi cô khi muốn đi vệ sinh, nói khi bị đau, và quy tắc về vùng riêng tư trên cơ thể. Nói bình thản như dạy mọi kỹ năng khác, không doạ dẫm con.",
+    ],
+    faq: [
+      {
+        q: "Mấy tuổi thì cho con đi lớp là hợp lý?",
+        a: "Không có một mốc đúng cho mọi nhà, nó phụ thuộc vào hoàn cảnh công việc và sự sẵn sàng của con. Điều đáng cân nhắc hơn là chất lượng chăm sóc nơi con tới và tỉ lệ cô trên trẻ, chứ không phải con số tuổi.",
+      },
+      {
+        q: "Con đi lớp là ốm liên tục, có phải trường bẩn không?",
+        a: "Trẻ mới đi lớp hay ốm vặt trong vài tháng đầu do tiếp xúc với môi trường mới, đó là điều thường gặp. Nhưng nếu cả lớp cùng ốm liên tục theo đợt, hãy hỏi trường về vệ sinh và cách xử lý khi có bé bệnh.",
+      },
+      {
+        q: "Có nên lắp camera hoặc đòi xem camera lớp không?",
+        a: "Nhiều trường có camera cho phụ huynh xem. Đây là điểm cộng, nhưng đừng coi là bảo chứng duy nhất — thứ đáng tin hơn vẫn là thái độ của cô và cảm giác của con khi tới trường mỗi sáng.",
+      },
+      {
+        q: "Con nói không thích cô thì xử lý thế nào?",
+        a: "Hỏi con bằng câu mở và bình tĩnh: “Con kể mẹ nghe hôm nay ở lớp có chuyện gì.” Đừng gặng hỏi theo hướng gợi ý. Nếu nghe điều đáng lo, trao đổi trực tiếp với trường bằng thái độ hợp tác trước, và đừng bỏ qua nếu con lặp lại nhiều lần.",
+      },
+    ],
+    sources: [],
+  },
 ];
