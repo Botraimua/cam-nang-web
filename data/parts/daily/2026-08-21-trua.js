@@ -534,4 +534,534 @@ export const day20260821trua = [
     ],
     sources: [],
   },
+  {
+    slug: "tien-dien-phong-tro-tang-vot",
+    title: "Tiền điện phòng trọ tăng vọt: kiểm ở đâu, cắt ở đâu",
+    excerpt:
+      "Tháng trước 400 nghìn, tháng này 900 nghìn mà sinh hoạt không đổi. Trước khi cãi nhau với chủ trọ, có vài chỗ nên kiểm tra.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Việc đầu tiên là tự đọc công tơ điện của phòng mình hai ngày liên tiếp cùng một giờ, lấy hiệu số để biết mỗi ngày bạn dùng bao nhiêu số. Có con số đó rồi mới nói chuyện được với chủ trọ, còn không thì chỉ là cảm giác. Thủ phạm ngốn điện gần như luôn nằm trong nhóm đồ sinh nhiệt: máy lạnh, bình nóng lạnh, ấm siêu tốc, bàn ủi. Chụp ảnh công tơ vào ngày đầu và ngày cuối mỗi tháng là thói quen giúp bạn không bao giờ bị tính nhầm.",
+    prepare: [
+      "Điện thoại có máy ảnh, để chụp mặt công tơ — bằng chứng tốt nhất và không tốn đồng nào",
+      "Hoá đơn hoặc giấy tính tiền điện của hai ba tháng gần nhất, để so số dùng chứ không chỉ so tiền",
+      "Hợp đồng thuê trọ, phần ghi giá điện mỗi số",
+      "Một cuốn sổ hoặc ghi chú điện thoại để ghi chỉ số theo ngày",
+      "Danh sách các thiết bị điện trong phòng, kèm công suất ghi trên tem của từng cái",
+    ],
+    steps: [
+      {
+        title: "Tìm và xác định đúng công tơ của phòng mình",
+        detail:
+          "Nhà trọ thường gắn một dãy công tơ ở cầu thang hoặc sân. Nhờ chủ trọ chỉ rõ cái nào là của phòng bạn và chụp lại vị trí. Nhiều vụ 'tiền điện tăng bất thường' hoá ra là do đọc nhầm công tơ phòng bên.",
+      },
+      {
+        title: "Đọc chỉ số hai ngày liên tiếp, cùng một giờ",
+        detail:
+          "Tối nay 21h chụp một tấm, tối mai 21h chụp một tấm. Lấy số sau trừ số trước là ra lượng điện bạn dùng trong đúng 24 giờ. Đây là con số quan trọng nhất trong cả bài, vì mọi tranh luận sau đó đều dựa vào nó.",
+      },
+      {
+        title: "Thử ngày 'tắt hết' để tìm rò rỉ",
+        detail:
+          "Chọn một buổi đi vắng vài tiếng, rút hết phích cắm và tắt aptomat của các thiết bị lớn, chỉ để tủ lạnh. Ghi chỉ số lúc đi và lúc về. Nếu số vẫn nhảy nhiều thì hoặc là có thiết bị ngốn ngầm, hoặc công tơ có vấn đề, hoặc bạn đang bị chia điện với chỗ khác.",
+      },
+      {
+        title: "Nhìn vào nhóm đồ sinh nhiệt trước tiên",
+        detail:
+          "Máy lạnh, bình nóng lạnh, ấm siêu tốc, bàn ủi, nồi chiên, lò vi sóng — nhóm này tiêu điện gấp hàng chục lần đèn và quạt. Nếu tháng này bạn bật máy lạnh nhiều hơn hoặc mới sắm bình nóng lạnh thì nguyên nhân đã rõ, không cần điều tra thêm.",
+      },
+      {
+        title: "Kiểm bình nóng lạnh có bị bật suốt ngày không",
+        detail:
+          "Đây là thủ phạm thầm lặng phổ biến nhất trong phòng trọ. Nhiều người bật rồi quên tắt, bình cứ đun đi đun lại cả ngày. Bật trước khi tắm chừng mười lăm tới ba mươi phút rồi tắt hẳn, mỗi tháng có thể chênh cả trăm nghìn.",
+      },
+      {
+        title: "Chỉnh máy lạnh thay vì bỏ dùng máy lạnh",
+        detail:
+          "Đặt khoảng 26–27 độ kèm quạt nhẹ thì mát tương đương mà tốn ít điện hơn hẳn để 20 độ. Đóng kín cửa, che rèm buổi trưa, và vệ sinh lưới lọc mỗi vài tháng — lưới bẩn khiến máy chạy nặng và tốn thêm điện mà không mát hơn.",
+      },
+      {
+        title: "Rút phích những thứ cắm suốt mà ít dùng",
+        detail:
+          "Sạc điện thoại, sạc laptop, tivi ở chế độ chờ, lò vi sóng hiển thị giờ đều rút điện ngầm. Từng cái không đáng kể, nhưng cả phòng cộng lại một tháng cũng bằng vài bữa ăn. Cắm chung vào ổ có công tắc rồi tắt một nhát cho gọn.",
+      },
+      {
+        title: "So SỐ ĐIỆN chứ đừng so TIỀN giữa các tháng",
+        detail:
+          "Tiền có thể tăng vì giá mỗi số thay đổi, còn số điện mới phản ánh bạn dùng nhiều hay ít. Lấy hoá đơn ba tháng, ghi ra ba con số điện dùng cạnh nhau. Nếu số điện gần như nhau mà tiền vọt lên thì vấn đề nằm ở giá chứ không ở bạn.",
+      },
+      {
+        title: "Đối chiếu giá mỗi số với hợp đồng",
+        detail:
+          "Mở hợp đồng xem ghi bao nhiêu một số. Nếu chủ trọ thu cao hơn mức đã ghi, đó là chuyện phải hỏi. Nhiều nơi thu theo giá kinh doanh cao hơn giá điện sinh hoạt — bạn có quyền hỏi căn cứ, và đây cũng là điểm nên làm rõ ngay từ lúc xem phòng.",
+      },
+      {
+        title: "Nói chuyện với chủ trọ bằng số liệu, không bằng cảm xúc",
+        detail:
+          "Cách nói dễ được lắng nghe: 'Cô ơi, con có chụp công tơ ngày đầu và ngày cuối tháng, ra 210 số, mà giấy tính là 340 số, cô xem lại giúp con với ạ.' Có ảnh và có số thì cuộc nói chuyện thành đối chiếu chứ không thành cãi vã.",
+      },
+      {
+        title: "Đề nghị đọc công tơ cùng nhau",
+        detail:
+          "Xin phép có mặt lúc chủ trọ chốt số cuối tháng, hoặc xin chụp ảnh công tơ ngay lúc chốt. Đề nghị này rất hợp lý và hầu hết chủ trọ tử tế đều đồng ý. Từ đó về sau chuyện tiền điện sẽ nhẹ nhàng hẳn.",
+      },
+      {
+        title: "Ghi chỉ số hàng tháng thành thói quen",
+        detail:
+          "Ngày mùng một mỗi tháng, chụp một tấm công tơ, đặt tên ảnh theo tháng. Mất mười giây. Sau nửa năm bạn có cả bảng số liệu, biết mùa nào mình dùng nhiều và không bao giờ ở thế đuối lý nữa.",
+      },
+    ],
+    notes: [
+      "Nếu công tơ nhảy nhanh bất thường ngay cả khi đã tắt hết, hãy báo chủ trọ để kiểm tra đường dây. Chập điện hoặc rò điện vừa tốn tiền vừa nguy hiểm, đừng tự mở nắp công tơ hay đấu lại dây.",
+      "CẨN THẬN: ngửi thấy mùi khét, thấy ổ cắm nóng bất thường hoặc có vết cháy xém, thì rút phích ra ngay và báo chủ trọ. Đây là dấu hiệu cháy chứ không phải chuyện tiền điện.",
+      "Thoả thuận về giá điện nên có trong hợp đồng bằng chữ, ghi rõ bao nhiêu đồng một số. Thoả thuận miệng thì tới lúc tranh chấp không ai chứng minh được gì.",
+      "Đừng tự ý can thiệp vào công tơ dưới bất kỳ hình thức nào. Ngoài chuyện nguy hiểm, đó còn là hành vi vi phạm pháp luật và hậu quả nặng hơn số tiền bạn định tiết kiệm rất nhiều.",
+    ],
+    faq: [
+      {
+        q: "Chủ trọ thu điện cao hơn giá nhà nước có được không?",
+        a: "Đây là điểm hay tranh chấp và quy định có thay đổi theo từng thời kỳ. Việc bạn nên làm trước tiên là hỏi thẳng chủ trọ về căn cứ tính giá và đối chiếu với hợp đồng đã ký. Nếu muốn chắc chắn, hỏi trực tiếp công ty điện lực khu vực hoặc uỷ ban phường nơi bạn ở.",
+      },
+      {
+        q: "Phòng có tủ lạnh thì tốn bao nhiêu điện?",
+        a: "Tủ lạnh chạy suốt nhưng công suất thấp nên thường không phải thủ phạm chính. Muốn biết chính xác thì làm phép thử ngày 'tắt hết' ở bước ba, chỉ để tủ lạnh chạy, rồi so chỉ số.",
+      },
+      {
+        q: "Đang ở ghép thì chia tiền điện thế nào cho công bằng?",
+        a: "Cách gọn nhất là chia đều theo đầu người, vì bóc tách ai dùng bao nhiêu gần như không khả thi. Nếu có người dùng máy lạnh riêng trong phòng riêng thì thoả thuận cộng thêm một khoản cố định mỗi tháng, và thống nhất bằng văn bản ngắn ngay từ đầu.",
+      },
+      {
+        q: "Có nên mua thiết bị đo điện riêng cho từng ổ cắm không?",
+        a: "Nếu bạn thật sự muốn tìm ra thiết bị ngốn điện thì loại đo cắm giữa ổ và phích khá rẻ và hữu ích. Nhưng với đa số người thuê trọ, phép thử ngày 'tắt hết' đã đủ để trả lời câu hỏi, không cần mua gì thêm.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "den-hong-aptomat-nhay-tu-xu-ly",
+    title: "Đèn hỏng, aptomat nhảy: tự xử lý trước khi gọi thợ",
+    excerpt:
+      "Mất điện nguyên phòng lúc 10 giờ tối, gọi thợ thì họ tính tiền đêm. Nhiều trường hợp chỉ cần gạt một cái cần là xong.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Mất điện đột ngột trong phòng thì việc đầu tiên là nhìn ra ngoài xem hàng xóm có điện không. Có thì lỗi ở phòng bạn, và chín phần mười là do aptomat đã nhảy. Rút hết phích cắm ra, gạt aptomat lên, rồi cắm lại từng thứ một để tìm thiết bị gây chập. Với bóng đèn không sáng, hãy thử theo thứ tự bóng, đui, công tắc — và tuyệt đối tắt aptomat trước khi chạm vào bất cứ thứ gì.",
+    prepare: [
+      "Đèn pin hoặc đèn điện thoại, cầm sẵn trước khi bắt đầu vì bạn sắp cắt điện",
+      "Một cái ghế chắc chắn, không phải ghế nhựa lung lay — ngã lúc đang với tay lên trần là tai nạn thật",
+      "Bóng đèn dự phòng đúng loại và đúng đui, mua sẵn để trong ngăn kéo",
+      "Bút thử điện, giá vài chục nghìn ở tiệm điện, món nên có trong mọi nhà",
+      "Số điện thoại của chủ trọ và của một thợ điện gần nhà, lưu sẵn trong máy",
+    ],
+    steps: [
+      {
+        title: "Xác định phạm vi mất điện",
+        detail:
+          "Nhìn ra hành lang, nhìn nhà hàng xóm, nhìn đèn đường. Cả khu tối thì là cúp điện chung, ngồi chờ là xong. Chỉ mình phòng bạn tối thì mới cần làm tiếp các bước dưới.",
+      },
+      {
+        title: "Tìm hộp aptomat và nhìn vị trí cần gạt",
+        detail:
+          "Hộp thường ở gần cửa ra vào hoặc trong nhà tắm. Cần gạt ở giữa hoặc ở dưới nghĩa là aptomat đã ngắt. Nếu bạn chưa biết hộp aptomat phòng mình ở đâu thì hãy đi tìm ngay bây giờ, đừng đợi tới lúc mất điện giữa đêm.",
+      },
+      {
+        title: "Rút hết phích cắm TRƯỚC khi gạt lại",
+        detail:
+          "Đây là bước nhiều người bỏ qua rồi thắc mắc sao gạt lên nó lại nhảy xuống ngay. Rút hết ấm siêu tốc, bàn ủi, máy lạnh, nồi chiên, sạc. Aptomat nhảy là nó đang bảo vệ bạn khỏi một sự cố nào đó, gạt bừa lên là bỏ qua lời cảnh báo.",
+      },
+      {
+        title: "Gạt cần xuống hẳn rồi mới đẩy lên",
+        detail:
+          "Nhiều aptomat phải gạt dứt khoát xuống vị trí tắt trước, rồi mới đẩy lên vị trí bật. Đẩy nửa vời từ vị trí giữa thì nó không ăn. Nghe tiếng tách và cần đứng vững ở trên là được.",
+      },
+      {
+        title: "Cắm lại từng thiết bị một để tìm thủ phạm",
+        detail:
+          "Cắm một cái, chờ vài giây, rồi mới cắm cái tiếp theo. Cắm tới cái nào mà aptomat nhảy ngay thì đó chính là thiết bị hỏng. Rút nó ra, để riêng, và đừng dùng nữa cho tới khi sửa hoặc thay.",
+      },
+      {
+        title: "Aptomat nhảy đi nhảy lại dù đã rút hết: dừng lại và gọi thợ",
+        detail:
+          "Trường hợp này là sự cố trong đường dây âm tường chứ không phải ở thiết bị, và không phải việc bạn tự làm được. Để aptomat ở vị trí tắt, gọi chủ trọ hoặc thợ điện. Đừng gạt lên gạt xuống nhiều lần vì nguy cơ cháy là có thật.",
+      },
+      {
+        title: "Đèn không sáng: kiểm công tắc và ổ trước",
+        detail:
+          "Thử công tắc vài lần, thử cắm một thiết bị khác vào ổ gần đó xem có điện không. Nếu cả phòng có điện mà riêng cái đèn tối thì vấn đề nằm ở bóng, đui hoặc công tắc — theo đúng thứ tự đó.",
+      },
+      {
+        title: "Tắt aptomat trước khi chạm vào đèn",
+        detail:
+          "Không phải chỉ tắt công tắc, mà tắt hẳn aptomat của phòng. Công tắc có thể được đấu vào dây trung tính nên tắt rồi mà đui vẫn còn điện. Dùng bút thử điện chấm vào đui để chắc chắn trước khi đưa tay vào.",
+      },
+      {
+        title: "Thay bóng đúng loại, đúng đui",
+        detail:
+          "Mang bóng cũ ra tiệm điện và nói: 'anh cho em cái đúng như này'. Đui xoáy và đui cài khác nhau, công suất cũng khác. Vặn vừa chặt tay, đừng ghì mạnh vì bóng dễ vỡ trong tay và đó là vết cắt rất khó chịu.",
+      },
+      {
+        title: "Đèn tuýp nhấp nháy thì nghĩ tới chấn lưu",
+        detail:
+          "Bóng tuýp chớp chớp rồi tắt, hoặc sáng hai đầu mà giữa tối, thường là chấn lưu hoặc tăng phô đã yếu chứ không phải bóng. Đây là lúc gọi thợ, vì thay chấn lưu cần đấu dây. Nhiều người tiện thể đổi luôn sang đèn tuýp led cho đỡ phiền về sau.",
+      },
+      {
+        title: "Ổ cắm không có điện thì thử ổ khác trước",
+        detail:
+          "Cắm thiết bị vào ổ khác trong phòng. Nếu chỉ một ổ chết thì báo chủ trọ, đừng tự tháo mặt ổ ra sửa. Còn nếu ổ nóng, đổi màu hoặc có mùi khét thì ngừng dùng ngay và báo gấp.",
+      },
+      {
+        title: "Biết dừng đúng lúc và gọi ai",
+        detail:
+          "Thay bóng, gạt aptomat, rút phích — ba việc này bạn làm được. Đấu dây, thay công tắc âm tường, mở hộp điện, chạm vào công tơ — không phải việc của bạn. Với nhà thuê thì phần lớn hư hỏng thuộc về chủ trọ, nên gọi báo trước khi tự bỏ tiền sửa.",
+      },
+    ],
+    notes: [
+      "CẨN THẬN: tay ướt, chân trần đứng trên nền ẩm mà đụng vào điện là tình huống nguy hiểm nhất. Lau khô tay, đi dép, và làm khi trời còn sáng nếu có thể chờ được.",
+      "Aptomat nhảy không phải là hỏng hóc phiền toái — đó là thiết bị an toàn đang làm đúng việc của nó. Đừng bao giờ thay bằng loại có dòng lớn hơn để 'khỏi nhảy nữa', vì làm vậy là gỡ bỏ lớp bảo vệ cuối cùng.",
+      "Nhà thuê thì trước khi tự sửa gì tốn tiền, nhắn tin cho chủ trọ một câu và giữ lại tin nhắn. Vừa rõ trách nhiệm, vừa có cơ sở trừ vào tiền nhà nếu bạn ứng trước.",
+      "Ngửi thấy mùi khét quanh ổ điện hoặc hộp aptomat thì tắt aptomat tổng và gọi thợ ngay trong đêm. Đây là trường hợp không nên chờ tới sáng.",
+    ],
+    faq: [
+      {
+        q: "Aptomat nhảy mỗi lần bật máy lạnh thì sao?",
+        a: "Thường là do đường dây hoặc aptomat không chịu nổi công suất của máy, hoặc máy đang có vấn đề. Đây là việc của thợ và của chủ trọ chứ không phải việc bạn xoay xở. Trong lúc chờ thì đừng bật máy lạnh cùng lúc với các thiết bị nặng khác.",
+      },
+      {
+        q: "Bóng led vừa mua đã hỏng thì có bảo hành không?",
+        a: "Đèn led thường có bảo hành vài tháng tới vài năm tuỳ hãng. Giữ hộp và hoá đơn, mang ra đúng tiệm đã mua. Nếu bóng cháy liên tục ở cùng một vị trí thì vấn đề nằm ở đui hoặc điện áp chứ không phải ở bóng.",
+      },
+      {
+        q: "Có nên tự mua aptomat về thay không?",
+        a: "Không nên với người chưa có kinh nghiệm, và với nhà thuê thì càng không. Chọn sai dòng định mức là mất tác dụng bảo vệ. Báo chủ trọ hoặc gọi thợ, chi phí thay một cái aptomat thường không lớn.",
+      },
+      {
+        q: "Phòng hay bị giật nhẹ khi chạm vào vỏ máy giặt hay vòi nước nóng thì sao?",
+        a: "Đây là dấu hiệu rò điện và không được xem nhẹ dù cảm giác chỉ tê tê. Ngừng dùng thiết bị đó, báo chủ trọ để kiểm tra tiếp đất và đường dây. Đừng chờ tới khi cảm giác mạnh hơn mới xử lý.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "voi-nuoc-ri-va-nuoc-yeu",
+    title: "Vòi nước rỉ và nước chảy yếu: sửa vặt trong nhà trọ",
+    excerpt:
+      "Tiếng nước tí tách cả đêm, hoá đơn nước tăng đều mỗi tháng. Phần lớn trường hợp chỉ cần một cái ron cao su vài nghìn đồng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Vòi rỉ nước ở đầu vòi thường là do ron cao su bên trong đã mòn, thay chừng mười phút và tốn vài nghìn. Rỉ ở chỗ nối thì thử siết lại bằng mỏ lết và quấn thêm băng tan. Nước chảy yếu thì tháo cái lưới lọc ở đầu vòi ra rửa trước đã, vì cặn vôi bám ở đó là nguyên nhân phổ biến nhất. Trước mọi việc, nhớ khoá van nước và lót một cái khăn dưới chỗ làm.",
+    prepare: [
+      "Một cái mỏ lết răng hoặc kìm mỏ quạ, món dụng cụ đáng có nhất trong nhà trọ",
+      "Cuộn băng tan trắng, giá vài nghìn, quấn ren chống rỉ nước",
+      "Bộ ron cao su nhiều cỡ, mua sẵn ở tiệm kim khí gần nhà",
+      "Một chậu nhỏ và khăn cũ để hứng nước còn đọng trong ống",
+      "Giấm trắng hoặc nước tẩy cặn, để ngâm lưới lọc bị đóng vôi",
+    ],
+    steps: [
+      {
+        title: "Tìm van khoá nước trước khi động tay vào gì",
+        detail:
+          "Van thường nằm ngay dưới bồn rửa, sau bồn cầu, hoặc ở đầu đường ống vào phòng. Vặn theo chiều kim đồng hồ để khoá. Không tìm thấy van riêng thì khoá van tổng của nhà. Việc này phải làm xong trước, không có ngoại lệ.",
+      },
+      {
+        title: "Xả hết nước còn trong ống",
+        detail:
+          "Khoá van xong, mở vòi cho nước còn lại chảy ra hết. Bỏ qua bước này thì lúc tháo ra bạn sẽ được tắm một trận. Lót khăn và đặt chậu dưới chỗ định làm.",
+      },
+      {
+        title: "Xác định nước rỉ ở đâu",
+        detail:
+          "Lau khô toàn bộ vòi rồi quan sát vài phút. Rỉ ở miệng vòi khi đã khoá là do ron bên trong mòn. Rỉ ở chân vòi hoặc chỗ nối ống là do ren lỏng hoặc băng tan mục. Rỉ ở thân vòi thì thường phải thay cả vòi. Xác định sai chỗ là tháo nhầm và mất cả buổi.",
+      },
+      {
+        title: "Rỉ ở chỗ nối: siết lại trước, tháo ra sau",
+        detail:
+          "Dùng mỏ lết siết thêm khoảng một phần tư vòng, đừng ghì hết sức vì ren nhựa rất dễ nứt. Mở nước thử. Vẫn rỉ thì mới tháo hẳn ra, gỡ hết băng tan cũ, quấn băng mới rồi lắp lại.",
+      },
+      {
+        title: "Quấn băng tan đúng chiều",
+        detail:
+          "Quấn theo chiều kim đồng hồ khi nhìn từ đầu ren vào, tức là cùng chiều với lúc bạn vặn ống vào. Quấn ngược chiều thì lúc siết băng sẽ bị tuột ra. Quấn chừng bảy tới mười vòng, kéo hơi căng cho băng bám vào ren.",
+      },
+      {
+        title: "Rỉ ở đầu vòi: thay ron cao su",
+        detail:
+          "Tháo tay gạt hoặc tay vặn, thường có một con ốc nhỏ giấu dưới nắp nhựa màu. Lấy phần lõi ra, nhìn cái vòng cao su đã dẹp hoặc nứt và thay bằng cái mới cùng cỡ. Mang cái cũ ra tiệm để mua cho khỏi sai kích thước.",
+      },
+      {
+        title: "Nước yếu: tháo lưới lọc đầu vòi ra rửa",
+        detail:
+          "Đầu vòi thường có một cái lưới nhỏ vặn ra được bằng tay hoặc bằng kìm bọc vải. Trong đó thường đầy cặn vôi trắng và cát. Ngâm giấm chừng ba mươi phút, chải bằng bàn chải đánh răng cũ rồi lắp lại. Đây là mẹo đơn giản mà giải quyết được phần lớn ca nước yếu.",
+      },
+      {
+        title: "Vẫn yếu thì kiểm van có mở hết chưa",
+        detail:
+          "Van dưới bồn nhiều khi bị vặn hờ từ lần sửa trước. Mở hết cỡ rồi thử lại. Cũng nên hỏi hàng xóm cùng tầng xem nhà họ có yếu không — nếu cả dãy đều yếu thì vấn đề nằm ở bơm hoặc bể nước chung, và đó là việc của chủ trọ.",
+      },
+      {
+        title: "Bồn cầu chảy rỉ rả không ngừng",
+        detail:
+          "Mở nắp két nước phía sau, nhìn cái nắp cao su dưới đáy két. Nó vênh hoặc mòn thì nước rỉ liên tục xuống bồn, và đây là thứ ngốn nước nhiều nhất mà ít ai để ý. Chỉnh lại phao hoặc thay nắp cao su đều rẻ, nhưng nếu thấy phức tạp thì báo chủ trọ.",
+      },
+      {
+        title: "Thử nước và lau khô kiểm lại",
+        detail:
+          "Mở van từ từ, đừng mở phăng cả cỡ. Lau khô hết chỗ vừa làm, mở nước chạy một lúc rồi sờ tay quanh mối nối. Khô ráo là xong. Còn ẩm thì siết thêm chút nữa hoặc quấn lại băng tan.",
+      },
+      {
+        title: "Theo dõi thêm một ngày",
+        detail:
+          "Đặt một tờ giấy khô dưới chỗ vừa sửa, hôm sau xem có ướt không. Rỉ chậm thì mắt thường không thấy ngay nhưng tờ giấy thì thấy. Cách kiểm này cũng dùng được để phát hiện rò ống nước âm tường.",
+      },
+      {
+        title: "Biết lúc nào phải gọi thợ",
+        detail:
+          "Nước phun mạnh không cầm được, ống âm tường bị rò, tường thấm loang rộng, hoặc bạn đã tháo ra mà không lắp lại được như cũ — đó là lúc dừng. Khoá van tổng, chụp ảnh, gọi chủ trọ. Cố sửa tiếp thường làm hỏng nặng thêm và phần đền bù sẽ đắt hơn tiền thợ.",
+      },
+    ],
+    notes: [
+      "Nhà thuê thì báo chủ trọ trước khi tự sửa, kể cả việc nhỏ. Nhiều chủ trọ sẵn sàng trả tiền vật tư, và nếu bạn tự làm hỏng thêm thì trách nhiệm lại thành của bạn.",
+      "CẨN THẬN với ren nhựa: siết quá tay là nứt, và một cái vòi nứt lúc nửa đêm thì phiền gấp mười lần cái vòi rỉ. Siết vừa đủ chặt rồi thử nước, thiếu thì siết thêm.",
+      "Một vòi rỉ tí tách cả tháng có thể mất cả khối nước. Đó là chưa kể tiếng nước nhỏ giọt lúc hai giờ sáng, thứ không đo được bằng tiền.",
+      "Chụp ảnh trước khi tháo bất cứ thứ gì. Lúc lắp lại mà quên thứ tự các mảnh là chuyện rất hay xảy ra, và tấm ảnh cứu bạn khỏi việc đó.",
+    ],
+    faq: [
+      {
+        q: "Không có mỏ lết thì mượn ở đâu?",
+        a: "Hỏi chủ trọ hoặc hàng xóm, phần lớn nhà đều có một cái. Nếu định mua thì một cái mỏ lết răng cỡ vừa chỉ vài chục nghìn và bạn sẽ dùng nó nhiều lần trong đời ở trọ.",
+      },
+      {
+        q: "Sửa xong vẫn rỉ thì có phải mua vòi mới không?",
+        a: "Nếu đã thay ron và quấn lại băng tan mà vẫn rỉ ngay tại thân vòi thì thường là vòi đã nứt hoặc mòn bên trong, thay cả cái sẽ nhanh hơn sửa. Vòi loại thường không đắt, nhưng với nhà thuê thì đây là khoản chủ trọ nên chi.",
+      },
+      {
+        q: "Nước máy yếu vào giờ cao điểm có phải hỏng không?",
+        a: "Không hẳn. Buổi sáng và chiều tối cả khu cùng dùng nên áp lực giảm là bình thường. Nếu yếu suốt ngày và các nhà khác thì bình thường, lúc đó mới là vấn đề riêng của phòng bạn.",
+      },
+      {
+        q: "Nước có cặn trắng bám khắp vòi và ấm đun thì xử lý sao?",
+        a: "Đó là cặn vôi do nước cứng. Ngâm giấm hoặc dùng nước tẩy cặn định kỳ cho vòi, lưới lọc và ấm đun. Nếu quá nhiều thì hỏi chủ trọ về việc lắp bộ lọc thô ở đầu nguồn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "o-ghep-thoa-thuan-truoc",
+    title: "Ở ghép cùng phòng: thoả thuận gì trước để khỏi mệt về sau",
+    excerpt:
+      "Người ta hiếm khi nghỉ chơi vì một chuyện lớn. Thường là vì cái bát để trong bồn ba ngày, cộng dồn suốt sáu tháng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Ngồi lại nói chuyện trước khi dọn vào ở chung, đừng đợi tới lúc có mâu thuẫn mới bàn. Cần thống nhất năm thứ: tiền chia thế nào và ai giữ, việc nhà chia ra sao, giờ giấc ngủ nghỉ, chuyện dẫn bạn về, và cách xử lý khi một người muốn dọn ra. Viết ra thành một tờ ghi chú chung trên điện thoại, không cần trịnh trọng nhưng phải có chữ. Trí nhớ của hai người về cùng một cuộc nói chuyện luôn khác nhau sau ba tháng.",
+    prepare: [
+      "Một buổi cà phê chừng một tiếng, trước ngày dọn vào, không phải nói vội ở cửa phòng",
+      "Một ghi chú chung trên điện thoại mà cả hai cùng sửa được",
+      "Bản chụp hợp đồng thuê nhà, để rõ ai đứng tên và ai chịu trách nhiệm với chủ trọ",
+      "Danh sách đồ đạc chung sẽ mua và đồ riêng của mỗi người",
+      "Một ứng dụng chia tiền hoặc đơn giản là một bảng tính chung",
+    ],
+    steps: [
+      {
+        title: "Nói về tiền trước tiên, dù thấy ngại",
+        detail:
+          "Tiền nhà, điện, nước, mạng, gas, nước uống chia thế nào. Ai ứng trả trước và hạn cuối chuyển lại là ngày mấy. Ngại nói chuyện tiền lúc đầu thì sau này sẽ phải nói trong lúc bực, và lúc đó khó hơn nhiều.",
+      },
+      {
+        title: "Chốt ngày đóng tiền cố định mỗi tháng",
+        detail:
+          "Ví dụ mùng 3 hằng tháng, ai cũng chuyển phần của mình vào tài khoản người đứng tên. Đặt báo thức nhắc trong điện thoại cả hai. Cách này bỏ hẳn khâu đi nhắc nhau, thứ gây khó chịu âm ỉ nhất trong nhà ở ghép.",
+      },
+      {
+        title: "Làm rõ ai đứng tên hợp đồng và điều đó nghĩa là gì",
+        detail:
+          "Người đứng tên chịu trách nhiệm với chủ trọ về tiền nhà và về hư hỏng. Nếu người kia dọn đi giữa chừng thì người đứng tên gánh phần còn lại. Nói thẳng chuyện này từ đầu để cả hai hiểu mình đang nhận rủi ro gì.",
+      },
+      {
+        title: "Chia việc nhà theo đầu việc, đừng chia theo tuần",
+        detail:
+          "Kiểu 'tuần này bạn dọn' rất dễ đổ vỡ vì không ai nhớ đang tới tuần ai. Chia theo việc cố định thì rõ hơn: một người phụ trách bếp và bồn rửa, một người phụ trách nhà tắm và đổ rác. Ai làm phần nấy, không phải nhắc.",
+      },
+      {
+        title: "Thống nhất một quy tắc bếp duy nhất",
+        detail:
+          "Đề nghị đơn giản nhất và hiệu quả nhất: ai nấu người đó rửa, xong trong ngày. Bát để qua đêm trong bồn là nguồn gốc của khoảng một nửa số mâu thuẫn ở ghép, không đùa. Thống nhất một câu này thôi cũng đã giải quyết được rất nhiều.",
+      },
+      {
+        title: "Nói về giờ giấc ngủ và tiếng ồn",
+        detail:
+          "Người dậy 6h và người ngủ lúc 2h sáng sống chung được, nhưng phải biết trước để thu xếp. Thoả thuận sau 23h thì đeo tai nghe, đi nhẹ, và không gọi điện thoại to trong phòng. Ai làm ca đêm thì càng cần nói rõ nhịp sinh hoạt của mình.",
+      },
+      {
+        title: "Bàn thẳng về chuyện dẫn bạn về",
+        detail:
+          "Đây là chuyện ai cũng ngại nói mà lại hay thành xích mích lớn nhất. Nói trước: báo nhau trước bao lâu, bạn ở lại qua đêm được không, và người yêu ở lại bao nhiêu ngày một tuần thì ổn. Không có câu trả lời đúng chung, chỉ có câu trả lời mà cả hai chấp nhận được.",
+      },
+      {
+        title: "Phân định đồ chung và đồ riêng",
+        detail:
+          "Ghi ra: cái gì mua chung và chia đôi tiền, cái gì của riêng ai. Đồ ăn trong tủ lạnh nên có ngăn riêng hoặc dán tên. Nghe hơi quá đáng nhưng nó ngăn được câu 'ai ăn hộp sữa chua của tôi', câu nói khởi đầu cho nhiều cuộc chiến tranh lạnh.",
+      },
+      {
+        title: "Viết ra và cùng đọc lại một lượt",
+        detail:
+          "Mở ghi chú chung, gõ lại tất cả những gì vừa thống nhất, mỗi ý một dòng. Cả hai đọc lại và sửa chỗ chưa đồng ý. Mất mười lăm phút và nó có giá trị hơn mọi lời hứa miệng.",
+      },
+      {
+        title: "Hẹn nhau nói lại sau một tháng",
+        detail:
+          "Đặt lịch một buổi trò chuyện ngắn sau bốn tuần: cái gì đang ổn, cái gì thấy phiền. Có cái hẹn cố định thì người ta dễ nói ra chuyện nhỏ, thay vì cất trong bụng cho tới lúc bùng nổ vì một cái khăn ướt vắt trên ghế.",
+      },
+      {
+        title: "Khi có chuyện thì nói về hành vi, đừng nói về con người",
+        detail:
+          "Nói 'tuần này bồn rửa đầy bát nên mình khó nấu' thay vì 'bạn ở bẩn quá'. Câu đầu bàn về một việc sửa được, câu sau tấn công một con người và chắc chắn nhận lại thế thủ. Nói sớm, nói nhẹ, nói cụ thể.",
+      },
+      {
+        title: "Thoả thuận trước cách chia tay cho tử tế",
+        detail:
+          "Báo trước bao nhiêu ngày nếu muốn dọn ra, thường là ba mươi ngày. Tiền cọc chia thế nào, đồ chung xử lý ra sao, ai chịu trách nhiệm tìm người thế chỗ. Bàn chuyện này lúc còn vui thì dễ; lúc đã giận nhau thì mọi con số đều thành tranh cãi.",
+      },
+    ],
+    notes: [
+      "Ở ghép với bạn thân không tự động dễ hơn ở ghép với người lạ. Nhiều tình bạn đứt vì ở chung mà không ai chịu nói thẳng, vì sợ mất lòng. Càng thân càng nên có thoả thuận rõ ràng.",
+      "Đừng cho bạn cùng phòng vay tiền lớn khi vẫn đang ở chung. Nợ chưa trả cộng với sống chung là công thức khiến cả tiền lẫn tình bạn đều mất.",
+      "Giữ lại toàn bộ tin nhắn chuyển khoản tiền nhà và tiền điện nước. Đây là thứ duy nhất chứng minh được ai đã đóng gì khi tới lúc tính sổ.",
+      "Nếu bạn cùng phòng có hành vi khiến bạn thấy không an toàn, đừng cố chịu đựng cho hết hợp đồng. An toàn của bạn quan trọng hơn khoản tiền cọc, và hãy nói với người bạn tin tưởng.",
+    ],
+    faq: [
+      {
+        q: "Bạn cùng phòng chậm đóng tiền hoài thì làm sao?",
+        a: "Nói riêng, sớm, và cụ thể: 'tháng này mình ứng trước rồi, bạn chuyển giúp mình trước ngày 5 nhé'. Nếu lặp lại nhiều lần thì chuyển sang cách mỗi người tự chuyển thẳng cho chủ trọ, để bạn không còn ở thế đi đòi.",
+      },
+      {
+        q: "Có nên viết hợp đồng ở ghép đàng hoàng không?",
+        a: "Với người lạ hoặc khi số tiền lớn thì rất nên, dù chỉ là một trang giấy hai bên cùng ký và chụp lại. Với bạn bè thì một ghi chú chung trên điện thoại cũng đủ, miễn là có chữ chứ không chỉ có lời nói.",
+      },
+      {
+        q: "Muốn dọn ra giữa chừng thì có mất cọc không?",
+        a: "Tuỳ hợp đồng với chủ trọ và tuỳ thoả thuận giữa hai người. Cách êm nhất là báo sớm và tìm giúp người vào thế chỗ. Hỏi rõ điều khoản này ngay lúc ký hợp đồng thuê, đừng đợi tới lúc cần dọn mới đọc.",
+      },
+      {
+        q: "Người kia không chịu ngồi lại nói chuyện thì sao?",
+        a: "Nhắn tin thay vì nói trực tiếp, viết ngắn gọn từng điểm và hỏi bạn thấy sao. Có người ngại đối thoại trực diện nhưng trả lời tin nhắn rất thoải mái. Nếu vẫn không có phản hồi gì trong nhiều lần thì đó cũng là một câu trả lời, và bạn nên tính đường ở riêng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "sam-do-cho-phong-tro-dau-tien",
+    title: "Sắm đồ cho phòng trọ đầu tiên: mua gì trước, mua gì sau",
+    excerpt:
+      "Ngày đầu dọn vào là lúc dễ tiêu sạch tiền nhất. Có thứ mua ngay hôm đó, có thứ để ba tháng sau vẫn chưa cần.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Chia đồ thành ba đợt. Đợt một mua trong ngày dọn vào, chỉ gồm thứ thiếu là không ngủ và không tắm được: chiếu hoặc nệm, chăn gối, đồ vệ sinh, giấy, xà phòng, một cái quạt, ổ cắm nối dài. Đợt hai mua trong tuần đầu khi đã biết phòng thiếu gì thật sự. Đợt ba là đồ lớn như tủ lạnh, máy giặt, để dành sau một tháng, và lúc đó bạn sẽ ngạc nhiên vì có thứ hoá ra không cần mua.",
+    prepare: [
+      "Một danh sách viết sẵn trong điện thoại và một hạn mức tiền cho ngày đầu tiên",
+      "Ảnh chụp phòng cùng số đo các mảng tường và ô cửa, để không mua nhầm cỡ",
+      "Số đo chỗ định kê đồ, đo bằng thước dây hoặc bằng bước chân cũng được",
+      "Danh sách đồ chủ trọ đã trang bị sẵn, hỏi rõ trước khi mua trùng",
+      "Các nhóm mua bán đồ cũ trong khu vực, nơi mua được đồ tốt với giá bằng một phần ba",
+    ],
+    steps: [
+      {
+        title: "Hỏi chủ trọ phòng đã có sẵn những gì",
+        detail:
+          "Nhiều phòng đã có giường, tủ, nóng lạnh, thậm chí máy lạnh. Hỏi rõ trước khi mua để khỏi khiêng về rồi không có chỗ kê. Nhân tiện hỏi luôn có được khoan tường, dán tường hay không, vì điều đó quyết định bạn mua kệ đứng hay kệ treo.",
+      },
+      {
+        title: "Đợt một: chỉ mua thứ thiếu là không sống nổi đêm đó",
+        detail:
+          "Chỗ nằm, chăn gối, khăn tắm, giấy vệ sinh, xà phòng, kem đánh răng, một cái quạt nếu trời nóng, ổ cắm nối dài, và ít đồ ăn liền. Bấy nhiêu là đủ qua đêm đầu tiên. Mọi thứ khác đều chờ được, dù lúc đứng trong siêu thị bạn sẽ thấy cái gì cũng cần.",
+      },
+      {
+        title: "Ở thử một tuần rồi mới mua tiếp",
+        detail:
+          "Sống vài ngày bạn sẽ biết phòng thật sự thiếu gì. Có thể bạn tưởng cần cái bàn học, ở rồi mới thấy cần cái giá phơi đồ hơn nhiều. Đây là bước tiết kiệm nhất trong cả bài và cũng là bước khó nhất, vì ai cũng nôn nóng bày biện.",
+      },
+      {
+        title: "Đợt hai: đồ dùng hằng ngày sau khi đã hiểu phòng",
+        detail:
+          "Giá phơi đồ, móc treo, thùng rác, chổi và cây lau nhà, hộp đựng đồ, đèn bàn, rèm cửa, dây phơi. Nhóm này rẻ nhưng làm phòng ở được thật sự. Ưu tiên giá phơi đồ nếu phòng bạn không có chỗ phơi ngoài trời.",
+      },
+      {
+        title: "Bếp: bắt đầu bằng bộ tối thiểu",
+        detail:
+          "Một cái nồi, một cái chảo, một con dao, một cái thớt, hai bát hai đũa, một cái rổ. Bấy nhiêu nấu được hầu hết bữa cơm thường ngày. Bộ nồi mười hai món trông hấp dẫn nhưng bạn sẽ dùng đúng hai cái, còn lại chiếm chỗ trong căn phòng vốn đã chật.",
+      },
+      {
+        title: "Đợt ba: đồ lớn, để sau một tháng",
+        detail:
+          "Tủ lạnh, máy giặt, máy lạnh, bàn ghế lớn. Sau một tháng bạn biết rõ mình có nấu ăn thật không, có giặt tay nổi không, và tiền còn bao nhiêu. Nhiều người mua tủ lạnh ngay tuần đầu rồi cả năm chỉ để trong đó vài lon nước.",
+      },
+      {
+        title: "Cân nhắc đồ cũ cho những món giá trị lớn",
+        detail:
+          "Tủ lạnh, máy giặt, quạt, bàn ghế mua lại của người sắp chuyển đi thường rẻ bằng một phần ba mà vẫn tốt. Tìm trong các nhóm mua bán của khu vực hoặc hỏi ngay chính chủ trọ, vì họ biết ai sắp dọn. Đi xem tận nơi, cắm điện thử, và nhớ tính cả tiền chở về.",
+      },
+      {
+        title: "Đo trước khi mua bất cứ thứ gì lớn hơn cái ghế",
+        detail:
+          "Đo chỗ định kê, và đo cả cửa ra vào, cầu thang, hành lang. Chuyện cái tủ không lọt qua cửa xảy ra thường xuyên hơn bạn nghĩ, và lúc đó vừa mất tiền chở vừa mất mặt với người bán.",
+      },
+      {
+        title: "Ưu tiên đồ nhẹ, gấp gọn, dễ mang đi",
+        detail:
+          "Người thuê trọ thường chuyển nhà sau một hai năm. Cái tủ gỗ nặng ba mươi cân sẽ thành gánh nặng lúc chuyển. Chọn kệ lắp ráp, tủ vải, bàn gấp — vừa rẻ vừa mang theo được. Đây là kiểu suy nghĩ mà chỉ người đã chuyển trọ vài lần mới có.",
+      },
+      {
+        title: "Đừng mua đồ trang trí trong tuần đầu",
+        detail:
+          "Tranh, đèn dây, cây cảnh, thảm — chờ đã. Khi phòng đã đủ đồ dùng và bạn đã biết mình hay ngồi ở góc nào, lúc đó trang trí mới đúng chỗ và đúng gu. Mua sớm thì thường vài tháng sau lại tháo xuống.",
+      },
+      {
+        title: "Ghi lại mọi khoản đã tiêu trong tháng đầu",
+        detail:
+          "Mở một ghi chú, gõ từng khoản kèm số tiền. Con số tổng cuối tháng thường lớn hơn bạn tưởng khá nhiều. Bảng này còn giúp bạn biết đồ nào của mình khi tới lúc dọn ra, nhất là khi ở ghép.",
+      },
+      {
+        title: "Chừa lại một khoản dự phòng",
+        detail:
+          "Đừng tiêu sạch tiền vào việc sắm đồ. Luôn giữ lại một khoản đủ cho một tháng tiền nhà và ăn uống. Tháng đầu ở trọ hay có chi phí phát sinh bất ngờ, và túng tiền vào lúc vừa chuyển tới nơi lạ là cảm giác rất nản.",
+      },
+    ],
+    notes: [
+      "Món đáng tiền nhất trong phòng trọ thường là thứ liên quan tới giấc ngủ: nệm hoặc chiếu tử tế, gối vừa cổ, rèm che sáng. Ngủ ngon thì mọi thứ khác đều dễ chịu hơn.",
+      "CẨN THẬN với ổ cắm nối dài giá rẻ: đừng cắm ấm siêu tốc, bàn ủi hay nồi chiên vào loại dây mỏng. Chọn loại có công tắc, có cầu chì, và cắm đồ công suất lớn thẳng vào ổ tường.",
+      "Mua đồ cũ thì nhớ cắm điện thử tại chỗ và hỏi lý do bán. Đồ điện tử cũ không có bảo hành, nên cái gì hỏng là mất luôn, đừng ham rẻ với món có giá gần bằng đồ mới.",
+      "Hỏi chủ trọ trước khi khoan tường hay dán keo lên tường. Vài cái lỗ khoan có thể bị trừ vào tiền cọc lúc trả phòng, và số tiền đó thường lớn hơn cái kệ bạn treo.",
+    ],
+    faq: [
+      {
+        q: "Ngân sách sắm đồ cho phòng trọ đầu tiên khoảng bao nhiêu?",
+        a: "Rất khác nhau tuỳ phòng đã có sẵn gì và bạn mua mới hay mua cũ. Cách làm đúng không phải là nhắm một con số, mà là chia ba đợt như trên và đặt hạn mức cho từng đợt. Làm vậy thì bạn luôn tiêu trong khả năng.",
+      },
+      {
+        q: "Nên mua tủ lạnh loại nào cho phòng trọ?",
+        a: "Nếu bạn ít nấu ăn thì loại nhỏ dưới trăm lít là đủ và tốn ít điện. Nếu nấu ăn thường xuyên và ở ghép thì mới cần cỡ lớn hơn. Nhưng câu hỏi nên trả lời trước là: sau một tháng ở, bạn có thật sự nấu ăn không.",
+      },
+      {
+        q: "Có nên mua máy giặt hay đi giặt ngoài?",
+        a: "Tính thử: mỗi tuần giặt ngoài hết bao nhiêu, nhân với thời gian bạn định ở đó. So với giá một cái máy giặt cũ. Nếu ở dưới một năm thì giặt ngoài thường hợp lý hơn, chưa kể chuyện chuyển nhà phải khiêng máy đi.",
+      },
+      {
+        q: "Đồ nào không nên mua dù thấy rẻ?",
+        a: "Đồ điện không rõ nguồn gốc, ổ cắm dây mỏng, nệm cũ của người lạ, và mọi thứ cồng kềnh mà bạn không chắc sẽ dùng. Trong phòng trọ, chỗ trống cũng là một thứ có giá trị, đôi khi giá trị hơn món đồ bạn định nhét vào đó.",
+      },
+    ],
+    sources: [],
+  },
 ];
