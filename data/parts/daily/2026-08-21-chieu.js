@@ -208,7 +208,7 @@ export const day20260821chieu = [
     sources: [],
   },
   {
-    slug: "tra-cuu-bao-hiem-xa-hoi-tren-vssid",
+    slug: "cong-ty-co-dong-du-bao-hiem-khong",
     title: "Tra cứu bảo hiểm xã hội trên VssID: công ty có đóng đủ cho bạn không",
     excerpt:
       "Công ty trừ tiền bảo hiểm trên lương bạn mỗi tháng, nhưng có nộp lên cơ quan bảo hiểm hay không lại là chuyện khác. Đây là cách tự kiểm tra trong mười phút.",
