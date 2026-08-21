@@ -1073,4 +1073,564 @@ export const day20260821toi = [
     ],
     sources: [],
   },
+  {
+    slug: "bao-cao-su-rach-hoac-tuot-lam-gi-tiep",
+    title: "Bao cao su rách hoặc tuột: việc cần làm trong 24 giờ đầu",
+    excerpt:
+      "Đây là tình huống có mốc thời gian, và biết trước sẽ đỡ hoảng hơn nhiều so với việc ngồi tra mạng lúc nửa đêm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Có hai việc riêng biệt cần tính tới: khả năng mang thai ngoài ý muốn và khả năng lây bệnh qua đường tình dục. Cả hai đều có biện pháp, và cả hai đều tính bằng giờ chứ không phải bằng ngày, nên hãy liên hệ cơ sở y tế càng sớm càng tốt thay vì chờ xem sao. Đừng thụt rửa. Đừng tự mua thuốc theo lời mách trên mạng. Một lần đi khám hoặc một cuộc gọi tới cơ sở y tế sẽ cho bạn câu trả lời đúng cho trường hợp cụ thể của mình.",
+    prepare: [
+      "Ghi lại chính xác thời điểm xảy ra — mọi biện pháp đều tính giờ từ mốc này",
+      "Ngày đầu của kỳ kinh gần nhất, nếu liên quan tới khả năng mang thai",
+      "Thông tin về biện pháp tránh thai đang dùng, nếu có",
+      "Danh sách thuốc đang dùng và tiền sử dị ứng, để nói với bác sĩ",
+      "Số điện thoại hoặc địa chỉ một cơ sở y tế mở cửa gần bạn nhất",
+    ],
+    steps: [
+      {
+        title: "Bình tĩnh và ghi lại mốc giờ",
+        detail:
+          "Ghi ngay vào điện thoại ngày và giờ. Nghe có vẻ nhỏ nhặt nhưng mọi hướng xử lý sau đó đều được tính từ mốc này, và trí nhớ lúc đang lo lắng thì rất không đáng tin.",
+      },
+      {
+        title: "Vệ sinh nhẹ nhàng bên ngoài, không thụt rửa",
+        detail:
+          "Rửa bên ngoài bằng nước sạch. Tuyệt đối không thụt rửa sâu, không dùng dung dịch sát khuẩn mạnh hay xà phòng vào bên trong. Việc đó không giảm nguy cơ mà còn làm tổn thương niêm mạc, khiến khả năng lây nhiễm cao hơn.",
+      },
+      {
+        title: "Tách vấn đề thành hai phần",
+        detail:
+          "Phần một là khả năng mang thai, phần hai là khả năng lây bệnh. Hai phần này có cách xử lý khác nhau và mốc thời gian khác nhau. Gộp chung lại là lý do nhiều người rối và bỏ sót một nửa.",
+      },
+      {
+        title: "Với khả năng mang thai: liên hệ y tế trong vòng vài giờ",
+        detail:
+          "Có các biện pháp tránh thai khẩn cấp và hiệu quả của chúng giảm dần theo thời gian, nên càng sớm càng tốt. Hãy gặp dược sĩ tại nhà thuốc có giấy phép hoặc tới cơ sở y tế để được tư vấn đúng lựa chọn cho trường hợp của bạn.",
+      },
+      {
+        title: "Với khả năng lây bệnh: hỏi về dự phòng sau phơi nhiễm",
+        detail:
+          "Nếu bạn không rõ tình trạng sức khoẻ của bạn tình hoặc có lý do lo ngại, hãy tới cơ sở y tế có khám bệnh lây truyền qua đường tình dục và nói rõ tình huống. Có phác đồ dự phòng cần bắt đầu trong khung giờ nhất định sau phơi nhiễm, và chỉ bác sĩ mới quyết định được bạn có cần hay không.",
+      },
+      {
+        title: "Nói chuyện với bạn tình, càng sớm càng tốt",
+        detail:
+          "Một câu ngắn là đủ: mình nghĩ bao bị rách, mình sẽ đi hỏi bác sĩ, bạn có biết tình trạng sức khoẻ của mình gần đây không. Đây là câu hỏi về sức khoẻ, không phải lời buộc tội. Thông tin họ cho biết ảnh hưởng trực tiếp tới việc bác sĩ tư vấn cho bạn.",
+      },
+      {
+        title: "Chọn nơi đi khám phù hợp",
+        detail:
+          "Khoa sản, khoa da liễu có đơn vị bệnh lây truyền qua đường tình dục, trung tâm y tế dự phòng, hoặc phòng khám có giấy phép. Ở thành phố lớn có những cơ sở làm việc buổi tối và cuối tuần. Nói ngắn khi đăng ký: em cần tư vấn sau một tình huống có nguy cơ.",
+      },
+      {
+        title: "Chuẩn bị trả lời những câu bác sĩ sẽ hỏi",
+        detail:
+          "Xảy ra lúc nào, có dùng biện pháp gì không, ngày đầu kỳ kinh gần nhất, có biết tình trạng của bạn tình không, có đang dùng thuốc gì không. Trả lời thẳng và chính xác. Bác sĩ hỏi để chọn hướng xử lý, không phải để đánh giá bạn.",
+      },
+      {
+        title: "Không tự mua thuốc theo lời mách",
+        detail:
+          "Các loại thuốc được truyền tai trong nhóm chat hoặc rao bán trên mạng có thể sai loại, sai liều, hoặc là hàng giả. Đây là chỗ tuyệt đối phải qua dược sĩ hoặc bác sĩ. Bài này cố ý không nêu tên thuốc nào.",
+      },
+      {
+        title: "Đặt lịch xét nghiệm ở đúng thời điểm",
+        detail:
+          "Xét nghiệm ngay hôm sau thường chưa phản ánh được lần phơi nhiễm vừa rồi, vì mỗi bệnh có khoảng thời gian cửa sổ riêng. Hãy hỏi bác sĩ nên xét nghiệm gì, vào tuần thứ mấy, và có cần làm lại lần hai không. Ghi lịch đó vào điện thoại ngay.",
+      },
+      {
+        title: "Theo dõi cơ thể trong vài tuần tới",
+        detail:
+          "Chú ý sốt, nổi hạch, phát ban, tiết dịch bất thường, tiểu buốt, đau vùng bụng dưới, hoặc vết loét ở vùng kín. Có bất kỳ dấu hiệu nào thì đi khám luôn chứ đừng chờ tới lịch hẹn.",
+      },
+      {
+        title: "Nếu liên quan tới khả năng mang thai, thử thai đúng lúc",
+        detail:
+          "Thử quá sớm cho kết quả không đáng tin. Thông thường là sau khi trễ kinh, hoặc theo đúng mốc bác sĩ dặn. Nếu chậm kinh và que âm tính mà vẫn nghi ngờ, hãy đi khám thay vì thử đi thử lại.",
+      },
+      {
+        title: "Rút kinh nghiệm cho lần sau, không tự trách",
+        detail:
+          "Bao rách hoặc tuột thường liên quan tới hạn dùng, cách bảo quản, cỡ không phù hợp, hoặc dùng chung với sản phẩm bôi trơn gốc dầu. Kiểm hạn dùng, cất nơi mát, không để trong ví lâu ngày. Chuyện xảy ra rồi thì việc cần làm là xử lý, không phải là dằn vặt.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM NGAY nếu có: sốt cao, đau bụng dưới dữ dội, chảy máu nhiều bất thường, ngất xỉu, hoặc đau khi đi tiểu kèm sốt.",
+      "Bài này không nêu tên thuốc và không nêu liều dùng. Việc dùng thuốc gì, bao nhiêu, trong bao lâu là quyết định của bác sĩ hoặc dược sĩ sau khi biết trường hợp cụ thể của bạn.",
+      "Nếu chuyện xảy ra không có sự đồng thuận của bạn, đó là tình huống khác và bạn có quyền được hỗ trợ — hãy tìm tới người thân tin cậy, cơ sở y tế hoặc cơ quan công an.",
+      "Đây không phải tư vấn y khoa. Hãy liên hệ nhân viên y tế càng sớm càng tốt thay vì dựa vào bất kỳ bài viết nào trên mạng.",
+    ],
+    faq: [
+      {
+        q: "Làm sao biết bao có bị rách hay không?",
+        a: "Kiểm tra bằng mắt sau khi tháo ra, nhìn xem có vết rách hay không và bao có còn nguyên vị trí không. Nếu không chắc chắn, hãy xử lý như trường hợp có nguy cơ — an toàn hơn là đoán.",
+      },
+      {
+        q: "Chỉ một lần thì nguy cơ có cao không?",
+        a: "Nguy cơ khác nhau rất nhiều tuỳ tình huống, thời điểm trong chu kỳ và tình trạng sức khoẻ của hai người. Không ai kết luận được qua mạng, và đó chính là lý do nên hỏi nhân viên y tế.",
+      },
+      {
+        q: "Em ngại đi khám vì sợ bị hỏi han soi mói. Có cách nào không?",
+        a: "Với nhân viên y tế đây là tình huống gặp thường xuyên và có quy trình sẵn. Bạn có thể chọn cơ sở xa nơi quen biết, đi vào giờ vắng, và viết sẵn tình huống ra giấy để chỉ cần đưa cho bác sĩ đọc.",
+      },
+      {
+        q: "Uống nhiều nước hay rửa kỹ có giảm nguy cơ không?",
+        a: "Không. Đây là hai cách được truyền miệng nhiều nhất và đều không có tác dụng, riêng việc thụt rửa còn làm tăng nguy cơ. Cách duy nhất có ý nghĩa là liên hệ y tế sớm.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "chay-mau-bat-thuong-sau-quan-he",
+    title: "Chảy máu sau khi gần gũi: khi nào là bình thường, khi nào phải đi khám",
+    excerpt:
+      "Nhiều người thấy một lần rồi tự trấn an là do mạnh tay, và im lặng suốt nhiều tháng. Đây là thứ nên cho bác sĩ xem.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Một lần chảy vài giọt rồi hết hẳn, không đau, không lặp lại thì thường không đáng lo. Nhưng nếu lặp lại nhiều lần, kèm đau, kèm dịch có mùi, hoặc xảy ra ở người đã qua tuổi mãn kinh thì cần đi khám phụ khoa, đừng chờ. Nguyên nhân có nhiều mức độ, phần lớn lành tính và xử lý được, nhưng có những nguyên nhân mà phát hiện sớm khác hẳn phát hiện muộn. Việc đi khám mất một buổi, còn sự im lặng có thể kéo dài nhiều năm.",
+    prepare: [
+      "Ghi lại: bao nhiêu lần, mỗi lần nhiều hay ít, màu sắc, có đau kèm không",
+      "Ngày đầu các kỳ kinh gần nhất, chu kỳ có đều không",
+      "Lần tầm soát cổ tử cung gần nhất là khi nào, kết quả ra sao",
+      "Biện pháp tránh thai đang dùng, nếu có",
+      "Thẻ bảo hiểm y tế và căn cước",
+    ],
+    steps: [
+      {
+        title: "Ghi lại thật cụ thể thay vì cố nhớ",
+        detail:
+          "Ngày, lượng máu ước chừng bằng gì, màu đỏ tươi hay nâu, kéo dài bao lâu, có đau không. Ghi vào ghi chú điện thoại ngay lúc xảy ra. Ba bốn dòng này giúp bác sĩ định hướng nhanh hơn cả một buổi kể chuyện.",
+      },
+      {
+        title: "Phân biệt với máu kinh sắp tới",
+        detail:
+          "Đối chiếu với ngày dự kiến kỳ kinh. Chảy máu đúng vào những ngày sát kỳ kinh có thể chỉ là kỳ kinh đến sớm. Chảy máu giữa chu kỳ, cách xa kỳ kinh, là chuyện khác và đáng chú ý hơn.",
+      },
+      {
+        title: "Chú ý các dấu hiệu đi kèm",
+        detail:
+          "Đau vùng bụng dưới, đau khi gần gũi, dịch tiết đổi màu hoặc có mùi, tiểu buốt, sốt. Những dấu hiệu này gợi ý các nguyên nhân khác nhau, nên đừng bỏ qua dù nghĩ chúng không liên quan.",
+      },
+      {
+        title: "Nhận diện các tình huống cần đi khám sớm",
+        detail:
+          "Lặp lại từ hai lần trở lên, chảy máu nhiều, kèm đau, kèm sốt, xảy ra khi đang mang thai, hoặc xảy ra ở người đã mãn kinh. Bất kỳ trường hợp nào trong nhóm này thì đặt lịch khám luôn, không cần chờ xem lần sau có nữa không.",
+      },
+      {
+        title: "Đi khám ngay lập tức nếu máu nhiều",
+        detail:
+          "Máu chảy nhiều không cầm, chóng mặt, choáng, da tái, tim đập nhanh, hoặc đau bụng dưới dữ dội là tình huống cấp cứu. Tới cơ sở y tế gần nhất ngay, không tự đi xe một mình.",
+      },
+      {
+        title: "Không thụt rửa và không tự đặt thuốc",
+        detail:
+          "Rất nhiều người phản xạ đầu tiên là thụt rửa hoặc mua thuốc đặt. Cả hai đều có thể làm sai kết quả khám và làm tổn thương thêm. Chỉ rửa nhẹ bên ngoài bằng nước sạch và chờ tới lúc khám.",
+      },
+      {
+        title: "Chọn thời điểm đi khám",
+        detail:
+          "Tốt nhất là những ngày không đang hành kinh. Nhưng nếu đang chảy máu bất thường và lo lắng thì cứ đi, đừng chờ sạch kinh — bác sĩ vẫn khám được và bản thân việc đang chảy máu cũng là thông tin.",
+      },
+      {
+        title: "Chọn nơi khám",
+        detail:
+          "Bệnh viện sản phụ khoa, khoa sản của bệnh viện đa khoa, hoặc phòng khám có giấy phép rõ ràng. Muốn bác sĩ nữ thì nói ngay lúc đặt lịch. Khi đăng ký chỉ cần nói: em bị chảy máu bất thường, muốn khám phụ khoa.",
+      },
+      {
+        title: "Biết trước bác sĩ có thể làm gì",
+        detail:
+          "Hỏi bệnh sử, khám phụ khoa, có thể lấy mẫu xét nghiệm dịch, làm xét nghiệm tầm soát cổ tử cung nếu chưa làm gần đây, và siêu âm. Bạn có quyền hỏi rõ từng bước và có quyền yêu cầu dừng lại bất kỳ lúc nào.",
+      },
+      {
+        title: "Nói thật ở phần hỏi bệnh sử",
+        detail:
+          "Bác sĩ sẽ hỏi về đời sống tình dục, biện pháp tránh thai, số lần sinh nở, lần tầm soát gần nhất. Đây là câu hỏi chuyên môn để chọn hướng khám, không phải để đánh giá. Trả lời tránh né thì bác sĩ dễ bỏ sót.",
+      },
+      {
+        title: "Hỏi ba câu trước khi rời phòng khám",
+        detail:
+          "Nguyên nhân nghi ngờ là gì, có cần làm thêm xét nghiệm nào không và khi nào có kết quả, và trong lúc chờ thì cần theo dõi dấu hiệu gì. Xin ghi vào sổ khám để không phải nhớ bằng đầu.",
+      },
+      {
+        title: "Đừng bỏ lịch tái khám hay lịch lấy kết quả",
+        detail:
+          "Đây là chỗ hay đứt gánh nhất: khám xong thấy đỡ lo rồi không quay lại lấy kết quả. Đặt báo thức ngay từ lúc rời phòng khám. Kết quả có thể thay đổi hoàn toàn hướng xử lý.",
+      },
+      {
+        title: "Cập nhật lịch tầm soát định kỳ",
+        detail:
+          "Nếu đã lâu chưa tầm soát cổ tử cung, hãy hỏi bác sĩ về lịch phù hợp với độ tuổi của bạn ngay trong buổi khám này. Đây là việc phòng ngừa hiệu quả và nhiều người hoãn hết năm này qua năm khác.",
+      },
+    ],
+    notes: [
+      "ĐI CẤP CỨU NGAY nếu: máu chảy nhiều không cầm, chóng mặt hoặc ngất, đau bụng dưới dữ dội, sốt cao, hoặc đang mang thai mà chảy máu.",
+      "Chảy máu ở người đã mãn kinh luôn cần được bác sĩ đánh giá, dù chỉ một lần và chỉ vài giọt.",
+      "Bài này không nêu tên thuốc và không thay được chẩn đoán. Chỉ bác sĩ trực tiếp khám mới xác định được nguyên nhân trong trường hợp của bạn.",
+      "Đây không phải tư vấn y khoa. Nếu bạn từng bị đau hoặc sợ hãi khi gần gũi, hãy nói với bác sĩ — đó là thông tin quan trọng chứ không phải chuyện phải giấu.",
+    ],
+    faq: [
+      {
+        q: "Có phải do bạn tình mạnh tay không?",
+        a: "Có thể là một phần lý do, nhất là khi niêm mạc đang khô hoặc đang viêm. Nhưng nếu lặp lại thì việc quy hết cho nguyên nhân này là cách bỏ sót các nguyên nhân khác. Cứ đi khám để loại trừ.",
+      },
+      {
+        q: "Em còn trẻ thì có cần lo không?",
+        a: "Phần lớn trường hợp ở người trẻ là lành tính, nhưng viêm nhiễm và polyp cũng gặp ở người trẻ và đều cần xử lý. Trẻ tuổi là lý do để đi khám sớm và yên tâm, không phải lý do để bỏ qua.",
+      },
+      {
+        q: "Đang dùng thuốc tránh thai thì chảy máu giữa chu kỳ có bình thường không?",
+        a: "Chảy máu nhẹ giữa chu kỳ trong vài tháng đầu khi mới dùng là điều được ghi nhận, nhưng vẫn nên báo cho bác sĩ đã kê để được xem lại. Đừng tự đổi thuốc hay tự ngừng.",
+      },
+      {
+        q: "Em ngại khám phụ khoa. Có cách nào bớt sợ không?",
+        a: "Nói với bác sĩ ngay từ đầu rằng bạn thấy lo và muốn được giải thích từng bước. Rủ một người thân đi cùng, chọn bác sĩ nữ nếu bạn thoải mái hơn, và nhớ rằng bạn luôn có quyền yêu cầu dừng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "nhung-gio-dau-sau-khi-bi-xam-hai-tinh-duc",
+    title: "Những giờ đầu sau khi bị xâm hại: việc cần làm và nơi tìm giúp đỡ",
+    excerpt:
+      "Chuyện xảy ra không phải lỗi của bạn. Đây là những bước cụ thể, theo thứ tự, cho lúc đầu óc đang không nghĩ được gì.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Trước hết: chuyện xảy ra không phải lỗi của bạn, dù bạn ở đâu, mặc gì, uống gì hay quen biết người đó thế nào. Ba việc quan trọng nhất trong những giờ đầu là tìm tới nơi an toàn, liên hệ một người bạn tin tưởng, và tới cơ sở y tế càng sớm càng tốt để được chăm sóc sức khoẻ. Nếu có thể, hãy khoan tắm rửa và giữ nguyên quần áo đã mặc, vì điều đó giúp giữ bằng chứng nếu sau này bạn muốn trình báo. Quyền quyết định trình báo hay không là của bạn.",
+    prepare: [
+      "Số điện thoại của một người bạn tin tưởng — người thân, bạn thân, đồng nghiệp",
+      "Một túi giấy hoặc túi vải để đựng quần áo đã mặc, nếu bạn thay ra",
+      "Căn cước và thẻ bảo hiểm y tế nếu lấy được, nhưng đừng để việc này làm chậm bạn",
+      "Địa chỉ bệnh viện có khoa cấp cứu gần nhất",
+      "Điện thoại còn pin, hoặc sạc dự phòng",
+    ],
+    steps: [
+      {
+        title: "Tới nơi an toàn trước tiên",
+        detail:
+          "Nhà một người bạn, nhà người thân, một nơi công cộng có đông người, hoặc bệnh viện. An toàn thể chất là việc đầu tiên, mọi thứ khác tính sau. Nếu bạn đang gặp nguy hiểm ngay lúc này, hãy gọi 113 hoặc nhờ người xung quanh gọi giúp.",
+      },
+      {
+        title: "Gọi cho một người bạn tin tưởng",
+        detail:
+          "Không cần kể chi tiết. Một câu là đủ: mình vừa gặp chuyện, mình cần bạn tới chỗ mình. Có một người đi cùng trong những giờ tiếp theo giúp bạn rất nhiều, kể cả chỉ là ngồi bên cạnh trong lúc chờ ở bệnh viện.",
+      },
+      {
+        title: "Nếu có thể, khoan tắm rửa và thay đồ",
+        detail:
+          "Việc muốn tắm ngay là phản ứng hoàn toàn tự nhiên, và bạn không sai nếu đã tắm. Nhưng nếu còn kịp, hãy chờ tới khi được cơ sở y tế thăm khám, vì các dấu vết trên cơ thể và quần áo có thể trở thành bằng chứng nếu sau này bạn quyết định trình báo.",
+      },
+      {
+        title: "Giữ lại quần áo và các vật liên quan",
+        detail:
+          "Nếu buộc phải thay, hãy cho quần áo vào túi giấy hoặc túi vải, mỗi món một túi nếu có thể, và không giặt. Túi ni lông kín làm ẩm và hỏng dấu vết nhanh hơn. Giữ cả tin nhắn, cuộc gọi, ảnh, thông tin về nơi xảy ra.",
+      },
+      {
+        title: "Tới cơ sở y tế càng sớm càng tốt",
+        detail:
+          "Khoa cấp cứu bệnh viện đa khoa hoặc bệnh viện sản phụ khoa. Nói với nhân viên tiếp nhận rằng bạn cần được khám sau một vụ xâm hại tình dục. Bạn có quyền yêu cầu bác sĩ cùng giới và yêu cầu có người thân ở cùng.",
+      },
+      {
+        title: "Biết vì sao việc đi khám quan trọng dù bạn thấy mình không bị thương",
+        detail:
+          "Cơ sở y tế xử lý ba việc: kiểm tra và chăm sóc tổn thương, dự phòng bệnh lây truyền qua đường tình dục, và dự phòng mang thai ngoài ý muốn. Hai việc sau đều có mốc thời gian tính bằng giờ, nên đi sớm mở ra nhiều lựa chọn hơn cho bạn.",
+      },
+      {
+        title: "Bạn có quyền từ chối bất kỳ thao tác nào",
+        detail:
+          "Nhân viên y tế phải giải thích trước khi làm và phải xin sự đồng ý của bạn. Bạn có quyền hỏi lại, quyền dừng giữa chừng, quyền không làm phần nào đó. Hãy nói ra khi thấy quá sức, không cần cố chịu đựng.",
+      },
+      {
+        title: "Việc trình báo là quyền của bạn, không phải nghĩa vụ",
+        detail:
+          "Bạn có thể trình báo ngay, trình báo sau, hoặc không trình báo. Việc đi khám và giữ bằng chứng không buộc bạn phải trình báo, nhưng nó giữ cho bạn lựa chọn đó mở, phòng khi vài ngày hay vài tuần nữa bạn đổi ý.",
+      },
+      {
+        title: "Nếu muốn trình báo, đây là nơi cần tới",
+        detail:
+          "Công an phường hoặc xã nơi xảy ra sự việc, hoặc công an nơi bạn đang ở, họ sẽ hướng dẫn chuyển tiếp. Mang theo giấy tờ khám bệnh, quần áo đã giữ, và các bằng chứng điện tử. Nên có người thân đi cùng.",
+      },
+      {
+        title: "Ghi lại những gì bạn nhớ, càng sớm càng tốt",
+        detail:
+          "Viết ra giấy hoặc ghi âm cho chính mình: thời gian, địa điểm, những gì nhớ được, có ai chứng kiến không. Trí nhớ sau sang chấn thay đổi rất nhanh trong vài ngày đầu. Không cần viết hay, chỉ cần ghi lại.",
+      },
+      {
+        title: "Đặt lịch khám lại sau vài tuần",
+        detail:
+          "Bác sĩ sẽ dặn mốc xét nghiệm lại, vì nhiều bệnh cần thời gian mới phát hiện được. Ghi lịch vào điện thoại ngay tại phòng khám. Đây là bước rất hay bị bỏ qua khi mọi thứ đã lắng xuống.",
+      },
+      {
+        title: "Tìm hỗ trợ tâm lý, và đừng tự đặt hạn cho mình",
+        detail:
+          "Khó ngủ, giật mình, tê dại, không muốn ra khỏi nhà, hoặc ngược lại là cảm thấy bình thường tới mức thấy lạ — tất cả đều là phản ứng được ghi nhận. Hãy tìm tới chuyên viên tâm lý hoặc bác sĩ tâm thần, và nói với bác sĩ đang khám cho bạn rằng bạn muốn được giới thiệu.",
+      },
+      {
+        title: "Nhắc lại điều quan trọng nhất",
+        detail:
+          "Không có hoàn cảnh nào khiến việc này thành lỗi của bạn. Bạn không cần giải thích cho ai vì sao mình ở đó, mặc gì, hay vì sao không phản kháng. Đông cứng lại là phản ứng rất thường gặp của cơ thể và không có nghĩa là bạn đồng ý.",
+      },
+    ],
+    notes: [
+      "ĐI CẤP CỨU NGAY nếu có chảy máu nhiều, đau dữ dội, khó thở, chấn thương ở đầu, hoặc bạn nghi mình bị cho dùng chất gây mê, gây ngủ.",
+      "Nếu bạn đang gặp nguy hiểm ngay lúc này, hãy gọi 113 hoặc nhờ người xung quanh gọi giúp.",
+      "Bài này không nêu tên thuốc và không thay được thăm khám. Việc dự phòng bệnh lây truyền và dự phòng mang thai phải do nhân viên y tế quyết định.",
+      "Đây không phải tư vấn y khoa hay tư vấn pháp lý. Nếu cần, hãy hỏi cơ sở y tế về việc giới thiệu tới đơn vị hỗ trợ pháp lý và tâm lý.",
+    ],
+    faq: [
+      {
+        q: "Em đã tắm rồi thì có còn đi khám được không?",
+        a: "Có, và vẫn nên đi. Việc chăm sóc sức khoẻ, dự phòng bệnh lây truyền và dự phòng mang thai vẫn làm được. Bạn không làm sai điều gì cả khi đã tắm.",
+      },
+      {
+        q: "Người gây ra chuyện này là người quen, thậm chí là bạn đời. Có tính là xâm hại không?",
+        a: "Có. Quan hệ mà một bên không đồng ý là xâm hại, bất kể hai người quen biết ở mức nào, đang yêu nhau hay đã kết hôn. Việc từng đồng ý trước đó cũng không có nghĩa là đồng ý cho lần này.",
+      },
+      {
+        q: "Đã vài ngày rồi, giờ đi khám có muộn quá không?",
+        a: "Không muộn để chăm sóc sức khoẻ và làm xét nghiệm. Một số biện pháp dự phòng có mốc thời gian nên có thể không còn phù hợp, nhưng đó là lý do càng nên đi sớm chứ không phải lý do để thôi không đi.",
+      },
+      {
+        q: "Em sợ bị đổ lỗi khi kể ra. Nên nói với ai trước?",
+        a: "Hãy chọn một người mà bạn tin là sẽ đứng về phía bạn, không nhất thiết phải là người thân nhất. Nếu chưa tìm được ai, nhân viên y tế là nơi bạn có thể tới trước và họ có nghĩa vụ giữ bí mật thông tin của bạn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "thu-mai-chua-co-con-khi-nao-di-kham",
+    title: "Thử mãi chưa có con: mốc nào thì hai vợ chồng nên đi khám",
+    excerpt:
+      "Nhiều cặp đôi chờ ba bốn năm mới đi khám, trong khi mốc khuyến nghị ngắn hơn thế nhiều. Và cả hai người đều cần khám, không chỉ vợ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Mốc thường được dùng là một năm quan hệ đều đặn không dùng biện pháp tránh thai mà chưa có thai; nếu người vợ trên ba mươi lăm tuổi thì rút xuống khoảng sáu tháng. Đi khám sớm hơn nếu kinh nguyệt không đều hoặc mất kinh, từng có bệnh phụ khoa hay quai bị biến chứng, từng phẫu thuật vùng bụng chậu. Điều quan trọng nhất: cả hai vợ chồng cùng đi, ngay từ đầu. Nguyên nhân đến từ phía chồng chiếm khoảng một nửa số trường hợp, mà xét nghiệm cho chồng lại đơn giản và nhanh hơn nhiều.",
+    prepare: [
+      "Bảng theo dõi chu kỳ kinh nguyệt sáu tới mười hai tháng gần nhất",
+      "Thông tin về tiền sử bệnh của cả hai: phẫu thuật, bệnh phụ khoa, quai bị, chấn thương",
+      "Danh sách thuốc và thực phẩm chức năng cả hai đang dùng",
+      "Kết quả khám hoặc xét nghiệm cũ nếu đã từng làm ở nơi khác",
+      "Thẻ bảo hiểm y tế, căn cước và giấy đăng ký kết hôn nếu cơ sở yêu cầu",
+    ],
+    steps: [
+      {
+        title: "Xác định mốc thời gian của riêng hai vợ chồng",
+        detail:
+          "Tính từ lúc thật sự ngừng dùng biện pháp tránh thai và sinh hoạt đều đặn, chứ không tính từ lúc cưới. Ghi ra con số tháng cụ thể. Nhiều cặp đôi ngạc nhiên khi phát hiện thời gian thật ngắn hoặc dài hơn mình tưởng.",
+      },
+      {
+        title: "Đi sớm hơn nếu có các dấu hiệu này",
+        detail:
+          "Vợ có kinh nguyệt không đều, mất kinh, đau bụng kinh dữ dội, từng viêm nhiễm vùng chậu hoặc từng phẫu thuật vùng bụng. Chồng từng bị quai bị có biến chứng, từng chấn thương hay phẫu thuật vùng bẹn bìu. Có bất kỳ điều nào thì đừng chờ đủ một năm.",
+      },
+      {
+        title: "Thống nhất trước rằng cả hai cùng đi",
+        detail:
+          "Đây là bước quyết định và cũng là bước hay vướng nhất. Hãy nói rõ ngay từ đầu: đây là việc của hai đứa mình, không phải việc của riêng ai. Cặp nào chỉ có vợ đi khám thường mất thêm nhiều tháng mới quay lại đủ hai người.",
+      },
+      {
+        title: "Theo dõi chu kỳ trước khi đi",
+        detail:
+          "Ghi ngày đầu mỗi kỳ trong ít nhất ba tháng, độ dài chu kỳ, có đều không. Dùng ứng dụng hay tờ lịch đều được. Bác sĩ sẽ hỏi ngay câu này và trả lời chính xác giúp tiết kiệm cả một vòng thăm khám.",
+      },
+      {
+        title: "Chọn cơ sở phù hợp",
+        detail:
+          "Bệnh viện sản phụ khoa có đơn vị hỗ trợ sinh sản, hoặc trung tâm hỗ trợ sinh sản có giấy phép. Nên chọn nơi khám được cho cả hai vợ chồng trong cùng một lần để đỡ đi lại. Gọi hỏi trước xem cần chuẩn bị gì và có cần đặt lịch không.",
+      },
+      {
+        title: "Hỏi trước về yêu cầu chuẩn bị cho chồng",
+        detail:
+          "Xét nghiệm tinh dịch đồ thường yêu cầu kiêng xuất tinh trong một khoảng thời gian nhất định trước khi làm, và bạn cần biết con số đó trước chứ không phải khi đã tới nơi. Gọi điện hỏi lễ tân là đủ.",
+      },
+      {
+        title: "Hỏi thời điểm trong chu kỳ cho phần khám của vợ",
+        detail:
+          "Một số xét nghiệm nội tiết và siêu âm phải làm vào ngày nhất định của chu kỳ. Hỏi rõ khi đặt lịch để không phải đi hai ba lần cho cùng một việc.",
+      },
+      {
+        title: "Biết trước những gì thường được chỉ định",
+        detail:
+          "Với vợ thường là khám phụ khoa, siêu âm, xét nghiệm nội tiết và có thể thăm dò vòi trứng. Với chồng thường bắt đầu bằng khám và tinh dịch đồ, đơn giản hơn nhiều và cho nhiều thông tin. Hỏi rõ mỗi cái để làm gì trước khi đóng tiền.",
+      },
+      {
+        title: "Đừng lấy kết quả một lần làm kết luận cuối cùng",
+        detail:
+          "Chỉ số tinh dịch đồ dao động khá nhiều theo thời điểm, tình trạng sức khoẻ và cả một đợt ốm sốt gần đó. Bác sĩ thường sẽ cho làm lại sau một khoảng thời gian trước khi kết luận. Đừng hoảng vì một tờ kết quả.",
+      },
+      {
+        title: "Cùng chỉnh những thứ nằm trong tầm tay",
+        detail:
+          "Bỏ thuốc lá, giảm rượu bia, ngủ đủ, giữ cân nặng hợp lý, tránh để vùng bìu tiếp xúc nhiệt cao thường xuyên như ngâm nước nóng lâu hay đặt máy tính lên đùi nhiều giờ. Những việc này không phải phép màu nhưng đều nằm trong tầm tay và đều được ghi nhận là có ảnh hưởng.",
+      },
+      {
+        title: "Cẩn thận với thuốc và dịch vụ được truyền tai",
+        detail:
+          "Các bài thuốc gia truyền, thực phẩm chức năng cam kết có con, hay dịch vụ không phép là nơi nhiều cặp đôi mất tiền và mất thời gian quý giá. Nếu định dùng bất cứ thứ gì, hãy mang vỏ hộp cho bác sĩ xem trước.",
+      },
+      {
+        title: "Hỏi rõ lộ trình và chi phí ngay từ buổi đầu",
+        detail:
+          "Ba câu nên hỏi: bước tiếp theo là gì, mất bao lâu mới biết kết quả, và chi phí ước tính cho từng bước là bao nhiêu. Xin bảng lộ trình bằng giấy nếu có. Biết trước giúp hai vợ chồng đỡ căng thẳng và chủ động sắp xếp.",
+      },
+      {
+        title: "Chăm phần tinh thần của cả hai",
+        detail:
+          "Giai đoạn này dễ sinh ra trách móc, im lặng và cảm giác có lỗi ở một trong hai người. Hãy thống nhất không đổ lỗi, chia việc đi khám cho đều, và cho phép mình có những tháng không nói tới chuyện này. Nếu thấy quá nặng, tư vấn tâm lý cho cặp đôi là lựa chọn hợp lý chứ không phải chuyện to tát.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM NGAY, không chờ đủ mốc, nếu vợ mất kinh kéo dài, đau bụng dưới dữ dội, hoặc chồng có sưng đau vùng bìu.",
+      "Bài này không nêu tên thuốc và không nêu liều dùng. Mọi thuốc kích thích rụng trứng hay hỗ trợ sinh sản đều phải do bác sĩ chuyên khoa kê và theo dõi.",
+      "Chỉ dùng dịch vụ ở cơ sở có giấy phép về hỗ trợ sinh sản. Hãy hỏi thẳng cơ sở về giấy phép nếu bạn không chắc.",
+      "Đây không phải tư vấn y khoa. Mỗi trường hợp rất khác nhau và chỉ bác sĩ trực tiếp khám mới đưa ra được hướng phù hợp.",
+    ],
+    faq: [
+      {
+        q: "Chồng em ngại đi khám, nói chắc chắn không phải do mình. Nên nói sao?",
+        a: "Có thể nói thẳng rằng nguyên nhân từ phía chồng chiếm khoảng một nửa số trường hợp, và xét nghiệm cho chồng nhanh và đơn giản hơn hẳn phần của vợ. Đi cùng nhau còn giúp loại trừ sớm và tiết kiệm nhiều tháng.",
+      },
+      {
+        q: "Đã có một con rồi mà giờ mãi chưa có bé thứ hai thì có cần đi khám không?",
+        a: "Có, và mốc thời gian áp dụng tương tự. Việc từng có con không loại trừ khả năng có vấn đề mới xuất hiện ở một trong hai người.",
+      },
+      {
+        q: "Tính ngày rụng trứng bằng ứng dụng có đáng tin không?",
+        a: "Ứng dụng dự đoán dựa trên chu kỳ trung bình nên chỉ đúng tương đối, nhất là khi chu kỳ không đều. Hãy dùng nó như một công cụ ghi chép để mang tới bác sĩ, chứ đừng dựa hoàn toàn vào con số nó đưa ra.",
+      },
+      {
+        q: "Chi phí khám ban đầu có tốn lắm không?",
+        a: "Buổi khám và các xét nghiệm cơ bản ban đầu thường ở mức nhiều gia đình chi trả được, và một phần có thể được bảo hiểm y tế hỗ trợ tuỳ cơ sở. Hãy hỏi rõ bảng giá trước khi làm, và hỏi cái nào cần làm ngay, cái nào chờ được.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "not-la-vet-loet-o-vung-kin-lam-gi-tiep",
+    title: "Thấy nốt lạ hoặc vết loét ở vùng kín: làm gì tiếp theo",
+    excerpt:
+      "Phản xạ đầu tiên của nhiều người là tra ảnh trên mạng rồi tự mua thuốc bôi. Đó cũng là cách làm mất dấu để bác sĩ chẩn đoán.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Đừng tự bôi bất cứ thứ gì, đừng nặn, đừng cạo hay đắp lá. Nốt hoặc vết loét ở vùng kín có nhiều nguyên nhân rất khác nhau, từ viêm nang lông thông thường tới bệnh lây truyền qua đường tình dục, và chúng trông khá giống nhau bằng mắt thường. Việc bôi thuốc trước khi khám có thể làm thay đổi tổn thương và khiến bác sĩ khó xác định. Hãy giữ nguyên, chụp ảnh lại để đối chiếu, và đặt lịch khám da liễu hoặc chuyên khoa bệnh lây truyền qua đường tình dục trong vài ngày tới.",
+    prepare: [
+      "Ảnh chụp tổn thương ngay khi phát hiện, để đối chiếu thay đổi theo ngày",
+      "Ghi lại: phát hiện từ khi nào, có đau hay ngứa không, có sốt không",
+      "Thông tin về lần tiếp xúc gần nhất có nguy cơ, nếu có",
+      "Danh sách thuốc và sản phẩm đã bôi lên vùng đó, kể cả sữa tắm và dung dịch vệ sinh",
+      "Đồ lót cotton rộng rãi để mặc trong những ngày chờ khám",
+    ],
+    steps: [
+      {
+        title: "Dừng ngay việc tự xử lý",
+        detail:
+          "Không nặn, không cạy, không cạo lông vùng đó, không đắp lá, không bôi thuốc mỡ hay kem trị mụn. Mỗi can thiệp đều có thể làm tổn thương lan rộng, bội nhiễm, hoặc thay đổi hình dạng khiến việc chẩn đoán khó hơn hẳn.",
+      },
+      {
+        title: "Chụp ảnh để theo dõi",
+        detail:
+          "Chụp ngay hôm nay ở nơi đủ sáng, rồi chụp lại mỗi ngày. Đặt một vật nhỏ bên cạnh làm mốc kích thước nếu tiện. Ảnh này rất hữu ích khi tổn thương thay đổi hoặc biến mất trước ngày hẹn khám. Lưu vào thư mục riêng có khoá trên điện thoại.",
+      },
+      {
+        title: "Ghi lại đặc điểm bằng chữ",
+        detail:
+          "Một nốt hay nhiều nốt, có đau không, có ngứa không, có chảy dịch không, có sốt hay nổi hạch bẹn không. Bốn năm dòng này là những gì bác sĩ hỏi đầu tiên, và ghi sẵn giúp bạn khỏi lúng túng trong phòng khám.",
+      },
+      {
+        title: "Nhớ lại các yếu tố có thể liên quan",
+        detail:
+          "Mới cạo hay tẩy lông gần đây, mặc đồ chật và ẩm nhiều ngày, đổi loại dung dịch vệ sinh hay sữa tắm, đi bơi ở nơi lạ. Những thứ này gợi ý các nguyên nhân thông thường và cũng là thông tin bác sĩ cần.",
+      },
+      {
+        title: "Nhận diện các dấu hiệu cần đi khám gấp",
+        detail:
+          "Sốt, đau nhiều, sưng lan nhanh, vùng da nóng đỏ tấy, khó đi tiểu, hoặc vết loét chảy máu. Có bất kỳ dấu hiệu nào thì tới cơ sở y tế trong ngày, không chờ tới lịch hẹn.",
+      },
+      {
+        title: "Giữ vùng đó sạch và khô, thế thôi",
+        detail:
+          "Rửa bên ngoài bằng nước sạch một tới hai lần mỗi ngày, lau khô nhẹ bằng khăn riêng. Không thụt rửa, không dùng dung dịch sát khuẩn mạnh. Mặc đồ lót cotton rộng, thay mỗi ngày, tránh quần bó.",
+      },
+      {
+        title: "Tạm dừng gần gũi cho tới khi khám xong",
+        detail:
+          "Đây là việc bảo vệ cả bạn lẫn bạn tình trong lúc chưa biết nguyên nhân. Nói ngắn gọn và bình thản: mình có tổn thương ở vùng kín, đang chờ đi khám, mình muốn dừng lại tới lúc có kết quả.",
+      },
+      {
+        title: "Đặt lịch khám ở đúng nơi",
+        detail:
+          "Khoa da liễu, đơn vị khám bệnh lây truyền qua đường tình dục, khoa nam khoa hoặc khoa phụ sản tuỳ trường hợp. Khi đăng ký cứ nói ngắn: em có tổn thương ở vùng kín cần khám. Không cần mô tả chi tiết ở quầy đông người.",
+      },
+      {
+        title: "Nói thật ở phần hỏi bệnh sử",
+        detail:
+          "Bác sĩ sẽ hỏi về đời sống tình dục, lần tiếp xúc gần nhất, có dùng biện pháp bảo vệ không. Đây là câu hỏi chuyên môn để chọn xét nghiệm phù hợp. Trả lời tránh né dẫn tới xét nghiệm sai hướng và bạn là người chịu thiệt.",
+      },
+      {
+        title: "Biết trước bác sĩ có thể chỉ định gì",
+        detail:
+          "Khám trực tiếp tổn thương, có thể lấy mẫu dịch hoặc mẫu từ vết loét, xét nghiệm máu để tầm soát. Một số kết quả có trong ngày, một số cần vài ngày. Hỏi rõ khi nào có kết quả và lấy bằng cách nào.",
+      },
+      {
+        title: "Hoàn thành đủ liệu trình nếu được kê thuốc",
+        detail:
+          "Rất nhiều người ngừng thuốc khi thấy tổn thương biến mất, và đó là lý do tình trạng quay lại nặng hơn. Uống hoặc bôi đủ số ngày bác sĩ dặn, kể cả khi trông đã ổn. Đây là chỗ hay hỏng nhất trong toàn bộ quá trình.",
+      },
+      {
+        title: "Báo cho bạn tình khi đã có kết quả",
+        detail:
+          "Nếu kết quả là bệnh có khả năng lây, bạn tình cũng cần đi khám dù họ không có triệu chứng. Nói thẳng và không đổ lỗi: mình vừa đi khám và có kết quả này, bạn nên đi kiểm tra cho chắc. Đây là việc khó nói nhưng là việc đúng.",
+      },
+      {
+        title: "Đi tái khám đúng hẹn",
+        detail:
+          "Kể cả khi mọi thứ đã hết. Tái khám để xác nhận đã ổn và để làm nốt các xét nghiệm cần khoảng thời gian chờ. Đặt báo thức ngay tại phòng khám thay vì tin vào trí nhớ.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM NGAY TRONG NGÀY nếu có sốt, đau nhiều, sưng lan nhanh, da nóng đỏ, khó đi tiểu, hoặc vết loét chảy máu.",
+      "Bài này không nêu tên thuốc và không nêu liều dùng. Đừng dùng lại đơn thuốc cũ của mình hay của người khác, kể cả khi triệu chứng trông giống hệt.",
+      "Không mua thuốc bôi hay thuốc uống theo tư vấn trên mạng xã hội và không dùng dịch vụ đốt, chấm ở cơ sở không phép.",
+      "Đây không phải tư vấn y khoa. Chỉ bác sĩ trực tiếp khám mới xác định được nguyên nhân, vì nhiều tình trạng rất khác nhau lại trông giống nhau.",
+    ],
+    faq: [
+      {
+        q: "Nốt tự biến mất sau vài ngày thì có cần đi khám nữa không?",
+        a: "Vẫn nên đi. Một số bệnh có giai đoạn tổn thương tự lặn rồi tiến triển âm thầm bên trong. Mang theo ảnh đã chụp để bác sĩ xem, vì lúc đó tổn thương không còn để khám trực tiếp.",
+      },
+      {
+        q: "Em chưa từng quan hệ thì có thể bị gì?",
+        a: "Nhiều nguyên nhân không liên quan tới quan hệ tình dục, ví dụ viêm nang lông sau cạo, u mềm lành tính, dị ứng sản phẩm vệ sinh, hoặc nang tuyến. Cứ nói rõ điều này với bác sĩ để họ định hướng đúng.",
+      },
+      {
+        q: "Đi khám có bị lộ thông tin không?",
+        a: "Nhân viên y tế có nghĩa vụ giữ bí mật thông tin người bệnh. Nếu vẫn ngại, bạn có thể chọn cơ sở xa nơi quen biết và đi vào khung giờ vắng.",
+      },
+      {
+        q: "Có nên xét nghiệm luôn tất cả các bệnh cho yên tâm không?",
+        a: "Hãy để bác sĩ chọn, vì mỗi xét nghiệm có thời điểm phù hợp riêng và làm quá sớm sẽ cho kết quả không đáng tin. Bạn có thể nói rõ mong muốn được tầm soát rộng và hỏi nên làm cái nào vào tuần thứ mấy.",
+      },
+    ],
+    sources: [],
+  },
 ];
