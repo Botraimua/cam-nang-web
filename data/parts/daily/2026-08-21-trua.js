@@ -1064,4 +1064,534 @@ export const day20260821trua = [
     ],
     sources: [],
   },
+  {
+    slug: "ke-benh-voi-bac-si-trong-5-phut",
+    title: "Kể bệnh với bác sĩ: nói gì trong năm phút khám ngắn ngủi",
+    excerpt:
+      "Chờ ba tiếng, vào phòng khám năm phút, ra tới cửa mới nhớ điều quan trọng nhất chưa nói. Chuẩn bị trước thì khác hẳn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Trước khi đi khám, viết ra ba dòng: triệu chứng chính là gì, bắt đầu từ khi nào, và điều bạn lo nhất. Vào phòng khám thì nói triệu chứng nặng nhất trước, kèm mốc thời gian cụ thể thay vì nói 'dạo này'. Mang theo danh sách những thứ bạn đang uống và các giấy tờ khám cũ. Trước khi ra khỏi phòng, hỏi lại ba câu: tôi bị gì, tôi cần làm gì tiếp, và dấu hiệu nào thì phải quay lại ngay.",
+    prepare: [
+      "Một tờ giấy hoặc ghi chú điện thoại viết sẵn ba dòng: triệu chứng, thời gian, điều lo nhất",
+      "Danh sách mọi thứ bạn đang uống, kể cả thực phẩm chức năng và thuốc bắc — bác sĩ cần biết đủ để tránh tương tác",
+      "Toàn bộ giấy khám, đơn cũ, kết quả xét nghiệm gần đây, xếp theo thứ tự thời gian",
+      "Thẻ bảo hiểm y tế và giấy tờ tuỳ thân",
+      "Ảnh chụp triệu chứng nếu là thứ nhìn thấy được như nốt trên da, vì lúc đi khám nó có thể đã lặn",
+    ],
+    steps: [
+      {
+        title: "Viết ra trước khi đi, đừng tin vào trí nhớ",
+        detail:
+          "Ngồi trong phòng khám, đối diện bác sĩ, người ta hay quên hoặc nói lộn xộn. Ba dòng viết sẵn giải quyết chuyện đó. Bác sĩ cũng dễ nắm hơn khi bạn nói có đầu có đuôi.",
+      },
+      {
+        title: "Ghi mốc thời gian cụ thể thay vì nói chung chung",
+        detail:
+          "Đừng nói 'dạo này em thấy mệt' mà nói 'khoảng ba tuần nay, bắt đầu từ đầu tháng, mỗi buổi chiều'. Thời gian là một trong những manh mối quan trọng nhất với người khám, và nó là thứ chỉ bạn biết.",
+      },
+      {
+        title: "Mô tả triệu chứng bằng từ đời thường, đừng cố dùng từ chuyên môn",
+        detail:
+          "Nói 'đau như bị bóp' hay 'đau âm ỉ như kim châm' còn hữu ích hơn là cố gọi tên một bệnh bạn đọc trên mạng. Nói rõ đau ở chỗ nào, lan đi đâu, lúc nào đau hơn, làm gì thì đỡ.",
+      },
+      {
+        title: "Nói triệu chứng nặng nhất TRƯỚC",
+        detail:
+          "Thời gian khám thường rất ngắn nên đừng để dành chuyện quan trọng tới cuối. Nếu bạn có ba vấn đề, nói ngay từ đầu: 'em có ba chuyện muốn hỏi, quan trọng nhất là chuyện thứ nhất'. Câu đó giúp bác sĩ phân bổ thời gian.",
+      },
+      {
+        title: "Đưa danh sách những thứ đang uống",
+        detail:
+          "Kể cả vitamin, thực phẩm chức năng, thuốc nam, thuốc do người quen mách. Nhiều thứ tưởng vô hại lại ảnh hưởng tới thứ bác sĩ định kê. Chụp ảnh vỏ hộp mang theo là cách nhanh nhất, khỏi phải đọc tên.",
+      },
+      {
+        title: "Kể cả những thứ bạn thấy ngại",
+        detail:
+          "Rượu bia, thuốc lá, thói quen ăn ngủ, chuyện tiêu hoá, chuyện tâm lý. Bác sĩ hỏi những điều này vì nó liên quan tới chẩn đoán chứ không phải để đánh giá bạn. Giấu một chi tiết có thể dẫn tới hướng xử lý sai.",
+      },
+      {
+        title: "Nói thẳng điều bạn lo sợ nhất",
+        detail:
+          "Câu 'em lo là em bị gì đó nghiêm trọng ạ' hoàn toàn nên nói. Bác sĩ sẽ giải thích trúng nỗi lo của bạn thay vì nói chung chung, và nhiều khi chính câu này giúp bạn ra về nhẹ lòng hơn hẳn.",
+      },
+      {
+        title: "Ghi chép hoặc xin phép ghi âm",
+        detail:
+          "Cầm giấy bút ghi lại tên bệnh, việc cần làm, ngày tái khám. Nếu muốn ghi âm thì xin phép trước một câu lịch sự. Người lo lắng thường chỉ nhớ được một phần nhỏ những gì bác sĩ nói, đây là chuyện rất bình thường.",
+      },
+      {
+        title: "Hỏi lại nếu chưa hiểu, đừng gật cho xong",
+        detail:
+          "Câu nên dùng: 'dạ bác sĩ nói lại giúp em chỗ này được không ạ, em chưa rõ lắm'. Không ai đánh giá bạn vì hỏi lại, và việc hiểu sai lời dặn mới là thứ gây hậu quả thật.",
+      },
+      {
+        title: "Trước khi ra, hỏi đủ ba câu chốt",
+        detail:
+          "Một, em đang bị gì ạ. Hai, giờ em cần làm gì tiếp. Ba, dấu hiệu nào thì em phải quay lại ngay hoặc đi cấp cứu. Câu thứ ba là câu quan trọng nhất mà ít người hỏi, và nó là thứ giúp bạn an tâm khi về nhà.",
+      },
+      {
+        title: "Hỏi rõ về đơn và về lịch tái khám",
+        detail:
+          "Uống trong bao lâu, có cần kiêng gì không, uống trước hay sau ăn, và bao giờ thì quay lại. Nếu chữ trong đơn khó đọc thì nhờ nhân viên y tế đọc giúp, đừng tự đoán và cũng đừng nhờ người bán thuốc đoán hộ.",
+      },
+      {
+        title: "Về nhà thì lưu lại toàn bộ giấy tờ",
+        detail:
+          "Chụp ảnh đơn thuốc và kết quả, để chung một thư mục trong điện thoại đặt tên theo ngày. Lần khám sau bạn sẽ có sẵn lịch sử, và điều đó giúp bác sĩ rất nhiều — nhất là khi bạn đổi nơi khám.",
+      },
+    ],
+    notes: [
+      "Bài này chỉ hướng dẫn cách chuẩn bị và cách nói chuyện, KHÔNG PHẢI TƯ VẤN Y KHOA. Mọi chẩn đoán và chỉ định đều phải do nhân viên y tế trực tiếp thăm khám đưa ra.",
+      "PHẢI ĐI CẤP CỨU NGAY, không chờ tới lịch khám, nếu có: ĐAU NGỰC DỮ DỘI, KHÓ THỞ, NÓI NGỌNG HOẶC MÉO MIỆNG HOẶC YẾU LIỆT MỘT BÊN NGƯỜI, NGẤT XỈU, CO GIẬT, CHẢY MÁU KHÔNG CẦM, ĐAU BỤNG DỮ DỘI ĐỘT NGỘT, HOẶC SỐT CAO KÈM LƠ MƠ.",
+      "Đừng tự chẩn đoán bằng thông tin trên mạng rồi vào phòng khám để 'xác nhận'. Hãy kể triệu chứng thật và để người khám kết luận; đọc trước chỉ nên dùng để biết mình cần hỏi gì.",
+      "Nếu thấy chưa yên tâm với kết luận, bạn hoàn toàn có quyền đi khám nơi khác để nghe ý kiến thứ hai. Đó là chuyện bình thường và không có gì thất lễ.",
+    ],
+    faq: [
+      {
+        q: "Có nên nhờ người thân vào cùng phòng khám không?",
+        a: "Rất nên nếu bạn lo lắng, nghe kém, hoặc đang mệt. Người đi cùng sẽ nhớ giúp những điều bạn quên, và ghi chép giúp bạn. Hãy hỏi nhân viên y tế trước vì có nơi giới hạn số người vào phòng.",
+      },
+      {
+        q: "Khám xong vẫn không hết bệnh thì làm sao?",
+        a: "Quay lại tái khám đúng hẹn và mô tả rõ điều gì đã thay đổi, điều gì không. Nói cụ thể 'em đã làm đúng như dặn nhưng triệu chứng vẫn như cũ sau bảy ngày' thì hữu ích hơn nhiều so với chỉ nói vẫn chưa khỏi.",
+      },
+      {
+        q: "Nếu thấy bác sĩ vội và không có thời gian nghe thì sao?",
+        a: "Nói ngắn và có trọng tâm là cách thích nghi tốt nhất, và đây chính là lý do nên viết sẵn ba dòng ở nhà. Nếu vẫn thấy chưa được giải đáp, bạn có thể đặt lịch khám lại vào khung giờ vắng hơn hoặc chọn nơi khám khác.",
+      },
+      {
+        q: "Có nên mang hết giấy khám cũ từ nhiều năm trước không?",
+        a: "Mang những thứ liên quan tới vấn đề hiện tại và các kết quả xét nghiệm trong khoảng một năm gần đây. Xếp theo thứ tự thời gian, mới nhất để trên. Cả xấp giấy lộn xộn thì bác sĩ không đủ thời gian đọc.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dat-lich-kham-online-do-phai-cho",
+    title: "Đặt lịch khám online: đỡ phải chờ được bao nhiêu",
+    excerpt:
+      "Dậy từ 4 giờ sáng xếp hàng lấy số là hình ảnh quen thuộc. Nhiều nơi giờ đã đặt được qua điện thoại, và đây là cách làm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Vào thẳng trang web chính thức của đúng bệnh viện bạn định tới, tìm mục đặt lịch khám, chọn chuyên khoa và khung giờ. Nhiều bệnh viện cũng có ứng dụng riêng hoặc nhận đặt qua tổng đài. Đặt lịch giúp bạn có khung giờ và số thứ tự, nhưng không có nghĩa là vào khám đúng phút đó — vẫn nên tới sớm khoảng ba mươi phút. Quan trọng nhất: chỉ dùng trang chính thức, tuyệt đối không đặt qua người lạ nhận làm hộ có thu phí.",
+    prepare: [
+      "Tên chính xác của bệnh viện bạn muốn khám, và tên đường của cơ sở đó vì nhiều nơi có vài cơ sở khác nhau",
+      "Số căn cước và thẻ bảo hiểm y tế, thường cần khi điền thông tin",
+      "Số điện thoại đang dùng, vì mã đặt lịch và tin nhắn xác nhận sẽ gửi về đó",
+      "Giấy chuyển tuyến nếu bạn muốn khám bảo hiểm ở tuyến trên — hỏi trước cho chắc",
+      "Một phương thức thanh toán trực tuyến nếu nơi đó yêu cầu đặt cọc phí khám",
+    ],
+    steps: [
+      {
+        title: "Chọn đúng nơi khám trước khi nghĩ tới chuyện đặt lịch",
+        detail:
+          "Bệnh thông thường thì khám ở trạm y tế phường hoặc bệnh viện quận là nhanh và đỡ tốn. Chỉ lên tuyến trên khi được chuyển hoặc khi cần chuyên khoa sâu. Chọn đúng tuyến ngay từ đầu tiết kiệm cho bạn cả buổi lẫn tiền.",
+      },
+      {
+        title: "Chỉ vào trang chính thức của bệnh viện",
+        detail:
+          "Gõ tên bệnh viện và tìm địa chỉ trang web chính thức, hoặc gọi tổng đài của bệnh viện hỏi họ đặt lịch ở đâu. Có nhiều trang và tài khoản mạng xã hội mạo danh nhận đặt hộ rồi thu phí. Nghi ngờ thì gọi điện hỏi thẳng bệnh viện, đó là cách kiểm chứng chắc nhất.",
+      },
+      {
+        title: "Tìm mục đặt lịch và chọn chuyên khoa",
+        detail:
+          "Không rõ mình cần khoa nào thì chọn khám tổng quát hoặc nội tổng hợp, rồi họ sẽ hướng bạn đi tiếp. Chọn sai khoa thì mất công đi lại, nên nếu phân vân hãy gọi tổng đài hỏi trước một câu.",
+      },
+      {
+        title: "Chọn khung giờ, ưu tiên giữa tuần và giữa buổi",
+        detail:
+          "Sáng thứ Hai và ngày đầu tháng thường đông nhất. Giữa tuần, khoảng chín tới mười giờ sáng hoặc đầu giờ chiều thường dễ thở hơn. Đây là kinh nghiệm chung, còn thực tế mỗi nơi mỗi khác nên hỏi người quen đã khám ở đó là chuẩn nhất.",
+      },
+      {
+        title: "Điền thông tin đúng như trên giấy tờ",
+        detail:
+          "Họ tên, ngày sinh, số căn cước, số thẻ bảo hiểm phải khớp từng chữ với giấy tờ. Sai một chi tiết là tới nơi phải làm lại từ đầu ở quầy tiếp nhận và mất luôn thứ tự đã đặt.",
+      },
+      {
+        title: "Lưu lại mã đặt lịch và tin nhắn xác nhận",
+        detail:
+          "Chụp màn hình ngay, đừng chỉ tin vào việc mở lại ứng dụng. Sóng yếu hoặc hết pin lúc tới nơi là chuyện thường, và tấm ảnh chụp màn hình cứu bạn khỏi việc phải làm lại từ đầu.",
+      },
+      {
+        title: "Kiểm tra xem có phải trả phí trước không",
+        detail:
+          "Một số nơi yêu cầu thanh toán phí khám khi đặt, số khác thì trả tại chỗ. Đọc kỹ phần này và giữ biên lai. Mọi con số về lệ phí đều thay đổi tuỳ nơi và tuỳ thời điểm, nên hỏi trực tiếp cho chắc thay vì tin con số ai đó kể lại.",
+      },
+      {
+        title: "Vẫn tới sớm khoảng ba mươi phút",
+        detail:
+          "Đặt lịch giúp bạn có số và có khung giờ, chứ không phải là hẹn giờ chính xác. Vẫn cần thời gian cho khâu tiếp nhận, đối chiếu giấy tờ và tìm đúng phòng. Tới sớm rồi ngồi chờ vẫn dễ chịu hơn là tới muộn và mất lượt.",
+      },
+      {
+        title: "Tới nơi thì làm thủ tục tiếp nhận trước tiên",
+        detail:
+          "Tìm quầy tiếp nhận hoặc quầy dành cho khách đã đặt lịch, đưa mã đặt lịch và giấy tờ. Không thấy quầy nào ghi rõ thì hỏi bảo vệ hoặc nhân viên hướng dẫn ở sảnh — họ trả lời câu này cả trăm lần mỗi ngày.",
+      },
+      {
+        title: "Nếu không đi được thì huỷ lịch",
+        detail:
+          "Vào lại ứng dụng hoặc gọi tổng đài để huỷ. Việc này mất một phút và nhường suất cho người khác đang cần. Huỷ nhiều lần mà không báo thì một số nơi có thể hạn chế việc đặt lịch của bạn về sau.",
+      },
+      {
+        title: "Hỏi luôn về việc đặt lịch tái khám khi ra về",
+        detail:
+          "Nhiều nơi cho đặt lịch lần sau ngay tại quầy, thậm chí chọn được đúng bác sĩ vừa khám. Làm ngay lúc đó nhanh hơn nhiều so với về nhà rồi loay hoay đặt lại.",
+      },
+      {
+        title: "Ghi lại kinh nghiệm cho lần sau",
+        detail:
+          "Ghi chú vào điện thoại: khoa nào ở tầng mấy, khung giờ nào vắng, quầy nào dành cho người đặt trước, gửi xe ở đâu. Lần khám sau bạn sẽ đi như người quen đường và tiết kiệm được cả tiếng.",
+      },
+    ],
+    notes: [
+      "Bài này nói về thủ tục hành chính, KHÔNG PHẢI TƯ VẤN Y KHOA. Mọi vấn đề sức khoẻ đều cần nhân viên y tế trực tiếp thăm khám.",
+      "ĐANG CÓ DẤU HIỆU NGUY CẤP THÌ KHÔNG ĐẶT LỊCH MÀ ĐI CẤP CỨU NGAY hoặc gọi 115: ĐAU NGỰC DỮ DỘI, KHÓ THỞ, YẾU LIỆT MỘT BÊN NGƯỜI HOẶC NÓI NGỌNG ĐỘT NGỘT, NGẤT, CO GIẬT, CHẢY MÁU NHIỀU, CHẤN THƯƠNG NẶNG. Khoa cấp cứu tiếp nhận không cần đặt lịch.",
+      "CẨN THẬN với các trang và tài khoản nhận 'đặt lịch giúp, lấy số nhanh' có thu phí. Bệnh viện không thu tiền qua trung gian cá nhân, và bạn có nguy cơ mất tiền lẫn thông tin cá nhân.",
+      "Muốn dùng bảo hiểm y tế đúng tuyến thì hỏi rõ về giấy chuyển tuyến trước khi đi. Quy định phần này có thay đổi theo từng thời kỳ nên hãy hỏi trực tiếp nơi đăng ký khám ban đầu của bạn.",
+    ],
+    faq: [
+      {
+        q: "Đặt lịch online rồi có được khám bảo hiểm y tế không?",
+        a: "Nhiều nơi có, nhưng thủ tục và điều kiện khác nhau tuỳ bệnh viện và tuỳ loại hình khám. Cách chắc chắn nhất là gọi tổng đài của chính bệnh viện đó hỏi trước khi đặt, vì trả lời sai câu này thì bạn có thể phải tự trả toàn bộ chi phí.",
+      },
+      {
+        q: "Không dùng điện thoại thông minh thì đặt lịch kiểu gì?",
+        a: "Phần lớn bệnh viện có tổng đài nhận đặt lịch qua điện thoại thường. Hoặc nhờ con cháu đặt hộ bằng thông tin của bạn. Hoặc tới trực tiếp lấy số như trước, cách này vẫn luôn còn.",
+      },
+      {
+        q: "Đặt lịch rồi mà tới nơi vẫn phải chờ lâu thì sao?",
+        a: "Chuyện này vẫn xảy ra vì có ca cấp cứu chen vào hoặc ca trước kéo dài. Đặt lịch giúp bạn chắc suất và biết trước khung giờ, chứ không xoá được việc chờ. Mang theo nước và thứ gì đó để đọc.",
+      },
+      {
+        q: "Có nên chọn khám dịch vụ theo yêu cầu cho nhanh không?",
+        a: "Thường nhanh hơn và được chọn bác sĩ, đổi lại chi phí cao hơn và phần bảo hiểm chi trả có thể khác. Hỏi rõ mức phí và phần bảo hiểm áp dụng ngay tại quầy trước khi đăng ký, vì mỗi nơi mỗi khác.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "sot-o-nguoi-lon-theo-doi-tai-nha",
+    title: "Sốt ở người lớn: theo dõi tại nhà và mốc phải đi khám",
+    excerpt:
+      "Sốt không phải là bệnh, nó là dấu hiệu. Việc của bạn ở nhà là theo dõi cho đúng và biết lúc nào thì không được ở nhà nữa.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Đo nhiệt độ bằng nhiệt kế thật chứ đừng sờ trán đoán, ghi lại con số kèm giờ đo, và đo lại mỗi vài tiếng. Ở nhà thì nghỉ ngơi, uống đủ nước và theo dõi các dấu hiệu đi kèm chứ không chỉ nhìn con số. Điều quan trọng nhất bạn cần nhớ là danh sách dấu hiệu cảnh báo ở phần lưu ý bên dưới — có bất kỳ dấu hiệu nào trong đó thì đi khám ngay, bất kể sốt cao hay thấp. Bài này không kê thuốc và bạn cũng đừng tự dùng thuốc theo lời mách.",
+    prepare: [
+      "Một cái nhiệt kế còn hoạt động, để chỗ dễ lấy chứ không phải đáy tủ thuốc",
+      "Một tờ giấy hoặc ghi chú điện thoại để ghi giờ đo và nhiệt độ",
+      "Nước uống để sẵn cạnh giường, vì người sốt hay lười dậy lấy nước",
+      "Khăn mềm và một chậu nước ấm để lau người",
+      "Số điện thoại của người thân ở gần và địa chỉ cơ sở y tế gần nhất, lưu sẵn trong máy",
+    ],
+    steps: [
+      {
+        title: "Đo bằng nhiệt kế, đừng sờ trán đoán",
+        detail:
+          "Cảm giác tay không đo được nhiệt độ, nhất là khi chính bạn đang sốt. Dùng nhiệt kế và đọc theo hướng dẫn của loại bạn có, vì mỗi kiểu đo cho ra con số hơi khác nhau. Đo lại cùng một cách và cùng một chỗ để so sánh được.",
+      },
+      {
+        title: "Ghi lại con số kèm giờ đo",
+        detail:
+          "Ghi kiểu '14h — 38,5 độ'. Diễn biến theo giờ mới là thứ có ý nghĩa, chứ một con số lẻ loi thì nói lên rất ít. Bảng ghi này cũng là thứ bác sĩ muốn xem đầu tiên nếu bạn phải đi khám.",
+      },
+      {
+        title: "Đo lại mỗi vài tiếng khi còn thức",
+        detail:
+          "Không cần đo liên tục mỗi mười lăm phút, việc đó chỉ làm bạn lo thêm. Vài tiếng một lần là đủ để thấy xu hướng đang tăng, đang giảm hay đứng yên.",
+      },
+      {
+        title: "Theo dõi các dấu hiệu đi kèm, không chỉ nhìn con số",
+        detail:
+          "Ghi lại: có ho không, đau ở đâu, có nổi ban không, có nôn không, đi ngoài thế nào, có ăn uống được không, tỉnh táo hay lơ mơ. Những chi tiết này quan trọng hơn con số nhiệt độ rất nhiều, và cũng chính là thứ bác sĩ sẽ hỏi.",
+      },
+      {
+        title: "Uống nước đều đặn, từng ngụm nhỏ",
+        detail:
+          "Sốt làm cơ thể mất nước nhanh. Uống từng ngụm nhỏ và thường xuyên dễ hơn uống một cốc to. Để chai nước ngay cạnh giường và đặt báo thức nhắc nếu bạn hay quên. Nước tiểu sẫm màu là dấu hiệu bạn đang uống chưa đủ.",
+      },
+      {
+        title: "Nghỉ ngơi thật sự và mặc đồ thoáng",
+        detail:
+          "Nằm nghỉ nơi thoáng khí, mặc quần áo nhẹ. Đừng trùm chăn kín người để 'ra mồ hôi cho hạ sốt' — quan niệm này rất phổ biến nhưng làm nhiệt khó thoát ra và khiến bạn khó chịu hơn.",
+      },
+      {
+        title: "Lau người bằng nước ấm nếu thấy khó chịu",
+        detail:
+          "Nước ấm chứ không phải nước lạnh và tuyệt đối không phải nước đá hay cồn. Lau trán, cổ, nách, bẹn, mỗi lần vài phút. Việc này giúp dễ chịu hơn chứ không thay thế được việc đi khám khi có dấu hiệu cảnh báo.",
+      },
+      {
+        title: "Ăn nhẹ, đừng ép mình ăn nhiều",
+        detail:
+          "Cháo, súp, đồ lỏng dễ nuốt. Không thấy đói thì đừng ép, nhưng nước thì phải uống. Sau vài ngày mà hoàn toàn không ăn uống được gì thì đó là lúc cần đi khám chứ không phải cố chịu thêm.",
+      },
+      {
+        title: "ĐỪNG tự dùng thuốc theo lời mách",
+        detail:
+          "Không dùng đơn thuốc cũ của mình, không xin đơn của người khác, không mua theo lời hàng xóm hay theo bài đăng trên mạng. Cần dùng gì thì hỏi bác sĩ hoặc dược sĩ và nói rõ bạn đang có triệu chứng gì cùng những thứ bạn đang uống.",
+      },
+      {
+        title: "Nói với ai đó rằng bạn đang sốt",
+        detail:
+          "Nếu bạn sống một mình, hãy nhắn cho người thân hoặc bạn cùng khu biết. Nhờ họ gọi kiểm tra vài lần trong ngày. Sốt cao có thể khiến bạn lơ mơ và không tự đánh giá được tình trạng của chính mình, đây là lúc có người để ý rất quan trọng.",
+      },
+      {
+        title: "Đọc kỹ danh sách dấu hiệu cảnh báo ở phần lưu ý",
+        detail:
+          "Đọc ngay bây giờ, lúc còn tỉnh táo, chứ đừng đợi tới lúc mệt lả. Nếu tiện thì chụp màn hình phần đó để trong máy. Biết trước ngưỡng nào phải đi khám là điều hữu ích nhất mà bài này mang lại cho bạn.",
+      },
+      {
+        title: "Chuẩn bị sẵn để đi khám cho nhanh",
+        detail:
+          "Để sẵn ở một chỗ: thẻ bảo hiểm, căn cước, bảng ghi nhiệt độ theo giờ, danh sách những thứ đang uống. Cần đi là cầm đi ngay, không phải lục tìm trong lúc đang mệt.",
+      },
+    ],
+    notes: [
+      "Bài này chỉ hướng dẫn cách theo dõi và chuẩn bị, KHÔNG PHẢI TƯ VẤN Y KHOA, và cố ý không nêu bất kỳ tên thuốc hay liều dùng nào. Việc dùng thuốc phải do bác sĩ hoặc dược sĩ hướng dẫn dựa trên tình trạng cụ thể của bạn.",
+      "PHẢI ĐI CẤP CỨU NGAY nếu có bất kỳ dấu hiệu nào sau đây, bất kể nhiệt độ bao nhiêu: KHÓ THỞ HOẶC THỞ NHANH, ĐAU NGỰC, LƠ MƠ HOẶC KHÔNG TỈNH TÁO, CO GIẬT, CỨNG GÁY HOẶC ĐAU ĐẦU DỮ DỘI, NỔI BAN TÍM DƯỚI DA, NÔN LIÊN TỤC KHÔNG UỐNG ĐƯỢC NƯỚC, TIỂU RẤT ÍT HOẶC KHÔNG TIỂU, HOẶC SỐT KÈM ĐAU BỤNG DỮ DỘI.",
+      "NÊN ĐI KHÁM SỚM, không tự theo dõi tiếp, nếu: SỐT KÉO DÀI QUÁ VÀI NGÀY KHÔNG ĐỠ, SỐT ĐI SỐT LẠI NHIỀU ĐỢT, SỐT SAU KHI ĐI DU LỊCH VÙNG CÓ DỊCH, hoặc bạn đang mang thai, đang điều trị bệnh mạn tính, đang dùng thuốc làm giảm miễn dịch.",
+      "TRẺ EM VÀ NGƯỜI GIÀ KHÔNG ÁP DỤNG BÀI NÀY. Trẻ nhỏ sốt, hoặc người lớn tuổi sốt kèm mệt lả, ăn kém, lú lẫn — hãy đưa đi khám sớm thay vì theo dõi tại nhà, vì diễn biến ở hai nhóm này có thể nhanh và khó nhận ra.",
+    ],
+    faq: [
+      {
+        q: "Bao nhiêu độ thì gọi là sốt?",
+        a: "Ngưỡng cụ thể thay đổi theo cách đo và theo từng hướng dẫn, nên thay vì nhớ một con số, hãy ghi lại nhiệt độ theo giờ và chú ý tới các dấu hiệu đi kèm. Nếu băn khoăn về con số của mình, hãy gọi hỏi cơ sở y tế hoặc đi khám.",
+      },
+      {
+        q: "Có nên đắp chăn cho ra mồ hôi không?",
+        a: "Không nên trùm kín. Khi rét run thì đắp chăn mỏng cho đỡ khó chịu, nhưng hết rét thì bỏ ra và mặc đồ thoáng. Ra mồ hôi không phải là mục tiêu, và việc trùm kín có thể khiến bạn mệt hơn.",
+      },
+      {
+        q: "Sốt mấy ngày thì phải đi khám?",
+        a: "Không có con số áp dụng cho mọi người. Nguyên tắc an toàn: có bất kỳ dấu hiệu cảnh báo nào ở phần lưu ý thì đi ngay; sốt kéo dài không đỡ, hoặc bạn thấy tình trạng xấu đi, thì đi khám chứ đừng chờ thêm.",
+      },
+      {
+        q: "Sống một mình mà sốt cao thì nên làm gì?",
+        a: "Nhắn cho người thân hoặc bạn bè biết ngay từ đầu và nhờ họ gọi kiểm tra định kỳ. Để điện thoại sạc đầy cạnh giường. Nếu thấy mệt tăng lên hoặc xuất hiện dấu hiệu cảnh báo, gọi người tới đưa đi khám hoặc gọi 115, đừng tự lái xe.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "say-nang-mat-nuoc-ngay-nong",
+    title: "Say nắng, mất nước ngày nóng: nhận ra sớm và xử lý ngay",
+    excerpt:
+      "Chạy xe ngoài đường buổi trưa, đứng dậy thấy choáng và toát mồ hôi lạnh. Vài phút đầu bạn làm gì sẽ quyết định chuyện này lớn hay nhỏ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Thấy chóng mặt, buồn nôn, nhức đầu, mệt lả khi đang ở ngoài nắng thì việc đầu tiên là vào chỗ râm mát ngay, ngồi hoặc nằm xuống, nới lỏng quần áo và uống nước từng ngụm nhỏ. Làm mát cơ thể bằng khăn ướt ở trán, cổ, nách, bẹn. Đừng cố gắng đi tiếp cho xong việc. Nếu người đó lú lẫn, không tỉnh táo, co giật, hoặc da nóng mà không ra mồ hôi — đó là tình huống cấp cứu, gọi 115 ngay lập tức.",
+    prepare: [
+      "Chai nước mang theo mỗi khi ra đường vào ngày nóng, thứ đơn giản nhất và cũng bị quên nhiều nhất",
+      "Mũ nón, áo chống nắng, khẩu trang che mặt khi phải đi ngoài trời lâu",
+      "Khăn nhỏ có thể thấm nước, để trong cốp xe",
+      "Số 115 và số người thân lưu sẵn ở chỗ dễ bấm trong điện thoại",
+      "Biết trước quán cà phê, tiệm thuốc hoặc cửa hàng tiện lợi trên tuyến đường bạn hay đi — chỗ để tấp vào khi thấy không ổn",
+    ],
+    steps: [
+      {
+        title: "Nhận ra sớm các dấu hiệu đầu tiên",
+        detail:
+          "Chóng mặt, nhức đầu, buồn nôn, mệt lả, chuột rút, da nhớp mồ hôi, tim đập nhanh. Đây là lúc cơ thể đang báo động sớm. Đa số tai nạn nghiêm trọng xảy ra vì người ta bỏ qua giai đoạn này để cố làm nốt việc đang dở.",
+      },
+      {
+        title: "Dừng lại ngay, đừng cố đi thêm",
+        detail:
+          "Đang chạy xe thì tấp vào lề chỗ an toàn và tắt máy. Đang làm việc ngoài trời thì báo cho người bên cạnh biết rồi vào chỗ mát. Cố thêm mười lăm phút là khoảng thời gian khiến chuyện nhỏ thành chuyện lớn.",
+      },
+      {
+        title: "Vào chỗ râm mát, có gió hoặc có quạt",
+        detail:
+          "Bóng cây, mái hiên, cửa hàng tiện lợi, quán nước — chỗ nào mát nhất trong tầm vài chục mét. Ưu tiên chỗ có máy lạnh hoặc quạt nếu ngay gần đó. Đừng ngại vào một cửa hàng lạ chỉ để ngồi nhờ, đây là lúc sức khoẻ quan trọng hơn phép lịch sự.",
+      },
+      {
+        title: "Ngồi hoặc nằm xuống, kê chân cao",
+        detail:
+          "Nằm ngửa và kê chân cao hơn tim một chút giúp bạn đỡ choáng. Nếu chỉ ngồi được thì ngồi tựa lưng và cúi đầu thấp một chút. Đứng cố cho qua cơn choáng là cách nhanh nhất để ngã và bị chấn thương thêm.",
+      },
+      {
+        title: "Nới lỏng quần áo",
+        detail:
+          "Cởi áo khoác, nới cổ áo và thắt lưng, bỏ mũ bảo hiểm ra. Mặc ít lại giúp nhiệt thoát ra dễ hơn. Nếu quần áo đang ướt đẫm mồ hôi và có chỗ thay thì thay đồ khô sau khi đã hạ nhiệt.",
+      },
+      {
+        title: "Uống nước từng ngụm nhỏ",
+        detail:
+          "Nước mát, không phải nước đá lạnh buốt. Uống chậm, từng ngụm, nghỉ giữa các ngụm. Uống ừng ực một hơi dễ gây buồn nôn và nôn ra hết. Nếu người đó lơ mơ hoặc không tỉnh táo thì KHÔNG cho uống gì vì có nguy cơ sặc.",
+      },
+      {
+        title: "Làm mát bằng khăn ướt ở các vị trí đúng",
+        detail:
+          "Trán, sau gáy, hai bên nách, bẹn — đây là những chỗ mạch máu chạy gần da nên làm mát hiệu quả nhất. Dùng nước mát chứ không phải nước đá, và lau liên tục thay vì đắp một chỗ rồi để yên.",
+      },
+      {
+        title: "Quạt cho không khí lưu thông",
+        detail:
+          "Quạt tay, quạt giấy, quạt máy, hoặc nhờ ai đó phe phẩy. Kết hợp da ẩm và gió thổi làm hạ nhiệt nhanh hơn hẳn so với chỉ ngồi trong bóng râm.",
+      },
+      {
+        title: "Theo dõi trong khoảng ba mươi phút",
+        detail:
+          "Nếu đỡ dần, tỉnh táo hơn, hết buồn nôn thì tiếp tục nghỉ và uống nước. Nếu sau nửa tiếng vẫn chưa khá hơn, hoặc xấu đi, thì đi khám. Đừng lên xe chạy tiếp chỉ vì thấy đỡ được vài phút.",
+      },
+      {
+        title: "Nhận ra ranh giới phải gọi cấp cứu",
+        detail:
+          "Lú lẫn, nói năng lộn xộn, không tỉnh táo, co giật, ngất, nôn liên tục, hoặc da nóng bừng mà khô không có mồ hôi — gọi 115 ngay và nói rõ người bệnh đang ở ngoài nắng về. Đây không còn là chuyện nghỉ ngơi cho lại sức.",
+      },
+      {
+        title: "Trong lúc chờ xe cấp cứu thì vẫn làm mát",
+        detail:
+          "Đưa vào chỗ mát nhất, cởi bớt quần áo, lau nước mát khắp người, quạt liên tục. Đặt người bệnh nằm nghiêng nếu họ nôn. Không cho uống nước nếu họ không hoàn toàn tỉnh táo.",
+      },
+      {
+        title: "Phòng cho lần sau",
+        detail:
+          "Tránh ra đường vào khung giờ nắng gắt nhất nếu có thể dời được. Mang nước theo, mặc đồ sáng màu thoáng khí, đội mũ, và nghỉ giữa chừng khi phải làm việc ngoài trời lâu. Uống nước đều trong ngày chứ đừng đợi khát mới uống.",
+      },
+    ],
+    notes: [
+      "Bài này hướng dẫn xử lý ban đầu, KHÔNG PHẢI TƯ VẤN Y KHOA và không thay thế việc thăm khám. Không tự dùng thuốc theo lời mách trong những tình huống như thế này.",
+      "GỌI 115 NGAY, KHÔNG CHỜ ĐỢI, nếu người bệnh có: LÚ LẪN HOẶC KHÔNG TỈNH TÁO, NÓI NĂNG LỘN XỘN, CO GIẬT, NGẤT XỈU, DA NÓNG BỪNG MÀ KHÔNG RA MỒ HÔI, NÔN LIÊN TỤC, HOẶC THỞ NHANH BẤT THƯỜNG. Đây là tình huống có thể nguy hiểm tính mạng và mỗi phút đều quan trọng.",
+      "TRẺ NHỎ, NGƯỜI CAO TUỔI, PHỤ NỮ MANG THAI, người có bệnh tim mạch hoặc đang điều trị bệnh mạn tính dễ gặp nguy hiểm hơn nhiều. Với những nhóm này, hãy đưa đi khám sớm thay vì theo dõi tại chỗ, kể cả khi triệu chứng có vẻ nhẹ.",
+      "KHÔNG dùng nước đá hay ngâm cả người vào nước lạnh buốt để hạ nhiệt nhanh khi chưa có hướng dẫn của nhân viên y tế, và KHÔNG cho người đang lơ mơ uống bất cứ thứ gì vì nguy cơ sặc.",
+    ],
+    faq: [
+      {
+        q: "Uống nước lọc hay nước có pha muối đường thì tốt hơn?",
+        a: "Khi mất nước nhiều do mồ hôi thì bù cả nước và muối khoáng sẽ hợp lý hơn. Nếu dùng gói bù nước bán ở nhà thuốc thì phải pha đúng theo hướng dẫn in trên gói, pha đặc hơn không tốt hơn. Không rõ thì hỏi dược sĩ.",
+      },
+      {
+        q: "Sau khi nghỉ thấy khoẻ lại thì có chạy xe tiếp được không?",
+        a: "Nên nghỉ thêm và nếu được thì nhờ người tới đón, hoặc gọi xe. Cảm giác khoẻ lại có thể chỉ tạm thời, và choáng lại khi đang chạy xe giữa đường là tình huống nguy hiểm cho cả bạn lẫn người khác.",
+      },
+      {
+        q: "Làm việc ngoài trời cả ngày thì phòng thế nào?",
+        a: "Uống nước đều theo giờ chứ đừng đợi khát, nghỉ trong bóng râm mỗi khoảng thời gian nhất định, mặc đồ sáng màu thoáng khí và che nắng. Nếu có thể thì sắp xếp phần việc nặng nhất vào lúc mát trong ngày.",
+      },
+      {
+        q: "Người bị say nắng rồi thì lần sau có dễ bị lại không?",
+        a: "Nhiều người thấy mình nhạy cảm hơn với nắng nóng sau một lần như vậy. Hãy cẩn trọng hơn ở những ngày nóng và nếu tình trạng lặp lại nhiều lần, hãy đi khám để được kiểm tra kỹ chứ đừng coi là chuyện thường.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "di-kham-cung-ba-me-lon-tuoi",
+    title: "Đi khám cùng ba mẹ lớn tuổi: chuẩn bị gì và hỏi gì",
+    excerpt:
+      "Ba mẹ đi khám về, hỏi bác sĩ nói gì thì bảo 'không sao đâu'. Đi cùng một buổi, bạn sẽ hiểu vì sao câu đó không đủ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Trước khi đi, gom toàn bộ giấy khám cũ và chụp ảnh tất cả các hộp thuốc ba mẹ đang uống, kể cả thuốc nam và thực phẩm chức năng. Trong phòng khám, để ba mẹ tự kể trước rồi bạn bổ sung những gì họ quên hoặc ngại nói. Nhiệm vụ chính của bạn là ghi chép và hỏi lại cho rõ. Trước khi ra về, hỏi đủ ba điều: chẩn đoán là gì, làm gì tiếp theo, và dấu hiệu nào thì phải đưa đi khám ngay.",
+    prepare: [
+      "Toàn bộ giấy khám, sổ khám bệnh, kết quả xét nghiệm cũ, xếp theo thứ tự thời gian với cái mới nhất trên cùng",
+      "Ảnh chụp tất cả các hộp thuốc và thực phẩm chức năng ba mẹ đang dùng — chụp cả mặt trước lẫn nhãn phía sau",
+      "Thẻ bảo hiểm y tế, căn cước của ba mẹ, và giấy chuyển tuyến nếu có",
+      "Nước uống, đồ ăn nhẹ, áo khoác mỏng và một cái ghế xếp nếu phải chờ lâu",
+      "Một cuốn sổ nhỏ và bút để ghi — ghi tay tiện hơn gõ điện thoại khi bác sĩ đang nói nhanh",
+    ],
+    steps: [
+      {
+        title: "Hỏi ba mẹ trước ở nhà, lúc còn thong thả",
+        detail:
+          "Ngồi nói chuyện trước một hôm: dạo này thấy trong người thế nào, đau ở đâu, ngủ ra sao, ăn được không. Người lớn tuổi thường kể nhiều hơn ở nhà so với lúc ngồi trước mặt bác sĩ, và những gì bạn nghe được ở nhà chính là thứ cần nói lại trong phòng khám.",
+      },
+      {
+        title: "Chụp ảnh toàn bộ thuốc đang uống",
+        detail:
+          "Bày hết ra bàn và chụp từng hộp. Bao gồm cả thuốc bắc, thuốc nam, thực phẩm chức năng, thuốc người quen cho. Nhiều người lớn tuổi uống cùng lúc nhiều loại từ nhiều nơi khác nhau, và đây là thông tin bác sĩ rất cần mà lại hay bị bỏ sót.",
+      },
+      {
+        title: "Sắp xếp giấy tờ theo thứ tự thời gian",
+        detail:
+          "Kẹp lại thành một tập, mới nhất để trên. Đưa cả xấp lộn xộn thì bác sĩ không có thời gian lục. Nếu có nhiều thì kẹp riêng phần liên quan tới lần khám này ra ngoài cùng.",
+      },
+      {
+        title: "Chọn khung giờ và tính đường đi cho phù hợp",
+        detail:
+          "Người lớn tuổi mệt nhanh, nên tránh giờ cao điểm và tránh phải chờ quá lâu. Đặt lịch trước nếu nơi đó có. Tính cả chỗ gửi xe, quãng đường đi bộ trong bệnh viện, và hỏi trước xem có xe lăn cho mượn không nếu ba mẹ đi lại khó khăn.",
+      },
+      {
+        title: "Để ba mẹ tự kể trước",
+        detail:
+          "Đừng giành nói ngay từ đầu. Bác sĩ cần nghe chính người bệnh mô tả và cần quan sát cách họ nói. Bạn ngồi bên, nghe, rồi bổ sung sau. Nói thay hết cả buổi khiến bác sĩ mất đi thông tin quan trọng và cũng khiến ba mẹ thấy mình bị gạt ra ngoài.",
+      },
+      {
+        title: "Bổ sung những gì ba mẹ quên hoặc ngại nói",
+        detail:
+          "Người lớn tuổi hay nói giảm đi vì không muốn con lo, hoặc quên mất chuyện đã xảy ra tuần trước. Bạn nói thêm nhẹ nhàng: 'dạ bác sĩ, tuần rồi mẹ con có bị choáng một lần lúc đứng dậy ạ'. Nói trước mặt ba mẹ chứ đừng nói sau lưng.",
+      },
+      {
+        title: "Chú ý những chuyện dễ bị bỏ qua ở người lớn tuổi",
+        detail:
+          "Ngã hoặc suýt ngã, đi lại khó hơn trước, hay quên nhiều hơn, sụt cân, ăn kém, ngủ kém, buồn bã kéo dài, nghe kém đi. Những thứ này thường bị coi là 'già rồi thì vậy' nhưng đều là điều đáng nói với bác sĩ.",
+      },
+      {
+        title: "Ghi chép trong lúc bác sĩ nói",
+        detail:
+          "Ghi tên bệnh, việc cần làm, các xét nghiệm được chỉ định, ngày tái khám. Đừng tin vào việc sẽ nhớ hết. Nếu muốn ghi âm thì xin phép một câu trước, và nói rõ là để về nhà nghe lại cho đúng lời dặn.",
+      },
+      {
+        title: "Hỏi lại cho tới khi thật sự hiểu",
+        detail:
+          "Câu nên dùng: 'dạ bác sĩ cho em hỏi lại cho chắc, ý là mẹ em cần làm gì trước ạ'. Hỏi rõ cách dùng từng thứ trong đơn, uống lúc nào, có kiêng gì không, và những thứ đang uống sẵn có phải dừng cái nào không.",
+      },
+      {
+        title: "Hỏi đủ ba câu chốt trước khi ra khỏi phòng",
+        detail:
+          "Một, ba mẹ em đang bị gì. Hai, bước tiếp theo là gì và khi nào tái khám. Ba, dấu hiệu nào thì phải đưa đi khám ngay hoặc đi cấp cứu. Câu thứ ba là câu bạn sẽ cần tới nhiều nhất trong những tuần sau đó.",
+      },
+      {
+        title: "Về nhà thì làm một bảng thuốc dễ nhìn",
+        detail:
+          "Viết to, rõ, dán ở chỗ ba mẹ hay ngồi: sáng uống gì, trưa gì, tối gì. Hộp chia thuốc theo ngày rất hữu ích cho người phải uống nhiều loại. Nhưng nội dung bảng thì phải đúng theo đơn của bác sĩ chứ không phải theo trí nhớ của ai.",
+      },
+      {
+        title: "Lập một hồ sơ chung cho cả nhà cùng xem",
+        detail:
+          "Chụp ảnh đơn, kết quả và ghi chép, để vào một thư mục chia sẻ cho anh chị em trong nhà. Ai đưa ba mẹ đi khám lần sau cũng có đủ thông tin. Việc này tránh được cảnh mỗi người nhớ một kiểu và tránh cả những tranh cãi không đáng có.",
+      },
+    ],
+    notes: [
+      "Bài này hướng dẫn cách chuẩn bị và trao đổi với nhân viên y tế, KHÔNG PHẢI TƯ VẤN Y KHOA. Đừng tự điều chỉnh hay tự dừng bất kỳ thứ gì ba mẹ đang dùng mà chưa hỏi bác sĩ, kể cả khi thấy có vẻ không cần thiết.",
+      "ĐƯA ĐI CẤP CỨU NGAY nếu người lớn tuổi có: ĐAU NGỰC, KHÓ THỞ, YẾU LIỆT MỘT BÊN NGƯỜI HOẶC MÉO MIỆNG HOẶC NÓI NGỌNG ĐỘT NGỘT, LÚ LẪN ĐỘT NGỘT, NGÃ VÀ ĐẬP ĐẦU, NGẤT, CO GIẬT, NÔN RA MÁU HOẶC ĐI NGOÀI PHÂN ĐEN. Ở người cao tuổi, biểu hiện có thể mờ nhạt hơn người trẻ nên đừng chờ cho 'rõ ràng hơn'.",
+      "NÊN ĐI KHÁM SỚM khi thấy ba mẹ: sụt cân không rõ lý do, ngã nhiều lần, quên nhiều hơn hẳn, ăn uống kém kéo dài, buồn bã và không muốn giao tiếp. Đây là những thay đổi đáng lưu tâm chứ không đơn giản là 'tuổi già'.",
+      "Tôn trọng quyết định của ba mẹ khi họ còn minh mẫn. Bạn có thể giải thích, thuyết phục, nhưng người có quyền quyết định về sức khoẻ của họ vẫn là chính họ.",
+    ],
+    faq: [
+      {
+        q: "Ba mẹ nhất định không chịu đi khám thì làm sao?",
+        a: "Tìm hiểu lý do thật sự: sợ tốn tiền, sợ phát hiện bệnh nặng, ngại phiền con cháu, hay sợ chỗ đông người. Mỗi lý do có cách gỡ khác nhau. Có thể bắt đầu bằng một buổi khám tổng quát nhẹ nhàng ở nơi gần nhà, hoặc nhờ người mà ba mẹ tin tưởng nói giúp.",
+      },
+      {
+        q: "Bác sĩ nói nhanh và dùng nhiều từ chuyên môn thì làm gì?",
+        a: "Cứ hỏi lại một cách lịch sự: 'dạ bác sĩ nói chậm giúp em với ạ, em ghi lại cho mẹ em'. Hầu hết nhân viên y tế đều sẵn sàng giải thích lại. Nếu vẫn không kịp, ghi lại đúng từ bạn nghe được rồi hỏi kỹ ở quầy tư vấn hoặc lần tái khám.",
+      },
+      {
+        q: "Ba mẹ uống thuốc của nhiều bác sĩ khác nhau thì có sao không?",
+        a: "Đây là tình huống cần nói rõ với từng bác sĩ, vì các thứ đang dùng có thể ảnh hưởng lẫn nhau. Mang theo ảnh chụp toàn bộ những gì ba mẹ đang uống trong mọi lần khám, và đừng ngại nói rằng đang khám ở nhiều nơi.",
+      },
+      {
+        q: "Có nên giấu ba mẹ khi kết quả không tốt không?",
+        a: "Đây là chuyện của từng gia đình và không có câu trả lời chung. Điều nên làm là hỏi ý kiến bác sĩ điều trị về cách trao đổi phù hợp với tình trạng cụ thể, và cân nhắc rằng người bệnh vẫn có quyền được biết về sức khoẻ của chính mình.",
+      },
+    ],
+    sources: [],
+  },
 ];
