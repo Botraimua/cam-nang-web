@@ -27,9 +27,21 @@ const KHUNG = [
 // script chỉ bắt khung rỗng nên khung đăng dở lọt lưới — giờ bắt cả hai.
 const DU_MOI_KHUNG = BAI_MOI_KHUNG;
 
-// Giờ Việt Nam (UTC+7) — máy chạy GitHub Actions dùng giờ UTC nên phải tự bù
-function ngayVietNam() {
+// Ngày cần kiểm = ngày VỪA KẾT THÚC lúc 23h giờ Việt Nam, KHÔNG phải ngày lúc
+// script tình cờ chạy. Máy chạy GitHub Actions dùng giờ UTC nên phải tự bù +7.
+//
+// ❗ Vì sao có đoạn lùi ngày bên dưới: GitHub chạy lịch cron TRỄ khá thường.
+// Đêm 20/08/2026 lịch đặt 16:00 UTC mà chạy lúc 17:15 UTC — trễ 75 phút. Cộng 7
+// tiếng thành 00:15 ngày 21/08 giờ Việt Nam, nên script đi kiểm ngày 21/08 vừa
+// bắt đầu được 15 phút và báo "0/60 bài, 4/4 khung chưa chạy" — trong khi ngày
+// 20/08 thực tế đăng đủ 60/60. Báo động giả, và sẽ lặp lại mỗi lần cron trễ quá
+// 17:00 UTC.
+//
+// Lịch đặt lúc 23h tối, nên nếu quy ra giờ Việt Nam mà đang là buổi sáng thì
+// chắc chắn cron đã trễ qua nửa đêm — lùi lại một ngày là về đúng ngày cần kiểm.
+function ngayCanKiem() {
   const t = new Date(Date.now() + 7 * 60 * 60 * 1000);
+  if (t.getUTCHours() < 12) t.setUTCDate(t.getUTCDate() - 1);
   const hai = (n) => String(n).padStart(2, "0");
   return `${t.getUTCFullYear()}-${hai(t.getUTCMonth() + 1)}-${hai(t.getUTCDate())}`;
 }
@@ -40,7 +52,7 @@ function demBaiTrongFile(duongDan) {
   return (src.match(/slug:\s*"/g) || []).length;
 }
 
-const ngay = process.argv[2] || ngayVietNam();
+const ngay = process.argv[2] || ngayCanKiem();
 const [nam, thang, ngayTrongThang] = ngay.split("-");
 const ngayDep = `${ngayTrongThang}/${thang}/${nam}`;
 
