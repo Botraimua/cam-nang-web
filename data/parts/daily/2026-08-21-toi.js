@@ -536,4 +536,541 @@ export const day20260821toi = [
     ],
     sources: [],
   },
+  {
+    slug: "di-giay-cao-got-ca-ngay-ma-chan-do-dau",
+    title: "Giày cao gót đi cả ngày mà chân đỡ đau: chọn và xoay vòng thế nào",
+    excerpt:
+      "Không phải cứ cao là đau. Phần lớn cái đau đến từ độ dốc, chỗ tì và việc bạn đi liên tục một đôi từ sáng tới tối.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Ba yếu tố quyết định chân bạn có đau không: độ cao gót, bề mặt tiếp đất của gót, và chỗ mũi giày ép ngón. Gót to bản hoặc gót vuông chịu lực tốt hơn gót nhọn cùng chiều cao. Đế trong có đệm ở phần ức bàn chân giúp nhiều hơn mọi mẹo khác. Quan trọng nhất: mang một đôi bệt trong túi và đổi giày giữa ngày, vì bàn chân không thiết kế để giữ nguyên một góc suốt tám tiếng.",
+    prepare: [
+      "Một đôi bệt hoặc giày mềm gấp gọn để trong túi, đổi giữa ngày",
+      "Miếng đệm ức bàn chân bằng gel — món rẻ nhất mà tạo khác biệt lớn nhất",
+      "Miếng dán chống trượt gót nếu giày hơi rộng phía sau",
+      "Biết bạn phải đứng và đi bao lâu trong ngày đó",
+      "Băng cá nhân mỏng để trong ví, phòng chỗ cọ mới",
+    ],
+    steps: [
+      {
+        title: "Xác định độ cao bạn thật sự đi được",
+        detail:
+          "Mang giày, đứng thẳng, thử nhấc gót lên xuống vài lần và đi mười bước. Nếu đầu gối phải hơi khuỵu hoặc bạn thấy dồn hết lực vào ức bàn chân ngay lúc đó thì độ cao đó quá sức, mua về cũng chỉ để trong tủ.",
+      },
+      {
+        title: "Nhìn độ dốc, không chỉ nhìn con số chiều cao",
+        detail:
+          "Giày có đế trước dày sẽ giảm độ dốc thực tế dù gót vẫn cao. Cùng gót chín phân, đôi có phần mũi nâng lên dễ đi hơn hẳn đôi mũi phẳng. Đây là mẹo ít người để ý nhưng đổi hoàn toàn cảm giác cả ngày.",
+      },
+      {
+        title: "Chọn bề mặt gót theo việc bạn sẽ làm",
+        detail:
+          "Gót vuông hoặc gót to bản giữ thăng bằng tốt hơn nhiều, nhất là khi phải đi trên sân gạch, nền trơn hay đường có khe. Gót nhọn để dành cho dịp ngồi nhiều, di chuyển ít.",
+      },
+      {
+        title: "Kiểm chỗ ép ở ngón chân",
+        detail:
+          "Đứng dồn lực, sờ dọc mép ngoài bàn chân xem có bị mũi giày ép không. Mũi nhọn ép hai ngón ngoài lâu ngày gây biến dạng và đau khớp ngón cái. Nếu thích dáng mũi nhọn, hãy chọn đôi có phần mũi dài ra phía trước để ngón không bị dồn.",
+      },
+      {
+        title: "Thử vào buổi chiều, đi trên nền cứng",
+        detail:
+          "Chân nở ra vào cuối ngày. Đi thử trên thảm mềm trong cửa hàng cho cảm giác dễ chịu giả. Ra chỗ nền cứng đi vài vòng, có cả bước nhanh, mới biết thật.",
+      },
+      {
+        title: "Đầu tư miếng đệm ức bàn chân trước khi đầu tư giày mới",
+        detail:
+          "Đau rát ở phần đệm thịt ngay dưới các ngón là kiểu đau phổ biến nhất khi mang gót cao. Một miếng gel dán đúng chỗ đó thường giải quyết được phần lớn, giá chỉ bằng một bữa ăn sáng.",
+      },
+      {
+        title: "Xử lý gót trượt bằng miếng dán, không bằng tăng cỡ",
+        detail:
+          "Gót nhấc lên nhấc xuống mỗi bước là nguyên nhân số một gây phồng rộp sau gót. Dán miếng lót gót vào mặt trong phía sau. Đừng chọn đôi nhỏ hơn để giữ chân, vì khi đó ngón lại bị ép.",
+      },
+      {
+        title: "Đi rốt đa giày mới ở nhà trước",
+        detail:
+          "Mang trong nhà hai ba buổi, mỗi buổi khoảng ba mươi phút, đi trên sàn sạch. Chỗ nào cọ sẽ lộ ra khi chưa phải chịu cả ngày. Đừng bao giờ mang đôi mới tinh đi tiệc cưới hay ngày đi làm quan trọng.",
+      },
+      {
+        title: "Đổi giày giữa ngày, đây là bước quan trọng nhất",
+        detail:
+          "Bàn chân giữ nguyên một góc suốt nhiều giờ sẽ mỏi bắp chân và đau ức bàn chân, dù giày có tốt tới đâu. Đi bệt trên đường và lúc ngồi bàn, chỉ đổi sang gót cao khi cần. Đây là cách gần như mọi người đi cao gót thường xuyên đều làm.",
+      },
+      {
+        title: "Xoay vòng độ cao giữa các ngày",
+        detail:
+          "Đi gót cao mỗi ngày liên tục khiến gân gót ngắn lại và bắp chân căng. Xen kẽ ngày cao ngày thấp, và giãn cơ bắp chân vài phút buổi tối bằng cách đứng chống tay vào tường, chân sau duỗi thẳng, gót chạm đất.",
+      },
+      {
+        title: "Chăm bàn chân buổi tối",
+        detail:
+          "Ngâm chân nước ấm vài phút, xoa bóp phần ức bàn chân bằng ngón cái, lăn lòng bàn chân trên một quả bóng nhỏ. Mất năm phút và giúp hôm sau dễ chịu hơn hẳn.",
+      },
+      {
+        title: "Biết khi nào phải bỏ đôi giày đó",
+        detail:
+          "Đế gót mòn lệch làm bạn đi nghiêng và tăng nguy cơ vẹo cổ chân — thay đế hoặc bỏ. Đôi nào đi ba lần đều đau đúng một chỗ thì đó không phải chuyện chưa quen, đó là đôi không hợp chân bạn.",
+      },
+    ],
+    notes: [
+      "Đau kéo dài ở gót mỗi sáng bước xuống giường, tê buốt lan ở bàn chân, hoặc khớp ngón cái sưng đỏ nên đi khám cơ xương khớp.",
+      "Vẹo cổ chân nghe tiếng rắc, sưng nhanh, không đứng tì được là dấu hiệu cần tới cơ sở y tế chụp phim, không tự bó rồi đi tiếp.",
+      "Người đang mang thai giữ thăng bằng khó hơn và dây chằng lỏng hơn bình thường — đây là giai đoạn nên ưu tiên giày thấp, đế bám.",
+      "Bài này là kinh nghiệm chọn và đi giày, không phải tư vấn y khoa.",
+    ],
+    faq: [
+      {
+        q: "Có loại cao gót nào đi cả ngày không đau không?",
+        a: "Không có đôi nào đi tám tiếng liên tục mà chân hoàn toàn không mỏi. Cách thực tế là chọn gót thấp hơn, gót to bản, có đệm ức bàn chân, và đổi sang bệt khi không cần.",
+      },
+      {
+        q: "Xịt hay bôi gì cho đỡ đau chân khi mang gót cao?",
+        a: "Các loại xịt tê chỉ che cảm giác trong vài giờ và có thể khiến bạn đi quá sức mà không biết. Đệm đúng chỗ và đổi giày giữa ngày mới là cách xử lý gốc.",
+      },
+      {
+        q: "Nơi làm việc yêu cầu mang cao gót thì sao?",
+        a: "Nhiều nơi hiện đã bỏ quy định này. Nếu vẫn có, bạn có thể đề nghị mang giày kín mũi gót thấp cùng phong cách, đặc biệt khi có lý do sức khoẻ — hãy nói với quản lý trực tiếp trước khi tự chịu đựng.",
+      },
+      {
+        q: "Mua online thì làm sao biết đi có đau không?",
+        a: "Không biết được, nên hãy chọn nơi cho đổi trả và thử ngay trên nền sạch trong nhà lúc nhận. Giữ nguyên hộp, tem và đi thử vào buổi chiều.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "giat-va-bao-quan-ao-nguc-do-lot-cho-ben",
+    title: "Áo ngực nhanh hỏng không phải vì rẻ: giặt và cất thế nào cho bền gấp đôi",
+    excerpt:
+      "Một chiếc áo ngực tốt là khoản đầu tư, mà phần lớn hỏng sớm chỉ vì bốn thói quen giặt cất rất dễ sửa.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Đừng mặc một chiếc hai ngày liên tiếp, hãy để nó nghỉ một ngày cho phần chun co lại. Cài móc trước khi giặt, cho vào túi lưới, giặt nước lạnh chế độ nhẹ hoặc giặt tay. Không dùng nước xả và không vắt xoắn. Phơi ngang nơi thoáng, tránh nắng gắt, tuyệt đối không sấy nóng. Cất bằng cách xếp úp lồng vào nhau chứ không gập ngược cúp vào trong.",
+    prepare: [
+      "Một túi lưới giặt đồ nhỏ, giá rất rẻ và dùng được vài năm",
+      "Nước giặt dịu, loại dành cho đồ mỏng hoặc nước giặt trung tính",
+      "Một chỗ phơi ngang: móc phơi kẹp hoặc mặt phẳng có lót khăn",
+      "Đủ số áo để xoay vòng, tối thiểu ba chiếc dùng luân phiên",
+      "Ngăn kéo hoặc hộp đủ sâu để không phải gập cúp",
+    ],
+    steps: [
+      {
+        title: "Xoay vòng, đừng mặc liên tiếp một chiếc",
+        detail:
+          "Phần chun và dây cần khoảng một ngày để co về trạng thái ban đầu sau khi bị kéo giãn cả ngày. Mặc liên tiếp hai ba ngày là cách nhanh nhất làm dão dây lưng, mà dây lưng mới là phần đỡ chính chứ không phải hai quai vai.",
+      },
+      {
+        title: "Biết bao lâu thì cần giặt",
+        detail:
+          "Thông thường sau hai tới ba lần mặc, hoặc ngay sau một ngày ra nhiều mồ hôi và sau khi tập. Giặt mỗi ngày làm hỏng nhanh, để quá lâu thì mồ hôi và dầu trên da làm mục sợi chun.",
+      },
+      {
+        title: "Cài móc lại trước khi cho vào máy",
+        detail:
+          "Móc hở là thứ móc rách mọi món đồ khác trong mẻ giặt, kể cả chính chiếc áo đó. Cài móc, chỉnh dây gọn lại rồi mới bỏ vào túi lưới.",
+      },
+      {
+        title: "Dùng túi lưới và chế độ nhẹ",
+        detail:
+          "Túi lưới ngăn dây quấn vào nhau và ngăn gọng bị bẻ. Chọn chế độ giặt nhẹ, nước lạnh, vòng vắt thấp nhất. Nước nóng làm chun mất đàn hồi nhanh hơn bất cứ thứ gì khác.",
+      },
+      {
+        title: "Giặt tay đúng cách nếu là chiếc bạn quý",
+        detail:
+          "Ngâm nước mát pha ít nước giặt dịu khoảng mười phút, bóp nhẹ phần cúp và dây, xả sạch. Không chà xát mạnh lên vùng ren và không vò xoắn. Tổng cộng mất chừng năm phút.",
+      },
+      {
+        title: "Bỏ hẳn nước xả vải",
+        detail:
+          "Nước xả để lại lớp phủ làm sợi chun mất khả năng co giãn và giữ mùi ẩm. Đây là thói quen tốt cho khăn nhưng có hại cho đồ lót và đồ thể thao.",
+      },
+      {
+        title: "Vắt bằng khăn, không vắt xoắn",
+        detail:
+          "Đặt áo lên khăn bông khô, cuộn lại và ấn nhẹ để khăn hút nước. Vắt xoắn làm gọng lệch và cúp mất phom vĩnh viễn, sau đó mặc sẽ bị cấn.",
+      },
+      {
+        title: "Phơi ngang, tránh nắng gắt và tránh máy sấy",
+        detail:
+          "Treo bằng một bên quai lên dây phơi khiến chiếc áo bị kéo dão theo trọng lượng nước. Hãy vắt ngang phần dây lưng qua móc, hoặc đặt phẳng nơi thoáng gió. Máy sấy nóng là kẻ thù số một của chun.",
+      },
+      {
+        title: "Cất bằng cách xếp úp lồng vào nhau",
+        detail:
+          "Đặt các chiếc cùng chiều, cúp lồng vào cúp, dây xếp gọn phía sau. Gập ngược một bên cúp vào trong là thói quen làm móp phom nhanh nhất, nhất là với loại có mút.",
+      },
+      {
+        title: "Giặt đồ lót đúng cách và thay đúng hạn",
+        detail:
+          "Quần lót nên giặt sau mỗi lần mặc, nước ấm vừa với nước giặt dịu, phơi khô hoàn toàn dưới nắng hoặc nơi thật thoáng. Chất liệu cotton ở phần đáy quần thoáng hơn và ít gây bí. Đồ đã dão chun hay mỏng tưa thì thay, đừng tiếc.",
+      },
+      {
+        title: "Nhận biết chiếc áo đã hết tuổi",
+        detail:
+          "Dấu hiệu rõ nhất: phải cài sang nấc móc trong cùng mà dây lưng vẫn bị trôi lên phía sau. Ngoài ra là gọng chọc ra ngoài, cúp nhăn không ôm, vai phải siết chặt mới đỡ được. Lúc đó chiếc áo không còn nâng đỡ nữa dù nhìn vẫn lành.",
+      },
+      {
+        title: "Đo lại size sau mỗi thay đổi lớn",
+        detail:
+          "Cân nặng thay đổi, sau sinh, hoặc sau một năm là những mốc nên đo lại. Rất nhiều người mặc sai size nhiều năm và tưởng áo ngực vốn khó chịu như vậy.",
+      },
+    ],
+    notes: [
+      "Ngứa, mẩn đỏ hoặc nổi hạt ở vùng da tiếp xúc với áo có thể là kích ứng chất giặt hoặc nấm do ẩm — đổi loại nước giặt, giữ da khô, và đi khám da liễu nếu không đỡ.",
+      "Đau vai, đau lưng trên kéo dài dù đã đúng size nên được bác sĩ xem, đừng mặc định là do ngực nặng.",
+      "Bất kỳ thay đổi nào ở ngực như khối lạ, da co rúm, tiết dịch, núm vú thụt vào đều cần đi khám sớm chứ không liên quan tới việc chọn áo.",
+      "Bài này là kinh nghiệm giặt giũ và bảo quản, không phải tư vấn y khoa.",
+    ],
+    faq: [
+      {
+        q: "Có nên giặt máy áo ngực có gọng không?",
+        a: "Được, miễn là cài móc, dùng túi lưới, nước lạnh, chế độ nhẹ và vắt ở mức thấp nhất. Chiếc nào đắt tiền hoặc nhiều ren thì giặt tay vẫn an toàn hơn.",
+      },
+      {
+        q: "Nên có bao nhiêu chiếc là đủ?",
+        a: "Ba tới bốn chiếc để xoay vòng thoải mái: hai chiếc trơn màu da và đen dùng hằng ngày, một chiếc thể thao, một chiếc cho trang phục đặc biệt. Nhiều hơn thường không cần thiết.",
+      },
+      {
+        q: "Bao lâu thì phải thay áo mới?",
+        a: "Tuỳ tần suất mặc và cách giặt, thường khoảng sáu tháng tới một năm với chiếc mặc thường xuyên. Cứ căn theo dấu hiệu dão chứ đừng căn theo lịch.",
+      },
+      {
+        q: "Ngủ có nên mặc áo ngực không?",
+        a: "Không bắt buộc và cũng không có bằng chứng cho thấy mặc khi ngủ giúp ngực đẹp hơn. Nếu thấy dễ chịu hơn khi có, hãy chọn loại mềm không gọng. Cái quan trọng là bạn thoải mái.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "mun-noi-tiet-quanh-cam-o-nguoi-truong-thanh",
+    title: "Mụn mọc quanh cằm và quai hàm ở tuổi ba mươi: vì sao và làm gì",
+    excerpt:
+      "Qua tuổi dậy thì lâu rồi mà tháng nào cũng mọc đúng một chỗ. Đây không phải do bạn rửa mặt chưa sạch.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Mụn mọc thành cụm ở cằm, quai hàm và cổ, sưng sâu dưới da, lặp lại theo chu kỳ hằng tháng là kiểu rất thường gặp ở phụ nữ trưởng thành và liên quan tới thay đổi nội tiết chứ không phải vệ sinh. Rửa mặt mạnh hơn hoặc dùng nhiều sản phẩm hơn thường làm nặng thêm. Cách xử lý là đơn giản hoá quy trình chăm da, kiên trì một sản phẩm đủ tám tới mười hai tuần, và đi khám da liễu nếu mụn sâu để lại vết.",
+    prepare: [
+      "Một cuốn sổ hoặc ghi chú điện thoại để theo dõi mụn theo ngày trong chu kỳ",
+      "Chụp ảnh mặt cùng một góc, cùng ánh sáng, mỗi tuần một lần",
+      "Danh sách mọi sản phẩm bạn đang bôi lên mặt, kể cả kem chống nắng và trang điểm",
+      "Sữa rửa mặt dịu và kem dưỡng ẩm đơn giản, không hương liệu",
+      "Kem chống nắng dùng được hằng ngày, vì nhiều hoạt chất trị mụn làm da nhạy nắng",
+    ],
+    steps: [
+      {
+        title: "Ghi lại để nhìn ra quy luật",
+        detail:
+          "Trong hai ba tháng, ghi ngày đầu chu kỳ và ngày mụn nổi. Nếu mụn xuất hiện đều đặn trước kỳ kinh khoảng một tuần thì bức tranh đã khá rõ. Ghi chép này cũng là thứ bác sĩ da liễu muốn xem nhất.",
+      },
+      {
+        title: "Ngừng ngay việc rửa mặt nhiều lần",
+        detail:
+          "Rửa quá ba lần một ngày hoặc dùng sữa rửa mặt tạo bọt mạnh làm hàng rào da tổn thương, da tiết dầu bù và tình trạng nặng thêm. Hai lần một ngày với sản phẩm dịu là đủ, kể cả với da dầu.",
+      },
+      {
+        title: "Cắt bớt số sản phẩm xuống còn ba",
+        detail:
+          "Sữa rửa mặt, dưỡng ẩm, chống nắng. Chỉ ba thứ đó trong hai tuần. Dùng nhiều sản phẩm cùng lúc khiến bạn không bao giờ biết cái nào giúp và cái nào gây kích ứng. Đây là bước ngược đời nhưng thường hiệu quả nhất.",
+      },
+      {
+        title: "Thêm một hoạt chất, chỉ một",
+        detail:
+          "Sau khi da ổn định, thêm đúng một sản phẩm trị mụn không kê đơn, bôi mỏng, cách ngày trong tuần đầu rồi tăng dần. Đổi hoạt chất liên tục là lý do phổ biến khiến nhiều người dùng cả năm mà không thấy tiến triển.",
+      },
+      {
+        title: "Cho nó tám tới mười hai tuần",
+        detail:
+          "Da cần khoảng thời gian này để một hoạt chất thể hiện tác dụng thật. Hai tuần đầu thậm chí có thể thấy tệ hơn. Đừng đánh giá bằng cảm giác hằng ngày trong gương, hãy so ảnh chụp mỗi tuần.",
+      },
+      {
+        title: "Đừng nặn mụn sưng sâu",
+        detail:
+          "Loại mụn nang ở cằm nằm sâu, không có nhân để lấy ra. Nặn đẩy viêm xuống sâu hơn và gần như chắc chắn để lại vết thâm hoặc sẹo lõm. Nếu cần xử lý gấp trước một sự kiện, hãy đi khám da liễu chứ đừng tự nặn.",
+      },
+      {
+        title: "Kiểm lại những thứ chạm vào vùng cằm",
+        detail:
+          "Vỏ gối, khẩu trang, quai mũ bảo hiểm, điện thoại, tay chống cằm khi làm việc. Đổi vỏ gối hai lần một tuần, giặt khẩu trang vải sau mỗi lần dùng, lau điện thoại. Đây không phải nguyên nhân gốc nhưng làm nặng thêm rõ rệt.",
+      },
+      {
+        title: "Xem lại đồ trang điểm và sản phẩm cho tóc",
+        detail:
+          "Kem nền dày, phấn cũ, và dầu xả chảy xuống đường quai hàm khi gội đều góp phần. Thử gội xong xả sạch và lau lại vùng quai hàm, tẩy trang kỹ mỗi tối, và bỏ những món mỹ phẩm đã mở quá lâu.",
+      },
+      {
+        title: "Chú ý ba dấu hiệu nên đi khám nội tiết",
+        detail:
+          "Mụn nặng đi kèm kinh nguyệt thưa hoặc mất kinh, lông mọc nhiều bất thường ở mặt và bụng, hoặc rụng tóc kiểu hói vùng đỉnh. Ba thứ này đi cùng nhau là lý do chính đáng để bác sĩ kiểm tra thêm về nội tiết.",
+      },
+      {
+        title: "Đi khám da liễu đúng lúc",
+        detail:
+          "Nên đi nếu mụn sâu và đau, để lại vết thâm hay sẹo, đã tự xử lý ba tháng không đỡ, hoặc nó ảnh hưởng tới tâm trạng và việc ra ngoài của bạn. Chờ tới lúc có sẹo mới đi là chờ quá lâu.",
+      },
+      {
+        title: "Chuẩn bị cho buổi khám",
+        detail:
+          "Mang theo ảnh chụp theo tuần, sổ ghi chu kỳ, và danh sách sản phẩm đã dùng kèm thời gian dùng. Đi mặt mộc. Hỏi rõ lộ trình bao lâu thấy kết quả và tác dụng phụ cần theo dõi.",
+      },
+      {
+        title: "Xử lý phần thâm sau khi mụn đã lặn",
+        detail:
+          "Vết thâm mờ dần theo thời gian nhưng nắng làm nó đậm và lâu hơn nhiều. Kem chống nắng dùng đều mỗi ngày là việc rẻ nhất và hiệu quả nhất cho phần này. Đừng chà hay tẩy mạnh vùng vừa lành.",
+      },
+    ],
+    notes: [
+      "Bài này không nêu tên thuốc và không thay được chỉ định của bác sĩ. Mọi thuốc bôi hay uống trị mụn cần bác sĩ kê, đặc biệt nếu bạn đang mang thai hoặc có dự định mang thai.",
+      "Không tự mua thuốc uống trị mụn theo đơn của người khác, kể cả người có triệu chứng giống hệt bạn.",
+      "Mụn kèm sốt, sưng đau lan rộng, hoặc vùng da nóng đỏ nhanh là dấu hiệu nhiễm trùng cần đi khám ngay.",
+      "Đây không phải tư vấn y khoa. Nếu mụn khiến bạn lo âu hoặc ngại giao tiếp kéo dài, hãy nói ra với bác sĩ, đó là phần cần được quan tâm chứ không phải chuyện nhỏ.",
+    ],
+    faq: [
+      {
+        q: "Ăn kiêng có làm hết mụn không?",
+        a: "Với một số người, giảm đồ ngọt và sữa có giúp, nhưng mức độ khác nhau tuỳ người và không phải giải pháp cho tất cả. Hãy thử thay đổi một thứ trong vài tuần và ghi lại, thay vì cắt bỏ hàng loạt món.",
+      },
+      {
+        q: "Da em dầu, có cần dưỡng ẩm không?",
+        a: "Có. Da thiếu ẩm tiết dầu nhiều hơn để bù. Chọn loại mỏng nhẹ không gây bít, và bôi sau khi rửa mặt lúc da còn hơi ẩm.",
+      },
+      {
+        q: "Mụn nổi đúng trước kỳ kinh thì có cách nào chặn trước không?",
+        a: "Giữ quy trình chăm da đều đặn cả tháng thay vì chỉ tăng cường lúc mụn nổi. Nếu tháng nào cũng nặng, hãy mang bảng theo dõi tới bác sĩ da liễu để bàn về hướng xử lý dài hạn.",
+      },
+      {
+        q: "Đắp mặt nạ hay xông mặt có giúp không?",
+        a: "Cảm giác dễ chịu và có thể giúp da mềm hơn, nhưng không xử lý được mụn nang ở tầng sâu. Đừng xông quá thường xuyên vì dễ làm da đỏ và nhạy cảm hơn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "son-tieu-khi-ho-cuoi-hoac-nhay",
+    title: "Són tiểu khi ho, cười hay nhảy: chuyện rất nhiều người gặp mà không ai kể",
+    excerpt:
+      "Không phải chuyện của tuổi già, và cũng không phải thứ bạn phải chấp nhận sống chung. Đây là các bước cụ thể.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Rò rỉ nước tiểu khi ho, hắt hơi, cười to hay nhảy là tình trạng rất phổ biến ở phụ nữ, đặc biệt sau sinh và quanh tuổi tiền mãn kinh, và phần lớn cải thiện được. Bước đầu tiên là tập đúng nhóm cơ sàn chậu, đều đặn mỗi ngày trong ít nhất ba tháng. Song song đó là bỏ thói quen đi tiểu dự phòng và giảm các thứ kích thích bàng quang. Đi khám phụ khoa hoặc tiết niệu nếu tình trạng ảnh hưởng sinh hoạt — có chuyên ngành riêng cho việc này.",
+    prepare: [
+      "Một cuốn sổ ghi trong ba ngày: giờ uống nước, giờ đi tiểu, lúc nào bị rò rỉ và đang làm gì",
+      "Một khoảng thời gian cố định trong ngày để tập, gắn với việc bạn vẫn làm như đánh răng",
+      "Biết bạn uống bao nhiêu nước, cà phê, trà mỗi ngày",
+      "Danh sách các lần sinh nở và các phẫu thuật vùng bụng chậu nếu có",
+      "Thẻ bảo hiểm y tế nếu định đi khám",
+    ],
+    steps: [
+      {
+        title: "Ghi nhật ký ba ngày trước khi làm gì khác",
+        detail:
+          "Ghi giờ và lượng nước uống, giờ đi tiểu, và mỗi lần rò rỉ kèm hoàn cảnh. Ba ngày là đủ để thấy quy luật của chính bạn, và đây cũng là tài liệu quý nhất khi đi khám. Nhiều người ngạc nhiên khi thấy mình đi tiểu nhiều hơn tưởng.",
+      },
+      {
+        title: "Xác định đúng nhóm cơ cần tập",
+        detail:
+          "Đó là nhóm cơ bạn dùng khi muốn nín một hơi trung tiện, hoặc khi muốn ngừng dòng tiểu giữa chừng. Siết nhóm đó mà bụng, mông và đùi vẫn thả lỏng, hơi thở vẫn đều. Đặt tay lên bụng để kiểm tra bụng không gồng lên.",
+      },
+      {
+        title: "Đừng dùng cách ngừng dòng tiểu để tập",
+        detail:
+          "Cách đó chỉ dùng một lần để nhận biết cơ, không được dùng làm bài tập thường xuyên vì có thể gây rối loạn thói quen làm rỗng bàng quang. Nhận ra cơ rồi thì tập ở lúc không đi tiểu.",
+      },
+      {
+        title: "Tập theo công thức rõ ràng",
+        detail:
+          "Siết giữ khoảng ba tới năm giây rồi thả hoàn toàn cũng chừng đó, làm mười lần. Sau đó làm thêm mười nhịp siết thả nhanh. Ngày ba đợt như vậy. Phần thả lỏng quan trọng ngang phần siết, đừng bỏ qua.",
+      },
+      {
+        title: "Gắn bài tập vào việc bạn đã làm hằng ngày",
+        detail:
+          "Ví dụ mỗi lần đánh răng, mỗi lần chờ nước sôi, mỗi lần dừng đèn đỏ. Không ai nhìn thấy bạn đang tập. Cách này giữ được thói quen tốt hơn nhiều so với đặt báo thức riêng.",
+      },
+      {
+        title: "Kiên trì đủ ba tháng trước khi kết luận",
+        detail:
+          "Cơ cần thời gian mới khoẻ lên, thường thấy chuyển biến sau sáu tới tám tuần và rõ hơn sau ba tháng. Tập hai tuần rồi bỏ vì chưa thấy gì là lý do phổ biến nhất khiến người ta nghĩ cách này không hiệu quả.",
+      },
+      {
+        title: "Siết chủ động ngay trước khi ho hay nâng vật nặng",
+        detail:
+          "Học phản xạ siết cơ sàn chậu một nhịp ngay trước lúc ho, hắt hơi, cười to hay nhấc đồ. Đây là kỹ thuật giúp giảm rò rỉ thấy rõ ngay cả khi cơ chưa khoẻ hẳn.",
+      },
+      {
+        title: "Bỏ thói quen đi tiểu phòng xa",
+        detail:
+          "Đi tiểu khi chưa buồn để đề phòng làm bàng quang quen với dung tích nhỏ và càng dễ són. Hãy đi khi thật sự buồn. Nếu đang đi rất nhiều lần, giãn dần khoảng cách thêm mười lăm phút mỗi tuần.",
+      },
+      {
+        title: "Đừng cắt nước để bớt són",
+        detail:
+          "Uống ít làm nước tiểu cô đặc, kích thích bàng quang mạnh hơn và dễ nhiễm trùng tiểu. Cứ uống đủ trong ngày, chỉ giảm bớt vào hai giờ trước khi ngủ nếu bạn hay phải dậy đêm.",
+      },
+      {
+        title: "Giảm những thứ kích thích bàng quang",
+        detail:
+          "Cà phê, trà đặc, nước có ga, rượu bia và đồ rất cay là những thứ hay gặp nhất. Thử bớt một thứ trong hai tuần và ghi lại thay đổi, thay vì bỏ hết cùng lúc rồi không biết cái nào có tác dụng.",
+      },
+      {
+        title: "Xử lý táo bón và ho kéo dài",
+        detail:
+          "Rặn mạnh mỗi ngày và ho dai dẳng đều tạo áp lực lên sàn chậu. Uống đủ nước, ăn nhiều chất xơ, và đi khám nếu ho kéo dài trên ba tuần. Đây là hai việc nền tảng hay bị bỏ qua.",
+      },
+      {
+        title: "Đi khám khi nào và khám ở đâu",
+        detail:
+          "Khoa phụ sản hoặc khoa tiết niệu của bệnh viện đa khoa; một số nơi có đơn vị sàn chậu riêng và có kỹ thuật viên hướng dẫn tập trực tiếp. Nói ngắn gọn khi đăng ký: em bị rò rỉ nước tiểu khi ho và cười. Mang theo nhật ký ba ngày.",
+      },
+      {
+        title: "Biết trước buổi khám gồm những gì",
+        detail:
+          "Bác sĩ sẽ hỏi bệnh sử, tiền sử sinh nở, và có thể khám vùng chậu để đánh giá sức cơ. Bạn có quyền hỏi rõ từng bước và có quyền yêu cầu dừng bất kỳ lúc nào. Có thể có thêm siêu âm hoặc xét nghiệm nước tiểu để loại trừ nhiễm trùng.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM SỚM nếu: nước tiểu có máu, tiểu buốt rát, sốt, đau vùng thắt lưng, hoặc bỗng nhiên không tiểu được. Đây không còn là chuyện cơ sàn chậu.",
+      "Cảm giác nặng tụt hoặc có khối lồi ở vùng kín, đặc biệt về cuối ngày, cần được bác sĩ khám — đó là tình trạng khác và có hướng xử lý riêng.",
+      "Bài này không nêu tên thuốc và không thay được chỉ định của bác sĩ. Không tự mua thuốc hay dụng cụ hỗ trợ trên mạng khi chưa được khám.",
+      "Đây không phải tư vấn y khoa. Nếu tình trạng khiến bạn ngại tập thể dục, ngại ra ngoài hay ngại gần gũi, hãy nói thẳng với bác sĩ — đó là thông tin cần thiết chứ không phải chuyện phải giấu.",
+    ],
+    faq: [
+      {
+        q: "Em mới ba mươi và chưa sinh con, sao lại bị?",
+        a: "Sinh nở là một yếu tố nhưng không phải yếu tố duy nhất. Ho mạn tính, táo bón kéo dài, tập luyện cường độ cao, thừa cân và cả yếu tố cơ địa đều có thể liên quan. Tuổi trẻ không loại trừ tình trạng này.",
+      },
+      {
+        q: "Dùng băng vệ sinh hằng ngày để thấm có sao không?",
+        a: "Nó giải quyết được sự bất tiện trước mắt nhưng không xử lý nguyên nhân, và dùng liên tục dễ gây ẩm bí, kích ứng. Nên coi đó là giải pháp tạm trong lúc bạn tập và chờ đi khám.",
+      },
+      {
+        q: "Tập kiểu này có làm được lúc đang mang thai không?",
+        a: "Bài tập cơ sàn chậu thường được khuyến khích cả trong thai kỳ và sau sinh, nhưng hãy hỏi bác sĩ sản khoa đang theo dõi cho bạn trước, vì mỗi thai kỳ mỗi khác.",
+      },
+      {
+        q: "Bao lâu thì nên đi khám thay vì tự tập?",
+        a: "Nếu đã tập đều ba tháng mà không cải thiện, hoặc tình trạng đang ảnh hưởng tới công việc và sinh hoạt ngay từ bây giờ, thì đi khám luôn. Không cần chờ đủ ba tháng mới được đi.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "long-moc-nhieu-bat-thuong-o-nu-gioi",
+    title: "Lông mọc rậm ở mặt, bụng, ngực ở nữ: khi nào là cơ địa, khi nào nên đi khám",
+    excerpt:
+      "Nhiều người tốn hàng năm đi triệt lông mà không ai gợi ý rằng nên kiểm tra nguyên nhân bên trong trước.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Lông mọc theo kiểu thường thấy ở nam giới — quanh mép, cằm, giữa ngực, dọc bụng dưới, lưng — với sợi thô và sẫm màu, là điều nên cho bác sĩ xem, nhất là khi mới xuất hiện hoặc tăng nhanh. Nếu kèm theo kinh nguyệt thưa, mụn nặng ở cằm hoặc rụng tóc vùng đỉnh thì càng nên đi khám nội tiết hoặc phụ khoa. Còn nếu lông vốn vậy từ tuổi dậy thì, ổn định nhiều năm, kinh nguyệt đều thì thường là cơ địa và việc xử lý chỉ là chuyện thẩm mỹ tuỳ bạn muốn hay không.",
+    prepare: [
+      "Ảnh chụp các vùng liên quan cách nhau vài tháng, nếu bạn có",
+      "Ghi lại chu kỳ kinh nguyệt sáu tháng gần nhất: có đều không, cách nhau bao nhiêu ngày",
+      "Danh sách thuốc và thực phẩm chức năng đang dùng",
+      "Thông tin về người thân trong nhà có tình trạng tương tự",
+      "Cân nặng hiện tại và thay đổi trong năm qua",
+    ],
+    steps: [
+      {
+        title: "Phân biệt hai loại lông",
+        detail:
+          "Lông tơ mảnh, sáng màu, mọc khắp cơ thể là bình thường ở mọi người. Điều đáng lưu ý là loại sợi thô, sẫm, dài, mọc ở những vùng vốn ít lông ở nữ. Chỉ cần nhận biết được để mô tả, không cần tự kết luận.",
+      },
+      {
+        title: "Xác định vị trí, vì vị trí mới là điều quan trọng",
+        detail:
+          "Các vùng bác sĩ quan tâm là quanh mép và cằm, hai bên má dưới, giữa ngực, quanh quầng vú, dọc đường giữa bụng dưới, lưng và mông. Lông ở tay chân thường không nằm trong nhóm này.",
+      },
+      {
+        title: "Nhớ lại thời điểm bắt đầu và tốc độ",
+        detail:
+          "Xuất hiện dần từ tuổi dậy thì và ổn định nhiều năm là một bức tranh. Mới xuất hiện trong vài tháng, hoặc tăng nhanh rõ rệt, là bức tranh hoàn toàn khác và cần đi khám sớm. Đây là câu hỏi đầu tiên bác sĩ đặt ra.",
+      },
+      {
+        title: "Kiểm tra ba dấu hiệu thường đi cùng",
+        detail:
+          "Kinh nguyệt thưa dần hoặc mất kinh, mụn nặng ở cằm và quai hàm, rụng tóc thưa vùng đỉnh đầu. Có hai trong ba dấu hiệu này cùng với lông rậm là lý do rất chính đáng để làm xét nghiệm nội tiết.",
+      },
+      {
+        title: "Chú ý các dấu hiệu cần đi khám gấp",
+        detail:
+          "Giọng trầm hẳn xuống, cơ bắp phát triển nhanh bất thường, mất kinh đột ngột, thay đổi diễn ra trong vài tháng. Những thay đổi nhanh như vậy cần được đánh giá sớm, đừng chờ.",
+      },
+      {
+        title: "Rà lại thuốc đang dùng",
+        detail:
+          "Một số thuốc điều trị bệnh mạn tính và một số sản phẩm bổ sung, đặc biệt loại quảng cáo tăng cơ hoặc tăng cân, có thể gây tình trạng này. Mang đúng vỏ hộp khi đi khám thay vì cố nhớ tên.",
+      },
+      {
+        title: "Ghi lại chu kỳ trong ba tới sáu tháng",
+        detail:
+          "Ngày đầu mỗi kỳ, độ dài chu kỳ, có bỏ tháng nào không. Dùng ứng dụng hoặc một tờ lịch đều được. Đây là dữ liệu bác sĩ cần nhất và cũng là thứ hay bị trả lời bằng câu em cũng không nhớ rõ.",
+      },
+      {
+        title: "Chọn nơi khám phù hợp",
+        detail:
+          "Khoa nội tiết hoặc khoa phụ sản của bệnh viện đa khoa. Khi đăng ký, nói ngắn: em muốn khám vì lông mọc nhiều bất thường và kinh nguyệt không đều. Không cần kể chi tiết ở quầy.",
+      },
+      {
+        title: "Biết trước bác sĩ có thể chỉ định gì",
+        detail:
+          "Thường là hỏi bệnh sử kỹ, khám lâm sàng, xét nghiệm máu một số chỉ số nội tiết vào thời điểm nhất định trong chu kỳ, và có thể siêu âm phụ khoa. Hỏi rõ cần làm vào ngày thứ mấy của chu kỳ để khỏi phải quay lại.",
+      },
+      {
+        title: "Đừng để việc triệt lông thay thế việc đi khám",
+        detail:
+          "Các phương pháp thẩm mỹ xử lý phần nhìn thấy, không xử lý nguyên nhân bên trong. Bạn hoàn toàn có thể làm cả hai song song, nhưng đừng để nhiều năm trôi qua mà chưa ai kiểm tra nguyên nhân.",
+      },
+      {
+        title: "Chọn cách xử lý bề mặt an toàn trong lúc chờ",
+        detail:
+          "Cạo và nhổ không làm lông mọc dày hơn, đó là hiểu lầm phổ biến; chỉ là đầu sợi bị cắt ngang nên sờ thấy cứng hơn. Nếu dùng dịch vụ triệt lông, chọn cơ sở có giấy phép, hỏi rõ công nghệ và yêu cầu thử một vùng nhỏ trước.",
+      },
+      {
+        title: "Đừng bỏ qua phần tâm lý",
+        detail:
+          "Rất nhiều người tránh mặc áo cộc, tránh chụp ảnh cận, tránh gần gũi vì chuyện này trong nhiều năm mà không nói với ai. Nếu nó ảnh hưởng tới tâm trạng và sinh hoạt, hãy nói với bác sĩ. Đây là thông tin có ích, không phải chuyện vặt vãnh.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM SỚM nếu thay đổi diễn ra nhanh trong vài tháng, kèm giọng trầm đi, mất kinh, hoặc thay đổi rõ về hình thể.",
+      "Bài này không nêu tên thuốc và không thay được chỉ định của bác sĩ. Không tự mua thuốc nội tiết hay thuốc được truyền tai là làm rụng lông.",
+      "Cẩn thận với các cơ sở hứa hết vĩnh viễn sau một liệu trình. Hãy hỏi rõ chi phí trọn gói, số buổi, và điều gì xảy ra nếu không đạt kết quả.",
+      "Đây không phải tư vấn y khoa. Chỉ bác sĩ trực tiếp khám mới xác định được nguyên nhân trong trường hợp của bạn.",
+    ],
+    faq: [
+      {
+        q: "Mẹ và chị em trong nhà cũng vậy thì có phải đi khám không?",
+        a: "Yếu tố gia đình và sắc tộc ảnh hưởng thật, và nhiều trường hợp đúng là cơ địa. Nhưng nếu bạn có thêm kinh nguyệt không đều hoặc mụn nặng thì vẫn nên đi khám một lần cho yên tâm.",
+      },
+      {
+        q: "Cạo lông mặt có làm lông mọc dày và cứng hơn không?",
+        a: "Không. Cạo không tác động tới nang lông, chỉ cắt ngang sợi lông nên phần chân sờ thấy thô hơn. Số lượng và độ dày sợi không đổi.",
+      },
+      {
+        q: "Có cần nhịn ăn khi làm xét nghiệm nội tiết không?",
+        a: "Tuỳ chỉ định cụ thể, và quan trọng hơn là làm vào đúng ngày trong chu kỳ. Hãy hỏi rõ khi đặt lịch để khỏi mất công đi hai lần.",
+      },
+      {
+        q: "Triệt lông bằng laser có an toàn không?",
+        a: "Tuỳ cơ sở, thiết bị và loại da của bạn. Hãy chọn nơi có giấy phép và người thực hiện được đào tạo, yêu cầu thử một vùng nhỏ trước, và tránh làm khi da đang cháy nắng hoặc đang dùng thuốc làm da nhạy cảm.",
+      },
+    ],
+    sources: [],
+  },
 ];
