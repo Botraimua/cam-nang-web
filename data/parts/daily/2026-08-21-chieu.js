@@ -520,4 +520,524 @@ export const day20260821chieu = [
     ],
     sources: [],
   },
+  {
+    slug: "lay-lai-tai-khoan-facebook-zalo-bi-chiem",
+    title: "Tài khoản Facebook hay Zalo bị chiếm: lấy lại và chặn thiệt hại",
+    excerpt:
+      "Kẻ chiếm tài khoản không cần tiền của bạn — chúng cần danh sách bạn bè của bạn. Mỗi phút chậm là thêm một người thân bị nhắn tin vay tiền.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Làm hai việc song song. Một: báo cho người thân bằng kênh khác — gọi điện, nhắn nhóm gia đình từ máy người nhà — rằng tài khoản của bạn bị chiếm, đừng chuyển tiền cho ai nhắn từ đó. Hai: vào ngay trang khôi phục tài khoản chính thức của nền tảng, đổi mật khẩu, đăng xuất mọi thiết bị lạ, bật xác thực hai lớp. Kiểm tra cả email gắn với tài khoản đó, vì kẻ chiếm thường vào email trước rồi mới chiếm mạng xã hội.",
+    prepare: [
+      "Một thiết bị khác mà bạn còn đăng nhập được — điện thoại cũ, máy tính, hoặc máy người nhà",
+      "Email và số điện thoại gốc đã gắn với tài khoản, để nhận mã khôi phục",
+      "Danh sách người hay chuyển tiền cho bạn, để gọi cảnh báo trước",
+      "Giấy tờ tuỳ thân, phòng khi nền tảng yêu cầu xác minh danh tính",
+      "Một chỗ ghi lại: bạn đã làm gì, lúc mấy giờ — cần khi trình báo hoặc khiếu nại",
+    ],
+    steps: [
+      {
+        title: "Xác định mình mất tới đâu",
+        detail:
+          "Còn đăng nhập được nhưng thấy hoạt động lạ là mức nhẹ. Bị đăng xuất và không đổi được mật khẩu là mức nặng. Nếu email gốc cũng vào không được thì đó là mức nặng nhất — phải cứu email trước, vì email là chìa khoá mở mọi tài khoản khác.",
+      },
+      {
+        title: "Cảnh báo người thân ngay trong năm phút đầu",
+        detail:
+          "Gọi điện hoặc nhắn từ máy khác vào nhóm gia đình, nhóm bạn, nhóm công ty: “Facebook mình bị chiếm, ai nhận tin nhắn vay tiền hay nhờ nhận hộ tiền từ nick mình thì đừng chuyển, gọi thẳng vào số này cho mình.” Việc này quan trọng hơn cả việc lấy lại tài khoản.",
+      },
+      {
+        title: "Cứu email gốc trước",
+        detail:
+          "Đăng nhập email, đổi mật khẩu, xem mục thiết bị đang đăng nhập và đăng xuất hết những cái lạ. Kiểm tra kỹ phần cài đặt chuyển tiếp thư và bộ lọc: kẻ chiếm hay cài lệnh tự chuyển tiếp thư của bạn cho chúng rồi xoá dấu vết.",
+      },
+      {
+        title: "Dùng đúng trang khôi phục chính thức",
+        detail:
+          "Facebook có trang báo cáo tài khoản bị xâm nhập, Zalo có mục quên mật khẩu và tổng đài hỗ trợ. Tuyệt đối không tìm dịch vụ lấy lại nick trên mạng — gần như toàn bộ là lừa đảo lần hai, lấy nốt tiền của người đang hoảng.",
+      },
+      {
+        title: "Đổi mật khẩu và đăng xuất mọi thiết bị",
+        detail:
+          "Lấy lại được rồi thì đổi mật khẩu ngay, đặt mật khẩu chưa từng dùng ở đâu khác. Vào mục phiên đăng nhập và bấm đăng xuất tất cả. Bỏ qua bước đăng xuất là kẻ chiếm vẫn ngồi trong máy chúng và chiếm lại sau vài phút.",
+      },
+      {
+        title: "Bật xác thực hai lớp",
+        detail:
+          "Ưu tiên ứng dụng sinh mã thay vì tin nhắn, vì tin nhắn có thể bị chiếm qua chiêu đổi SIM. Lưu mã dự phòng vào chỗ an toàn ngoài điện thoại, ví dụ ghi ra giấy cất trong tủ.",
+      },
+      {
+        title: "Kiểm tra những gì kẻ chiếm đã sửa",
+        detail:
+          "Xem lại email và số điện thoại khôi phục — chúng hay thêm email của chúng vào. Xem tin nhắn đã gửi đi, bài đã đăng, nhóm mới bị thêm vào, và các ứng dụng đã cấp quyền truy cập. Gỡ hết những gì bạn không nhận ra.",
+      },
+      {
+        title: "Rà những tài khoản dùng chung mật khẩu",
+        detail:
+          "Nếu mật khẩu vừa bị lộ cũng đang dùng cho ngân hàng, ví điện tử, sàn mua hàng — đổi hết ngay trong tối nay. Đây là lý do không nên dùng chung một mật khẩu, và giờ là lúc bạn thấy vì sao.",
+      },
+      {
+        title: "Đăng một bài công khai đính chính",
+        detail:
+          "Lấy lại được thì đăng ngắn gọn: tài khoản vừa bị chiếm trong khoảng thời gian nào, mọi tin nhắn vay tiền gửi đi trong lúc đó đều không phải của bạn. Ghim bài lên đầu trang vài ngày.",
+      },
+      {
+        title: "Nếu có người đã chuyển tiền thì xử lý gấp",
+        detail:
+          "Bảo họ gọi ngay tổng đài ngân hàng báo chuyển tiền cho tài khoản lừa đảo và ra công an trình báo, mang theo ảnh chụp tin nhắn và biên lai. Càng sớm càng có cơ hội phong toả tài khoản nhận.",
+      },
+      {
+        title: "Trình báo nếu bị mạo danh để lừa nhiều người",
+        detail:
+          "Ra công an phường nơi bạn ở, mang theo ảnh chụp màn hình các tin nhắn giả danh. Có đơn trình báo thì sau này nếu ai đó bị lừa nặng, họ có cơ sở để làm việc tiếp.",
+      },
+      {
+        title: "Dọn dẹp thói quen để khỏi lặp lại",
+        detail:
+          "Đừng bấm vào đường link lạ báo trúng thưởng hay báo vi phạm bản quyền. Đừng đăng nhập tài khoản trên máy công cộng. Cài lại điện thoại nếu bạn nghi máy đã dính phần mềm theo dõi.",
+      },
+    ],
+    notes: [
+      "Chiêu phổ biến nhất hiện nay là gửi cho bạn một trang đăng nhập giả trông y hệt thật. Trước khi gõ mật khẩu, luôn nhìn kỹ địa chỉ trang — sai một chữ cái là trang giả.",
+      "Mọi dịch vụ hứa lấy lại nick trong một giờ với vài trăm nghìn đều là lừa đảo. Nền tảng không có kênh trung gian nào như vậy.",
+      "Kẻ chiếm thường nhắm vào người lớn tuổi trong danh sách bạn bè của bạn. Gọi trực tiếp cho bố mẹ, đừng chỉ đăng bài cảnh báo rồi yên tâm.",
+      "Sau khi lấy lại, kiểm tra cả những tài khoản mà bạn đăng nhập bằng nút đăng nhập bằng Facebook — chúng cũng nằm trong tầm với của kẻ chiếm.",
+    ],
+    faq: [
+      {
+        q: "Không nhớ email gốc thì lấy lại được không?",
+        a: "Khó hơn nhưng vẫn có cửa. Các nền tảng thường cho xác minh bằng cách nhận diện bạn bè, gửi ảnh giấy tờ tuỳ thân, hoặc dùng số điện thoại cũ. Cứ làm theo quy trình chính thức và kiên nhẫn, đừng nhờ dịch vụ ngoài.",
+      },
+      {
+        q: "Bao lâu thì lấy lại được tài khoản?",
+        a: "Trường hợp nhẹ thì vài phút tới vài giờ. Trường hợp phải xác minh danh tính có thể mất vài ngày tới vài tuần. Trong lúc đó việc quan trọng nhất vẫn là cảnh báo người thân.",
+      },
+      {
+        q: "Có nên lập tài khoản mới không?",
+        a: "Nên lập tạm một tài khoản để liên lạc nếu công việc của bạn cần, và báo rõ cho bạn bè đây là tài khoản mới. Nhưng vẫn tiếp tục quy trình đòi lại tài khoản cũ, vì tài khoản cũ nằm trong tay kẻ xấu là còn nguy hiểm cho người khác.",
+      },
+      {
+        q: "Kẻ chiếm đọc hết tin nhắn cũ của tôi thì sao?",
+        a: "Coi như mọi thứ trong đó đã lộ. Nếu có ảnh chụp giấy tờ, số tài khoản, mật khẩu từng gửi cho ai đó thì phải xử lý ngay: đổi mật khẩu, báo ngân hàng, và cảnh giác với các cuộc gọi biết rõ thông tin của bạn trong thời gian tới.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "mua-hang-online-kiem-hang-va-doi-hoan-tien",
+    title: "Mua hàng online: kiểm hàng lúc nhận và đòi hoàn tiền khi hàng lỗi",
+    excerpt:
+      "Hàng về không giống hình, vỡ, thiếu món. Cãi nhau với người bán thường vô ích — cái quyết định là bạn có quay được video lúc mở hộp hay không.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Trước khi thanh toán cho shipper, hỏi rõ đơn này có được đồng kiểm không. Dù thế nào, hãy quay video liên tục từ lúc gói hàng còn nguyên tem tới lúc mở ra hết — đây là bằng chứng mạnh nhất khi khiếu nại. Hàng sai hoặc lỗi thì mở khiếu nại ngay trong ứng dụng sàn, đừng nhắn riêng cho shop rồi chờ, vì hết thời hạn khiếu nại là sàn không can thiệp được nữa.",
+    prepare: [
+      "Điện thoại còn pin và còn dung lượng để quay video mở hộp",
+      "Ảnh chụp trang sản phẩm lúc bạn đặt, gồm mô tả và giá — shop có thể sửa sau đó",
+      "Mã đơn hàng và lịch sử trò chuyện với shop, đừng xoá",
+      "Biết trước thời hạn khiếu nại của sàn bạn đang mua, thường tính bằng ngày kể từ khi nhận",
+      "Thùng và lớp gói ban đầu, giữ lại tới khi chắc chắn không phải trả hàng",
+    ],
+    steps: [
+      {
+        title: "Chọn shop bằng cách đọc đánh giá thật",
+        detail:
+          "Bỏ qua các đánh giá năm sao một chữ. Đọc đánh giá ba sao và có ảnh người mua tự chụp — đó là nơi sự thật nằm. Shop mới toanh mà giá rẻ bất thường thì cân nhắc, nhất là với hàng điện tử.",
+      },
+      {
+        title: "Chụp màn hình trang sản phẩm trước khi đặt",
+        detail:
+          "Chụp phần mô tả, thông số, ảnh sản phẩm và giá. Nhiều shop sửa nội dung sau khi bán, lúc khiếu nại bạn không còn gì để chứng minh mình đã được hứa cái gì.",
+      },
+      {
+        title: "Ưu tiên thanh toán qua sàn thay vì chuyển khoản riêng",
+        detail:
+          "Người bán rủ chuyển khoản thẳng để giảm giá là dấu hiệu xấu: khi có chuyện, sàn không giữ tiền nên không bảo vệ được bạn. Thanh toán qua sàn thì tiền chỉ về shop sau khi bạn xác nhận.",
+      },
+      {
+        title: "Hỏi rõ chính sách đồng kiểm khi đặt",
+        detail:
+          "Nhắn shop: “Đơn này em được đồng kiểm khi nhận hàng đúng không ạ.” Có câu trả lời bằng văn bản trong khung chat là bạn có căn cứ khi shipper nói không cho xem.",
+      },
+      {
+        title: "Quay video từ lúc gói hàng còn nguyên",
+        detail:
+          "Bắt đầu quay trước khi cắt băng dính. Quay rõ mã vận đơn, bốn mặt thùng, rồi mở từ từ, không cắt đoạn. Video đứt quãng gần như vô giá trị khi khiếu nại. Đây là mười lăm giây đổi lấy vài trăm nghìn.",
+      },
+      {
+        title: "Kiểm ngay tại chỗ nếu được đồng kiểm",
+        detail:
+          "Đếm đủ món, xem đúng màu đúng cỡ, thử bật nguồn với hàng điện tử. Sai thì từ chối nhận ngay và ghi rõ lý do với shipper — trả tại chỗ dễ hơn nhiều so với gửi trả sau.",
+      },
+      {
+        title: "Phát hiện lỗi thì chụp ảnh có bối cảnh",
+        detail:
+          "Chụp món hàng nằm cạnh phiếu giao hàng và thùng gói, để thấy rõ đây đúng là đơn đó. Chụp cận cảnh chỗ lỗi, và chụp thêm một ảnh toàn cảnh. Ba loại ảnh này là bộ chuẩn khi mở khiếu nại.",
+      },
+      {
+        title: "Nhắn shop một lần, lịch sự và có mốc thời gian",
+        detail:
+          "“Chào shop, em nhận đơn số… hôm nay, hàng bị lỗi như ảnh đính kèm. Em muốn đổi hàng hoặc hoàn tiền, shop phản hồi giúp em trong hôm nay nhé ạ.” Nói rõ mong muốn và hạn trả lời, không kể lể dài dòng.",
+      },
+      {
+        title: "Shop im lặng thì mở khiếu nại trong ứng dụng",
+        detail:
+          "Đừng chờ quá một ngày. Vào mục đơn hàng, chọn trả hàng hoặc hoàn tiền, tải video và ảnh lên, ghi lý do ngắn gọn theo sự thật. Sàn xử lý dựa trên bằng chứng chứ không dựa trên việc bạn bức xúc tới đâu.",
+      },
+      {
+        title: "Gửi trả đúng hướng dẫn của sàn",
+        detail:
+          "Dùng đúng mã trả hàng sàn cấp, gói lại đầy đủ phụ kiện, giữ biên lai gửi. Tự ý gửi trả theo địa chỉ shop đưa riêng là mất dấu vết và rất dễ mất luôn cả hàng lẫn tiền.",
+      },
+      {
+        title: "Theo dõi tới khi tiền thật sự về",
+        detail:
+          "Tiền hoàn thường về ví của sàn trước rồi mới rút được về ngân hàng, mất thêm vài ngày. Đặt nhắc trong điện thoại để kiểm lại, đừng tin là xong khi mới thấy dòng chữ đã duyệt.",
+      },
+      {
+        title: "Nếu sàn xử lý không thoả đáng",
+        detail:
+          "Khiếu nại lên tổng đài sàn kèm mã đơn, hoặc phản ánh tới cơ quan bảo vệ quyền lợi người tiêu dùng. Với đơn giá trị lớn, việc trình báo là có ý nghĩa; với đơn vài chục nghìn thì cân nhắc thời gian bạn bỏ ra.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO: có kiểu lừa gửi hàng bạn không đặt rồi thu tiền, người nhà ở nhà cứ thế trả. Dặn cả nhà chỉ nhận đơn khi biết rõ ai đặt, và luôn xem tên người nhận trên phiếu.",
+      "Đừng bấm vào link tra cứu đơn hàng gửi qua tin nhắn lạ. Muốn tra thì mở thẳng ứng dụng của sàn hoặc hãng vận chuyển.",
+      "Thời hạn khiếu nại của mỗi sàn mỗi khác và có thay đổi theo chính sách từng thời điểm — kiểm tra trong ứng dụng ngay khi nhận hàng, đừng để lỡ vì bận.",
+      "Với hàng điện tử, giữ hộp và phụ kiện ít nhất hết thời gian đổi trả. Thiếu một sợi cáp cũng đủ để shop từ chối nhận lại.",
+    ],
+    faq: [
+      {
+        q: "Shipper không cho mở hàng ra xem thì làm sao?",
+        a: "Nhiều đơn vị vận chuyển không cho đồng kiểm theo quy định của shop. Khi đó cứ nhận, nhưng phải quay video mở hộp liên tục — đó vẫn là bằng chứng được các sàn chấp nhận.",
+      },
+      {
+        q: "Đã bấm xác nhận đã nhận hàng rồi mới phát hiện lỗi thì sao?",
+        a: "Vẫn khiếu nại được nếu còn trong thời hạn bảo vệ người mua của sàn, nhưng khó hơn vì tiền có thể đã về shop. Vì vậy đừng bấm xác nhận cho tới khi bạn kiểm xong.",
+      },
+      {
+        q: "Mua trên mạng xã hội chứ không qua sàn thì đòi kiểu gì?",
+        a: "Không có bên trung gian giữ tiền nên rất khó. Bằng chứng duy nhất của bạn là tin nhắn thoả thuận và biên lai chuyển khoản. Với số tiền lớn thì trình báo công an; bài học rút ra là hạn chế chuyển khoản trước cho người bán lạ.",
+      },
+      {
+        q: "Hàng đúng mô tả nhưng tôi không thích thì trả được không?",
+        a: "Tuỳ chính sách từng sàn và từng shop, nhiều nơi cho trả trong một số ngày nhưng bạn chịu phí vận chuyển. Đọc kỹ mục chính sách đổi trả trên trang sản phẩm trước khi đặt.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "xe-bi-cau-di-lay-lai-va-nop-phat",
+    title: "Xe bị cẩu hoặc bị giữ: tìm ở đâu, mang gì đi, mất bao nhiêu",
+    excerpt:
+      "Quay ra chỗ để xe thì xe biến mất. Trước khi hoảng, hãy kiểm tra khả năng lớn nhất: xe bạn đang nằm trong bãi tạm giữ chứ không phải bị trộm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Nhìn quanh xem có biển cấm đỗ, vạch kẻ hay chốt trật tự gần đó không, rồi hỏi ngay bảo vệ và hàng quán xung quanh — họ thường thấy xe bị cẩu đi lúc nào và của đơn vị nào. Gọi hoặc tới công an phường sở tại hỏi bãi tạm giữ. Mang theo căn cước, giấy đăng ký xe, bằng lái và tiền để nộp phạt cùng phí trông giữ. Lấy càng muộn thì phí trông giữ càng cộng dồn theo ngày, nên đi trong ngày là rẻ nhất.",
+    prepare: [
+      "Giấy đăng ký xe bản gốc hoặc bản đã đăng ký hợp lệ theo hình thức được chấp nhận",
+      "Căn cước công dân của chính chủ, hoặc giấy uỷ quyền nếu bạn đi lấy hộ",
+      "Bằng lái phù hợp với loại xe — thiếu bằng có thể phát sinh lỗi phạt riêng",
+      "Bảo hiểm bắt buộc của xe nếu còn hiệu lực, mang theo cho đủ bộ",
+      "Tiền mặt và tài khoản đủ để nộp phạt cùng phí trông giữ theo ngày",
+    ],
+    steps: [
+      {
+        title: "Bình tĩnh xác định là bị cẩu hay bị trộm",
+        detail:
+          "Nhìn quanh chỗ để xe: có biển cấm dừng đỗ, vạch kẻ vàng, hay thông báo dọn dẹp lòng đường không. Xe bị cẩu thường xảy ra ở đúng những nơi đó. Nếu bạn đỗ trong bãi có vé mà xe mất thì khả năng cao là chuyện khác, và phải báo công an ngay.",
+      },
+      {
+        title: "Hỏi người xung quanh trong năm phút",
+        detail:
+          "Bảo vệ toà nhà, chủ quán nước, người bán hàng vỉa hè là nguồn tin nhanh nhất: “Anh chị ơi, xe em để đây từ sáng giờ không thấy, có phải bị cẩu không ạ, họ cẩu đi lúc nào ạ.” Nhiều nơi còn biết luôn bãi giữ ở đâu.",
+      },
+      {
+        title: "Gọi cho công an phường nơi bạn đỗ xe",
+        detail:
+          "Đọc biển số, loại xe, màu xe, địa điểm và khoảng thời gian đỗ. Họ sẽ tra và cho biết xe có bị lập biên bản tạm giữ không, và giữ ở bãi nào. Nếu không phải họ xử lý thì đây cũng là lúc bạn nên trình báo mất xe.",
+      },
+      {
+        title: "Ghi lại thông tin bãi giữ và giờ làm việc",
+        detail:
+          "Hỏi rõ địa chỉ bãi, giờ làm việc, ngày nghỉ, và cần mang những giấy tờ gì. Nhiều bãi nghỉ trưa dài hoặc đóng cửa cuối tuần — đi mà không hỏi trước là mất nguyên buổi.",
+      },
+      {
+        title: "Chuẩn bị đủ giấy tờ trước khi đi",
+        detail:
+          "Thiếu giấy đăng ký xe là gần như chắc chắn phải quay về. Nếu giấy tờ để trong cốp xe đang bị giữ thì nói rõ ngay khi gọi điện, họ sẽ hướng dẫn cách xử lý riêng.",
+      },
+      {
+        title: "Đi lấy càng sớm càng đỡ tốn",
+        detail:
+          "Phí trông giữ tính theo ngày và cộng dồn. Để một tuần rồi mới đi là số tiền đội lên đáng kể, đôi khi hơn cả tiền phạt. Ưu tiên đi ngay trong ngày làm việc gần nhất.",
+      },
+      {
+        title: "Ký biên bản vi phạm và nhận quyết định xử phạt",
+        detail:
+          "Đọc kỹ lỗi ghi trên biên bản trước khi ký. Không đồng ý với lỗi thì ghi rõ ý kiến của mình vào phần dành cho người vi phạm chứ đừng từ chối ký rồi bỏ về — làm vậy chỉ khiến việc lâu hơn.",
+      },
+      {
+        title: "Nộp phạt theo đúng kênh chính thức",
+        detail:
+          "Nộp qua Cổng dịch vụ công quốc gia, ứng dụng ngân hàng, bưu điện hoặc kho bạc theo hướng dẫn trên quyết định. Giữ biên lai. Không đưa tiền cho bất kỳ ai ngoài quy trình có giấy tờ.",
+      },
+      {
+        title: "Thanh toán phí trông giữ tại bãi",
+        detail:
+          "Phí này tách riêng với tiền phạt và trả cho đơn vị trông giữ. Hỏi rõ số tiền, số ngày tính phí, và xin phiếu thu. Không có phiếu thu thì đừng trả.",
+      },
+      {
+        title: "Kiểm tra xe kỹ trước khi rời bãi",
+        detail:
+          "Soi vết xước mới, gương, đèn, biển số, và đồ trong cốp. Có hư hỏng nghi do quá trình cẩu kéo thì lập tức chụp ảnh và có ý kiến ngay tại chỗ với người bàn giao — ra khỏi cổng rồi thì rất khó nói.",
+      },
+      {
+        title: "Rút kinh nghiệm chỗ đỗ",
+        detail:
+          "Nhớ mặt những đoạn đường hay bị dọn: gần cơ quan nhà nước, trước cửa hàng lớn, đoạn có vạch vàng. Tốn hai chục nghìn gửi bãi vẫn rẻ hơn nhiều so với một lần bị cẩu.",
+      },
+    ],
+    notes: [
+      "Mức phạt và phí trông giữ khác nhau theo loại xe, theo lỗi và theo từng địa phương, lại thay đổi theo thời điểm — hỏi trực tiếp nơi giữ xe, đừng tin con số trên các bài viết cũ.",
+      "CẨN THẬN: có người giả danh gọi điện báo xe bạn bị giữ và yêu cầu chuyển khoản để giải quyết nhanh. Cơ quan chức năng không thu tiền phạt qua chuyển khoản cá nhân. Cứ tới tận nơi.",
+      "Đi lấy hộ người khác thì cần giấy uỷ quyền và giấy tờ của chủ xe, gọi hỏi trước xem nơi đó yêu cầu uỷ quyền có cần công chứng không.",
+      "Xe không chính chủ mà chưa sang tên vẫn lấy được, nhưng thủ tục rườm rà hơn nhiều. Đây là lúc bạn thấy giá trị của việc sang tên đầy đủ khi mua xe cũ.",
+    ],
+    faq: [
+      {
+        q: "Không tìm thấy xe ở bãi nào cả thì sao?",
+        a: "Ra công an phường nơi mất trình báo mất tài sản, mang theo giấy đăng ký xe và căn cước. Trình báo sớm giúp việc tra cứu và ngăn chặn sang tên trái phép thuận lợi hơn.",
+      },
+      {
+        q: "Xe bị giữ lâu ngày, phí trông giữ cao hơn giá trị xe thì làm gì?",
+        a: "Vẫn nên tới làm việc trực tiếp để nắm rõ con số thay vì bỏ mặc. Bỏ xe không giải quyết được nghĩa vụ nộp phạt của bạn, và về sau có thể vướng khi làm thủ tục liên quan tới phương tiện.",
+      },
+      {
+        q: "Đồ để trong cốp xe có còn không?",
+        a: "Thường thì có, vì xe được niêm phong khi tạm giữ. Nhưng đừng để giấy tờ quan trọng và tiền trong cốp — thói quen này gây rắc rối trong nhiều tình huống chứ không riêng chuyện bị cẩu.",
+      },
+      {
+        q: "Tôi thấy mình bị oan thì khiếu nại thế nào?",
+        a: "Ghi ý kiến vào biên bản, giữ ảnh chụp hiện trường nếu bạn có, và làm đơn khiếu nại gửi tới đơn vị ra quyết định xử phạt trong thời hạn ghi trên quyết định. Vẫn nên lấy xe về trước để không phát sinh thêm phí.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "thue-xe-may-khi-di-du-lich",
+    title: "Thuê xe máy khi đi du lịch: kiểm xe, đặt cọc, tránh bị đền oan",
+    excerpt:
+      "Cùng một chiếc xe, người biết kiểm mười phút thì trả xe nhẹ nhàng, người không biết thì bị đòi tiền vết xước có từ đời nào.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Chốt giá theo ngày và hỏi rõ có gồm xăng, mũ bảo hiểm, áo mưa không. Trước khi đi, quay một vòng video quanh xe cùng chủ xe, chụp rõ mọi vết xước và đồng hồ xăng. Đừng đặt cọc bằng căn cước bản gốc — đề nghị cọc tiền hoặc bản photo. Thử phanh, còi, đèn và số ngay trong sân trước khi ra đường, đổi xe khác nếu thấy không yên tâm.",
+    prepare: [
+      "Bằng lái phù hợp loại xe bạn thuê — nhiều người quên rằng xe phân khối lớn hơn cần bằng khác",
+      "Tiền mặt để đặt cọc, thay cho việc phải để lại giấy tờ gốc",
+      "Điện thoại đủ pin để quay video kiểm xe và chụp hợp đồng",
+      "Số điện thoại chủ xe lưu vào máy ngay, kèm địa chỉ chỗ thuê",
+      "Mũ bảo hiểm đạt chuẩn — mũ mỏng chỗ thuê cho mượn thường chỉ để đối phó",
+    ],
+    steps: [
+      {
+        title: "Chọn nơi thuê có địa chỉ rõ ràng",
+        detail:
+          "Ưu tiên cửa hàng có mặt bằng, có đánh giá trên bản đồ, hoặc do khách sạn giới thiệu và chịu trách nhiệm. Thuê qua người lạ nhắn tin hẹn giao xe ở góc đường là rủi ro cao nhất.",
+      },
+      {
+        title: "Hỏi giá kèm những gì đi cùng",
+        detail:
+          "“Anh cho em hỏi giá một ngày là bao nhiêu, đã gồm mũ bảo hiểm và áo mưa chưa, xe giao có sẵn xăng không, và trả xe muộn vài tiếng có tính thêm không ạ.” Hỏi hết một lượt để không cãi nhau lúc trả xe.",
+      },
+      {
+        title: "Kiểm giấy tờ xe trước khi nhận",
+        detail:
+          "Xem xe có giấy đăng ký hợp lệ và bảo hiểm bắt buộc còn hạn không. Thuê phải xe không giấy tờ là bạn gánh rắc rối nếu bị kiểm tra trên đường.",
+      },
+      {
+        title: "Quay video một vòng quanh xe cùng chủ",
+        detail:
+          "Đề nghị chủ xe đứng cạnh và quay chậm quanh xe, cận cảnh yếm, gương, đèn, ống xả, và mọi vết xước có sẵn. Nói rõ trong video ngày giờ và biển số. Đây là thứ cứu bạn khỏi tranh cãi khi trả xe.",
+      },
+      {
+        title: "Chụp đồng hồ xăng và số kilômét",
+        detail:
+          "Giao xe gần cạn xăng mà đòi trả đầy bình là chiêu quen thuộc. Có ảnh thì cứ chiếu ra, khỏi cần to tiếng.",
+      },
+      {
+        title: "Thử xe ngay trong sân",
+        detail:
+          "Bóp cả hai phanh xem có ăn không, bật xi nhan trái phải, bấm còi, bật đèn, vặn ga nhẹ, kiểm tra lốp có non không. Thấy phanh yếu hay lốp mòn thì đổi xe khác — bạn sắp đi đường lạ, đừng ngại làm phiền.",
+      },
+      {
+        title: "Đọc hợp đồng và gạch bỏ điều khoản vô lý",
+        detail:
+          "Chú ý các dòng về mức đền khi xước, khi mất xe, khi trả muộn. Điều khoản kiểu mất xe đền theo giá chủ đưa ra thì phải hỏi cho rõ con số ngay từ đầu và ghi vào giấy.",
+      },
+      {
+        title: "Đặt cọc bằng tiền, không đưa căn cước gốc",
+        detail:
+          "Nói thẳng: “Em gửi anh tiền cọc và bản photo căn cước nhé, giấy gốc em cần mang theo người ạ.” Đưa căn cước gốc là rủi ro lớn: nó có thể bị dùng để cầm cố hoặc mở tài khoản mạo danh.",
+      },
+      {
+        title: "Chụp lại hợp đồng và biên nhận cọc",
+        detail:
+          "Chụp cả tờ hợp đồng đã ký lẫn tờ giấy ghi nhận số tiền cọc. Lưu vào một thư mục riêng cho chuyến đi để lúc cần tìm ra ngay.",
+      },
+      {
+        title: "Đi đường: đội mũ, không chở quá số người",
+        detail:
+          "Vùng du lịch thường có chốt kiểm tra, và lỗi không mũ hay chở ba là mất tiền lãng phí nhất chuyến đi. Đường đèo thì đi số thấp khi xuống dốc, đừng rà phanh liên tục.",
+      },
+      {
+        title: "Xe hỏng dọc đường thì gọi chủ trước",
+        detail:
+          "Gọi báo và hỏi họ muốn xử lý thế nào, tự ý mang vào tiệm sửa lớn có thể bị từ chối thanh toán. Chụp ảnh hiện trạng và giữ hoá đơn sửa chữa nếu bạn phải ứng tiền trước.",
+      },
+      {
+        title: "Trả xe: quay video lần nữa và lấy lại cọc ngay",
+        detail:
+          "Quay một vòng quanh xe lúc trả, đối chiếu với video lúc nhận nếu có tranh cãi. Nhận lại đủ tiền cọc trước khi rời đi, đừng để chủ xe hẹn chuyển khoản sau.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO: đừng bao giờ để lại căn cước bản gốc hay hộ chiếu làm tin. Đây là nguồn gốc của rất nhiều vụ mạo danh, và bạn không có cách nào biết giấy tờ của mình bị chụp lại hay chưa.",
+      "Kiểm tra kỹ mũ bảo hiểm được phát. Mũ nhựa mỏng không có tác dụng bảo vệ; nếu đi đường dài, mua một chiếc mũ tử tế còn rẻ hơn nhiều so với hậu quả một cú ngã.",
+      "Giá thuê, mức cọc và cách tính đền bù mỗi nơi mỗi khác và thay đổi theo mùa du lịch — hỏi rõ và ghi vào giấy trước khi nhận xe.",
+      "Đi hai xe trở lên theo nhóm thì lưu số nhau và hẹn điểm dừng, đừng phụ thuộc hoàn toàn vào việc chạy theo nhau ở nơi sóng yếu.",
+    ],
+    faq: [
+      {
+        q: "Không có bằng lái thì có thuê được không?",
+        a: "Nhiều nơi vẫn cho thuê, nhưng điều khiển xe khi không có bằng phù hợp là vi phạm và bạn sẽ chịu toàn bộ hậu quả nếu có chuyện xảy ra, kể cả về bảo hiểm. Không đáng.",
+      },
+      {
+        q: "Chủ xe đòi đền vết xước tôi không gây ra thì làm gì?",
+        a: "Mở video lúc nhận xe ra đối chiếu, đây chính là lý do phải quay. Nếu không có video và hai bên không thoả thuận được, có thể nhờ công an phường sở tại làm việc — nhưng thường chỉ cần bạn có bằng chứng là câu chuyện dừng lại.",
+      },
+      {
+        q: "Đặt cọc bao nhiêu là hợp lý?",
+        a: "Tuỳ nơi và tuỳ loại xe, thường là một khoản vừa phải chứ không phải bằng giá trị xe. Bị đòi cọc quá cao thì nên tìm chỗ khác, và luôn lấy biên nhận cho số tiền đã đưa.",
+      },
+      {
+        q: "Xe hết xăng giữa đường vùng vắng thì sao?",
+        a: "Trước khi đi cung đường vắng, đổ đầy bình và hỏi người địa phương xem đoạn nào không có cây xăng. Nhiều nơi có quán bán xăng chai dọc đường, nhưng đừng trông chờ vào đó khi trời tối.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "sim-chinh-chu-chuan-hoa-thong-tin-thue-bao",
+    title: "SIM chính chủ: kiểm tra, chuẩn hoá và vì sao phải làm ngay",
+    excerpt:
+      "Số điện thoại của bạn đang gắn với ngân hàng, VNeID, mọi mã OTP. Nếu nó không đứng tên bạn, một ngày nào đó bạn có thể mất trắng quyền kiểm soát.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Nhắn tin theo cú pháp tra cứu thông tin thuê bao của nhà mạng, hoặc mở ứng dụng của nhà mạng để xem số của bạn đang đứng tên ai. Không phải tên bạn thì mang căn cước ra cửa hàng giao dịch chính thức của nhà mạng để đăng ký lại chính chủ, thường xong trong buổi. Nếu SIM đang đứng tên người khác thì cần người đó đi cùng hoặc uỷ quyền theo hướng dẫn của nhà mạng.",
+    prepare: [
+      "Căn cước công dân bản gốc, còn hạn",
+      "Chiếc điện thoại đang lắp SIM đó, vì nhân viên cần xác thực trên máy",
+      "Thông tin người đang đứng tên SIM, nếu không phải bạn",
+      "Biết trước cửa hàng giao dịch chính thức gần nhất và giờ mở cửa",
+      "Nửa buổi rảnh, tránh giờ nghỉ trưa và cuối tuần đông khách",
+    ],
+    steps: [
+      {
+        title: "Kiểm tra số của bạn đang đứng tên ai",
+        detail:
+          "Mỗi nhà mạng có cú pháp nhắn tin tra cứu thông tin thuê bao riêng, hoặc xem thẳng trong ứng dụng chính thức của nhà mạng. Kết quả trả về tên và số giấy tờ đã đăng ký — chỉ hiện vài ký tự cuối để bảo mật, nhưng đủ để bạn biết có phải mình không.",
+      },
+      {
+        title: "Hiểu vì sao chuyện này quan trọng",
+        detail:
+          "Số điện thoại là nơi nhận mã OTP ngân hàng, là cái gắn với tài khoản định danh, với ví điện tử. SIM không chính chủ thì khi có tranh chấp, nhà mạng làm việc với người đứng tên chứ không phải với bạn.",
+      },
+      {
+        title: "Xác định trường hợp của mình",
+        detail:
+          "Ba trường hợp thường gặp: SIM mua từ lâu đăng ký bằng giấy tờ cũ đã hết hạn, SIM mua ngoài đại lý đứng tên người lạ, hoặc SIM do công ty hay người nhà đăng ký. Mỗi trường hợp có cách xử lý hơi khác nhau.",
+      },
+      {
+        title: "Ra đúng cửa hàng giao dịch chính thức",
+        detail:
+          "Đại lý nhỏ ngoài đường có thể không làm được thủ tục sang tên. Tìm cửa hàng giao dịch chính thức của nhà mạng, gọi trước hỏi: “Em muốn chuẩn hoá thông tin thuê bao sang chính chủ thì cần mang gì ạ.”",
+      },
+      {
+        title: "Mang theo đúng người nếu SIM đứng tên người khác",
+        detail:
+          "Trường hợp SIM do người thân đứng tên, cách nhanh nhất là hai người cùng ra, mỗi người mang căn cước. Không đi cùng được thì hỏi nhà mạng về mẫu giấy uỷ quyền và yêu cầu công chứng.",
+      },
+      {
+        title: "Làm thủ tục và xác thực sinh trắc",
+        detail:
+          "Nhân viên sẽ chụp ảnh chân dung và đối chiếu với căn cước, quét thông tin trên thẻ. Ngồi thẳng, bỏ khẩu trang, nhìn vào camera. Bước này nhanh, thường vài phút.",
+      },
+      {
+        title: "Kiểm tra lại ngay sau khi làm xong",
+        detail:
+          "Nhắn tin tra cứu lại lần nữa trước khi rời cửa hàng, xem tên đã đổi đúng chưa. Đừng tin lời nói suông là xong rồi — mất một phút để chắc chắn.",
+      },
+      {
+        title: "Cập nhật số điện thoại ở những nơi quan trọng",
+        detail:
+          "Rà lại ngân hàng, ví điện tử, tài khoản định danh, email, mạng xã hội — đảm bảo tất cả đang gắn đúng số này và bạn nhận được tin nhắn. Đây là lúc phát hiện ra tài khoản nào còn gắn số cũ đã bỏ.",
+      },
+      {
+        title: "Bật khoá đổi SIM nếu nhà mạng có",
+        detail:
+          "Một số nhà mạng cho phép đặt thêm lớp bảo vệ khi cấp lại SIM. Hỏi nhân viên: “Bên mình có dịch vụ nào chống việc người khác xin đổi SIM số của em không ạ.” Đây là lá chắn trước chiêu chiếm SIM để lấy OTP.",
+      },
+      {
+        title: "Chuyển dần sang xác thực bằng ứng dụng",
+        detail:
+          "Với các tài khoản quan trọng, dùng ứng dụng sinh mã thay vì nhận mã qua tin nhắn. Kể cả khi ai đó chiếm được SIM của bạn, họ vẫn không vào được.",
+      },
+      {
+        title: "Đừng bỏ số cũ một cách bừa bãi",
+        detail:
+          "Số bị thu hồi có thể được cấp lại cho người khác sau một thời gian, và người đó sẽ nhận được mã OTP của những tài khoản bạn quên gỡ. Trước khi bỏ số, gỡ nó khỏi mọi dịch vụ.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO LỪA ĐẢO: có kẻ gọi điện tự xưng nhà mạng, báo SIM của bạn sắp bị khoá và yêu cầu bấm theo cú pháp lạ hoặc đọc mã xác thực. Bấm theo là bạn tự chuyển cuộc gọi hoặc chuyển quyền SIM cho chúng. Nhà mạng không yêu cầu như vậy qua điện thoại.",
+      "Không bao giờ đọc mã OTP cho ai, kể cả người xưng là nhân viên nhà mạng hay ngân hàng. Không có tình huống hợp pháp nào cần bạn đọc mã đó cho người khác.",
+      "Quy định về chuẩn hoá thông tin thuê bao và các đợt rà soát thay đổi theo từng thời điểm — kiểm tra trên trang chính thức của nhà mạng hoặc hỏi tổng đài, đừng làm theo tin nhắn lan truyền.",
+      "SIM đang dùng cho tài khoản ngân hàng mà bị khoá vì thông tin không hợp lệ sẽ kéo theo hàng loạt rắc rối. Làm sớm khi rảnh vẫn hơn là xử lý lúc gấp.",
+    ],
+    faq: [
+      {
+        q: "SIM đứng tên người thân đã mất thì làm sao?",
+        a: "Ra cửa hàng giao dịch chính thức trình bày rõ, mang theo căn cước của bạn và giấy tờ chứng minh quan hệ cùng giấy chứng tử. Mỗi nhà mạng có quy trình riêng cho trường hợp này, nên gọi hỏi trước để chuẩn bị đủ.",
+      },
+      {
+        q: "Làm chính chủ có mất phí không?",
+        a: "Thủ tục chuẩn hoá thông tin thường không tốn phí hoặc chỉ tốn một khoản nhỏ tuỳ trường hợp. Ai đó đòi bạn trả tiền cao để làm nhanh thì đó là dấu hiệu không ổn.",
+      },
+      {
+        q: "Tôi có nhiều SIM thì phải làm hết không?",
+        a: "Nên làm cho những số bạn thật sự dùng, đặc biệt là số gắn với ngân hàng và tài khoản định danh. Các số phụ ít dùng thì cân nhắc bỏ hẳn thay vì giữ mà không quản lý được.",
+      },
+      {
+        q: "Trẻ em dùng SIM thì đăng ký tên ai?",
+        a: "Thường đăng ký theo tên cha mẹ hoặc người giám hộ. Đây cũng là cách để bạn kiểm soát được số của con, gồm cả việc nhận thông báo và xử lý khi con làm mất máy.",
+      },
+    ],
+    sources: [],
+  },
 ];
