@@ -535,4 +535,529 @@ export const day20260821sang = [
     ],
     sources: [],
   },
+  {
+    slug: "dang-ky-khai-sinh-cho-con",
+    title: "Đăng ký khai sinh cho con: làm một lần, xong ba thứ giấy tờ",
+    excerpt:
+      "Nhiều bố mẹ đi ba lần cho ba việc. Thật ra khai sinh, cư trú và thẻ bảo hiểm y tế cho bé thường làm gộp được trong một lượt.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "giay-to",
+    author: null,
+    quickAnswer:
+      "Mang giấy chứng sinh do bệnh viện cấp, căn cước của bố mẹ và giấy đăng ký kết hôn nếu có, ra UBND phường/xã nơi cư trú để đăng ký khai sinh. Ở phần lớn nơi hiện nay bạn hỏi làm gộp một cửa gồm khai sinh, đăng ký thường trú cho bé và cấp thẻ bảo hiểm y tế trẻ em dưới sáu tuổi. Nhiều địa phương đã cho nộp trước trên Cổng dịch vụ công hoặc VNeID rồi chỉ tới ký nhận. Nên làm sớm trong những tuần đầu, để lâu thủ tục rườm rà hơn.",
+    prepare: [
+      "Giấy chứng sinh bản gốc do bệnh viện hoặc trạm y tế cấp — đây là giấy quan trọng nhất, đừng làm mất",
+      "Căn cước công dân của bố và mẹ, mang cả hai nếu được",
+      "Giấy đăng ký kết hôn nếu bố mẹ đã kết hôn",
+      "Tên đã thống nhất trong nhà, viết sẵn ra giấy đúng chính tả và dấu — sửa sau rất phiền",
+      "Sổ tay ghi số điện thoại và địa chỉ chính xác để điền tờ khai không phải hỏi lại",
+    ],
+    steps: [
+      {
+        title: "Xin giấy chứng sinh trước khi rời bệnh viện",
+        detail:
+          "Nhiều nhà xuất viện xong mới nhớ ra. Hỏi ngay phòng hành chính khoa sản: chị ơi em xin giấy chứng sinh cho bé. Kiểm tra ngay tại chỗ họ tên mẹ, ngày giờ sinh, giới tính bé — sai một chữ là phải quay lại bệnh viện đính chính.",
+      },
+      {
+        title: "Thống nhất tên trong nhà trước khi đi",
+        detail:
+          "Nghe đơn giản nhưng đây là chỗ hay tranh cãi ngay tại quầy. Viết sẵn họ tên đầy đủ ra giấy, chú ý dấu và cách viết hoa. Đổi tên sau khi đã khai sinh là một thủ tục riêng, mất công hơn nhiều.",
+      },
+      {
+        title: "Xác định đăng ký ở đâu",
+        detail:
+          "Thông thường là UBND phường/xã nơi cư trú của bố hoặc mẹ. Nếu bố mẹ ở hai nơi khác nhau, chọn nơi nào tiện cho việc học của con sau này. Gọi hỏi trước một cuộc để biết giờ tiếp nhận và có cần đặt lịch không.",
+      },
+      {
+        title: "Thử nộp trước trên cổng dịch vụ công",
+        detail:
+          "Nhiều nơi đã cho khai trước phần tờ khai qua Cổng dịch vụ công hoặc VNeID, sau đó bạn chỉ ra ký và nhận. Làm được thì tiết kiệm cả tiếng đồng hồ. Không được thì cũng chỉ mất mười phút thử.",
+      },
+      {
+        title: "Điền tờ khai và hỏi ngay câu quan trọng nhất",
+        detail:
+          "Khi nộp hồ sơ, hỏi thẳng: anh chị ơi ở đây có làm liên thông ba thủ tục khai sinh, thường trú và thẻ bảo hiểm y tế cho bé luôn không ạ. Phần lớn nơi trả lời là có — bạn khỏi phải đi thêm hai lần.",
+      },
+      {
+        title: "Kiểm tra kỹ bản nháp trước khi cán bộ in",
+        detail:
+          "Soi từng chữ: họ tên bé, ngày tháng năm sinh, nơi sinh, họ tên và năm sinh bố mẹ, dân tộc, quốc tịch. Sai sót ở giấy khai sinh sẽ theo con suốt đời và mỗi lần sửa là một thủ tục cải chính hộ tịch.",
+      },
+      {
+        title: "Nhận giấy khai sinh và xin thêm bản sao",
+        detail:
+          "Xin luôn vài bản sao trích lục có chứng thực ngay tại chỗ, phí thường rất nhỏ. Bạn sẽ cần chúng khi nhập học, làm hộ chiếu, làm thủ tục ở cơ quan bố mẹ. Có sẵn thì đỡ phải quay lại xin từng bản.",
+      },
+      {
+        title: "Hỏi rõ khi nào nhận thẻ bảo hiểm y tế của bé",
+        detail:
+          "Thẻ bảo hiểm y tế trẻ dưới sáu tuổi thường được cấp sau vài ngày tới vài tuần tuỳ nơi. Hỏi ngày hẹn và cách nhận, có nơi trả qua bưu điện. Trong lúc chờ, giấy khai sinh vẫn dùng được khi đưa con đi khám.",
+      },
+      {
+        title: "Cập nhật thông tin con vào VNeID của bố hoặc mẹ",
+        detail:
+          "Sau khi có khai sinh, bạn có thể làm thủ tục để thông tin của con gắn với tài khoản định danh của bố mẹ, tuỳ chức năng đang có trên ứng dụng. Hỏi cán bộ tiếp nhận cách làm cho đúng thời điểm.",
+      },
+      {
+        title: "Lưu bản chụp vào điện thoại và một chỗ trên mạng",
+        detail:
+          "Chụp giấy khai sinh, thẻ bảo hiểm y tế, giấy chứng sinh, lưu vào album riêng và một thư mục trên dịch vụ lưu trữ đám mây. Mấy năm sau bạn sẽ cảm ơn chính mình khi cần gấp lúc nửa đêm.",
+      },
+      {
+        title: "Cất bản gốc vào một chỗ cố định",
+        detail:
+          "Một bìa hồ sơ riêng cho mỗi thành viên trong nhà, để cùng một ngăn tủ. Nghe đơn giản nhưng đa số vụ mất giấy tờ là do mỗi lần cất một chỗ.",
+      },
+      {
+        title: "Nếu quá hạn hoặc hoàn cảnh đặc biệt, cứ ra hỏi thẳng",
+        detail:
+          "Sinh con ở nhà không có giấy chứng sinh, bố mẹ chưa đăng ký kết hôn, con sinh ở nước ngoài — đều có đường giải quyết riêng. Ra UBND trình bày thật hoàn cảnh, cán bộ sẽ hướng dẫn hồ sơ cần bổ sung.",
+      },
+    ],
+    notes: [
+      "Thời hạn đăng ký khai sinh theo quy định là trong vòng một số ngày nhất định sau khi sinh và có thay đổi theo từng thời kỳ — làm càng sớm càng đỡ rắc rối, đừng để tới lúc con đi học mới nhớ.",
+      "Lệ phí đăng ký khai sinh đúng hạn ở nhiều nơi được miễn, nhưng bản sao trích lục thì có thu phí nhỏ. Hỏi rõ trước để chuẩn bị tiền lẻ.",
+      "Bố mẹ chưa đăng ký kết hôn vẫn đăng ký khai sinh cho con được. Nếu muốn ghi tên bố, thường phải làm thêm thủ tục nhận cha con — hỏi cán bộ hộ tịch để làm gộp một lượt.",
+      "Đừng nhờ dịch vụ trung gian không rõ ràng cho thủ tục này. Nó vốn miễn phí hoặc phí rất nhỏ, và bạn phải giao giấy tờ gốc của cả nhà cho người lạ.",
+    ],
+    faq: [
+      {
+        q: "Mất giấy chứng sinh thì có khai sinh được không?",
+        a: "Được, nhưng phải bổ sung giấy tờ thay thế. Trước tiên quay lại bệnh viện xin cấp lại; nếu không được thì ra UBND trình bày để được hướng dẫn thủ tục thay thế theo quy định.",
+      },
+      {
+        q: "Có bắt buộc khai sinh ở nơi bé sinh ra không?",
+        a: "Không. Thông thường đăng ký tại nơi cư trú của bố hoặc mẹ, dù bé sinh ở bệnh viện tỉnh khác. Điều này rất tiện cho những nhà lên thành phố sinh con.",
+      },
+      {
+        q: "Đặt tên con có bị giới hạn gì không?",
+        a: "Tên phải bằng tiếng Việt hoặc tiếng dân tộc, không đặt bằng số hay ký tự lạ, và cán bộ hộ tịch có thể từ chối những tên gây hiểu lầm hoặc quá dài. Cứ hỏi trước nếu tên của bạn đặc biệt.",
+      },
+      {
+        q: "Bao lâu thì nhận được giấy khai sinh?",
+        a: "Hồ sơ đủ thì nhiều nơi trả ngay trong buổi. Phần chậm hơn thường là thẻ bảo hiểm y tế của bé. Hỏi ngày hẹn cụ thể và giữ giấy hẹn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "xin-giay-xac-nhan-cu-tru",
+    title: "Bỏ sổ hộ khẩu rồi, giờ cần chứng minh chỗ ở thì lấy giấy gì?",
+    excerpt:
+      "Nơi nào đó vẫn đòi bạn nộp sổ hộ khẩu photo. Thứ thay thế nó là giấy xác nhận thông tin về cư trú, và bạn xin được trong ngày, có khi ngay trên điện thoại.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "giay-to",
+    author: null,
+    quickAnswer:
+      "Thứ bạn cần gọi là giấy xác nhận thông tin về cư trú. Xin ở công an phường/xã nơi bạn thường trú hoặc tạm trú, hoặc nộp yêu cầu online qua Cổng dịch vụ công của Bộ Công an, hoặc xem trực tiếp thông tin cư trú trong ứng dụng VNeID nếu bên kia chấp nhận bản điện tử. Mang căn cước đi là đủ. Nhiều nơi trả kết quả trong ngày, có nơi hẹn vài ngày làm việc.",
+    prepare: [
+      "Căn cước công dân bản gốc",
+      "Tài khoản VNeID mức 2 nếu muốn làm online cho nhanh",
+      "Biết rõ bên yêu cầu cần gì: bản giấy có dấu hay chấp nhận bản điện tử — hỏi trước để khỏi làm hai lần",
+      "Ít tiền lẻ phòng khi có phí hoặc phải photo",
+      "Số điện thoại đang dùng, vì hệ thống hay gửi tin nhắn xác thực",
+    ],
+    steps: [
+      {
+        title: "Hỏi lại bên yêu cầu xem họ thật sự cần gì",
+        detail:
+          "Nói: anh chị cho em hỏi mình cần bản giấy xác nhận cư trú có dấu, hay em trình thông tin trên VNeID cũng được ạ. Rất nhiều trường hợp bên kia chỉ cần xem thông tin, và bạn tiết kiệm được một chuyến đi.",
+      },
+      {
+        title: "Mở VNeID xem thông tin cư trú trước",
+        detail:
+          "Tài khoản mức 2 thường xem được thông tin cư trú ngay trong ứng dụng. Chụp màn hình hoặc mở cho bên kia xem tại chỗ. Đây là cách nhanh nhất và không tốn gì.",
+      },
+      {
+        title: "Nếu cần bản có dấu, thử nộp online trước",
+        detail:
+          "Vào Cổng dịch vụ công của Bộ Công an, đăng nhập bằng tài khoản định danh, tìm thủ tục xác nhận thông tin về cư trú. Điền tờ khai, chọn nơi tiếp nhận và hình thức nhận kết quả.",
+      },
+      {
+        title: "Chọn nhận kết quả qua bưu điện nếu có tuỳ chọn đó",
+        detail:
+          "Trả thêm phí giao hàng nhưng khỏi phải xếp hàng. Điền địa chỉ và số điện thoại cẩn thận. Nếu bạn cần gấp trong ngày thì chọn nhận trực tiếp rồi ra lấy.",
+      },
+      {
+        title: "Không làm được online thì ra công an phường/xã",
+        detail:
+          "Mang căn cước, tới bộ phận tiếp dân, nói gọn: em xin giấy xác nhận thông tin về cư trú để nộp cho công ty ạ. Nói rõ mục đích giúp cán bộ ghi đúng nội dung xác nhận.",
+      },
+      {
+        title: "Ghi rõ bạn cần xác nhận cái gì",
+        detail:
+          "Có loại xác nhận nơi thường trú, có loại xác nhận cả quá trình cư trú hoặc quan hệ nhân thân trong hộ. Nói rõ bên kia đòi gì, ví dụ cần thể hiện các thành viên cùng hộ, để khỏi phải xin lại lần nữa.",
+      },
+      {
+        title: "Kiểm tra thông tin trên giấy ngay khi nhận",
+        detail:
+          "Soi họ tên, ngày sinh, số định danh, địa chỉ. Sai là giấy vô dụng và bạn phải quay lại. Kiểm ngay tại quầy thì sửa liền, ra về rồi mới thấy thì mất thêm một buổi.",
+      },
+      {
+        title: "Để ý thời hạn sử dụng của giấy",
+        detail:
+          "Giấy xác nhận cư trú có giá trị trong một khoảng thời gian nhất định theo quy định, và bên nhận hồ sơ thường đòi giấy còn mới. Đừng xin quá sớm rồi để đó vài tháng mới dùng.",
+      },
+      {
+        title: "Photo và chụp lại trước khi nộp đi",
+        detail:
+          "Nộp bản gốc cho bên kia là bạn không còn gì trong tay. Chụp ảnh lưu vào điện thoại, giữ một bản photo ở nhà. Lần sau cần lại thì có cái để đối chiếu.",
+      },
+      {
+        title: "Nếu bị từ chối vì thiếu điều kiện, hỏi cho ra lý do",
+        detail:
+          "Thường là do thông tin cư trú của bạn chưa cập nhật trên hệ thống, ví dụ chuyển nhà chưa đăng ký. Hỏi cán bộ cần bổ sung gì rồi xử lý gốc rễ, đừng đi vòng qua nơi khác xin.",
+      },
+      {
+        title: "Nhân tiện cập nhật luôn nếu bạn đã chuyển chỗ ở",
+        detail:
+          "Đang ở đây rồi thì hỏi luôn thủ tục đăng ký thường trú hoặc tạm trú cho địa chỉ hiện tại. Thông tin cư trú đúng giúp bạn khỏi lặp lại rắc rối này ở mọi thủ tục sau.",
+      },
+    ],
+    notes: [
+      "Sổ hộ khẩu giấy đã không còn giá trị sử dụng, nhưng nhiều nơi vẫn quen đòi. Bạn hoàn toàn có quyền đưa giấy xác nhận thông tin về cư trú hoặc thông tin trên VNeID thay thế.",
+      "Nếu một cơ quan nhất định đòi bằng được sổ hộ khẩu giấy, đề nghị họ tra cứu trong Cơ sở dữ liệu quốc gia về dân cư — đó là cách làm đúng hiện nay.",
+      "Thời hạn giải quyết và phí tuỳ nơi, tuỳ thời điểm. Gọi hỏi công an phường trước một cuộc là biết chính xác, đỡ đi lại.",
+      "Đừng nhập số căn cước và thông tin cá nhân vào các trang lạ quảng cáo làm giấy xác nhận cư trú online nhanh. Chỉ dùng Cổng dịch vụ công chính thức hoặc VNeID.",
+    ],
+    faq: [
+      {
+        q: "Giấy này có thay được sổ hộ khẩu trong mọi trường hợp không?",
+        a: "Trong phần lớn thủ tục hành chính thì có. Một số việc đặc thù có thể cần loại xác nhận chi tiết hơn, ví dụ thể hiện quan hệ nhân thân — nói rõ mục đích khi xin để được cấp đúng loại.",
+      },
+      {
+        q: "Ở trọ, chưa đăng ký tạm trú thì xin được không?",
+        a: "Bạn vẫn xin được xác nhận theo nơi thường trú đang có trên hệ thống. Còn nếu cần xác nhận đang ở địa chỉ trọ hiện tại thì phải đăng ký tạm trú trước đã.",
+      },
+      {
+        q: "Xin hộ cho người nhà được không?",
+        a: "Thường được nếu là người cùng hộ hoặc có giấy uỷ quyền, tuỳ nơi tiếp nhận. Gọi hỏi trước và mang theo căn cước của cả hai người cho chắc.",
+      },
+      {
+        q: "Bao lâu thì có kết quả?",
+        a: "Nhiều nơi trả trong ngày làm việc, nộp online có thể lâu hơn chút. Nếu bạn cần gấp, nói rõ khi nộp và chọn nhận trực tiếp thay vì qua bưu điện.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "lam-thu-tuc-huong-tro-cap-that-nghiep",
+    title: "Nghỉ việc rồi: làm hồ sơ hưởng trợ cấp thất nghiệp thế nào",
+    excerpt:
+      "Tiền này là của bạn, trích ra từ chính lương mỗi tháng. Nhưng nộp trễ hạn thì mất, mà rất nhiều người chỉ biết điều đó sau khi đã trễ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "giay-to",
+    author: null,
+    quickAnswer:
+      "Sau khi nghỉ việc, bạn cần quyết định thôi việc hoặc giấy tờ chấm dứt hợp đồng, sổ bảo hiểm xã hội đã chốt, và căn cước. Nộp hồ sơ ở trung tâm dịch vụ việc làm, và quan trọng nhất là phải nộp trong thời hạn quy định tính từ ngày chấm dứt hợp đồng — quá hạn là mất quyền hưởng đợt đó. Sau khi có quyết định, hằng tháng bạn phải tới thông báo tình trạng tìm việc thì mới được chi trả tiếp.",
+    prepare: [
+      "Quyết định thôi việc, quyết định sa thải hoặc giấy tờ chứng minh chấm dứt hợp đồng lao động",
+      "Sổ bảo hiểm xã hội đã được công ty chốt — đây là thứ hay bị chậm nhất, đòi sớm",
+      "Căn cước công dân và bản photo",
+      "Số tài khoản ngân hàng chính chủ để nhận tiền",
+      "Ứng dụng VssID để tự tra quá trình đóng bảo hiểm và biết mình có bao nhiêu tháng",
+    ],
+    steps: [
+      {
+        title: "Đòi công ty chốt sổ bảo hiểm ngay khi nghỉ",
+        detail:
+          "Ngày cuối cùng đi làm, nhắn phòng nhân sự: chị ơi em nhờ chị chốt sổ bảo hiểm và gửi lại em sớm giúp em với. Đây là khâu làm nhiều người trễ hạn nhất, vì chờ công ty mà không ai giục.",
+      },
+      {
+        title: "Tra ngay số tháng đã đóng trên VssID",
+        detail:
+          "Cài VssID, đăng nhập và xem quá trình đóng bảo hiểm thất nghiệp. Bạn biết mình có bao nhiêu tháng, từ đó ước lượng được thời gian hưởng. Phát hiện công ty đóng thiếu tháng nào thì đòi ngay lúc còn liên lạc được.",
+      },
+      {
+        title: "Nhớ mốc thời hạn nộp hồ sơ",
+        detail:
+          "Thời hạn nộp tính từ ngày chấm dứt hợp đồng và có giới hạn theo quy định — nộp trễ là mất quyền hưởng cho lần này. Ghi ngay ngày nghỉ việc vào lịch điện thoại kèm nhắc nhở, đừng để trí nhớ lo việc này.",
+      },
+      {
+        title: "Tìm trung tâm dịch vụ việc làm gần nhất",
+        detail:
+          "Mỗi tỉnh thành có trung tâm dịch vụ việc làm và các điểm tiếp nhận vệ tinh. Gọi hỏi trước giờ làm việc, hồ sơ cần gì, có nhận online không. Một cuộc gọi tiết kiệm cả buổi.",
+      },
+      {
+        title: "Chuẩn bị đơn đề nghị hưởng trợ cấp",
+        detail:
+          "Mẫu đơn có sẵn tại trung tâm hoặc tải trên trang của trung tâm. Điền trước ở nhà cho thong thả, chỗ nào không rõ để trống rồi hỏi cán bộ, đừng đoán bừa rồi phải viết lại tờ khác.",
+      },
+      {
+        title: "Nộp hồ sơ và giữ giấy hẹn",
+        detail:
+          "Nộp đủ đơn, quyết định thôi việc, sổ bảo hiểm đã chốt, căn cước. Nhận giấy hẹn trả kết quả và giữ kỹ. Trên giấy hẹn có ngày quay lại nhận quyết định, ghi vào lịch luôn.",
+      },
+      {
+        title: "Cung cấp số tài khoản chính chủ",
+        detail:
+          "Tiền thường chuyển qua tài khoản ngân hàng đứng tên bạn. Ghi số tài khoản thật rõ ràng và kiểm tra lại từng chữ số. Sai số tài khoản là chậm cả tháng.",
+      },
+      {
+        title: "Quay lại nhận quyết định đúng hẹn",
+        detail:
+          "Tới ngày hẹn ra nhận quyết định hưởng trợ cấp. Đọc kỹ mức hưởng, số tháng được hưởng và ngày phải tới thông báo tìm việc hằng tháng. Có thắc mắc thì hỏi ngay tại chỗ.",
+      },
+      {
+        title: "Tháng nào cũng phải tới thông báo tình trạng tìm việc",
+        detail:
+          "Đây là điều kiện để tiếp tục nhận tiền, không phải hình thức. Bỏ một buổi mà không có lý do chính đáng thì tháng đó thường bị dừng chi trả. Ghi hết các ngày đó vào lịch ngay từ đầu.",
+      },
+      {
+        title: "Báo ngay khi bạn có việc mới",
+        detail:
+          "Đi làm trở lại mà vẫn nhận trợ cấp là chuyện phải hoàn trả và có thể bị xử lý. Ra trung tâm báo chấm dứt hưởng. Phần thời gian chưa hưởng thường được bảo lưu cho lần sau, hỏi cán bộ để làm đúng thủ tục.",
+      },
+      {
+        title: "Tận dụng phần hỗ trợ học nghề và giới thiệu việc làm",
+        detail:
+          "Người đang hưởng trợ cấp thất nghiệp thường được hỗ trợ học nghề và giới thiệu việc làm miễn phí. Hỏi thẳng: em có được hỗ trợ học nghề gì không ạ. Nhiều người bỏ qua phần này vì không ai chủ động nói.",
+      },
+      {
+        title: "Lưu toàn bộ giấy tờ thành một tập",
+        detail:
+          "Quyết định thôi việc, sổ bảo hiểm, quyết định hưởng, giấy hẹn, biên lai — gom một bìa hồ sơ. Nếu sau này có tranh cãi về số tháng đã hưởng, tập giấy này là thứ bảo vệ bạn.",
+      },
+    ],
+    notes: [
+      "Mức hưởng, số tháng được hưởng và thời hạn nộp hồ sơ đều theo quy định pháp luật tại từng thời điểm và có thay đổi. Hỏi trực tiếp trung tâm dịch vụ việc làm hoặc cơ quan bảo hiểm xã hội để có con số đúng cho trường hợp của bạn.",
+      "Tự nghỉ việc hay bị cho nghỉ đều có thể thuộc diện hưởng, nhưng một số trường hợp bị loại trừ theo quy định. Đừng tự kết luận mình không đủ điều kiện — cứ mang hồ sơ ra hỏi.",
+      "Cảnh giác với dịch vụ nhận làm hồ sơ trợ cấp thất nghiệp thu phí cao. Thủ tục này bạn tự làm được, và bạn phải giao sổ bảo hiểm cùng giấy tờ gốc cho người lạ.",
+      "Nếu công ty cũ chậm chốt sổ, liên hệ cơ quan bảo hiểm xã hội nơi công ty đóng để hỏi cách xử lý, và giữ lại tin nhắn, email bạn đã giục — đó là bằng chứng bạn không chậm trễ.",
+    ],
+    faq: [
+      {
+        q: "Chưa lấy được sổ bảo hiểm thì có nộp hồ sơ được không?",
+        a: "Thường là chưa đủ hồ sơ, nhưng bạn nên ra trung tâm trình bày sớm chứ đừng ngồi chờ đến khi quá hạn. Cán bộ sẽ hướng dẫn cách xử lý khi công ty chậm chốt sổ.",
+      },
+      {
+        q: "Làm việc dưới dạng cộng tác viên, không đóng bảo hiểm thì sao?",
+        a: "Không có thời gian đóng bảo hiểm thất nghiệp thì không thuộc diện hưởng. Đây là lý do đáng cân nhắc khi chọn hình thức hợp đồng lúc đi làm.",
+      },
+      {
+        q: "Có được nhận một lần toàn bộ số tiền không?",
+        a: "Trợ cấp thất nghiệp chi trả theo tháng và kèm điều kiện thông báo tìm việc, không phải nhận gộp. Đừng nghe ai hứa làm cho nhận một cục.",
+      },
+      {
+        q: "Đang hưởng mà chuyển sang tỉnh khác sống thì sao?",
+        a: "Có thủ tục chuyển nơi hưởng trợ cấp. Ra trung tâm nơi đang hưởng để làm giấy chuyển trước khi đi, đừng tự ý bỏ buổi thông báo rồi tới nơi mới mới hỏi.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "tra-cuu-bao-hiem-xa-hoi-tren-vssid",
+    title: "VssID: tự kiểm tra công ty có đóng bảo hiểm cho mình thật không",
+    excerpt:
+      "Lương tháng nào cũng bị trừ tiền bảo hiểm, nhưng tiền đó có tới nơi không thì bạn chưa từng kiểm. Mười phút cài ứng dụng là biết.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "giay-to",
+    author: null,
+    quickAnswer:
+      "Cài ứng dụng VssID của Bảo hiểm xã hội Việt Nam, đăng ký tài khoản bằng số bảo hiểm xã hội và căn cước, hoặc đăng nhập bằng tài khoản VNeID nếu ứng dụng đang hỗ trợ. Vào mục quá trình tham gia là thấy từng tháng công ty đã đóng hay chưa, mức đóng bao nhiêu. Phát hiện tháng bị trống thì hỏi phòng nhân sự trước, không giải quyết được thì liên hệ cơ quan bảo hiểm xã hội nơi công ty đóng.",
+    prepare: [
+      "Số sổ bảo hiểm xã hội, hoặc mã số bảo hiểm xã hội — hỏi nhân sự hoặc tra trên trang của Bảo hiểm xã hội Việt Nam",
+      "Căn cước công dân",
+      "Số điện thoại chính chủ đang dùng để nhận mã xác thực",
+      "Ảnh chụp căn cước hai mặt nếu đăng ký tài khoản online",
+      "Mười lăm phút yên tĩnh, vì bước xác thực hay phải chờ",
+    ],
+    steps: [
+      {
+        title: "Tải đúng ứng dụng VssID",
+        detail:
+          "Tìm trên kho ứng dụng chính thức, chú ý tên nhà phát hành là Bảo hiểm xã hội Việt Nam. Có khá nhiều ứng dụng ăn theo tên gần giống. Không cài từ đường link ai gửi qua tin nhắn.",
+      },
+      {
+        title: "Tìm mã số bảo hiểm xã hội của bạn",
+        detail:
+          "Mã này in trên sổ bảo hiểm hoặc thẻ bảo hiểm y tế. Không có thì nhắn nhân sự: chị cho em xin mã số bảo hiểm xã hội của em với ạ. Cũng có thể tra trên trang chính thức của cơ quan bảo hiểm xã hội bằng họ tên và năm sinh.",
+      },
+      {
+        title: "Đăng ký tài khoản và xác thực",
+        detail:
+          "Điền thông tin theo hướng dẫn, chụp căn cước hai mặt. Ứng dụng gửi mã xác thực qua số điện thoại. Tuỳ thời điểm, có nơi vẫn yêu cầu ra cơ quan bảo hiểm xã hội xác nhận tờ khai — hỏi trước cho đỡ mất công.",
+      },
+      {
+        title: "Vào mục quá trình tham gia bảo hiểm",
+        detail:
+          "Đây là phần đáng xem nhất. Nó liệt kê từng giai đoạn: từ tháng nào tới tháng nào, ở công ty nào, mức lương đóng bao nhiêu. Xem chậm, đối chiếu với thực tế bạn đi làm.",
+      },
+      {
+        title: "Soi ba thứ dễ sai nhất",
+        detail:
+          "Một là tháng bị trống giữa hai giai đoạn. Hai là mức lương đóng thấp hơn lương thật rất nhiều. Ba là tên công ty không đúng nơi bạn từng làm. Chụp màn hình lại làm bằng chứng.",
+      },
+      {
+        title: "Kiểm tra luôn thẻ bảo hiểm y tế",
+        detail:
+          "Trong ứng dụng có thẻ bảo hiểm y tế điện tử, dùng được khi đi khám ở nhiều cơ sở. Xem hạn thẻ và nơi đăng ký khám chữa bệnh ban đầu, sai thì làm thủ tục đổi.",
+      },
+      {
+        title: "Xem lịch sử khám chữa bệnh",
+        detail:
+          "Mục này cho biết thẻ của bạn từng được dùng ở đâu. Thấy lần khám lạ mà bạn không hề đi thì báo ngay cơ quan bảo hiểm xã hội, vì có thể thẻ đã bị dùng nhờ.",
+      },
+      {
+        title: "Nếu thấy tháng bị trống, hỏi nhân sự trước",
+        detail:
+          "Nhắn cụ thể chứ đừng nói chung chung: chị ơi em xem trên VssID thấy tháng ba và tháng tư năm ngoái chưa có dữ liệu đóng bảo hiểm, chị kiểm tra giúp em với ạ. Đôi khi chỉ là chậm cập nhật.",
+      },
+      {
+        title: "Không giải quyết được thì liên hệ cơ quan bảo hiểm xã hội",
+        detail:
+          "Gọi tổng đài hoặc tới cơ quan bảo hiểm xã hội quận huyện nơi công ty đóng, mang theo hợp đồng lao động, bảng lương thể hiện đã bị trừ tiền bảo hiểm, và ảnh chụp màn hình VssID.",
+      },
+      {
+        title: "Giữ bằng chứng lương đã bị trừ",
+        detail:
+          "Phiếu lương, sao kê ngân hàng, hợp đồng lao động — lưu lại thành một thư mục. Đây là thứ chứng minh bạn đã đóng phần của mình, dù công ty chưa nộp lên.",
+      },
+      {
+        title: "Kiểm tra định kỳ mỗi vài tháng",
+        detail:
+          "Mở ứng dụng xem một lượt mỗi quý, mất hai phút. Phát hiện sớm khi công ty còn hoạt động thì dễ đòi hơn nhiều so với lúc công ty đã đóng cửa.",
+      },
+      {
+        title: "Trước khi nghỉ việc, chụp lại toàn bộ quá trình",
+        detail:
+          "Ngay trước ngày nghỉ, chụp màn hình toàn bộ mục quá trình tham gia. Đây là mốc đối chiếu để biết công ty có chốt sổ đúng và đủ hay không.",
+      },
+    ],
+    notes: [
+      "Số liệu trên ứng dụng có độ trễ cập nhật, nên một tháng gần nhất chưa hiện chưa chắc là công ty trốn đóng. Chờ thêm rồi kiểm lại trước khi làm căng.",
+      "Mức lương đóng bảo hiểm thấp hơn lương thực nhận là chuyện phổ biến và ảnh hưởng trực tiếp tới lương hưu, trợ cấp thất nghiệp và chế độ thai sản của bạn sau này. Biết sớm để còn thương lượng.",
+      "Không đưa tài khoản VssID và mã xác thực cho ai. Cũng không bao giờ đọc mã OTP qua điện thoại cho người tự xưng là cán bộ bảo hiểm — cơ quan nhà nước không hỏi OTP.",
+      "Nếu ứng dụng khó đăng ký, bạn vẫn có thể ra cơ quan bảo hiểm xã hội quận huyện xin bản in quá trình đóng bảo hiểm của mình.",
+    ],
+    faq: [
+      {
+        q: "Không nhớ mã số bảo hiểm xã hội thì làm sao?",
+        a: "Tra trên trang chính thức của Bảo hiểm xã hội Việt Nam bằng họ tên, năm sinh và nơi cư trú, hoặc hỏi phòng nhân sự. Mã này cũng in trên thẻ bảo hiểm y tế của bạn.",
+      },
+      {
+        q: "Công ty nợ bảo hiểm nhiều tháng thì tôi mất quyền lợi luôn à?",
+        a: "Không mất trắng, nhưng bạn sẽ bị vướng khi làm chế độ cho tới lúc khoản nợ được xử lý. Báo cơ quan bảo hiểm xã hội sớm là cách bảo vệ mình tốt nhất.",
+      },
+      {
+        q: "Thẻ bảo hiểm y tế trên ứng dụng có dùng thay thẻ giấy được không?",
+        a: "Nhiều cơ sở khám chữa bệnh đã chấp nhận hình ảnh thẻ trên VssID. Vẫn nên hỏi trước nơi bạn hay khám, và mang căn cước theo để đối chiếu.",
+      },
+      {
+        q: "Làm hai công ty cùng lúc thì đóng bảo hiểm thế nào?",
+        a: "Bảo hiểm xã hội thường chỉ đóng ở một nơi theo hợp đồng đầu tiên, các chế độ khác có quy định riêng. Xem trên VssID để biết thực tế đang được ghi nhận thế nào và hỏi cơ quan bảo hiểm nếu thấy bất thường.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dung-cong-dich-vu-cong-lan-dau",
+    title: "Cổng dịch vụ công lần đầu: đăng nhập, nộp hồ sơ, theo dõi kết quả",
+    excerpt:
+      "Nghe nói làm online cho nhanh, nhưng mở trang ra là một rừng chữ. Đây là đường đi ngắn nhất từ lúc đăng nhập tới lúc cầm được kết quả.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "giay-to",
+    author: null,
+    quickAnswer:
+      "Đăng nhập Cổng dịch vụ công quốc gia bằng tài khoản VNeID mức 2 là cách gọn nhất, khỏi lập tài khoản riêng. Tìm đúng thủ tục bằng ô tìm kiếm, đọc kỹ phần thành phần hồ sơ, chuẩn bị file scan rõ nét, rồi nộp. Nhớ chọn đúng cơ quan tiếp nhận theo nơi cư trú và chọn hình thức nhận kết quả qua bưu điện nếu có. Sau khi nộp, giữ mã hồ sơ để tra tiến độ.",
+    prepare: [
+      "Tài khoản VNeID mức 2 đã kích hoạt, hoặc tài khoản Cổng dịch vụ công quốc gia",
+      "Điện thoại nhận được mã xác thực, cùng số đã đăng ký",
+      "File scan hoặc ảnh chụp giấy tờ, chụp đủ sáng, không lóa, đủ bốn góc",
+      "Tài khoản ngân hàng hoặc ví để nộp phí online nếu thủ tục có thu",
+      "Một thư mục riêng trên máy hoặc điện thoại để cất file và biên lai",
+    ],
+    steps: [
+      {
+        title: "Vào đúng địa chỉ chính thức",
+        detail:
+          "Tự gõ địa chỉ Cổng dịch vụ công quốc gia hoặc mở từ ứng dụng VNeID. Đừng bấm vào link ai gửi qua tin nhắn hay mạng xã hội — trang giả mạo cổng dịch vụ công là chiêu lừa rất phổ biến.",
+      },
+      {
+        title: "Đăng nhập bằng tài khoản định danh",
+        detail:
+          "Chọn đăng nhập bằng VNeID rồi xác nhận trên điện thoại. Cách này đỡ phải nhớ thêm mật khẩu và thông tin của bạn đã có sẵn nên tờ khai tự điền được nhiều phần.",
+      },
+      {
+        title: "Tìm thủ tục bằng từ khoá đơn giản",
+        detail:
+          "Gõ đúng thứ bạn cần, ví dụ cấp phiếu lý lịch tư pháp, hoặc xác nhận cư trú. Đừng gõ cả câu dài. Nếu ra nhiều kết quả, chọn mục có ghi rõ cơ quan thực hiện đúng tỉnh thành của bạn.",
+      },
+      {
+        title: "Đọc phần thành phần hồ sơ trước khi bấm nộp",
+        detail:
+          "Mỗi thủ tục đều có mục liệt kê giấy tờ cần nộp và mẫu đơn tải về. Đọc hết trước rồi mới bắt tay chuẩn bị. Nộp thiếu là hồ sơ bị trả về và bạn mất vài ngày chờ vô ích.",
+      },
+      {
+        title: "Chọn đúng cơ quan tiếp nhận",
+        detail:
+          "Nhiều thủ tục yêu cầu nộp về đúng phường xã hoặc quận huyện nơi bạn cư trú. Chọn nhầm thì hồ sơ bị chuyển hoặc bị từ chối. Không chắc thì gọi hỏi bộ phận một cửa địa phương.",
+      },
+      {
+        title: "Scan giấy tờ cho đàng hoàng",
+        detail:
+          "Dùng chức năng quét tài liệu trên điện thoại thay vì chụp ảnh thường. Đặt giấy trên nền tối, đủ sáng, không bóng đèn hắt. File mờ là lý do bị trả hồ sơ nhiều nhất trong các thủ tục online.",
+      },
+      {
+        title: "Điền tờ khai, để ý mấy ô bắt buộc",
+        detail:
+          "Ô có dấu sao là bắt buộc. Điền địa chỉ theo đúng cách hệ thống gợi ý chứ đừng tự gõ tự do. Ghi số điện thoại và email chính xác vì mọi thông báo về hồ sơ sẽ gửi vào đó.",
+      },
+      {
+        title: "Chọn hình thức nhận kết quả",
+        detail:
+          "Có tuỳ chọn nhận qua bưu điện thì nên chọn, trả thêm phí giao hàng nhưng khỏi đi lại. Điền địa chỉ nhận thật chi tiết, kèm mô tả kiểu số nhà, ngõ, tầng, để nhân viên bưu điện tìm được.",
+      },
+      {
+        title: "Nộp phí online nếu thủ tục có thu",
+        detail:
+          "Thanh toán qua ngân hàng hoặc ví ngay trên cổng. Chụp màn hình biên lai và lưu lại. Không thanh toán qua bất kỳ tài khoản cá nhân nào mà ai đó nhắn cho bạn.",
+      },
+      {
+        title: "Lưu mã hồ sơ ngay khi nộp xong",
+        detail:
+          "Hệ thống trả về một mã hồ sơ. Chép nó vào ghi chú điện thoại. Không có mã này thì tra tiến độ hoặc khiếu nại đều khó.",
+      },
+      {
+        title: "Theo dõi tiến độ và trả lời khi được yêu cầu bổ sung",
+        detail:
+          "Vào mục hồ sơ của tôi để xem trạng thái. Nếu cơ quan yêu cầu bổ sung, họ thường nhắn qua email hoặc tin nhắn — trả lời sớm, để quá lâu là hồ sơ bị huỷ và bạn phải nộp lại từ đầu.",
+      },
+      {
+        title: "Nếu tắc, gọi thẳng bộ phận một cửa",
+        detail:
+          "Hồ sơ treo quá thời hạn ghi trên hệ thống thì gọi bộ phận một cửa của cơ quan tiếp nhận, đọc mã hồ sơ và hỏi tình trạng. Cách này nhanh hơn ngồi chờ hoặc đăng hỏi trên mạng.",
+      },
+    ],
+    notes: [
+      "Không phải thủ tục nào cũng làm online trọn vẹn được. Nhiều việc vẫn cần bạn tới ký hoặc lấy dấu vân tay — làm online phần khai trước vẫn giúp rút ngắn thời gian ở quầy.",
+      "Cẩn thận với các trang và tổng đài giả mạo dịch vụ công gọi tới hướng dẫn bạn cài ứng dụng lạ hoặc bấm vào link. Không cài ứng dụng ngoài kho chính thức, và không bao giờ đọc mã OTP cho ai.",
+      "Chụp màn hình từng bước quan trọng: lúc nộp xong, mã hồ sơ, biên lai. Khi có trục trặc, ảnh chụp là thứ giúp bạn nói chuyện có căn cứ.",
+      "Thời hạn giải quyết ghi trên cổng là thời hạn tối đa theo quy định, thực tế nhanh chậm tuỳ nơi và tuỳ thời điểm. Đừng để việc gấp tới sát ngày mới nộp.",
+    ],
+    faq: [
+      {
+        q: "Có bắt buộc phải có VNeID mức 2 không?",
+        a: "Không phải mọi thủ tục đều đòi, nhưng có mức 2 thì thuận tiện hơn nhiều và mở được nhiều dịch vụ hơn. Nếu chưa có, ra công an phường/xã làm là xong trong một buổi.",
+      },
+      {
+        q: "Nộp online rồi có phải mang bản gốc tới không?",
+        a: "Tuỳ thủ tục. Nhiều nơi yêu cầu xuất trình bản gốc để đối chiếu khi nhận kết quả. Mang theo cho chắc khi đi lấy, đỡ phải quay về.",
+      },
+      {
+        q: "Hồ sơ bị từ chối mà không hiểu lý do thì sao?",
+        a: "Trong mục hồ sơ của tôi thường có ghi lý do. Không rõ thì gọi bộ phận một cửa của cơ quan tiếp nhận và đọc mã hồ sơ, họ tra được ngay.",
+      },
+      {
+        q: "Làm hộ cho bố mẹ bằng tài khoản của mình được không?",
+        a: "Với nhiều thủ tục cá nhân thì không nên, vì tờ khai gắn với tài khoản người nộp. Tốt nhất giúp bố mẹ lập tài khoản riêng, hoặc làm thủ tục uỷ quyền khi thủ tục cho phép.",
+      },
+    ],
+    sources: [],
+  },
 ];
