@@ -1060,4 +1060,534 @@ export const day20260821sang = [
     ],
     sources: [],
   },
+  {
+    slug: "quyet-toan-thue-thu-nhap-ca-nhan",
+    title: "Quyết toán thuế thu nhập cá nhân: lấy lại tiền đã nộp thừa",
+    excerpt:
+      "Rất nhiều người làm công ăn lương nộp thừa thuế mỗi năm mà không biết, vì tiền thừa không tự chảy về — bạn phải đi đòi.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Nếu bạn chỉ làm một nơi, thường công ty quyết toán thay và bạn không phải làm gì. Nhưng nếu bạn làm hai nơi trở lên trong năm, đổi việc giữa chừng, hoặc có thu nhập vãng lai bị khấu trừ mười phần trăm, thì bạn nên tự quyết toán — đó chính là lúc hay có tiền nộp thừa. Vào Cổng thông tin thuế điện tử dành cho cá nhân hoặc ứng dụng eTax Mobile, đăng nhập bằng mã số thuế hoặc tài khoản định danh, chọn quyết toán trực tuyến, hệ thống tự kéo dữ liệu thu nhập về cho bạn đối chiếu.",
+    prepare: [
+      "Mã số thuế cá nhân — hỏi nhân sự hoặc tra trên trang của cơ quan thuế",
+      "Chứng từ khấu trừ thuế của từng nơi đã trả thu nhập cho bạn trong năm",
+      "Căn cước công dân và tài khoản VNeID nếu muốn đăng nhập cho nhanh",
+      "Số tài khoản ngân hàng chính chủ để nhận tiền hoàn nếu có",
+      "Danh sách người phụ thuộc bạn đã đăng ký, kèm mã số thuế của họ",
+    ],
+    steps: [
+      {
+        title: "Xác định mình có phải tự quyết toán không",
+        detail:
+          "Làm duy nhất một nơi cả năm và đã uỷ quyền cho công ty thì thường xong rồi. Làm từ hai nơi, nghỉ giữa năm rồi đi làm chỗ mới, hoặc có thu nhập ngoài bị trừ mười phần trăm — đó là lúc bạn nên tự làm.",
+      },
+      {
+        title: "Gom chứng từ khấu trừ thuế",
+        detail:
+          "Nhắn từng nơi đã trả tiền cho bạn: anh chị cho em xin chứng từ khấu trừ thuế thu nhập cá nhân năm vừa rồi giúp em ạ. Nhiều nơi giờ cấp bản điện tử, gửi qua email trong ngày.",
+      },
+      {
+        title: "Tra mã số thuế nếu bạn không nhớ",
+        detail:
+          "Mã số thuế cá nhân thường gắn với số căn cước. Tra trên trang chính thức của cơ quan thuế hoặc hỏi phòng nhân sự. Không có mã số thuế thì đăng ký trước, thủ tục khá nhanh.",
+      },
+      {
+        title: "Đăng nhập cổng thuế điện tử hoặc eTax Mobile",
+        detail:
+          "Tự gõ địa chỉ trang chính thức của Tổng cục Thuế hoặc cài ứng dụng eTax Mobile từ kho ứng dụng chính thức. Nhiều thời điểm cho đăng nhập bằng tài khoản định danh VNeID, đỡ phải nhớ mật khẩu riêng.",
+      },
+      {
+        title: "Xem phần dữ liệu thu nhập hệ thống đã có",
+        detail:
+          "Hệ thống thường hiển thị các khoản thu nhập đã được các nơi kê khai cho bạn. Đối chiếu với chứng từ bạn cầm trong tay. Thiếu nơi nào thì liên hệ nơi đó, vì họ chưa kê khai.",
+      },
+      {
+        title: "Chọn tờ khai quyết toán và điền",
+        detail:
+          "Chọn đúng năm quyết toán và đúng loại tờ khai dành cho cá nhân có thu nhập từ tiền lương. Hệ thống tự điền phần lớn, việc của bạn là kiểm tra và bổ sung.",
+      },
+      {
+        title: "Khai đủ người phụ thuộc",
+        detail:
+          "Con nhỏ, bố mẹ già không có thu nhập — mỗi người phụ thuộc được giảm trừ một khoản đáng kể mỗi tháng. Chỉ khai được nếu đã đăng ký người phụ thuộc trước đó, nên nếu chưa đăng ký thì làm ngay cho những năm sau.",
+      },
+      {
+        title: "Kiểm tra dòng cuối: nộp thêm hay được hoàn",
+        detail:
+          "Sau khi điền xong, hệ thống tính ra số thuế phải nộp thêm hoặc số nộp thừa được hoàn. Nếu ra số nộp thừa, đây chính là tiền của bạn. Đừng thấy con số nhỏ mà bỏ, có người được hoàn tới vài triệu.",
+      },
+      {
+        title: "Điền số tài khoản nhận tiền hoàn thật cẩn thận",
+        detail:
+          "Tài khoản phải chính chủ, đúng tên như trên căn cước. Kiểm tra từng chữ số và tên ngân hàng. Sai một chữ là hồ sơ hoàn thuế bị treo và bạn phải làm lại.",
+      },
+      {
+        title: "Nộp tờ khai và lưu mã hồ sơ",
+        detail:
+          "Bấm nộp, hệ thống trả về thông báo tiếp nhận kèm mã. Chụp màn hình lưu lại. Nếu phải nộp thêm thuế, làm luôn phần nộp tiền theo hướng dẫn để tránh bị tính chậm nộp.",
+      },
+      {
+        title: "Theo dõi và bổ sung nếu cơ quan thuế yêu cầu",
+        detail:
+          "Cơ quan thuế có thể liên hệ đề nghị bổ sung chứng từ. Trả lời sớm. Tiền hoàn thường về sau một khoảng thời gian tính bằng tuần chứ không phải ngay, nên đừng sốt ruột trong vài ngày đầu.",
+      },
+      {
+        title: "Ghi lại kinh nghiệm cho năm sau",
+        detail:
+          "Lưu một ghi chú: các nơi đã trả thu nhập, mã số thuế người phụ thuộc, số tài khoản đã dùng. Sang năm bạn làm lại trong hai mươi phút thay vì mò từ đầu.",
+      },
+    ],
+    notes: [
+      "Thời hạn quyết toán, mức giảm trừ gia cảnh và biểu thuế đều theo quy định tại từng thời điểm và có thay đổi. Xem thông tin trên trang chính thức của cơ quan thuế hoặc gọi hỏi chi cục thuế, đừng lấy con số từ bài viết cũ trên mạng.",
+      "Không phải ai cũng bắt buộc quyết toán. Nhưng nếu bạn thuộc diện được hoàn thuế thì đây là quyền lợi, không làm là mất tiền của chính mình.",
+      "Cảnh giác với dịch vụ nhận làm quyết toán thuế đòi bạn cung cấp tài khoản đăng nhập thuế hoặc mã OTP ngân hàng. Không bao giờ đưa OTP cho ai, kể cả người tự xưng là cán bộ thuế.",
+      "Cơ quan thuế không gọi điện yêu cầu bạn cài ứng dụng lạ hay chuyển tiền để xử lý hồ sơ. Gặp cuộc gọi như vậy thì cúp máy và gọi lại số tổng đài chính thức tự tra.",
+    ],
+    faq: [
+      {
+        q: "Làm hai công ty trong năm thì nộp tờ khai ở đâu?",
+        a: "Thông thường nộp cho cơ quan thuế theo nơi cư trú hoặc theo hướng dẫn hiện lên khi bạn khai trực tuyến. Hệ thống thường gợi ý sẵn cơ quan tiếp nhận, cứ theo gợi ý đó.",
+      },
+      {
+        q: "Bị trừ mười phần trăm khi làm cộng tác viên, có lấy lại được không?",
+        a: "Nếu tổng thu nhập cả năm của bạn chưa tới ngưỡng phải nộp thuế thì phần đã bị khấu trừ thường được hoàn khi quyết toán. Cần chứng từ khấu trừ của nơi đã trả tiền.",
+      },
+      {
+        q: "Quên đăng ký người phụ thuộc thì có khai bù được không?",
+        a: "Tuỳ quy định từng thời điểm, có trường hợp được khai bổ sung khi quyết toán. Hỏi trực tiếp cơ quan thuế và chuẩn bị giấy tờ chứng minh quan hệ như giấy khai sinh.",
+      },
+      {
+        q: "Bao lâu thì nhận được tiền hoàn?",
+        a: "Thường tính bằng tuần sau khi hồ sơ được chấp nhận, tuỳ khối lượng hồ sơ của cơ quan thuế thời điểm đó. Quá lâu thì gọi chi cục thuế kèm mã hồ sơ để hỏi.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dung-the-tin-dung-lan-dau",
+    title: "Thẻ tín dụng lần đầu: tiêu sao cho không mất một đồng lãi nào",
+    excerpt:
+      "Thẻ tín dụng không xấu, nhưng nó tính lãi theo cách khiến người mới luôn bất ngờ. Hiểu hai cái ngày in trên sao kê là bạn dùng nó gần như miễn phí.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Nguyên tắc duy nhất phải nhớ: trả đủ toàn bộ số tiền trên sao kê trước ngày đến hạn thì không mất lãi. Trả mức tối thiểu là bắt đầu bị tính lãi trên toàn bộ dư nợ, với lãi suất rất cao. Tuyệt đối không rút tiền mặt từ thẻ tín dụng vì khoản đó thường bị tính phí và tính lãi ngay từ ngày rút, không có thời gian miễn lãi. Đặt nhắc trả nợ trước hạn ba ngày và tự động trả toàn phần nếu ngân hàng có chức năng đó.",
+    prepare: [
+      "Biết ngày sao kê và ngày đến hạn thanh toán của thẻ mình — hai ngày quan trọng nhất",
+      "Ứng dụng ngân hàng đã cài, đã bật thông báo giao dịch",
+      "Một tài khoản thanh toán luôn đủ tiền để trả toàn phần khi tới hạn",
+      "Bảng phí của thẻ: phí thường niên, phí rút tiền mặt, phí giao dịch ngoại tệ",
+      "Một quy tắc cá nhân: chỉ quẹt thứ mình vốn đã định mua bằng tiền có sẵn",
+    ],
+    steps: [
+      {
+        title: "Hiểu ngày sao kê và ngày đến hạn",
+        detail:
+          "Ngày sao kê là ngày ngân hàng chốt sổ chi tiêu của kỳ. Ngày đến hạn là hạn chót trả tiền, thường cách đó khoảng hai tuần tuỳ ngân hàng. Chi tiêu ngay sau ngày sao kê là khoản được cầm tiền lâu nhất trước khi phải trả.",
+      },
+      {
+        title: "Kích hoạt thẻ và đặt hạn mức cho chính mình",
+        detail:
+          "Kích hoạt qua ứng dụng, đổi mã PIN. Nếu ngân hàng cho phép, hạ hạn mức xuống mức bạn thật sự cần trong tháng. Hạn mức lớn không phải phần thưởng, nó chỉ là cái bẫy dễ vấp.",
+      },
+      {
+        title: "Bật thông báo cho mọi giao dịch",
+        detail:
+          "Bật báo biến động số dư và thông báo đẩy trong ứng dụng. Mỗi lần quẹt là điện thoại kêu. Vừa để kiểm soát chi tiêu, vừa để phát hiện ngay nếu thẻ bị dùng trộm.",
+      },
+      {
+        title: "Không bao giờ rút tiền mặt từ thẻ tín dụng",
+        detail:
+          "Đây là sai lầm đắt nhất của người mới. Rút tiền mặt thường bị tính phí ngay và tính lãi từ ngày rút, không có ngày miễn lãi nào cả. Cần tiền mặt thì dùng thẻ ghi nợ hoặc tài khoản của mình.",
+      },
+      {
+        title: "Cảnh giác với dịch vụ đáo hạn hoặc rút tiền thẻ tín dụng",
+        detail:
+          "Những nơi quảng cáo rút tiền thẻ tín dụng phí thấp thực chất là quẹt khống. Bạn mất phí, có nguy cơ bị lộ thông tin thẻ, và ngân hàng có thể khoá thẻ vì giao dịch bất thường.",
+      },
+      {
+        title: "Đọc sao kê mỗi tháng, từng dòng",
+        detail:
+          "Sao kê về qua email hoặc trong ứng dụng. Đọc từng dòng, đối chiếu với những gì bạn nhớ đã mua. Giao dịch lạ dù chỉ vài chục nghìn cũng phải báo ngân hàng ngay, đó thường là bước thăm dò trước một vụ lớn.",
+      },
+      {
+        title: "Trả toàn bộ, không trả mức tối thiểu",
+        detail:
+          "Ô số tiền thanh toán tối thiểu là cái bẫy dễ chịu nhất trên sao kê. Trả tối thiểu là bạn bắt đầu bị tính lãi trên toàn bộ dư nợ với lãi suất cao hơn hẳn vay thông thường. Trả đủ, luôn luôn.",
+      },
+      {
+        title: "Đặt nhắc trước hạn ba ngày",
+        detail:
+          "Đặt báo thức lặp lại hằng tháng trước ngày đến hạn ba ngày. Chuyển khoản có thể mất thời gian ghi nhận, trả đúng ngày cuối là rủi ro không cần thiết. Trả trễ vừa mất lãi vừa mất phí phạt vừa ảnh hưởng lịch sử tín dụng.",
+      },
+      {
+        title: "Bật trích nợ tự động toàn phần nếu có",
+        detail:
+          "Nhiều ngân hàng cho đăng ký tự động trừ tiền từ tài khoản thanh toán vào ngày đến hạn. Chọn phương thức toàn phần chứ không phải tối thiểu. Nhớ giữ đủ tiền trong tài khoản đó.",
+      },
+      {
+        title: "Hỏi rõ về phí thường niên trước khi hết năm đầu",
+        detail:
+          "Nhiều thẻ miễn phí năm đầu rồi năm sau thu. Gọi tổng đài trước ngày thu phí hỏi: anh chị cho em hỏi thẻ em có được miễn phí thường niên năm nay không, điều kiện là gì ạ. Nhiều nơi miễn nếu bạn đạt mức chi tiêu nhất định.",
+      },
+      {
+        title: "Cẩn thận với trả góp qua thẻ",
+        detail:
+          "Chuyển giao dịch sang trả góp nghe tiện nhưng thường có phí chuyển đổi. Tính ra tổng số tiền thực trả rồi so với việc trả một lần. Nếu bạn không đủ tiền trả một lần thì món đó có thể vốn đã ngoài khả năng.",
+      },
+      {
+        title: "Giữ thẻ và thông tin thẻ như giữ tiền mặt",
+        detail:
+          "Không chụp ảnh mặt trước mặt sau thẻ gửi cho ai. Không lưu số thẻ trong ghi chú điện thoại. Ba số ở mặt sau là thứ đủ để người khác tiêu tiền của bạn trên mạng.",
+      },
+    ],
+    notes: [
+      "Lãi suất thẻ tín dụng, phí rút tiền mặt và số ngày miễn lãi khác nhau theo từng ngân hàng và từng loại thẻ, và có thể thay đổi. Xem đúng biểu phí của thẻ bạn đang cầm.",
+      "Trả nợ trễ nhiều lần sẽ ảnh hưởng lịch sử tín dụng của bạn, gây khó khi vay mua nhà hoặc vay lớn về sau. Đây là hậu quả lâu dài mà nhiều người trẻ không nghĩ tới.",
+      "Không bao giờ đọc mã OTP cho bất kỳ ai, kể cả người xưng là nhân viên ngân hàng hay nhân viên giao hàng. Ngân hàng không bao giờ hỏi OTP của bạn.",
+      "Nếu đang nợ thẻ và thấy đuối, gọi thẳng tổng đài ngân hàng hỏi phương án cơ cấu nợ. Im lặng và trả tối thiểu từng tháng là cách nợ phình to nhanh nhất.",
+    ],
+    faq: [
+      {
+        q: "Không dùng thẻ thì có bị tính phí gì không?",
+        a: "Phí thường niên thường vẫn thu dù bạn không tiêu gì. Nếu định không dùng nữa, làm thủ tục huỷ thẻ đàng hoàng chứ đừng chỉ cắt thẻ rồi bỏ đó.",
+      },
+      {
+        q: "Trả sớm hơn ngày đến hạn có sao không?",
+        a: "Không sao cả, thậm chí tốt. Bạn có thể trả bất cứ lúc nào trong kỳ. Nhiều người trả ngay sau mỗi lần quẹt cho khỏi quên, cách đó cũng ổn.",
+      },
+      {
+        q: "Thẻ tín dụng và thẻ ghi nợ khác nhau chỗ nào?",
+        a: "Thẻ ghi nợ tiêu tiền có sẵn trong tài khoản của bạn. Thẻ tín dụng là bạn tiêu tiền của ngân hàng rồi trả sau. Nhìn ngoài giống nhau nhưng hậu quả khi quên trả thì rất khác.",
+      },
+      {
+        q: "Bị trừ tiền cho một dịch vụ đăng ký lâu rồi mà quên, làm sao?",
+        a: "Vào ứng dụng ngân hàng xem mục các giao dịch định kỳ hoặc gọi tổng đài để chặn. Đồng thời huỷ đăng ký ở chính dịch vụ đó, vì chặn ở ngân hàng chỉ giải quyết phần ngọn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "co-nguoi-chuyen-nham-tien-vao-tai-khoan",
+    title: "Tự nhiên có tiền lạ chuyển vào tài khoản: tuyệt đối đừng tiêu",
+    excerpt:
+      "Vài triệu tự nhiên xuất hiện, rồi có người gọi tới rất lịch sự xin lại. Đây là một trong những cái bẫy gọn gàng nhất, và cách thoát rất đơn giản.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Không tiêu, không rút, và tuyệt đối không chuyển trả theo số tài khoản mà người gọi điện đưa cho bạn. Cách đúng duy nhất là báo cho ngân hàng của bạn và để ngân hàng xử lý việc hoàn trả. Rất nhiều vụ là bẫy: kẻ xấu cố tình chuyển tiền vào rồi vài hôm sau quay lại đòi cả gốc lẫn lãi cắt cổ, hoặc dụ bạn chuyển trả sang một tài khoản khác để bạn thành người có lỗi. Giữ nguyên số tiền đó, ghi lại mọi liên lạc, và chờ ngân hàng.",
+    prepare: [
+      "Ứng dụng ngân hàng và số tổng đài chính thức của ngân hàng bạn — tự tra trên mặt sau thẻ hoặc trang chính thức",
+      "Ảnh chụp màn hình giao dịch lạ, giữ nguyên nội dung chuyển khoản",
+      "Ghi âm hoặc chụp lại tin nhắn của người liên hệ đòi tiền",
+      "Căn cước công dân nếu phải ra quầy làm việc",
+      "Một chút kiên nhẫn: việc này của ngân hàng, không phải của bạn",
+    ],
+    steps: [
+      {
+        title: "Đừng động vào số tiền đó",
+        detail:
+          "Không rút, không chuyển đi, không tiêu, kể cả khi số dư của bạn trước đó đã có sẵn tiền. Cứ coi như số tiền ấy không tồn tại cho tới khi ngân hàng xử lý xong.",
+      },
+      {
+        title: "Chụp màn hình toàn bộ giao dịch",
+        detail:
+          "Chụp phần lịch sử giao dịch có ghi ngày giờ, số tiền, tên người chuyển và nội dung chuyển khoản. Nội dung chuyển khoản đôi khi là manh mối, ví dụ ghi là giải ngân khoản vay.",
+      },
+      {
+        title: "Gọi ngay tổng đài ngân hàng của bạn",
+        detail:
+          "Gọi số tổng đài in trên mặt sau thẻ hoặc trên trang chính thức. Nói: em nhận được một khoản tiền lạ chuyển vào tài khoản, em không biết ai chuyển, em muốn báo để ngân hàng xử lý hoàn trả ạ.",
+      },
+      {
+        title: "Yêu cầu ngân hàng ghi nhận sự việc",
+        detail:
+          "Hỏi rõ họ sẽ xử lý thế nào và có cần bạn ra quầy ký giấy tờ gì không. Xin mã ghi nhận cuộc gọi hoặc số hồ sơ. Đây là bằng chứng bạn đã chủ động báo chứ không im lặng chiếm giữ.",
+      },
+      {
+        title: "Nếu có người gọi tới đòi, đừng chuyển trả trực tiếp",
+        detail:
+          "Nói đúng một câu: em đã báo ngân hàng rồi, anh chị liên hệ ngân hàng để làm thủ tục hoàn trả giúp em ạ. Rồi dừng. Chuyển trả theo số tài khoản họ đưa là cách bạn tự tạo ra rắc rối cho mình.",
+      },
+      {
+        title: "Cảnh giác với chiêu bẫy vay nặng lãi",
+        detail:
+          "Một kiểu bẫy phổ biến: cố tình chuyển tiền vào tài khoản bạn, ít lâu sau quay lại đòi tiền gốc kèm lãi rất cao và khẳng định bạn đã vay. Bạn không hề vay, nên không có nghĩa vụ trả lãi. Giữ bằng chứng đã báo ngân hàng.",
+      },
+      {
+        title: "Không bấm vào bất kỳ link nào họ gửi",
+        detail:
+          "Kẻ lừa hay gửi đường link kèm chữ xác nhận hoàn tiền hoặc yêu cầu bạn cài ứng dụng để hoàn trả. Bấm vào là mất luôn tài khoản thật. Không cài ứng dụng ngoài kho chính thức, không đọc OTP cho ai.",
+      },
+      {
+        title: "Ghi lại mọi liên lạc",
+        detail:
+          "Lưu số điện thoại đã gọi, chụp tin nhắn, ghi ngày giờ. Nếu người kia doạ dẫm hoặc quấy rối, đây là hồ sơ để bạn trình báo công an.",
+      },
+      {
+        title: "Nếu bị đe doạ, trình báo công an",
+        detail:
+          "Ra công an phường/xã, mang ảnh chụp giao dịch, các tin nhắn và thông tin đã báo ngân hàng. Đừng thoả thuận riêng với người đe doạ, và cũng đừng chặn số trước khi đã lưu bằng chứng.",
+      },
+      {
+        title: "Đợi ngân hàng xác minh và làm thủ tục hoàn",
+        detail:
+          "Nếu đúng là chuyển nhầm thật, ngân hàng sẽ xác minh với ngân hàng bên chuyển và hướng dẫn thủ tục hoàn trả, thường cần bạn ký xác nhận. Làm qua kênh này thì bạn hoàn toàn sạch sẽ.",
+      },
+      {
+        title: "Kiểm tra lại xem tài khoản mình có bị lộ không",
+        detail:
+          "Tiền lạ chuyển vào nghĩa là ai đó biết số tài khoản của bạn. Đổi mật khẩu ngân hàng, bật xác thực hai lớp, xem lại xem gần đây bạn có đăng số tài khoản công khai ở đâu không.",
+      },
+      {
+        title: "Nói lại chuyện này cho người nhà",
+        detail:
+          "Người lớn tuổi trong nhà rất dễ mắc kiểu bẫy này vì tâm lý ngại nợ nần và muốn trả cho xong. Kể lại cho bố mẹ nghe, dặn đúng một câu: có tiền lạ vào thì gọi ngân hàng, không chuyển cho ai.",
+      },
+    ],
+    notes: [
+      "Tiêu số tiền chuyển nhầm có thể khiến bạn phải hoàn trả và vướng trách nhiệm pháp lý, tuỳ tính chất vụ việc. Không đáng để mạo hiểm vì vài triệu đồng.",
+      "Ngược lại, nếu chính bạn chuyển nhầm cho người khác, hãy báo ngân hàng của bạn ngay lập tức và cung cấp thông tin giao dịch. Càng sớm càng dễ giữ lại tiền.",
+      "Ngân hàng không bao giờ nhờ bên thứ ba gọi cho bạn để thu hồi tiền chuyển nhầm. Cuộc gọi kiểu đó gần như luôn là lừa đảo.",
+      "Không cung cấp mã OTP, mật khẩu, hay ảnh chụp căn cước cho bất cứ ai liên hệ về khoản tiền này, dù họ đọc vanh vách thông tin của bạn.",
+    ],
+    faq: [
+      {
+        q: "Nếu người chuyển nhầm là người quen thật thì sao?",
+        a: "Vẫn nên báo ngân hàng để có ghi nhận, sau đó hai bên có thể tự xử lý nếu chắc chắn về nhau. Với người lạ thì tuyệt đối đi qua ngân hàng.",
+      },
+      {
+        q: "Ngân hàng có tự động trừ lại tiền không?",
+        a: "Tuỳ quy trình từng ngân hàng và tính chất giao dịch, có trường hợp họ phong toả khoản đó trong lúc xác minh. Cứ hợp tác và giữ giấy tờ, đó là cách an toàn nhất cho bạn.",
+      },
+      {
+        q: "Đã lỡ tiêu mất rồi thì làm gì?",
+        a: "Báo ngân hàng ngay và trình bày trung thực, chuẩn bị phương án hoàn trả. Chủ động khai báo bao giờ cũng nhẹ hơn là để bên kia phát hiện và làm lớn chuyện.",
+      },
+      {
+        q: "Họ doạ đưa hình ảnh của tôi lên mạng, tôi phải làm sao?",
+        a: "Đó là hành vi có thể bị xử lý. Lưu toàn bộ bằng chứng đe doạ, trình báo công an, và báo cả ngân hàng. Đừng chuyển tiền vì sợ, vì trả một lần thì họ sẽ đòi tiếp.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "cai-sinh-trac-hoc-ngan-hang",
+    title: "Chuyển khoản bị chặn vì chưa có sinh trắc học: cài trong mười phút",
+    excerpt:
+      "Đang cần chuyển gấp mà ứng dụng báo phải xác thực khuôn mặt. Đây là cách làm xong ngay tại nhà, và mấy chỗ hay kẹt khiến người ta phải ra quầy.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Bạn cần ba thứ: căn cước công dân có gắn chip, điện thoại có kết nối không dây tầm ngắn NFC, và ứng dụng ngân hàng bản mới nhất. Vào mục cài đặt sinh trắc học trong ứng dụng, quét mặt trước mặt sau thẻ, rồi áp thẻ vào lưng điện thoại để đọc chip, cuối cùng quét khuôn mặt. Điện thoại không đọc được chip thì ra quầy ngân hàng làm một lần, mang căn cước gốc.",
+    prepare: [
+      "Căn cước công dân gắn chip bản gốc, không dùng bản photo hay ảnh chụp",
+      "Điện thoại có NFC, bật sẵn trong phần cài đặt",
+      "Ứng dụng ngân hàng cập nhật lên bản mới nhất từ kho ứng dụng chính thức",
+      "Chỗ đủ sáng, không ngược sáng, để quét khuôn mặt",
+      "Tháo ốp lưng dày và kim loại ra, vì nó cản việc đọc chip",
+    ],
+    steps: [
+      {
+        title: "Cập nhật ứng dụng ngân hàng trước",
+        detail:
+          "Vào kho ứng dụng chính thức, cập nhật lên bản mới nhất. Rất nhiều ca không cài được sinh trắc học chỉ vì đang chạy bản cũ. Chỉ cài từ kho chính thức, không cài từ link ai gửi.",
+      },
+      {
+        title: "Bật NFC trên điện thoại",
+        detail:
+          "Vào phần cài đặt, tìm mục kết nối rồi bật NFC. Điện thoại đời cũ không có NFC thì bỏ qua phần đọc chip, bạn sẽ phải ra quầy hoặc mượn máy khác tuỳ quy định ngân hàng.",
+      },
+      {
+        title: "Vào đúng mục trong ứng dụng",
+        detail:
+          "Thường nằm ở phần cài đặt hoặc trang cá nhân, tên gọi kiểu cập nhật sinh trắc học hoặc xác thực khuôn mặt. Không tìm thấy thì gõ vào ô tìm kiếm trong ứng dụng, đừng mò từng menu.",
+      },
+      {
+        title: "Chụp hai mặt căn cước",
+        detail:
+          "Đặt thẻ trên nền tối, đủ sáng, không để bóng đèn hắt vào làm loá. Giữ máy song song với thẻ. Ảnh mờ hoặc mất góc là lý do bị từ chối nhiều nhất ở bước này.",
+      },
+      {
+        title: "Tìm đúng chỗ đọc chip trên lưng máy",
+        detail:
+          "Vị trí ăng ten NFC khác nhau tuỳ máy, thường ở gần cụm camera hoặc giữa lưng. Áp thẻ vào và di chuyển chậm cho tới khi máy rung hoặc báo đã đọc được. Đừng gõ mạnh hay di quá nhanh.",
+      },
+      {
+        title: "Tháo ốp lưng nếu đọc mãi không được",
+        detail:
+          "Ốp dày, ốp có miếng kim loại hoặc có ví đựng thẻ đều chặn sóng. Tháo ra thử lại. Đây là mẹo giải quyết được phần lớn ca kẹt ở bước đọc chip.",
+      },
+      {
+        title: "Quét khuôn mặt theo hướng dẫn",
+        detail:
+          "Bỏ kính, bỏ khẩu trang, bỏ mũ, đứng nơi đủ sáng và không ngược sáng. Làm theo yêu cầu quay đầu hoặc nháy mắt. Nếu tóc che mặt thì vén lên, hệ thống khá khó tính ở bước này.",
+      },
+      {
+        title: "Chờ xác nhận và thử một giao dịch nhỏ",
+        detail:
+          "Hoàn tất thì ứng dụng báo đã cập nhật. Thử chuyển một khoản nhỏ cho chính mình hoặc người nhà để chắc chắn mọi thứ chạy được, đừng đợi tới lúc cần chuyển gấp mới biết chưa xong.",
+      },
+      {
+        title: "Làm cho tất cả ngân hàng bạn đang dùng",
+        detail:
+          "Mỗi ngân hàng phải cài riêng, không dùng chung được. Liệt kê hết các ứng dụng ngân hàng và ví điện tử bạn có rồi làm một lượt trong cùng một buổi cho xong.",
+      },
+      {
+        title: "Không được thì ra quầy, đi một lần cho xong",
+        detail:
+          "Mang căn cước gốc ra chi nhánh, nói: em muốn cập nhật sinh trắc học cho tài khoản, điện thoại em không đọc được chip ạ. Nhân viên làm bằng thiết bị của ngân hàng, thường vài phút là xong.",
+      },
+      {
+        title: "Giúp người lớn tuổi trong nhà làm luôn",
+        detail:
+          "Đây chính là nhóm hay bị kẹt và hay bị kẻ xấu lợi dụng bằng chiêu gọi điện hỗ trợ cài sinh trắc học. Bạn ngồi cạnh làm giúp bố mẹ một lần, an toàn hơn nhiều.",
+      },
+      {
+        title: "Nhớ cập nhật lại khi đổi thẻ căn cước hoặc đổi điện thoại",
+        detail:
+          "Làm căn cước mới, đổi số điện thoại, đổi máy — đều có thể phải xác thực lại. Làm ngay lúc rảnh chứ đừng để tới lúc cần chuyển tiền gấp.",
+      },
+    ],
+    notes: [
+      "Ngưỡng số tiền bắt buộc xác thực sinh trắc học và các quy định liên quan do cơ quan quản lý đặt ra và có thể thay đổi. Ngân hàng của bạn sẽ thông báo mức áp dụng cụ thể.",
+      "Đây là chủ đề mà kẻ lừa đảo bám rất sát: gọi điện xưng nhân viên ngân hàng, nói tài khoản sắp bị khoá vì chưa cài sinh trắc học, rồi gửi link hoặc bảo bạn cài ứng dụng lạ. Ngân hàng không làm vậy.",
+      "Không bao giờ đọc mã OTP hay chia sẻ màn hình điện thoại cho người gọi tới hướng dẫn cài đặt. Chia sẻ màn hình là mất sạch tài khoản.",
+      "Chỉ dùng ứng dụng tải từ kho ứng dụng chính thức. Cài từ file gửi qua tin nhắn hoặc mạng xã hội là con đường ngắn nhất tới mất tiền.",
+    ],
+    faq: [
+      {
+        q: "Điện thoại không có NFC thì làm sao?",
+        a: "Ra quầy ngân hàng làm trực tiếp một lần với căn cước gốc. Một số nơi cũng hỗ trợ qua kênh khác, gọi tổng đài hỏi trước cho chắc.",
+      },
+      {
+        q: "Dùng căn cước cũ chưa gắn chip có được không?",
+        a: "Thường là không, vì bước xác thực cần đọc chip. Nếu bạn còn dùng giấy tờ đời cũ thì tranh thủ làm thẻ căn cước mới, sau này nhiều dịch vụ khác cũng cần.",
+      },
+      {
+        q: "Đã cài rồi mà chuyển tiền vẫn bị đòi quét mặt mỗi lần, có bình thường không?",
+        a: "Bình thường với các giao dịch vượt ngưỡng quy định. Quét mặt mỗi lần chỉ mất vài giây và nó chính là thứ chặn kẻ khác tiêu tiền của bạn.",
+      },
+      {
+        q: "Quét mặt mãi không nhận, có mẹo gì không?",
+        a: "Đứng quay lưng lại nguồn sáng mạnh, bỏ kính và khẩu trang, lau sạch camera trước, giữ máy ngang tầm mắt. Vẫn không được thì thử lại vào ban ngày ở chỗ sáng tự nhiên.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "lo-chuyen-tien-cho-ke-lua-dao",
+    title: "Lỡ chuyển tiền cho kẻ lừa đảo: ba mươi phút đầu làm gì",
+    excerpt:
+      "Nhận ra mình bị lừa là lúc chân tay run và đầu trống rỗng. Nhưng khoảng thời gian ngay sau đó là cơ hội thật sự duy nhất để giữ lại tiền.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Gọi ngay tổng đài ngân hàng của bạn, đọc chi tiết giao dịch và yêu cầu hỗ trợ khẩn cấp để tra soát và đề nghị phong toả tài khoản nhận. Sau đó ra công an phường/xã trình báo, mang theo toàn bộ ảnh chụp giao dịch và tin nhắn. Đồng thời đổi mật khẩu ngân hàng, kiểm tra xem điện thoại có bị cài ứng dụng lạ không. Càng nhanh càng có cơ hội, vì kẻ lừa đảo thường rút tiền đi trong vài phút.",
+    prepare: [
+      "Số tổng đài chính thức của ngân hàng — tra trên mặt sau thẻ hoặc trang chính thức, không tra qua công cụ tìm kiếm vì có số quảng cáo giả",
+      "Ảnh chụp toàn bộ: giao dịch đã chuyển, tin nhắn, cuộc gọi, tài khoản nhận, đường link họ gửi",
+      "Căn cước công dân để trình báo",
+      "Một người thân ngồi cạnh — lúc hoảng rất dễ làm sai thêm",
+      "Giấy bút ghi lại mốc thời gian: bạn chuyển lúc mấy giờ, phát hiện lúc mấy giờ",
+    ],
+    steps: [
+      {
+        title: "Dừng lại, không chuyển thêm một đồng nào",
+        detail:
+          "Kẻ lừa thường bảo chuyển thêm để lấy lại khoản trước, gọi là phí giải ngân hay tiền cọc xác minh. Không có khoản nào như vậy. Mất một lần đau hơn nhiều nếu thành mất hai lần.",
+      },
+      {
+        title: "Chụp màn hình mọi thứ trước khi họ xoá",
+        detail:
+          "Chụp lịch sử chuyển khoản, đoạn chat, số điện thoại, trang web, tài khoản nhận, tên chủ tài khoản hiện lên khi chuyển. Nhiều nhóm lừa đảo xoá tin nhắn ngay sau đó, chụp là việc phải làm trước tiên.",
+      },
+      {
+        title: "Gọi tổng đài ngân hàng ngay lập tức",
+        detail:
+          "Đây là cuộc gọi quan trọng nhất. Nói ngắn gọn: em vừa bị lừa chuyển khoản lúc mấy giờ, số tiền bao nhiêu, tới tài khoản số này ở ngân hàng kia, em muốn tra soát và đề nghị phong toả gấp ạ.",
+      },
+      {
+        title: "Yêu cầu ghi nhận và xin số hồ sơ tra soát",
+        detail:
+          "Đừng cúp máy khi chưa có mã hoặc số hồ sơ. Hỏi luôn: mình có cần ra quầy ký giấy tra soát không ạ, ra chi nhánh nào cũng được chứ ạ. Việc này quyết định tốc độ xử lý.",
+      },
+      {
+        title: "Khoá thẻ hoặc tạm khoá tài khoản nếu nghi bị lộ thông tin",
+        detail:
+          "Nếu bạn đã bấm vào link lạ, đọc mã OTP, hay cài ứng dụng họ gửi, thì tài khoản coi như đã lộ. Khoá ngay trong ứng dụng hoặc nhờ tổng đài khoá, rồi mới tính tiếp.",
+      },
+      {
+        title: "Kiểm tra và gỡ ứng dụng lạ trên điện thoại",
+        detail:
+          "Vào danh sách ứng dụng, tìm cái bạn không nhớ đã cài, nhất là những app xin quyền trợ năng hoặc quyền xem màn hình. Gỡ hết. Nghi ngờ nặng thì cân nhắc khôi phục cài đặt gốc sau khi đã sao lưu.",
+      },
+      {
+        title: "Đổi mật khẩu ở nơi quan trọng nhất trước",
+        detail:
+          "Thứ tự: ứng dụng ngân hàng, email chính, tài khoản định danh, mạng xã hội. Đổi từ một thiết bị khác nếu bạn nghi điện thoại đã nhiễm. Bật xác thực hai lớp ở mọi nơi có hỗ trợ.",
+      },
+      {
+        title: "Ra công an phường/xã trình báo",
+        detail:
+          "Đi trong ngày, càng sớm càng tốt. Mang ảnh chụp giao dịch, tin nhắn, thông tin tài khoản nhận và số hồ sơ tra soát của ngân hàng. Trình bày theo trình tự thời gian, đừng kể lộn xộn.",
+      },
+      {
+        title: "Viết lại toàn bộ sự việc theo mốc thời gian",
+        detail:
+          "Trước khi đi trình báo, ngồi viết ra giấy: mấy giờ nhận cuộc gọi, họ nói gì, mấy giờ bạn chuyển, số tiền, phát hiện lúc nào. Bản tường trình rõ ràng giúp việc tiếp nhận nhanh hơn nhiều.",
+      },
+      {
+        title: "Báo cho nơi bị mạo danh nếu có",
+        detail:
+          "Kẻ lừa hay giả danh một sàn thương mại, một ngân hàng, một công ty giao hàng. Báo cho đơn vị đó qua kênh chính thức để họ cảnh báo người khác và hỗ trợ nếu vụ việc liên quan tới hệ thống của họ.",
+      },
+      {
+        title: "Cảnh giác với dịch vụ nhận lấy lại tiền bị lừa",
+        detail:
+          "Ngay sau khi bạn than trên mạng, sẽ có tài khoản nhắn tin nhận thu hồi tiền lừa đảo và đòi phí trước. Đó là vòng lừa thứ hai nhắm đúng vào người vừa mất tiền. Không chuyển thêm cho ai.",
+      },
+      {
+        title: "Kể cho người thân, đừng giữ một mình",
+        detail:
+          "Xấu hổ là phản ứng tự nhiên nhưng im lặng chỉ khiến bạn dễ sập bẫy tiếp. Kể cho người nhà biết chiêu thức, vừa để họ đề phòng, vừa để bạn có người nhắc mình bình tĩnh trong mấy ngày tới.",
+      },
+    ],
+    notes: [
+      "Khả năng lấy lại tiền phụ thuộc rất nhiều vào tốc độ: kẻ lừa thường chia nhỏ và rút tiền trong vài phút. Không có gì đảm bảo, nhưng gọi ngân hàng trong vài phút đầu là cơ hội tốt nhất bạn có.",
+      "Quy tắc gốc để không bao giờ rơi vào tình huống này: không bao giờ đọc mã OTP cho bất kỳ ai, kể cả người xưng công an, ngân hàng, hay nhân viên giao hàng. Không ai có quyền hỏi OTP của bạn.",
+      "Cơ quan công an không làm việc qua điện thoại, không yêu cầu chuyển tiền vào tài khoản để chứng minh trong sạch, và không gọi video để đọc lệnh. Gặp kiểu đó thì cúp máy.",
+      "Đặt hạn mức chuyển khoản hằng ngày ở mức thấp trong ứng dụng ngân hàng. Khi cần chuyển lớn thì nâng lên rồi hạ xuống. Việc này chặn được phần lớn thiệt hại nếu chẳng may bị mất quyền kiểm soát.",
+    ],
+    faq: [
+      {
+        q: "Ngân hàng có lấy lại tiền cho tôi được không?",
+        a: "Ngân hàng hỗ trợ tra soát và liên hệ ngân hàng nhận để phong toả nếu tiền còn trong tài khoản, nhưng không thể tự ý thu hồi. Kết quả tuỳ vụ việc và tuỳ tốc độ báo của bạn.",
+      },
+      {
+        q: "Số tiền nhỏ thì có đáng trình báo không?",
+        a: "Đáng. Nhiều vụ nhỏ ghép lại mới ra được đường dây, và trình báo của bạn có thể giúp người khác. Ngoài ra bạn cũng cần hồ sơ nếu sau này phát sinh rắc rối.",
+      },
+      {
+        q: "Tôi đã đọc OTP cho họ rồi, giờ tài khoản có an toàn không?",
+        a: "Coi như đã lộ. Khoá tài khoản ngay, đổi mật khẩu từ thiết bị khác, kiểm tra ứng dụng lạ trong máy, và ra ngân hàng làm lại phương thức xác thực.",
+      },
+      {
+        q: "Họ vẫn tiếp tục gọi và nhắn tin thì làm gì?",
+        a: "Lưu bằng chứng trước rồi mới chặn số. Không tranh cãi, không thoả thuận, không chuyển thêm tiền. Nếu bị đe doạ, bổ sung ngay vào hồ sơ trình báo công an.",
+      },
+    ],
+    sources: [],
+  },
 ];
