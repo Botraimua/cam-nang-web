@@ -1060,4 +1060,534 @@ export const day20260822sang = [
     ],
     sources: [],
   },
+  {
+    slug: "tu-tra-cic-xem-co-no-xau-khong",
+    title: "Tự tra CIC xem mình có nợ xấu không, miễn phí",
+    excerpt:
+      "Bị ngân hàng từ chối cho vay mà không hiểu vì sao? Rất có thể hồ sơ tín dụng của bạn đang có vết mà bạn không hề biết. Tra được, và tra miễn phí.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Trung tâm Thông tin tín dụng Quốc gia Việt Nam, gọi tắt là CIC, lưu lịch sử vay và trả nợ của bạn tại các tổ chức tín dụng. Bạn có quyền tự tra báo cáo của chính mình qua ứng dụng hoặc trang web chính thức của CIC, đăng ký bằng căn cước và ảnh chân dung. Mỗi năm được xem miễn phí một số lần theo quy định của trung tâm. Thấy sai sót thì khiếu nại với chính ngân hàng đã báo cáo sai, chứ không phải với CIC.",
+    prepare: [
+      "Căn cước công dân bản gốc, để chụp hai mặt khi đăng ký",
+      "Điện thoại có camera rõ, vì bạn phải chụp ảnh chân dung để đối chiếu",
+      "Số điện thoại đang dùng, dùng để nhận mã xác thực",
+      "Email cá nhân để nhận báo cáo và thông báo",
+      "Khoảng mười lăm phút yên tĩnh, vì bước xác thực cần làm cẩn thận",
+    ],
+    steps: [
+      {
+        title: "Vào đúng kênh chính thức của CIC",
+        detail:
+          "Tìm ứng dụng hoặc trang web chính thức của Trung tâm Thông tin tín dụng Quốc gia Việt Nam. Gõ thẳng địa chỉ hoặc tìm trên kho ứng dụng, đừng bấm vào quảng cáo hay đường link ai đó gửi. Có rất nhiều trang giả mạo dịch vụ này để lấy thông tin cá nhân.",
+      },
+      {
+        title: "Đăng ký tài khoản bằng thông tin thật",
+        detail:
+          "Họ tên, ngày sinh, số căn cước phải khớp đúng với giấy tờ. Lệch một ký tự là hệ thống không tìm thấy dữ liệu của bạn hoặc từ chối duyệt. Nhập xong đọc lại một lượt rồi mới gửi.",
+      },
+      {
+        title: "Chụp căn cước và ảnh chân dung",
+        detail:
+          "Chụp hai mặt căn cước trên nền phẳng, đủ sáng, không loá, không che góc. Ảnh chân dung thì chụp thẳng, không đeo kính, không đội mũ, nền đơn giản. Đây là bước hay bị trả lại nhất, chịu khó chụp cho đẹp.",
+      },
+      {
+        title: "Chờ duyệt tài khoản",
+        detail:
+          "Hồ sơ được kiểm tra thủ công nên không duyệt tức thì. Thường mất một khoảng thời gian tính bằng ngày làm việc. Bị từ chối thì hệ thống có báo lý do, phần lớn là do ảnh mờ hoặc thông tin lệch, sửa rồi gửi lại.",
+      },
+      {
+        title: "Đăng nhập và xem báo cáo tín dụng",
+        detail:
+          "Vào mục xem báo cáo của chính mình. Bạn sẽ thấy danh sách các khoản vay, thẻ tín dụng, số dư và tình trạng trả nợ. Có cả những khoản bạn đã quên từ lâu, ví dụ thẻ tín dụng mở kèm lương rồi bỏ không.",
+      },
+      {
+        title: "Đọc phần nhóm nợ cho kỹ",
+        detail:
+          "Các khoản vay được xếp nhóm theo mức độ chậm trả. Nhóm một là đang trả bình thường, các nhóm sau tương ứng với mức chậm tăng dần. Từ nhóm ba trở đi thường bị coi là nợ xấu và ảnh hưởng nặng tới khả năng vay sau này.",
+      },
+      {
+        title: "Rà từng dòng xem có khoản nào lạ không",
+        detail:
+          "Khoản vay bạn chưa từng ký, thẻ tín dụng bạn chưa từng mở, công ty tài chính bạn chưa từng nghe tên. Nếu có, rất có thể ai đó đã dùng thông tin của bạn để vay. Đây là lý do quan trọng nhất khiến bạn nên tra định kỳ.",
+      },
+      {
+        title: "Ghi lại các khoản còn đang mở",
+        detail:
+          "Liệt kê ra giấy hoặc ghi chú điện thoại: ngân hàng nào, dư nợ bao nhiêu, tình trạng ra sao. Nhiều người ngạc nhiên khi thấy mình còn một thẻ tín dụng chưa đóng và vẫn bị tính phí thường niên âm thầm.",
+      },
+      {
+        title: "Thấy sai thì khiếu nại với ngân hàng đã báo cáo",
+        detail:
+          "CIC chỉ tổng hợp dữ liệu do các tổ chức tín dụng gửi lên. Muốn sửa thì phải làm việc với chính ngân hàng hoặc công ty tài chính có tên trong dòng bị sai. Liên hệ tổng đài của họ, gửi văn bản khiếu nại và giữ lại mọi bằng chứng.",
+      },
+      {
+        title: "Trả dứt điểm khoản đang chậm nếu có",
+        detail:
+          "Nếu bạn thật sự đang chậm trả, cách duy nhất là trả cho xong. Gọi cho tổ chức tín dụng, xin bản kê chi tiết còn nợ bao nhiêu, trả rồi xin giấy xác nhận đã tất toán. Giữ giấy này, nó rất có ích về sau.",
+      },
+      {
+        title: "Hiểu rằng lịch sử cần thời gian để cải thiện",
+        detail:
+          "Trả xong không có nghĩa vết xấu biến mất ngay. Dữ liệu lịch sử được lưu và tham chiếu trong một khoảng thời gian theo quy định. Cách tốt nhất là từ đó về sau trả đúng hạn đều đặn để phần lịch sử gần nhất đẹp lên.",
+      },
+      {
+        title: "Đặt lịch tra lại mỗi năm một lần",
+        detail:
+          "Đặt nhắc trong lịch điện thoại. Tra định kỳ giúp bạn phát hiện sớm khoản vay giả mạo và biết trước mình có đủ điều kiện vay hay không, thay vì tới lúc cần mua nhà mới ngã ngửa.",
+      },
+    ],
+    notes: [
+      "Số lần tra miễn phí trong năm, cách đăng ký và giao diện của CIC có thể thay đổi. Xem hướng dẫn trên kênh chính thức của trung tâm để biết chính xác tại thời điểm bạn làm.",
+      "Không nộp tiền cho bất kỳ ai hứa xoá nợ xấu trên CIC. Không ai có thể xoá lịch sử tín dụng bằng cách trả phí — đó là lừa đảo, và bạn còn mất thêm thông tin cá nhân.",
+      "Đừng cung cấp ảnh căn cước và ảnh chân dung cho các trang tra cứu không chính thức. Đó chính là bộ hồ sơ để kẻ gian mở tài khoản hoặc vay tiền dưới tên bạn.",
+      "Bảo lãnh hoặc đứng tên vay hộ người khác cũng ghi vào lịch sử của bạn. Người kia chậm trả thì hồ sơ của bạn xấu theo — cân nhắc kỹ trước khi ký hộ ai bất cứ thứ gì.",
+    ],
+    faq: [
+      {
+        q: "Bị nợ xấu thì bao lâu mới vay lại được?",
+        a: "Tuỳ mức độ và tuỳ chính sách từng ngân hàng, không có mốc chung cho tất cả. Điều bạn kiểm soát được là trả dứt điểm khoản cũ và giữ lịch sử trả nợ sạch sẽ từ đó trở đi. Hỏi thẳng ngân hàng bạn định vay xem họ xét lịch sử bao lâu gần nhất.",
+      },
+      {
+        q: "Trả chậm thẻ tín dụng vài ngày có bị ghi nợ xấu không?",
+        a: "Chậm vài ngày thường chưa rơi vào nhóm nợ xấu, nhưng vẫn có thể bị ghi nhận là chậm trả và bị tính lãi phạt. Cách an toàn là đặt thanh toán tự động hoặc nhắc lịch trước ngày đến hạn vài hôm.",
+      },
+      {
+        q: "Không vay bao giờ thì CIC có dữ liệu của tôi không?",
+        a: "Nếu bạn chưa từng vay hay mở thẻ tín dụng thì báo cáo sẽ trống hoặc rất ít thông tin. Điều đó không xấu, nhưng cũng có nghĩa ngân hàng chưa có căn cứ nào để đánh giá bạn khi xét duyệt.",
+      },
+      {
+        q: "Phát hiện có khoản vay lạ đứng tên mình thì làm gì?",
+        a: "Liên hệ ngay tổ chức tín dụng có tên trong báo cáo, yêu cầu cung cấp hồ sơ vay và khẳng định bạn không ký. Đồng thời trình báo công an và giữ lại mọi giấy tờ. Làm càng sớm càng dễ chứng minh.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "bi-goi-doi-no-du-khong-he-vay",
+    title: "Bị gọi đòi nợ dù không hề vay: xử lý sao cho dứt",
+    excerpt:
+      "Điện thoại réo cả ngày, người lạ chửi bới, có khi còn nhắn cho cả sếp và người thân của bạn. Bạn không vay đồng nào. Đây là cách xử lý cho dứt điểm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Đừng hoảng và tuyệt đối đừng trả tiền để cho yên chuyện. Xác định xem bạn bị nhầm là người tham chiếu của ai đó, hay bị kẻ gian dùng thông tin để vay thật. Ghi âm và chụp màn hình mọi cuộc gọi, tin nhắn. Tra báo cáo CIC để biết có khoản vay nào đứng tên mình không. Nếu bị đe doạ hoặc bôi nhọ, trình báo công an với đầy đủ bằng chứng. Không bao giờ cung cấp thêm thông tin cá nhân cho người gọi.",
+    prepare: [
+      "Bật chức năng ghi âm cuộc gọi trên điện thoại nếu máy bạn có",
+      "Một thư mục trong máy để lưu ảnh chụp màn hình tin nhắn và cuộc gọi",
+      "Danh sách số điện thoại đã gọi tới, ghi lại ngày giờ",
+      "Tài khoản tra cứu CIC để kiểm tra có khoản vay nào đứng tên mình không",
+      "Bình tĩnh — người gọi sống bằng việc làm bạn hoảng loạn",
+    ],
+    steps: [
+      {
+        title: "Nghe một lần để biết chuyện gì đang xảy ra",
+        detail:
+          "Đừng chặn ngay lập tức. Nghe một cuộc, hỏi rõ: anh chị gọi từ đơn vị nào, khoản vay của ai, số hợp đồng bao nhiêu, tôi liên quan thế nào. Bật ghi âm. Thông tin từ cuộc gọi này quyết định bạn thuộc trường hợp nào.",
+      },
+      {
+        title: "Phân biệt hai tình huống hoàn toàn khác nhau",
+        detail:
+          "Một là ai đó vay tiền và ghi số bạn làm người tham chiếu, thường là người quen cũ hoặc đồng nghiệp. Hai là kẻ gian dùng thông tin cá nhân của bạn để vay thật. Cách xử lý của hai tình huống khác hẳn nhau.",
+      },
+      {
+        title: "Tuyên bố dứt khoát một lần",
+        detail:
+          "Nói rõ và bình tĩnh: tôi không vay khoản này, tôi không có nghĩa vụ trả, và tôi không đồng ý cho các anh chị gọi cho tôi nữa. Nói một lần, ghi âm lại, rồi thôi. Cãi nhau dài dòng chỉ khiến họ gọi thêm.",
+      },
+      {
+        title: "Tuyệt đối không cung cấp thêm thông tin",
+        detail:
+          "Không đọc số căn cước, không xác nhận địa chỉ, không nói bạn làm ở đâu, không gửi ảnh giấy tờ. Kể cả khi họ nói cần để kiểm tra và gỡ tên bạn khỏi hệ thống. Đó là cách họ lấy thêm dữ liệu về bạn.",
+      },
+      {
+        title: "Không trả một đồng nào cho yên chuyện",
+        detail:
+          "Trả tiền cho khoản mình không vay là thừa nhận có liên quan, và nó gần như luôn dẫn tới việc bị đòi tiếp. Dù số tiền nhỏ tới đâu, câu trả lời vẫn là không.",
+      },
+      {
+        title: "Lưu bằng chứng có hệ thống",
+        detail:
+          "Chụp màn hình nhật ký cuộc gọi, tin nhắn, bài đăng bôi nhọ nếu có. Đặt tên file theo ngày. Ghi âm giữ nguyên, đừng cắt gọt. Bộ bằng chứng này là thứ quyết định khi bạn trình báo hoặc làm việc với công ty tài chính.",
+      },
+      {
+        title: "Tra CIC xem có khoản vay nào đứng tên mình",
+        detail:
+          "Đăng ký tra cứu báo cáo tín dụng của chính bạn. Không có khoản nào lạ thì gần như chắc chắn bạn chỉ bị ghi làm người tham chiếu. Có khoản lạ thì tình huống nghiêm trọng hơn nhiều và cần làm ngay bước tiếp theo.",
+      },
+      {
+        title: "Nếu có khoản vay giả mạo, làm việc với chính tổ chức đó",
+        detail:
+          "Gọi tổng đài chính thức của ngân hàng hoặc công ty tài chính, không gọi số của người đòi nợ. Yêu cầu cung cấp hồ sơ vay, khẳng định chữ ký và ảnh không phải của bạn, gửi văn bản khiếu nại và giữ biên nhận.",
+      },
+      {
+        title: "Trình báo công an khi bị đe doạ hoặc bôi nhọ",
+        detail:
+          "Bị chửi bới, đe doạ, ghép ảnh đăng lên mạng, hoặc gọi quấy rối người thân và nơi làm việc — đó là những hành vi có thể bị xử lý theo pháp luật. Mang toàn bộ bằng chứng ra công an nơi bạn cư trú và làm đơn trình báo.",
+      },
+      {
+        title: "Báo trước cho người thân và công ty",
+        detail:
+          "Nhắn ngắn gọn cho gia đình, bạn bè thân và quản lý trực tiếp: có nhóm đòi nợ nhầm số của mình, họ có thể gọi làm phiền, mọi người bỏ qua và đừng cung cấp thông tin gì. Chủ động nói trước đỡ ngượng hơn nhiều so với để họ nghe từ người lạ.",
+      },
+      {
+        title: "Chặn số nhưng đừng đổi số vội",
+        detail:
+          "Chặn từng số sau khi đã ghi nhận bằng chứng. Đừng đổi số điện thoại ngay, vì số của bạn gắn với ngân hàng, ứng dụng và công việc. Phần lớn trường hợp lắng xuống sau một thời gian khi họ thấy bạn không phản ứng.",
+      },
+      {
+        title: "Nếu người quen ghi số bạn thì nói thẳng với họ",
+        detail:
+          "Tìm ra ai đã ghi số bạn làm tham chiếu và yêu cầu họ liên hệ đơn vị cho vay để gỡ tên bạn ra. Nói rõ và dứt khoát. Đây thường là cách nhanh nhất để chấm dứt, vì nguồn gốc vấn đề nằm ở đó.",
+      },
+    ],
+    notes: [
+      "Không bao giờ đọc mã OTP cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng, công an hay đang giúp bạn gỡ rối. Không có tổ chức chính thống nào cần mã OTP của bạn.",
+      "Cẩn thận với dịch vụ nhận xoá nợ hoặc chặn đòi nợ thu phí. Họ thường chỉ lấy tiền và thông tin của bạn rồi biến mất.",
+      "Đừng chuyển cuộc trò chuyện sang các ứng dụng nhắn tin lạ theo yêu cầu của người gọi. Giữ mọi liên lạc trên kênh có thể lưu bằng chứng.",
+      "Nếu công việc của bạn bị ảnh hưởng vì bị bôi nhọ, giữ lại bằng chứng thiệt hại. Nó có ích khi bạn cần cơ quan chức năng vào cuộc hoặc khi khiếu nại chính thức.",
+    ],
+    faq: [
+      {
+        q: "Tại sao họ có số của tôi khi tôi chưa từng vay?",
+        a: "Thường vì ai đó khai số bạn làm người tham chiếu khi vay, hoặc dữ liệu cá nhân bị rò rỉ và mua bán. Cả hai đều không phải lỗi của bạn và cũng không tạo ra nghĩa vụ trả nợ nào cho bạn.",
+      },
+      {
+        q: "Họ doạ khởi kiện tôi thì có đáng lo không?",
+        a: "Bạn không ký hợp đồng thì không có nghĩa vụ trả. Doạ kiện là chiêu gây sức ép rất quen thuộc. Nếu thật sự có vụ kiện, bạn sẽ nhận giấy triệu tập chính thức từ toà chứ không phải qua điện thoại hay tin nhắn.",
+      },
+      {
+        q: "Có nên đăng lên mạng xã hội để cảnh báo không?",
+        a: "Cẩn thận. Đăng thông tin và hình ảnh người khác có thể khiến bạn vướng rắc rối ngược. Cứ gửi bằng chứng cho công an và ngân hàng liên quan, đó là kênh giải quyết đúng và an toàn cho bạn.",
+      },
+      {
+        q: "Bao lâu thì họ ngừng gọi?",
+        a: "Không có mốc chắc chắn. Nhưng khi bạn không phản ứng, không cung cấp thông tin và không trả tiền, số cuộc gọi thường giảm dần. Trường hợp bị quấy rối kéo dài thì trình báo là bước cần làm, đừng chịu đựng mãi.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dang-ky-nguoi-phu-thuoc-giam-tru-gia-canh",
+    title: "Đăng ký người phụ thuộc để bớt thuế: ai được tính, làm thế nào",
+    excerpt:
+      "Nuôi con nhỏ, nuôi cha mẹ già mà không đăng ký người phụ thuộc thì mỗi tháng bạn đang nộp thuế nhiều hơn mức phải nộp. Đăng ký một lần, dùng nhiều năm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Người nộp thuế thu nhập cá nhân được giảm trừ cho bản thân và cho mỗi người phụ thuộc đủ điều kiện, nghĩa là phần thu nhập chịu thuế giảm xuống và bạn nộp ít thuế hơn. Con dưới mười tám tuổi thường đủ điều kiện đơn giản nhất. Cha mẹ, vợ chồng, anh chị em thì phải không có thu nhập hoặc thu nhập rất thấp và bạn phải đang trực tiếp nuôi dưỡng. Đăng ký qua công ty hoặc tự làm trên ứng dụng eTax Mobile của cơ quan thuế.",
+    prepare: [
+      "Mã số thuế cá nhân của bạn — không nhớ thì tra trên ứng dụng eTax Mobile hoặc hỏi công ty",
+      "Giấy khai sinh của con, hoặc căn cước của người phụ thuộc là người lớn",
+      "Giấy tờ chứng minh quan hệ: khai sinh, giấy kết hôn, hoặc xác nhận của địa phương",
+      "Giấy tờ chứng minh người phụ thuộc không có thu nhập hoặc thu nhập thấp, nếu là người lớn",
+      "Tài khoản trên ứng dụng thuế hoặc thông tin liên hệ của bộ phận nhân sự công ty",
+    ],
+    steps: [
+      {
+        title: "Kiểm tra xem bạn có đang nộp thuế thu nhập cá nhân không",
+        detail:
+          "Nhìn bảng lương xem có dòng khấu trừ thuế thu nhập cá nhân không. Nếu thu nhập của bạn chưa tới ngưỡng chịu thuế thì việc đăng ký chưa mang lại lợi ích ngay, nhưng đăng ký sẵn cũng không hại gì cho sau này.",
+      },
+      {
+        title: "Liệt kê những người bạn đang thật sự nuôi",
+        detail:
+          "Con nhỏ, con đang đi học, cha mẹ già không có lương hưu, người thân bị khuyết tật không có khả năng lao động. Viết ra hết rồi mới xét từng người xem có đủ điều kiện không.",
+      },
+      {
+        title: "Hiểu điều kiện với con",
+        detail:
+          "Con dưới độ tuổi quy định thường đủ điều kiện mà không phải chứng minh thu nhập. Con đã lớn nhưng đang học hoặc bị khuyết tật không có khả năng lao động thì có điều kiện riêng. Hỏi kế toán công ty hoặc cơ quan thuế cho đúng trường hợp của bạn.",
+      },
+      {
+        title: "Hiểu điều kiện với cha mẹ và người thân khác",
+        detail:
+          "Với người ngoài diện con cái, thường phải hội đủ hai thứ: người đó không có thu nhập hoặc thu nhập bình quân tháng dưới mức quy định, và bạn là người trực tiếp nuôi dưỡng. Cha mẹ có lương hưu cao thì thường không đủ điều kiện.",
+      },
+      {
+        title: "Chỉ một người được đăng ký cho mỗi người phụ thuộc",
+        detail:
+          "Hai vợ chồng cùng đăng ký một đứa con là hồ sơ sẽ bị từ chối và có thể phải nộp lại phần đã giảm sai. Thống nhất trong nhà xem ai đăng ký, thường nên là người có thu nhập cao hơn vì mức thuế suất áp cao hơn.",
+      },
+      {
+        title: "Đăng ký mã số thuế cho người phụ thuộc",
+        detail:
+          "Mỗi người phụ thuộc cần có mã số thuế riêng. Việc này thường làm cùng lúc với hồ sơ đăng ký giảm trừ, qua công ty hoặc tự làm trên ứng dụng thuế. Có mã rồi thì các năm sau rất gọn.",
+      },
+      {
+        title: "Cách một: nhờ công ty làm",
+        detail:
+          "Đây là cách dễ nhất với người đi làm công ăn lương. Gửi cho nhân sự bản khai theo mẫu và bản sao giấy tờ. Nói rõ: em muốn đăng ký người phụ thuộc từ tháng này, chị xem giúp em cần bổ sung gì. Công ty sẽ áp giảm trừ vào bảng lương.",
+      },
+      {
+        title: "Cách hai: tự làm trên eTax Mobile",
+        detail:
+          "Tải ứng dụng thuế chính thức, đăng nhập bằng tài khoản thuế hoặc tài khoản định danh, tìm mục đăng ký người phụ thuộc. Khai thông tin, tải ảnh giấy tờ lên và nộp. Hợp với người làm tự do hoặc có nhiều nguồn thu nhập.",
+      },
+      {
+        title: "Kiểm tra bảng lương tháng sau",
+        detail:
+          "Xem dòng giảm trừ gia cảnh đã tăng lên chưa và số thuế khấu trừ đã giảm chưa. Chưa thấy thì hỏi lại nhân sự ngay trong tháng, đừng đợi tới cuối năm mới phát hiện là hồ sơ chưa được nhập.",
+      },
+      {
+        title: "Đăng ký muộn thì vẫn tính lại khi quyết toán",
+        detail:
+          "Nếu đăng ký giữa năm, phần giảm trừ của những tháng trước đó thường vẫn được tính lại khi quyết toán thuế cuối năm, theo quy định hiện hành. Nghĩa là bạn có thể được hoàn lại phần đã nộp thừa, nên đừng nghĩ là đã lỡ rồi thì thôi.",
+      },
+      {
+        title: "Cập nhật khi hoàn cảnh thay đổi",
+        detail:
+          "Con đủ tuổi tự lập, cha mẹ bắt đầu có lương hưu, hoặc người phụ thuộc qua đời — đều phải khai báo thay đổi. Tiếp tục hưởng giảm trừ khi không còn đủ điều kiện là chuyện sẽ bị truy thu.",
+      },
+      {
+        title: "Lưu bộ hồ sơ vào một chỗ",
+        detail:
+          "Chụp ảnh toàn bộ giấy tờ đã nộp và lưu vào một thư mục trên máy hoặc trên đám mây. Khi đổi công ty, bạn sẽ cần nộp lại cho nơi mới, và có sẵn file thì mất năm phút thay vì cả buổi đi xin lại.",
+      },
+    ],
+    notes: [
+      "Mức giảm trừ cho bản thân và cho người phụ thuộc, cũng như ngưỡng thu nhập của người phụ thuộc, do pháp luật quy định và có thể được điều chỉnh theo từng thời kỳ. Kiểm tra con số hiện hành trên trang của cơ quan thuế hoặc hỏi kế toán, đừng dùng số nghe được từ vài năm trước.",
+      "Khai không đúng để hưởng giảm trừ là hành vi có thể bị truy thu và xử phạt. Chỉ đăng ký cho người bạn thật sự đang nuôi dưỡng và đủ điều kiện.",
+      "Người làm nhiều nơi hoặc có thu nhập ngoài lương thì nên tự quyết toán cuối năm để tính đúng, thay vì chỉ dựa vào một công ty.",
+      "Chỉ dùng ứng dụng và trang web chính thức của cơ quan thuế. Có nhiều trang giả mạo mời chào hỗ trợ hoàn thuế để lấy thông tin và tiền của bạn.",
+    ],
+    faq: [
+      {
+        q: "Vợ hoặc chồng có được tính là người phụ thuộc không?",
+        a: "Có thể, nếu người đó không có khả năng lao động hoặc không có thu nhập, hay thu nhập dưới ngưỡng quy định, và bạn đang trực tiếp nuôi dưỡng. Vợ hoặc chồng đang đi làm với thu nhập bình thường thì không thuộc diện này.",
+      },
+      {
+        q: "Cha mẹ đang hưởng lương hưu thì có đăng ký được không?",
+        a: "Phụ thuộc vào mức lương hưu so với ngưỡng thu nhập quy định. Lương hưu cao hơn ngưỡng thì thường không đủ điều kiện. Hỏi kế toán hoặc cơ quan thuế với con số cụ thể của cha mẹ bạn.",
+      },
+      {
+        q: "Tôi làm tự do, không có công ty thì đăng ký ở đâu?",
+        a: "Tự làm trên ứng dụng eTax Mobile hoặc tới trực tiếp cơ quan thuế nơi bạn cư trú. Bạn cũng sẽ tự quyết toán thuế cuối năm, và phần giảm trừ người phụ thuộc sẽ được tính vào đó.",
+      },
+      {
+        q: "Đăng ký rồi có phải làm lại hằng năm không?",
+        a: "Thông thường không phải khai lại nếu thông tin không đổi, nhưng bạn phải chủ động báo khi có thay đổi. Khi chuyển sang công ty mới thì cần nộp lại hồ sơ cho nơi mới để họ áp giảm trừ vào bảng lương.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dong-tai-khoan-ngan-hang-bo-khong",
+    title: "Tài khoản ngân hàng bỏ không: đóng đi kẻo âm tiền và phiền về sau",
+    excerpt:
+      "Cái tài khoản mở hồi sinh viên, cái thẻ công ty cũ trả lương — bỏ đó tưởng vô hại, nhưng phí thường niên vẫn chạy và tài khoản ngủ quên có thể thành rắc rối.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Liệt kê hết tài khoản và thẻ bạn từng mở, kiểm tra cái nào còn phí và cái nào đang âm. Tài khoản không dùng nữa thì ra quầy làm thủ tục đóng, mang căn cước và thẻ. Đóng phải làm tại ngân hàng, không phải chỉ rút hết tiền rồi bỏ đó. Nhớ kiểm tra trước xem tài khoản đó có đang gắn với thanh toán tự động, ví điện tử hay nhận lương ở đâu không.",
+    prepare: [
+      "Căn cước công dân bản gốc, thông tin phải khớp với hồ sơ mở tài khoản",
+      "Thẻ ATM hoặc thẻ tín dụng của tài khoản định đóng, nếu còn giữ",
+      "Danh sách mọi ngân hàng bạn từng mở tài khoản, kể cả cái đã quên",
+      "Điện thoại có sim đăng ký với ngân hàng để nhận mã xác thực",
+      "Chút tiền mặt phòng khi tài khoản đang âm phí và phải nộp bù",
+    ],
+    steps: [
+      {
+        title: "Liệt kê hết tài khoản mình từng mở",
+        detail:
+          "Lục ví, lục ngăn kéo, nhớ lại các công ty cũ trả lương qua ngân hàng nào, các lần mở thẻ để nhận quà khuyến mãi. Nhiều người có tới bốn năm tài khoản mà chỉ dùng một. Viết ra giấy cho dễ theo dõi.",
+      },
+      {
+        title: "Kiểm tra từng cái xem còn tiền và còn phí không",
+        detail:
+          "Đăng nhập ứng dụng nếu còn nhớ mật khẩu, hoặc gọi tổng đài hỏi số dư và tình trạng. Hỏi thẳng: tài khoản này có đang bị tính phí gì hằng tháng không ạ. Nhiều tài khoản âm dần vì phí quản lý và phí tin nhắn.",
+      },
+      {
+        title: "Chú ý thẻ tín dụng khác tài khoản thanh toán",
+        detail:
+          "Thẻ tín dụng không dùng vẫn có thể bị tính phí thường niên hằng năm, và nợ phí đó có thể ghi vào lịch sử tín dụng của bạn. Đây là loại thẻ đáng đóng nhất nếu bạn không dùng tới.",
+      },
+      {
+        title: "Rà xem tài khoản có đang gắn với gì không",
+        detail:
+          "Ví điện tử, thanh toán tự động tiền điện nước, gói cước điện thoại, đăng ký ứng dụng nghe nhạc xem phim, nhận lương, nhận hoàn thuế. Đóng trước khi gỡ hết là sẽ có dịch vụ bị gián đoạn vào lúc bạn không ngờ.",
+      },
+      {
+        title: "Chuyển hết tiền ra trước",
+        detail:
+          "Chuyển số dư sang tài khoản chính của bạn, để lại đúng phần cần thiết nếu ngân hàng yêu cầu tối thiểu. Đừng để lại vài chục nghìn nghĩ là chẳng đáng gì, vì nó sẽ bị phí ăn dần rồi thành âm.",
+      },
+      {
+        title: "Gọi tổng đài hỏi thủ tục đóng",
+        detail:
+          "Hỏi rõ: em muốn đóng tài khoản này, em cần mang gì và có phải ra đúng chi nhánh mở thẻ không ạ. Có ngân hàng cho đóng ở bất kỳ chi nhánh nào, có nơi vẫn yêu cầu về đúng nơi mở. Hỏi trước tiết kiệm cả buổi đi lại.",
+      },
+      {
+        title: "Ra quầy làm thủ tục đóng",
+        detail:
+          "Mang căn cước và thẻ. Điền mẫu yêu cầu đóng tài khoản. Có khoản phí còn nợ thì phải thanh toán nốt mới đóng được. Đây là bước bắt buộc, không có cách nào đóng bằng cách bỏ mặc.",
+      },
+      {
+        title: "Xin giấy xác nhận đã đóng",
+        detail:
+          "Yêu cầu nhân viên cấp giấy xác nhận hoặc biên nhận yêu cầu đóng tài khoản, có dấu. Chụp ảnh lưu lại. Sau này nếu có phát sinh phí lạ thì đây là bằng chứng của bạn.",
+      },
+      {
+        title: "Cắt thẻ đúng cách trước khi vứt",
+        detail:
+          "Cắt đôi qua chip và qua dải từ, cắt cả phần số nổi. Đừng vứt nguyên chiếc vào thùng rác. Thẻ tín dụng thì cắt cả phần mã bảo mật ở mặt sau. Nhiều ngân hàng cũng nhận lại thẻ để tiêu huỷ, cứ đưa họ luôn cho chắc.",
+      },
+      {
+        title: "Gỡ tài khoản khỏi ứng dụng và ví điện tử",
+        detail:
+          "Mở từng ví điện tử và ứng dụng mua sắm, xoá thẻ đã đóng khỏi danh sách thanh toán. Để đó thì mỗi lần thanh toán sẽ báo lỗi và bạn lại mất công tìm nguyên nhân.",
+      },
+      {
+        title: "Kiểm tra lại sau một tháng",
+        detail:
+          "Đặt nhắc lịch một tháng sau, gọi tổng đài xác nhận tài khoản đã đóng hẳn và không còn phát sinh. Thỉnh thoảng hồ sơ bị treo giữa chừng, phát hiện sớm thì xử lý dễ.",
+      },
+      {
+        title: "Giữ lại một tài khoản dự phòng",
+        detail:
+          "Đừng đóng hết chỉ còn một cái. Giữ hai tài khoản ở hai ngân hàng khác nhau là hợp lý, phòng khi một bên bảo trì hệ thống hoặc thẻ bị khoá đúng lúc bạn cần tiền.",
+      },
+    ],
+    notes: [
+      "Chính sách phí, điều kiện đóng tài khoản và cách xử lý tài khoản không hoạt động khác nhau theo từng ngân hàng và từng thời điểm. Gọi tổng đài của chính ngân hàng đó để có thông tin đúng.",
+      "Tài khoản bỏ không mang tên bạn là thứ kẻ gian rất muốn. Đừng bao giờ cho mượn, cho thuê hay bán tài khoản ngân hàng — đó là hành vi vi phạm pháp luật và bạn sẽ liên đới với mọi giao dịch chạy qua đó.",
+      "Không bao giờ đọc mã OTP cho ai, kể cả người tự xưng là nhân viên ngân hàng đang giúp bạn đóng tài khoản. Ngân hàng thật không bao giờ hỏi mã đó.",
+      "Trước khi đóng tài khoản đang nhận lương, hãy báo nhân sự đổi sang tài khoản mới trước, rồi mới đóng cái cũ.",
+    ],
+    faq: [
+      {
+        q: "Không đóng, cứ để đó thì sao?",
+        a: "Tuỳ ngân hàng, tài khoản có thể bị tính phí duy trì cho tới khi âm, rồi chuyển sang trạng thái ngủ đông hoặc bị đóng theo quy định của họ. Riêng thẻ tín dụng thì khoản phí chưa trả có thể ảnh hưởng tới lịch sử tín dụng của bạn.",
+      },
+      {
+        q: "Tài khoản đang âm tiền thì đóng thế nào?",
+        a: "Bạn cần thanh toán phần còn thiếu rồi mới đóng được. Ra quầy hỏi rõ số tiền chính xác, trả xong và xin giấy xác nhận. Số thường không lớn, nhưng để lâu thì phí có thể cộng dồn.",
+      },
+      {
+        q: "Có đóng tài khoản online được không?",
+        a: "Một số ngân hàng đã cho làm qua ứng dụng hoặc tổng đài, một số vẫn yêu cầu ra quầy. Gọi hỏi trước là cách nhanh nhất để biết ngân hàng của bạn thuộc loại nào.",
+      },
+      {
+        q: "Mất thẻ rồi thì có đóng tài khoản được không?",
+        a: "Được, chỉ cần mang căn cước và trình bày là thẻ đã mất. Nhân viên sẽ xử lý theo quy trình khoá và đóng. Càng nên làm sớm, vì thẻ thất lạc mà tài khoản vẫn mở là rủi ro không cần thiết.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "cho-nguoi-quen-vay-tien-viet-giay-the-nao",
+    title: "Cho người quen vay tiền: viết giấy thế nào để còn đòi được",
+    excerpt:
+      "Ngại viết giấy vì sợ mất lòng, rồi mất luôn cả tiền lẫn bạn. Một tờ giấy mười dòng viết trong năm phút giải quyết được phần lớn chuyện đó.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Chỉ cho vay số tiền mà bạn chấp nhận được nếu không đòi lại được. Luôn có giấy viết tay, ghi rõ ai vay ai cho vay kèm số căn cước, số tiền bằng cả số và chữ, ngày vay, ngày trả, có lãi hay không. Hai bên ký, mỗi người giữ một bản, chụp ảnh lưu. Chuyển khoản thay vì đưa tiền mặt và ghi rõ nội dung cho vay, vì sao kê ngân hàng là bằng chứng rất mạnh.",
+    prepare: [
+      "Giấy trắng và bút — không cần mẫu cầu kỳ, viết tay hoàn toàn hợp lệ",
+      "Căn cước của cả hai bên để ghi đúng số và địa chỉ",
+      "Điện thoại để chụp lại giấy và chụp căn cước người vay nếu họ đồng ý",
+      "Tài khoản ngân hàng để chuyển khoản thay vì đưa tiền mặt",
+      "Một người làm chứng nếu số tiền lớn — không bắt buộc nhưng rất có ích",
+    ],
+    steps: [
+      {
+        title: "Tự hỏi trước: mất số tiền này mình có sao không",
+        detail:
+          "Câu hỏi quan trọng nhất, hỏi trước khi hỏi bất cứ điều gì khác. Nếu mất số đó khiến bạn không đóng nổi tiền nhà tháng sau thì câu trả lời là không cho vay, dù người hỏi là ai.",
+      },
+      {
+        title: "Hỏi rõ vay để làm gì và trả bằng nguồn nào",
+        detail:
+          "Không phải để soi mói mà để biết khả năng trả có thật không. Câu nên hỏi: bạn định trả từ nguồn nào và khoảng bao giờ. Người trả lời được cụ thể thường là người đã tính toán, người ậm ừ thì bạn nên cân nhắc lại.",
+      },
+      {
+        title: "Nói chuyện giấy tờ một cách nhẹ nhàng",
+        detail:
+          "Đừng ngại. Cứ nói: mình viết giấy cho rõ ràng nhé, để sau này hai đứa khỏi nhớ nhầm, mình làm với ai cũng vậy. Cách nói này biến việc viết giấy thành nguyên tắc chung chứ không phải sự nghi ngờ dành riêng cho họ.",
+      },
+      {
+        title: "Ghi đủ thông tin hai bên",
+        detail:
+          "Họ tên đầy đủ, ngày sinh, số căn cước, địa chỉ thường trú của cả người vay và người cho vay. Đây là phần biến tờ giấy từ lời hứa thành bằng chứng có thể dùng được khi cần.",
+      },
+      {
+        title: "Ghi số tiền bằng cả số và chữ",
+        detail:
+          "Ví dụ hai mươi triệu đồng viết cả bằng số và bằng chữ. Cách này chặn việc thêm bớt một số không. Ghi rõ đơn vị tiền tệ, nghe thừa nhưng nó loại bỏ mọi tranh cãi về sau.",
+      },
+      {
+        title: "Ghi ngày vay và ngày phải trả",
+        detail:
+          "Một hạn cụ thể, không phải khi nào có thì trả. Số tiền lớn thì chia thành nhiều đợt và ghi rõ từng đợt bao nhiêu, ngày nào. Có mốc thì bạn mới có căn cứ để nhắc mà không thấy khó xử.",
+      },
+      {
+        title: "Ghi rõ có lãi hay không",
+        detail:
+          "Không lãi thì ghi thẳng là không tính lãi. Có lãi thì ghi mức cụ thể. Lưu ý pháp luật có giới hạn mức lãi suất trong giao dịch dân sự, nên đừng thoả thuận mức quá cao vì phần vượt có thể không được công nhận.",
+      },
+      {
+        title: "Hai bên ký và ghi rõ họ tên",
+        detail:
+          "Ký xong ghi họ tên bằng chữ in bên dưới. Có người làm chứng thì họ ký và ghi thông tin luôn. Mỗi bên giữ một bản gốc, đừng để cả hai bản ở một người.",
+      },
+      {
+        title: "Chụp ảnh và lưu ở nhiều nơi",
+        detail:
+          "Chụp tờ giấy, chụp căn cước người vay nếu họ đồng ý, lưu vào máy và vào đám mây. Giấy tờ mất là chuyện xảy ra, bản chụp cứu bạn trong trường hợp đó.",
+      },
+      {
+        title: "Chuyển khoản thay vì đưa tiền mặt",
+        detail:
+          "Ghi nội dung chuyển khoản là cho vay theo giấy vay tiền ngày này. Sao kê ngân hàng khớp với tờ giấy là bộ bằng chứng rất khó chối. Bắt buộc phải đưa mặt thì làm trước mặt người làm chứng và ghi vào giấy là đã nhận đủ.",
+      },
+      {
+        title: "Nhắc trước hạn một cách bình thường",
+        detail:
+          "Trước ngày hẹn khoảng một tuần, nhắn nhẹ: tuần sau tới hạn khoản kia rồi nhé, bạn thu xếp được không. Nhắc sớm và nhắn bằng tin nhắn để có lưu vết, dễ hơn nhiều so với đợi quá hạn rồi mới nói.",
+      },
+      {
+        title: "Quá hạn thì thoả thuận lại bằng văn bản",
+        detail:
+          "Người vay khó khăn thật thì gia hạn cũng được, nhưng viết lại giấy hoặc nhắn tin xác nhận mốc mới và giữ tin nhắn đó. Đừng để khoản vay trôi vô hạn không mốc nào, vì đó là lúc nó biến mất.",
+      },
+    ],
+    notes: [
+      "Đừng cho vay bằng cách đứng tên vay ngân hàng hộ người khác. Người vay không trả thì bạn là người mang nợ và mang cả nợ xấu, không phải họ.",
+      "Cẩn thận với người quen bỗng nhắn tin qua mạng xã hội hỏi vay gấp. Gọi video hoặc gọi thẳng vào số cũ để xác minh, vì giả mạo tài khoản và giả giọng bằng công nghệ hiện rất phổ biến.",
+      "Không bao giờ đọc mã OTP cho ai, kể cả người thân đang nhờ bạn hỗ trợ giao dịch. Không có tình huống chính đáng nào cần bạn đọc mã đó cho người khác.",
+      "Số tiền lớn thì nên ra tổ chức hành nghề công chứng hoặc hỏi luật sư. Chi phí nhỏ so với rủi ro, và văn bản có giá trị chắc chắn hơn nhiều.",
+    ],
+    faq: [
+      {
+        q: "Giấy viết tay có giá trị pháp lý không?",
+        a: "Có, giấy vay tiền viết tay với đầy đủ thông tin và chữ ký hai bên vẫn là bằng chứng của giao dịch dân sự. Càng có thêm sao kê chuyển khoản và tin nhắn trao đổi thì càng chắc. Số tiền lớn thì công chứng vẫn là lựa chọn an toàn hơn.",
+      },
+      {
+        q: "Người vay không trả thì làm gì được?",
+        a: "Bước đầu vẫn là thương lượng và ghi lại mọi trao đổi. Không xong thì bạn có quyền khởi kiện ra toà án dân sự với bộ hồ sơ giấy vay, sao kê và tin nhắn. Trước khi kiện nên hỏi luật sư để cân nhắc thời gian và chi phí.",
+      },
+      {
+        q: "Cho vay không lãi có phải viết giấy không?",
+        a: "Nên, càng phải viết. Không lãi nghĩa là bạn đã chịu thiệt phần lãi rồi, đừng chịu thêm rủi ro mất trắng. Ghi rõ không tính lãi cũng là bảo vệ người vay khỏi bị hiểu nhầm sau này.",
+      },
+      {
+        q: "Có nên đòi thế chấp tài sản không?",
+        a: "Với số tiền lớn thì hợp lý, nhưng cầm giữ giấy tờ nhà đất hay đăng ký xe của người khác có những ràng buộc pháp lý riêng. Đừng tự làm theo cảm tính, hỏi công chứng viên hoặc luật sư về cách làm đúng.",
+      },
+    ],
+    sources: [],
+  },
 ];
