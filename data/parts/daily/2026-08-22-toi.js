@@ -530,4 +530,535 @@ export const day20260822toi = [
     ],
     sources: [],
   },
+  {
+    slug: "tuyen-giap-o-phu-nu-met-tang-can-rung-toc",
+    title: "Mệt mỏi, tăng cân, rụng tóc mà khám gì cũng bình thường: đã đo tuyến giáp chưa",
+    excerpt:
+      "Một tuyến nhỏ bằng con bướm ở cổ có thể làm chệch cả cơ thể. Phụ nữ mắc nhiều hơn nam giới vài lần và triệu chứng thì giống hệt chuyện mệt vì bận rộn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Tuyến giáp hoạt động yếu thường biểu hiện bằng mệt kéo dài, tăng cân dù ăn không hơn, sợ lạnh, da khô, rụng tóc, táo bón và kinh nguyệt thất thường. Ngược lại nếu hoạt động quá mức thì lại sụt cân, hồi hộp, run tay, ra nhiều mồ hôi và khó ngủ. Cách kiểm tra là một xét nghiệm máu đơn giản, thường bắt đầu bằng chỉ số TSH, và bác sĩ nội tiết là người đọc kết quả. Đây là bệnh phổ biến ở phụ nữ, hay bị bỏ sót vì ai cũng nghĩ mình chỉ đang mệt.",
+    prepare: [
+      "Ghi lại triệu chứng trong bốn tuần: mức mệt, cân nặng, tình trạng tóc, độ chịu nóng chịu lạnh",
+      "Ghi ngày đầu và độ dài các kỳ kinh gần nhất, vì tuyến giáp ảnh hưởng trực tiếp tới chu kỳ",
+      "Danh sách thuốc và thực phẩm chức năng đang dùng, đặc biệt là loại có chứa i-ốt hoặc biotin",
+      "Tiền sử gia đình: mẹ, chị em gái có ai bị bệnh tuyến giáp hay bệnh tự miễn không",
+      "Kết quả xét nghiệm máu cũ nếu có, để bác sĩ so được xu hướng",
+    ],
+    steps: [
+      {
+        title: "Nhận ra kiểu mệt không giống mệt thường",
+        detail:
+          "Mệt do thiếu ngủ thì ngủ bù sẽ đỡ, còn mệt do tuyến giáp thì ngủ mười tiếng vẫn nặng người. Kèm theo đó thường là cảm giác đầu óc chậm chạp, hay quên và không thấy hứng thú với việc gì. Sai lầm hay gặp là quy hết cho stress và công việc rồi để trôi vài năm.",
+      },
+      {
+        title: "Gom triệu chứng thành một danh sách",
+        detail:
+          "Ghi ra giấy tất cả những gì đã thay đổi trong sáu tháng qua, kể cả những thứ nghe rời rạc như móng giòn, da khô, sợ lạnh, táo bón, giọng khàn. Chính sự rời rạc đó lại là điểm gợi ý cho bác sĩ. Mang danh sách này đi khám thay vì kể miệng.",
+      },
+      {
+        title: "Để ý phần cổ khi soi gương",
+        detail:
+          "Đứng trước gương, hơi ngửa cổ ra sau rồi nuốt một ngụm nước và quan sát vùng dưới yết hầu. Nếu thấy có khối nhô lên di chuyển theo nhịp nuốt, hãy ghi lại và nói với bác sĩ. Đây chỉ là quan sát để báo cho bác sĩ chứ không phải cách tự chẩn đoán.",
+      },
+      {
+        title: "Chú ý mốc dễ khởi phát ở phụ nữ",
+        detail:
+          "Sau sinh vài tháng, quanh giai đoạn tiền mãn kinh và sau một đợt căng thẳng lớn là những mốc bệnh tuyến giáp hay xuất hiện hoặc nặng lên. Nếu bạn đang ở đúng mốc đó và có triệu chứng, đừng mặc định là do con nhỏ hay do tuổi tác. Nói rõ mốc thời gian này với bác sĩ.",
+      },
+      {
+        title: "Đi khám đúng nơi",
+        detail:
+          "Chuyên khoa nội tiết ở bệnh viện đa khoa là địa chỉ chính, khoa nội tổng quát cũng chỉ định được xét nghiệm ban đầu. Đặt lịch rồi nói thẳng: em mệt kéo dài, rụng tóc, kinh nguyệt thất thường, em muốn kiểm tra tuyến giáp. Câu này đủ để bác sĩ định hướng ngay.",
+      },
+      {
+        title: "Hiểu xét nghiệm sẽ làm",
+        detail:
+          "Thường bắt đầu bằng chỉ số TSH, sau đó tùy kết quả mà bác sĩ chỉ định thêm hormone tuyến giáp hoặc kháng thể. Chỉ cần lấy máu, không cần nhịn ăn trong hầu hết trường hợp nhưng nên hỏi lại nơi xét nghiệm. Kết quả thường có trong cùng ngày hoặc hôm sau.",
+      },
+      {
+        title: "Khai rõ nếu đang uống biotin",
+        detail:
+          "Biotin trong nhiều loại viên uống đẹp tóc đẹp da có thể làm sai lệch kết quả xét nghiệm tuyến giáp. Hãy nói với bác sĩ mọi viên uống bạn đang dùng, kể cả loại mua ở tiệm tạp hóa. Có nơi sẽ dặn ngưng vài ngày trước khi lấy máu.",
+      },
+      {
+        title: "Đừng tự mua i-ốt hay tảo biển để chữa",
+        detail:
+          "Bổ sung i-ốt bừa bãi có thể làm bệnh tuyến giáp nặng hơn chứ không phải cứ thiếu là bù. Có loại bệnh cần kiêng i-ốt chứ không phải thêm. Việc này phải chờ kết quả xét nghiệm và chỉ định của bác sĩ.",
+      },
+      {
+        title: "Hỏi rõ khi được chỉ định siêu âm tuyến giáp",
+        detail:
+          "Siêu âm nhẹ nhàng, không đau, không tia và dùng để xem có nhân giáp hay không. Nhân giáp rất phổ biến và phần lớn lành tính, nên đừng hoảng khi thấy chữ nhân trong kết quả. Hỏi bác sĩ ba câu: kích thước bao nhiêu, có cần chọc hút không, bao lâu siêu âm lại.",
+      },
+      {
+        title: "Nếu phải dùng thuốc, hỏi kỹ cách uống",
+        detail:
+          "Thuốc tuyến giáp thuộc nhóm cần uống rất đúng giờ và đúng cách, và nhiều loại thức ăn hay thuốc khác làm giảm hấp thu. Hỏi bác sĩ và dược sĩ về giờ uống, khoảng cách với bữa ăn và với canxi hay sắt. Bài này không nêu tên thuốc hay liều, đó là việc của bác sĩ.",
+      },
+      {
+        title: "Nhớ hẹn xét nghiệm lại",
+        detail:
+          "Bệnh tuyến giáp cần chỉnh dần theo kết quả nên bác sĩ thường hẹn xét nghiệm lại sau vài tuần tới vài tháng. Đặt lời nhắc trong lịch điện thoại ngay lúc rời phòng khám. Bỏ mốc tái khám là lý do phổ biến nhất khiến người bệnh mãi không ổn định.",
+      },
+      {
+        title: "Báo với bác sĩ nếu bạn đang hoặc sắp mang thai",
+        detail:
+          "Chức năng tuyến giáp ảnh hưởng tới thai kỳ và nhu cầu thay đổi khi có thai. Nếu đang điều trị mà phát hiện có thai, hãy liên hệ bác sĩ sớm chứ đừng tự ngưng thuốc. Nếu đang chuẩn bị có con, hãy nói ra để được theo dõi từ đầu.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Chẩn đoán và điều trị bệnh tuyến giáp phải dựa trên xét nghiệm và chỉ định của bác sĩ.",
+      "Bài không nêu tên thuốc và không nêu liều dùng. Không dùng đơn thuốc của người khác dù triệu chứng nghe giống hệt, vì cùng một bệnh mà liều mỗi người mỗi khác.",
+      "Không tự ngưng thuốc khi thấy khỏe hơn. Chỉ số ổn định là nhờ đang dùng thuốc đều, ngưng đột ngột có thể khiến triệu chứng quay lại nặng hơn.",
+      "ĐI KHÁM GẤP nếu tim đập nhanh dữ dội kèm sốt và bồn chồn khác thường, hoặc ngược lại lơ mơ, hạ thân nhiệt, phù nặng. Đi cấp cứu nếu khối vùng cổ to nhanh gây khó thở hoặc khó nuốt.",
+    ],
+    faq: [
+      {
+        q: "Vì sao phụ nữ hay bị bệnh tuyến giáp hơn nam giới?",
+        a: "Phần lớn bệnh tuyến giáp thường gặp thuộc nhóm tự miễn, mà bệnh tự miễn nhìn chung gặp ở nữ nhiều hơn nam. Thay đổi nội tiết quanh giai đoạn sau sinh và tiền mãn kinh cũng là những mốc dễ khởi phát.",
+      },
+      {
+        q: "Kết quả TSH lệch nhẹ có phải là bệnh không?",
+        a: "Không nhất thiết. Chỉ số này dao động theo thời điểm lấy máu, bệnh cấp tính đang mắc và một số thuốc đang dùng. Bác sĩ thường cho làm lại sau vài tuần và xem cùng triệu chứng chứ không kết luận từ một lần.",
+      },
+      {
+        q: "Bị tuyến giáp thì phải kiêng rau họ cải đúng không?",
+        a: "Với người ăn uống bình thường thì lượng rau họ cải trong bữa ăn hằng ngày không phải vấn đề. Điều đáng chú ý hơn là các viên bổ sung liều cao và tảo biển ăn thường xuyên. Hãy hỏi bác sĩ theo đúng loại bệnh của bạn thay vì kiêng theo lời mách.",
+      },
+      {
+        q: "Rụng tóc do tuyến giáp thì bao lâu mới mọc lại?",
+        a: "Tóc thường phục hồi chậm hơn các triệu chứng khác, nhiều người phải chờ vài tháng sau khi chỉ số đã ổn định. Trong lúc đó, đừng đổ tiền vào các liệu trình mọc tóc đắt tiền khi nguyên nhân gốc chưa được xử lý xong.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dau-nua-dau-theo-chu-ky-o-nu",
+    title: "Cứ gần tới ngày là đau nửa đầu: đó là một kiểu đau có tên riêng",
+    excerpt:
+      "Đau đầu đúng vào vài ngày quanh kỳ kinh không phải trùng hợp. Biết được quy luật thì bạn chặn được cơn thay vì chỉ chịu trận.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Cơn đau nửa đầu xuất hiện đều đặn trong khoảng vài ngày trước tới vài ngày đầu kỳ kinh có liên quan tới việc nồng độ nội tiết tụt xuống, và thường nặng hơn cũng như kéo dài hơn cơn đau ở thời điểm khác. Việc cần làm đầu tiên là ghi nhật ký đau đầu song song với ngày kinh trong ba chu kỳ để nhìn ra quy luật, rồi mang bảng đó tới khám ở chuyên khoa thần kinh. Có cách dự phòng theo chu kỳ, nhưng phải do bác sĩ chỉ định.",
+    prepare: [
+      "Một bảng theo dõi ba tháng: ngày kinh, ngày đau đầu, mức đau từ một tới mười",
+      "Ghi kèm giấc ngủ, bữa ăn bị bỏ, lượng cà phê và mức căng thẳng của những ngày đó",
+      "Danh sách thuốc giảm đau bạn đã dùng, số lần dùng mỗi tháng",
+      "Ghi rõ có kèm dấu hiệu báo trước như thấy chớp sáng hay tê một bên hay không",
+      "Thông tin về biện pháp tránh thai đang dùng, vì điều này ảnh hưởng tới lời khuyên của bác sĩ",
+    ],
+    steps: [
+      {
+        title: "Phân biệt đau nửa đầu với đau đầu căng cơ",
+        detail:
+          "Đau nửa đầu thường đau một bên, giật theo nhịp mạch, nặng lên khi cử động, kèm buồn nôn và sợ ánh sáng hoặc tiếng động. Đau căng cơ thì âm ỉ, siết như đội vòng quanh đầu, ít khi buồn nôn. Phân biệt được hai kiểu này thay đổi hẳn hướng xử trí.",
+      },
+      {
+        title: "Ghi nhật ký ba chu kỳ liền",
+        detail:
+          "Mỗi ngày ghi một dòng ngắn: hôm nay có đau không, đau bao lâu, mức mấy điểm, hôm nay là ngày thứ mấy của chu kỳ. Ba tháng là đủ để quy luật hiện ra. Đây là thứ có giá trị nhất bạn mang tới buổi khám và cũng là thứ khiến bác sĩ chẩn đoán nhanh hơn.",
+      },
+      {
+        title: "Đánh dấu cửa sổ nguy cơ của riêng bạn",
+        detail:
+          "Với nhiều người, cửa sổ hay đau rơi vào khoảng hai ngày trước tới ba ngày đầu kỳ kinh. Khi biết cửa sổ của mình, hãy đánh dấu sẵn vào lịch của các tháng tới. Biết trước là điều kiện để chuẩn bị chứ không phải để lo lắng.",
+      },
+      {
+        title: "Dọn dẹp những ngày trong cửa sổ đó",
+        detail:
+          "Cố gắng không xếp deadline căng, không thức khuya và không bỏ bữa trong những ngày này. Bỏ bữa và thiếu ngủ là hai yếu tố khởi phát dễ tránh nhất mà lại hay bị xem nhẹ. Chỉ riêng việc dọn lịch cho nhẹ đã giúp nhiều người giảm số cơn.",
+      },
+      {
+        title: "Giữ giờ ngủ và giờ ăn thật đều",
+        detail:
+          "Não của người hay đau nửa đầu rất nhạy với sự thay đổi đột ngột, kể cả ngủ nướng cuối tuần. Cố định giờ ngủ và giờ dậy trong khoảng chênh lệch một tiếng, ăn ba bữa đúng giờ. Đây là biện pháp nền, tác dụng thấy rõ sau vài tuần chứ không phải sau một hôm.",
+      },
+      {
+        title: "Rà lại lượng cà phê",
+        detail:
+          "Cà phê có thể vừa giúp giảm cơn vừa gây cơn, tùy vào bạn dùng đều hay dùng thất thường. Cắt cà phê đột ngột vào đúng cửa sổ nguy cơ dễ kéo tới một cơn nặng. Nếu muốn giảm thì giảm dần vào những ngày ngoài cửa sổ.",
+      },
+      {
+        title: "Xử trí ngay khi cơn mới chớm",
+        detail:
+          "Vào phòng tối, yên tĩnh, đắp mát lên trán hoặc gáy và uống nước. Nằm nghỉ trong ba mươi phút đầu có tác dụng hơn nhiều so với cố gắng làm việc tiếp rồi mới nghỉ khi đã đau dữ. Sai lầm phổ biến là cố chịu cho xong việc rồi mới xử lý.",
+      },
+      {
+        title: "Đếm số ngày dùng thuốc giảm đau mỗi tháng",
+        detail:
+          "Dùng thuốc giảm đau quá nhiều ngày trong tháng có thể sinh ra kiểu đau đầu do lạm dụng thuốc, tức là càng uống càng đau. Hãy đếm và ghi lại số ngày, rồi báo con số đó cho bác sĩ. Đây là chi tiết mà bác sĩ luôn muốn biết.",
+      },
+      {
+        title: "Đi khám chuyên khoa thần kinh",
+        detail:
+          "Mang bảng ba tháng, danh sách thuốc và thông tin biện pháp tránh thai đang dùng. Nói rõ mối liên hệ với kỳ kinh, vì đây là chi tiết định hướng chẩn đoán. Bác sĩ có thể đề nghị cách dự phòng theo chu kỳ cho người có quy luật rõ.",
+      },
+      {
+        title: "Nói rõ nếu bạn có dấu hiệu báo trước",
+        detail:
+          "Thấy chớp sáng, điểm mờ, tê một bên tay hay khó nói trước khi đau là kiểu đau nửa đầu có tiền triệu. Điều này ảnh hưởng tới lời khuyên về biện pháp tránh thai chứa nội tiết, nên bắt buộc phải nói ra. Đừng bỏ qua chi tiết này vì tưởng nó không liên quan.",
+      },
+      {
+        title: "Bàn với bác sĩ về biện pháp tránh thai đang dùng",
+        detail:
+          "Một số biện pháp có thể làm thay đổi kiểu đau, theo chiều tốt lên hoặc xấu đi tùy người. Đừng tự ngưng hay tự đổi, hãy đưa việc này ra bàn trong buổi khám. Bác sĩ cần biết cả tiền sử đau đầu lẫn tiền sử tim mạch để tư vấn.",
+      },
+      {
+        title: "Đặt lịch xem lại sau ba tháng",
+        detail:
+          "Tiếp tục ghi nhật ký sau khi bắt đầu điều trị để biết cách đang làm có hiệu quả hay không. So số cơn và mức đau trung bình của ba tháng trước và sau. Có số liệu thì buổi tái khám mới đi tới đâu được.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Bài không nêu tên thuốc và không nêu liều dùng, mọi chỉ định phải do bác sĩ đưa ra.",
+      "Đau nửa đầu có tiền triệu và biện pháp tránh thai chứa nội tiết là chuyện cần bác sĩ cân nhắc riêng cho từng người. Đừng tự quyết định dựa trên thông tin trên mạng.",
+      "Nếu bạn đang dùng thuốc giảm đau nhiều ngày trong tháng, hãy nói với bác sĩ. Việc giảm dần cần có hướng dẫn chứ không nên tự cắt đột ngột.",
+      "ĐI CẤP CỨU NGAY nếu đau đầu dữ dội xuất hiện đột ngột như sét đánh, đau kèm sốt và cứng gáy, kèm yếu liệt hay méo miệng hay nói khó, đau sau chấn thương đầu, hoặc kiểu đau khác hẳn mọi lần trước.",
+    ],
+    faq: [
+      {
+        q: "Vì sao cơn quanh kỳ kinh thường nặng hơn?",
+        a: "Nhiều tài liệu ghi nhận cơn ở giai đoạn này thường kéo dài hơn, đáp ứng kém hơn với cách xử trí thông thường và dễ tái phát trong cùng đợt. Đó là lý do việc dự phòng theo chu kỳ được đặt ra, thay vì chỉ chờ đau rồi mới chữa.",
+      },
+      {
+        q: "Tới tuổi mãn kinh thì có hết không?",
+        a: "Nhiều người thấy đỡ hẳn sau khi nội tiết ổn định lại, nhưng giai đoạn tiền mãn kinh lại thường là lúc cơn nhiều và thất thường nhất. Không nên chờ đợi tự khỏi mà bỏ qua việc điều trị trong nhiều năm.",
+      },
+      {
+        q: "Nhật ký đau đầu ghi bằng ứng dụng hay bằng sổ tay?",
+        a: "Cách nào cũng được, miễn là bạn duy trì được đủ ba tháng và có thể đưa cho bác sĩ xem. Điều quan trọng là ghi đủ ba cột: ngày của chu kỳ, mức đau và các yếu tố đi kèm như giấc ngủ hay bữa ăn bị bỏ.",
+      },
+      {
+        q: "Đau đầu quanh kỳ kinh có cần chụp cộng hưởng từ không?",
+        a: "Phần lớn trường hợp có quy luật rõ và khám thần kinh bình thường thì không cần chụp. Bác sĩ chỉ định chụp khi có dấu hiệu cảnh báo như kiểu đau đổi khác, đau tăng dần hoặc có bất thường khi khám.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "chon-quan-jeans-vua-dang-cho-nu",
+    title: "Thử mười cái quần jeans vẫn không vừa: vấn đề nằm ở ba số đo, không ở bạn",
+    excerpt:
+      "Vừa mông thì hở lưng, vừa eo thì chật đùi. Biết dáng quần và chất vải trước khi vào phòng thử sẽ tiết kiệm cả buổi chiều.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Quần jeans không vừa thường không phải do cơ thể bạn sai mà do bạn đang chọn sai dáng và sai chất vải cho tỉ lệ của mình. Hãy đo ba số: vòng eo, vòng mông và chiều dài chân trong, rồi đối chiếu với bảng số đo của từng hãng thay vì tin vào cỡ ghi trên nhãn. Sau đó chọn dáng theo mục đích mặc, chọn độ co giãn theo mức thoải mái bạn muốn, và chấp nhận rằng sửa lại phần lưng hoặc gấu quần là chuyện bình thường chứ không phải thất bại.",
+    prepare: [
+      "Thước dây mềm và một chiếc quần bạn đang mặc vừa nhất để làm mốc",
+      "Ba số đo ghi sẵn trong điện thoại: vòng eo, vòng mông, chiều dài chân trong",
+      "Đôi giày bạn hay đi cùng kiểu quần đó, mang theo khi đi thử",
+      "Ảnh chụp bảng số đo của hãng nếu mua online",
+      "Kiên nhẫn thử ít nhất hai dáng khác nhau chứ đừng chỉ đổi cỡ",
+    ],
+    steps: [
+      {
+        title: "Đo ba số quan trọng nhất",
+        detail:
+          "Vòng eo đo ở chỗ nhỏ nhất, vòng mông đo ở chỗ đầy nhất, chiều dài chân trong đo từ đũng quần xuống mắt cá. Đo lúc mặc đồ mỏng và đứng thẳng, không hóp bụng. Ba số này dùng được cho mọi hãng, còn chữ ghi trên nhãn thì mỗi hãng một kiểu.",
+      },
+      {
+        title: "Quên cỡ số bạn vẫn nghĩ là của mình",
+        detail:
+          "Cùng một người có thể mặc ba cỡ khác nhau ở ba hãng, đó là chuyện hoàn toàn bình thường trong ngành may mặc. Bám vào một con số cũ chỉ khiến bạn bực mình trong phòng thử. Hãy đối chiếu số đo với bảng cỡ của chính hãng đó.",
+      },
+      {
+        title: "Đọc thành phần vải trước khi thử",
+        detail:
+          "Vải cotton nguyên chất giữ phom cứng cáp nhưng ngày đầu rất chật và giãn dần khi mặc. Vải có pha sợi co giãn thì mặc thoải mái ngay nhưng dễ bai ở đầu gối và mông sau vài lần. Biết trước điều này thì bạn sẽ chọn cỡ khác nhau cho hai loại vải.",
+      },
+      {
+        title: "Chọn dáng theo tỉ lệ của mình",
+        detail:
+          "Chênh lệch giữa vòng eo và vòng mông càng lớn thì càng hợp với dáng lưng cao và ống suông hoặc ống loe, vì phần lưng quần ôm được eo mà không kéo căng ở mông. Người có chênh lệch nhỏ thì hợp hơn với dáng lưng vừa và ống thẳng. Thử hai dáng rồi so ảnh chụp sẽ rõ ngay.",
+      },
+      {
+        title: "Đừng chọn cỡ theo cái nút cài",
+        detail:
+          "Cài được nút chưa có nghĩa là vừa. Hãy ngồi xuống, đứng lên, đi vài bước và cúi người trong phòng thử. Rất nhiều chiếc quần đứng thì đẹp mà ngồi xuống thì siết bụng hoặc tụt lưng, và bạn chỉ phát hiện điều đó nếu chịu thử.",
+      },
+      {
+        title: "Kiểm tra khe hở ở lưng quần",
+        detail:
+          "Đưa hai ngón tay vào phần lưng sau khi đã cài nút. Vừa hai ngón là hợp lý, lọt cả bàn tay là quần đang hở và sẽ tụt cả ngày. Nếu mọi thứ vừa mà chỉ hở lưng thì đó là chiếc quần nên mua rồi mang đi sửa.",
+      },
+      {
+        title: "Nhìn kỹ vùng đũng quần",
+        detail:
+          "Nếp nhăn túa ra hình chữ V ở đũng nghĩa là quần đang chật hoặc đũng quá thấp so với bạn. Vải bị kéo căng ở một điểm là dấu hiệu sai cỡ chứ không phải sai dáng người. Đổi sang dáng có phần đũng dài hơn thường xử lý được ngay.",
+      },
+      {
+        title: "Xác định độ dài theo giày",
+        detail:
+          "Cùng chiếc quần đó mà đi giày bệt hay giày cao gót thì độ dài cần khác nhau. Mang đúng đôi giày hay đi khi đi thử quần. Nếu định đi cả hai loại giày thì chọn độ dài theo đôi bạn đi nhiều hơn.",
+      },
+      {
+        title: "Tính luôn tiền sửa vào giá quần",
+        detail:
+          "Bóp lưng, lên gấu hay sửa ống là những việc rẻ và nhanh ở tiệm may. Một chiếc quần vừa dáng sau khi sửa dùng được vài năm, còn chiếc mua vội thì nằm trong tủ. Hãy hỏi giá sửa trước để tính vào ngân sách ngay khi đứng ở cửa hàng.",
+      },
+      {
+        title: "Mua online thì mua từ nơi đổi trả dễ",
+        detail:
+          "Đọc kỹ bảng số đo, chọn hai cỡ liền nhau nếu chính sách cho phép, và giữ nguyên nhãn cho tới khi chắc chắn. Chụp lại số đo của chiếc bạn đang mặc vừa để so với bảng của hãng. Đừng mua nhiều chiếc cùng lúc từ một hãng bạn chưa từng thử.",
+      },
+      {
+        title: "Giặt sao cho quần bền màu",
+        detail:
+          "Lộn mặt trái, giặt nước lạnh, chỉ giặt khi thật sự cần chứ không phải sau mỗi lần mặc. Nhiệt độ cao và sấy khô là hai thứ làm vải bai và bạc màu nhanh nhất. Phơi ở chỗ thoáng và tránh nắng gắt chiếu thẳng.",
+      },
+      {
+        title: "Cứu chiếc quần bị bai",
+        detail:
+          "Quần vải co giãn bị rộng ra sau vài lần mặc thường co lại được phần nào sau một lần giặt. Nhưng nếu đã bai ở đầu gối và mông thì đó là dấu hiệu tỉ lệ sợi co giãn cao, lần sau nên chọn loại ít co giãn hơn. Coi như một bài học đọc nhãn thành phần.",
+      },
+    ],
+    notes: [
+      "Số đo là công cụ để chọn đồ, không phải để chấm điểm bản thân. Cùng một số đo mà mỗi hãng gọi bằng một cỡ khác nhau, nên con số trên nhãn không nói lên điều gì về bạn.",
+      "Quần quá chật ở vùng bụng và đùi trong, mặc liên tục nhiều giờ, có thể gây khó chịu và bí bách vùng kín. Nếu thấy ngứa rát tái đi tái lại, hãy xem lại độ ôm của quần và chất liệu đồ lót.",
+      "Vải jeans thô mới mua có thể ra màu trong vài lần giặt đầu, nên giặt riêng để khỏi làm hỏng đồ sáng màu.",
+      "Nếu cân nặng của bạn đang thay đổi nhanh không rõ lý do khiến quần áo không vừa liên tục, đó là chuyện nên đi khám chứ không phải chuyện chọn quần.",
+    ],
+    faq: [
+      {
+        q: "Nên mua chật một chút để mặc lâu sẽ giãn đúng không?",
+        a: "Chỉ đúng với vải cotton nguyên chất không pha sợi co giãn, loại này thường giãn ra chút ít theo dáng người sau vài lần mặc. Với vải có pha sợi co giãn thì mua chật là chật mãi và còn nhanh bai ở chỗ khác.",
+      },
+      {
+        q: "Vừa mông thì hở lưng, phải làm sao?",
+        a: "Đây là tình huống phổ biến nhất và cách xử lý gọn nhất là mua theo vòng mông rồi mang đi bóp lưng. Ngoài ra hãy thử các dáng lưng cao, chúng thường ôm eo tốt hơn cho người có chênh lệch eo mông lớn.",
+      },
+      {
+        q: "Có nên giặt quần jeans mới trước khi mặc không?",
+        a: "Nên giặt một lần bằng nước lạnh, lộn mặt trái, để loại bớt màu thừa và hóa chất còn sót từ khâu hoàn thiện. Sau đó thì giặt càng thưa càng bền, chỉ cần treo thoáng giữa các lần mặc.",
+      },
+      {
+        q: "Đi thử quần vào buổi nào thì chuẩn nhất?",
+        a: "Buổi chiều thường phản ánh đúng hơn vì cơ thể đã ăn uống và vận động cả ngày. Quần vừa vào buổi sáng lúc bụng đói có thể chật vào buổi tối, và bạn sẽ mặc nó vào cả hai thời điểm đó.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "canxi-va-loang-xuong-o-phu-nu-tu-tuoi-30",
+    title: "Loãng xương bắt đầu từ tuổi 30 chứ không phải tuổi 60",
+    excerpt:
+      "Xương đạt đỉnh rồi mất dần, và phụ nữ mất nhanh hơn hẳn sau mãn kinh. Việc gửi tiết kiệm cho bộ xương phải làm từ bây giờ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    author: null,
+    quickAnswer:
+      "Khối lượng xương đạt đỉnh vào khoảng cuối tuổi hai mươi tới đầu ba mươi rồi giảm dần, và tốc độ giảm ở phụ nữ tăng vọt trong những năm quanh mãn kinh. Loãng xương gần như không có triệu chứng cho tới khi gãy xương, nên chờ thấy dấu hiệu là đã muộn. Ba việc có tác động thật là ăn đủ canxi, đủ vitamin D và tập các bài chịu tải trọng lượng cơ thể. Đo mật độ xương là việc cần bác sĩ chỉ định chứ không phải ai cũng làm ở tuổi này.",
+    prepare: [
+      "Ghi lại lượng thực phẩm giàu canxi bạn ăn trong ba ngày để biết mình đang ở đâu",
+      "Tiền sử gia đình: mẹ hoặc bà có bị gãy xương hông, gãy xương cổ tay hay còng lưng không",
+      "Danh sách thuốc đang dùng dài ngày, nhất là nhóm corticoid",
+      "Ghi lại mức vận động hiện tại: mỗi tuần bao nhiêu buổi, kiểu gì",
+      "Chiều cao hiện tại, để so lại sau vài năm",
+    ],
+    steps: [
+      {
+        title: "Hiểu vì sao phụ nữ là nhóm cần chú ý hơn",
+        detail:
+          "Phụ nữ thường có khối xương nền thấp hơn nam giới và mất xương nhanh hơn hẳn trong những năm quanh mãn kinh do nội tiết thay đổi. Cộng hai yếu tố đó lại thì nguy cơ gãy xương ở tuổi già cao hơn nhiều. Đó là lý do việc chuẩn bị phải bắt đầu sớm.",
+      },
+      {
+        title: "Tính sơ lượng canxi bạn đang ăn",
+        detail:
+          "Ghi lại ba ngày ăn uống rồi đếm các nguồn canxi chính: sữa và chế phẩm từ sữa, cá nhỏ ăn được cả xương, đậu phụ, rau lá xanh đậm, vừng. Rất nhiều người ăn dưới một nửa nhu cầu mà không hề biết. Biết con số thực tế rồi hãy tính chuyện bổ sung.",
+      },
+      {
+        title: "Ưu tiên canxi từ thức ăn trước",
+        detail:
+          "Canxi từ thực phẩm hấp thu ổn định và đi kèm các chất khác mà viên uống không có. Rải đều trong ngày thay vì dồn vào một bữa, vì cơ thể hấp thu tốt hơn khi lượng vừa phải mỗi lần. Thêm một nguồn canxi vào mỗi bữa là cách dễ nhớ nhất.",
+      },
+      {
+        title: "Đừng tự mua viên canxi liều cao",
+        detail:
+          "Bổ sung canxi liều cao kéo dài không phải vô hại, có thể liên quan tới sỏi thận và một số vấn đề khác. Nếu ăn không đủ, hãy hỏi bác sĩ về mức bổ sung phù hợp với riêng bạn. Bài này không nêu liều, đó là việc của bác sĩ và dược sĩ.",
+      },
+      {
+        title: "Chú ý vitamin D vì canxi cần nó mới hấp thu được",
+        detail:
+          "Uống canxi mà thiếu vitamin D thì phần lớn công sức đổ đi. Người ở trong nhà cả ngày, che chắn kỹ khi ra ngoài và ăn ít cá béo là nhóm dễ thiếu. Hỏi bác sĩ xem có nên xét nghiệm và bổ sung hay không thay vì tự đoán.",
+      },
+      {
+        title: "Tập bài chịu tải trọng lượng cơ thể",
+        detail:
+          "Xương chắc lên khi bị tác động lực, nên đi bộ nhanh, leo cầu thang, nhảy dây nhẹ và tập tạ có tác dụng, còn bơi và đạp xe thì tốt cho tim mạch nhưng ít tác dụng lên xương. Ba tới bốn buổi mỗi tuần là mức nhiều tài liệu khuyên. Bắt đầu nhẹ rồi tăng dần.",
+      },
+      {
+        title: "Thêm tập kháng lực hai buổi mỗi tuần",
+        detail:
+          "Cơ khỏe kéo vào xương và giữ thăng bằng tốt hơn, mà phần lớn ca gãy xương ở người lớn tuổi là do ngã. Hai buổi mỗi tuần với các động tác cơ bản là đủ để bắt đầu. Người mới nên nhờ huấn luyện viên sửa tư thế vài buổi đầu.",
+      },
+      {
+        title: "Bỏ thuốc lá và giới hạn rượu",
+        detail:
+          "Hút thuốc và uống rượu nhiều đều được ghi nhận làm giảm mật độ xương. Đây là hai yếu tố nguy cơ thay đổi được, khác với tuổi tác và di truyền. Nếu chỉ chọn được một việc để làm ngay thì bỏ thuốc là việc đáng chọn nhất.",
+      },
+      {
+        title: "Để ý những mốc làm mất xương nhanh",
+        detail:
+          "Mất kinh kéo dài do tập luyện quá sức hoặc ăn kiêng khắc nghiệt, dùng corticoid dài ngày, mãn kinh sớm và một số bệnh mạn tính đều là mốc cần nói với bác sĩ. Những trường hợp này có thể cần đo mật độ xương sớm hơn tuổi thông thường.",
+      },
+      {
+        title: "Hỏi bác sĩ về việc đo mật độ xương",
+        detail:
+          "Đo mật độ xương là kỹ thuật nhanh, không đau, nhưng không phải phụ nữ ba mươi tuổi nào cũng cần làm. Hãy đưa tiền sử gia đình và các yếu tố nguy cơ ra để bác sĩ quyết định. Tự đi đo ở nơi quảng cáo bằng máy cầm tay ở gót chân thường không thay thế được kỹ thuật chuẩn.",
+      },
+      {
+        title: "Dọn nhà cho bớt nguy cơ ngã",
+        detail:
+          "Thảm trơn, dây điện vắt ngang lối đi, nhà tắm không có thanh vịn và đèn hành lang tối là những thứ gây ngã nhiều nhất. Việc này càng đáng làm nếu trong nhà có người lớn tuổi. Phòng ngã là cách phòng gãy xương trực tiếp nhất.",
+      },
+      {
+        title: "Đo lại chiều cao mỗi năm",
+        detail:
+          "Thấp đi rõ rệt qua các năm hoặc lưng còng dần có thể là dấu hiệu xẹp đốt sống. Ghi chiều cao mỗi năm một lần vào cùng một chỗ với các số liệu sức khỏe khác. Thấy giảm đáng kể thì mang con số đó đi khám.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Bài không nêu liều canxi hay vitamin D, việc bổ sung bao nhiêu phải do bác sĩ quyết định theo tình trạng của bạn.",
+      "Không tự mua viên bổ sung liều cao theo lời quảng cáo. Bổ sung quá mức kéo dài có thể gây hại chứ không phải càng nhiều càng tốt.",
+      "Loãng xương gần như không có triệu chứng cho tới khi gãy xương. Đừng dựa vào cảm giác đau nhức xương khớp để suy ra mình có bị hay không, hai chuyện đó không đi cùng nhau.",
+      "ĐI KHÁM NGAY nếu bị đau lưng dữ dội xuất hiện đột ngột, hoặc gãy xương sau một va chạm rất nhẹ như trượt chân ở nhà. Gãy xương do lực nhẹ là dấu hiệu cảnh báo quan trọng.",
+    ],
+    faq: [
+      {
+        q: "Uống sữa mỗi ngày là đủ canxi rồi phải không?",
+        a: "Sữa là nguồn tốt nhưng thường chưa đủ nếu chỉ uống một ly mỗi ngày. Hãy đếm tổng các nguồn trong ba ngày ăn uống thật của bạn rồi so với nhu cầu, thay vì yên tâm vì có uống sữa.",
+      },
+      {
+        q: "Phơi nắng bao lâu thì đủ vitamin D?",
+        a: "Rất khó đưa ra một con số chung vì còn tùy màu da, giờ nắng, mức che chắn và nơi bạn sống. Cách chắc chắn hơn là hỏi bác sĩ xem có nên xét nghiệm, nhất là nếu bạn ở trong nhà gần như cả ngày.",
+      },
+      {
+        q: "Người trẻ gầy có nguy cơ cao hơn không?",
+        a: "Người có khung xương nhỏ và cân nặng thấp thường có khối xương nền thấp hơn, nên đây được xem là một yếu tố nguy cơ. Điều đáng lo hơn là ăn kiêng khắc nghiệt tới mức mất kinh, vì tình trạng đó làm mất xương nhanh ở tuổi lẽ ra đang tích xương.",
+      },
+      {
+        q: "Uống canxi thì có bị sỏi thận không?",
+        a: "Canxi từ thức ăn nhìn chung không làm tăng nguy cơ, còn viên bổ sung liều cao dùng dài ngày thì có liên quan trong một số nghiên cứu. Đây chính là lý do nên ưu tiên nguồn từ bữa ăn và hỏi bác sĩ trước khi uống viên.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dau-mot-ben-bung-khi-cham-kinh",
+    title: "Chậm kinh kèm đau nhói một bên bụng dưới: đây là tình huống không được chờ",
+    excerpt:
+      "Có một biến chứng thai kỳ sớm mà mỗi giờ trì hoãn đều tính. Biết ba dấu hiệu này có thể cứu tính mạng bạn hoặc người thân.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nu-gioi",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Nếu bạn chậm kinh và bị đau nhói hoặc đau quặn một bên bụng dưới, kèm ra máu âm đạo bất thường, chóng mặt hoặc đau lan lên vai, hãy tới cơ sở y tế có khoa sản ngay lập tức. Đó có thể là thai ngoài tử cung, tình trạng cần xử trí gấp vì có thể gây chảy máu trong. Đừng chờ tới sáng, đừng tự uống thuốc giảm đau rồi nằm theo dõi, và đừng đi một mình nếu đang chóng mặt. Que thử thai âm tính cũng không loại trừ hoàn toàn nên vẫn phải đi khám khi đau nhiều.",
+    prepare: [
+      "Nhớ ngày đầu của kỳ kinh gần nhất, đây là câu hỏi đầu tiên bác sĩ sẽ hỏi",
+      "Que thử thai nếu có sẵn ở nhà, nhưng đừng để việc tìm que làm chậm chuyến đi",
+      "Giấy tờ tùy thân và thẻ bảo hiểm y tế",
+      "Số điện thoại của một người thân có thể đi cùng ngay",
+      "Danh sách thuốc đang dùng và tiền sử phẫu thuật vùng bụng nếu có",
+    ],
+    steps: [
+      {
+        title: "Nhận ra bộ ba dấu hiệu cần nhớ",
+        detail:
+          "Ba dấu hiệu đi cùng nhau là chậm kinh, đau một bên bụng dưới và ra máu âm đạo bất thường. Không phải ai cũng có đủ cả ba, và nhiều người chỉ đau âm ỉ lúc đầu. Có hai trong ba dấu hiệu đã là lý do đủ để đi khám ngay.",
+      },
+      {
+        title: "Phân biệt với đau bụng kinh quen thuộc",
+        detail:
+          "Đau bụng kinh thường đau quặn giữa bụng dưới, có quy luật và đúng vào kỳ kinh của bạn. Kiểu đau đáng lo là đau lệch hẳn về một bên, tăng dần, kéo dài và khác với mọi lần trước. Câu hỏi hữu ích nhất là: cơn đau này có giống mọi tháng không.",
+      },
+      {
+        title: "Đừng tin tuyệt đối vào que thử thai",
+        detail:
+          "Que thử có thể âm tính nếu thử quá sớm hoặc thử sai cách, và có trường hợp thai ngoài tử cung cho vạch rất mờ. Que dương tính thì càng phải đi khám ngay để biết thai nằm đúng chỗ hay không. Que thử là thông tin thêm chứ không phải căn cứ để ở nhà.",
+      },
+      {
+        title: "Cảnh giác với đau lan lên vai",
+        detail:
+          "Đau ở đầu vai xuất hiện cùng lúc với đau bụng dưới là dấu hiệu có thể có máu trong ổ bụng kích thích cơ hoành. Đây là dấu hiệu nặng và cần đi cấp cứu ngay, không chờ đợi. Rất nhiều người bỏ qua vì tưởng mình chỉ mỏi vai.",
+      },
+      {
+        title: "Cảnh giác với chóng mặt và vã mồ hôi",
+        detail:
+          "Chóng mặt khi ngồi dậy, người lạnh, vã mồ hôi, tim đập nhanh là những dấu hiệu mất máu bên trong. Lúc này không được tự lái xe. Gọi người nhà đưa đi hoặc gọi cấp cứu, và nằm nghiêng chờ trong lúc đó.",
+      },
+      {
+        title: "Đi tới đúng nơi",
+        detail:
+          "Bệnh viện có khoa sản và có khả năng phẫu thuật cấp cứu là nơi cần tới, không phải phòng khám nhỏ đóng cửa lúc nửa đêm. Nếu ở xa, hãy gọi trước để hỏi cơ sở gần nhất có khoa sản trực đêm. Chọn đúng nơi ngay từ đầu tiết kiệm được thời gian quý giá.",
+      },
+      {
+        title: "Nói đúng câu khi tới nơi",
+        detail:
+          "Hãy nói ngay ở quầy tiếp nhận: em chậm kinh, đau một bên bụng dưới, em lo bị thai ngoài tử cung. Câu này khiến bạn được ưu tiên phân loại đúng mức độ. Đừng chỉ nói là em đau bụng, vì mức độ ưu tiên sẽ khác.",
+      },
+      {
+        title: "Đừng ăn uống trước khi được khám",
+        detail:
+          "Nếu có khả năng phải can thiệp phẫu thuật thì bụng rỗng là điều kiện quan trọng. Trong lúc chờ, hãy nhịn ăn uống và nói với nhân viên y tế về lần cuối bạn ăn. Đây là chi tiết nhỏ mà giúp mọi việc nhanh hơn rất nhiều.",
+      },
+      {
+        title: "Đừng tự uống thuốc giảm đau rồi nằm theo dõi",
+        detail:
+          "Thuốc giảm đau che đi triệu chứng và làm bạn yên tâm nhầm trong khi tình trạng bên trong vẫn tiến triển. Đây là sai lầm nguy hiểm nhất trong tình huống này. Chịu đau vài chục phút trên đường đi khám còn hơn ngủ quên vì đã bớt đau.",
+      },
+      {
+        title: "Biết bác sĩ sẽ làm gì",
+        detail:
+          "Thường là hỏi bệnh sử, khám bụng, xét nghiệm máu để đo nồng độ nội tiết thai và siêu âm để xem thai nằm ở đâu. Có trường hợp phải xét nghiệm lại sau vài ngày mới kết luận được. Cứ hỏi rõ từng bước, bạn có quyền được giải thích.",
+      },
+      {
+        title: "Nói rõ nếu bạn thuộc nhóm nguy cơ cao hơn",
+        detail:
+          "Từng bị thai ngoài tử cung, từng viêm nhiễm vùng chậu, từng phẫu thuật vòi trứng hoặc đang đặt vòng là những thông tin quan trọng. Nói ngay từ đầu chứ đừng đợi bác sĩ hỏi. Những chi tiết này làm thay đổi mức độ nghi ngờ và tốc độ xử trí.",
+      },
+      {
+        title: "Sau khi ổn định, hỏi về lần sau",
+        detail:
+          "Nếu đã từng gặp tình trạng này, hãy hỏi bác sĩ về việc theo dõi sớm ở lần mang thai tiếp theo. Nhiều nơi sẽ hẹn siêu âm sớm hơn thường lệ để xác định vị trí thai. Ghi lại toàn bộ giấy tờ của lần này, chúng có ích cho những lần khám sau.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa và không thay thế việc khám cấp cứu. Bài không nêu tên thuốc và không nêu liều dùng.",
+      "ĐI CẤP CỨU NGAY, không chờ tới sáng, nếu có: đau bụng dưới dữ dội hoặc tăng dần, đau lan lên vai, chóng mặt xây xẩm hoặc ngất, da lạnh vã mồ hôi, ra máu âm đạo nhiều bất thường khi đang chậm kinh.",
+      "Không tự lái xe khi đang chóng mặt hoặc đau nhiều. Gọi người nhà hoặc gọi cấp cứu, và nếu đi một mình thì hãy nhắn cho ai đó biết bạn đang ở đâu.",
+      "Đây là bài về dấu hiệu cần đi khám, không phải bài hướng dẫn tự xử trí tại nhà. Không có cách nào theo dõi an toàn tại nhà cho tình huống này.",
+    ],
+    faq: [
+      {
+        q: "Đang đặt vòng tránh thai thì có bị không?",
+        a: "Vòng tránh thai giảm mạnh khả năng có thai, nhưng nếu vẫn có thai thì tỉ lệ thai nằm ngoài tử cung lại cao hơn. Vì vậy người đang đặt vòng mà chậm kinh kèm đau một bên bụng càng nên đi khám sớm chứ đừng loại trừ vì nghĩ mình đã có biện pháp.",
+      },
+      {
+        q: "Nếu thử thai âm tính mà vẫn đau một bên thì sao?",
+        a: "Vẫn phải đi khám. Đau một bên bụng dưới còn có thể do xoắn buồng trứng, vỡ nang buồng trứng hay viêm ruột thừa, đều là những tình trạng cần xử trí sớm. Que âm tính chỉ loại bớt một khả năng chứ không giải quyết được cơn đau.",
+      },
+      {
+        q: "Cơn đau đỡ rồi thì có cần đi nữa không?",
+        a: "Có. Cơn đau dịu đi không đồng nghĩa với tình trạng đã ổn, và trong một số trường hợp đó là dấu hiệu đáng lo hơn chứ không phải nhẹ hơn. Đã có bộ dấu hiệu như trên thì vẫn nên đi khám trong ngày.",
+      },
+      {
+        q: "Đi khám tốn kém và mất thời gian, có cách nào chờ xem sao không?",
+        a: "Không nên. Đây là một trong số ít tình huống mà việc chờ đợi có thể gây nguy hiểm tính mạng do chảy máu trong. Chi phí một lần khám cấp cứu nhỏ hơn rất nhiều so với cái giá của việc đi muộn.",
+      },
+    ],
+    sources: [],
+  },
 ];
