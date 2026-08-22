@@ -518,4 +518,533 @@ export const day20260822trua = [
     ],
     sources: [],
   },
+  {
+    slug: "dung-va-ve-sinh-dieu-hoa-phong-tro",
+    title: "Điều hoà phòng trọ: dùng sao cho mát mà đỡ tốn điện, bao lâu phải vệ sinh",
+    excerpt:
+      "Điều hoà chạy cả đêm mà vẫn không mát, hoá đơn thì tăng đều. Phần lớn trường hợp không phải máy hỏng, mà là do cách dùng và do cái lưới lọc chưa ai đụng tới từ năm ngoái.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Ba việc giúp mát nhanh và tốn ít điện: để nhiệt độ ở mức vừa phải quanh hai sáu tới hai tám độ thay vì hạ kịch xuống mười sáu, bật thêm quạt để đẩy khí lạnh đi khắp phòng, và bịt kín các khe hở cửa. Máy chạy suốt mà không mát thì trước tiên tháo lưới lọc ra rửa — đây là việc nên làm mỗi vài tuần và bạn tự làm được trong mười phút. Vệ sinh sâu phần dàn lạnh và dàn nóng thì gọi thợ, thường mỗi sáu tháng tới một năm một lần tuỳ tần suất dùng. Ở nhà thuê thì hỏi chủ trọ trước xem ai chịu chi phí này.",
+    prepare: [
+      "Thang hoặc ghế chắc chắn để với tới máy — đừng kê ghế nhựa mềm rồi trèo lên",
+      "Chậu nước ấm với chút nước rửa chén và bàn chải mềm để rửa lưới lọc",
+      "Khăn khô sạch để lau vỏ máy và lau khô lưới trước khi lắp lại",
+      "Điều khiển còn pin và bạn hiểu được các nút — không hiểu thì tra tên máy trên mạng",
+      "Số điện thoại chủ trọ, để hỏi trước xem máy có đang trong thời gian bảo hành hay có thợ quen không",
+    ],
+    steps: [
+      {
+        title: "Ngắt điện trước khi động vào máy",
+        detail:
+          "Tắt bằng điều khiển chưa đủ. Gạt aptomat của phòng hoặc rút phích cắm nếu máy có phích. Đây là bước ba giây mà nhiều người bỏ qua rồi hối hận. Chỉ khi đã chắc chắn không còn điện mới mở nắp máy.",
+      },
+      {
+        title: "Mở nắp và rút hai tấm lưới lọc ra",
+        detail:
+          "Nắp trước của dàn lạnh thường bật lên được bằng tay, có hai chốt hai bên. Bên trong là hai tấm lưới nhựa mỏng, chỉ cần nhấc nhẹ lên rồi kéo ra. Nếu tấm lưới xám xịt hoặc phủ một lớp bụi dày như nỉ thì bạn đã tìm ra lý do phòng không mát.",
+      },
+      {
+        title: "Rửa lưới lọc bằng nước, phơi khô hẳn rồi mới lắp",
+        detail:
+          "Xả dưới vòi cho trôi bụi, rồi ngâm nước ấm pha chút nước rửa chén, dùng bàn chải mềm chà nhẹ. Đừng dùng nước quá nóng vì lưới nhựa sẽ cong. Vẩy ráo rồi để khô hoàn toàn trong bóng râm, lắp lưới còn ẩm vào là máy có mùi ẩm mốc ngay. Làm việc này mỗi hai tới bốn tuần nếu bạn dùng máy hằng ngày.",
+      },
+      {
+        title: "Lau cánh đảo gió và vỏ máy",
+        detail:
+          "Dùng khăn ẩm lau cánh đảo gió và mặt trước máy. Đây là chỗ bụi bám nhiều và cũng là chỗ sinh mùi. Đừng xịt nước thẳng vào trong máy vì bên trong có bảng mạch. Lau tới đâu vắt khăn tới đó, đừng để nước nhỏ giọt vào máy.",
+      },
+      {
+        title: "Nhìn cục nóng bên ngoài xem có bị bịt kín không",
+        detail:
+          "Cục nóng cần thoát nhiệt. Nếu nó bị kê sát tường, bị đồ đạc che, bị lá cây hoặc rác bám vào mặt lưới thì máy phải làm việc nặng hơn nhiều và tốn điện hơn hẳn. Dọn thông thoáng quanh cục nóng là việc miễn phí mà thấy hiệu quả ngay. Ở nhà thuê thì báo chủ trọ nếu cục nóng đặt chỗ quá bí.",
+      },
+      {
+        title: "Để nhiệt độ vừa phải thay vì hạ kịch sàn",
+        detail:
+          "Hạ xuống mười sáu độ không làm phòng mát nhanh hơn, chỉ làm máy chạy lâu hơn ở công suất cao và tốn điện hơn. Đặt khoảng hai sáu tới hai tám độ, kết hợp quạt, là mát dễ chịu mà hoá đơn nhẹ hơn nhiều. Nếu vừa vào phòng đang hầm hập thì mở cửa sổ vài phút cho hơi nóng thoát ra trước, rồi mới đóng kín và bật máy.",
+      },
+      {
+        title: "Bật quạt chung với điều hoà",
+        detail:
+          "Nghe ngược đời nhưng đúng: quạt trần hoặc quạt cây chạy số nhỏ giúp khí lạnh lan đều khắp phòng thay vì tụ một góc. Bạn sẽ thấy mát ở mức nhiệt cao hơn, tức là máy nén phải chạy ít hơn. Tiền điện chạy quạt rất nhỏ so với phần điều hoà tiết kiệm được.",
+      },
+      {
+        title: "Bịt các khe hở, kéo rèm ban ngày",
+        detail:
+          "Khe dưới cửa ra vào, khe cửa sổ, lỗ thông gió cũ là chỗ khí lạnh chạy ra ngoài suốt đêm. Một thanh chặn khe cửa hoặc miếng xốp dán viền rẻ tiền là giải quyết được. Ban ngày kéo rèm che nắng trực tiếp thì phòng đỡ tích nhiệt, tối bật máy sẽ mát nhanh hơn nhiều.",
+      },
+      {
+        title: "Đọc các dấu hiệu máy đang có vấn đề",
+        detail:
+          "Máy chảy nước xuống tường thường là đường ống thoát bị nghẹt hoặc đặt sai độ dốc. Máy có mùi hôi là dàn lạnh bẩn. Máy kêu lạch cạch hoặc rung mạnh là có bộ phận lỏng. Máy chạy mà gió ra không lạnh dù lưới đã sạch thì có thể thiếu gas. Mấy trường hợp này cần thợ, đừng tự mở sâu vào máy.",
+      },
+      {
+        title: "Ở nhà thuê thì hỏi chủ trước khi gọi thợ",
+        detail:
+          "Nhắn cho chủ trọ rõ ràng: anh chị ơi điều hoà phòng em chạy không mát, em đã rửa lưới lọc rồi mà vẫn vậy, anh chị cho em gọi thợ hay bên mình có thợ quen ạ. Hỏi luôn ai trả tiền. Tự gọi thợ rồi đòi trừ tiền nhà sau là chuyện dễ cãi nhau nhất, nên chốt bằng tin nhắn trước.",
+      },
+      {
+        title: "Đặt lịch vệ sinh sâu định kỳ",
+        detail:
+          "Ngoài việc rửa lưới bạn tự làm, máy cần thợ vệ sinh sâu cả dàn lạnh và dàn nóng. Nhà dùng nhiều, phòng nhiều bụi hoặc gần đường lớn thì khoảng sáu tháng một lần, dùng ít thì một năm một lần. Ghi vào lịch điện thoại kèm nhắc lại hằng năm, không thì bạn sẽ nhớ ra vào đúng ngày nóng nhất khi thợ kín lịch.",
+      },
+      {
+        title: "Đừng bật tắt liên tục trong ngày",
+        detail:
+          "Tắt máy khi ra ngoài mười lăm phút rồi bật lại thường tốn hơn là để nguyên, vì lúc khởi động máy nén ngốn điện nhất. Đi cả buổi thì tắt, chỉ ra ngoài một lát thì cứ để chạy hoặc nâng nhiệt lên vài độ. Hẹn giờ tắt sau khi bạn đã ngủ say vài tiếng cũng là cách tiết kiệm dễ làm.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO: luôn ngắt aptomat trước khi mở nắp máy. Và đừng tự tháo phần vỏ sâu bên trong dàn lạnh hay tự nạp gas — phần đó là việc của thợ có đồ nghề.",
+      "Lưới lọc bẩn là nguyên nhân số một khiến điều hoà chạy tốn điện mà không mát. Nó cũng là thứ dễ sửa nhất và miễn phí.",
+      "Lắp lưới lọc khi còn ẩm là công thức tạo mùi mốc. Phơi khô hẳn trong bóng râm, đừng phơi nắng gắt vì lưới nhựa sẽ cong.",
+      "Ở nhà thuê, mọi thoả thuận về sửa chữa nên nằm trong tin nhắn chứ đừng chỉ nói miệng. Lúc trả phòng bạn sẽ cần tới nó.",
+    ],
+    faq: [
+      {
+        q: "Để điều hoà ở chế độ khô thì có tiết kiệm điện hơn không?",
+        a: "Chế độ khô làm nhiệm vụ hút ẩm nhiều hơn làm lạnh, nên trong những ngày trời nồm hoặc ẩm mà không quá nóng thì nó dễ chịu và thường tốn ít điện hơn. Nhưng ngày nóng gay gắt thì nó không thay được chế độ làm lạnh. Cứ thử vài đêm xem cơ thể bạn thấy sao rồi quyết.",
+      },
+      {
+        q: "Bao lâu thì phải rửa lưới lọc một lần?",
+        a: "Dùng hằng ngày thì hai tới bốn tuần một lần. Phòng gần đường lớn nhiều bụi, có thú cưng, hoặc mở cửa nhiều thì rút ngắn lại. Cách chắc chắn nhất là cứ mở nắp nhìn: thấy lớp bụi bám thành mảng là tới lúc rồi, không cần theo lịch cứng.",
+      },
+      {
+        q: "Điều hoà chảy nước xuống tường thì tự sửa được không?",
+        a: "Thường là do ống thoát nước bị nghẹt hoặc lắp sai độ dốc, và việc này nên để thợ xử lý vì phải tháo phần trong máy. Trước mắt hãy hứng nước để khỏi hỏng tường và ẩm đồ, tắt máy, rồi báo chủ trọ. Để chảy lâu ngày thì tường mốc và bạn có thể bị trừ tiền cọc lúc trả phòng.",
+      },
+      {
+        q: "Ở trọ mà chủ tính điện giá cao thì dùng điều hoà sao cho đỡ xót?",
+        a: "Kết hợp bốn việc: đặt nhiệt độ quanh hai sáu tới hai tám, bật thêm quạt, bịt khe hở, và hẹn giờ tắt sau vài tiếng khi đã ngủ say. Ngoài ra hãy tự đọc số công tơ đầu tháng và cuối tháng để biết thật sự mình dùng bao nhiêu, thay vì chỉ nhìn con số chủ trọ đưa.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "ve-sinh-va-khu-mui-tu-lanh",
+    title: "Tủ lạnh có mùi, đá đóng dày, đồ nhanh hỏng: dọn một buổi là xong",
+    excerpt:
+      "Mở tủ lạnh ra là một mùi khó tả xộc lên, mà nhìn quanh chẳng thấy gì hỏng. Mùi đó luôn có nguồn, và sắp xếp lại tủ đúng cách còn giúp đồ ăn để được lâu hơn hẳn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Mùi trong tủ lạnh gần như luôn tới từ ba chỗ: đồ ăn cũ giấu ở góc trong cùng, nước rỉ đọng dưới ngăn rau, và lỗ thoát nước phía sau bị nghẹt. Cách xử lý là dọn sạch toàn bộ, rút hết ngăn ra rửa bằng nước ấm pha giấm hoặc baking soda, lau khô rồi mới xếp lại. Sau đó đặt một hộp baking soda hoặc bã cà phê khô ở góc tủ để hút mùi. Đá đóng dày ở ngăn đá thì phải xả đá, vì lớp đá dày làm tủ chạy tốn điện và lạnh kém. Đồ ăn thì luôn bọc kín, vì tủ lạnh không khử mùi mà chỉ trộn lẫn mùi với nhau.",
+    prepare: [
+      "Một thùng xốp hoặc túi giữ nhiệt để đựng tạm đồ đông trong lúc dọn, có đá lạnh càng tốt",
+      "Giấm trắng hoặc baking soda pha nước ấm — hai thứ này khử mùi tốt mà không để lại mùi hoá chất trên đồ ăn",
+      "Khăn khô sạch, và một khăn ẩm riêng để lau ngăn kéo",
+      "Một cái tăm hoặc que nhỏ để thông lỗ thoát nước ở thành sau ngăn mát",
+      "Một buổi rảnh khoảng một tới hai tiếng, tốt nhất là hôm tủ đang gần hết đồ",
+    ],
+    steps: [
+      {
+        title: "Chọn ngày tủ đang vơi đồ và rút điện",
+        detail:
+          "Dọn tủ đầy ắp là cực hình. Chờ tới lúc tủ gần hết đồ, thường là ngay trước ngày đi chợ. Rút điện tủ ra trước khi dọn, vừa an toàn vừa tiết kiệm vì bạn sẽ mở cửa rất lâu.",
+      },
+      {
+        title: "Lôi hết ra và phân loại thẳng tay",
+        detail:
+          "Đặt tất cả lên bàn, chia ba đống: dùng được, hết hạn, và không rõ là gì. Đống thứ ba thì bỏ, đừng phân vân. Đây là lúc bạn sẽ tìm ra thủ phạm gây mùi, thường là một hộp đồ ăn thừa nhét sâu trong góc hoặc bó rau hoá lỏng dưới đáy ngăn rau.",
+      },
+      {
+        title: "Đồ đông cho vào thùng xốp ngay",
+        detail:
+          "Thịt cá đông lạnh cho hết vào thùng xốp hoặc túi giữ nhiệt, thêm vài viên đá. Chúng chịu được vài tiếng ở ngoài nếu để trong thùng kín. Đừng bày ra bàn rồi quên, vì rã đông xong bạn sẽ không cấp đông lại được nữa.",
+      },
+      {
+        title: "Rút hết ngăn kéo và kệ ra rửa riêng",
+        detail:
+          "Các ngăn nhựa và kệ kính đều tháo ra được. Rửa bằng nước ấm pha nước rửa chén, chỗ nào có vết dính thì ngâm mềm rồi lau. Lưu ý: kệ kính đang lạnh mà dội nước nóng có thể nứt, nên để chúng nguội bớt vài phút rồi hãy rửa.",
+      },
+      {
+        title: "Lau lòng tủ bằng nước ấm pha giấm hoặc baking soda",
+        detail:
+          "Pha khoảng hai thìa baking soda vào một lít nước ấm, hoặc pha giấm trắng với nước theo tỉ lệ một phần giấm ba phần nước. Lau kỹ mọi mặt, đặc biệt các khe và góc. Đừng dùng nước tẩy mạnh có mùi nồng, vì mùi đó sẽ bám vào tủ rồi bám sang đồ ăn.",
+      },
+      {
+        title: "Lau cả gioăng cao su quanh cửa",
+        detail:
+          "Cái gioăng cao su viền cửa là chỗ bám bẩn và mốc mà hầu như không ai lau. Nó cũng quyết định tủ có kín hay không. Dùng khăn ẩm luồn vào từng nếp gấp mà lau, kiểm tra xem gioăng có bị rách hay chai cứng không. Gioăng hở là tủ chạy liên tục mà vẫn không đủ lạnh.",
+      },
+      {
+        title: "Thông lỗ thoát nước ở thành sau ngăn mát",
+        detail:
+          "Nhìn vào thành trong cùng của ngăn mát, phía dưới, thường có một lỗ nhỏ để nước ngưng chảy ra. Lỗ này nghẹt thì nước đọng lại thành vũng dưới ngăn rau và sinh mùi. Lấy tăm hoặc que nhỏ thông nhẹ rồi đổ chút nước ấm cho trôi. Đây là mẹo ít người biết mà giải quyết được phần lớn ca tủ có mùi dai dẳng.",
+      },
+      {
+        title: "Xả đá nếu ngăn đá đóng dày",
+        detail:
+          "Lớp đá dày hơn khoảng một đốt ngón tay là tủ bắt đầu chạy tốn điện và lạnh kém. Rút điện, mở cửa ngăn đá, đặt chậu nước nóng vào bên trong cho hơi nóng làm tan đá, lót khăn hứng nước. Tuyệt đối không dùng dao hay vật nhọn cạy đá vì rất dễ chọc thủng dàn lạnh, và thủng thì coi như hỏng tủ.",
+      },
+      {
+        title: "Lau khô hoàn toàn rồi mới cắm điện lại",
+        detail:
+          "Lau khô mọi bề mặt bằng khăn khô, để cửa mở thêm mười lăm phút cho thoáng. Cắm điện, đợi khoảng ba mươi phút tới một tiếng cho tủ lạnh trở lại rồi mới xếp đồ vào. Xếp đồ vào tủ còn ấm là đồ đông sẽ tan bớt và tủ phải gồng chạy.",
+      },
+      {
+        title: "Xếp lại theo đúng vùng nhiệt độ",
+        detail:
+          "Cánh cửa là chỗ ấm nhất và dao động nhiều nhất, nên để nước, gia vị, đồ chai lọ chứ đừng để trứng hay sữa ở đó dù nhà sản xuất có làm sẵn khay. Ngăn dưới cùng gần ngăn rau thường lạnh nhất, để thịt cá tươi và luôn có đĩa hứng bên dưới. Ngăn giữa để đồ ăn chín và đồ thừa. Ngăn rau để rau củ, không rửa trước.",
+      },
+      {
+        title: "Bọc kín mọi thứ trước khi cho vào",
+        detail:
+          "Tủ lạnh không khử mùi, nó chỉ trộn mùi. Bát canh cá để hở một đêm là sáng hôm sau hộp sữa chua cũng có mùi cá. Dùng hộp có nắp hoặc màng bọc cho mọi thứ, kể cả nửa quả chanh hay mẩu hành còn thừa. Đây là thói quen quyết định tủ nhà bạn có mùi hay không.",
+      },
+      {
+        title: "Đặt một hộp hút mùi và duy trì thói quen soát tủ",
+        detail:
+          "Một hộp nhỏ đựng baking soda mở nắp, hoặc bã cà phê phơi khô, đặt ở góc tủ và thay mỗi một hai tháng. Ngoài ra mỗi tuần dành năm phút nhìn qua một lượt, lôi ra cái gì sắp hỏng để nấu trong hai ngày tới. Làm đều thì bạn sẽ không phải dọn tổng vệ sinh kiểu vật vã nữa.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO: đừng bao giờ dùng dao hoặc vật nhọn để cạy đá trong ngăn đá. Chọc thủng dàn lạnh là hỏng tủ và chi phí sửa thường không đáng so với việc chờ đá tan thêm nửa tiếng.",
+      "Đừng nhồi tủ chật cứng. Khí lạnh cần chỗ để lưu thông, tủ chật thì chỗ lạnh chỗ không và đồ nhanh hỏng dù bạn vẫn thấy tủ chạy.",
+      "Đồ nóng thì để nguội hẳn rồi mới cất. Cho nồi canh còn bốc hơi vào tủ làm nhiệt độ cả ngăn tăng lên và mọi thứ xung quanh bị ảnh hưởng.",
+      "Ở nhà thuê mà tủ là của chủ trọ thì báo chủ ngay khi thấy tủ không lạnh hoặc chảy nước, đừng tự tháo sâu. Nhắn tin để có bằng chứng lúc trả phòng.",
+    ],
+    faq: [
+      {
+        q: "Đã dọn sạch rồi mà tủ vẫn còn mùi thì làm sao?",
+        a: "Kiểm tra ba chỗ ít ai ngó: lỗ thoát nước ở thành sau, khay hứng nước phía dưới lưng tủ, và nếp gấp gioăng cửa. Nếu vẫn còn mùi, hãy để một hộp baking soda mở nắp trong tủ vài ngày với tủ trống. Mùi bám lâu ngày cần thời gian chứ không hết ngay sau một lần lau.",
+      },
+      {
+        q: "Nên để tủ lạnh ở mức số mấy?",
+        a: "Đa số tủ có nấc từ một tới năm hoặc bảy, và mức giữa là hợp lý cho dùng hằng ngày. Chỉnh lạnh nhất không làm đồ tươi lâu hơn đáng kể mà tốn điện và dễ làm rau bị đông đá. Mùa nóng hoặc tủ đầy đồ thì tăng thêm một nấc, mùa mát thì hạ lại.",
+      },
+      {
+        q: "Bao lâu nên dọn tủ lạnh một lần?",
+        a: "Lau nhanh phần bị đổ và soát đồ sắp hỏng thì mỗi tuần. Dọn tổng thể có tháo ngăn ra rửa thì khoảng ba tháng một lần là hợp lý. Xả đá thì tuỳ tủ, cứ khi lớp đá dày quá một đốt ngón tay là làm, tủ đời mới có chức năng tự xả thì thường không cần.",
+      },
+      {
+        q: "Rút điện tủ lạnh khi đi vắng dài ngày có nên không?",
+        a: "Đi từ một tuần trở lên và tủ gần như trống thì rút điện là hợp lý, nhưng phải dọn sạch, lau khô và để cửa hé mở. Đóng kín cửa tủ đã rút điện là khi về bạn sẽ đón một mùi rất khó quên. Nếu trong tủ còn đồ đông thì đừng rút, hoặc mang gửi bớt.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dung-binh-nong-lanh-an-toan",
+    title: "Bình nóng lạnh: bật tắt thế nào cho an toàn và những dấu hiệu phải gọi thợ ngay",
+    excerpt:
+      "Cái bình treo trên tường nhà tắm là thiết bị có điện nằm ngay cạnh nước, và nhiều nhà trọ dùng nó suốt mấy năm mà chưa kiểm tra lần nào. Đây là những việc tối thiểu bạn nên biết.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Nguyên tắc an toàn quan trọng nhất là tắt bình trước khi tắm, đừng vừa tắm vừa để bình đang cắm điện. Bình cần được nối đất đúng cách và nên có thiết bị chống giật riêng, thấy nhà trọ không có thì hỏi chủ ngay. Bật bình trước khi tắm khoảng mười lăm tới ba mươi phút là đủ nóng, không cần bật cả ngày. Nếu thấy tê tê khi chạm vòi, nước có mùi lạ, bình rỉ nước, hoặc aptomat hay nhảy khi bật bình thì ngừng dùng và gọi thợ ngay. Bình dùng lâu năm cần thợ kiểm tra và thay thanh chống ăn mòn định kỳ, thường mỗi một tới hai năm tuỳ nguồn nước.",
+    prepare: [
+      "Biết vị trí aptomat riêng của bình nóng lạnh, hoặc aptomat tổng của phòng, để ngắt được ngay khi cần",
+      "Số điện thoại chủ trọ và, nếu có, số thợ điện nước quen của khu",
+      "Ảnh chụp nhãn dán trên bình ghi hãng, công suất, năm sản xuất — cần khi gọi thợ hoặc tra hướng dẫn",
+      "Bút thử điện loại rẻ tiền, dùng để kiểm tra nhanh khi nghi vòi nước bị rò điện",
+    ],
+    steps: [
+      {
+        title: "Xác định bình nhà bạn thuộc loại nào",
+        detail:
+          "Bình chứa là loại có thùng lớn treo tường, cần chờ nóng rồi mới có nước ấm. Bình trực tiếp là loại nhỏ gắn sát vòi sen, làm nóng ngay khi nước chảy qua. Cách dùng khác nhau: loại chứa thì bật trước rồi tắt khi tắm, loại trực tiếp thì phải có điện trong lúc chảy nước nên càng cần chống giật tốt.",
+      },
+      {
+        title: "Kiểm tra xem có thiết bị chống giật không",
+        detail:
+          "Nhìn ổ điện hoặc tủ điện xem có aptomat chống giật cho khu vực nhà tắm không. Nhiều bình cũng có sẵn một cục chống giật gắn trên dây nguồn, hình chữ nhật có nút thử và nút reset. Không có gì cả thì đây là việc phải nói với chủ trọ, và nói bằng tin nhắn để lưu lại.",
+      },
+      {
+        title: "Hỏi chủ trọ về dây nối đất",
+        detail:
+          "Bình nóng lạnh bắt buộc phải được nối đất. Cứ hỏi thẳng: anh chị ơi bình nóng lạnh phòng em có được nối đất không ạ, em hơi lo. Câu hỏi này hoàn toàn chính đáng và chủ trọ tử tế sẽ trả lời hoặc cho thợ tới xem. Chủ né tránh thì đó cũng là thông tin cho bạn.",
+      },
+      {
+        title: "Bật bình trước khi tắm chừng mười lăm tới ba mươi phút",
+        detail:
+          "Với bình chứa, khoảng thời gian này thường đủ để nước nóng. Bình lớn hoặc trời rét thì lâu hơn một chút. Bật cả ngày không làm nước nóng hơn mà chỉ khiến bình liên tục hâm lại và tốn điện, đồng thời thiết bị làm việc nhiều hơn cần thiết.",
+      },
+      {
+        title: "TẮT ĐIỆN BÌNH TRƯỚC KHI BƯỚC VÀO TẮM",
+        detail:
+          "Đây là thói quen quan trọng nhất của cả bài. Với bình chứa, tắt công tắc hoặc gạt aptomat rồi mới tắm, nước trong bình vẫn còn nóng đủ dùng. Nhà tắm là môi trường ẩm ướt, người đang ướt, nên giảm bớt một nguồn điện đang hoạt động là giảm rủi ro rất đáng kể.",
+      },
+      {
+        title: "Thử nút kiểm tra của cục chống giật mỗi tháng",
+        detail:
+          "Cục chống giật trên dây nguồn có nút test. Bấm vào, thiết bị phải ngắt điện ngay, sau đó bấm reset để dùng lại. Bấm mà không ngắt nghĩa là nó đã hỏng và không còn bảo vệ bạn nữa — lúc đó phải thay, chứ đừng dùng tiếp với suy nghĩ là vẫn có nó treo ở đó.",
+      },
+      {
+        title: "Chú ý những dấu hiệu phải ngừng dùng ngay",
+        detail:
+          "NGẮT ĐIỆN VÀ GỌI THỢ NGAY nếu: chạm vào vòi sen hay thành bồn thấy tê tê, aptomat nhảy mỗi lần bật bình, có mùi khét hoặc tiếng nổ lách tách, nước rỉ ra từ thân bình hoặc chảy xuống tường, hoặc nước ra có màu gỉ và mùi tanh kim loại. Đây không phải mấy chuyện chờ được tới cuối tuần.",
+      },
+      {
+        title: "Nếu nghi rò điện thì làm đúng thứ tự này",
+        detail:
+          "Đừng chạm vào vòi để thử. Ra ngoài, gạt aptomat của phòng tắm hoặc aptomat tổng trước đã. Sau đó mới dùng bút thử điện chạm vào vòi và các phần kim loại. Báo chủ trọ ngay và không dùng nhà tắm đó cho tới khi có thợ xem. Việc này không đáng để tiết kiệm một buổi.",
+      },
+      {
+        title: "Đừng tự tháo bình ra sửa",
+        detail:
+          "Bên trong bình có điện trở, có nước áp lực và có bộ phận điện. Tháo ra tự xem là việc của thợ. Cái bạn tự làm được chỉ gồm: tắt bật đúng cách, vệ sinh vòi sen bị cặn, và gọi người khi có dấu hiệu bất thường. Ở nhà thuê thì càng phải để chủ trọ gọi thợ chứ đừng tự ý mở thiết bị của người ta.",
+      },
+      {
+        title: "Vệ sinh vòi sen bị cặn để nước chảy khoẻ lại",
+        detail:
+          "Nước yếu, tia phun lệch tùm lum thường chỉ là do cặn vôi bịt các lỗ trên bát sen. Tháo bát sen ra ngâm trong giấm pha nước ấm khoảng một tiếng rồi dùng bàn chải cũ chà, hoặc lấy kim thông từng lỗ. Việc này an toàn, không liên quan tới điện, và làm nước chảy khác hẳn.",
+      },
+      {
+        title: "Nhắc chủ trọ về bảo dưỡng định kỳ",
+        detail:
+          "Bình chứa cần thợ kiểm tra và thay thanh chống ăn mòn theo định kỳ, thường mỗi một tới hai năm tuỳ chất lượng nước khu vực. Nhà nào nước nhiều cặn thì phải làm sớm hơn. Ở nhà thuê, cứ hỏi chủ lần cuối bảo dưỡng là khi nào — nhiều chủ chưa từng làm và câu hỏi của bạn là cái nhắc cần thiết.",
+      },
+      {
+        title: "Trước khi thuê phòng thì nhìn cái bình một lượt",
+        detail:
+          "Lúc đi xem trọ, đứng trong nhà tắm nhìn lên: bình có gỉ chân không, dây điện có bị hở hay đấu tạm bợ không, ổ cắm có nắp che chống nước không, có aptomat riêng không. Ba mươi giây quan sát này giúp bạn tránh được một căn phòng có vấn đề, hoặc ít nhất là có cớ để thương lượng với chủ.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO QUAN TRỌNG NHẤT: tắt điện bình trước khi tắm. Với bình chứa thì nước vẫn nóng đủ dùng, còn bạn thì bớt hẳn một nguồn rủi ro trong phòng ướt.",
+      "Thấy tê tay khi chạm vòi nước hoặc thành bồn thì ngắt aptomat và ngừng dùng ngay, gọi thợ. Đây là dấu hiệu không được bỏ qua dù chỉ tê rất nhẹ.",
+      "Đừng tự tháo bình, tự đấu lại dây điện hay tự nối đất bằng cách cắm dây xuống nền. Việc này cần người có nghề và có đồ đo.",
+      "Ở nhà thuê, mọi đề nghị sửa chữa nên nhắn tin cho chủ trọ chứ đừng nói miệng. Vừa để chủ nhớ, vừa để bạn có bằng chứng nếu sau này phát sinh tranh cãi.",
+    ],
+    faq: [
+      {
+        q: "Có nên để bình nóng lạnh bật suốt ngày cho tiện không?",
+        a: "Không nên. Bình chứa sẽ liên tục hâm lại nước để giữ nhiệt nên tốn điện vô ích, và thiết bị phải làm việc nhiều hơn cần thiết. Bật trước khi tắm mười lăm tới ba mươi phút là đủ. Nếu nhà đông người tắm liên tục thì bật trong khoảng thời gian đó rồi tắt hẳn khi xong.",
+      },
+      {
+        q: "Bình nóng lạnh trực tiếp thì có tắt trước khi tắm được không?",
+        a: "Không, vì loại này làm nóng nước ngay khi nước chảy qua nên phải có điện trong lúc bạn tắm. Chính vì vậy loại này bắt buộc phải có thiết bị chống giật hoạt động tốt và phải được nối đất đúng. Nếu nhà trọ dùng loại này mà không có chống giật thì đây là vấn đề cần nói với chủ ngay.",
+      },
+      {
+        q: "Aptomat cứ nhảy mỗi khi bật bình thì có phải aptomat hỏng không?",
+        a: "Có thể, nhưng khả năng cao hơn là bình đang rò điện và aptomat đang làm đúng việc của nó là bảo vệ bạn. Đừng thay aptomat lớn hơn hay tìm cách vô hiệu hoá nó cho khỏi nhảy. Ngắt điện, báo chủ trọ và gọi thợ kiểm tra bình trước.",
+      },
+      {
+        q: "Nước nóng ra có màu gỉ vàng thì có sao không?",
+        a: "Đó thường là dấu hiệu bên trong bình đã bị ăn mòn hoặc lắng cặn nhiều, có khi là thanh chống ăn mòn đã mòn hết. Đừng dùng nước đó để đánh răng hay rửa mặt, và báo thợ tới kiểm tra. Nếu bình đã dùng nhiều năm mà chưa bảo dưỡng lần nào thì đây là lúc phải làm.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "hang-xom-on-xu-ly-the-nao",
+    title: "Hàng xóm ồn: nói chuyện thế nào để vừa hết ồn vừa không thành thù",
+    excerpt:
+      "Karaoke tới nửa đêm, khoan tường lúc bảy giờ sáng chủ nhật, tiếng chân thình thịch trên trần. Nhịn thì mất ngủ, gõ cửa thì sợ căng thẳng — đây là cách xử lý theo từng nấc.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Đi theo nấc, đừng nhảy cóc. Nấc một là nói chuyện trực tiếp một cách nhẹ nhàng vào lúc cả hai bên đều tỉnh táo, không phải lúc nửa đêm đang bực. Nấc hai là nhờ người có vai trò trung gian như chủ trọ, ban quản lý toà nhà hoặc tổ trưởng dân phố. Nấc ba là báo công an phường hoặc gọi đường dây nóng của địa phương khi tiếng ồn kéo dài về khuya và đã nói mà không thay đổi. Trước khi làm gì, hãy ghi lại nhật ký tiếng ồn có ngày giờ và quay vài đoạn video ngắn — đây là thứ giúp bạn được xử lý nghiêm túc thay vì bị coi là khó tính.",
+    prepare: [
+      "Một ghi chú trên điện thoại để ghi ngày, giờ bắt đầu và giờ kết thúc mỗi lần bị ồn",
+      "Vài video ngắn quay từ trong phòng mình, có thể hiện thời gian, để làm bằng chứng",
+      "Số điện thoại chủ trọ hoặc ban quản lý, và số công an phường khu vực bạn ở",
+      "Nút bịt tai hoặc tai nghe chống ồn để sống sót qua giai đoạn đang xử lý",
+      "Một tâm thế bình tĩnh: mục tiêu là hết ồn, không phải thắng một cuộc cãi nhau",
+    ],
+    steps: [
+      {
+        title: "Xác định đúng nguồn ồn trước khi làm gì",
+        detail:
+          "Âm thanh trong nhà chung cư và nhà ống truyền rất lạ, tiếng từ tầng trên hai tầng có khi nghe như ngay bên cạnh. Đứng ở vài chỗ trong phòng nghe thử, ra hành lang nghe. Gõ nhầm cửa nhà người vô can là bạn tự tạo thêm một vấn đề mới ngay từ bước đầu.",
+      },
+      {
+        title: "Ghi nhật ký tiếng ồn trong vài ngày",
+        detail:
+          "Ghi rõ ngày, giờ bắt đầu, giờ kết thúc, loại tiếng ồn. Vài đoạn video ngắn quay từ trong phòng mình cũng rất có giá trị. Cuốn nhật ký này biến câu chuyện của bạn từ dạo này nhà bên ồn lắm thành một danh sách cụ thể, và đó là khác biệt giữa việc được xử lý hay bị coi là chuyện nhỏ.",
+      },
+      {
+        title: "Đừng gõ cửa lúc nửa đêm đang giận",
+        detail:
+          "Đây là sai lầm phổ biến nhất. Lúc đó bạn mệt và bực, họ đang vui và có thể đã uống rượu, và cuộc nói chuyện gần như chắc chắn hỏng. Ghi lại giờ rồi đi ngủ hoặc bịt tai. Hôm sau, vào buổi chiều, sang nói chuyện khi cả hai bên đều tỉnh táo.",
+      },
+      {
+        title: "Nói chuyện lần đầu theo hướng nhờ vả chứ đừng tố cáo",
+        detail:
+          "Câu mở đầu quyết định phần lớn kết quả. Thử: chào anh chị, em ở phòng bên cạnh. Em muốn nhờ anh chị một việc, tối qua bên mình hát tới khuya nên em không ngủ được, mai em phải đi làm sớm. Anh chị giúp em nhỏ tiếng lại sau mười giờ được không ạ. Cách nói này giúp người ta giữ được thể diện và dễ đồng ý hơn nhiều so với việc mở lời bằng anh chị làm ồn quá.",
+      },
+      {
+        title: "Đề nghị một mốc giờ cụ thể thay vì nói chung chung",
+        detail:
+          "Đừng nói hãy giữ yên tĩnh, vì mỗi người hiểu một kiểu. Hãy nói rõ: sau mười giờ tối thì nhỏ tiếng giúp em, hoặc buổi sáng cuối tuần thì đừng khoan trước chín giờ. Có mốc giờ cụ thể thì mới có cái để đối chiếu, và lần sau bạn nhắc lại cũng dễ hơn.",
+      },
+      {
+        title: "Nhận ra khi nào nên nhượng bộ một phần",
+        detail:
+          "Nhà có trẻ nhỏ khóc đêm, nhà đang sửa chữa trong giai đoạn ngắn, hoặc tiếng chân trên sàn gỗ thì có những thứ người ta không kiểm soát hết được. Trong các trường hợp này, hỏi xem khi nào xong, và tự trang bị nút tai. Phân biệt được cái sửa được và cái không sửa được giúp bạn đỡ mệt và đỡ mất lòng.",
+      },
+      {
+        title: "Nếu là nhà thuê thì để chủ trọ đứng ra",
+        detail:
+          "Ở dãy trọ, chủ nhà là người có tiếng nói nhất vì họ có quan hệ hợp đồng với cả hai bên. Nhắn cho chủ: anh chị ơi phòng số mấy mấy hay hát karaoke tới nửa đêm, em đã sang nói một lần rồi mà vẫn vậy, anh chị nhắc giúp em với ạ. Cách này giữ cho bạn không phải trực tiếp đối đầu với người ở ngay cạnh mình.",
+      },
+      {
+        title: "Ở chung cư thì gửi phản ánh cho ban quản lý bằng văn bản",
+        detail:
+          "Gọi điện thì dễ trôi, nên gửi email hoặc điền phiếu phản ánh để có lưu vết. Nêu rõ căn hộ nào, những mốc thời gian nào, kèm ảnh chụp nhật ký. Ban quản lý thường có nội quy về giờ giấc và có quyền nhắc nhở. Nếu nhiều nhà cùng phản ánh thì hiệu quả tăng lên rõ rệt, nên hỏi thăm hàng xóm khác xem họ có bị không.",
+      },
+      {
+        title: "Rủ thêm người cùng chịu ảnh hưởng",
+        detail:
+          "Một người phản ánh thì dễ bị coi là khó tính. Ba nhà cùng phản ánh thì thành vấn đề chung của khu. Đi hỏi vài nhà xung quanh, nhiều khi bạn phát hiện ai cũng khó chịu mà không ai muốn là người mở lời đầu tiên. Cùng nhau nói thì vừa dễ hơn cho bạn vừa nặng ký hơn với bên gây ồn.",
+      },
+      {
+        title: "Báo chính quyền khi đã nói mà không đổi",
+        detail:
+          "Khi tiếng ồn kéo dài về đêm, lặp đi lặp lại và bạn đã trao đổi mà không có chuyển biến, thì báo công an phường hoặc tổ dân phố là bước hợp lý tiếp theo. Trình bày ngắn gọn, có nhật ký, có video. Địa phương thường có quy định về giờ giấc và mức xử lý, nhưng cách áp dụng khác nhau tuỳ nơi nên hỏi trực tiếp cho chắc.",
+      },
+      {
+        title: "Tự bảo vệ giấc ngủ trong lúc chờ xử lý",
+        detail:
+          "Quá trình này có khi mất vài tuần. Trong lúc đó, nút bịt tai loại tốt, rèm dày, thảm trải sàn, một chiếc quạt hoặc máy tạo tiếng ồn trắng đều giúp ích thật sự. Kê lại giường xa bức tường chung cũng tạo khác biệt. Đây không phải đầu hàng, mà là giữ sức để xử lý việc kia cho tỉnh táo.",
+      },
+      {
+        title: "Biết lúc nào nên tính chuyện chuyển đi",
+        detail:
+          "Nếu bạn ở thuê, đã đi hết các nấc, và bên gây ồn thuộc kiểu không thay đổi, thì đôi khi chuyển phòng là lựa chọn tiết kiệm sức khoẻ nhất. Mất ngủ kéo dài nhiều tháng đắt hơn tiền chuyển trọ rất nhiều. Trước khi thuê chỗ mới, nhớ tới xem phòng vào buổi tối chứ đừng chỉ xem ban ngày.",
+      },
+    ],
+    notes: [
+      "Đừng bao giờ đáp trả bằng cách gây ồn lại, đập tường hay mở loa to hơn. Việc đó biến bạn từ người bị ảnh hưởng thành một bên trong cuộc xung đột, và bạn mất luôn lợi thế khi cần nhờ tới người ngoài.",
+      "Nhật ký tiếng ồn có ngày giờ cụ thể là thứ tạo khác biệt lớn nhất. Không có nó thì mọi phản ánh đều thành cảm tính.",
+      "Quy định về giờ giấc và cách xử lý tiếng ồn khác nhau tuỳ địa phương và tuỳ nội quy toà nhà. Hỏi trực tiếp công an phường hoặc ban quản lý nơi bạn ở để biết chính xác, đừng áp theo lời kể của người ở nơi khác.",
+      "Nếu tình huống có dấu hiệu đe doạ hoặc bạo lực thì đừng tự xử lý một mình, gọi ngay cho chính quyền địa phương.",
+    ],
+    faq: [
+      {
+        q: "Có nên viết giấy nhét qua khe cửa thay vì gặp trực tiếp không?",
+        a: "Gặp trực tiếp thường hiệu quả hơn vì giọng nói và thái độ truyền được thiện chí, còn chữ viết dễ bị đọc thành gay gắt. Nhưng nếu bạn thật sự ngại hoặc từng có va chạm thì một mẩu giấy lịch sự vẫn tốt hơn là im lặng chịu đựng. Viết ngắn, xưng hô đàng hoàng, nêu rõ mốc giờ mong muốn và cảm ơn.",
+      },
+      {
+        q: "Hàng xóm hứa rồi vẫn tái diễn thì làm gì tiếp?",
+        a: "Nhắc lại một lần nữa, ngắn gọn và nhắc lại đúng điều họ đã đồng ý. Vẫn không đổi thì chuyển sang nấc tiếp theo là chủ trọ hoặc ban quản lý, kèm nhật ký. Đừng lặp lại nấc một mãi, vì tới lần thứ tư thì cả hai bên đều mệt và quan hệ xấu đi mà vấn đề vẫn còn nguyên.",
+      },
+      {
+        q: "Ban quản lý bảo không can thiệp được thì sao?",
+        a: "Hỏi lại họ bằng văn bản rằng nội quy toà nhà quy định thế nào về tiếng ồn và họ có trách nhiệm gì. Nhiều khi câu trả lời đầu tiên chỉ là ngại việc. Nếu vẫn không giải quyết, bước tiếp theo là công an phường hoặc tổ dân phố nơi bạn cư trú.",
+      },
+      {
+        q: "Chính mình đang là người có thể gây ồn thì nên chú ý gì?",
+        a: "Vài việc đơn giản: dán miếng đệm dưới chân ghế và chân bàn, trải thảm ở lối đi nếu sàn cứng, không kéo lê đồ nặng, hạn chế khoan đục ngoài giờ hành chính và báo trước cho hàng xóm khi phải sửa nhà. Chủ động sang nói trước một câu khi biết mình sắp làm ồn thì hầu như ai cũng thông cảm.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "treo-do-len-tuong-nha-thue",
+    title: "Treo đồ lên tường nhà thuê: khoan hay dán, và cách không mất tiền cọc",
+    excerpt:
+      "Muốn treo cái gương, cái kệ, mấy bức tranh cho phòng bớt trống, nhưng lại sợ khoan tường xong lúc trả phòng bị trừ tiền. Có cách làm mà cả bạn và chủ trọ đều thoải mái.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Việc đầu tiên là nhắn hỏi chủ trọ và giữ lại tin nhắn đó, vì đây mới là thứ bảo vệ tiền cọc của bạn chứ không phải kỹ thuật khoan. Đồ nhẹ như tranh nhỏ, ảnh, móc treo áo thì dùng keo dán chuyên dụng loại tháo được hoặc đinh mũ nhỏ, gần như không để lại dấu. Đồ nặng như gương lớn, kệ sách, tivi thì bắt buộc phải khoan và phải bắt vào đúng chỗ chịu lực, làm sai là rơi cả mảng tường. Trước khi khoan phải dò xem trong tường có dây điện hay ống nước không. Lúc trả phòng, trám lại lỗ bằng bột trét rồi quét sơn cùng màu là hầu như không ai nhận ra.",
+    prepare: [
+      "Tin nhắn hỏi chủ trọ và câu trả lời của họ — chụp màn hình lưu lại, đây là món quan trọng nhất trong danh sách",
+      "Máy dò dây điện trong tường loại rẻ, hoặc ít nhất là hiểu quy tắc dây điện thường đi thẳng đứng từ ổ cắm và công tắc lên trần",
+      "Keo dán treo tranh loại tháo được, đinh mũ nhỏ, hoặc bộ tắc kê nhựa với vít nếu phải khoan",
+      "Máy khoan mượn hoặc thuê, mũi khoan đúng loại cho tường gạch, và bút chì với thước",
+      "Bột trét tường và chút sơn cùng màu, để dành cho lúc trả phòng",
+    ],
+    steps: [
+      {
+        title: "Nhắn hỏi chủ trọ trước, và giữ lại tin nhắn",
+        detail:
+          "Nhắn kiểu: anh chị ơi em muốn treo mấy bức tranh và một cái kệ nhỏ trong phòng, em khoan vài lỗ nhỏ được không ạ, lúc trả phòng em trám lại. Đa số chủ trọ đồng ý với vài lỗ nhỏ. Cái tin nhắn đồng ý này chính là thứ bảo vệ tiền cọc của bạn sau này, quan trọng hơn mọi kỹ thuật trong bài.",
+      },
+      {
+        title: "Cân đồ trước khi chọn cách treo",
+        detail:
+          "Ước lượng khối lượng món đồ. Dưới khoảng một hai cân như ảnh, tranh nhỏ, lịch thì dùng keo dán hoặc đinh mũ nhỏ. Từ vài cân trở lên như gương, kệ, đèn tường thì phải khoan và bắt tắc kê. Chọn sai ở bước này là món đồ rơi xuống, vỡ đồ, hỏng tường và có khi trúng người.",
+      },
+      {
+        title: "Biết tường nhà mình là loại gì",
+        detail:
+          "Gõ ngón tay lên tường. Tiếng đặc chắc thường là tường gạch xây, khoan được và giữ chắc. Tiếng bộp bộp rỗng là vách thạch cao, loại này phải dùng tắc kê chuyên dụng cho thạch cao chứ tắc kê thường sẽ tuột ngay. Tường gạch ống mỏng thì cũng yếu hơn tường đặc, đừng treo đồ quá nặng.",
+      },
+      {
+        title: "Dò dây điện và ống nước trước khi khoan",
+        detail:
+          "Đây là bước bỏ qua thì trả giá đắt nhất. Quy tắc chung: dây điện thường chạy thẳng đứng phía trên ổ cắm và công tắc, hoặc chạy ngang gần trần. Ống nước thì tập trung quanh nhà tắm và bếp. Tránh khoan trong các vùng đó. Có máy dò rẻ tiền thì càng tốt. Nghi ngờ thì dịch sang chỗ khác vài chục phân, chứ đừng khoan thử xem sao.",
+      },
+      {
+        title: "Đánh dấu bằng bút chì và đo hai lần",
+        detail:
+          "Ướm món đồ lên tường, dùng thước và bút chì đánh dấu vị trí lỗ. Với kệ hay tranh cần hai lỗ trở lên thì phải đo cho cân, lệch một chút là nhìn thấy ngay. Câu cửa miệng của thợ là đo hai lần khoan một lần, và nó đúng.",
+      },
+      {
+        title: "Khoan chậm, khoan thẳng góc",
+        detail:
+          "Chọn mũi khoan hơi nhỏ hơn hoặc bằng đường kính tắc kê. Đặt mũi vuông góc với tường, bấm nhẹ để tạo vết trước rồi mới tăng lực. Khoan xiên thì tắc kê không vào hết và mối treo bị yếu. Có người phụ giữ máy hút bụi cạnh mũi khoan thì phòng đỡ bụi hẳn, không thì dán một phong bì mở dưới lỗ để hứng.",
+      },
+      {
+        title: "Đóng tắc kê rồi mới bắt vít",
+        detail:
+          "Thổi sạch bụi trong lỗ, đóng tắc kê nhựa vào cho ngập mặt tường, rồi mới vặn vít. Vít vặn trực tiếp vào tường gạch mà không có tắc kê thì chỉ chịu được đồ rất nhẹ và sẽ lỏng dần. Vặn tới khi chắc tay thì dừng, cố vặn thêm là vỡ tắc kê bên trong.",
+      },
+      {
+        title: "Với đồ nhẹ thì dùng keo dán đúng cách",
+        detail:
+          "Keo dán treo tranh loại tháo được rất tiện cho nhà thuê, nhưng phải làm đúng: lau sạch chỗ dán bằng cồn cho hết bụi và dầu, dán rồi ép mạnh khoảng ba mươi giây, và đợi khoảng một tiếng mới treo đồ lên. Bỏ qua mấy bước này là hôm sau bức tranh rơi. Lưu ý keo loại này không bám tốt trên tường sơn cũ bong tróc hay tường vôi.",
+      },
+      {
+        title: "Đừng dán băng dính hai mặt loại thường lên tường sơn",
+        detail:
+          "Băng dính hai mặt rẻ tiền dính rất chắc nhưng lúc gỡ sẽ kéo theo cả mảng sơn, và đó mới là thứ khiến bạn bị trừ tiền cọc nhiều hơn cả mấy cái lỗ khoan. Lỗ khoan thì trám được, còn mảng sơn bong thì phải sơn lại cả mảng tường cho đều màu.",
+      },
+      {
+        title: "Cân nhắc các cách không cần đụng vào tường",
+        detail:
+          "Kệ đứng dựa tường, giá treo áo có chân, thanh treo kiểu chống giữa hai mặt tường, bảng ghim đặt trên bàn, hoặc giá gỗ dựa nghiêng đều giải quyết được nhu cầu mà không để lại dấu nào. Ở thuê ngắn hạn dưới một năm thì mấy phương án này thường hợp lý hơn là khoan.",
+      },
+      {
+        title: "Chụp ảnh tường trước khi treo",
+        detail:
+          "Trước khi làm gì, chụp vài tấm ảnh tường ở trạng thái ban đầu, có ngày tháng. Lúc trả phòng, nếu chủ trọ nói tường vốn không có vết nào thì bạn có ảnh đối chiếu. Đây là thói quen nên làm ngay từ ngày nhận phòng cho toàn bộ căn, không riêng chuyện treo đồ.",
+      },
+      {
+        title: "Trám lỗ trước khi trả phòng",
+        detail:
+          "Tháo đồ xuống, nhét chút bột trét tường vào lỗ, gạt phẳng bằng dao trét hoặc bằng thẻ nhựa cũ, đợi khô rồi chà nhẹ cho phẳng, sau đó quét chút sơn cùng màu. Việc này mất chưa tới một tiếng cho vài lỗ và tốn rất ít tiền, nhưng thường giữ lại được phần tiền cọc lớn hơn nhiều lần.",
+      },
+    ],
+    notes: [
+      "CẢNH BÁO: khoan trúng dây điện âm tường là tai nạn có thật và rất nguy hiểm. Tránh vùng thẳng đứng phía trên ổ cắm và công tắc, tránh vùng quanh bếp và nhà tắm. Không chắc thì đổi chỗ treo.",
+      "Thứ bảo vệ tiền cọc của bạn không phải là khoan khéo, mà là tin nhắn xin phép chủ trọ và bộ ảnh chụp tình trạng phòng lúc nhận. Làm hai việc đó trước, mọi thứ sau nhẹ hẳn.",
+      "Băng dính hai mặt loại thường là kẻ thù của tường sơn. Gỡ ra là kéo theo cả mảng, và sửa mảng sơn tốn kém hơn trám lỗ khoan nhiều.",
+      "Vách thạch cao cần loại tắc kê riêng. Dùng tắc kê thường trên thạch cao là món đồ sẽ tuột ra sau vài tuần, thường vào lúc bạn không có nhà.",
+    ],
+    faq: [
+      {
+        q: "Chủ trọ không cho khoan thì treo đồ kiểu gì?",
+        a: "Dùng keo dán tranh loại tháo được cho đồ nhẹ, và chọn đồ nội thất đứng thay vì đồ treo: kệ dựa tường, giá treo quần áo có chân, xe đẩy nhiều tầng, thanh treo chống giữa hai mặt tường. Ngoài ra tranh và gương cỡ lớn có thể dựa nghiêng vào tường, kiểu này đang khá phổ biến và trông cũng đẹp.",
+      },
+      {
+        q: "Treo tivi lên tường nhà thuê có nên không?",
+        a: "Tivi nặng và giá treo cần bắt vít chắc vào tường chịu lực, nên đây là việc phải xin phép chủ trọ rõ ràng và tốt nhất là nhờ thợ làm. Nếu ở ngắn hạn thì cân nhắc dùng kệ tivi đặt sàn, vì lỗ khoan cho giá treo tivi to và nhiều, trám lại khó đẹp hơn lỗ nhỏ.",
+      },
+      {
+        q: "Lỡ khoan hỏng làm vỡ một mảng tường thì xử lý sao?",
+        a: "Đừng che giấu rồi để chủ phát hiện lúc trả phòng. Báo sớm và đề nghị tự sửa hoặc chia chi phí. Mảng vỡ nhỏ thì trám bằng bột trét và sơn lại là ổn. Mảng lớn thì nên thuê thợ vá cho phẳng rồi sơn đều cả mặt tường đó, vì vá vụng nhìn còn xấu hơn để nguyên.",
+      },
+      {
+        q: "Đinh mũ nhỏ đóng vào tường có chắc không?",
+        a: "Chỉ chắc với đồ rất nhẹ như ảnh, tranh khung mỏng, lịch, và chỉ trên tường gạch có lớp vữa tốt. Đóng nghiêng chừng bốn lăm độ hướng xuống thì giữ tốt hơn đóng ngang. Với bất cứ thứ gì nặng hơn vài lạng thì bỏ đinh mũ đi, dùng tắc kê với vít cho chắc.",
+      },
+    ],
+    sources: [],
+  },
 ];
