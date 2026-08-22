@@ -1061,4 +1061,539 @@ export const day20260822toi = [
     ],
     sources: [],
   },
+  {
+    slug: "gel-boi-tron-loai-nao-lam-rach-bao-cao-su",
+    title: "Có loại gel bôi trơn làm rách bao cao su chỉ trong vài phút",
+    excerpt:
+      "Dầu dừa, dầu em bé, kem dưỡng — thứ nào gốc dầu cũng phá cao su. Rất nhiều người dùng nhầm mà không hề biết mình vừa mất lớp bảo vệ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Bao cao su làm từ cao su tự nhiên bị hỏng rất nhanh khi gặp chất gốc dầu, nên dầu dừa, dầu massage, kem dưỡng thể và vaseline đều là những thứ không dùng chung được. Loại an toàn để đi cùng bao cao su là gel gốc nước, và gel gốc silicon cũng dùng được với bao nhưng không dùng với đồ chất liệu silicon. Nếu bạn thấy khô rát thường xuyên chứ không chỉ thỉnh thoảng, đó là chuyện nên đi khám chứ không phải chuyện chỉ cần mua thêm gel.",
+    prepare: [
+      "Đọc kỹ nhãn sản phẩm, tìm phần thành phần chứ đừng chỉ nhìn chữ quảng cáo mặt trước",
+      "Kiểm tra hạn dùng của cả gel lẫn bao cao su đang có trong nhà",
+      "Một chỗ cất mát và tối, tránh cốp xe và tránh chỗ nắng chiếu",
+      "Biết trước mình hoặc bạn đời có tiền sử dị ứng hay da nhạy cảm không",
+      "Nếu đang điều trị viêm nhiễm, hãy hỏi bác sĩ trước khi dùng thêm sản phẩm gì",
+    ],
+    steps: [
+      {
+        title: "Nhớ nguyên tắc gốc dầu phá cao su",
+        detail:
+          "Bất cứ thứ gì gốc dầu đều làm yếu cấu trúc cao su tự nhiên rất nhanh, tính bằng phút chứ không phải bằng giờ. Danh sách hay bị dùng nhầm gồm dầu dừa, dầu em bé, dầu massage, vaseline, kem dưỡng thể và cả một số loại son dưỡng. Đây là điều quan trọng nhất trong cả bài.",
+      },
+      {
+        title: "Chọn gel gốc nước làm mặc định",
+        detail:
+          "Gel gốc nước đi được với mọi loại bao cao su và mọi chất liệu, dễ rửa và ít gây kích ứng nhất trong ba nhóm. Nhược điểm là khô nhanh hơn nên có thể cần thêm trong lúc dùng. Nếu bạn chỉ muốn nhớ một loại thì nhớ loại này.",
+      },
+      {
+        title: "Biết khi nào gel gốc silicon hợp hơn",
+        detail:
+          "Gel gốc silicon trơn lâu hơn và không khô nhanh, dùng an toàn với bao cao su. Nhưng nó làm hỏng bề mặt của các món đồ làm từ silicon, nên hai thứ này không đi chung. Nó cũng khó rửa khỏi vải hơn.",
+      },
+      {
+        title: "Đọc thành phần thay vì tin chữ tự nhiên",
+        detail:
+          "Chữ thiên nhiên hay chiết xuất trên bao bì không cho biết sản phẩm gốc nước hay gốc dầu. Lật ra sau tìm danh sách thành phần và xem chữ đầu tiên. Nếu bạn không đọc được thành phần vì bao bì toàn chữ nước ngoài không có nhãn phụ, hãy chọn sản phẩm khác.",
+      },
+      {
+        title: "Tránh loại có hương liệu và tạo cảm giác nóng lạnh",
+        detail:
+          "Các loại thêm hương thơm, chất tạo cảm giác nóng hoặc mát thường dễ gây kích ứng ở vùng da nhạy cảm hơn hẳn loại đơn giản. Nếu bạn hay bị rát sau khi dùng, thử đổi sang loại không hương liệu trước khi kết luận là mình dị ứng với gel nói chung. Càng ít thành phần càng đỡ rủi ro.",
+      },
+      {
+        title: "Thử ở vùng da nhỏ trước",
+        detail:
+          "Bôi một lượng nhỏ lên mặt trong cổ tay, chờ vài giờ xem có đỏ hay ngứa không. Cách này không loại trừ được hết nhưng phát hiện được phần lớn trường hợp kích ứng rõ rệt. Làm một lần khi mua sản phẩm mới là đủ.",
+      },
+      {
+        title: "Không dùng đồ trong bếp và trong tủ thuốc thay thế",
+        detail:
+          "Dầu ăn, kem đánh răng, dầu gió, sữa tắm và nước bọt đều không phải là lựa chọn phù hợp, có loại phá bao cao su, có loại gây kích ứng mạnh và mất cân bằng vùng kín. Đây là những thứ hay được mách nhau nhưng đều có vấn đề. Một tuýp gel gốc nước rẻ hơn một lần đi khám.",
+      },
+      {
+        title: "Bôi lên đúng chỗ và đúng lúc",
+        detail:
+          "Đeo bao xong rồi mới bôi gel ra bên ngoài. Nhỏ vài giọt vào bên trong đầu bao trước khi đeo cũng được nhưng đừng nhiều, vì quá trơn ở mặt trong dễ làm bao tuột ra. Đây là lỗi khiến bao tuột mà nhiều người không đoán ra nguyên nhân.",
+      },
+      {
+        title: "Thêm gel giữa chừng thay vì cố chịu",
+        detail:
+          "Ma sát khô là nguyên nhân chính làm bao rách và làm xây xát niêm mạc, mà xây xát lại làm tăng nguy cơ lây bệnh. Cứ dừng lại và bôi thêm khi thấy khô, đây là việc bình thường. Để sẵn tuýp gel trong tầm tay tránh được sự ngại ngùng lúc đó.",
+      },
+      {
+        title: "Cất đúng cách và nhớ hạn dùng",
+        detail:
+          "Cả gel lẫn bao cao su đều hỏng nhanh khi để ở nơi nóng, nên cốp xe máy và ví quần sau là hai chỗ tệ nhất. Cất ở ngăn kéo mát, tối. Kiểm tra hạn dùng in trên vỏ bao mỗi vài tháng và bỏ những cái đã hết hạn.",
+      },
+      {
+        title: "Biết khi nào khô rát là chuyện phải đi khám",
+        detail:
+          "Khô rát thường xuyên có thể liên quan tới nội tiết, tác dụng phụ của một số thuốc, tình trạng sau sinh, sau điều trị hoặc bệnh lý cần chẩn đoán. Gel chỉ làm dịu triệu chứng chứ không xử lý nguyên nhân. Nếu tình trạng lặp lại nhiều tháng, hãy đi khám chuyên khoa.",
+      },
+      {
+        title: "Đi khám nếu có kích ứng kéo dài",
+        detail:
+          "Đỏ, rát, ngứa hay sưng kéo dài quá một hai ngày sau khi dùng sản phẩm mới là lý do để đi khám, mang theo cả vỏ hộp cho bác sĩ xem. Đừng tự bôi thuốc lên vùng đang kích ứng. Vùng da này mỏng và phản ứng nhanh hơn các vùng khác.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Bài không nêu tên thuốc và không nêu liều dùng.",
+      "Gel bôi trơn không phải biện pháp tránh thai và không có tác dụng phòng bệnh lây truyền. Nó chỉ giúp giảm ma sát, và giảm ma sát mới là thứ giúp bao cao su không rách.",
+      "Không dùng dầu dừa, vaseline, kem dưỡng hay bất cứ thứ gì gốc dầu chung với bao cao su cao su tự nhiên. Nếu đã lỡ dùng, hãy coi như lớp bảo vệ đã mất và xử lý theo hướng dẫn cho tình huống bao rách.",
+      "ĐI KHÁM nếu có sưng đau nhiều, phồng rộp, loét, sốt, hoặc kích ứng lan rộng sau khi dùng sản phẩm. Đi khám sớm hơn nếu bạn có bệnh nền hoặc đang mang thai.",
+    ],
+    faq: [
+      {
+        q: "Bao cao su không phải cao su tự nhiên thì sao?",
+        a: "Một số loại làm từ vật liệu tổng hợp có khả năng chịu chất gốc dầu tốt hơn, nhưng không phải loại nào cũng vậy. Cách chắc chắn là đọc hướng dẫn in trên hộp, nhà sản xuất luôn ghi rõ loại gel nào dùng được.",
+      },
+      {
+        q: "Nước bọt có dùng tạm được không?",
+        a: "Không nên. Nó khô rất nhanh nên gần như không giảm được ma sát, và còn có thể góp phần lây một số bệnh qua đường miệng. Đây là lựa chọn tệ cả về hiệu quả lẫn an toàn.",
+      },
+      {
+        q: "Gel bôi trơn có ảnh hưởng tới việc thụ thai không?",
+        a: "Một số loại có thể ảnh hưởng tới khả năng di chuyển của tinh trùng. Nếu hai vợ chồng đang cố gắng có con, hãy hỏi bác sĩ sản khoa về loại phù hợp thay vì tự chọn theo quảng cáo.",
+      },
+      {
+        q: "Mua ở đâu cho yên tâm?",
+        a: "Nhà thuốc và các chuỗi bán lẻ lớn có nhãn phụ tiếng Việt là nơi nên mua. Tránh hàng xách tay không nhãn phụ, hàng bán theo lô giá rẻ bất thường và hàng không rõ hạn dùng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "gan-gui-khi-dang-mang-thai",
+    title: "Gần gũi khi đang mang thai: bác sĩ dặn kiêng trong những trường hợp nào",
+    excerpt:
+      "Câu hỏi hầu như cặp nào cũng có mà ít ai dám hỏi trong phòng khám. Có những trường hợp cụ thể phải kiêng, và bạn nên biết mình có thuộc nhóm đó không.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Với thai kỳ diễn tiến bình thường, phần lớn tài liệu sản khoa cho rằng chuyện gần gũi không gây hại cho thai. Nhưng có những trường hợp bác sĩ sẽ dặn kiêng, chẳng hạn dọa sảy, ra máu bất thường, rau tiền đạo, hở eo tử cung, tiền sử sinh non hoặc đã vỡ ối. Vì vậy câu trả lời đúng cho riêng bạn phụ thuộc vào tình trạng thai kỳ của bạn, và cách duy nhất để biết là hỏi thẳng bác sĩ trong lần khám thai. Đây là câu hỏi hoàn toàn bình thường, bác sĩ nghe hằng ngày.",
+    prepare: [
+      "Sổ khám thai và kết quả siêu âm gần nhất",
+      "Ghi sẵn câu hỏi ra giấy để không quên khi vào phòng khám",
+      "Ghi lại các triệu chứng bất thường nếu có: ra máu, ra dịch, đau bụng, co cứng bụng",
+      "Tiền sử sản khoa: đã sảy thai, sinh non hay có can thiệp gì ở tử cung chưa",
+      "Một khoảng thời gian riêng để hai vợ chồng nói chuyện trước, không phải lúc đang mệt hay đang giận",
+    ],
+    steps: [
+      {
+        title: "Bắt đầu bằng việc hỏi bác sĩ, không phải hỏi mạng xã hội",
+        detail:
+          "Mỗi thai kỳ một khác nên lời khuyên chung trên mạng có thể sai hoàn toàn với trường hợp của bạn. Ghi câu hỏi vào tờ giấy mang theo lần khám thai tới. Một câu hỏi thẳng thắn tiết kiệm cho bạn nhiều tháng lo lắng vô ích.",
+      },
+      {
+        title: "Hỏi bằng câu ngắn và rõ",
+        detail:
+          "Câu nên dùng là: thưa bác sĩ, với tình trạng thai của em hiện tại thì vợ chồng em có cần kiêng gần gũi không ạ. Nếu ngại nói trước mặt người khác, hãy chờ tới lúc chỉ còn bác sĩ trong phòng. Bác sĩ sản khoa nghe câu này mỗi ngày nên không ai thấy lạ.",
+      },
+      {
+        title: "Biết những tình huống thường được dặn kiêng",
+        detail:
+          "Ra máu âm đạo chưa rõ nguyên nhân, dọa sảy, rau tiền đạo, hở eo tử cung, tiền sử sinh non, đa thai hoặc đã rỉ ối là những tình huống bác sĩ thường dặn kiêng. Nếu bạn thuộc một trong số đó thì hãy hỏi rõ kiêng tới khi nào và kiêng những gì. Đừng tự suy diễn từ danh sách này mà không hỏi lại.",
+      },
+      {
+        title: "Nói chuyện với bạn đời trước, ngoài phòng ngủ",
+        detail:
+          "Chọn lúc cả hai thoải mái, ngồi cạnh nhau và nói về cảm giác chứ không phải về đúng sai. Câu mở lời dễ dùng: dạo này em thấy khác trước, em muốn mình nói với nhau một chút. Bàn trước thì tránh được cảm giác bị từ chối đột ngột trong lúc nhạy cảm.",
+      },
+      {
+        title: "Hiểu rằng ham muốn thay đổi theo từng giai đoạn",
+        detail:
+          "Ba tháng đầu thường mệt và buồn nôn nên nhiều người giảm hẳn, giai đoạn giữa nhiều người thấy dễ chịu hơn, giai đoạn cuối lại vướng víu và mệt. Thay đổi lên xuống là bình thường và không nói lên điều gì về tình cảm hai người. Biết trước điều này giúp cả hai bớt hiểu lầm.",
+      },
+      {
+        title: "Không ép và không tự trách",
+        detail:
+          "Người mang thai có toàn quyền nói không vào bất kỳ lúc nào, kể cả khi trước đó đã đồng ý. Người còn lại cũng cần được nói ra nếu mình đang lo lắng hoặc sợ làm ảnh hưởng tới em bé. Hai điều này nói ra sớm thì cả thai kỳ nhẹ nhàng hơn nhiều.",
+      },
+      {
+        title: "Giữ vệ sinh cơ bản",
+        detail:
+          "Rửa tay sạch, tắm rửa như bình thường, không thụt rửa sâu vào bên trong. Thụt rửa làm mất cân bằng tự nhiên và có thể gây viêm nhiễm, điều này càng đáng lưu ý trong thai kỳ. Vệ sinh vừa đủ là tốt hơn vệ sinh quá kỹ.",
+      },
+      {
+        title: "Vẫn dùng bao cao su khi cần",
+        detail:
+          "Nếu một trong hai người có bạn tình khác hoặc chưa rõ tình trạng bệnh lây truyền, hãy dùng bao cao su suốt thai kỳ. Một số bệnh lây truyền có thể ảnh hưởng tới thai nên đây không phải chuyện tránh thai mà là chuyện phòng bệnh. Nếu có lo ngại, hãy đi xét nghiệm.",
+      },
+      {
+        title: "Biết dấu hiệu cần dừng lại và đi khám",
+        detail:
+          "Ra máu, ra nước ối, đau bụng từng cơn hoặc bụng gò cứng liên tục sau đó là những dấu hiệu phải dừng và tới cơ sở y tế. Vài cơn co nhẹ thoáng qua rồi hết là chuyện khác, nhưng khi không chắc thì cứ đi khám. Đừng nằm chờ xem sao.",
+      },
+      {
+        title: "Hỏi lại mỗi khi tình trạng thai thay đổi",
+        detail:
+          "Lời dặn của bác sĩ ở tuần thứ mười hai có thể không còn đúng ở tuần thứ ba mươi. Nếu có kết quả siêu âm mới hay có triệu chứng mới, hãy hỏi lại. Thai kỳ là quá trình thay đổi liên tục nên câu trả lời cũng thay đổi theo.",
+      },
+      {
+        title: "Duy trì sự gần gũi theo cách khác trong lúc phải kiêng",
+        detail:
+          "Nếu bác sĩ dặn kiêng, hai người vẫn có thể giữ kết nối bằng những việc rất đời thường: nắm tay, ôm, cùng đi bộ buổi tối, cùng đi khám thai. Nhiều cặp cho biết giai đoạn này là lúc họ nói chuyện với nhau nhiều nhất. Kiêng một việc không có nghĩa là xa nhau.",
+      },
+      {
+        title: "Hỏi luôn về giai đoạn sau sinh",
+        detail:
+          "Trong lần khám cuối trước sinh, hãy hỏi luôn bao lâu sau sinh thì có thể gần gũi trở lại và cần chú ý gì. Hỏi trước thì sau sinh đỡ phải mò mẫm trong lúc đang bận rộn và mệt. Đây cũng là dịp hỏi về biện pháp tránh thai cho giai đoạn sau sinh.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Chỉ bác sĩ theo dõi thai kỳ của bạn mới đưa ra được lời khuyên đúng cho trường hợp cụ thể.",
+      "Bài không mô tả kỹ thuật và không nêu tên thuốc hay liều dùng. Mọi thắc mắc về thuốc trong thai kỳ phải hỏi bác sĩ, kể cả thuốc bôi ngoài.",
+      "Nếu bác sĩ đã dặn kiêng vì một lý do cụ thể, hãy làm theo cho tới khi được dặn khác. Cảm thấy khỏe không có nghĩa là đã hết lý do phải kiêng.",
+      "ĐI KHÁM NGAY nếu có ra máu âm đạo, ra nước ối, đau bụng dữ dội, bụng gò cứng liên tục, sốt, hoặc thấy thai máy ít hẳn so với thường ngày.",
+    ],
+    faq: [
+      {
+        q: "Có làm em bé đau hay ảnh hưởng tới thai không?",
+        a: "Trong thai kỳ bình thường, thai được bảo vệ trong buồng ối và cổ tử cung có nút nhầy che chắn. Lo lắng này rất phổ biến nhưng với thai kỳ không có yếu tố nguy cơ thì các tài liệu sản khoa nhìn chung không xem là vấn đề. Nếu bạn có yếu tố nguy cơ, câu trả lời phải do bác sĩ đưa ra.",
+      },
+      {
+        q: "Bụng gò nhẹ sau đó có phải dấu hiệu xấu không?",
+        a: "Cơn gò nhẹ thoáng qua rồi hết có thể gặp ở nhiều người và thường không đáng lo trong thai kỳ bình thường. Nhưng nếu gò thành cơn đều đặn, gò kèm đau hoặc kèm ra dịch bất thường thì cần đi khám ngay chứ không tự theo dõi ở nhà.",
+      },
+      {
+        q: "Tới gần ngày sinh thì có kiêng không?",
+        a: "Tùy tình trạng của từng người và tùy lời dặn của bác sĩ, nhất là khi đã có dấu hiệu chuyển dạ hoặc đã rỉ ối. Sau khi vỡ ối thì phải kiêng và phải tới bệnh viện. Hãy hỏi rõ trong lần khám thai cuối.",
+      },
+      {
+        q: "Chồng lo lắng tới mức tránh hẳn, có nên không?",
+        a: "Lo lắng kiểu này rất phổ biến và không có gì sai, nhưng tránh mà không nói ra thì người vợ dễ hiểu thành bị chê hoặc bị xa lánh. Cách tốt nhất là cả hai cùng đi khám thai một lần và hỏi bác sĩ ngay tại đó, nghe từ bác sĩ thường làm cả hai yên tâm hơn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "khi-nguoi-than-ke-chuyen-bi-xam-hai",
+    title: "Khi ai đó kể với bạn rằng họ từng bị xâm hại: nói gì trong năm phút đầu",
+    excerpt:
+      "Người ta thường chọn kể cho đúng một người. Phản ứng của bạn trong vài phút đầu ảnh hưởng rất lớn tới việc họ có dám tìm giúp đỡ tiếp hay không.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Ba câu quan trọng nhất là: mình tin bạn, chuyện này không phải lỗi của bạn, và cảm ơn bạn đã kể cho mình. Đừng hỏi vì sao lúc đó không phản kháng, đừng hỏi hôm đó mặc gì, và đừng tự quyết định thay họ về việc trình báo hay kể cho ai. Việc của bạn là lắng nghe, giữ bí mật và giúp họ biết có những nơi nào hỗ trợ. Nếu sự việc vừa mới xảy ra hoặc người đó đang có ý định tự làm hại mình, đây là tình huống khẩn cấp cần tới cơ sở y tế hoặc gọi người có chuyên môn ngay.",
+    prepare: [
+      "Một chỗ riêng tư, không có người thứ ba, không bị ngắt quãng",
+      "Tắt thông báo điện thoại để họ thấy bạn đang thật sự ở đó",
+      "Biết trước vài địa chỉ hỗ trợ: cơ sở y tế gần nhất, công an, và các tổ chức hỗ trợ nạn nhân",
+      "Chuẩn bị tinh thần rằng bạn có thể nghe những chi tiết khó nghe và vẫn cần giữ bình tĩnh",
+      "Nhớ rằng bạn không cần biết phải làm gì tiếp theo mới được phép lắng nghe",
+    ],
+    steps: [
+      {
+        title: "Dừng mọi việc đang làm",
+        detail:
+          "Đặt điện thoại xuống, quay người về phía họ và im lặng nghe. Người ta thường phải lấy can đảm rất lâu mới nói được câu đầu tiên, nên nếu bạn vừa nghe vừa làm việc khác thì họ sẽ dừng lại và không kể nữa. Sự chú ý hoàn toàn trong năm phút đầu quan trọng hơn mọi lời khuyên.",
+      },
+      {
+        title: "Nói ba câu đầu tiên cho đúng",
+        detail:
+          "Mình tin bạn. Chuyện này không phải lỗi của bạn. Cảm ơn vì bạn đã kể cho mình. Ba câu này ngắn nhưng chạm đúng ba nỗi sợ lớn nhất của người kể: sợ không ai tin, sợ bị đổ lỗi và sợ mình làm phiền người khác.",
+      },
+      {
+        title: "Đừng hỏi những câu ngầm đổ lỗi",
+        detail:
+          "Vì sao lúc đó không hét lên, sao không bỏ chạy, hôm đó mặc gì, sao lại đi một mình, sao giờ mới kể — tất cả đều là câu đổ lỗi dù người hỏi không hề có ý đó. Cơ thể con người khi hoảng sợ có thể đơ cứng lại, đó là phản ứng sinh học chứ không phải đồng ý. Nếu lỡ hỏi rồi, hãy nói thẳng là mình xin lỗi vì đã hỏi câu đó.",
+      },
+      {
+        title: "Đừng ép họ kể chi tiết",
+        detail:
+          "Bạn không cần biết đầy đủ diễn biến để giúp được họ, và việc kể lại chi tiết có thể khiến họ sống lại cảm giác đó. Hãy để họ dừng ở đâu tùy ý. Câu nên dùng: bạn kể tới đâu cũng được, không cần nói gì bạn chưa muốn nói.",
+      },
+      {
+        title: "Đừng phản ứng dữ dội thay họ",
+        detail:
+          "Nổi giận, đòi đi tìm người kia hay khóc lóc dữ hơn cả người trong cuộc sẽ khiến họ phải quay sang trấn an bạn. Nhiều người im lặng suốt nhiều năm chính vì sợ làm người thân đau lòng. Giữ giọng bình tĩnh, cảm xúc của bạn để dành xử lý sau.",
+      },
+      {
+        title: "Hỏi họ cần gì thay vì bảo họ phải làm gì",
+        detail:
+          "Câu nên dùng: bây giờ mình có thể giúp gì cho bạn. Có người chỉ cần được nghe, có người muốn đi khám, có người muốn ở yên một chỗ. Trao lại quyền quyết định là điều quan trọng nhất, bởi thứ họ vừa bị lấy đi chính là quyền quyết định.",
+      },
+      {
+        title: "Nếu sự việc vừa xảy ra, nói về việc đi khám",
+        detail:
+          "Nói nhẹ nhàng rằng có những việc y tế nên làm sớm, gồm kiểm tra tổn thương và các biện pháp dự phòng, và bạn sẵn sàng đi cùng. Nếu họ đang cân nhắc trình báo thì việc giữ nguyên quần áo và không tắm có ý nghĩa cho việc thu thập chứng cứ. Nhưng nếu họ đã tắm rồi thì cũng đừng để họ nghĩ là đã hết cách, vẫn nên đi khám.",
+      },
+      {
+        title: "Không tự quyết định thay họ chuyện trình báo",
+        detail:
+          "Trình báo hay không là quyết định của người trong cuộc, trừ khi nạn nhân là trẻ em hoặc người không thể tự bảo vệ mình. Bạn có thể nói rõ những lựa chọn đang có và đề nghị đi cùng. Ép buộc dù với ý tốt cũng lặp lại đúng cái cảm giác bị tước quyền.",
+      },
+      {
+        title: "Giữ kín tuyệt đối",
+        detail:
+          "Đừng kể lại cho người thứ ba dù là để xin lời khuyên, trừ khi họ đồng ý. Bị lộ chuyện là nỗi sợ lớn và là lý do khiến nhiều người sau đó không dám kể với ai nữa. Nếu bạn cần người để chia sẻ gánh nặng, hãy nói với một chuyên gia tâm lý mà không nêu danh tính.",
+      },
+      {
+        title: "Nói về hỗ trợ tâm lý mà không thúc ép",
+        detail:
+          "Câu nên dùng: có những người được đào tạo riêng cho chuyện này, khi nào bạn muốn thì mình tìm cùng. Đừng nói kiểu bạn phải đi gặp bác sĩ tâm lý ngay. Để lại thông tin và để họ chủ động khi sẵn sàng.",
+      },
+      {
+        title: "Giữ liên lạc trong những tuần sau",
+        detail:
+          "Nhắn một tin ngắn vài ngày một lần, kiểu dạo này bạn thế nào, không cần trả lời cũng được. Nhiều người thấy bị bỏ rơi sau khi câu chuyện đã được kể ra. Sự có mặt đều đặn và không đòi hỏi có giá trị hơn một lần an ủi thật dài.",
+      },
+      {
+        title: "Nhận ra dấu hiệu khẩn cấp",
+        detail:
+          "Nếu họ nói tới việc muốn chết, tự làm đau mình, hoặc đang trong tình trạng nguy hiểm ngay lúc đó thì đây là tình huống khẩn cấp. Đừng để họ một mình, liên hệ cơ sở y tế hoặc người có chuyên môn ngay. Trong tình huống này, việc giữ bí mật không quan trọng bằng việc giữ an toàn cho họ.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa hay tư vấn pháp lý. Với những trường hợp cụ thể, hãy tìm tới cơ sở y tế, cơ quan công an hoặc tổ chức hỗ trợ nạn nhân.",
+      "Bị xâm hại không bao giờ là lỗi của người bị hại, bất kể họ mặc gì, ở đâu, đã uống rượu hay quen biết người kia. Trách nhiệm hoàn toàn thuộc về người gây ra.",
+      "Nếu người kể là trẻ em hoặc người không có khả năng tự bảo vệ, bạn có trách nhiệm bảo vệ họ và cần liên hệ cơ quan chức năng, đây là ngoại lệ của việc giữ bí mật.",
+      "TÌNH HUỐNG KHẨN CẤP: sự việc vừa xảy ra và có chấn thương, chảy máu, mất ý thức, hoặc người đó có ý định tự làm hại mình. Hãy tới cơ sở y tế gần nhất hoặc gọi cấp cứu ngay và đừng để họ ở một mình.",
+    ],
+    faq: [
+      {
+        q: "Nếu chuyện xảy ra đã nhiều năm thì còn làm được gì không?",
+        a: "Vẫn còn nhiều việc có ý nghĩa. Hỗ trợ tâm lý giúp được kể cả sau nhiều năm, và việc được một người tin tưởng lắng nghe đã là điều có giá trị. Đừng nói câu chuyện qua lâu rồi quên đi, vì với người trong cuộc thời gian không tự làm lành.",
+      },
+      {
+        q: "Mình nên khuyên họ tha thứ để nhẹ lòng chứ?",
+        a: "Không nên đặt việc tha thứ thành nhiệm vụ của người bị hại. Câu khuyên đó dù thiện chí vẫn dễ nghe thành trách nhiệm khép lại chuyện cho êm. Hãy để họ tự đi theo nhịp của mình.",
+      },
+      {
+        q: "Nếu người gây ra là người trong nhà thì sao?",
+        a: "Đây là tình huống phức tạp và nguy cơ họ bị áp lực im lặng rất cao. Ưu tiên hàng đầu là an toàn: họ có đang phải sống chung với người đó không, có nơi nào an toàn để ở tạm không. Nên tìm tới tổ chức hỗ trợ có chuyên môn thay vì tự xử lý trong nhà.",
+      },
+      {
+        q: "Mình nghe xong thấy ám ảnh và mất ngủ, có bình thường không?",
+        a: "Bình thường và có tên gọi riêng trong ngành tâm lý. Bạn cũng cần được hỗ trợ, và tìm người để nói mà không tiết lộ danh tính người kể là cách phù hợp. Giữ được sức cho mình thì mới đồng hành lâu dài được.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "viem-gan-b-va-ban-doi",
+    title: "Viêm gan B: đường lây mà nhiều cặp đôi hiểu sai hoàn toàn",
+    excerpt:
+      "Ăn chung mâm không lây, nhưng có những đường lây thật sự thì lại ít người biết. Và có một mũi tiêm bảo vệ được người còn lại.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Viêm gan B lây qua máu, qua quan hệ tình dục và từ mẹ sang con lúc sinh, chứ không lây qua việc ăn chung, uống chung hay ôm hôn thông thường. Việt Nam thuộc nhóm nước có tỉ lệ nhiễm cao và rất nhiều người mang vi rút mà không hề biết vì bệnh thường không có triệu chứng trong nhiều năm. Nếu một người trong cặp đôi được chẩn đoán, người còn lại nên đi xét nghiệm và tiêm vắc xin nếu chưa có miễn dịch. Đây là bệnh có vắc xin phòng được, nên việc cần làm rất rõ ràng.",
+    prepare: [
+      "Kết quả xét nghiệm viêm gan B nếu đã từng làm, kể cả kết quả cũ nhiều năm trước",
+      "Sổ tiêm chủng nếu còn giữ, để biết đã tiêm đủ mũi chưa",
+      "Danh sách thuốc đang dùng, vì gan chuyển hóa phần lớn thuốc",
+      "Tiền sử gia đình: cha mẹ anh chị em có ai bị viêm gan B hoặc ung thư gan không",
+      "Ghi sẵn câu hỏi cho bác sĩ, nhất là câu về việc bạn đời và con cái cần làm gì",
+    ],
+    steps: [
+      {
+        title: "Nắm đúng đường lây",
+        detail:
+          "Ba đường lây chính là qua máu, qua quan hệ tình dục và từ mẹ sang con trong lúc sinh. Ăn chung mâm, dùng chung bát đũa, ôm, bắt tay hay hắt hơi đều không lây. Hiểu sai điều này là nguyên nhân khiến rất nhiều người bị xa lánh oan trong chính gia đình mình.",
+      },
+      {
+        title: "Biết những đường lây ít ai để ý",
+        detail:
+          "Dùng chung bàn chải đánh răng, dao cạo râu, bấm móng tay, kim xăm hay dụng cụ làm móng chưa tiệt trùng đều có nguy cơ vì dính máu dù rất ít. Đây là những vật dụng nên dùng riêng tuyệt đối trong nhà. Chọn tiệm xăm và tiệm làm móng có quy trình tiệt trùng rõ ràng.",
+      },
+      {
+        title: "Đi xét nghiệm dù không có triệu chứng",
+        detail:
+          "Phần lớn người nhiễm không thấy gì bất thường trong nhiều năm, tới khi phát hiện thì gan đã tổn thương. Xét nghiệm rẻ, chỉ cần lấy máu, làm được ở hầu hết cơ sở y tế. Nếu bạn chưa từng xét nghiệm thì đây là việc nên làm một lần trong đời.",
+      },
+      {
+        title: "Hiểu ba nhóm kết quả cơ bản",
+        detail:
+          "Kết quả thường cho biết ba khả năng: đang nhiễm, đã có miễn dịch do từng tiêm hoặc từng khỏi, hoặc chưa nhiễm và chưa có miễn dịch. Mỗi nhóm dẫn tới một hướng xử trí khác nhau. Đừng tự đọc kết quả trên mạng, hãy để bác sĩ giải thích tờ kết quả của chính bạn.",
+      },
+      {
+        title: "Nếu chưa có miễn dịch thì đi tiêm vắc xin",
+        detail:
+          "Vắc xin viêm gan B tiêm theo phác đồ nhiều mũi và bảo vệ được phần lớn người tiêm đủ. Đây là việc quan trọng nhất người bạn đời chưa nhiễm cần làm. Hỏi bác sĩ về lịch tiêm và về việc có nên xét nghiệm lại sau khi tiêm xong hay không.",
+      },
+      {
+        title: "Dùng bao cao su cho tới khi có miễn dịch",
+        detail:
+          "Trong thời gian chờ tiêm đủ mũi và có miễn dịch, dùng bao cao su là biện pháp giảm nguy cơ rõ rệt. Đây là giai đoạn tạm thời chứ không phải mãi mãi. Nói rõ điều này với nhau để tránh cảm giác bị xa lánh.",
+      },
+      {
+        title: "Nói chuyện với bạn đời một cách bình tĩnh",
+        detail:
+          "Chọn lúc yên tĩnh và bắt đầu bằng thông tin thay vì bằng lời xin lỗi: mình vừa có kết quả xét nghiệm, mình muốn nói với bạn và muốn cùng đi khám. Rất nhiều người nhiễm từ lúc mới sinh mà không hề biết, nên đây không phải chuyện quy trách nhiệm cho ai. Chuẩn bị sẵn thông tin về đường lây để giải tỏa hiểu lầm.",
+      },
+      {
+        title: "Rà lại cả gia đình",
+        detail:
+          "Nếu một người được chẩn đoán, những người sống chung và những người trong gia đình ruột thịt nên đi xét nghiệm. Mẹ nhiễm mà chưa được xử trí lúc sinh là con đường lây phổ biến ở Việt Nam. Việc rà soát này thường phát hiện thêm người chưa biết mình mang vi rút.",
+      },
+      {
+        title: "Nói ngay nếu bạn đang hoặc sắp mang thai",
+        detail:
+          "Có biện pháp y tế thực hiện quanh lúc sinh giúp giảm mạnh khả năng lây sang con, nhưng phải được chuẩn bị từ trước chứ không phải chuyện tính lúc trở dạ. Hãy nói với bác sĩ sản khoa ngay từ lần khám thai đầu tiên. Đây là thông tin không được giấu.",
+      },
+      {
+        title: "Theo dõi định kỳ dù thấy khỏe",
+        detail:
+          "Người mang vi rút cần được theo dõi theo lịch của bác sĩ chuyên khoa gan, thường gồm xét nghiệm men gan, tải lượng vi rút và siêu âm gan. Thấy khỏe không có nghĩa là gan đang ổn. Bỏ lịch theo dõi là lý do phổ biến khiến bệnh chỉ được phát hiện khi đã muộn.",
+      },
+      {
+        title: "Bảo vệ gan bằng những việc trong tầm tay",
+        detail:
+          "Bỏ rượu bia, không tự mua thuốc và thực phẩm chức năng bổ gan không rõ nguồn gốc, hỏi bác sĩ trước khi dùng bất kỳ thuốc nào dài ngày. Nhiều loại thuốc nam và thuốc bổ gan trôi nổi từng gây tổn thương gan nặng. Ít can thiệp bừa bãi là cách bảo vệ gan tốt hơn cả.",
+      },
+      {
+        title: "Biết mình có quyền không bị phân biệt đối xử",
+        detail:
+          "Người nhiễm viêm gan B vẫn đi làm, đi học, ăn cơm cùng gia đình và sinh con bình thường. Nếu bị đối xử khác vì bệnh, hãy đưa thông tin đúng về đường lây ra để giải thích. Sự kỳ thị phần lớn đến từ hiểu sai chứ không từ nguy cơ thật.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa. Bài không nêu tên thuốc và không nêu liều dùng, việc điều trị phải do bác sĩ chuyên khoa quyết định.",
+      "Không phải ai nhiễm cũng cần dùng thuốc ngay. Việc có điều trị hay chỉ theo dõi phụ thuộc vào nhiều chỉ số và phải do bác sĩ đánh giá, nên đừng tự tìm thuốc theo lời mách.",
+      "Tránh xa các loại thuốc bổ gan, thuốc nam giải độc gan không rõ nguồn gốc. Đây là nhóm sản phẩm từng gây tổn thương gan cấp ở nhiều trường hợp.",
+      "ĐI KHÁM NGAY nếu vàng da hoặc vàng mắt, nước tiểu sẫm màu bất thường, đau tức vùng hạ sườn phải, bụng to lên nhanh, chán ăn và mệt nhiều, hoặc chảy máu chân răng và bầm tím dễ.",
+    ],
+    faq: [
+      {
+        q: "Ăn chung mâm với người nhiễm có lây không?",
+        a: "Không. Viêm gan B không lây qua đường ăn uống, nên dùng chung mâm cơm, chung bát canh hay ôm hôn xã giao đều không phải nguy cơ. Thứ cần dùng riêng là những vật dụng có thể dính máu như bàn chải, dao cạo và bấm móng tay.",
+      },
+      {
+        q: "Đã tiêm vắc xin hồi nhỏ thì còn cần làm gì nữa không?",
+        a: "Nếu bạn tiêm đủ phác đồ và có kết quả cho thấy đã có miễn dịch thì thường không cần làm gì thêm. Nhưng nhiều người không còn nhớ hoặc không giữ sổ tiêm, nên cách chắc chắn là làm xét nghiệm để biết mình đang ở nhóm nào.",
+      },
+      {
+        q: "Người nhiễm có sinh con được không?",
+        a: "Được. Điều quan trọng là bác sĩ sản khoa biết tình trạng này ngay từ đầu thai kỳ để chuẩn bị các biện pháp quanh lúc sinh nhằm giảm khả năng lây sang con. Đây là lý do phải nói ra thay vì giấu.",
+      },
+      {
+        q: "Bệnh này chữa khỏi hẳn được không?",
+        a: "Với viêm gan B mạn tính, mục tiêu điều trị hiện nay chủ yếu là kiểm soát vi rút và bảo vệ gan chứ không phải diệt hết vi rút trong mọi trường hợp. Vì vậy việc theo dõi định kỳ suốt đời quan trọng hơn việc đi tìm một loại thuốc chữa dứt điểm được quảng cáo trên mạng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "phong-kham-nam-khoa-phu-khoa-quang-cao-ve-benh",
+    title: "Phòng khám quảng cáo trên mạng vẽ bệnh moi tiền: sáu dấu hiệu nhận ra ngay",
+    excerpt:
+      "Người ta chọn đúng lúc bạn hoang mang và ngại đi bệnh viện. Biết trước cách họ làm thì bạn không rơi vào bẫy giữa lúc đang nằm trên bàn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "18-plus",
+    adult: true,
+    author: null,
+    quickAnswer:
+      "Kiểu lừa phổ biến nhất là quảng cáo giá khám rất rẻ để kéo người tới, rồi khi đã nằm trên bàn thủ thuật thì báo phát hiện bệnh nặng và yêu cầu đóng thêm nhiều lần, tổng số có thể lên tới hàng chục triệu. Dấu hiệu nhận ra gồm: quảng cáo bằng nỗi sợ, tư vấn qua tin nhắn rồi giục tới ngay trong ngày, giá công khai rất thấp, phát sinh chi phí ngay giữa thủ thuật, không đưa hóa đơn và không cho mang kết quả về. Cách phòng tốt nhất là chọn bệnh viện công hoặc cơ sở có giấy phép rõ ràng, và không bao giờ đồng ý thủ thuật ngay trong buổi khám đầu.",
+    prepare: [
+      "Tra tên cơ sở trên cổng thông tin của sở y tế địa phương trước khi đi",
+      "Hỏi trước bảng giá bằng văn bản hoặc tin nhắn, và lưu lại",
+      "Đi cùng một người, nhất là khi tới cơ sở tư nhân lần đầu",
+      "Mang đủ giấy tờ tùy thân và thẻ bảo hiểm y tế",
+      "Chỉ mang số tiền vừa đủ cho lần khám, đừng mang thẻ tín dụng nếu không cần",
+    ],
+    steps: [
+      {
+        title: "Nhận ra kiểu quảng cáo dựa trên nỗi sợ",
+        detail:
+          "Những mẩu quảng cáo dọa rằng để lâu sẽ vô sinh, sẽ ung thư, kèm ảnh minh họa đáng sợ và lời hứa chữa dứt điểm sau một lần là dấu hiệu điển hình. Cơ sở y tế nghiêm túc không quảng cáo theo cách này. Thấy kiểu nội dung này thì đóng lại, đừng bấm vào tư vấn.",
+      },
+      {
+        title: "Cảnh giác với tư vấn viên giục đi ngay hôm nay",
+        detail:
+          "Người nhắn tin thường không phải bác sĩ, nhiệm vụ của họ là đưa bạn tới nơi. Câu hay dùng là hôm nay còn suất ưu đãi, chị tới trong chiều nay đi. Sự gấp gáp đó là công cụ bán hàng chứ không phải nhu cầu y tế thật.",
+      },
+      {
+        title: "Kiểm tra giấy phép trước khi tới",
+        detail:
+          "Tìm tên cơ sở trên cổng thông tin của sở y tế nơi bạn ở, xem có trong danh sách được cấp phép và có bị xử phạt hay không. Việc này mất mười phút. Nếu không tra được thông tin nào, đó đã là câu trả lời.",
+      },
+      {
+        title: "Nghi ngờ mức giá rẻ bất thường",
+        detail:
+          "Gói khám vài chục nghìn hoặc miễn phí hoàn toàn thường là mồi kéo người tới, và tiền thật nằm ở những khoản phát sinh sau đó. Hãy so giá với bệnh viện công cùng địa bàn. Chênh lệch quá lớn theo hướng rẻ hơn là dấu hiệu đáng ngờ chứ không phải may mắn.",
+      },
+      {
+        title: "Yêu cầu bảng giá bằng văn bản trước khi làm gì",
+        detail:
+          "Trước bất kỳ thủ thuật nào, hãy hỏi tổng chi phí gồm những khoản gì và yêu cầu ghi ra giấy hoặc chụp lại bảng giá. Nói thẳng: em muốn xem bảng giá được niêm yết. Cơ sở đàng hoàng đưa ngay, cơ sở có vấn đề sẽ vòng vo.",
+      },
+      {
+        title: "Không đồng ý thủ thuật ngay trong buổi đầu",
+        detail:
+          "Trừ trường hợp cấp cứu thật sự, bạn luôn có quyền nói để em về suy nghĩ và sẽ quay lại. Câu này là tấm khiên mạnh nhất bạn có. Nếu bị gây áp lực rằng không làm ngay sẽ nguy hiểm, hãy xem đó là dấu hiệu để rời đi chứ không phải để vội vàng.",
+      },
+      {
+        title: "Nhận ra chiêu phát sinh giữa chừng",
+        detail:
+          "Đây là điểm mấu chốt của kiểu lừa này: khi bạn đã nằm trên bàn và không mặc đủ quần áo, người ta báo phát hiện thêm bệnh và yêu cầu đóng thêm ngay để làm tiếp. Đó là lúc rất khó từ chối, và họ biết điều đó. Bạn vẫn có quyền nói dừng lại, cho tôi mặc đồ và ra ngoài trao đổi.",
+      },
+      {
+        title: "Nói câu dừng lại cho đúng",
+        detail:
+          "Câu nên dùng: tôi yêu cầu dừng thủ thuật, tôi không đồng ý làm thêm gì khác, cho tôi ra ngoài. Nói rõ ràng, lặp lại nếu cần và không tranh luận về chuyên môn. Bạn không cần biện minh cho quyết định của mình.",
+      },
+      {
+        title: "Giữ mọi giấy tờ và bằng chứng",
+        detail:
+          "Yêu cầu hóa đơn cho mọi khoản đã đóng, giữ kết quả xét nghiệm, chụp lại tin nhắn tư vấn và biên lai. Nếu cơ sở không cho mang kết quả về hay không xuất hóa đơn thì đó là dấu hiệu rất xấu. Những giấy tờ này là thứ bạn cần nếu sau đó phải khiếu nại.",
+      },
+      {
+        title: "Đi kiểm tra lại ở bệnh viện công",
+        detail:
+          "Sau một lần khám ở cơ sở tư nhân mà bạn thấy nghi ngờ, hãy mang toàn bộ giấy tờ tới bệnh viện công để được đánh giá lại. Rất nhiều người phát hiện mình không hề mắc bệnh như đã bị chẩn đoán. Chi phí một lần khám lại rẻ hơn nhiều so với một liệu trình vô ích.",
+      },
+      {
+        title: "Biết nơi phản ánh",
+        detail:
+          "Bạn có thể phản ánh tới sở y tế địa phương và tới đường dây nóng của ngành y tế, kèm hóa đơn và tin nhắn đã lưu. Nếu số tiền lớn và có dấu hiệu lừa đảo, bạn có thể trình báo công an. Việc phản ánh còn giúp người khác tránh được cùng một cơ sở.",
+      },
+      {
+        title: "Chọn đúng nơi ngay từ đầu cho lần sau",
+        detail:
+          "Bệnh viện công có khoa chuyên môn, bệnh viện tư có tên tuổi rõ ràng hoặc phòng khám do bác sĩ có chứng chỉ hành nghề đứng tên là những lựa chọn an toàn hơn. Chi phí có thể cao hơn quảng cáo trên mạng nhưng minh bạch. Chọn đúng nơi ngay từ đầu là cách phòng tránh gọn nhất.",
+      },
+    ],
+    notes: [
+      "Bài này là thông tin chung, không phải tư vấn y khoa hay tư vấn pháp lý, và không nhắm tới bất kỳ cơ sở cụ thể nào.",
+      "Bài không nêu tên thuốc và không nêu liều dùng. Mọi chẩn đoán và chỉ định phải do bác sĩ có chứng chỉ hành nghề đưa ra sau khi khám trực tiếp.",
+      "Bạn luôn có quyền từ chối bất kỳ thủ thuật nào, kể cả khi đã bắt đầu, có quyền yêu cầu giải thích rõ, có quyền xem bảng giá và có quyền xin ý kiến ở một cơ sở thứ hai.",
+      "ĐI KHÁM NGAY ở bệnh viện nếu sau khi làm thủ thuật ở đâu đó bạn bị sốt, chảy máu kéo dài, đau tăng dần, sưng nóng đỏ hoặc chảy dịch bất thường. Mang theo mọi giấy tờ của cơ sở kia.",
+    ],
+    faq: [
+      {
+        q: "Đang giữa thủ thuật mà bị đòi thêm tiền thì làm sao?",
+        a: "Bạn có quyền yêu cầu dừng lại, mặc đồ và ra ngoài trao đổi trước khi đóng thêm bất cứ khoản nào. Nếu bị ép, hãy gọi cho người thân ngay tại chỗ và nói to rằng bạn không đồng ý. Đừng chuyển khoản trong lúc đang ở tư thế không thể rời đi.",
+      },
+      {
+        q: "Đã lỡ đóng tiền rồi thì có đòi lại được không?",
+        a: "Tùy trường hợp và tùy chứng cứ bạn có. Hãy giữ toàn bộ hóa đơn, tin nhắn, sao kê chuyển khoản rồi gửi phản ánh tới sở y tế địa phương, và trình báo công an nếu số tiền lớn hoặc có dấu hiệu lừa đảo. Càng đầy đủ giấy tờ thì khả năng xử lý càng cao.",
+      },
+      {
+        q: "Vì sao nhiều người biết là bẫy mà vẫn dính?",
+        a: "Vì kiểu lừa này nhắm vào lúc người ta lo lắng, xấu hổ và muốn giải quyết kín đáo nên ngại tới bệnh viện công đông người. Áp lực được tạo ra đúng lúc bạn ở thế yếu nhất, đang nằm trên bàn và không mặc đủ quần áo. Đó là thiết kế có chủ đích chứ không phải do bạn nhẹ dạ.",
+      },
+      {
+        q: "Phòng khám tư nào cũng như vậy hay sao?",
+        a: "Không. Có rất nhiều phòng khám tư nhân làm ăn nghiêm túc, minh bạch giá và có bác sĩ giỏi. Hãy dựa vào các dấu hiệu cụ thể trong bài thay vì đánh đồng, và ưu tiên nơi có giấy phép rõ ràng, giá niêm yết công khai và không giục bạn quyết ngay.",
+      },
+    ],
+    sources: [],
+  },
 ];
