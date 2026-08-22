@@ -1273,8 +1273,8 @@ export const day20260822sang = [
     sources: [],
   },
   {
-    slug: "dang-ky-nguoi-phu-thuoc-giam-tru-gia-canh",
-    title: "Đăng ký người phụ thuộc để bớt thuế: ai được tính, làm thế nào",
+    slug: "dang-ky-nguoi-phu-thuoc-tren-etax-mobile",
+    title: "Tự đăng ký người phụ thuộc trên eTax Mobile khi không có công ty làm hộ",
     excerpt:
       "Nuôi con nhỏ, nuôi cha mẹ già mà không đăng ký người phụ thuộc thì mỗi tháng bạn đang nộp thuế nhiều hơn mức phải nộp. Đăng ký một lần, dùng nhiều năm.",
     publishedAt: NGAY,
