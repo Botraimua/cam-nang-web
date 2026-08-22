@@ -28,8 +28,10 @@ import { day20260821toi } from "./2026-08-21-toi.js";
 import { day20260822sang } from "./2026-08-22-sang.js";
 import { day20260822trua } from "./2026-08-22-trua.js";
 import { day20260822chieu } from "./2026-08-22-chieu.js";
+import { day20260822toi } from "./2026-08-22-toi.js";
 
 export const dailyGuides = [
+  ...day20260822toi,
   ...day20260822chieu,
   ...day20260822trua,
   ...day20260822sang,
