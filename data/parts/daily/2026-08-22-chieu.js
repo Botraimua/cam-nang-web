@@ -535,4 +535,539 @@ export const day20260822chieu = [
     ],
     sources: [],
   },
+  {
+    slug: "wifi-nha-cham-tu-kiem-tra-truoc-khi-goi-tho",
+    title: "Wifi nhà chậm: tự kiểm tra mười phút trước khi gọi thợ",
+    excerpt:
+      "Trước khi gọi tổng đài rồi ngồi nghe nhạc chờ hai mươi phút, có mấy thứ bạn tự làm được. Phần lớn trường hợp wifi chậm nằm ở nhà bạn, không phải ở nhà mạng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Thứ tự kiểm tra: đo tốc độ ngay cạnh cục phát wifi, rồi đo ở chỗ hay bị chậm. Chênh nhau nhiều thì vấn đề là sóng yếu do vị trí đặt máy, không phải do gói mạng. Khởi động lại modem bằng cách rút điện chờ ba mươi giây rồi cắm lại — cách này giải quyết được phần lớn sự cố. Sau đó kiểm tra xem có ai đang tải nặng, đổi băng tần, và dời cục phát ra chỗ thoáng. Làm hết vẫn chậm thì mới gọi nhà mạng, và lúc đó bạn đã có số liệu để nói chuyện.",
+    prepare: [
+      "Điện thoại có cài một ứng dụng đo tốc độ mạng, hoặc chỉ cần vào trang đo tốc độ trên trình duyệt",
+      "Biết chỗ đặt modem và cục phát wifi trong nhà — nhiều nhà là hai thiết bị riêng",
+      "Tên wifi và mật khẩu, cả mật khẩu quản trị ghi ở tem dưới đáy máy",
+      "Số tổng đài nhà mạng và mã hợp đồng hoặc số điện thoại đăng ký",
+      "Một sợi dây mạng nếu có, để thử nối trực tiếp",
+    ],
+    steps: [
+      {
+        title: "Đo tốc độ ngay sát cục phát wifi",
+        detail:
+          "Đứng cách máy khoảng một mét, đo thử. Đây là con số tốt nhất mạng nhà bạn có thể cho. Ghi lại số tải xuống và tải lên. Nếu ngay tại đây đã chậm thì vấn đề nằm ở đường truyền hoặc gói cước, không phải sóng wifi.",
+      },
+      {
+        title: "Đo lại ở đúng chỗ hay bị chậm",
+        detail:
+          "Vào phòng ngủ, ra ban công, chỗ nào bạn hay kêu là đo ở đó. So hai con số. Chênh lệch lớn nghĩa là sóng không tới được, và giải pháp là chuyện vị trí và thiết bị, chứ nâng gói cước sẽ không giúp gì.",
+      },
+      {
+        title: "Rút điện modem ba mươi giây rồi cắm lại",
+        detail:
+          "Nghe đơn giản nhưng đây là thứ giải quyết được phần lớn sự cố mạng nhà. Rút hẳn dây nguồn, đếm ba mươi giây rồi cắm lại, chờ vài phút cho đèn ổn định. Đừng chỉ tắt bật nút, hãy rút hẳn điện.",
+      },
+      {
+        title: "Xem đèn trên modem đang báo gì",
+        detail:
+          "Mỗi hãng ký hiệu khác nhau nhưng nguyên tắc chung là đèn xanh đứng yên thì ổn, đèn đỏ hoặc nhấp nháy liên tục ở cổng internet thì đường truyền đang có vấn đề. Chụp ảnh cụm đèn lại, lúc gọi tổng đài họ sẽ hỏi ngay câu này.",
+      },
+      {
+        title: "Kiểm tra xem có ai đang tải nặng không",
+        detail:
+          "Một người đang tải phim, một cái điều hoà thông minh đang cập nhật, một máy tính đang đồng bộ đám mây — cả nhà chậm theo. Hỏi một câu trong nhóm chat gia đình rồi thử lại. Đây là nguyên nhân bị bỏ qua nhiều nhất.",
+      },
+      {
+        title: "Thử nối dây mạng trực tiếp",
+        detail:
+          "Cắm dây từ modem thẳng vào máy tính rồi đo lại. Nhanh hẳn nghĩa là đường truyền vào nhà không sao, lỗi nằm ở phần phát sóng wifi. Vẫn chậm thì vấn đề ở phía nhà mạng và bạn có bằng chứng để gọi.",
+      },
+      {
+        title: "Dời cục phát ra chỗ thoáng và cao",
+        detail:
+          "Sóng wifi ghét tường bê tông, tủ gỗ, gương lớn và bể cá. Đặt máy trong tủ giày cho gọn là cách chắc chắn làm mạng yếu. Đưa lên cao, ra giữa nhà, không úp gì lên trên, không kê sát tường bếp.",
+      },
+      {
+        title: "Đổi sang băng tần phù hợp",
+        detail:
+          "Nhiều cục phát có hai tên wifi, một băng tần đi xa hơn nhưng chậm hơn, một băng tần nhanh hơn nhưng xuyên tường kém. Ở gần thì chọn cái nhanh, ở phòng xa thì chọn cái đi xa. Thử cả hai ở từng phòng rồi tự biết dùng cái nào.",
+      },
+      {
+        title: "Đổi mật khẩu wifi nếu nghi có người dùng ké",
+        detail:
+          "Vào trang quản trị theo địa chỉ và mật khẩu in ở tem dưới đáy máy, xem danh sách thiết bị đang kết nối. Thấy nhiều thiết bị lạ thì đổi mật khẩu ngay, đặt loại dài và không dễ đoán. Nhớ ghi lại chỗ nào đó cho cả nhà biết.",
+      },
+      {
+        title: "Cân nhắc thêm thiết bị mở rộng sóng",
+        detail:
+          "Nhà nhiều tầng hoặc dài mà chỉ một cục phát thì phòng cuối luôn yếu, đó là chuyện vật lý chứ không phải lỗi ai. Bộ mở rộng sóng hoặc bộ phát dạng nhiều điểm sẽ giải quyết. Hỏi nhà mạng xem gói của bạn có kèm thiết bị này không trước khi tự mua.",
+      },
+      {
+        title: "Gọi nhà mạng với số liệu trong tay",
+        detail:
+          "Nói gọn: em đo tốc độ cạnh modem được bao nhiêu, gói của em là bao nhiêu, em đã khởi động lại modem và thử nối dây trực tiếp rồi. Câu này giúp bạn nhảy qua toàn bộ phần hướng dẫn cơ bản và được chuyển tới kỹ thuật nhanh hơn nhiều.",
+      },
+      {
+        title: "Ghi lại ngày giờ mỗi lần sự cố",
+        detail:
+          "Một dòng trong ghi chú: ngày, giờ, hiện tượng, tốc độ đo được. Nếu tình trạng lặp lại nhiều lần, danh sách này là thứ giúp bạn yêu cầu kỹ thuật tới tận nhà thay vì cứ được hướng dẫn khởi động lại modem mãi.",
+      },
+    ],
+    notes: [
+      "Đừng vội nâng gói cước khi wifi chậm. Nếu nguyên nhân là sóng yếu ở phòng xa thì gói mạnh hơn cũng không giúp được gì, bạn chỉ trả thêm tiền mỗi tháng.",
+      "Cẩn thận với người tự xưng là kỹ thuật viên gọi tới đòi thông tin tài khoản hoặc yêu cầu chuyển khoản. Nhà mạng liên hệ qua tổng đài chính thức, và bạn luôn có quyền gọi lại số in trên hoá đơn để kiểm chứng.",
+      "Đổi mật khẩu quản trị mặc định của modem là việc nên làm một lần rồi quên đi. Mật khẩu in trên tem là thứ ai vào nhà cũng nhìn thấy được.",
+      "Modem dùng nhiều năm sẽ yếu dần như mọi thiết bị điện tử khác. Nếu máy đã cũ, hỏi nhà mạng xem có chính sách đổi thiết bị không, nhiều nơi đổi miễn phí cho khách hàng lâu năm.",
+    ],
+    faq: [
+      {
+        q: "Tốc độ đo được thấp hơn gói cước đã mua thì có phải bị ăn bớt không?",
+        a: "Không hẳn. Tốc độ ghi trong gói thường là mức tối đa trên lý thuyết, và đo qua wifi luôn thấp hơn đo qua dây. Cách kiểm tra công bằng là cắm dây trực tiếp rồi đo. Chênh lệch quá lớn so với gói thì mới có cơ sở khiếu nại.",
+      },
+      {
+        q: "Buổi tối mạng hay chậm hơn, có bình thường không?",
+        a: "Khá phổ biến, vì đó là giờ cao điểm khi cả khu cùng dùng. Chậm nhẹ vào giờ vàng là chuyện thường. Nhưng chậm tới mức không xem nổi video suốt nhiều tối liên tiếp thì nên phản ánh với nhà mạng.",
+      },
+      {
+        q: "Có nên tự mua cục phát wifi riêng thay cho máy của nhà mạng không?",
+        a: "Được, và với nhà rộng thì thường đáng tiền. Nhưng hỏi nhà mạng trước xem thiết bị của bạn có tương thích và có ảnh hưởng tới hỗ trợ kỹ thuật sau này không. Giữ lại máy cũ để trả khi kết thúc hợp đồng.",
+      },
+      {
+        q: "Đặt modem trong tủ cho gọn nhà có sao không?",
+        a: "Có, và ảnh hưởng rõ hơn nhiều người nghĩ. Cửa tủ gỗ và các thiết bị kim loại xung quanh cản sóng đáng kể, chưa kể máy bị nóng. Nếu buộc phải giấu, ít nhất hãy mở cửa tủ và để chỗ thoáng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "ngung-dung-mot-mat-khau-cho-moi-noi",
+    title: "Ngừng dùng một mật khẩu cho mọi nơi: làm trong một buổi tối",
+    excerpt:
+      "Bạn đang dùng một mật khẩu cho email, ngân hàng, mạng xã hội và cả trang mua hàng linh tinh nào đó. Một chỗ lộ là tất cả cùng lộ. Đây là cách gỡ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Không ai nhớ nổi ba mươi mật khẩu khác nhau, nên đừng cố nhớ — hãy dùng trình quản lý mật khẩu. Cài một cái, đặt một mật khẩu chính thật mạnh và chỉ nhớ mỗi cái đó, rồi để nó tạo và lưu mật khẩu riêng cho từng nơi. Ưu tiên đổi trước ba tài khoản quan trọng nhất: email chính, ngân hàng, và tài khoản mạng xã hội gắn với nhiều dịch vụ khác. Bật xác thực hai lớp cho những tài khoản đó luôn trong cùng buổi tối.",
+    prepare: [
+      "Khoảng một tiếng yên tĩnh — làm nửa vời rồi bỏ dở còn rối hơn không làm",
+      "Điện thoại và máy tính đều ở bên, vì bạn sẽ cần xác nhận qua cả hai",
+      "Một tờ giấy để ghi tạm mật khẩu chính, rồi cất kỹ hoặc xé đi sau khi đã thuộc",
+      "Danh sách các tài khoản quan trọng nhất của bạn, viết ra trước cho khỏi sót",
+      "Số điện thoại và email khôi phục còn dùng được — kiểm tra lại, nhiều người vẫn để số cũ đã mất",
+    ],
+    steps: [
+      {
+        title: "Hiểu vì sao dùng chung một mật khẩu là nguy hiểm",
+        detail:
+          "Các trang web bị lộ dữ liệu là chuyện xảy ra liên tục. Kẻ xấu lấy được cặp email và mật khẩu ở một trang linh tinh rồi thử luôn cặp đó ở ngân hàng, ở email, ở mạng xã hội. Chúng không cần phá gì cả, chỉ cần bạn dùng lại.",
+      },
+      {
+        title: "Liệt kê tài khoản theo mức quan trọng",
+        detail:
+          "Nhóm một là email chính và ngân hàng — mất là mất nhiều thứ theo. Nhóm hai là mạng xã hội, ví điện tử, tài khoản mua sắm có lưu thẻ. Nhóm ba là những trang bạn đăng ký một lần rồi quên. Sửa theo thứ tự đó, đừng bắt đầu từ nhóm ba.",
+      },
+      {
+        title: "Chọn một trình quản lý mật khẩu",
+        detail:
+          "Có nhiều lựa chọn, kể cả cái sẵn có trong trình duyệt hoặc trong điện thoại của bạn. Cái tốt nhất là cái bạn thật sự chịu dùng hằng ngày. Đừng mất cả tối để so sánh — chọn một cái có tên tuổi và bắt đầu.",
+      },
+      {
+        title: "Đặt mật khẩu chính thật mạnh và dễ nhớ",
+        detail:
+          "Cách tốt là ghép bốn tới năm từ không liên quan thành một câu vô nghĩa mà chỉ bạn thấy buồn cười, rồi thêm số và ký tự đặc biệt. Dài quan trọng hơn phức tạp. Tuyệt đối không dùng lại mật khẩu này ở bất cứ đâu khác.",
+      },
+      {
+        title: "Bảo vệ email chính trước tiên",
+        detail:
+          "Email là chìa khoá của mọi tài khoản khác, vì ai vào được email là đặt lại được mật khẩu của tất cả những nơi còn lại. Đổi mật khẩu email ngay, đặt loại dài do trình quản lý tạo, rồi bật xác thực hai lớp.",
+      },
+      {
+        title: "Sang ngân hàng và ví điện tử",
+        detail:
+          "Đổi mật khẩu đăng nhập, kiểm tra số điện thoại nhận mã có còn đúng không, và bật mọi lớp bảo vệ mà ứng dụng cho phép. Nếu ứng dụng ngân hàng có tính năng khoá thẻ tạm thời hoặc đặt hạn mức chuyển tiền, tìm hiểu luôn trong lúc đang mở.",
+      },
+      {
+        title: "Để trình quản lý tự tạo mật khẩu, đừng tự nghĩ",
+        detail:
+          "Mật khẩu bạn tự nghĩ luôn có quy luật, và quy luật thì đoán được. Bấm nút tạo ngẫu nhiên rồi lưu lại. Bạn không cần nhớ chúng, đó chính là điểm mấu chốt của cả cách làm này.",
+      },
+      {
+        title: "Bật xác thực hai lớp cho nhóm quan trọng",
+        detail:
+          "Ứng dụng sinh mã thường an toàn hơn tin nhắn, vì tin nhắn có thể bị chiếm khi kẻ xấu chiếm được số điện thoại. Nếu chỉ có lựa chọn tin nhắn thì vẫn nên bật, có còn hơn không.",
+      },
+      {
+        title: "Lưu và cất mã dự phòng thật cẩn thận",
+        detail:
+          "Khi bật xác thực hai lớp, hệ thống cho bạn một dãy mã dự phòng dùng khi mất điện thoại. In ra hoặc chép tay, cất cùng chỗ với giấy tờ quan trọng. Không chụp màn hình rồi để trong thư viện ảnh cho tiện, vì đó là chỗ đầu tiên bị lục.",
+      },
+      {
+        title: "Dọn dần các tài khoản còn lại",
+        detail:
+          "Không cần làm hết trong một tối. Đặt quy tắc: từ nay mỗi lần đăng nhập vào đâu mà thấy đang dùng mật khẩu cũ, đổi luôn ngay lúc đó. Sau vài tuần là gần như sạch mà không tốn buổi nào cả.",
+      },
+      {
+        title: "Kiểm tra xem tài khoản của bạn từng bị lộ chưa",
+        detail:
+          "Nhiều trình quản lý mật khẩu và cả trình duyệt có sẵn chức năng cảnh báo nếu email của bạn xuất hiện trong các vụ lộ dữ liệu. Bật nó lên và xử lý những cảnh báo có thật. Đây là kiểm tra miễn phí và đáng làm.",
+      },
+      {
+        title: "Nói với người nhà trong nhà cùng làm",
+        detail:
+          "Tài khoản của bạn an toàn nhưng cả nhà dùng chung một mật khẩu wifi hay chung một tài khoản mua hàng thì lỗ hổng vẫn còn đó. Nhiều trình quản lý có chế độ chia sẻ an toàn cho gia đình, dùng cái đó thay vì nhắn mật khẩu qua tin nhắn.",
+      },
+    ],
+    notes: [
+      "Đừng lưu mật khẩu trong ghi chú điện thoại không khoá, trong file văn bản trên máy, hay trong hộp thư của chính mình. Đó là ba chỗ bị tìm đến đầu tiên.",
+      "Không bao giờ đọc mật khẩu hay mã xác thực cho ai qua điện thoại, kể cả người tự xưng là nhân viên ngân hàng hay công an. Không tổ chức chính thống nào hỏi bạn những thứ đó.",
+      "Cẩn thận với đường dẫn trong email và tin nhắn báo tài khoản có vấn đề. Thay vì bấm vào đó, hãy tự mở ứng dụng chính thức hoặc gõ địa chỉ trang web ra để kiểm tra.",
+      "Quên mật khẩu chính của trình quản lý thì thường không ai khôi phục hộ được, kể cả nhà cung cấp. Đó là cái giá của việc nó thật sự an toàn — nên hãy chọn mật khẩu bạn chắc chắn nhớ và lưu mã dự phòng.",
+    ],
+    faq: [
+      {
+        q: "Bao lâu thì phải đổi mật khẩu một lần?",
+        a: "Quan điểm hiện nay nghiêng về việc dùng mật khẩu dài, riêng biệt cho từng nơi và chỉ đổi khi có dấu hiệu bị lộ, thay vì đổi định kỳ theo lịch. Đổi liên tục thường khiến người ta đặt mật khẩu dễ đoán hơn.",
+      },
+      {
+        q: "Lưu mật khẩu trong trình duyệt có an toàn không?",
+        a: "An toàn hơn nhiều so với dùng chung một mật khẩu cho mọi nơi. Điều kiện là máy tính của bạn phải có mật khẩu đăng nhập và bạn không cho người lạ mượn máy. Trình quản lý chuyên dụng thì thêm nhiều lớp bảo vệ hơn.",
+      },
+      {
+        q: "Mất điện thoại thì có mất luôn quyền vào các tài khoản không?",
+        a: "Đó chính là lý do phải lưu mã dự phòng và đặt email hoặc số điện thoại khôi phục còn dùng được. Có mã dự phòng thì bạn đăng nhập lại từ thiết bị khác được trong vài phút.",
+      },
+      {
+        q: "Tôi không rành công nghệ, có cách nào đơn giản hơn không?",
+        a: "Có. Chỉ cần làm một việc thôi cũng đã hơn nhiều: đặt cho email chính và ngân hàng hai mật khẩu riêng biệt, không dùng ở đâu khác, rồi bật xác thực hai lớp cho cả hai. Phần còn lại làm dần cũng được.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "mua-ve-may-bay-online-tranh-trang-gia",
+    title: "Mua vé máy bay online: tránh trang giả và phí ẩn",
+    excerpt:
+      "Giá hiện lên đẹp long lanh, tới bước cuối cộng thêm một mớ phí, mà có khi cái trang đó còn chẳng phải hãng thật. Đây là cách mua cho chắc.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Nguyên tắc số một: tìm giá ở đâu cũng được, nhưng thanh toán thì ưu tiên trang chính thức của hãng hoặc đại lý có uy tín rõ ràng. Đừng bấm vào quảng cáo hay đường dẫn trong tin nhắn, hãy tự gõ tên hãng vào trình duyệt. Luôn xem giá cuối cùng ở bước thanh toán chứ không phải giá hiển thị ban đầu, vì hành lý ký gửi, chọn chỗ và phí thanh toán thường cộng thêm ở cuối. Nhận được email xác nhận có mã đặt chỗ thì mới coi là xong.",
+    prepare: [
+      "Tên đầy đủ và số giấy tờ của tất cả hành khách, ghi đúng như trên căn cước hoặc hộ chiếu",
+      "Ngày sinh của từng người, đặc biệt là trẻ em vì giá và thủ tục khác nhau",
+      "Thẻ ngân hàng đã bật thanh toán trực tuyến, hoặc ví điện tử bạn hay dùng",
+      "Một địa chỉ email bạn kiểm tra thường xuyên — vé bay về đó chứ không về đâu khác",
+      "Khoảng ba mươi phút yên tĩnh, đừng đặt vé lúc đang vội hoặc đang lái xe",
+    ],
+    steps: [
+      {
+        title: "Tìm giá trước, mua sau",
+        detail:
+          "Dùng các trang so sánh để biết mặt bằng giá và khung giờ, nhưng coi đó là bước khảo sát. Ghi lại chuyến bay bạn ưng, số hiệu và giờ bay, rồi mới quyết định mua ở đâu. Đừng bấm mua ngay ở trang đầu tiên vì sợ hết chỗ.",
+      },
+      {
+        title: "Vào trang hãng bằng cách tự gõ địa chỉ",
+        detail:
+          "Đừng bấm vào quảng cáo trên mạng xã hội, đừng bấm đường dẫn trong tin nhắn khuyến mãi. Tự gõ tên hãng hoặc tìm rồi kiểm tra kỹ địa chỉ trang. Trang giả thường có tên na ná, thêm bớt một chữ cái, và giao diện giống hệt.",
+      },
+      {
+        title: "Kiểm tra ba dấu hiệu của trang thật",
+        detail:
+          "Địa chỉ trang đúng chính tả và có khoá bảo mật, có thông tin doanh nghiệp đầy đủ ở chân trang, có tổng đài gọi được. Trang chỉ có mỗi số điện thoại di động và tài khoản cá nhân để chuyển khoản là dấu hiệu rất xấu.",
+      },
+      {
+        title: "Nhập tên đúng như trên giấy tờ",
+        detail:
+          "Tên trên vé phải khớp với giấy tờ bạn mang đi bay. Sai một chữ có thể bị từ chối lên máy bay hoặc phải trả phí đổi tên khá cao. Gõ chậm, đọc lại hai lần, đặc biệt với tên đệm và họ kép.",
+      },
+      {
+        title: "Đọc kỹ loại vé trước khi chọn",
+        detail:
+          "Vé rẻ nhất thường không đổi được, không hoàn được, và không kèm hành lý ký gửi. Vé cao hơn một bậc đôi khi chỉ chênh ít mà cho đổi ngày. Nếu lịch của bạn chưa chắc chắn, phần chênh đó thường đáng trả.",
+      },
+      {
+        title: "Cộng hành lý ngay lúc mua, đừng để ra sân bay",
+        detail:
+          "Mua hành lý ký gửi trước gần như luôn rẻ hơn mua tại quầy. Ước lượng thật lòng xem bạn mang bao nhiêu ký. Mua thiếu rồi phải trả thêm tại sân bay là một trong những khoản đắt đỏ và ức chế nhất của chuyến đi.",
+      },
+      {
+        title: "Từ chối những thứ được tích sẵn",
+        detail:
+          "Nhiều trang tự tích sẵn bảo hiểm du lịch, chọn chỗ ngồi, suất ăn, đưa đón. Đọc từng dòng ở bước cuối và bỏ tích những thứ bạn không cần. Đây là chỗ giá vé phình ra mà nhiều người không để ý.",
+      },
+      {
+        title: "So giá cuối cùng với giá ban đầu",
+        detail:
+          "Trước khi bấm thanh toán, nhìn con số tổng. Chênh quá nhiều so với giá quảng cáo thì quay lại xem đã bị cộng thêm gì. Đây cũng là lúc so lại với giá trên trang hãng nếu bạn đang mua qua đại lý.",
+      },
+      {
+        title: "Thanh toán bằng thẻ hoặc cổng chính thức",
+        detail:
+          "Ưu tiên thanh toán ngay trên trang qua cổng có tên tuổi. Tuyệt đối cảnh giác khi ai đó yêu cầu chuyển khoản vào tài khoản cá nhân — đó là dấu hiệu lừa đảo rõ ràng nhất và tiền chuyển đi thì rất khó lấy lại.",
+      },
+      {
+        title: "Chờ email xác nhận có mã đặt chỗ",
+        detail:
+          "Giao dịch chỉ thật sự hoàn tất khi bạn nhận được email có mã đặt chỗ gồm mấy ký tự chữ và số. Không thấy email sau mười lăm phút thì kiểm tra hộp thư rác, rồi gọi hãng đọc mã giao dịch để tra.",
+      },
+      {
+        title: "Tự kiểm tra lại vé trên trang của hãng",
+        detail:
+          "Vào mục quản lý đặt chỗ trên trang chính thức, nhập mã đặt chỗ và họ tên. Thấy đúng chuyến, đúng tên, đúng hành lý là yên tâm. Đây là bước bắt buộc nếu bạn mua qua đại lý — nó xác nhận vé thật sự tồn tại trong hệ thống hãng.",
+      },
+      {
+        title: "Lưu vé ở ba chỗ",
+        detail:
+          "Ảnh chụp màn hình trong điện thoại, file trong email, và một bản in nếu đi nước ngoài. Điện thoại hết pin ở sân bay là chuyện xảy ra thường xuyên hơn bạn nghĩ, và lúc đó tờ giấy cứu bạn.",
+      },
+    ],
+    notes: [
+      "Cảnh giác cao với các trang và tài khoản bán vé giá rẻ bất thường, nhất là dịp lễ tết. Vé rẻ hơn mặt bằng quá nhiều thường là mồi câu, và cách thức phổ biến là đặt vé thật rồi huỷ sau khi bạn đã chuyển tiền.",
+      "Giá vé, phí hành lý và chính sách đổi huỷ khác nhau tuỳ hãng và tuỳ thời điểm. Đọc điều kiện vé của chính chuyến bạn đang mua, đừng dựa vào kinh nghiệm chuyến trước.",
+      "Đặt vé cho trẻ em và em bé có quy định riêng về giấy tờ, chỗ ngồi và người đi kèm. Gọi tổng đài hãng hỏi trước nếu đây là lần đầu bạn cho con đi máy bay.",
+      "Giữ lại toàn bộ email và biên lai thanh toán cho tới khi chuyến đi kết thúc. Có chuyện gì cần khiếu nại thì đó là hồ sơ của bạn.",
+    ],
+    faq: [
+      {
+        q: "Mua ở trang so sánh giá có an toàn không?",
+        a: "Trang so sánh giá có tên tuổi thì thường ổn để tìm kiếm, nhưng chúng thường chuyển bạn sang một đại lý khác để thanh toán. Hãy nhìn kỹ xem cuối cùng bạn đang trả tiền cho ai, và sau khi mua nhớ kiểm tra mã đặt chỗ trên trang chính thức của hãng.",
+      },
+      {
+        q: "Đặt tên sai một chữ thì sửa được không?",
+        a: "Tuỳ hãng và tuỳ mức độ sai. Sai một chữ cái nhỏ đôi khi được sửa miễn phí nếu báo sớm, sai cả tên thì thường phải trả phí đổi tên hoặc mua vé mới. Gọi hãng ngay khi phát hiện, càng sớm càng dễ.",
+      },
+      {
+        q: "Mua vé từ mấy tháng trước có rẻ hơn không?",
+        a: "Thường thì mua sớm rẻ hơn mua sát ngày, nhưng không có công thức chắc chắn vì giá thay đổi theo nhu cầu. Cách thực tế là theo dõi giá vài ngày, thấy mức bạn thấy hợp lý thì mua, đừng cố đợi đáy.",
+      },
+      {
+        q: "Bị lừa mất tiền mua vé giả thì làm gì?",
+        a: "Liên hệ ngân hàng ngay để báo giao dịch có dấu hiệu lừa đảo, giữ lại toàn bộ tin nhắn và biên lai, rồi trình báo công an nơi bạn cư trú. Làm càng sớm càng có cơ hội, để lâu thì rất khó.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "chuyen-nha-tro-thue-xe-dong-goi",
+    title: "Chuyển nhà trọ: thuê xe, đóng gói và không mất đồ",
+    excerpt:
+      "Chuyển trọ tưởng đơn giản mà năm nào cũng có người mất đồ, vỡ đồ, hoặc cãi nhau với chủ trọ về tiền cọc. Chuẩn bị trước hai ngày là êm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Ba việc quyết định cả buổi chuyển nhà: chốt tiền cọc với chủ cũ bằng biên bản, thuê xe đúng cỡ và chốt giá trọn gói trước, và đóng gói theo phòng có dán nhãn. Chụp ảnh phòng cũ lúc trả và phòng mới lúc nhận, đó là thứ cứu bạn khi có tranh cãi. Đồ quý và giấy tờ thì tự cầm, không cho lên xe. Cuối cùng, nhớ đăng ký tạm trú ở chỗ mới và chuyển các dịch vụ như internet, hộp thư.",
+    prepare: [
+      "Hợp đồng thuê nhà cũ, để đối chiếu điều khoản báo trước và điều kiện trả cọc",
+      "Thùng carton, băng dính, bút dạ to và màng bọc — xin thùng ở siêu thị hoặc cửa hàng tiện lợi thường được cho không",
+      "Túi hoặc balo riêng cho giấy tờ, tiền, chìa khoá, đồ điện tử nhỏ",
+      "Điện thoại còn nhiều dung lượng để chụp ảnh phòng cũ và phòng mới",
+      "Số điện thoại của hai ba nhà xe để so giá, đừng chỉ gọi một nơi",
+    ],
+    steps: [
+      {
+        title: "Báo trước cho chủ nhà đúng thời hạn trong hợp đồng",
+        detail:
+          "Đây là điều kiện quan trọng nhất để lấy lại tiền cọc. Báo bằng tin nhắn hoặc email chứ đừng chỉ nói miệng khi gặp nhau ở cầu thang. Ghi rõ ngày bạn sẽ trả phòng để hai bên cùng có mốc.",
+      },
+      {
+        title: "Chốt trước cách xử lý tiền cọc",
+        detail:
+          "Hỏi thẳng: em trả phòng ngày này, mình sẽ kiểm tra phòng lúc nào và cọc chuyển lại cho em khi nào ạ. Hỏi sớm thì có thời gian sửa những gì cần sửa. Hỏi vào đúng hôm chuyển đi thì bạn đang ở thế yếu vì đồ đã chất lên xe.",
+      },
+      {
+        title: "Dọn bớt đồ trước khi đóng gói",
+        detail:
+          "Chuyển nhà là cơ hội tự nhiên để bỏ đi những thứ bạn giữ vì tiếc. Cứ hỏi một câu: món này một năm qua mình có dùng không. Bớt được bao nhiêu là đỡ tiền xe, đỡ công khuân và đỡ chật chỗ mới bấy nhiêu.",
+      },
+      {
+        title: "Đóng gói theo phòng, không theo loại đồ",
+        detail:
+          "Đồ của phòng nào vào thùng của phòng đó, dán nhãn to bằng bút dạ ở mặt bên chứ không phải mặt trên, vì thùng sẽ được xếp chồng. Ghi thêm chữ dễ vỡ nếu cần. Cách này giúp bạn dỡ đồ theo nhịp thay vì bới tung cả nhà tìm bàn chải đánh răng.",
+      },
+      {
+        title: "Chuẩn bị riêng một thùng đêm đầu tiên",
+        detail:
+          "Bàn chải, khăn mặt, quần áo một ngày, sạc điện thoại, giấy vệ sinh, thuốc thường dùng, một bộ chăn gối. Để thùng này lên xe sau cùng và xuống trước tiên. Đêm đầu ở nhà mới sẽ dễ chịu hơn hẳn.",
+      },
+      {
+        title: "Tự cầm giấy tờ, tiền và đồ điện tử nhỏ",
+        detail:
+          "Căn cước, hộ chiếu, bằng cấp, sổ tiết kiệm, laptop, máy ảnh — cho hết vào một balo bạn đeo trên người. Không cho lên xe tải, không nhờ ai giữ hộ. Đây là quy tắc không nên linh động.",
+      },
+      {
+        title: "Gọi ba nhà xe hỏi giá trọn gói",
+        detail:
+          "Nói rõ: em chuyển từ địa chỉ này tới địa chỉ này, đồ khoảng bao nhiêu thùng, có mấy món cồng kềnh, tầng mấy có thang máy không. Hỏi giá trọn gói đã gồm công bốc xếp chưa. Ba cuộc gọi thường chênh nhau đáng kể.",
+      },
+      {
+        title: "Hỏi rõ những khoản dễ phát sinh",
+        detail:
+          "Phí leo tầng khi không có thang máy, phí chờ, phí đi đường cấm giờ, phí tháo lắp đồ gỗ. Hỏi thẳng: giá anh báo đã gồm hết chưa ạ, có gì phát sinh thì báo em trước nhé. Chốt xong nhắn lại con số qua tin nhắn.",
+      },
+      {
+        title: "Chụp ảnh phòng cũ trước khi khoá cửa lần cuối",
+        detail:
+          "Chụp toàn bộ tường, sàn, thiết bị vệ sinh, đồng hồ điện nước, và chụp cả số công tơ. Đây là bằng chứng cho việc bạn trả phòng trong tình trạng nào. Rất nhiều tranh cãi về cọc kết thúc chỉ bằng vài tấm ảnh này.",
+      },
+      {
+        title: "Làm biên bản bàn giao với chủ nhà",
+        detail:
+          "Một tờ giấy viết tay cũng được: ngày trả phòng, số điện nước, tình trạng phòng, số tiền cọc sẽ hoàn và hạn hoàn. Hai bên ký, mỗi người giữ một bản, chụp ảnh lại. Đừng ngại vẽ vời, đây là chuyện tiền bạc.",
+      },
+      {
+        title: "Đếm thùng khi lên xe và khi xuống xe",
+        detail:
+          "Đếm to lên, ghi số vào điện thoại. Xe chở nhiều nhà cùng lúc thì đồ lẫn là chuyện có thật. Xuống hàng cũng đếm lại, thiếu thì phát hiện ngay khi xe còn ở đó chứ không phải hôm sau khi gọi thì không ai nghe máy.",
+      },
+      {
+        title: "Chụp ảnh phòng mới trước khi dọn đồ vào",
+        detail:
+          "Chụp mọi vết nứt, vết ố, thiết bị hỏng, và số công tơ điện nước. Gửi luôn cho chủ nhà mới kèm một câu nhẹ nhàng ghi nhận tình trạng ban đầu. Việc này bảo vệ tiền cọc của bạn ngay từ ngày đầu tiên.",
+      },
+      {
+        title: "Làm nốt phần thủ tục và dịch vụ",
+        detail:
+          "Đăng ký tạm trú ở nơi ở mới, báo nhà mạng chuyển internet, cập nhật địa chỉ nhận hàng trên các ứng dụng mua sắm, và báo cho ngân hàng nếu bạn nhận thư từ họ. Làm trong tuần đầu, để lâu là quên.",
+      },
+    ],
+    notes: [
+      "Đừng chuyển nhà vào ngày cuối cùng của hợp đồng nếu tránh được. Chồng lấn một hai ngày giữa hai chỗ tốn thêm ít tiền nhưng đổi lại bạn không phải hối hả và không phải ngủ giữa đống thùng.",
+      "Cẩn thận với nhà xe báo giá rẻ bất thường qua mạng xã hội rồi tới nơi mới đòi thêm khi đồ đã chất lên xe. Chốt giá bằng tin nhắn trước là cách phòng đơn giản nhất.",
+      "Nếu thuê người bốc xếp, đừng để họ ở một mình trong phòng cùng đồ đạc của bạn. Không phải vì nghi ngờ ai, mà vì đó là cách tránh mọi hiểu lầm cho cả hai bên.",
+      "Điều kiện trả cọc, thời hạn báo trước và trách nhiệm sửa chữa phụ thuộc hoàn toàn vào hợp đồng bạn đã ký. Đọc lại hợp đồng trước khi tranh luận, đừng dựa vào chuyện của người khác.",
+    ],
+    faq: [
+      {
+        q: "Chủ nhà không trả lại cọc thì làm sao?",
+        a: "Trước hết đưa ra hợp đồng, biên bản bàn giao và ảnh chụp phòng lúc trả. Đa số trường hợp dừng lại ở đây. Nếu vẫn không được và số tiền đáng kể, bạn có thể nhờ tổ dân phố hoặc chính quyền địa phương hoà giải trước khi tính tới bước xa hơn.",
+      },
+      {
+        q: "Nên thuê xe theo chuyến hay theo giờ?",
+        a: "Chuyển nội thành với lượng đồ vừa phải thì thuê trọn gói theo chuyến thường dễ tính tiền và ít phát sinh hơn. Theo giờ chỉ hợp khi bạn chắc chắn về thời gian bốc dỡ, mà điều đó thì hiếm khi đúng.",
+      },
+      {
+        q: "Đồ bị vỡ trong lúc vận chuyển thì ai chịu?",
+        a: "Tuỳ thoả thuận với nhà xe. Hỏi trước khi thuê: đồ vỡ trong lúc bốc xếp thì bên anh xử lý thế nào ạ. Với đồ quý, cách chắc nhất vẫn là tự đóng gói kỹ và tự mang theo người.",
+      },
+      {
+        q: "Có nên chuyển nhà một mình cho tiết kiệm không?",
+        a: "Với phòng trọ ít đồ và có thang máy thì được. Nhưng tự khuân tủ lạnh xuống bốn tầng gác là cách nhanh nhất để hỏng lưng hoặc hỏng đồ. Tính công bốc xếp vào ngân sách ngay từ đầu thường rẻ hơn cái giá của một tai nạn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "lay-lai-tai-khoan-google-bi-mat",
+    title: "Mất quyền vào tài khoản Google: lấy lại theo thứ tự",
+    excerpt:
+      "Tài khoản Google giữ ảnh, danh bạ, email và chìa khoá của hàng chục dịch vụ khác. Mất quyền vào đó là mất khá nhiều thứ cùng lúc.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "khac",
+    author: null,
+    quickAnswer:
+      "Dùng đúng trang khôi phục chính thức của Google, và quan trọng nhất là thực hiện trên chiếc điện thoại hoặc máy tính bạn vẫn hay dùng để đăng nhập, ở nơi có mạng quen thuộc. Hệ thống nhận ra thiết bị và vị trí quen sẽ dễ cho qua hơn nhiều. Trả lời được câu nào chắc câu đó, đừng đoán bừa. Nếu tài khoản bị người khác chiếm, hãy làm ngay và đồng thời cảnh báo người thân vì kẻ chiếm tài khoản thường nhắn tin mượn tiền.",
+    prepare: [
+      "Chiếc điện thoại hoặc máy tính bạn thường xuyên đăng nhập tài khoản đó",
+      "Số điện thoại và email khôi phục đã từng khai — nhớ được cái nào hay cái đó",
+      "Mật khẩu cũ gần nhất bạn còn nhớ, kể cả khi không chắc chắn",
+      "Khoảng thời gian bạn tạo tài khoản, chỉ cần nhớ tháng và năm là đủ",
+      "Mã dự phòng của xác thực hai lớp nếu bạn từng lưu lại",
+    ],
+    steps: [
+      {
+        title: "Xác định bạn đang gặp tình huống nào",
+        detail:
+          "Quên mật khẩu, mất điện thoại nhận mã, hay tài khoản bị người khác chiếm — ba tình huống này xử lý khác nhau. Bị chiếm thì phải làm gấp trong vài giờ đầu, còn quên mật khẩu thì bạn có thời gian bình tĩnh làm từng bước.",
+      },
+      {
+        title: "Chỉ dùng trang khôi phục chính thức",
+        detail:
+          "Tự gõ địa chỉ của Google vào trình duyệt, đừng bấm vào đường dẫn trong email hay tin nhắn nào cả. Có rất nhiều trang giả mạo giao diện khôi phục tài khoản để lấy nốt những thông tin còn lại của bạn.",
+      },
+      {
+        title: "Làm trên thiết bị và mạng quen thuộc",
+        detail:
+          "Đây là mẹo quan trọng nhất mà ít người biết. Hệ thống đánh giá độ tin cậy dựa trên việc bạn có đang dùng thiết bị và đường mạng từng đăng nhập hay không. Ngồi ở nhà với chiếc điện thoại cũ của bạn thì tỷ lệ thành công cao hơn hẳn so với dùng máy lạ ở quán cà phê.",
+      },
+      {
+        title: "Thử lần lượt các cách xác minh được gợi ý",
+        detail:
+          "Hệ thống sẽ đưa ra nhiều lựa chọn: gửi mã tới điện thoại, gửi tới email khôi phục, xác nhận trên thiết bị đang đăng nhập sẵn. Có mục thử cách khác nếu cách đầu không được, cứ bấm vào đó thay vì bỏ cuộc.",
+      },
+      {
+        title: "Trả lời chắc chắn, đừng đoán bừa",
+        detail:
+          "Khi được hỏi mật khẩu cũ hay thời điểm tạo tài khoản, hãy nhập cái bạn nhớ rõ nhất. Trả lời sai liên tục làm giảm độ tin cậy của cả lần khôi phục. Không nhớ thật thì bấm bỏ qua câu đó còn hơn điền bừa.",
+      },
+      {
+        title: "Nhập chính xác email khôi phục hoặc số điện thoại",
+        detail:
+          "Nếu bạn còn nhớ email khôi phục từng khai, hãy nhập đúng cả chính tả. Đây là một trong những căn cứ mạnh nhất. Nhiều người khai từ lâu rồi quên, hãy thử nghĩ tới địa chỉ email cũ thời đi học.",
+      },
+      {
+        title: "Dùng mã dự phòng nếu vướng ở bước xác thực hai lớp",
+        detail:
+          "Mất điện thoại nhận mã thì mã dự phòng chính là đường thoát. Tìm lại trong tệp giấy tờ hoặc chỗ bạn từng cất. Đây là lý do bài nào về bảo mật cũng nhắc phải lưu mã dự phòng ngay từ đầu.",
+      },
+      {
+        title: "Không được thì thử lại vào hôm khác",
+        detail:
+          "Quy trình khôi phục không phải chỉ có một cơ hội. Nghỉ một hai ngày rồi thử lại, tốt nhất là từ thiết bị bạn hay dùng nhất và tại nhà. Đôi khi lần thứ hai qua được trong khi lần đầu bị từ chối.",
+      },
+      {
+        title: "Nếu bị chiếm thì đổi mật khẩu và đăng xuất mọi nơi",
+        detail:
+          "Vào lại được rồi thì việc đầu tiên là đổi mật khẩu sang loại dài và chưa từng dùng ở đâu. Sau đó tìm mục quản lý thiết bị và đăng xuất khỏi tất cả các phiên khác. Làm hai việc này liền nhau, đừng nghỉ giữa chừng.",
+      },
+      {
+        title: "Kiểm tra những chỗ kẻ xấu hay để lại cửa sau",
+        detail:
+          "Xem mục chuyển tiếp thư và bộ lọc trong hộp thư — kẻ chiếm tài khoản thường cài chuyển tiếp toàn bộ email sang địa chỉ của chúng. Kiểm tra luôn email khôi phục, số điện thoại khôi phục và danh sách ứng dụng được cấp quyền, xoá cái nào lạ.",
+      },
+      {
+        title: "Cảnh báo người thân và bạn bè ngay",
+        detail:
+          "Đăng một dòng lên trang cá nhân hoặc nhắn vào nhóm gia đình: tài khoản của tôi vừa bị chiếm, ai nhận được tin nhắn mượn tiền thì đừng chuyển. Việc này quan trọng ngang việc lấy lại tài khoản, vì thiệt hại thật thường rơi vào người thân của bạn.",
+      },
+      {
+        title: "Bật lại xác thực hai lớp và lưu mã dự phòng",
+        detail:
+          "Sau khi mọi thứ ổn, bật xác thực hai lớp bằng ứng dụng sinh mã, in mã dự phòng ra giấy và cất cùng giấy tờ quan trọng. Cập nhật luôn số điện thoại và email khôi phục cho đúng với thực tế hiện tại của bạn.",
+      },
+    ],
+    notes: [
+      "Không có dịch vụ nào lấy lại tài khoản hộ bạn. Mọi quảng cáo nhận khôi phục tài khoản với phí đều là lừa đảo, và họ chỉ lấy nốt thông tin của bạn. Chỉ dùng quy trình chính thức.",
+      "Hãy sao lưu những thứ quan trọng ngay từ bây giờ, khi bạn vẫn còn vào được: ảnh, danh bạ, tài liệu. Người mất tài khoản luôn tiếc nhất là những thứ chưa kịp tải về.",
+      "Đừng dùng email công ty làm địa chỉ khôi phục cho tài khoản cá nhân. Nghỉ việc là bạn mất luôn cửa thoát hiểm đó mà thường không nhận ra cho tới lúc cần.",
+      "Nếu tài khoản bị chiếm và có gắn thẻ ngân hàng hay ví điện tử, hãy kiểm tra lịch sử giao dịch và báo ngân hàng ngay trong ngày.",
+    ],
+    faq: [
+      {
+        q: "Mất số điện thoại đăng ký thì có lấy lại tài khoản được không?",
+        a: "Được, nếu bạn vượt qua được các bước xác minh khác như email khôi phục, mật khẩu cũ, hoặc xác nhận trên thiết bị đang đăng nhập sẵn. Nếu số cũ vẫn có thể khôi phục ở nhà mạng thì nên làm việc đó trước, vì nó mở lại một cửa quan trọng.",
+      },
+      {
+        q: "Bao lâu thì có kết quả khôi phục?",
+        a: "Có trường hợp xong ngay trong vài phút, có trường hợp hệ thống cần thời gian xem xét. Trong lúc chờ, đừng thử đi thử lại liên tục từ nhiều thiết bị lạ, vì điều đó có thể làm mọi thứ khó hơn.",
+      },
+      {
+        q: "Tài khoản bị chiếm rồi kẻ xấu đổi hết thông tin thì sao?",
+        a: "Vẫn nên thử quy trình khôi phục từ thiết bị quen thuộc của bạn, vì hệ thống có nhớ lịch sử đăng nhập. Đồng thời cảnh báo người thân ngay và kiểm tra các tài khoản khác dùng chung email đó.",
+      },
+      {
+        q: "Làm sao để không rơi vào tình huống này nữa?",
+        a: "Ba việc: bật xác thực hai lớp, lưu mã dự phòng ra giấy, và kiểm tra lại email cùng số điện thoại khôi phục mỗi năm một lần. Mất mười phút và tiết kiệm cho bạn một tuần hoảng loạn.",
+      },
+    ],
+    sources: [],
+  },
 ];
