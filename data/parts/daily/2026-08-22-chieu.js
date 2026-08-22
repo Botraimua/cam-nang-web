@@ -1070,4 +1070,534 @@ export const day20260822chieu = [
     ],
     sources: [],
   },
+  {
+    slug: "bat-dau-an-dam-cho-con",
+    title: "Bắt đầu ăn dặm cho con: khởi động mà không hoảng",
+    excerpt:
+      "Mười người khuyên mười kiểu, mạng xã hội thì đầy phương pháp nghe rất khoa học. Thật ra vài nguyên tắc đơn giản là đủ cho những tuần đầu.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Thời điểm bắt đầu và cách bắt đầu nên theo hướng dẫn của bác sĩ nhi khám cho con bạn, vì mỗi em bé một khác. Nguyên tắc chung là bắt đầu khi con đã ngồi vững có hỗ trợ, giữ được cổ, và tỏ ra quan tâm tới thức ăn. Giai đoạn đầu, sữa vẫn là nguồn dinh dưỡng chính, ăn dặm chỉ là tập làm quen. Cho từng loại thức ăn mới một, cách nhau vài ngày để dễ nhận ra dị ứng. Không nêm muối đường vào đồ ăn của em bé nhỏ, và luôn ngồi cạnh con trong suốt bữa ăn.",
+    prepare: [
+      "Một buổi khám hoặc một cuộc gọi hỏi bác sĩ nhi về thời điểm phù hợp cho chính con bạn",
+      "Ghế ăn có đai an toàn, để con ngồi thẳng chứ không nằm ngửa khi ăn",
+      "Thìa mềm đầu nhỏ, bát nhựa an toàn cho trẻ, yếm và một tấm lót sàn cho đỡ khổ",
+      "Một cuốn sổ hoặc ghi chú điện thoại để ghi con đã thử món gì, ngày nào, phản ứng ra sao",
+      "Số điện thoại của phòng khám nhi và địa chỉ cơ sở y tế gần nhất, lưu sẵn trong danh bạ",
+    ],
+    steps: [
+      {
+        title: "Hỏi bác sĩ nhi trước khi bắt đầu",
+        detail:
+          "Đừng lấy mốc thời gian từ nhóm chat của các mẹ. Con sinh non, con nhẹ cân, con có bệnh lý nền đều có lịch riêng. Một câu hỏi lúc đi khám định kỳ là đủ: bé nhà em bắt đầu ăn dặm được chưa và nên bắt đầu thế nào ạ.",
+      },
+      {
+        title: "Nhìn dấu hiệu con đã sẵn sàng",
+        detail:
+          "Con giữ được đầu cổ vững, ngồi được khi có tựa, đưa mắt nhìn theo thức ăn, với tay đòi, và không còn đẩy hết mọi thứ ra bằng lưỡi. Đủ những dấu hiệu này thì việc tập ăn nhẹ nhàng hơn nhiều so với ép theo lịch.",
+      },
+      {
+        title: "Chọn thời điểm trong ngày cho hợp lý",
+        detail:
+          "Chọn lúc con tỉnh táo, vui vẻ, không quá đói cũng không quá no. Con đang đói lả thì chỉ muốn bú chứ không muốn tập cầm thìa. Giữa buổi sáng thường là khung dễ nhất cho cả mẹ và con.",
+      },
+      {
+        title: "Bắt đầu bằng lượng rất nhỏ",
+        detail:
+          "Vài thìa nhỏ là đủ cho những ngày đầu, và con không ăn cũng không sao. Mục tiêu của tuần đầu là làm quen với thìa, với vị lạ, với việc ngồi ăn, chứ không phải nạp đủ dinh dưỡng. Sữa vẫn đang lo phần đó.",
+      },
+      {
+        title: "Cho từng món mới một, cách nhau vài ngày",
+        detail:
+          "Thử một loại thực phẩm mới rồi chờ vài ngày trước khi thử loại tiếp theo. Cách này giúp bạn biết chính xác món nào gây phản ứng nếu có. Trộn năm thứ vào một bữa cho nhanh thì lúc con nổi mẩn bạn sẽ không biết đổ lỗi cho ai.",
+      },
+      {
+        title: "Ghi lại vào sổ sau mỗi món mới",
+        detail:
+          "Ngày, món gì, con ăn bao nhiêu, có gì bất thường không. Nghe hơi công nghiệp nhưng cuốn sổ này rất giá trị khi đi khám, vì bác sĩ hỏi ngay câu bé đã ăn những gì. Ghi một dòng thôi, đừng viết thành nhật ký.",
+      },
+      {
+        title: "Điều chỉnh độ đặc theo khả năng của con",
+        detail:
+          "Bắt đầu loãng và mịn, rồi đặc dần, thô dần theo tháng tuổi và theo việc con nhai nuốt tốt tới đâu. Đi quá nhanh thì con dễ bị nghẹn, đi quá chậm thì con lười nhai về sau. Quan sát con chứ đừng bám cứng vào lịch trên mạng.",
+      },
+      {
+        title: "Không nêm muối và đường vào đồ ăn của bé",
+        detail:
+          "Thận của em bé còn non và vị giác đang hình thành. Nêm cho vừa miệng người lớn là thói quen nên bỏ ngay từ đầu. Nhạt với bạn nhưng vừa với con, và con quen ăn nhạt từ nhỏ là món quà lâu dài cho sức khoẻ.",
+      },
+      {
+        title: "Luôn ngồi cạnh con trong suốt bữa ăn",
+        detail:
+          "Không để con ăn một mình, không cho ăn khi con đang nằm, đang bò, đang chạy hay đang khóc. Đây là quy tắc an toàn quan trọng nhất của giai đoạn ăn dặm, quan trọng hơn mọi tranh luận về phương pháp.",
+      },
+      {
+        title: "Tránh những món dễ gây nghẹn",
+        detail:
+          "Các loại hạt nguyên, nho nguyên quả, cà chua bi nguyên, kẹo cứng, xúc xích cắt khoanh tròn đều là hình dạng nguy hiểm cho trẻ nhỏ. Cắt dọc, cắt nhỏ, làm mềm. Hỏi bác sĩ nhi về danh sách cụ thể theo tháng tuổi của con.",
+      },
+      {
+        title: "Đừng biến bữa ăn thành cuộc chiến",
+        detail:
+          "Con quay mặt đi, ngậm chặt miệng, hất thìa — đều bình thường. Dừng lại, dọn đi, thử lại bữa sau hoặc hôm sau. Ép ăn, doạ nạt, bật điện thoại cho con xem để đút được nhiều hơn đều tạo ra vấn đề lớn hơn về sau.",
+      },
+      {
+        title: "Cho con ăn cùng bàn với cả nhà",
+        detail:
+          "Trẻ học ăn bằng cách nhìn người lớn ăn. Kéo ghế con vào bàn ăn gia đình, để con nhìn, với tay, bốc thử. Bừa bộn thật, nhưng đây là cách tự nhiên nhất và cũng ít nước mắt nhất cho cả hai bên.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA CON ĐI VIỆN NGAY: khó thở, thở rít, tím tái quanh môi; sưng môi, sưng mặt hoặc sưng lưỡi sau khi ăn; nổi mề đay lan nhanh khắp người; nôn ói liên tục không cầm; con lịm đi, gọi không phản ứng hoặc mềm nhũn; nghi con bị hóc mà ho không ra.",
+      "Bài này không phải tư vấn y khoa. Con bạn có thể trạng riêng, và người quyết định phải là bác sĩ nhi đang theo dõi cháu. Hãy dùng bài này để biết cần hỏi gì, không phải để thay bác sĩ.",
+      "Đừng cho trẻ nhỏ dùng mật ong trong năm đầu đời, và hỏi bác sĩ về các thực phẩm cần thận trọng khác theo độ tuổi. Nhiều lời khuyên truyền miệng trong nhà đã lỗi thời từ lâu.",
+      "Sữa mẹ hoặc sữa công thức vẫn là nguồn dinh dưỡng chính trong giai đoạn đầu ăn dặm. Đừng cắt giảm sữa để con ăn được nhiều cháo hơn, trừ khi bác sĩ hướng dẫn cụ thể.",
+    ],
+    faq: [
+      {
+        q: "Con ăn ít quá, có phải mình làm sai không?",
+        a: "Giai đoạn đầu con ăn rất ít là chuyện bình thường, vì đây là tập chứ chưa phải ăn thật. Điều đáng theo dõi là con vẫn bú tốt, vẫn tăng cân và vẫn chơi vui. Con sụt cân hoặc bỏ bú thì mới cần đi khám sớm.",
+      },
+      {
+        q: "Nên chọn phương pháp ăn dặm nào?",
+        a: "Không có phương pháp nào đúng cho mọi em bé. Chọn cách bạn làm được đều đặn và an toàn, rồi điều chỉnh theo con. Nếu phân vân giữa các cách, hỏi bác sĩ nhi về trường hợp cụ thể của con bạn thay vì tin vào bài viết nào đông người theo nhất.",
+      },
+      {
+        q: "Nghẹn và hóc khác nhau thế nào?",
+        a: "Trẻ nghẹn nhẹ vẫn ho được, vẫn phát ra tiếng — thường tự xử lý được và bạn nên bình tĩnh quan sát. Hóc nghiêm trọng là khi con không ho ra tiếng, không thở được, mặt tím lại. Đó là tình huống cấp cứu, cần gọi cấp cứu ngay và sơ cứu theo hướng dẫn đã học.",
+      },
+      {
+        q: "Con dị ứng một món thì có phải kiêng mãi không?",
+        a: "Không tự quyết định điều đó. Ghi lại phản ứng, ngừng món đó và đưa con đi khám để bác sĩ đánh giá. Nhiều dị ứng ở trẻ thay đổi theo thời gian, và việc thử lại phải có hướng dẫn y tế chứ không thử ở nhà.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "con-nga-dap-dau-theo-doi-the-nao",
+    title: "Con ngã đập đầu: theo dõi thế nào và khi nào phải đi viện ngay",
+    excerpt:
+      "Trẻ con ngã là chuyện của mỗi tuần. Phần lớn không sao, nhưng có một nhóm dấu hiệu mà thấy là phải đi ngay, không chờ tới sáng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Việc đầu tiên là giữ bình tĩnh và quan sát con trong vài phút đầu: con có tỉnh không, có khóc ngay không, có cử động tay chân bình thường không. Chườm mát lên chỗ sưng, không xoa dầu, không day mạnh. Sau đó theo dõi sát trong khoảng một tới hai ngày, đặc biệt là mấy giờ đầu. Xuất hiện bất kỳ dấu hiệu nào trong danh sách cảnh báo ở cuối bài thì đưa con tới cơ sở y tế ngay, đừng chờ xem sao.",
+    prepare: [
+      "Số điện thoại cấp cứu và địa chỉ cơ sở y tế gần nhà nhất, lưu sẵn và cho cả người giúp việc biết",
+      "Túi chườm mát hoặc khăn sạch bọc đá — không chườm đá trực tiếp lên da con",
+      "Ghi chú điện thoại để ghi lại giờ ngã, độ cao, con ngã kiểu gì, đập vào đâu",
+      "Sổ khám bệnh của con và thẻ bảo hiểm y tế, để sẵn một chỗ ai cũng biết",
+      "Một người lớn thứ hai nếu có, vì lái xe đi viện trong lúc ôm con là việc không nên làm một mình",
+    ],
+    steps: [
+      {
+        title: "Hít một hơi rồi mới lại gần con",
+        detail:
+          "Phản ứng của bạn quyết định phản ứng của con. Bạn hét lên thì con hoảng và khóc dữ hơn, và bạn cũng khó đánh giá được tình hình. Vài giây bình tĩnh này là bước sơ cứu đầu tiên, dù nghe không giống sơ cứu.",
+      },
+      {
+        title: "Quan sát ba điều trong phút đầu tiên",
+        detail:
+          "Con có tỉnh táo và nhận ra bạn không, con có khóc ngay được không, con có cử động cả bốn chi bình thường không. Con khóc to rồi nín và đòi bế thường là dấu hiệu đỡ đáng lo hơn con im lìm, lơ mơ.",
+      },
+      {
+        title: "Đừng bế xốc con lên ngay nếu nghi ngã nặng",
+        detail:
+          "Nếu con ngã từ độ cao lớn, hoặc bạn nghi có chấn thương cổ và cột sống, hãy hạn chế di chuyển con và gọi cấp cứu. Với những cú ngã thông thường ở độ cao thấp thì cứ bế con lên dỗ dành bình thường.",
+      },
+      {
+        title: "Ghi lại chi tiết cú ngã ngay lúc đó",
+        detail:
+          "Mấy giờ, ngã từ đâu, cao khoảng bao nhiêu, đập phần nào của đầu, nền cứng hay mềm. Ghi ngay vì mười phút sau bạn sẽ không nhớ chính xác. Đây là những câu bác sĩ hỏi đầu tiên nếu phải đưa con đi khám.",
+      },
+      {
+        title: "Chườm mát chỗ sưng, không xoa dầu",
+        detail:
+          "Bọc đá trong khăn sạch, chườm nhẹ khoảng mươi phút rồi nghỉ. Không xoa dầu nóng, không day mạnh, không đắp lá theo mẹo dân gian. Cục u nổi lên ở da đầu là chuyện thường gặp, cái đáng lo nằm ở biểu hiện toàn thân chứ không ở cục u.",
+      },
+      {
+        title: "Kiểm tra xem có vết rách hay chảy máu không",
+        detail:
+          "Vén tóc xem kỹ. Có vết rách thì ép nhẹ bằng gạc sạch để cầm máu và đưa con đi khâu nếu vết sâu hoặc dài. Chảy máu hoặc chảy dịch trong từ mũi hoặc tai sau khi đập đầu là dấu hiệu phải đi viện ngay lập tức.",
+      },
+      {
+        title: "Cho con nghỉ ngơi và ăn nhẹ",
+        detail:
+          "Sau khi con đã bình tĩnh lại, cho con nằm nghỉ trong tầm mắt bạn, uống nước, ăn nhẹ nếu con muốn. Nôn một lần ngay sau cú ngã do sợ hãi có thể gặp, nhưng nôn nhiều lần là dấu hiệu cảnh báo cần đi khám.",
+      },
+      {
+        title: "Theo dõi sát trong mấy giờ đầu",
+        detail:
+          "Đây là khoảng thời gian quan trọng nhất. Ở gần con, để ý cách con chơi, cách con nói, cách con đi lại so với bình thường. Bạn là người hiểu con nhất, nên cảm giác con khang khác hôm nay là thông tin có giá trị thật sự.",
+      },
+      {
+        title: "Con ngủ thì vẫn cho ngủ, nhưng kiểm tra định kỳ",
+        detail:
+          "Không cần đánh thức con liên tục suốt đêm nếu con vẫn tỉnh táo bình thường trước khi ngủ. Nhưng nên ghé qua kiểm tra vài lần: xem con thở đều không, da dẻ bình thường không, chạm nhẹ xem con có phản ứng không.",
+      },
+      {
+        title: "Báo cho người trông con biết chuyện đã xảy ra",
+        detail:
+          "Ông bà, người giúp việc, cô giáo — ai sẽ trông con trong một hai ngày tới đều cần biết con vừa ngã đập đầu và cần để ý dấu hiệu gì. Nhắn cho họ danh sách cảnh báo ở cuối bài này là gọn nhất.",
+      },
+      {
+        title: "Đi khám sớm nếu bạn thấy không yên tâm",
+        detail:
+          "Không cần chờ đủ dấu hiệu nặng mới đi. Trẻ dưới một tuổi, con ngã từ độ cao lớn, hoặc đơn giản là bạn thấy bất an — đó đều là lý do chính đáng để đưa con đi khám. Bác sĩ khám xong bảo không sao vẫn hơn là ngồi nhà đoán.",
+      },
+      {
+        title: "Sau đó thì đi một vòng nhà tìm nguyên nhân",
+        detail:
+          "Ghế không có đai, giường không chắn, cầu thang không cửa chặn, sàn trơn, bàn có cạnh sắc. Sửa cái vừa gây tai nạn trong tuần này, đừng để tới lần thứ hai. Trẻ ngã lần đầu là tai nạn, ngã lần thứ ba ở cùng một chỗ thì là chuyện của người lớn.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA CON ĐI VIỆN NGAY, KHÔNG CHỜ ĐẾN SÁNG: con bất tỉnh dù chỉ trong chốc lát; lơ mơ, gọi khó tỉnh, ngủ li bì bất thường; nôn nhiều lần; co giật; đau đầu ngày càng nặng; nhìn mờ hoặc hai mắt lệch nhau; chảy máu hoặc chảy dịch trong từ mũi hoặc tai; yếu hoặc liệt một bên tay chân; đi loạng choạng, mất thăng bằng; khóc thét không dỗ được kéo dài; con dưới một tuổi ngã từ độ cao lớn hoặc có vết lõm trên đầu.",
+      "Bài này không phải tư vấn y khoa. Không tự cho con dùng bất kỳ loại thuốc nào sau chấn thương đầu khi chưa có chỉ định của bác sĩ, kể cả thuốc giảm đau thông thường, vì nó có thể che mất dấu hiệu quan trọng.",
+      "Đừng đắp lá, xoa dầu nóng, hay áp dụng mẹo dân gian lên chỗ chấn thương đầu. Những cách đó không giúp gì và có thể làm chậm việc phát hiện dấu hiệu nguy hiểm.",
+      "Trẻ càng nhỏ càng khó nói cho bạn biết chúng thấy thế nào. Với trẻ dưới hai tuổi, hãy hạ thấp ngưỡng đưa đi khám xuống, đừng chờ con kêu đau.",
+    ],
+    faq: [
+      {
+        q: "Con ngã xong nổi cục u to, có nguy hiểm không?",
+        a: "Cục u ở da đầu thường là tụ máu dưới da và khá phổ biến, nó không nói lên mức độ tổn thương bên trong. Điều đáng theo dõi là các dấu hiệu toàn thân trong danh sách cảnh báo, chứ không phải kích thước cục u.",
+      },
+      {
+        q: "Có phải cho con đi chụp chiếu ngay không?",
+        a: "Việc đó do bác sĩ quyết định sau khi thăm khám, dựa trên tuổi của con, cách con ngã và các dấu hiệu hiện có. Đừng tự yêu cầu hay tự từ chối, hãy mô tả thật chi tiết cú ngã để bác sĩ có căn cứ.",
+      },
+      {
+        q: "Theo dõi trong bao lâu thì yên tâm?",
+        a: "Mấy giờ đầu là quan trọng nhất, và thường được khuyên theo dõi tiếp trong khoảng một tới hai ngày. Bác sĩ khám cho con bạn sẽ dặn khoảng thời gian cụ thể, hãy hỏi rõ câu này trước khi ra về.",
+      },
+      {
+        q: "Con vẫn chơi bình thường ngay sau khi ngã thì có cần lo không?",
+        a: "Đó là dấu hiệu tốt, nhưng chưa phải là kết luận. Có những biểu hiện xuất hiện muộn hơn vài giờ. Cứ để con chơi bình thường nhưng vẫn để mắt tới trong ngày hôm đó và ngày hôm sau.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "con-bi-cho-meo-can-xu-ly-va-di-tiem",
+    title: "Con bị chó mèo cắn hoặc cào: rửa vết thương và đi tiêm",
+    excerpt:
+      "Con chó nhà quen, con mèo hàng xóm hiền lành — vẫn phải xử lý nghiêm túc. Đây là việc cần làm trong mười lăm phút đầu và trong ngày đầu.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Rửa vết thương thật kỹ dưới vòi nước chảy với xà phòng trong nhiều phút — đây là bước quan trọng nhất và phải làm ngay tại nhà. Không bịt kín, không đắp lá, không nặn máu. Sau đó đưa con tới cơ sở y tế trong ngày để bác sĩ đánh giá và tư vấn về tiêm phòng dại cũng như phòng uốn ván. Đồng thời tìm cách theo dõi con vật đã cắn trong những ngày tiếp theo. Quyết định tiêm gì, khi nào là việc của bác sĩ, đừng tự tra mạng rồi tự quyết.",
+    prepare: [
+      "Xà phòng và nước sạch — đây là thứ quan trọng nhất và nhà nào cũng có sẵn",
+      "Gạc sạch hoặc khăn sạch để thấm, không dùng bông gòn dễ dính sợi vào vết thương",
+      "Sổ tiêm chủng của con, để bác sĩ biết con đã tiêm những gì",
+      "Thông tin về con vật: của ai, đã tiêm phòng chưa, có thể theo dõi được không",
+      "Địa chỉ cơ sở y tế có dịch vụ tiêm phòng dại gần nhà, tra trước khi cần tới",
+    ],
+    steps: [
+      {
+        title: "Tách con ra khỏi con vật một cách an toàn",
+        detail:
+          "Đừng lao vào giằng co với con vật đang kích động, vì bạn có thể bị cắn theo. Dùng vật cản như cái ghế, cái túi, hoặc xịt nước. Đưa con vào trong nhà, đóng cửa lại rồi mới bắt đầu xử lý vết thương.",
+      },
+      {
+        title: "Rửa ngay dưới vòi nước chảy với xà phòng",
+        detail:
+          "Đây là bước quan trọng nhất của cả câu chuyện và nó phải diễn ra ngay lập tức. Xả nước chảy liên tục và rửa với xà phòng trong nhiều phút, kiên nhẫn hơn bạn nghĩ. Việc rửa kỹ này làm giảm đáng kể nguy cơ.",
+      },
+      {
+        title: "Giữ con bình tĩnh trong lúc rửa",
+        detail:
+          "Con sẽ khóc và giãy vì xót. Nói với con điều bạn đang làm và vì sao: mẹ rửa cho sạch để con không bị ốm, một chút nữa thôi là xong. Nhờ người thứ hai giữ và dỗ nếu có. Đừng bỏ dở giữa chừng vì con khóc.",
+      },
+      {
+        title: "Không nặn máu, không đắp lá, không bôi linh tinh",
+        detail:
+          "Nặn bóp làm tổn thương lan rộng hơn. Đắp lá, bôi thuốc lá theo mẹo, rắc bột đều có thể gây nhiễm trùng và làm bác sĩ khó đánh giá vết thương. Rửa sạch, thấm khô, che hờ bằng gạc sạch là đủ cho tới khi tới cơ sở y tế.",
+      },
+      {
+        title: "Không băng bó chặt kín",
+        detail:
+          "Che hờ để tránh bẩn thì được, nhưng đừng quấn kín và chặt. Vết thương do cắn cần thoáng. Chảy máu nhiều thì ép nhẹ bằng gạc sạch để cầm máu rồi đi cơ sở y tế ngay.",
+      },
+      {
+        title: "Ghi lại thông tin về con vật ngay",
+        detail:
+          "Con vật của nhà ai, tên gì, đã tiêm phòng dại chưa và tiêm khi nào, có sổ tiêm không, hiện có thể nhốt lại theo dõi được không. Chụp ảnh con vật nếu được. Đây là những thông tin bác sĩ sẽ hỏi và nó ảnh hưởng tới quyết định điều trị.",
+      },
+      {
+        title: "Chụp ảnh vết thương trước khi băng",
+        detail:
+          "Một tấm ảnh rõ ràng, có thước hoặc vật gì đó bên cạnh để thấy kích thước. Vết thương sẽ thay đổi trong ngày, và ảnh giúp bác sĩ cũng như giúp bạn nếu sau này cần làm việc với chủ vật nuôi.",
+      },
+      {
+        title: "Đưa con tới cơ sở y tế trong ngày",
+        detail:
+          "Đừng chờ tới hôm sau, đừng chờ xem vết có sưng không. Nói rõ với nhân viên y tế: con bị chó cắn lúc mấy giờ, con vật thế nào, ở nhà đã rửa bằng xà phòng dưới vòi nước bao lâu. Mang theo sổ tiêm chủng của con.",
+      },
+      {
+        title: "Để bác sĩ quyết định chuyện tiêm phòng",
+        detail:
+          "Có tiêm hay không, tiêm loại gì, mấy mũi, có cần huyết thanh không đều phụ thuộc vào vị trí vết thương, mức độ, loài vật và tình trạng con vật. Đây là quyết định chuyên môn. Đừng tự tra trên mạng rồi tự kết luận là không cần.",
+      },
+      {
+        title: "Theo dõi con vật trong nhiều ngày tiếp theo",
+        detail:
+          "Nếu con vật thuộc nhà quen và nhốt được, hãy theo dõi nó theo đúng số ngày bác sĩ dặn. Con vật có biểu hiện bất thường hoặc chết trong thời gian đó thì báo lại cơ sở y tế ngay lập tức. Đừng giết hoặc thả con vật đi trước khi hết thời gian theo dõi.",
+      },
+      {
+        title: "Tiêm đủ và đúng lịch nếu bác sĩ chỉ định",
+        detail:
+          "Đặt báo thức trên điện thoại cho từng mũi. Bỏ dở giữa chừng vì thấy con vẫn khoẻ là điều tuyệt đối không nên. Giữ sổ tiêm cẩn thận và mang theo mỗi lần đi.",
+      },
+      {
+        title: "Nói chuyện với con và dạy con cách phòng",
+        detail:
+          "Không doạ con sợ mọi con vật, chỉ dạy vài quy tắc đơn giản: không lại gần chó lạ, không chạm vào chó đang ăn hoặc đang ngủ, không ôm cổ chó, không chạy hét khi chó lại gần. Nói lúc con đã bình tĩnh, không nói ngay lúc đang khóc.",
+      },
+    ],
+    notes: [
+      "DẤU HIỆU PHẢI ĐƯA CON TỚI CƠ SỞ Y TẾ NGAY LẬP TỨC: vết cắn ở vùng đầu, mặt, cổ, bàn tay hoặc bộ phận sinh dục; vết thương sâu, rách rộng hoặc nhiều vết; chảy máu không cầm được; con bị vật hoang hoặc vật lạ không rõ nguồn gốc cắn; con vật có biểu hiện bất thường như hung dữ khác thường, chảy dãi nhiều, đi loạng choạng; vết thương sưng nóng đỏ tăng dần, chảy mủ, hoặc con sốt trong những ngày sau.",
+      "Bài này không phải tư vấn y khoa. Không kê thuốc và không nêu liều cho con theo lời khuyên trên mạng. Mọi quyết định về tiêm phòng và điều trị phải do bác sĩ đưa ra sau khi thăm khám trực tiếp.",
+      "Chó mèo nhà đã tiêm phòng vẫn phải xử lý và đi khám như bình thường. Sổ tiêm của con vật là một thông tin có ích cho bác sĩ, không phải là lý do để bỏ qua việc đi khám.",
+      "Mèo cào cũng cần được xử lý nghiêm túc chứ không chỉ chó cắn. Vết cào nhỏ nhưng sâu, và loài mèo cũng nằm trong nhóm cần lưu ý.",
+    ],
+    faq: [
+      {
+        q: "Vết cắn rất nhỏ, chỉ xước da thì có cần đi khám không?",
+        a: "Vẫn nên đưa con đi khám trong ngày. Mức độ nguy cơ không được đánh giá bằng kích thước vết thương mà bằng nhiều yếu tố khác. Rửa kỹ ở nhà rồi tới cơ sở y tế để bác sĩ quyết định là cách an toàn nhất.",
+      },
+      {
+        q: "Chó nhà mình nuôi, đã tiêm phòng đầy đủ thì có bỏ qua được không?",
+        a: "Không nên tự bỏ qua. Hãy mang theo sổ tiêm của con chó khi đưa con đi khám, đó là thông tin quan trọng để bác sĩ cân nhắc. Nhưng người ra quyết định vẫn phải là bác sĩ.",
+      },
+      {
+        q: "Bao lâu sau khi bị cắn thì còn kịp tiêm?",
+        a: "Càng sớm càng tốt, và tốt nhất là trong ngày. Nhưng đã muộn vài ngày cũng đừng bỏ, hãy tới cơ sở y tế ngay khi nhớ ra và nói rõ thời điểm bị cắn để bác sĩ xử lý phù hợp.",
+      },
+      {
+        q: "Nên nói gì với hàng xóm có con chó đã cắn con mình?",
+        a: "Giữ giọng bình tĩnh, tập trung vào thông tin bạn cần: chó đã tiêm phòng chưa, có sổ không, và nhờ họ nhốt theo dõi giúp trong những ngày tới. Chuyện trách nhiệm và bồi thường tính sau, việc của hôm nay là sức khoẻ của con bạn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "lan-dau-de-con-o-nha-mot-minh",
+    title: "Lần đầu để con ở nhà một mình: chuẩn bị trước, tập dần",
+    excerpt:
+      "Không có con số tuổi nào đúng cho mọi đứa trẻ. Nhưng có một cách tập dần để tới ngày đó, cả bạn và con đều đỡ căng thẳng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Đừng quyết định bằng tuổi, hãy quyết định bằng việc con đã làm được những gì: con có tự gọi điện được không, có biết phải làm gì khi có người gõ cửa không, có bình tĩnh khi mất điện không. Tập dần từ mười lăm phút rồi tăng lên, chứ đừng nhảy thẳng vào một buổi chiều. Dán một tờ giấy có số điện thoại quan trọng ở chỗ dễ thấy, thống nhất vài quy tắc rõ ràng, và mỗi lần về nhà đều hỏi con hôm nay thế nào để con quen kể.",
+    prepare: [
+      "Một tờ giấy khổ lớn ghi số của bố, mẹ, một người thân gần nhà, và số cấp cứu — dán ở chỗ con luôn nhìn thấy",
+      "Điện thoại hoặc đồng hồ liên lạc cho con, đã lưu sẵn vài số và con biết cách gọi",
+      "Số điện thoại của hàng xóm mà bạn tin tưởng, và họ biết là con bạn có thể ở nhà một mình",
+      "Một danh sách ngắn các quy tắc, viết to, dán cạnh cửa ra vào",
+      "Đồ ăn nhẹ và nước để sẵn chỗ con lấy được, không phải trèo hay dùng bếp",
+    ],
+    steps: [
+      {
+        title: "Đánh giá con bằng kỹ năng, không bằng tuổi",
+        detail:
+          "Câu hỏi đúng không phải mấy tuổi thì được ở nhà một mình, mà là con đã biết làm gì. Con có gọi điện cho bạn được không, có nhớ địa chỉ nhà không, có tự đi vệ sinh và lấy đồ ăn được không, có bình tĩnh khi gặp chuyện bất ngờ không.",
+      },
+      {
+        title: "Hỏi thẳng xem con có muốn không",
+        detail:
+          "Ngồi xuống hỏi: con thấy sao nếu mẹ đi chợ mười lăm phút mà con ở nhà. Con tỏ ra sợ thật sự thì chưa phải lúc, dù con có lớn tuổi hơn bạn bè. Ép con làm khi con chưa sẵn sàng sẽ tạo ra nỗi sợ kéo dài rất lâu.",
+      },
+      {
+        title: "Bắt đầu bằng mười lăm phút",
+        detail:
+          "Lần đầu chỉ nên là bạn xuống dưới nhà hoặc chạy ra cửa hàng đầu ngõ. Về đúng giờ đã hẹn, không trễ dù chỉ năm phút. Đúng hẹn là thứ xây dựng lòng tin nhanh nhất, và trễ hẹn phá nó cũng nhanh không kém.",
+      },
+      {
+        title: "Tăng dần thời gian theo tuần",
+        detail:
+          "Mười lăm phút, rồi nửa tiếng, rồi một tiếng. Mỗi lần thành công thì khen con cụ thể: con khoá cửa đúng, con không mở cửa cho người lạ, con gọi mẹ khi cần. Đừng nhảy cóc từ mười lăm phút lên cả buổi chiều.",
+      },
+      {
+        title: "Thống nhất ba quy tắc rõ ràng",
+        detail:
+          "Ít quy tắc nhưng phải nhớ được. Ví dụ: không mở cửa cho bất kỳ ai, kể cả người quen, trừ khi bố mẹ đã gọi báo trước; không dùng bếp; có gì lạ thì gọi ngay cho bố mẹ, gọi không được thì gọi bác hàng xóm. Viết to và dán ở cửa.",
+      },
+      {
+        title: "Tập trước tình huống có người gõ cửa",
+        detail:
+          "Đóng vai với con vài lần. Dạy con nói qua cửa mà không mở: bố mẹ con đang bận, cô chú để lại lời nhắn ạ. Không nói câu con ở nhà một mình. Tập kiểu trò chơi cho nhẹ nhàng, đừng dựng thành buổi huấn luyện đáng sợ.",
+      },
+      {
+        title: "Tập trước tình huống mất điện và tiếng động lạ",
+        detail:
+          "Cho con biết đèn pin ở đâu, ổ điện nào không được đụng vào, và tiếng nào trong nhà là bình thường. Trẻ sợ nhất là những gì chúng không hiểu. Giải thích trước một lần thì đêm mất điện con sẽ đỡ hoảng hơn nhiều.",
+      },
+      {
+        title: "Dạy con gọi điện cho đúng người, đúng cách",
+        detail:
+          "Tập bấm gọi vài lần thật. Dạy con nói câu đầu tiên cho rõ: con là tên gì, con đang ở nhà số mấy, có chuyện này. Trẻ hoảng thường quên nói địa chỉ, nên tập câu này thành thói quen là rất đáng.",
+      },
+      {
+        title: "Dọn nhà cho an toàn trước khi đi",
+        detail:
+          "Cất thuốc, dao kéo, bật lửa, hoá chất tẩy rửa lên cao và khoá lại. Khoá ban công và cửa sổ. Rút phích những thiết bị điện không cần. Việc này làm một lần thật kỹ thì các lần sau chỉ cần kiểm tra nhanh.",
+      },
+      {
+        title: "Báo cho hàng xóm bạn tin tưởng",
+        detail:
+          "Một câu ngắn: chiều nay cháu ở nhà một mình khoảng một tiếng, có gì bác để ý giúp em nhé. Cho con biết nhà bác nào là chỗ chạy sang khi cần. Một người lớn ở gần là lớp bảo vệ tốt hơn mọi thiết bị.",
+      },
+      {
+        title: "Thống nhất cách liên lạc trong lúc bạn đi",
+        detail:
+          "Hẹn giờ gọi kiểm tra, ví dụ giữa chừng gọi một lần. Nói rõ với con: nếu mẹ gọi mà con không nghe máy thì mẹ sẽ về ngay. Đừng gọi liên tục năm phút một lần, vì điều đó truyền đi thông điệp rằng bạn không tin con làm được.",
+      },
+      {
+        title: "Về nhà thì hỏi con kể lại",
+        detail:
+          "Hỏi mở: hôm nay ở nhà con làm gì, có gì lạ không, có lúc nào con thấy sợ không. Nghe hết rồi mới góp ý. Nếu con làm sai điều gì, sửa nhẹ nhàng chứ đừng mắng, vì con mắng một lần là lần sau con giấu.",
+      },
+    ],
+    notes: [
+      "Không có mốc tuổi chung áp dụng cho mọi gia đình, và quy định pháp luật liên quan tới việc trông nom trẻ có thể khác nhau. Cân nhắc theo khả năng thực tế của con bạn, và hỏi thêm ý kiến nhà trường hoặc cán bộ địa phương nếu bạn phải để con ở nhà thường xuyên.",
+      "Trẻ ở nhà một mình thường xuyên và trong thời gian dài là chuyện khác hẳn với thỉnh thoảng một tiếng. Nếu bạn buộc phải làm vậy vì công việc, hãy tìm thêm phương án như gửi con sang nhà người thân hoặc các nhóm trông trẻ ngoài giờ.",
+      "Đừng dùng camera trong nhà để thay cho việc chuẩn bị và dạy con. Camera cho bạn thấy chuyện đang xảy ra nhưng không giúp con biết phải làm gì. Nếu có dùng, hãy nói cho con biết chứ đừng theo dõi lén.",
+      "Nói với con rằng nếu có chuyện gì xảy ra, dù con có làm sai, con vẫn phải gọi cho bố mẹ và sẽ không bị mắng. Đứa trẻ sợ bị mắng là đứa trẻ sẽ giấu chuyện quan trọng.",
+    ],
+    faq: [
+      {
+        q: "Con bao nhiêu tuổi thì ở nhà một mình được?",
+        a: "Không có con số đúng cho mọi đứa trẻ. Hai đứa cùng mười tuổi có thể rất khác nhau về mức độ sẵn sàng. Hãy nhìn vào các kỹ năng cụ thể và cảm giác của chính con, rồi tập dần từ khoảng thời gian rất ngắn.",
+      },
+      {
+        q: "Có nên cho con dùng điện thoại thoải mái trong lúc ở nhà một mình không?",
+        a: "Điện thoại để liên lạc là cần thiết, nhưng nếu bạn thả lỏng hoàn toàn thì thời gian ở nhà một mình dễ biến thành thời gian xem màn hình không giới hạn. Thống nhất trước con được làm gì và trong bao lâu.",
+      },
+      {
+        q: "Anh chị lớn trông em nhỏ có được không?",
+        a: "Đây là việc nặng hơn nhiều so với tự trông mình, vì đứa lớn phải chịu trách nhiệm cho một người khác. Chỉ nên tính tới khi đứa lớn đã thật sự vững, thời gian ngắn, và bạn đã tập kỹ tình huống với cả hai đứa.",
+      },
+      {
+        q: "Con nói con sợ nhưng mình lại không có ai trông, phải làm sao?",
+        a: "Hãy giảm thời gian xuống mức ngắn nhất có thể và tăng lớp hỗ trợ: nhờ hàng xóm ghé qua, gọi video cho con trong lúc bạn đi, hoặc gửi con sang nhà người thân. Đừng bỏ qua việc con nói sợ, đó là thông tin quan trọng chứ không phải con làm nũng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "cho-con-tien-tieu-vat-va-day-con-tieu",
+    title: "Cho con tiền tiêu vặt: cho bao nhiêu và dạy con tiêu thế nào",
+    excerpt:
+      "Cho tiền mà không dạy gì thì con chỉ học được một điều: xin là có. Vài quy tắc nhỏ biến khoản tiền lẻ hằng tuần thành bài học dùng được cả đời.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tre-em",
+    author: null,
+    quickAnswer:
+      "Cho một khoản cố định, đều đặn theo tuần, và cho đúng hẹn kể cả khi bạn đang giận con. Số tiền không quan trọng bằng tính đều đặn và bằng việc con được tự quyết định tiêu vào đâu. Cho con quyền mua thứ bạn thấy phí — đó chính là lúc con học được bài học thật. Không dùng tiền tiêu vặt làm phần thưởng hay hình phạt, và tách bạch nó với việc nhà cơ bản mà mọi thành viên trong nhà đều phải làm.",
+    prepare: [
+      "Một cuộc nói chuyện với vợ hoặc chồng để thống nhất trước, tránh cảnh con xin hai nơi",
+      "Ba cái lọ, ba cái phong bì, hoặc ba ngăn trong ví — để chia tiêu, tiết kiệm, và cho đi",
+      "Một cuốn sổ nhỏ hoặc bảng dán tường để con tự ghi",
+      "Tiền lẻ mệnh giá nhỏ, vì đưa tờ to thì con khó chia và khó cảm nhận",
+      "Một ngày cố định trong tuần làm ngày phát tiền, ví dụ sáng thứ hai",
+    ],
+    steps: [
+      {
+        title: "Thống nhất giữa bố và mẹ trước khi nói với con",
+        detail:
+          "Bao nhiêu, mỗi tuần hay mỗi tháng, con được tự quyết tới đâu, và khi con tiêu hết sớm thì có cho thêm không. Trả lời xong bốn câu này giữa hai người lớn thì con sẽ không có cửa xin bên này khi bên kia đã từ chối.",
+      },
+      {
+        title: "Chọn số tiền vừa đủ để con phải cân nhắc",
+        detail:
+          "Ít quá thì không có gì để học vì tiêu một lần là hết, nhiều quá thì con không cần lựa chọn nên cũng chẳng học được gì. Mức hợp lý là con mua được một hai thứ nhỏ và phải bỏ qua thứ thứ ba. Tham khảo phụ huynh cùng lớp cho khỏi lệch quá.",
+      },
+      {
+        title: "Cho theo tuần với trẻ nhỏ, theo tháng với trẻ lớn",
+        detail:
+          "Trẻ nhỏ khó hình dung một tháng dài bao lâu, nên tuần là nhịp vừa phải. Con lớn hơn thì chuyển sang tháng để tập lập kế hoạch dài hơn. Đổi nhịp là một cột mốc, nên nói rõ với con rằng đây là vì con đã lớn.",
+      },
+      {
+        title: "Phát tiền đúng hẹn, kể cả khi đang giận con",
+        detail:
+          "Tiền tiêu vặt không phải phần thưởng nên cũng không phải thứ để rút lại khi con hư. Cắt tiền để phạt biến nó thành công cụ quyền lực và xoá sạch bài học tài chính bên trong. Kỷ luật con bằng cách khác.",
+      },
+      {
+        title: "Chia thành ba phần ngay khi nhận",
+        detail:
+          "Một phần để tiêu, một phần để dành, một phần để cho đi hoặc giúp ai đó. Cho con tự bỏ tiền vào từng lọ mỗi tuần. Thao tác vật lý này dạy được nhiều hơn mọi bài giảng về quản lý chi tiêu.",
+      },
+      {
+        title: "Để con tự quyết, kể cả khi bạn thấy phí",
+        detail:
+          "Con dốc cả tuần tiền vào một món đồ chơi rẻ tiền hỏng sau hai ngày — đó là bài học hiệu quả nhất và rẻ nhất con từng có. Cắn răng đừng can thiệp. Bạn chỉ được góp ý khi con hỏi, hoặc khi món đồ không an toàn.",
+      },
+      {
+        title: "Không cứu con khi con tiêu hết sớm",
+        detail:
+          "Câu cần nói, nhẹ nhàng thôi: mẹ biết con đang tiếc, nhưng đợi tới thứ hai tuần sau nhé. Ứng trước một lần là lần sau con sẽ hỏi ứng tiếp. Chờ đợi là phần khó nhất và cũng là phần giá trị nhất của bài học này.",
+      },
+      {
+        title: "Tách bạch việc nhà cơ bản với việc kiếm thêm",
+        detail:
+          "Dọn phòng mình, gấp quần áo của mình, dọn bát của mình là trách nhiệm của một thành viên trong nhà, không trả tiền. Còn những việc lớn ngoài phần đó, như rửa xe hay dọn kho, thì có thể thoả thuận trả công nếu con muốn kiếm thêm.",
+      },
+      {
+        title: "Dạy con so giá trước khi mua",
+        detail:
+          "Dẫn con đi siêu thị và chỉ cho con thấy cùng một món có nhiều giá. Hỏi con: cái này đắt hơn cái kia bao nhiêu, con thấy có đáng không. Câu hỏi này lặp lại vài chục lần sẽ thành phản xạ của con khi trưởng thành.",
+      },
+      {
+        title: "Đặt một mục tiêu tiết kiệm mà con thật sự muốn",
+        detail:
+          "Con muốn mua một món hơi lớn thì cùng con tính: mỗi tuần để dành bao nhiêu, bao nhiêu tuần thì đủ. Vẽ một cái bảng dán tường để con tô màu mỗi tuần. Ngày con mua được món đó bằng tiền của mình là ngày đáng nhớ hơn bạn nghĩ.",
+      },
+      {
+        title: "Ghi chép đơn giản, đừng biến thành bài tập",
+        detail:
+          "Với trẻ nhỏ thì chỉ cần đếm tiền còn lại trong lọ. Con lớn hơn thì ghi vài dòng: hôm nay tiêu bao nhiêu, mua gì. Đừng bắt con lập bảng chi tiêu như kế toán, vì con sẽ ghét cả việc quản lý tiền lẫn bạn.",
+      },
+      {
+        title: "Nói chuyện tiền bạc trong nhà một cách bình thường",
+        detail:
+          "Cho con biết ở mức phù hợp với tuổi rằng nhà mình đang tiết kiệm cho việc gì, vì sao tháng này không đi ăn ngoài. Trẻ hiểu được nhiều hơn người lớn tưởng, và việc này giúp con bớt đòi hỏi hơn mọi lời từ chối.",
+      },
+    ],
+    notes: [
+      "Đừng so tiền tiêu vặt của con với con nhà khác, và cũng đừng để con làm vậy. Mỗi nhà một hoàn cảnh, và bài học ở đây là cách dùng tiền chứ không phải số tiền.",
+      "Cẩn thận khi con bắt đầu tiêu tiền trên mạng: nạp thẻ game, mua vật phẩm trong ứng dụng. Hãy tắt tính năng thanh toán tự động và đặt mật khẩu cho mọi giao dịch trên thiết bị của con.",
+      "Nếu con thường xuyên mất tiền hoặc tiêu bất thường, hãy hỏi nhẹ nhàng thay vì tra hỏi. Có thể con bị bạn lớn hơn xin đểu, và đó là chuyện cần xử lý ngay chứ không phải chuyện tiền bạc.",
+      "Cho con tiền để giữ trong người ở trường thì nên là số nhỏ. Nói với con rằng nếu ai đó ép con đưa tiền, con phải kể với bố mẹ hoặc thầy cô, và con sẽ không bị mắng vì chuyện đó.",
+    ],
+    faq: [
+      {
+        q: "Mấy tuổi thì nên bắt đầu cho tiền tiêu vặt?",
+        a: "Thường là khi con đã biết đếm tiền và hiểu được rằng tiêu cái này thì không mua được cái kia. Không có mốc chuẩn, hãy nhìn vào việc con đã hiểu khái niệm đổi chác và chờ đợi chưa.",
+      },
+      {
+        q: "Con đòi mua thứ mình thấy vô bổ thì có nên cấm không?",
+        a: "Nếu món đó an toàn và hợp pháp thì hãy để con mua bằng tiền của con, dù bạn thấy phí. Đó là toàn bộ giá trị của việc cho tiền tiêu vặt. Bạn chỉ nên can thiệp với những thứ không an toàn hoặc không phù hợp lứa tuổi.",
+      },
+      {
+        q: "Có nên thưởng tiền cho điểm cao không?",
+        a: "Nhiều phụ huynh làm và cũng có kết quả ngắn hạn, nhưng nó dễ khiến con học vì tiền chứ không vì hiểu bài, và tới lúc bạn ngừng thưởng thì động lực biến mất. Nếu muốn ghi nhận, hãy chọn cách khác như một buổi đi chơi cùng nhau.",
+      },
+      {
+        q: "Con làm mất tiền thì có bù không?",
+        a: "Với lần đầu và với trẻ nhỏ, có thể vừa an ủi vừa cùng con nghĩ cách cất tiền cho an toàn hơn. Nhưng đừng bù lại toàn bộ mỗi lần, vì hậu quả tự nhiên chính là thứ dạy con giữ gìn.",
+      },
+    ],
+    sources: [],
+  },
 ];
