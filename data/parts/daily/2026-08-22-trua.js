@@ -1047,4 +1047,538 @@ export const day20260822trua = [
     ],
     sources: [],
   },
+  {
+    slug: "so-cuu-hoc-nghen-tai-ban-an",
+    title: "Người bên cạnh bị hóc nghẹn: nhận ra trong ba giây và làm gì ngay",
+    excerpt:
+      "Hóc nghẹn thường xảy ra giữa bữa ăn vui vẻ, và người bị hóc thường không kêu được tiếng nào. Biết phân biệt hóc nhẹ với hóc nghẹt đường thở là điều đáng học một lần trong đời.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Câu hỏi đầu tiên là người đó còn ho được hay không. Còn ho mạnh, còn nói được thì hãy khuyến khích họ ho tiếp và đứng cạnh theo dõi, đừng vỗ lưng loạn xạ. Nếu họ không ho ra tiếng, không nói được, ôm cổ, mặt tím tái thì đó là tắc đường thở và phải hành động ngay đồng thời nhờ người khác gọi cấp cứu 115. Với người lớn và trẻ lớn, cách xử trí gồm vỗ lưng giữa hai bả vai và ép bụng, làm xen kẽ cho tới khi dị vật bật ra hoặc cấp cứu tới. Với trẻ dưới một tuổi thì cách làm khác hẳn và phải gọi cấp cứu ngay lập tức. Đây là kiến thức nên học thực hành ở một lớp sơ cứu chứ đừng chỉ đọc.",
+    prepare: [
+      "Số cấp cứu 115 lưu sẵn trong danh bạ, và biết địa chỉ chính xác nơi mình đang ở để đọc cho tổng đài",
+      "Biết trong nhà hoặc trong quán ai là người có thể gọi điện giúp trong lúc bạn đang xử trí",
+      "Một lần tham gia lớp sơ cứu có thực hành — đọc chữ và làm thật là hai chuyện rất khác nhau",
+      "Thói quen quan sát bàn ăn khi có trẻ nhỏ và người già, vì đây là hai nhóm dễ gặp nhất",
+    ],
+    steps: [
+      {
+        title: "Nhận ra dấu hiệu trong vài giây đầu",
+        detail:
+          "Người bị hóc nặng thường đột ngột ngừng nói giữa câu, đưa hai tay lên ôm cổ, mắt mở to hoảng hốt, mặt đỏ rồi chuyển tím. Điều đáng sợ là họ im lặng chứ không kêu cứu được, nên người xung quanh dễ tưởng họ chỉ đang sặc nhẹ. Thấy ai đang ăn mà đột nhiên đứng bật dậy ôm cổ thì đó là tín hiệu cần vào cuộc ngay.",
+      },
+      {
+        title: "Hỏi một câu để phân loại nặng nhẹ",
+        detail:
+          "Hỏi to và rõ: anh chị có bị hóc không, nói được không. Nếu họ trả lời được, ho được thành tiếng, khóc được với trẻ em thì đường thở vẫn còn thông. Nếu họ chỉ gật đầu, không phát ra tiếng, hoặc ho khan không ra hơi thì đây là tình huống nguy cấp.",
+      },
+      {
+        title: "Còn ho được thì để họ ho, đừng can thiệp thô bạo",
+        detail:
+          "Ho là cơ chế tống dị vật hiệu quả nhất của cơ thể. Cứ động viên họ ho mạnh tiếp, giữ họ hơi cúi người về phía trước, đứng sát bên và theo dõi. Đừng vỗ lưng dồn dập hay cho uống nước lúc này, vì có thể làm dị vật rơi sâu hơn. Nhưng đừng bỏ đi chỗ khác, vì tình huống có thể xấu đi rất nhanh.",
+      },
+      {
+        title: "Không ho được thì hô người gọi 115 ngay lập tức",
+        detail:
+          "Chỉ tay vào một người cụ thể và nói rõ: anh áo xanh ơi, gọi 115 giúp em ngay. Chỉ đích danh một người thì việc mới có người làm, còn hô chung chung ai gọi cấp cứu đi thì thường không ai gọi cả. Trong lúc đó bạn bắt tay xử trí, không chờ.",
+      },
+      {
+        title: "Vỗ lưng năm cái giữa hai bả vai",
+        detail:
+          "Đứng chếch bên cạnh và hơi ra sau người bị hóc, một tay đỡ ngực họ cho người cúi hẳn về phía trước, tay kia dùng gót bàn tay vỗ dứt khoát năm cái vào vùng giữa hai bả vai. Vỗ ra hướng lên trên. Sau mỗi cái nhìn xem dị vật đã bật ra chưa, chứ đừng vỗ liền một mạch cho đủ số.",
+      },
+      {
+        title: "Nếu chưa được thì chuyển sang ép bụng năm lần",
+        detail:
+          "Đứng sau lưng, vòng hai tay ôm quanh bụng người đó, đặt nắm tay ở vùng bụng trên rốn và dưới xương ức, tay kia nắm lấy nắm tay đó rồi kéo giật mạnh vào trong và hướng lên trên, làm năm lần dứt khoát. Nguyên lý là đẩy hơi trong phổi bật ra để tống dị vật. Sau đó lại quay về vỗ lưng, cứ xen kẽ như vậy.",
+      },
+      {
+        title: "Làm xen kẽ cho tới khi thông hoặc cấp cứu tới",
+        detail:
+          "Năm lần vỗ lưng rồi năm lần ép bụng, lặp lại. Đừng dừng vì thấy mình làm chưa đúng lắm, vì trong tình huống này việc không làm gì mới là điều tệ nhất. Vừa làm vừa nói chuyện với họ để họ biết mình đang được giúp và bớt hoảng loạn.",
+      },
+      {
+        title: "Người bị hóc bất tỉnh thì đặt nằm xuống và báo lại cho tổng đài",
+        detail:
+          "Nếu họ mềm người ngã xuống, hãy đỡ họ nằm xuống nền cứng, hô to gọi thêm người, và báo ngay cho tổng đài 115 về diễn biến mới. Nhân viên trực tổng đài sẽ hướng dẫn bạn từng bước qua điện thoại. Hãy bật loa ngoài và làm theo lời họ, đây là lúc bạn cần được hướng dẫn trực tiếp chứ không phải nhớ lại bài đã đọc.",
+      },
+      {
+        title: "Với trẻ dưới một tuổi thì cách làm hoàn toàn khác",
+        detail:
+          "TUYỆT ĐỐI KHÔNG ép bụng cho trẻ dưới một tuổi. Kỹ thuật cho lứa tuổi này khác hẳn và cần được hướng dẫn đúng. Việc quan trọng nhất bạn phải làm là gọi cấp cứu 115 ngay lập tức và làm theo hướng dẫn của tổng đài trong lúc chờ. Nếu nhà bạn có trẻ nhỏ, hãy đi học một lớp sơ cứu trẻ em có thực hành, đây là khoản đầu tư đáng giá nhất cho một buổi cuối tuần.",
+      },
+      {
+        title: "Với phụ nữ mang thai và người quá béo thì đổi vị trí ép",
+        detail:
+          "Với hai nhóm này, không ép ở vùng bụng mà chuyển lên ép ở vùng giữa ngực. Cách nắm tay và giật vẫn tương tự, chỉ khác điểm đặt tay. Nếu bạn không chắc, cứ tiếp tục vỗ lưng và bám sát hướng dẫn của tổng đài cấp cứu qua điện thoại.",
+      },
+      {
+        title: "Xử trí xong vẫn nên đưa đi khám",
+        detail:
+          "Kể cả khi dị vật đã bật ra và người đó thở lại bình thường, vẫn nên đi khám, nhất là nếu họ đã tím tái, đã bất tỉnh, hoặc bạn đã phải ép bụng. Kỹ thuật ép bụng có thể gây tổn thương bên trong mà bên ngoài không thấy gì. Cũng cần kiểm tra xem còn sót mảnh dị vật nào không.",
+      },
+      {
+        title: "Phòng trước cho bữa ăn của người già và trẻ nhỏ",
+        detail:
+          "Cắt nhỏ thức ăn, nhất là các món tròn trơn như nho, thạch, xúc xích, cá viên. Đừng để trẻ vừa ăn vừa chạy nhảy, cười đùa hay nằm. Người già nuốt kém thì cho ăn chậm, ngồi thẳng, hạn chế món khô cứng. Với người đang đeo răng giả không khít thì càng phải chú ý. Phòng vẫn dễ hơn xử trí rất nhiều.",
+      },
+    ],
+    notes: [
+      "ĐÂY KHÔNG PHẢI TƯ VẤN Y KHOA. Bài viết chỉ giúp bạn hình dung tình huống và không thay thế một lớp sơ cứu có thực hành hay hướng dẫn của nhân viên y tế.",
+      "GỌI CẤP CỨU 115 NGAY khi người bị hóc không nói được, không ho ra tiếng, môi và mặt tím tái, hoặc rơi vào bất tỉnh. Với trẻ dưới một tuổi thì gọi ngay từ đầu, đừng chờ thử xử trí trước.",
+      "SAU KHI ĐÃ XỬ TRÍ, VẪN ĐI KHÁM nếu người bị hóc từng tím tái, từng bất tỉnh, còn đau ngực hay đau bụng, ho ra máu, hoặc thở vẫn còn khó. Đừng vì thấy đã đỡ mà bỏ qua.",
+      "Đừng thò tay móc họng người bị hóc khi bạn không nhìn thấy rõ dị vật. Việc này thường đẩy dị vật vào sâu hơn và làm tình hình xấu đi.",
+    ],
+    faq: [
+      {
+        q: "Người bị hóc mà vẫn ho được thì có nên vỗ lưng luôn cho nhanh không?",
+        a: "Không nên. Khi họ còn ho mạnh và nói được thì đường thở còn thông, và ho là cách tống dị vật hiệu quả nhất. Can thiệp lúc này có thể làm dị vật di chuyển theo hướng xấu. Hãy đứng cạnh, động viên họ ho tiếp và sẵn sàng vào cuộc ngay nếu họ ngừng ho được thành tiếng.",
+      },
+      {
+        q: "Uống nước hay nuốt cơm cho trôi có được không?",
+        a: "Đây là mẹo dân gian rất phổ biến nhưng không nên làm khi nghi tắc đường thở, vì có thể làm tình hình nặng thêm. Với trường hợp hóc xương nhẹ ở cổ họng mà vẫn thở nói bình thường thì cũng nên đi khám để lấy ra đúng cách, thay vì cố nuốt thêm thứ khác đẩy xuống.",
+      },
+      {
+        q: "Chỉ có một mình mình bị hóc thì làm sao?",
+        a: "Nếu còn ho được thì cố ho mạnh. Nếu không thở được và không có ai bên cạnh, hãy tự gọi cấp cứu nếu còn bấm được máy, mở khoá cửa để người tới có thể vào, và tự ép bụng bằng cách tì mạnh vùng bụng trên vào một vật cứng chắc như lưng ghế hoặc cạnh bàn rồi giật người xuống. Ra chỗ đông người nếu bạn còn di chuyển được.",
+      },
+      {
+        q: "Học sơ cứu ở đâu và có tốn kém không?",
+        a: "Nhiều bệnh viện, hội chữ thập đỏ địa phương, trường học và một số trung tâm cộng đồng có tổ chức lớp sơ cứu ngắn có thực hành. Chi phí và lịch học tuỳ nơi, có nơi miễn phí — nên hỏi trực tiếp cơ sở gần bạn cho chắc. Nếu nhà có trẻ nhỏ hoặc người già thì đây là việc rất nên xếp lịch chứ đừng để dành khi nào rảnh.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "so-cuu-treo-chan-bong-gan-chay-mau-cam",
+    title: "Trẹo chân, bong gân, chảy máu cam: xử lý đúng trong mười phút đầu",
+    excerpt:
+      "Mấy tai nạn vặt này ai cũng gặp, và cách xử lý theo thói quen thường sai: xoa dầu nóng vào chỗ sưng, ngửa cổ ra sau khi chảy máu cam. Làm đúng thì đỡ đau nhanh hơn nhiều.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Với trẹo chân và bong gân, nguyên tắc trong hai ngày đầu là nghỉ, chườm lạnh, băng ép nhẹ và kê cao chỗ bị thương. Điều nên tránh là xoa bóp mạnh, xoa dầu nóng, chườm nóng hay cố đi lại bình thường, vì mấy việc đó làm sưng nhiều hơn. Với chảy máu cam, hãy ngồi thẳng và hơi cúi đầu về phía trước, bóp chặt phần mềm của cánh mũi trong khoảng mười phút liên tục mà không thả ra kiểm tra giữa chừng. Tuyệt đối không ngửa cổ ra sau vì máu sẽ chảy xuống họng. Nếu đau nhiều không đi lại được, khớp biến dạng, hoặc máu mũi không cầm sau hai mươi phút thì phải đi khám.",
+    prepare: [
+      "Túi chườm lạnh, hoặc một túi đá viên bọc trong khăn mỏng — đừng bao giờ áp đá thẳng lên da",
+      "Băng thun co giãn để băng ép, loại bán sẵn ở nhà thuốc",
+      "Một cái gối để kê cao chân khi nằm",
+      "Khăn giấy sạch và một chậu nhỏ cho trường hợp chảy máu cam",
+      "Số điện thoại của cơ sở y tế gần nhà, và biết đường tới đó nhanh nhất",
+    ],
+    steps: [
+      {
+        title: "Trẹo chân: dừng lại ngay, đừng cố đi tiếp",
+        detail:
+          "Phản xạ của nhiều người là đứng dậy đi vài bước xem có sao không. Chính vài bước đó làm tổn thương nặng thêm. Ngồi hoặc nằm xuống ngay, tháo giày ra trước khi chân sưng lên vì để lát nữa sẽ rất khó tháo. Quan sát xem chân có biến dạng bất thường không.",
+      },
+      {
+        title: "Trẹo chân: chườm lạnh khoảng mười lăm tới hai mươi phút",
+        detail:
+          "Bọc đá trong khăn mỏng rồi áp lên chỗ sưng, khoảng mười lăm tới hai mươi phút, rồi nghỉ ít nhất một tiếng mới chườm tiếp. Làm vài lần trong ngày đầu và ngày thứ hai. Đừng áp đá trực tiếp lên da và đừng chườm liên tục quá lâu vì có thể gây bỏng lạnh.",
+      },
+      {
+        title: "Trẹo chân: băng ép nhẹ và kê cao",
+        detail:
+          "Quấn băng thun từ phía xa tim quấn dần về phía gần tim, đủ chặt để có cảm giác được đỡ nhưng không được chặt tới mức tê hay đổi màu ngón chân. Nằm kê chân cao hơn mức tim bằng gối, càng nhiều thời gian trong ngày càng tốt. Kê cao là việc dễ nhất mà lại giúp giảm sưng rõ rệt.",
+      },
+      {
+        title: "Trẹo chân: những việc KHÔNG nên làm trong hai ngày đầu",
+        detail:
+          "Đừng xoa dầu nóng, đừng chườm nóng, đừng bóp mạnh hay nắn khớp, đừng ngâm nước nóng, đừng uống rượu. Tất cả những việc này làm mạch máu giãn ra và chỗ sưng nặng thêm. Đây là nhóm việc mà rất nhiều người vẫn làm theo thói quen và tự làm mình lâu khỏi hơn.",
+      },
+      {
+        title: "Trẹo chân: biết mốc phải đi khám",
+        detail:
+          "ĐI KHÁM NGAY nếu bạn không đặt được trọng lượng lên chân đó, khớp trông lệch hay biến dạng, có tiếng rắc rõ lúc bị thương, sưng rất nhanh và rất to, tê hoặc mất cảm giác ở bàn chân và ngón chân, hoặc sau vài ngày vẫn đau y như lúc đầu. Chụp phim là cách duy nhất để loại trừ gãy xương, mắt thường không phân biệt được.",
+      },
+      {
+        title: "Trẹo chân: quay lại vận động từ từ",
+        detail:
+          "Sau vài ngày khi đã bớt sưng và đau, bắt đầu cử động nhẹ nhàng trong ngưỡng không đau. Nằm bất động quá lâu cũng không tốt cho việc hồi phục. Nhưng đừng quay lại chạy nhảy hay chơi thể thao khi chân còn đau khi dồn lực, vì rất dễ tái phát và lần sau thường nặng hơn lần đầu.",
+      },
+      {
+        title: "Chảy máu cam: ngồi thẳng và cúi đầu về phía trước",
+        detail:
+          "Ngồi xuống ghế, người thẳng, đầu hơi cúi về phía trước để máu chảy ra ngoài qua mũi chứ không chảy ngược xuống họng. Đây là điểm trái với thói quen của hầu hết mọi người. Ngửa cổ ra sau làm máu xuống họng gây buồn nôn, và bạn cũng không biết máu đã cầm hay chưa.",
+      },
+      {
+        title: "Chảy máu cam: bóp cánh mũi liên tục mười phút",
+        detail:
+          "Dùng ngón cái và ngón trỏ bóp chặt phần mềm của cánh mũi, ngay dưới phần xương sống mũi, và giữ nguyên trong khoảng mười phút. Thở bằng miệng. Điều quan trọng nhất là không thả tay ra kiểm tra sau vài phút, vì mỗi lần thả là cục máu đông vừa hình thành lại bị phá và bạn phải bắt đầu lại từ đầu.",
+      },
+      {
+        title: "Chảy máu cam: chườm lạnh sống mũi và nghỉ ngơi sau đó",
+        detail:
+          "Có thể đặt túi lạnh lên sống mũi hoặc gáy trong lúc bóp. Sau khi máu đã cầm, đừng xì mũi, đừng ngoáy mũi, đừng cúi gập người hay bê vác nặng trong vài giờ tiếp theo, vì rất dễ chảy lại. Cũng đừng nhét bông gòn vào sâu trong mũi vì lúc rút ra có thể làm chảy máu lại.",
+      },
+      {
+        title: "Chảy máu cam: biết mốc phải đi khám",
+        detail:
+          "ĐI KHÁM NGAY nếu máu không cầm sau hai mươi phút bóp mũi đúng cách, máu chảy rất nhiều, chảy máu sau một va đập mạnh vào đầu hay mặt, kèm chóng mặt lả người, hoặc bạn đang dùng thuốc chống đông máu theo chỉ định. Nếu chảy máu cam tái đi tái lại nhiều lần trong thời gian ngắn thì cũng nên đi khám để tìm nguyên nhân.",
+      },
+      {
+        title: "Xây xát, trầy da: rửa sạch rồi mới băng",
+        detail:
+          "Rửa vết thương dưới vòi nước sạch để trôi hết đất cát, thấm khô bằng gạc sạch, rồi băng lại bằng gạc hoặc băng cá nhân. Đừng đổ các loại nước có màu lên vết thương ngay vì sẽ che mất tình trạng thật. Vết bẩn do ngã ngoài đường, vết sâu, vết do vật kim loại gỉ hoặc do động vật cắn thì phải đi khám vì còn liên quan tới việc tiêm phòng.",
+      },
+      {
+        title: "Ghi lại diễn biến để nói với bác sĩ",
+        detail:
+          "Nếu phải đi khám, ghi nhanh vào điện thoại: bị lúc mấy giờ, bị thế nào, đã xử trí gì, đau ở mức nào và đau tăng hay giảm. Chụp một tấm ảnh chỗ sưng lúc đầu để so sánh. Mấy thông tin này giúp buổi khám ngắn ngủi trở nên hữu ích hơn nhiều so với việc bạn cố nhớ lại trong lúc đang đau.",
+      },
+    ],
+    notes: [
+      "ĐÂY KHÔNG PHẢI TƯ VẤN Y KHOA. Bài chỉ mô tả cách xử trí ban đầu thường được hướng dẫn, và không thay thế việc thăm khám của nhân viên y tế.",
+      "ĐI KHÁM HOẶC ĐI CẤP CỨU NGAY nếu: không đứng được lên chân bị thương, khớp biến dạng, tê mất cảm giác ở bàn chân, máu cam không cầm sau hai mươi phút, chảy máu sau va đập mạnh vào đầu, hoặc có chóng mặt lả người. Trẻ nhỏ và người già thì ngưỡng nên thấp hơn nữa.",
+      "Xoa dầu nóng và chườm nóng lên chỗ mới bong gân là thói quen phổ biến nhưng làm sưng nặng hơn trong hai ngày đầu. Lạnh trước, nóng để sau khi đã hết giai đoạn sưng cấp.",
+      "Bài này không đề cập tới bất kỳ loại thuốc nào. Nếu đau nhiều tới mức cần dùng thuốc, hãy hỏi dược sĩ hoặc bác sĩ thay vì tự tìm mua theo lời mách.",
+    ],
+    faq: [
+      {
+        q: "Bong gân bao lâu thì khỏi?",
+        a: "Rất khác nhau tuỳ mức độ, từ khoảng một tuần với trường hợp nhẹ tới nhiều tuần hoặc lâu hơn với trường hợp nặng. Điều đáng chú ý là chỗ khớp thường còn yếu và dễ tái phát trong một thời gian sau khi hết đau. Nếu sau vài ngày mà không thấy cải thiện chút nào thì nên đi khám thay vì tiếp tục chờ.",
+      },
+      {
+        q: "Làm sao biết là bong gân hay gãy xương?",
+        a: "Bằng mắt thường thì không phân biệt chắc chắn được, kể cả người có kinh nghiệm. Các dấu hiệu nghiêng về chấn thương nặng gồm không đặt được trọng lượng lên chân, biến dạng thấy rõ, sưng rất nhanh, hoặc nghe tiếng rắc lúc bị. Có bất kỳ dấu hiệu nào trong số đó thì đi khám để được chụp phim.",
+      },
+      {
+        q: "Trẻ con chảy máu cam nhiều lần thì có đáng lo không?",
+        a: "Chảy máu cam ở trẻ khá thường gặp, hay liên quan tới thời tiết khô, ngoáy mũi hoặc va chạm nhẹ. Nhưng nếu tái đi tái lại nhiều lần, chảy nhiều, khó cầm, hoặc kèm bầm tím dễ dàng ở nơi khác trên người thì nên đưa trẻ đi khám để tìm nguyên nhân. Với trẻ nhỏ thì cứ nghi ngờ là đi khám sớm, đừng chờ.",
+      },
+      {
+        q: "Có nên tự nắn lại khớp bị trẹo không?",
+        a: "Không. Tự nắn có thể làm tổn thương thêm phần mềm, mạch máu và dây thần kinh xung quanh, và nếu thực ra là gãy xương thì hậu quả nặng hơn nhiều. Hãy cố định tạm, chườm lạnh, và đưa tới cơ sở y tế để người có chuyên môn xử lý.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "tu-luu-ho-so-suc-khoe-ca-nhan",
+    title: "Tự lưu hồ sơ sức khỏe: cái cặp giấy tờ giúp mỗi lần đi khám nhanh gấp đôi",
+    excerpt:
+      "Bác sĩ hỏi lần trước xét nghiệm ra sao, bạn ngồi ngẩn ra. Đơn thuốc cũ thì mất, kết quả chụp thì để đâu quên rồi. Một hệ thống lưu đơn giản giải quyết chuyện này trong ba mươi phút.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Cách gọn nhất là một cặp hồ sơ giấy ở nhà cộng một thư mục ảnh trong điện thoại. Mỗi lần đi khám về, chụp ảnh toàn bộ giấy tờ nhận được rồi cất bản giấy vào cặp theo thứ tự thời gian, mới nhất để trên cùng. Trong điện thoại, tạo một ghi chú tóm tắt gồm nhóm máu, các bệnh mạn tính đang có, các thứ mình từng bị dị ứng, các lần phẫu thuật và các thuốc đang dùng theo chỉ định. Ghi chú này là thứ bạn đưa ra khi bác sĩ hỏi, và nó cũng cứu bạn trong tình huống cấp cứu khi bạn không tự nói được.",
+    prepare: [
+      "Một cặp tài liệu có nhiều ngăn hoặc một hộp giấy, để ở chỗ cố định mà cả nhà đều biết",
+      "Điện thoại có thư mục ảnh riêng đặt tên rõ ràng, và ứng dụng ghi chú",
+      "Toàn bộ giấy tờ y tế hiện có trong nhà, gom hết lại một chỗ trước khi bắt đầu",
+      "Thẻ bảo hiểm y tế, căn cước, và sổ tiêm chủng nếu còn giữ",
+      "Khoảng ba mươi phút cho lần dựng đầu tiên, sau đó mỗi lần cập nhật chỉ mất vài phút",
+    ],
+    steps: [
+      {
+        title: "Gom hết giấy tờ y tế trong nhà về một chỗ",
+        detail:
+          "Lục ngăn kéo, tủ quần áo, hộp giấy, cặp cũ. Đơn thuốc, kết quả xét nghiệm, phim chụp, sổ khám bệnh, giấy ra viện, sổ tiêm chủng. Đừng phân loại vội, cứ gom hết lên bàn đã. Bạn sẽ ngạc nhiên vì số giấy tờ đang nằm rải rác khắp nhà.",
+      },
+      {
+        title: "Chia thành bốn nhóm",
+        detail:
+          "Nhóm một là kết quả xét nghiệm và chẩn đoán hình ảnh. Nhóm hai là đơn thuốc và giấy khám. Nhóm ba là giấy tờ nhập viện, ra viện, phẫu thuật. Nhóm bốn là giấy tờ hành chính gồm thẻ bảo hiểm y tế, sổ tiêm chủng. Bốn ngăn, bốn nhóm, không cần phức tạp hơn.",
+      },
+      {
+        title: "Trong mỗi nhóm thì xếp theo thời gian, mới nhất trên cùng",
+        detail:
+          "Đừng xếp theo bệnh hay theo bệnh viện, vì bạn sẽ quên mất logic mình đã dùng. Xếp theo ngày, mới nhất lên trên là cách ai cũng nhớ được, kể cả người nhà lục hộ bạn khi bạn đang nằm viện. Nếu tờ giấy không ghi ngày rõ, lấy bút ghi thêm ngày lên góc.",
+      },
+      {
+        title: "Chụp ảnh toàn bộ và lưu vào một thư mục riêng",
+        detail:
+          "Chụp từng tờ, chụp thẳng góc, đủ sáng, đọc được chữ. Đặt tên thư mục dễ tìm, ví dụ Ho so suc khoe. Nếu điện thoại có tự sao lưu lên tài khoản đám mây thì càng tốt, vì mất điện thoại không đồng nghĩa với mất hồ sơ. Kết quả xét nghiệm gửi qua email thì lưu luôn cả file gốc.",
+      },
+      {
+        title: "Viết một ghi chú tóm tắt một trang",
+        detail:
+          "Đây là phần giá trị nhất. Ghi chú gồm: họ tên và năm sinh, nhóm máu nếu biết, các bệnh mạn tính đang được theo dõi, những thứ từng gây dị ứng cho bạn, các lần phẫu thuật và năm, các thuốc đang dùng theo chỉ định của bác sĩ, tên và số điện thoại người nhà cần báo. Chỉ một trang, không dài hơn.",
+      },
+      {
+        title: "Ghi phần dị ứng thật rõ ràng",
+        detail:
+          "Đây là dòng quan trọng nhất trong cả tờ giấy. Ghi rõ bạn từng phản ứng với thứ gì, phản ứng ra sao và vào năm nào. Đừng ghi chung chung kiểu dị ứng thuốc, vì bác sĩ cần biết cụ thể. Nếu bạn từng có phản ứng nặng, hãy nói điều này ra ngay từ câu đầu tiên mỗi lần khám ở nơi mới.",
+      },
+      {
+        title: "Đặt bản tóm tắt ở nơi tìm được khi bạn không nói được",
+        detail:
+          "In một bản để trong ví, lưu một bản làm ảnh nền màn hình khoá hoặc trong phần thông tin y tế của điện thoại, và cho người nhà biết cặp hồ sơ để ở đâu. Trong tình huống cấp cứu, người giúp bạn cần tìm thấy thông tin này mà không cần mở khoá máy hay hỏi bạn.",
+      },
+      {
+        title: "Ghi lại diễn biến bằng lời của chính mình",
+        detail:
+          "Sau mỗi lần khám, ghi hai ba dòng: ngày nào, khám ở đâu, vì lý do gì, bác sĩ nói gì, hẹn tái khám khi nào. Bản ghi bằng lời của bạn nhiều khi hữu ích hơn cả tờ giấy, vì bác sĩ dặn miệng rất nhiều thứ không có trong đơn. Ghi ngay khi vừa ra khỏi phòng khám, đừng để tối về mới ghi vì lúc đó bạn nhớ được rất ít.",
+      },
+      {
+        title: "Dùng thêm ứng dụng của ngành y tế nếu tiện",
+        detail:
+          "Ứng dụng bảo hiểm xã hội và một số bệnh viện có lưu lịch sử khám chữa bệnh và thẻ bảo hiểm y tế điện tử. Dùng được thì rất tiện cho việc tra cứu nhanh. Nhưng đừng phụ thuộc hoàn toàn, vì không phải cơ sở nào cũng đồng bộ đủ dữ liệu. Bản chụp trong điện thoại của bạn vẫn là thứ chắc chắn nhất.",
+      },
+      {
+        title: "Làm một cặp riêng cho ba mẹ hoặc người thân cao tuổi",
+        detail:
+          "Người lớn tuổi thường có nhiều bệnh cùng lúc, khám ở nhiều nơi và dùng nhiều thứ theo chỉ định khác nhau. Một cặp hồ sơ riêng cho họ giúp mỗi lần đi khám nhanh hơn hẳn và giúp bác sĩ tránh được các chỉ định chồng chéo. Đây cũng là món quà thiết thực mà con cái ở xa có thể làm cho ba mẹ.",
+      },
+      {
+        title: "Mang gì khi đi khám",
+        detail:
+          "Không cần vác cả cặp đi. Mang thẻ bảo hiểm y tế, căn cước, bản tóm tắt một trang, và giấy tờ của lần khám gần nhất liên quan tới vấn đề đang đi khám. Phần còn lại đã có trong điện thoại nếu bác sĩ cần xem. Vác cả tập giấy vào phòng khám chỉ làm mất thời gian tìm kiếm của cả hai bên.",
+      },
+      {
+        title: "Mỗi sáu tháng dọn lại một lần",
+        detail:
+          "Bỏ những tờ trùng lặp, cập nhật lại bản tóm tắt một trang, kiểm tra ảnh trong điện thoại còn đọc được không, và xem thẻ bảo hiểm y tế còn hạn không. Mười lăm phút mỗi nửa năm là đủ để hệ thống này không bị rối trở lại như lúc đầu.",
+      },
+    ],
+    notes: [
+      "ĐÂY KHÔNG PHẢI TƯ VẤN Y KHOA. Bài này chỉ nói về cách sắp xếp giấy tờ, mọi quyết định về sức khỏe vẫn phải dựa trên ý kiến của nhân viên y tế trực tiếp khám cho bạn.",
+      "ĐI KHÁM HOẶC CẤP CỨU NGAY, đừng dừng lại để tìm giấy tờ, nếu có dấu hiệu nguy hiểm như đau ngực dữ dội, khó thở, méo miệng yếu tay chân nói khó, chảy máu nhiều hay bất tỉnh. Hồ sơ là để giúp việc khám, không bao giờ được là lý do làm chậm việc cấp cứu.",
+      "Hồ sơ sức khỏe là thông tin riêng tư. Cân nhắc khi chia sẻ vào các nhóm chat hay gửi cho người lạ trên mạng để hỏi ý kiến, và nhớ che phần thông tin định danh nếu buộc phải gửi đi.",
+      "Đừng tự suy diễn kết quả xét nghiệm chỉ dựa vào các mũi tên lên xuống trên tờ giấy. Con số ngoài khoảng tham chiếu không tự động có nghĩa là có bệnh — hãy hỏi bác sĩ đọc giúp.",
+    ],
+    faq: [
+      {
+        q: "Có cần giữ giấy tờ y tế cũ từ nhiều năm trước không?",
+        a: "Giữ những thứ có giá trị lâu dài: giấy ra viện, hồ sơ phẫu thuật, kết quả chẩn đoán hình ảnh quan trọng, sổ tiêm chủng, và ghi nhận về dị ứng. Đơn thuốc thường lệ của những đợt cảm vặt nhiều năm trước thì có thể bỏ bản giấy sau khi đã chụp ảnh lưu lại.",
+      },
+      {
+        q: "Lưu trên điện thoại có an toàn không?",
+        a: "Hãy khoá màn hình bằng mật khẩu hoặc sinh trắc học, và cân nhắc dùng thư mục có khoá riêng nếu điện thoại hỗ trợ. Sao lưu lên tài khoản đám mây có bật xác thực hai lớp là hợp lý. Tránh để ảnh giấy tờ y tế nằm lẫn trong thư viện ảnh chung mà bạn hay đưa cho người khác xem.",
+      },
+      {
+        q: "Bác sĩ có chấp nhận xem ảnh chụp giấy tờ trong điện thoại không?",
+        a: "Thường là có, nhất là với các kết quả xét nghiệm và đơn thuốc cũ. Nhưng ảnh phải rõ nét, đủ sáng, đọc được cả phần chữ nhỏ và có thấy ngày tháng. Với phim chụp thì bản gốc vẫn tốt hơn ảnh chụp lại — nếu tới khám vì đúng vấn đề đó thì nên mang bản gốc theo.",
+      },
+      {
+        q: "Người nhà không rành công nghệ thì làm sao?",
+        a: "Với người lớn tuổi, cứ ưu tiên bản giấy: một cặp hồ sơ để ở chỗ cố định và một tờ tóm tắt một trang in chữ to bỏ trong ví. Bạn giữ bản chụp trong điện thoại của mình để hỗ trợ từ xa. Nhớ nói cho ít nhất hai người trong nhà biết cặp hồ sơ để ở đâu.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "di-kham-dung-chuyen-khoa",
+    title: "Đau chỗ này thì khám khoa nào: đi đúng cửa để khỏi mất một buổi",
+    excerpt:
+      "Đứng trước bảng chỉ dẫn bệnh viện với hai chục cái tên khoa, không biết bấm số ở đâu. Chọn sai là khám xong bị chuyển khoa khác, mất thêm nửa ngày và thêm một lần đóng phí.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Nếu bạn không chắc mình nên khám khoa nào, cách an toàn nhất là vào khám nội tổng quát hoặc khoa khám bệnh chung trước, để bác sĩ ở đó phân hướng giúp. Cách này thường nhanh hơn là tự đoán rồi đoán sai. Với các vấn đề rõ ràng như đau răng, đau mắt, gãy xương thì đi thẳng đúng khoa. Trước khi đi, hãy gọi tổng đài bệnh viện hoặc xem trang thông tin của họ để hỏi nên đăng ký khoa nào, vì cách tổ chức khoa phòng mỗi nơi mỗi khác. Nếu dùng bảo hiểm y tế thì nhớ hỏi luôn về thủ tục và tuyến khám cho đúng.",
+    prepare: [
+      "Thẻ bảo hiểm y tế và căn cước công dân, hoặc ứng dụng có thẻ bảo hiểm y tế điện tử",
+      "Bản ghi ngắn về triệu chứng: bị từ bao giờ, đau kiểu gì, đau tăng khi nào, đã làm gì rồi",
+      "Giấy tờ của các lần khám trước liên quan tới vấn đề này, nếu có",
+      "Số tổng đài của bệnh viện định tới — gọi hỏi trước một cuộc tiết kiệm được cả buổi",
+      "Chút tiền mặt và đi sớm, vì buổi sáng đầu tuần ở đâu cũng đông",
+    ],
+    steps: [
+      {
+        title: "Viết ra triệu chứng chính trước khi nghĩ tới tên khoa",
+        detail:
+          "Đừng bắt đầu bằng câu hỏi khám khoa nào, mà bắt đầu bằng việc mô tả rõ mình bị gì: đau ở đâu, từ bao giờ, kiểu đau nào, có kèm sốt hay sụt cân không, nặng lên khi nào. Mô tả rõ thì người ở quầy hướng dẫn mới phân đúng khoa cho bạn, và bác sĩ cũng làm việc nhanh hơn.",
+      },
+      {
+        title: "Gọi tổng đài bệnh viện hỏi trước một cuộc",
+        detail:
+          "Nói ngắn gọn: em bị đau vùng này, kéo dài mấy hôm rồi, em nên đăng ký khám khoa nào ạ, và cần mang giấy tờ gì. Cách tổ chức khoa phòng mỗi bệnh viện một khác nên câu trả lời của chính nơi bạn sẽ tới mới là câu đúng. Nhiều nơi cũng cho đặt lịch trước qua điện thoại hoặc ứng dụng.",
+      },
+      {
+        title: "Không chắc thì chọn khám nội tổng quát",
+        detail:
+          "Đây là lời khuyên hữu ích nhất cho người ngại bệnh viện. Bác sĩ nội tổng quát sẽ hỏi bệnh, khám sơ bộ và chỉ hướng bạn đi tiếp nếu cần. Tự đoán rồi vào nhầm khoa thì thường mất nhiều thời gian hơn, mà đôi khi còn được chỉ định những thứ không cần thiết.",
+      },
+      {
+        title: "Các trường hợp đi thẳng được, không cần qua trung gian",
+        detail:
+          "Đau răng và các vấn đề trong miệng thì tới răng hàm mặt. Mắt mờ, đau mắt, cộm mắt thì tới mắt. Ù tai, đau họng kéo dài, nghẹt mũi lâu thì tai mũi họng. Vấn đề về da thì da liễu. Chấn thương xương khớp thì chấn thương chỉnh hình. Mấy nhóm này rõ ràng nên đi thẳng cho nhanh.",
+      },
+      {
+        title: "Vài nhóm triệu chứng hay bị đi nhầm cửa",
+        detail:
+          "Đau vùng ngực có thể liên quan tới nhiều cơ quan khác nhau, nên đây là nhóm không nên tự đoán. Đau lưng có khi từ cơ xương khớp nhưng cũng có khi từ nơi khác. Chóng mặt có thể liên quan tới tai, tới thần kinh hoặc tới huyết áp. Với ba nhóm này, khám tổng quát trước là hợp lý nhất.",
+      },
+      {
+        title: "Vấn đề của trẻ em thì tới khoa nhi",
+        detail:
+          "Với trẻ nhỏ, gần như mọi vấn đề đều bắt đầu ở khoa nhi hoặc bệnh viện nhi, kể cả những thứ mà ở người lớn sẽ đi chuyên khoa riêng. Bác sĩ nhi sẽ hướng tiếp nếu cần chuyên khoa sâu. Trẻ càng nhỏ thì càng nên đi khám sớm khi có gì bất thường, đừng theo dõi ở nhà quá lâu.",
+      },
+      {
+        title: "Hỏi rõ về bảo hiểm y tế và tuyến khám",
+        detail:
+          "Trước khi đi, hỏi xem nơi bạn định tới có tiếp nhận thẻ bảo hiểm y tế của bạn không, và mức chi trả ra sao trong trường hợp của bạn. Quy định về tuyến và mức hưởng có thay đổi theo thời gian và tuỳ trường hợp, nên hỏi trực tiếp cơ quan bảo hiểm hoặc quầy tiếp nhận của bệnh viện cho chắc, đừng dựa vào lời kể của người khác.",
+      },
+      {
+        title: "Tới nơi thì hỏi quầy hướng dẫn trước khi xếp hàng",
+        detail:
+          "Bệnh viện nào cũng có quầy hướng dẫn hoặc tổ công tác xã hội. Tới thẳng đó, nói triệu chứng và hỏi nên bấm số ở đâu. Hai phút hỏi ở quầy tiết kiệm được cả tiếng xếp nhầm hàng. Người ở quầy làm việc này cả ngày và họ quen với việc người bệnh không biết đi đâu.",
+      },
+      {
+        title: "Đi sớm và tránh khung giờ cao điểm",
+        detail:
+          "Sáng sớm đầu tuần và ngày đầu tháng thường đông nhất ở hầu hết cơ sở. Giữa tuần và đầu giờ chiều thường dễ thở hơn, nhưng cũng tuỳ nơi nên hỏi trước cho chắc. Nếu phải xét nghiệm máu lúc đói thì hỏi rõ yêu cầu nhịn ăn trước khi đi, kẻo tới nơi lại phải hẹn hôm khác.",
+      },
+      {
+        title: "Vào phòng khám thì nói phần quan trọng nhất trước",
+        detail:
+          "Thời gian khám thường rất ngắn nên đừng kể theo trình tự thời gian dài dòng. Mở đầu bằng triệu chứng chính và mốc thời gian: em đau vùng này khoảng năm ngày nay, đau tăng về đêm, có sốt nhẹ. Sau đó mới bổ sung chi tiết nếu bác sĩ hỏi thêm. Nhớ nói ngay nếu bạn từng có phản ứng dị ứng với thứ gì.",
+      },
+      {
+        title: "Bị chuyển khoa thì hỏi cho rõ trước khi rời phòng",
+        detail:
+          "Nếu bác sĩ nói bạn cần sang khoa khác, hãy hỏi ngay: khoa đó ở tầng mấy, em cần lấy giấy gì, có phải đóng thêm phí không, và có phải quay lại đây sau không. Hỏi lúc còn đứng đó dễ hơn nhiều so với việc lát nữa ra hành lang tự mò. Mức phí và quy trình khác nhau tuỳ nơi nên hỏi trực tiếp.",
+      },
+      {
+        title: "Ra về thì kiểm lại giấy tờ và lịch hẹn",
+        detail:
+          "Trước khi rời bệnh viện, kiểm xem đã nhận đủ đơn, kết quả và giấy hẹn chưa. Chụp ảnh tất cả ngay tại chỗ. Hỏi lại xem có cần tái khám không và khi nào, có dấu hiệu nào thì phải quay lại sớm hơn. Câu hỏi cuối cùng này là câu quan trọng nhất và cũng là câu hay bị quên nhất.",
+      },
+    ],
+    notes: [
+      "ĐÂY KHÔNG PHẢI TƯ VẤN Y KHOA. Bài chỉ giúp bạn định hướng nơi đăng ký khám, việc chẩn đoán và điều trị phải do nhân viên y tế trực tiếp thực hiện.",
+      "ĐỪNG NGỒI CHỜ ĐỂ CHỌN ĐÚNG KHOA — HÃY ĐI CẤP CỨU NGAY nếu có đau ngực dữ dội, khó thở, méo miệng hoặc yếu một bên người, nói khó, đau bụng dữ dội, sốt rất cao kèm lơ mơ, chảy máu nhiều, hoặc chấn thương nặng. Cấp cứu tiếp nhận mọi trường hợp, không cần bạn chọn khoa.",
+      "Mọi con số về lệ phí, thời gian chờ, mức hưởng bảo hiểm và cách tổ chức khoa phòng đều thay đổi tuỳ nơi và tuỳ thời điểm. Hỏi trực tiếp bệnh viện hoặc cơ quan bảo hiểm cho chắc, đừng làm theo lời kể trên mạng.",
+      "Trẻ nhỏ và người cao tuổi thì ngưỡng đi khám nên thấp hơn nhiều. Thấy khác thường mà phân vân thì cứ đưa đi khám sớm.",
+    ],
+    faq: [
+      {
+        q: "Khám nội tổng quát rồi lại bị chuyển khoa thì có mất thêm tiền không?",
+        a: "Tuỳ cơ sở và tuỳ cách họ tổ chức, có nơi tính là một lượt khám, có nơi tính thêm. Cách tốt nhất là hỏi ngay ở quầy tiếp nhận trước khi đăng ký. Dù có tốn thêm chút thì việc đi đúng hướng ngay từ đầu vẫn thường tiết kiệm hơn so với tự đoán sai rồi khám lại từ đầu ở nơi khác.",
+      },
+      {
+        q: "Có nên đi thẳng bệnh viện tuyến trên cho chắc không?",
+        a: "Không phải lúc nào cũng lợi. Tuyến trên thường đông hơn, chờ lâu hơn, và mức hưởng bảo hiểm y tế có thể khác nếu bạn đi không đúng tuyến. Với những vấn đề thông thường thì cơ sở gần nhà xử lý được và nhanh hơn nhiều. Khi cần, họ sẽ làm thủ tục chuyển lên tuyến trên cho bạn.",
+      },
+      {
+        q: "Khám dịch vụ và khám bảo hiểm khác nhau thế nào?",
+        a: "Khác chủ yếu ở chi phí bạn tự trả và thời gian chờ, còn chuyên môn thì vẫn là bác sĩ của cơ sở đó. Khám dịch vụ thường nhanh hơn nhưng bạn trả nhiều hơn. Mức phí cụ thể tuỳ nơi nên hỏi ở quầy trước khi quyết định. Nếu có thẻ bảo hiểm y tế thì cứ hỏi cả hai phương án rồi chọn.",
+      },
+      {
+        q: "Đi khám mà bác sĩ nói không sao nhưng mình vẫn thấy lo thì làm gì?",
+        a: "Hỏi thẳng bác sĩ ba câu: nguyên nhân có thể là gì, em cần theo dõi dấu hiệu nào, và khi nào thì phải quay lại. Nếu vẫn còn băn khoăn hoặc triệu chứng không đỡ sau thời gian bác sĩ dặn, việc đi khám thêm ở một nơi khác để nghe ý kiến thứ hai là hoàn toàn bình thường và bạn không cần thấy ngại.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "cham-nguoi-nha-nam-vien",
+    title: "Người nhà nằm viện: mang gì, làm thủ tục gì, chia ca trực thế nào",
+    excerpt:
+      "Nhận cuộc gọi báo người nhà phải nhập viện là lúc đầu óc trống rỗng nhất. Có một danh sách việc cần làm theo thứ tự thì bạn đỡ luống cuống và người bệnh cũng được chăm tốt hơn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 6,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Việc đầu tiên khi tới viện là hoàn tất thủ tục nhập viện và hỏi rõ ba điều: người bệnh nằm khoa nào phòng nào, giờ bác sĩ thăm khám và giờ người nhà được vào, và cần đóng tạm ứng bao nhiêu. Sau đó về nhà chuẩn bị một túi đồ gọn gồm giấy tờ, đồ vệ sinh cá nhân, quần áo dễ mặc và ít tiền mặt. Chia ca trực rõ ràng giữa các thành viên ngay từ ngày đầu thay vì để một người gánh hết, vì nằm viện thường kéo dài hơn dự tính. Lập một nhóm chat gia đình để cập nhật tình hình một lần mỗi ngày, tránh việc ai cũng gọi hỏi bác sĩ.",
+    prepare: [
+      "Căn cước và thẻ bảo hiểm y tế của người bệnh — đây là thứ cần đầu tiên và cũng hay bị quên nhất",
+      "Giấy tờ y tế cũ liên quan: đơn thuốc đang dùng, kết quả xét nghiệm gần nhất, giấy ra viện lần trước",
+      "Danh sách ghi rõ người bệnh đang dùng những gì theo chỉ định và từng dị ứng với thứ gì",
+      "Tiền mặt và một phương thức thanh toán khác, vì có khoản cần đóng tạm ứng ngay",
+      "Một túi đồ cá nhân gọn nhẹ, và một cuốn sổ nhỏ với cây bút để ghi lời dặn của bác sĩ",
+    ],
+    steps: [
+      {
+        title: "Tới nơi thì làm thủ tục nhập viện trước",
+        detail:
+          "Ra quầy tiếp nhận với căn cước và thẻ bảo hiểm y tế của người bệnh. Hỏi rõ khoản tạm ứng phải đóng là bao nhiêu và đóng ở đâu. Mức tạm ứng khác nhau tuỳ bệnh viện và tuỳ tình trạng — hỏi trực tiếp cho chắc. Giữ tất cả biên lai vào một phong bì riêng ngay từ tờ đầu tiên.",
+      },
+      {
+        title: "Hỏi ngay ba thông tin quan trọng nhất",
+        detail:
+          "Một là người bệnh nằm khoa nào, tầng mấy, phòng số bao nhiêu. Hai là mấy giờ bác sĩ đi buồng, vì đó là lúc duy nhất trong ngày bạn gặp được bác sĩ để hỏi. Ba là giờ người nhà được vào chăm và quy định về số người. Ghi ba thứ này vào sổ, đừng tin trí nhớ lúc đang căng thẳng.",
+      },
+      {
+        title: "Chuẩn bị túi đồ gọn, đừng mang cả nhà vào viện",
+        detail:
+          "Cần: bàn chải, khăn mặt, khăn tắm nhỏ, dép trong nhà, hai ba bộ quần áo rộng dễ mặc và dễ cởi, cốc, thìa, giấy vệ sinh, giấy ướt, sạc điện thoại dây dài. Không gian trong phòng bệnh rất chật, mang nhiều đồ chỉ làm vướng và dễ mất. Đồ có giá trị thì để ở nhà.",
+      },
+      {
+        title: "Chuẩn bị bản tóm tắt tình trạng người bệnh",
+        detail:
+          "Một tờ giấy ghi: tuổi, các bệnh đang được theo dõi, những thứ đang dùng theo chỉ định của bác sĩ, những thứ từng gây dị ứng, các lần phẫu thuật trước. Đưa tờ này cho nhân viên y tế ngay từ đầu. Với người cao tuổi hay quên thì tờ giấy này còn quan trọng hơn nữa vì họ khó tự kể lại chính xác.",
+      },
+      {
+        title: "Chia ca trực rõ ràng ngay từ ngày đầu",
+        detail:
+          "Đây là việc quyết định cả gia đình có trụ được hay không. Lập bảng ca theo ngày, ghi rõ ai trực buổi nào, ai lo cơm nước, ai lo giấy tờ và tiền nong. Đừng để mặc một người gánh hết vì thương, vì sau bốn năm ngày người đó sẽ kiệt sức và lúc đó cả nhà mới cuống lên. Nằm viện gần như luôn lâu hơn dự tính ban đầu.",
+      },
+      {
+        title: "Lập một nhóm chat và cử một người làm đầu mối",
+        detail:
+          "Cử đúng một người liên lạc chính với bác sĩ, và người đó cập nhật vào nhóm chat gia đình mỗi ngày một lần. Cả nhà mỗi người gọi hỏi bác sĩ một câu vừa làm phiền nhân viên y tế vừa dẫn tới thông tin tam sao thất bản. Người đầu mối cũng nên là người giữ sổ ghi chép và giữ phong bì biên lai.",
+      },
+      {
+        title: "Chuẩn bị câu hỏi trước giờ bác sĩ đi buồng",
+        detail:
+          "Bác sĩ đi buồng rất nhanh nên hãy viết sẵn ba câu quan trọng nhất vào sổ. Ví dụ: tình trạng hiện tại thế nào, dự kiến nằm viện bao lâu, nhà mình cần chuẩn bị gì. Hỏi xong ghi lại ngay câu trả lời bằng chữ của bạn. Đừng ghi âm mà không xin phép.",
+      },
+      {
+        title: "Hỏi rõ về chế độ ăn của người bệnh",
+        detail:
+          "Đây là việc người nhà hay tự quyết và hay sai. Có những tình trạng cần kiêng khem cụ thể, và món bổ dưỡng do người nhà nấu mang vào có khi lại không phù hợp. Hỏi thẳng nhân viên y tế xem người bệnh được ăn gì và kiêng gì, hoặc dùng suất ăn bệnh lý của bệnh viện nếu có.",
+      },
+      {
+        title: "Đừng tự cho người bệnh dùng thêm thứ gì",
+        detail:
+          "Người quen mách gì, họ hàng mang tới thứ gì, nhìn thấy trên mạng thứ gì — tất cả đều phải hỏi nhân viên y tế trước khi cho người bệnh dùng, kể cả các loại được coi là bổ dưỡng hay thảo dược. Việc này có thể ảnh hưởng tới điều trị đang diễn ra. Cứ nói với người thân rằng bệnh viện dặn phải hỏi trước, không ai trách bạn được.",
+      },
+      {
+        title: "Giữ giấy tờ và biên lai theo một hệ thống",
+        detail:
+          "Một phong bì cho biên lai đóng tiền, một cặp cho các loại giấy kết quả. Chụp ảnh mọi tờ giấy ngay khi nhận. Khi làm thủ tục ra viện và thanh toán bảo hiểm y tế, bạn sẽ cần đủ bộ, và tìm lại một tờ biên lai bị thất lạc giữa lúc đó là chuyện rất mệt.",
+      },
+      {
+        title: "Người trực cũng phải tự chăm mình",
+        detail:
+          "Người nhà trực đêm ở bệnh viện rất dễ kiệt sức: ngủ chập chờn, ăn uống thất thường, căng thẳng liên tục. Hãy thay ca đúng lịch, ra ngoài ăn một bữa tử tế, tranh thủ ngủ khi người bệnh ngủ. Bạn ngã bệnh thì cả nhà mất một người chăm chứ không được gì thêm.",
+      },
+      {
+        title: "Hỏi trước về thủ tục ra viện",
+        detail:
+          "Trước ngày ra viện một hôm, hỏi quầy hoặc điều dưỡng xem cần làm những bước gì, thanh toán ở đâu, lấy giấy ra viện thế nào, và có cần giấy tờ gì cho việc thanh toán bảo hiểm hay xin nghỉ ốm không. Biết trước thì hôm đó bạn không phải chạy đi chạy lại giữa các quầy trong lúc còn phải trông người bệnh.",
+      },
+      {
+        title: "Ghi lại lời dặn khi ra viện, càng chi tiết càng tốt",
+        detail:
+          "Hỏi rõ: về nhà cần kiêng gì, ăn uống thế nào, vận động ra sao, tái khám khi nào, và quan trọng nhất là dấu hiệu nào thì phải quay lại viện ngay. Ghi hết vào sổ và chụp ảnh giấy ra viện. Câu hỏi về dấu hiệu phải quay lại là câu quan trọng nhất trong cả đợt nằm viện, đừng ra về mà chưa hỏi.",
+      },
+    ],
+    notes: [
+      "ĐÂY KHÔNG PHẢI TƯ VẤN Y KHOA. Bài chỉ nói về việc chuẩn bị và thủ tục cho người nhà, mọi vấn đề chuyên môn phải theo hướng dẫn của nhân viên y tế đang trực tiếp điều trị.",
+      "BÁO NGAY CHO ĐIỀU DƯỠNG HOẶC BÁC SĨ, KHÔNG CHỜ TỚI GIỜ ĐI BUỒNG, nếu người bệnh: khó thở, đau ngực, đau tăng đột ngột, sốt cao lên, lơ mơ hoặc gọi không tỉnh táo như trước, nôn nhiều, chảy máu, hoặc nói những câu lẫn lộn khác thường. Bấm chuông gọi ngay, đó là việc của họ.",
+      "Đừng tự cho người bệnh dùng thêm bất cứ thứ gì mà chưa hỏi nhân viên y tế, kể cả đồ bổ, thảo dược hay thứ mà người quen mách. Việc này có thể ảnh hưởng tới quá trình điều trị.",
+      "Mọi con số về tạm ứng, viện phí, mức hưởng bảo hiểm y tế và giờ giấc thăm nuôi đều khác nhau tuỳ bệnh viện và tuỳ thời điểm. Hỏi trực tiếp quầy tiếp nhận nơi bạn đang ở cho chắc.",
+    ],
+    faq: [
+      {
+        q: "Có bắt buộc phải có người nhà ở lại trông không?",
+        a: "Tuỳ bệnh viện, tuỳ khoa và tuỳ tình trạng người bệnh. Nhiều nơi có quy định về số người ở lại và giờ giấc, một số khoa thì không cho người nhà ở trong. Có nơi cũng có dịch vụ chăm sóc do bệnh viện cung cấp. Hãy hỏi thẳng điều dưỡng trưởng của khoa ngay ngày đầu để sắp xếp cho đúng.",
+      },
+      {
+        q: "Người nhà ở tỉnh xa lên thì ăn ngủ ở đâu?",
+        a: "Nhiều bệnh viện lớn có khu nghỉ cho người nhà hoặc có nhà trọ bình dân quanh khu vực, và một số nơi có bếp ăn từ thiện. Hỏi tổ công tác xã hội của bệnh viện, đây chính là bộ phận có nhiệm vụ hỗ trợ những việc này và nhiều người không biết là họ tồn tại.",
+      },
+      {
+        q: "Không hiểu bác sĩ nói gì thì có nên hỏi lại không?",
+        a: "Nên, và đây là quyền của bạn. Cứ nói thẳng: bác sĩ ơi em chưa hiểu rõ chỗ này, bác sĩ giải thích lại giúp em được không ạ. Hỏi lại một câu ngay lúc đó tốt hơn nhiều so với việc về nhà tự đoán hoặc đi tra trên mạng rồi lo lắng vô cớ. Nếu bác sĩ đang vội thì hỏi điều dưỡng xem lúc nào gặp lại được.",
+      },
+      {
+        q: "Cả nhà tranh cãi về hướng điều trị thì xử lý sao?",
+        a: "Thống nhất một người làm đầu mối trao đổi với bác sĩ, và đưa mọi thắc mắc qua người đó để hỏi trực tiếp chuyên môn thay vì tranh luận dựa trên thông tin nghe được từ bên ngoài. Nếu vẫn còn phân vân về một quyết định lớn, việc xin ý kiến thứ hai từ một bác sĩ khác là hoàn toàn bình thường và bạn có thể hỏi thẳng về điều đó.",
+      },
+    ],
+    sources: [],
+  },
 ];
