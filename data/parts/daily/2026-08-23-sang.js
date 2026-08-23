@@ -1075,4 +1075,554 @@ export const day20260823sang = [
     ],
     sources: [],
   },
+  {
+    slug: "bao-hiem-nhan-tho-truoc-khi-ky",
+    title: "Trước khi ký hợp đồng bảo hiểm nhân thọ: bảy câu phải hỏi và quyền đổi ý",
+    excerpt:
+      "Người tư vấn là người quen, buổi nói chuyện rất vui, và bạn ký. Vài năm sau mới biết mình đã mua thứ không hợp. Đây là mấy câu hỏi chặn được điều đó.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Đừng ký trong buổi gặp đầu tiên, dù người tư vấn có thân tới đâu. Yêu cầu xem bảng minh hoạ quyền lợi bằng văn bản, hỏi rõ đây là sản phẩm bảo vệ hay có yếu tố đầu tư, và hỏi thẳng nếu ngừng đóng sau vài năm thì nhận lại được bao nhiêu. Hợp đồng bảo hiểm nhân thọ thường có thời gian cân nhắc sau khi nhận hợp đồng — trong khoảng đó bạn có quyền đổi ý và được hoàn phí theo quy định của hợp đồng. Đọc kỹ đúng hợp đồng của mình để biết con số và số ngày cụ thể.",
+    prepare: [
+      "Bảng minh hoạ quyền lợi bản in hoặc bản mềm, xin trước buổi ký để đọc ở nhà",
+      "Toàn bộ điều khoản hợp đồng mẫu, kể cả phần chữ nhỏ",
+      "Một người thân tỉnh táo đọc cùng — nghe hai tai bao giờ cũng hơn",
+      "Bảng chi tiêu hằng tháng của bạn, để biết mức phí có kham nổi trong nhiều năm không",
+      "Danh sách bệnh và tình trạng sức khoẻ của bạn, để kê khai trung thực ngay từ đầu",
+    ],
+    steps: [
+      {
+        title: "Xác định mình thật sự cần gì trước khi nghe tư vấn",
+        detail:
+          "Bạn cần bảo vệ thu nhập cho gia đình khi chẳng may có chuyện, hay bạn muốn một kênh tích luỹ? Hai mục tiêu này dẫn tới hai loại sản phẩm khác nhau. Vào cuộc gặp mà không rõ mình cần gì thì rất dễ mua theo cảm xúc.",
+      },
+      {
+        title: "Câu hỏi một: đây là sản phẩm gì",
+        detail:
+          "Hỏi thẳng: đây là bảo hiểm thuần bảo vệ, hay có gắn đầu tư, hay là sản phẩm liên kết ngân hàng ạ. Yêu cầu chỉ đúng tên sản phẩm trong hợp đồng. Nhiều hiểu lầm bắt đầu từ chỗ người mua tưởng mình đang gửi tiết kiệm.",
+      },
+      {
+        title: "Câu hỏi hai: tôi được bảo vệ những rủi ro nào",
+        detail:
+          "Yêu cầu liệt kê cụ thể các trường hợp được chi trả và số tiền tương ứng. Quan trọng không kém là hỏi ngược lại: những trường hợp nào không được chi trả. Phần loại trừ nằm trong hợp đồng, đọc kỹ phần đó hơn cả phần quyền lợi.",
+      },
+      {
+        title: "Câu hỏi ba: tôi phải đóng bao lâu và mỗi năm bao nhiêu",
+        detail:
+          "Nhân số tiền phí một năm với số năm phải đóng để ra tổng số tiền bạn cam kết. Con số này thường lớn hơn nhiều so với cảm giác lúc nghe phí theo tháng. Tự hỏi: thu nhập của mình có chắc chắn duy trì được suốt chừng đó năm không.",
+      },
+      {
+        title: "Câu hỏi bốn: ngừng đóng giữa chừng thì sao",
+        detail:
+          "Đây là câu hỏi quan trọng nhất và cũng hay bị lướt qua nhất. Hỏi rõ: nếu năm thứ hai em không đóng nữa thì em nhận lại được bao nhiêu, năm thứ năm thì bao nhiêu. Yêu cầu chỉ vào bảng giá trị hoàn lại in trong hợp đồng chứ đừng nghe nói miệng.",
+      },
+      {
+        title: "Câu hỏi năm: phần nào cam kết, phần nào chỉ là minh hoạ",
+        detail:
+          "Bảng minh hoạ thường có cột lãi suất giả định. Con số đẹp ở cột đó không phải cam kết. Hỏi thẳng: dòng nào trong bảng này là chắc chắn, dòng nào là giả định ạ. Người tư vấn tử tế sẽ trả lời rõ ràng.",
+      },
+      {
+        title: "Câu hỏi sáu: có thời gian chờ không",
+        detail:
+          "Nhiều quyền lợi chỉ có hiệu lực sau một thời gian chờ kể từ khi hợp đồng có hiệu lực. Hỏi cụ thể từng quyền lợi. Mua xong tưởng được bảo vệ ngay rồi vỡ mộng lúc cần là chuyện xảy ra khá thường xuyên.",
+      },
+      {
+        title: "Câu hỏi bảy: tôi có bao nhiêu ngày để đổi ý",
+        detail:
+          "Hợp đồng bảo hiểm nhân thọ thường có thời gian cân nhắc tính từ khi bạn nhận hợp đồng. Trong khoảng đó bạn có quyền huỷ và được hoàn phí theo quy định ghi trong hợp đồng. Hỏi rõ số ngày và cách gửi yêu cầu huỷ, ghi ngay ngày cuối cùng vào lịch điện thoại.",
+      },
+      {
+        title: "Tự tay điền hồ sơ sức khoẻ và kê khai trung thực",
+        detail:
+          "Đừng để người khác điền hộ rồi bạn chỉ ký. Bệnh cũ, thuốc đang uống, tiền sử gia đình — khai đầy đủ. Che giấu để được duyệt nhanh là tự tay tạo lý do để công ty từ chối chi trả về sau, lúc mình cần nhất.",
+      },
+      {
+        title: "Đọc lại hợp đồng ở nhà, không đọc trước mặt người tư vấn",
+        detail:
+          "Mang bản mềm về, ngồi một mình đọc phần quyền lợi, phần loại trừ, phần giá trị hoàn lại và phần phí. Ghi ra giấy những chỗ không hiểu và hỏi lại bằng tin nhắn để có bằng chứng bằng chữ.",
+      },
+      {
+        title: "Kiểm tra đúng người và đúng kênh nộp phí",
+        detail:
+          "Tra mã số đại lý của người tư vấn trên website chính thức của công ty bảo hiểm. Nộp phí vào tài khoản của công ty, không đưa tiền mặt cho cá nhân. Giữ mọi biên lai.",
+      },
+      {
+        title: "Sau khi nhận hợp đồng, kiểm tra ngay trên hệ thống của công ty",
+        detail:
+          "Đăng ký tài khoản khách hàng trên ứng dụng hoặc website của công ty bảo hiểm, xem hợp đồng đã lên hệ thống chưa và thông tin có khớp không. Đây cũng là cách phát hiện sớm nếu có sai lệch giữa lời tư vấn và hợp đồng thật.",
+      },
+      {
+        title: "Không hài lòng thì dùng quyền huỷ trong thời gian cân nhắc",
+        detail:
+          "Đọc hợp đồng thấy khác hẳn những gì được nghe thì gửi yêu cầu huỷ bằng văn bản theo đúng hướng dẫn trong hợp đồng, trong thời hạn cho phép. Giữ bằng chứng đã gửi. Đây là quyền của bạn, không phải chuyện phải ngại.",
+      },
+    ],
+    notes: [
+      "Đừng ký vì nể người quen. Người tư vấn tốt sẽ không thúc bạn ký ngay trong buổi đầu, và sẽ vui vẻ đưa hợp đồng cho bạn mang về đọc.",
+      "Bảo hiểm nhân thọ không phải tiết kiệm ngân hàng. Nếu mục tiêu của bạn là để dành tiền linh hoạt rút ra được thì đây không phải sản phẩm phù hợp.",
+      "Số ngày cân nhắc, mức phí, tỷ lệ hoàn lại và điều kiện chi trả khác nhau theo từng sản phẩm và từng công ty, và có thể thay đổi theo quy định từng thời kỳ — con số đúng nằm trong chính hợp đồng của bạn.",
+      "Mua phí vượt khả năng rồi bỏ giữa chừng là tình huống thiệt nhất. Nguyên tắc an toàn là mức phí không làm bạn phải bóp chặt chi tiêu thiết yếu.",
+    ],
+    faq: [
+      {
+        q: "Đã ký rồi mới thấy không hợp thì có huỷ được không?",
+        a: "Trong thời gian cân nhắc thì huỷ được và hoàn phí theo quy định hợp đồng. Quá thời gian đó thì vẫn huỷ được nhưng giá trị nhận lại thường thấp hơn nhiều so với số đã đóng, nhất là trong vài năm đầu.",
+      },
+      {
+        q: "Ngân hàng bảo phải mua bảo hiểm mới được vay, có đúng không?",
+        a: "Việc mua bảo hiểm là tự nguyện. Nếu bạn cảm thấy bị ép buộc thì có quyền từ chối và phản ánh với ngân hàng cũng như công ty bảo hiểm. Đọc kỹ mọi giấy tờ bạn được đưa cho ký khi làm hồ sơ vay.",
+      },
+      {
+        q: "Có nên mua cho con nhỏ không?",
+        a: "Người cần được bảo vệ nhất là người tạo ra thu nhập chính của gia đình, vì nếu người đó gặp chuyện thì cả nhà bị ảnh hưởng. Cân nhắc thứ tự ưu tiên theo nguyên tắc đó.",
+      },
+      {
+        q: "Làm sao biết người tư vấn có phải đại lý thật không?",
+        a: "Tra mã số đại lý trên website chính thức của công ty bảo hiểm, hoặc gọi tổng đài của công ty để xác minh. Đừng chuyển tiền cho tài khoản cá nhân trong bất kỳ trường hợp nào.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "mua-vang-lan-dau",
+    title: "Mua vàng lần đầu: mua ở đâu, giữ giấy gì, và khoản chênh ít ai nói",
+    excerpt:
+      "Vàng không sinh lời như nhiều người tưởng ngay khi vừa mua, vì có một khoản chênh bạn mất luôn từ giây đầu tiên. Biết trước thì mua cho tỉnh.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Mua ở cửa hàng của thương hiệu lớn hoặc nơi được cấp phép kinh doanh vàng, tuyệt đối không mua qua người lạ hay qua mạng xã hội. Nhớ rằng giá mua vào và giá bán ra luôn chênh nhau, nghĩa là mua xong bán lại ngay là bạn đã lỗ khoản chênh đó. Giữ hoá đơn và bao bì nguyên seal, vì bán lại nơi khác hoặc bao bì rách thường bị trừ tiền. Chỉ dùng tiền nhàn rỗi, đừng vay để mua vàng.",
+    prepare: [
+      "Căn cước — nhiều nơi yêu cầu khi giao dịch giá trị lớn",
+      "Số tiền đã xác định rõ, nên là tiền nhàn rỗi không đụng tới trong thời gian dài",
+      "Điện thoại để xem giá niêm yết công khai ngay trước khi vào cửa hàng",
+      "Một chỗ cất giữ an toàn đã tính trước — két sắt ở nhà hoặc dịch vụ giữ hộ",
+      "Bìa nhựa để cất hoá đơn, vì hoá đơn quan trọng gần bằng miếng vàng",
+    ],
+    steps: [
+      {
+        title: "Hiểu hai loại vàng khác nhau thế nào",
+        detail:
+          "Vàng miếng của thương hiệu lớn thường dùng để tích trữ, thanh khoản cao. Vàng trang sức có thêm tiền công chế tác, và khi bán lại phần tiền công đó gần như không thu hồi được. Mua để tích trữ thì đừng mua trang sức.",
+      },
+      {
+        title: "Nhìn kỹ hai cột giá trước khi quyết",
+        detail:
+          "Bảng giá luôn có giá mua vào và giá bán ra. Bạn mua theo giá cửa hàng bán ra, và khi bán lại thì theo giá cửa hàng mua vào. Khoảng chênh giữa hai cột là chi phí bạn chịu ngay lập tức. Nhìn con số đó trước khi quyết định mua.",
+      },
+      {
+        title: "Chọn nơi mua cho đúng",
+        detail:
+          "Chỉ mua tại cửa hàng của thương hiệu lớn hoặc đơn vị được cấp phép kinh doanh vàng, có địa chỉ rõ ràng. Đừng mua qua người quen giới thiệu trên mạng, đừng mua vàng giá rẻ bất thường — vàng thật không có chuyện bán dưới giá thị trường.",
+      },
+      {
+        title: "Xem giá niêm yết trước khi bước vào",
+        detail:
+          "Mở website chính thức của thương hiệu xem giá đang niêm yết. Vào cửa hàng thì đối chiếu với bảng giá tại quầy. Giá vàng biến động trong ngày nên chênh chút ít là bình thường, nhưng chênh nhiều thì hỏi cho rõ.",
+      },
+      {
+        title: "Kiểm tra bao bì và số seri",
+        detail:
+          "Vàng miếng thường được ép trong bao bì có số seri và thông tin thương hiệu. Kiểm tra bao bì còn nguyên vẹn, không rách, không có dấu bóc dán lại. Chụp ảnh số seri lưu vào điện thoại ngay tại quầy.",
+      },
+      {
+        title: "Yêu cầu hoá đơn ghi đầy đủ",
+        detail:
+          "Hoá đơn phải ghi rõ loại vàng, khối lượng, tuổi vàng, số seri, giá, ngày mua và có dấu của cửa hàng. Câu nên nói: anh chị xuất giúp em hoá đơn ghi đủ số seri nhé. Không có hoá đơn là bán lại rất thiệt.",
+      },
+      {
+        title: "Đừng bóc bao bì vì tò mò",
+        detail:
+          "Bao bì rách hoặc đã bóc thường bị trừ tiền khi bán lại, đôi khi phải kiểm định lại. Cầm nguyên như vậy cất đi. Muốn ngắm thì ngắm qua lớp nhựa.",
+      },
+      {
+        title: "Cất giữ cho an toàn và kín tiếng",
+        detail:
+          "Cất trong két sắt gắn cố định, hoặc dùng dịch vụ giữ hộ tại ngân hàng nếu số lượng lớn. Đừng kể chuyện mình có vàng ở nhà cho người ngoài nghe, kể cả trên mạng xã hội.",
+      },
+      {
+        title: "Chụp ảnh và ghi lại thông tin dự phòng",
+        detail:
+          "Chụp hoá đơn, chụp seri, ghi ngày mua và giá mua vào một ghi chú riêng, đồng bộ lên tài khoản đám mây. Mất hoá đơn giấy thì ít nhất bạn còn thông tin để đối chiếu.",
+      },
+      {
+        title: "Bán lại thì ưu tiên nơi đã mua",
+        detail:
+          "Bán lại đúng thương hiệu và đúng hệ thống thường được giá tốt hơn và ít bị vặn vẹo. Mang theo hoá đơn và bao bì nguyên vẹn. Gọi hỏi trước xem cửa hàng đó có thu mua không và cần mang gì.",
+      },
+      {
+        title: "Tính lãi lỗ cho thật thà",
+        detail:
+          "Lấy số tiền bán ra trừ đi số tiền mua vào, không quên khoản chênh giữa hai cột giá. Nhiều người thấy giá vàng tăng thì tưởng mình lãi, nhưng tính đủ thì hoà hoặc lỗ. Ghi lại để lần sau quyết định tỉnh táo hơn.",
+      },
+      {
+        title: "Đặt tỷ lệ hợp lý trong túi tiền của mình",
+        detail:
+          "Vàng là một phần trong tổng tài sản, không phải toàn bộ. Dồn hết tiền vào một thứ là rủi ro dù thứ đó là gì. Giữ quỹ dự phòng bằng tiền mặt trước đã, rồi mới tính chuyện tích trữ.",
+      },
+    ],
+    notes: [
+      "Tuyệt đối không vay tiền để mua vàng. Giá vàng lên xuống thất thường, còn lãi vay thì chạy đều mỗi ngày.",
+      "Cảnh giác với các nhóm rủ mua vàng tài khoản, vàng ảo, sàn giao dịch vàng hứa lãi cao. Rất nhiều mô hình kiểu này là lừa đảo và bạn không hề nắm giữ vàng thật nào.",
+      "Giá vàng, mức chênh mua bán và các quy định về giao dịch thay đổi theo thời điểm và theo chính sách — cứ hỏi trực tiếp tại cửa hàng chính thức trước khi giao dịch.",
+      "Vàng trang sức mua để đeo thì cứ mua theo sở thích, nhưng đừng tính nó vào khoản đầu tư. Tiền công chế tác gần như mất khi bán lại.",
+    ],
+    faq: [
+      {
+        q: "Mua vàng nhẫn hay vàng miếng thì hơn?",
+        a: "Tuỳ mục đích. Vàng miếng thương hiệu lớn thường thanh khoản tốt hơn khi bán lại. Vàng nhẫn tròn trơn có ưu điểm dễ mua với số tiền nhỏ. Cân nhắc theo số tiền và ý định giữ bao lâu.",
+      },
+      {
+        q: "Mất hoá đơn có bán lại được không?",
+        a: "Vẫn bán được nhưng có thể bị kiểm định lại và giá thu vào thấp hơn. Vì vậy hoá đơn nên được cất cùng chỗ với vàng.",
+      },
+      {
+        q: "Mua vàng online có an toàn không?",
+        a: "Chỉ nên giao dịch qua kênh chính thức của các thương hiệu lớn có địa chỉ rõ ràng. Tuyệt đối tránh giao dịch với cá nhân qua mạng xã hội, dù họ đưa ra bao nhiêu ảnh chụp hoá đơn.",
+      },
+      {
+        q: "Nên mua khi giá đang lên hay đang xuống?",
+        a: "Không ai đoán chắc được giá vàng. Cách an toàn hơn là mua rải đều theo thời gian bằng tiền nhàn rỗi, thay vì dồn một cục vào lúc thị trường đang sốt.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "quet-ma-qr-tra-tien-an-toan",
+    title: "Quét mã QR trả tiền: ba giây kiểm tra để khỏi chuyển tiền cho kẻ lạ",
+    excerpt:
+      "Mã QR dán đè lên mã của quán là chiêu cũ mà vẫn ăn tiền đều, vì gần như không ai nhìn tên người nhận trước khi bấm xác nhận.",
+    publishedAt: NGAY,
+    readTimeMinutes: 4,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Sau khi quét mã, dừng lại ba giây đọc tên người nhận và số tiền hiện trên màn hình trước khi bấm xác nhận. Tên người nhận phải khớp với tên quán hoặc tên người bạn đang trả tiền. Nhìn kỹ tấm mã dán ở quầy xem có bị dán đè, bị bong mép hay dán lệch không. Với mã lạ nhận qua tin nhắn hay mạng xã hội thì đừng quét, nhất là mã kèm lời hứa nhận thưởng hoặc hoàn tiền.",
+    prepare: [
+      "Ứng dụng ngân hàng hoặc ví điện tử đã cài đặt hạn mức chuyển tiền hợp lý",
+      "Thói quen bật thông báo giao dịch để biết ngay khi có tiền ra vào",
+      "Số tổng đài ngân hàng lưu sẵn trong danh bạ, để gọi ngay khi có sự cố",
+      "Điện thoại đã khoá màn hình và có xác thực sinh trắc học khi mở app",
+      "Một phút bình tĩnh — hầu hết vụ mất tiền xảy ra vì người ta vội",
+    ],
+    steps: [
+      {
+        title: "Nhìn tấm mã trước khi giơ điện thoại lên",
+        detail:
+          "Mã bị dán đè thường lộ mép giấy, lệch khung, chất liệu khác với bảng gốc, hoặc dán bằng băng dính trông tạm bợ. Thấy dấu hiệu lạ thì hỏi chủ quán: mã này của quán mình đúng không ạ. Câu hỏi nhẹ nhàng đó cứu được cả khoản tiền.",
+      },
+      {
+        title: "Ưu tiên mã hiện trên màn hình máy tính tiền",
+        detail:
+          "Mã sinh ra trên màn hình thiết bị của quán an toàn hơn mã in dán tường, vì không ai dán đè lên màn hình được. Quán có cả hai thì chọn cái trên màn hình.",
+      },
+      {
+        title: "Dừng lại đọc tên người nhận",
+        detail:
+          "Đây là bước quan trọng nhất cả bài. Sau khi quét, màn hình hiện tên chủ tài khoản nhận tiền. Đọc nó. Tên phải khớp với tên quán hoặc tên chủ quán. Thấy một cái tên lạ hoắc thì dừng lại và hỏi trước khi bấm tiếp.",
+      },
+      {
+        title: "Kiểm tra số tiền trước khi xác nhận",
+        detail:
+          "Mã tĩnh thì bạn tự nhập số tiền, dễ gõ thừa một số không. Mã động thì số tiền có sẵn, phải khớp với hoá đơn. Đọc to số tiền trong đầu một lần trước khi bấm xác nhận.",
+      },
+      {
+        title: "Không quét mã nhận qua tin nhắn hay mạng xã hội",
+        detail:
+          "Mã QR gửi kèm lời mời nhận quà, hoàn tiền, nhận thưởng, hoặc yêu cầu quét để xác minh tài khoản gần như luôn là bẫy. Quét xong có thể dẫn tới trang giả mạo yêu cầu bạn đăng nhập hoặc cấp quyền.",
+      },
+      {
+        title: "Cảnh giác với mã dẫn tới trang đăng nhập",
+        detail:
+          "Quét mã trả tiền thì ứng dụng ngân hàng phải mở thẳng màn hình chuyển tiền. Nếu nó mở trình duyệt và hiện một trang đòi bạn nhập lại tên đăng nhập, mật khẩu hay mã xác thực thì thoát ra ngay. Đó là trang giả.",
+      },
+      {
+        title: "Tuyệt đối không đọc mã xác thực cho ai",
+        detail:
+          "Không nhân viên ngân hàng, không chủ shop, không ai có quyền hỏi mã xác thực gửi về điện thoại bạn. Bất kỳ ai hỏi mã đó đều là kẻ lừa đảo, kể cả khi họ đọc vanh vách thông tin cá nhân của bạn.",
+      },
+      {
+        title: "Chụp màn hình biên lai sau khi chuyển",
+        detail:
+          "Chụp lại màn hình thành công và đưa cho người bán xem. Vừa là bằng chứng đã trả, vừa giúp phát hiện nhanh nếu tiền vào nhầm tài khoản khác.",
+      },
+      {
+        title: "Đợi người bán xác nhận đã nhận tiền",
+        detail:
+          "Đừng đi ngay khi vừa bấm xong. Hỏi một câu: anh chị nhận được chưa ạ. Người bán không thấy tiền vào trong khi bạn đã trừ tiền là dấu hiệu bạn vừa chuyển nhầm cho kẻ khác — và biết ngay lúc đó thì còn kịp xử lý.",
+      },
+      {
+        title: "Chuyển nhầm thì gọi ngân hàng ngay lập tức",
+        detail:
+          "Gọi tổng đài ngân hàng của bạn, báo rõ thời điểm, số tiền và tài khoản nhận. Đồng thời tới công an phường trình báo và mang theo ảnh chụp biên lai. Càng nhanh càng có cơ hội, để qua ngày là tiền thường đã bị rút.",
+      },
+      {
+        title: "Đặt hạn mức chuyển tiền trong ứng dụng",
+        detail:
+          "Vào phần cài đặt của ứng dụng ngân hàng, hạ hạn mức chuyển mỗi lần và mỗi ngày xuống mức bạn thật sự cần. Nếu chẳng may bị lừa thì thiệt hại có trần. Đây là việc làm một lần, mất năm phút.",
+      },
+      {
+        title: "Nói cho người nhà biết, nhất là người lớn tuổi",
+        detail:
+          "Chỉ cho bố mẹ đúng một thói quen: quét xong thì đọc tên người nhận trước khi bấm. Không cần giảng giải dài dòng về công nghệ, chỉ một hành động đó thôi đã chặn được phần lớn các vụ.",
+      },
+    ],
+    notes: [
+      "Mã QR bản thân nó chỉ là hình chứa thông tin, không tự lấy được tiền của bạn. Cái nguy hiểm nằm ở chỗ bạn bấm xác nhận mà không đọc, hoặc bạn nhập thông tin vào trang giả sau khi quét.",
+      "Chụp màn hình mã QR nhận tiền của mình rồi đăng công khai lên mạng xã hội là để lộ thông tin tài khoản. Chỉ gửi riêng cho người cần trả tiền.",
+      "Người bán cũng nên kiểm tra tấm mã dán ở quầy mỗi ngày. Kẻ gian dán đè thường chọn quán đông khách và dán vào giờ cao điểm.",
+      "Quy trình xử lý khi chuyển nhầm và khả năng lấy lại tiền tuỳ từng ngân hàng và từng vụ việc — gọi tổng đài ngay là việc đúng đắn nhất, đừng chờ đợi hay tự đi tìm người nhận.",
+    ],
+    faq: [
+      {
+        q: "Quét nhầm mã của kẻ gian rồi thì có lấy lại tiền được không?",
+        a: "Không chắc chắn, phụ thuộc vào việc tiền đã bị rút chưa và kết quả xử lý của cơ quan chức năng. Vì vậy khâu kiểm tra tên người nhận trước khi bấm quan trọng hơn mọi cách khắc phục sau đó.",
+      },
+      {
+        q: "Quét mã lạ mà chưa nhập gì thì có sao không?",
+        a: "Thường thì chưa mất tiền, vì bạn chưa xác nhận giao dịch nào. Nhưng nếu nó mở một trang lạ thì hãy thoát ngay, đừng nhập bất cứ thông tin nào và đừng cài ứng dụng nào nó gợi ý.",
+      },
+      {
+        q: "Trả tiền bằng mã QR có tốn phí không?",
+        a: "Nhiều ngân hàng và ví miễn phí chuyển khoản trong nước, nhưng chính sách phí khác nhau và thay đổi theo thời điểm. Xem biểu phí của chính ngân hàng bạn dùng.",
+      },
+      {
+        q: "Có nên dùng ví điện tử thay tài khoản ngân hàng khi mua hàng lạ không?",
+        a: "Nạp một số tiền vừa phải vào ví và dùng ví cho các giao dịch nhỏ là cách giới hạn thiệt hại khá hiệu quả, vì kẻ gian không chạm được tới tài khoản chính của bạn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "thoat-vong-tra-toi-thieu-the-tin-dung",
+    title: "Đang nợ thẻ tín dụng: thoát khỏi vòng trả tối thiểu trước khi lãi nuốt hết",
+    excerpt:
+      "Tháng nào cũng trả đúng số tối thiểu mà dư nợ chẳng giảm bao nhiêu. Đó không phải do bạn kém tính toán, đó là cách con số tối thiểu được thiết kế.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Trả số tối thiểu chỉ giúp bạn không bị ghi nợ quá hạn, chứ phần lớn số tiền đó đi vào lãi và phí, nên dư nợ gốc giảm rất chậm. Cách thoát ra: dừng quẹt thẻ ngay, gọi ngân hàng hỏi chính xác dư nợ và lãi suất đang áp, hỏi về phương án chuyển đổi trả góp dư nợ nếu ngân hàng có, rồi trả nhiều nhất có thể mỗi kỳ. Nếu có nhiều thẻ, dồn sức trả dứt điểm thẻ có lãi suất cao nhất trước.",
+    prepare: [
+      "Toàn bộ sao kê của các thẻ tín dụng bạn đang có, ít nhất ba kỳ gần nhất",
+      "Số tổng đài của từng ngân hàng phát hành thẻ",
+      "Một tờ giấy hoặc bảng tính, ghi từng thẻ một dòng: dư nợ, lãi suất, ngày đến hạn",
+      "Bảng thu chi hằng tháng thật thà, kể cả các khoản nhỏ",
+      "Tinh thần chuẩn bị cắt bớt chi tiêu trong vài tháng tới — không có cách nào dễ hơn",
+    ],
+    steps: [
+      {
+        title: "Ngừng dùng thẻ ngay hôm nay",
+        detail:
+          "Không thể tát nước ra khi vòi vẫn chảy vào. Rút thẻ ra khỏi ví, xoá thông tin thẻ đã lưu trên các ứng dụng mua sắm và ví điện tử. Bước này khó về mặt tâm lý nhưng là điều kiện bắt buộc.",
+      },
+      {
+        title: "Gọi ngân hàng hỏi ba con số chính xác",
+        detail:
+          "Hỏi rõ: dư nợ hiện tại của em là bao nhiêu, lãi suất đang áp cho dư nợ này là bao nhiêu một năm, và nếu em trả hết ngay hôm nay thì tổng phải trả là bao nhiêu. Ghi lại ba con số này. Đừng đoán từ sao kê.",
+      },
+      {
+        title: "Hiểu vì sao trả tối thiểu không thoát được",
+        detail:
+          "Số tối thiểu thường chỉ là một tỷ lệ nhỏ của dư nợ, và phần lớn dùng để trả lãi và phí phát sinh trong kỳ. Phần trừ vào gốc rất ít, nên tháng sau lãi lại tính trên gốc gần như cũ. Trả đúng tối thiểu là đứng yên tại chỗ chứ không phải đang trả nợ.",
+      },
+      {
+        title: "Liệt kê tất cả các thẻ ra một bảng",
+        detail:
+          "Mỗi thẻ một dòng: tên ngân hàng, dư nợ, lãi suất, ngày sao kê, ngày đến hạn thanh toán. Nhìn thấy toàn cảnh trên một trang giấy thường làm người ta tỉnh ra và ngừng né tránh vấn đề.",
+      },
+      {
+        title: "Hỏi ngân hàng về phương án chuyển đổi trả góp",
+        detail:
+          "Nhiều ngân hàng có chương trình chuyển dư nợ thẻ sang trả góp cố định với mức phí hoặc lãi thấp hơn lãi thẻ. Hỏi thẳng: em muốn chuyển dư nợ này sang trả góp thì điều kiện thế nào, tổng chi phí là bao nhiêu ạ. So sánh tổng phải trả chứ đừng chỉ nhìn số tiền mỗi tháng.",
+      },
+      {
+        title: "Trả dứt điểm thẻ lãi cao nhất trước",
+        detail:
+          "Với các thẻ còn lại, cứ trả mức tối thiểu để không bị quá hạn, rồi dồn toàn bộ tiền dư vào thẻ có lãi suất cao nhất. Xong thẻ đó thì chuyển sang thẻ lãi cao thứ hai. Cách này giúp tổng tiền lãi bạn phải trả là ít nhất.",
+      },
+      {
+        title: "Cắt ba khoản chi lớn nhất trong vài tháng",
+        detail:
+          "Mở sao kê ba tháng, khoanh ba khoản chi lớn nhất không thiết yếu. Tạm cắt chúng cho tới khi hết nợ. Đây là cách tạo ra tiền trả nợ nhanh hơn nhiều so với việc tiết kiệm lặt vặt vài chục nghìn.",
+      },
+      {
+        title: "Tìm thêm nguồn trả nợ một lần",
+        detail:
+          "Bán món đồ không dùng, nhận thêm việc ngắn hạn, dùng khoản thưởng sắp tới. Một khoản tiền lớn trả vào gốc có tác dụng mạnh hơn nhiều so với chia nhỏ trả dần, vì nó cắt luôn phần lãi tính trên số đó.",
+      },
+      {
+        title: "Trả trước ngày đến hạn vài ngày",
+        detail:
+          "Đừng trả đúng ngày cuối. Giao dịch có thể ghi nhận chậm và bạn thành quá hạn, chịu phí phạt cộng thêm việc bị ghi nhận vào lịch sử tín dụng. Đặt lời nhắc trong lịch điện thoại trước hạn ba ngày.",
+      },
+      {
+        title: "Tuyệt đối không vay chỗ này trả chỗ kia",
+        detail:
+          "Vay ứng dụng cho vay nhanh để trả thẻ tín dụng là bước đầu của vòng xoáy nặng hơn, vì lãi và phí của các ứng dụng đó thường còn cao hơn. Nếu đang nghĩ tới phương án này thì hãy gọi ngân hàng trình bày hoàn cảnh trước.",
+      },
+      {
+        title: "Không rút tiền mặt từ thẻ tín dụng",
+        detail:
+          "Rút tiền mặt từ thẻ tín dụng thường bị tính phí ngay và tính lãi từ ngày rút, không có thời gian miễn lãi như khi quẹt mua hàng. Đây là cách tốn kém nhất để lấy tiền và cũng là cách nhiều người rơi vào nợ sâu.",
+      },
+      {
+        title: "Trả xong rồi thì quyết định giữ hay đóng thẻ",
+        detail:
+          "Hết nợ thì tự hỏi thật lòng: mình có kiểm soát được thẻ không. Nếu có, giữ lại một thẻ và luôn trả toàn bộ dư nợ mỗi kỳ. Nếu không, đóng thẻ và yêu cầu ngân hàng xác nhận bằng văn bản là đã tất toán, đừng chỉ cắt thẻ rồi thôi.",
+      },
+      {
+        title: "Kiểm tra lịch sử tín dụng sau khi tất toán",
+        detail:
+          "Vài tuần sau khi trả hết, tự tra thông tin tín dụng của mình xem khoản nợ đã được ghi nhận tất toán chưa. Sai sót trong dữ liệu tín dụng có thể ảnh hưởng tới các lần vay sau này, phát hiện sớm thì dễ điều chỉnh.",
+      },
+    ],
+    notes: [
+      "Lãi suất thẻ tín dụng thường thuộc nhóm cao nhất trong các hình thức vay. Vì vậy trả nợ thẻ nên được ưu tiên hơn hầu hết mục tiêu tài chính khác, kể cả gửi tiết kiệm.",
+      "Đừng né tránh cuộc gọi từ ngân hàng khi đang khó khăn. Chủ động gọi trước và trình bày hoàn cảnh thường mở ra phương án, còn im lặng thì chỉ dẫn tới nợ quá hạn và ghi nhận xấu trong lịch sử tín dụng.",
+      "Cách tính lãi, mức phí, tỷ lệ trả tối thiểu và điều kiện chuyển đổi trả góp khác nhau giữa các ngân hàng và thay đổi theo thời điểm — hỏi trực tiếp tổng đài ngân hàng của bạn để có con số đúng.",
+      "Cảnh giác với dịch vụ quảng cáo đáo hạn thẻ hoặc rút tiền thẻ tín dụng giá rẻ. Bạn phải giao thẻ và thông tin cho người lạ, và chi phí thật thường cao hơn quảng cáo nhiều.",
+    ],
+    faq: [
+      {
+        q: "Trả tối thiểu có bị ghi nợ xấu không?",
+        a: "Trả đúng và đủ mức tối thiểu trước hạn thì thường không bị ghi quá hạn. Nhưng dư nợ của bạn gần như không giảm, nên đó chỉ là cách cầm cự chứ không phải giải pháp.",
+      },
+      {
+        q: "Đóng thẻ tín dụng có ảnh hưởng điểm tín dụng không?",
+        a: "Có thể ảnh hưởng phần nào vì nó thay đổi tổng hạn mức và lịch sử của bạn. Nhưng giữ một cái thẻ mà bạn không kiểm soát được thì rủi ro lớn hơn nhiều. Cân theo hoàn cảnh thật của mình.",
+      },
+      {
+        q: "Ngân hàng gọi mời nâng hạn mức thì có nên nhận không?",
+        a: "Đang trong quá trình trả nợ thì đừng nhận. Hạn mức cao hơn không phải là tiền của bạn, nó chỉ làm tăng khả năng bạn tiêu thêm.",
+      },
+      {
+        q: "Không đủ khả năng trả nữa thì làm gì?",
+        a: "Gọi ngân hàng và nói thẳng hoàn cảnh, hỏi về các phương án cơ cấu lại khoản nợ. Đừng vay nóng bên ngoài và đừng bỏ mặc không liên lạc — cả hai đều làm tình hình xấu đi nhanh.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "nhan-dien-app-dau-tu-hua-lai-cao",
+    title: "App đầu tư hứa lãi cao mỗi ngày: sáu dấu hiệu nhận ra trước khi mất tiền",
+    excerpt:
+      "Rút được tiền vài lần đầu là phần thiết kế của cái bẫy, không phải bằng chứng nó thật. Đây là những dấu hiệu nhận ra từ sớm.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "tien-bac",
+    author: null,
+    quickAnswer:
+      "Không có kênh đầu tư hợp pháp nào cam kết lãi cố định cao mỗi ngày và không rủi ro. Dấu hiệu cảnh báo gồm: hứa lợi nhuận cố định, thưởng khi rủ thêm người, ép nạp thêm mới cho rút, chuyển tiền vào tài khoản cá nhân, tổ chức không được cấp phép, và luôn gấp gáp. Tuyệt đối không đọc mã xác thực cho bất kỳ ai và không cài ứng dụng ngoài kho ứng dụng chính thức. Nghi ngờ thì dừng ngay, đừng nạp thêm một đồng nào để gỡ.",
+    prepare: [
+      "Một quy tắc tự đặt ra: không chuyển tiền cho ai trong vòng hai mươi bốn giờ kể từ khi nghe lời mời đầu tư",
+      "Danh sách nơi tra cứu giấy phép hoạt động của các tổ chức tài chính chính thức",
+      "Một người thân bạn tin tưởng, để kể lại trước khi quyết định bỏ tiền",
+      "Điện thoại chỉ cài ứng dụng từ kho ứng dụng chính thức, không cài file lạ",
+      "Thói quen chụp màn hình mọi lời hứa hẹn để làm bằng chứng nếu cần trình báo",
+    ],
+    steps: [
+      {
+        title: "Nghe con số lợi nhuận và tự hỏi một câu",
+        detail:
+          "Nếu có cách kiếm lãi cao chắc chắn mỗi ngày mà không rủi ro, tại sao người ta phải đi mời bạn thay vì tự làm và vay ngân hàng để làm lớn hơn? Câu hỏi đơn giản này lọc được phần lớn các mô hình lừa đảo.",
+      },
+      {
+        title: "Dấu hiệu một: cam kết lợi nhuận cố định",
+        detail:
+          "Mọi khoản đầu tư thật đều có rủi ro và không ai cam kết được mức sinh lời. Nghe thấy các cụm như lãi cố định mỗi ngày, bảo toàn vốn, không bao giờ lỗ thì đó là dấu hiệu rõ nhất.",
+      },
+      {
+        title: "Dấu hiệu hai: thưởng khi rủ thêm người",
+        detail:
+          "Khi phần lớn thu nhập đến từ việc mời người mới chứ không phải từ hoạt động kinh doanh thật, thì dòng tiền của người vào sau đang trả cho người vào trước. Mô hình đó chắc chắn sẽ sập, chỉ là sớm hay muộn.",
+      },
+      {
+        title: "Dấu hiệu ba: chuyển tiền vào tài khoản cá nhân",
+        detail:
+          "Tổ chức tài chính hợp pháp nhận tiền qua tài khoản mang tên tổ chức. Được yêu cầu chuyển vào tài khoản mang tên một cá nhân, hoặc chuyển qua ví lạ, tiền mã hoá thì dừng lại ngay tại đó.",
+      },
+      {
+        title: "Dấu hiệu bốn: nạp thêm mới được rút",
+        detail:
+          "Đây là cú chốt của hầu hết vụ lừa. Bạn xin rút tiền, hệ thống báo lỗi và yêu cầu nạp thêm để đóng thuế, phí xác minh, phí giải ngân. Mỗi đồng nạp thêm là mất thêm. Tới bước này thì đừng nạp nữa dù họ nói gì.",
+      },
+      {
+        title: "Dấu hiệu năm: không tra được giấy phép",
+        detail:
+          "Tra tên tổ chức trên các nguồn chính thức của cơ quan quản lý. Không tìm thấy, hoặc chỉ thấy website mới lập, không địa chỉ rõ ràng, không thông tin người chịu trách nhiệm thì đủ để bạn quay lưng.",
+      },
+      {
+        title: "Dấu hiệu sáu: luôn gấp gáp",
+        detail:
+          "Suất cuối cùng, ưu đãi hết hạn trong hai giờ, nhóm sắp đóng. Sự gấp gáp là công cụ để bạn không kịp suy nghĩ và không kịp hỏi người thân. Cứ thấy giục là cứ chậm lại.",
+      },
+      {
+        title: "Cảnh giác với chuyện rút được tiền lần đầu",
+        detail:
+          "Nhiều mô hình cho bạn rút vài lần nhỏ rất trơn tru để tạo niềm tin, rồi khuyến khích bạn nạp một khoản lớn. Rút được không phải bằng chứng nó thật — đó là chi phí họ bỏ ra để câu khoản lớn hơn.",
+      },
+      {
+        title: "Không cài ứng dụng ngoài kho chính thức",
+        detail:
+          "Được gửi file cài đặt qua tin nhắn hoặc đường dẫn lạ thì đừng cài. Ứng dụng kiểu này có thể xin quyền đọc tin nhắn, xem màn hình và chiếm quyền điều khiển điện thoại của bạn.",
+      },
+      {
+        title: "Không bao giờ đọc mã xác thực cho ai",
+        detail:
+          "Không nhân viên ngân hàng, không sàn giao dịch, không cơ quan nào có quyền hỏi mã xác thực gửi về máy bạn. Bất kỳ ai hỏi mã đó đều là kẻ lừa đảo, kể cả khi họ đọc đúng tên, số căn cước và địa chỉ của bạn.",
+      },
+      {
+        title: "Chậm lại hai mươi bốn giờ và kể cho một người",
+        detail:
+          "Đặt quy tắc cứng: không chuyển đồng nào trong vòng một ngày kể từ khi nghe lời mời, và phải kể cho một người thân trước. Kẻ lừa đảo sợ nhất hai thứ là thời gian và người thứ ba.",
+      },
+      {
+        title: "Đã trót chuyển tiền thì hành động ngay",
+        detail:
+          "Gọi tổng đài ngân hàng báo giao dịch nghi ngờ bị lừa đảo, đề nghị hỗ trợ. Ra công an nơi bạn cư trú trình báo, mang theo ảnh chụp toàn bộ tin nhắn, biên lai chuyển tiền và thông tin tài khoản nhận. Càng sớm càng có cơ hội.",
+      },
+      {
+        title: "Đừng tin dịch vụ hứa lấy lại tiền bị lừa",
+        detail:
+          "Sau khi bạn mất tiền, sẽ có người nhắn tin nhận thu hồi tiền lừa đảo với phí trả trước. Đó là lớp lừa thứ hai nhắm vào chính nạn nhân. Chỉ làm việc qua ngân hàng và cơ quan công an.",
+      },
+      {
+        title: "Kể lại cho người thân, nhất là người lớn tuổi",
+        detail:
+          "Không cần kể chi tiết kỹ thuật, chỉ cần một câu: nhà mình không chuyển tiền cho ai khi chưa gọi cho con. Một quy tắc chung của cả nhà bảo vệ tốt hơn nhiều bài giảng dài.",
+      },
+    ],
+    notes: [
+      "Bị lừa không có nghĩa là bạn ngu. Các mô hình này được dựng rất công phu, có cả nhóm chat toàn người đóng vai nhà đầu tư đang lãi. Việc cần làm là trình báo sớm, không phải tự trách mình.",
+      "Đừng nạp thêm để gỡ. Đây là sai lầm khiến thiệt hại nhân lên nhiều lần và cũng là điều kẻ lừa đảo trông chờ nhất ở nạn nhân.",
+      "Kênh đầu tư hợp pháp có giấy phép, có hợp đồng rõ ràng, có cảnh báo rủi ro và không bao giờ giục bạn quyết trong vài giờ. Đó là tiêu chuẩn tối thiểu để bạn cân nhắc.",
+      "Cách thức lừa đảo thay đổi liên tục theo thời gian. Nguyên tắc bền nhất vẫn là: lợi nhuận cao bất thường luôn đi kèm rủi ro cao bất thường, không có ngoại lệ.",
+    ],
+    faq: [
+      {
+        q: "Người rủ tôi là bạn thân, chẳng lẽ bạn tôi lừa tôi?",
+        a: "Rất nhiều trường hợp người rủ cũng là nạn nhân, họ tin thật và đang cố kéo bạn vào để gỡ vốn của chính mình. Tình bạn không phải là bằng chứng cho mô hình kinh doanh.",
+      },
+      {
+        q: "Tài khoản trên app đang hiện lãi lớn, sao lại nói là giả?",
+        a: "Con số hiện trên màn hình do họ tự lập trình, không phải tiền thật của bạn. Phép thử duy nhất là rút ra được hay không, và bạn thường chỉ biết câu trả lời khi đã nạp nhiều.",
+      },
+      {
+        q: "Có cách nào kiểm tra một tổ chức có được cấp phép không?",
+        a: "Có, hãy tra trên các nguồn công bố chính thức của cơ quan quản lý nhà nước tương ứng với lĩnh vực đó, và gọi tới đường dây chính thức để xác minh. Đừng dùng số điện thoại do chính người mời cung cấp.",
+      },
+      {
+        q: "Đã báo công an rồi thì bao lâu lấy lại được tiền?",
+        a: "Không có câu trả lời chung, và không phải vụ nào cũng thu hồi được. Trình báo vẫn cần thiết vì nó giúp truy vết và ngăn thêm người khác bị lừa. Đừng để hy vọng lấy lại tiền khiến bạn rơi vào lớp lừa tiếp theo.",
+      },
+    ],
+    sources: [],
+  },
 ];
