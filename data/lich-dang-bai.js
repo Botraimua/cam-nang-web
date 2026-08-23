@@ -19,7 +19,17 @@
 
 // Ngày đăng bài cuối cùng (giờ Việt Nam), định dạng YYYY-MM-DD.
 // Sau ngày này mọi thứ tự im, không cần ai nhớ tắt.
-export const NGAY_DANG_CUOI = "2026-08-28";
+//
+// 📌 23/08/2026: đợt đăng KẾT THÚC SỚM theo yêu cầu của chị, thay vì chạy tới
+//    28/08 như dự định. Bốn tác vụ đăng bài đã xoá khỏi bộ lập lịch.
+//
+//    Để ngày 2026-08-22 chứ không phải 2026-08-23, dù ngày 23 vẫn có bài đăng.
+//    Lý do: thư nhắc 23h tối nay sẽ kiểm ngày 23/08, thấy khung chiều và khung
+//    tối trống rồi gửi mail báo thiếu — trong khi đó là thiếu có chủ ý vì đã
+//    dừng. Lùi một ngày là mọi thứ im ngay từ tối nay.
+//
+//    Ngày 22/08 cũng chính là ngày cuối cùng đăng đủ 60/60 bài.
+export const NGAY_DANG_CUOI = "2026-08-22";
 
 // Mỗi khung đăng 3 mục × 5 bài.
 export const BAI_MOI_KHUNG = 15;
