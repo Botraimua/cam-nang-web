@@ -1063,4 +1063,531 @@ export const day20260823trua = [
     ],
     sources: [],
   },
+
+  // ═══════════════════════ SỨC KHOẺ ═══════════════════════
+  {
+    slug: "ngo-doc-thuc-pham-xu-ly-tai-nha",
+    title: "Ngộ độc thực phẩm: bù nước đúng cách và mốc phải đi viện",
+    excerpt:
+      "Phần lớn trường hợp tự khỏi sau một hai ngày. Cái nguy hiểm không phải là nôn hay tiêu chảy — mà là mất nước, và nó đến nhanh hơn người ta tưởng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 6,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Việc quan trọng nhất là bù nước, không phải cầm tiêu chảy. Uống từng ngụm nhỏ liên tục thay vì uống ừng ực rồi nôn ra hết. Dùng dung dịch bù nước điện giải mua ở nhà thuốc, pha đúng theo hướng dẫn ghi trên gói. Đừng tự mua thuốc cầm tiêu chảy hay kháng sinh — với nhiều loại ngộ độc, cầm lại giữ độc tố trong ruột lâu hơn. Bài này không thay lời bác sĩ.",
+    prepare: [
+      "Gói bù nước điện giải mua ở nhà thuốc — nên có sẵn trong tủ thuốc từ trước",
+      "Nước sạch để pha, đúng lượng ghi trên gói",
+      "Một cái cốc nhỏ và thìa, vì phải uống từng ngụm chứ không uống cả cốc",
+      "Ghi lại đã ăn gì trong 24 giờ qua và có ai ăn cùng bị giống mình không",
+    ],
+    steps: [
+      {
+        title: "Hiểu vì sao bù nước quan trọng hơn cầm tiêu chảy",
+        detail:
+          "Nôn và tiêu chảy chính là cách cơ thể tống thứ có hại ra ngoài. Thứ giết người trong ngộ độc thực phẩm thông thường là mất nước và mất muối khoáng, không phải bản thân việc đi ngoài. Vì vậy ưu tiên số một là đưa nước và điện giải vào.",
+      },
+      {
+        title: "Pha dung dịch bù nước đúng tỉ lệ",
+        detail:
+          "Đọc kỹ hướng dẫn trên gói và pha đúng lượng nước ghi ở đó. Pha đặc hơn cho nhanh khỏi là sai và có thể làm tiêu chảy nặng thêm, nhất là ở trẻ nhỏ. Pha loãng quá thì không đủ điện giải.",
+      },
+      {
+        title: "Uống từng ngụm nhỏ, liên tục",
+        detail:
+          "Một hai thìa mỗi 5–10 phút, kể cả khi đang buồn nôn. Uống cả cốc một lúc gần như chắc chắn sẽ nôn ra hết và bạn mất thêm nước. Kiên trì từng ngụm là kỹ thuật quan trọng nhất trong cả bài.",
+      },
+      {
+        title: "Đừng nhịn ăn quá lâu",
+        detail:
+          "Ngưng ăn vài giờ đầu cho bụng yên thì được, nhưng nhịn cả ngày làm cơ thể yếu và hồi phục chậm. Khi thấy đỡ thì ăn nhẹ: cháo loãng, cơm nát, chuối, bánh mì. Ăn ít một và tăng dần.",
+      },
+      {
+        title: "Tránh mấy thứ làm nặng thêm",
+        detail:
+          "Sữa và các sản phẩm từ sữa, đồ dầu mỡ, đồ cay, cà phê, rượu bia, nước ngọt có ga. Nước ngọt nhiều đường kéo thêm nước vào ruột và làm tiêu chảy nặng hơn — đây là sai lầm khá phổ biến.",
+      },
+      {
+        title: "Không tự uống thuốc cầm tiêu chảy",
+        detail:
+          "Với ngộ độc do vi khuẩn hoặc độc tố, cầm lại giữ tác nhân trong ruột lâu hơn và có thể làm bệnh nặng lên. Đặc biệt không dùng khi có sốt cao hoặc đi ngoài ra máu. Nếu cần thuốc thì để bác sĩ hoặc dược sĩ quyết định.",
+      },
+      {
+        title: "Không tự uống kháng sinh",
+        detail:
+          "Phần lớn ngộ độc thực phẩm là do độc tố hoặc vi rút, kháng sinh không giúp gì mà còn làm rối loạn thêm hệ vi khuẩn đường ruột. Đây là thói quen rất phổ biến và gây hại thật.",
+      },
+      {
+        title: "Theo dõi dấu hiệu mất nước",
+        detail:
+          "Khát nhiều, miệng khô, tiểu ít và nước tiểu sẫm màu, chóng mặt khi đứng dậy, mệt lả. Ở trẻ nhỏ: khóc không ra nước mắt, tã khô nhiều giờ, thóp lõm, li bì. Đây là những thứ cần đếm và ghi lại, không chỉ cảm nhận.",
+      },
+      {
+        title: "Nghỉ ngơi và giữ ấm bụng",
+        detail:
+          "Nằm nghỉ, không cố đi làm. Cơ thể cần năng lượng để hồi phục. Giữ ấm vùng bụng giúp dễ chịu hơn, dù nó không rút ngắn được bệnh.",
+      },
+      {
+        title: "Giữ lại thức ăn nghi ngờ nếu còn",
+        detail:
+          "Nếu nghi do một món cụ thể và còn phần thừa, cho vào túi để tủ lạnh. Nếu nhiều người cùng bị sau một bữa tiệc hay một quán ăn, mẫu đó có ích cho cơ quan y tế và cho việc trình báo.",
+      },
+      {
+        title: "Báo cho người ăn cùng",
+        detail:
+          "Nếu bạn nghi một món ăn chung, nhắn cho những người cùng ăn để họ theo dõi. Nhiều người cùng có triệu chứng thì đó không còn là chuyện cá nhân và nên báo cơ quan y tế địa phương.",
+      },
+      {
+        title: "Trở lại ăn uống bình thường từ từ",
+        detail:
+          "Sau khi hết nôn và tiêu chảy, đường ruột còn nhạy vài ngày. Quay lại sữa và đồ dầu mỡ quá sớm hay làm bụng khó chịu lại. Tăng dần trong 2–3 ngày.",
+      },
+    ],
+    notes: [
+      "ĐI CẤP CỨU NGAY nếu: nôn liên tục không giữ được cả ngụm nước nào, đi ngoài ra máu hoặc phân đen, sốt cao trên 39 độ, đau bụng dữ dội liên tục, lơ mơ khó đánh thức, co giật, hoặc không tiểu suốt 8 giờ.",
+      "ĐI KHÁM NGAY, không theo dõi tại nhà, với: trẻ nhỏ, người già, phụ nữ mang thai, người có bệnh mạn tính hoặc đang điều trị ung thư — nhóm này mất nước rất nhanh và diễn tiến nặng.",
+      "Dấu hiệu thần kinh sau khi ăn — nhìn đôi, sụp mí, nói khó, yếu cơ lan dần, tê quanh miệng — là CẤP CỨU, gọi 115 ngay. Đây không phải ngộ độc thực phẩm thông thường.",
+      "Bài này là hướng dẫn chăm sóc phổ thông tại nhà, KHÔNG PHẢI TƯ VẤN Y KHOA. Mọi thuốc phải do bác sĩ hoặc dược sĩ chỉ định.",
+    ],
+    faq: [
+      {
+        q: "Có nên móc họng cho nôn hết ra không?",
+        a: "Không nên tự làm. Việc này có thể gây sặc vào phổi và làm tổn thương thực quản, đặc biệt nguy hiểm nếu nghi nuốt phải hoá chất. Cơ thể tự nôn là đủ.",
+      },
+      {
+        q: "Không có gói bù nước thì uống gì?",
+        a: "Nước cháo loãng có chút muối, nước dừa, hoặc nước lọc uống kèm ăn nhẹ có muối. Nhưng gói bù nước điện giải pha đúng vẫn tốt hơn hẳn — nên mua sẵn để trong tủ thuốc.",
+      },
+      {
+        q: "Bao lâu thì khỏi?",
+        a: "Phần lớn đỡ rõ trong 1–2 ngày và khỏi hẳn trong khoảng 3 ngày. Kéo dài quá 3 ngày, hoặc nặng lên thay vì nhẹ đi, thì phải đi khám.",
+      },
+      {
+        q: "Cả nhà ăn chung mà chỉ mình tôi bị, có phải ngộ độc không?",
+        a: "Vẫn có thể, vì lượng ăn và sức đề kháng mỗi người khác nhau. Nhưng cũng có thể là nguyên nhân khác. Nếu triệu chứng nặng hoặc kéo dài thì đi khám để tìm đúng nguyên nhân.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dau-bung-loai-nao-phai-di-ngay",
+    title: "Đau bụng: loại nào theo dõi được, loại nào phải đi ngay",
+    excerpt:
+      "Đa số cơn đau bụng rồi sẽ tự hết. Nhưng có vài kiểu đau mà mỗi giờ chần chừ đều làm mọi thứ tệ hơn — và chúng có dấu hiệu riêng.",
+    publishedAt: NGAY,
+    readTimeMinutes: 6,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Ba thứ cần để ý: vị trí đau, kiểu đau, và những gì đi kèm. Đau quặn từng cơn rồi dịu thường ít đáng lo hơn đau liên tục tăng dần. Đau khu trú một điểm cố định đáng lo hơn đau lan mơ hồ khắp bụng. Và bất kỳ cơn đau nào kèm sốt, nôn không dứt, bụng cứng như gỗ, hoặc đau dữ dội đột ngột đều là lý do đi viện ngay. Tuyệt đối không uống thuốc giảm đau mạnh trước khi được khám.",
+    prepare: [
+      "Ghi lại: đau từ mấy giờ, đau chỗ nào, đau kiểu gì, có lan đi đâu không",
+      "Nhiệt kế để đo sốt — thông tin này bác sĩ luôn hỏi",
+      "Danh sách thuốc đang uống và bệnh nền, nếu có",
+      "Với phụ nữ: ngày đầu kỳ kinh gần nhất và khả năng có thai",
+    ],
+    steps: [
+      {
+        title: "Ghi lại ba thông tin ngay khi bắt đầu đau",
+        detail:
+          "Mấy giờ bắt đầu, đau ở vùng nào, và thang điểm đau từ 1 đến 10. Cơn đau thay đổi theo thời gian nên trí nhớ sẽ lệch. Ba dòng ghi chú này giúp bác sĩ rất nhiều và giúp chính bạn nhận ra tình trạng đang xấu đi.",
+      },
+      {
+        title: "Phân biệt đau quặn từng cơn với đau liên tục",
+        detail:
+          "Đau quặn lên rồi dịu xuống theo đợt thường liên quan tới co bóp của ruột hoặc đường tiết niệu. Đau liên tục không dứt và tăng dần đáng lo hơn nhiều. Sự chuyển từ kiểu quặn sang kiểu liên tục là dấu hiệu cần đi khám.",
+      },
+      {
+        title: "Chú ý cơn đau di chuyển vị trí",
+        detail:
+          "Đau bắt đầu quanh rốn rồi sau vài giờ khu trú xuống hố chậu phải là kiểu diễn tiến rất đáng chú ý và cần đi khám sớm, đừng chờ tới sáng. Đây là cách nhiều trường hợp viêm ruột thừa biểu hiện.",
+      },
+      {
+        title: "Thử ấn nhẹ rồi thả tay ra",
+        detail:
+          "Ấn nhẹ xuống vùng đau rồi buông tay đột ngột. Nếu lúc buông tay đau vọt lên hơn hẳn lúc ấn xuống, đó là dấu hiệu cần đi khám ngay. Bụng cứng như tấm ván và không dám thở sâu cũng vậy.",
+      },
+      {
+        title: "Để ý những gì đi kèm, không chỉ cơn đau",
+        detail:
+          "Sốt, nôn liên tục, không trung tiện được, bụng chướng to lên, đi ngoài ra máu hoặc phân đen, vàng da vàng mắt, tiểu buốt tiểu ra máu. Mỗi thứ đi kèm đều đẩy mức độ khẩn cấp lên cao.",
+      },
+      {
+        title: "Với phụ nữ, luôn nghĩ tới khả năng có thai",
+        detail:
+          "Đau bụng dưới một bên ở phụ nữ trong tuổi sinh sản, nhất là khi chậm kinh, cần loại trừ thai ngoài tử cung — đây là tình huống cấp cứu. Nói thẳng thông tin này với bác sĩ, đừng ngại.",
+      },
+      {
+        title: "KHÔNG uống thuốc giảm đau mạnh trước khi khám",
+        detail:
+          "Thuốc giảm đau làm mờ triệu chứng và khiến bác sĩ khó xác định vấn đề, có thể làm chậm chẩn đoán một tình trạng cần mổ. Nếu quá đau thì đi khám luôn, đừng uống thuốc rồi nằm chờ.",
+      },
+      {
+        title: "Không chườm nóng khi chưa biết nguyên nhân",
+        detail:
+          "Chườm nóng dễ chịu với đau bụng kinh và đau do đầy hơi, nhưng có thể làm nặng thêm nếu là viêm nhiễm trong ổ bụng. Chưa rõ nguyên nhân thì đừng chườm nóng.",
+      },
+      {
+        title: "Nhịn ăn uống nếu đau nhiều và nghi phải can thiệp",
+        detail:
+          "Đau dữ dội, nôn, bụng chướng thì tạm ngưng ăn uống và đi khám. Nếu phải làm thủ thuật hay mổ, dạ dày rỗng là điều kiện an toàn. Đây là lý do bệnh viện luôn hỏi bạn ăn lần cuối lúc nào.",
+      },
+      {
+        title: "Biết những kiểu đau thường lành tính",
+        detail:
+          "Đau âm ỉ kèm đầy hơi sau bữa ăn nhiều dầu mỡ, đau quặn nhẹ rồi hết sau khi đi ngoài, đau bụng kinh đúng chu kỳ và giống mọi tháng. Những kiểu này thường theo dõi được tại nhà — nhưng nếu khác hẳn mọi lần thì lại là chuyện khác.",
+      },
+      {
+        title: "Theo dõi trong vài giờ nếu chưa có dấu hiệu nguy hiểm",
+        detail:
+          "Nằm nghỉ, uống nước ấm từng ngụm, không ăn đồ nặng, đo nhiệt độ mỗi 2–3 giờ, ghi lại mức đau. Nếu sau 4–6 giờ đau tăng lên thay vì giảm, hoặc xuất hiện bất kỳ dấu hiệu ở phần cảnh báo, thì đi khám.",
+      },
+      {
+        title: "Đi đúng nơi",
+        detail:
+          "Đau dữ dội, đau đột ngột, có dấu hiệu nguy hiểm thì vào thẳng cấp cứu bệnh viện, đừng đi phòng khám nhỏ. Đau âm ỉ kéo dài nhiều ngày thì khám khoa Tiêu hoá theo lịch. Chọn đúng cửa tiết kiệm rất nhiều thời gian.",
+      },
+    ],
+    notes: [
+      "ĐI CẤP CỨU NGAY: đau bụng dữ dội đột ngột như dao đâm, bụng cứng như gỗ, đau kèm sốt cao, nôn ra máu, đi ngoài phân đen hoặc ra máu, không trung tiện và bụng chướng to, đau kèm choáng vã mồ hôi tụt huyết áp, hoặc đau kèm đau ngực khó thở.",
+      "Phụ nữ chậm kinh mà đau bụng dưới một bên: đi cấp cứu, không chờ. Thai ngoài tử cung vỡ là tình huống đe doạ tính mạng.",
+      "Người già, trẻ nhỏ, người tiểu đường và người đang dùng thuốc corticoid có thể đau ít hơn mức độ thật của bệnh. Ở nhóm này, đừng lấy mức đau làm thước đo.",
+      "Bài này giúp bạn nhận biết và đi khám đúng lúc, KHÔNG PHẢI TƯ VẤN Y KHOA và không thay thế việc thăm khám.",
+    ],
+    faq: [
+      {
+        q: "Đau bụng quanh rốn rồi chuyển xuống phải, có nhất định là ruột thừa không?",
+        a: "Không nhất định, nhưng đó là kiểu diễn tiến điển hình cần được bác sĩ khám ngay. Đừng tự kết luận theo hướng nào — chỉ cần đi khám sớm.",
+      },
+      {
+        q: "Uống thuốc đau dạ dày thấy đỡ thì có yên tâm không?",
+        a: "Đỡ tạm thời không loại trừ được nguyên nhân khác. Nếu cơn đau lặp lại nhiều lần hoặc kéo dài, hãy đi khám để biết chắc thay vì uống thuốc dài ngày.",
+      },
+      {
+        q: "Đau bụng kèm tiêu chảy nhẹ có cần đi viện không?",
+        a: "Thường theo dõi được tại nhà và chú trọng bù nước. Nhưng nếu kèm sốt cao, phân có máu, hoặc mất nước rõ thì phải đi khám.",
+      },
+      {
+        q: "Nên nhịn ăn hay ăn nhẹ khi đau bụng?",
+        a: "Đau nhẹ và không nôn thì ăn nhẹ được. Đau nhiều, nôn, bụng chướng thì tạm ngưng ăn uống và đi khám — vì có thể cần làm thủ thuật.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "cam-cum-va-khang-sinh",
+    title: "Cảm cúm: vì sao kháng sinh không giúp gì và cái gì mới giúp",
+    excerpt:
+      "Cứ hắt hơi sổ mũi là ra hiệu thuốc mua một vỉ kháng sinh. Thói quen đó không rút ngắn được một ngày ốm nào, mà lại để lại hậu quả thật.",
+    publishedAt: NGAY,
+    readTimeMinutes: 6,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Cảm lạnh và cúm do vi rút gây ra, mà kháng sinh chỉ diệt vi khuẩn — nên uống vào không rút ngắn bệnh, không giảm triệu chứng, chỉ thêm tác dụng phụ và góp phần làm vi khuẩn kháng thuốc. Thứ thật sự giúp là nghỉ ngơi, uống đủ nước, súc miệng nước muối, xịt rửa mũi và giữ ấm. Kháng sinh chỉ dùng khi bác sĩ khám và xác định có nhiễm khuẩn.",
+    prepare: [
+      "Nhiệt kế để theo dõi sốt, ghi lại theo giờ",
+      "Nước muối sinh lý để rửa mũi và súc họng",
+      "Nhiều nước ấm, và chỗ nghỉ ngơi thật sự — nghỉ ốm là một phần điều trị",
+      "Khẩu trang để không lây cho người nhà và đồng nghiệp",
+    ],
+    steps: [
+      {
+        title: "Hiểu vì sao kháng sinh vô ích ở đây",
+        detail:
+          "Kháng sinh tấn công vi khuẩn. Cảm lạnh và cúm do vi rút — cấu tạo hoàn toàn khác, kháng sinh không có chỗ nào để bám vào. Uống kháng sinh cho cúm giống như dùng chìa khoá nhà mở xe máy: không phải nó hỏng, mà nó không dành cho việc đó.",
+      },
+      {
+        title: "Biết cái giá thật của việc uống bừa",
+        detail:
+          "Tiêu chảy, dị ứng, hại hệ vi khuẩn có lợi trong ruột, và quan trọng nhất là làm vi khuẩn trong cơ thể bạn quen dần với thuốc. Tới lúc bạn thật sự nhiễm khuẩn nặng, loại thuốc thông thường có thể không còn tác dụng. Đây là hậu quả tích luỹ và có thật.",
+      },
+      {
+        title: "Phân biệt cảm lạnh với cúm",
+        detail:
+          "Cảm lạnh đến từ từ, chủ yếu ở mũi họng, ít khi sốt cao, người vẫn sinh hoạt được. Cúm ập đến đột ngột trong vài giờ, sốt cao, đau nhức cơ khắp người, mệt rã rời tới mức chỉ muốn nằm. Cúm nặng hơn và cần nghỉ ngơi nhiều hơn.",
+      },
+      {
+        title: "Bỏ ý nghĩ đờm xanh là phải uống kháng sinh",
+        detail:
+          "Đây là hiểu lầm phổ biến nhất. Màu vàng hoặc xanh của dịch mũi chỉ phản ánh phản ứng miễn dịch đang diễn ra, hoàn toàn có thể gặp trong nhiễm vi rút thông thường. Nó không phải bằng chứng của nhiễm khuẩn.",
+      },
+      {
+        title: "Nghỉ ngơi thật sự, không chỉ giảm việc",
+        detail:
+          "Cơ thể cần năng lượng để chống vi rút. Cố đi làm khiến bệnh dài hơn và lây cho người khác. Đây là điều đơn giản nhất và cũng bị coi nhẹ nhất trong cả danh sách.",
+      },
+      {
+        title: "Uống nhiều nước ấm",
+        detail:
+          "Bù lại lượng mất qua sốt và thở, làm loãng đờm cho dễ khạc, giữ họng đỡ khô rát. Nước ấm, nước cháo, trà gừng mật ong đều được. Nước tiểu vàng nhạt là dấu hiệu bạn uống đủ.",
+      },
+      {
+        title: "Súc miệng nước muối và rửa mũi",
+        detail:
+          "Nước muối sinh lý súc họng vài lần mỗi ngày giúp giảm rát và làm sạch. Xịt hoặc rửa mũi giúp thông và giảm nghẹt hiệu quả mà không cần thuốc. Đây là hai việc rẻ nhất, an toàn nhất và có ích thật.",
+      },
+      {
+        title: "Xử lý sốt cho đúng",
+        detail:
+          "Sốt là cách cơ thể chống lại vi rút, không phải kẻ thù cần dập bằng mọi giá. Mặc thoáng, lau người bằng nước ấm, uống đủ nước. Nếu sốt cao gây khó chịu nhiều thì dùng thuốc hạ sốt theo hướng dẫn của dược sĩ, đúng loại và đúng khoảng cách giữa các liều.",
+      },
+      {
+        title: "Cẩn thận với thuốc cảm tổng hợp",
+        detail:
+          "Nhiều loại thuốc cảm bán sẵn đã chứa sẵn thành phần hạ sốt. Uống thêm thuốc hạ sốt riêng nữa là chồng liều, và đây là nguyên nhân gây hại gan có thật. Đưa hết các hộp thuốc cho dược sĩ xem trước khi uống chung.",
+      },
+      {
+        title: "Giữ ẩm không khí và giữ ấm cổ",
+        detail:
+          "Phòng điều hoà khô làm họng rát và ho nhiều hơn. Đặt một chậu nước trong phòng, hoặc chỉnh nhiệt độ cao hơn một chút. Quàng khăn mỏng khi ngủ giúp giảm ho đêm.",
+      },
+      {
+        title: "Đừng lây cho người khác",
+        detail:
+          "Đeo khẩu trang, rửa tay thường xuyên, che miệng bằng khuỷu tay khi ho, không dùng chung cốc và khăn. Nếu nhà có người già, trẻ nhỏ hoặc người bệnh mạn tính thì càng phải giữ khoảng cách.",
+      },
+      {
+        title: "Biết khi nào diễn biến đã khác đi",
+        detail:
+          "Đang đỡ dần rồi đột nhiên sốt lại cao hơn, đau tức một bên ngực, khó thở, đau tai dữ dội, hoặc bệnh kéo dài quá 10 ngày mà không nhẹ đi — đó là lúc cần bác sĩ khám, và cũng chính là lúc kháng sinh có thể thật sự cần thiết, nếu bác sĩ chỉ định.",
+      },
+    ],
+    notes: [
+      "ĐI KHÁM NGAY: khó thở hoặc thở nhanh, đau tức ngực, môi tím, lơ mơ lú lẫn, sốt cao liên tục quá 3 ngày, co giật, hoặc nôn không giữ được nước.",
+      "Nhóm cần khám sớm chứ không tự theo dõi: trẻ nhỏ, người trên 65 tuổi, phụ nữ mang thai, người có bệnh phổi, tim mạch, tiểu đường, hoặc suy giảm miễn dịch.",
+      "KHÔNG dùng lại đơn kháng sinh cũ, không uống thuốc của người khác, không dừng giữa chừng khi được bác sĩ kê thật. Cả ba thói quen này đều góp phần tạo ra vi khuẩn kháng thuốc.",
+      "Bài này là kiến thức phổ thông, KHÔNG PHẢI TƯ VẤN Y KHOA. Việc dùng thuốc phải theo chỉ định của bác sĩ hoặc hướng dẫn của dược sĩ.",
+    ],
+    faq: [
+      {
+        q: "Sao mọi lần tôi uống kháng sinh vào là khỏi?",
+        a: "Vì cảm cúm tự khỏi sau khoảng một tuần dù có uống hay không. Bạn khỏi cùng lúc với việc uống thuốc, chứ không phải nhờ thuốc. Đây là hiểu lầm giữ cho thói quen này tồn tại.",
+      },
+      {
+        q: "Vậy khi nào mới thật sự cần kháng sinh?",
+        a: "Khi bác sĩ khám và xác định có nhiễm khuẩn — ví dụ viêm phổi, viêm họng do liên cầu, viêm xoang do vi khuẩn. Điều đó cần thăm khám, đôi khi cần xét nghiệm, chứ không đoán được ở nhà.",
+      },
+      {
+        q: "Vitamin C liều cao có rút ngắn bệnh không?",
+        a: "Bằng chứng khá yếu và tác dụng nếu có thì rất nhỏ. Không gây hại ở liều thông thường, nhưng đừng kỳ vọng, và đừng dùng nó thay cho nghỉ ngơi và uống nước.",
+      },
+      {
+        q: "Có nên tiêm vắc xin cúm hằng năm không?",
+        a: "Với người già, trẻ nhỏ, phụ nữ mang thai và người có bệnh nền thì đây là việc nên hỏi bác sĩ. Vắc xin không chống được cảm lạnh thông thường nhưng giảm nguy cơ mắc cúm và mắc nặng.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "di-ung-va-soc-phan-ve",
+    title: "Dị ứng và sốc phản vệ: ba dấu hiệu phải gọi cấp cứu ngay",
+    excerpt:
+      "Nổi mẩn ngứa thì đa số tự hết. Nhưng có ba dấu hiệu mà nếu xuất hiện, thời gian tính bằng phút chứ không phải bằng giờ.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Dị ứng ngoài da thông thường thì ngứa, nổi mẩn, sưng nhẹ và tự lui. Sốc phản vệ thì khác hẳn về mức độ: khó thở hoặc thở rít, sưng môi lưỡi họng, và tụt huyết áp gây choáng ngất. Có bất kỳ dấu hiệu nào trong ba nhóm đó thì GỌI 115 NGAY, đặt người bệnh nằm và kê chân cao. Đây là tình huống có thể diễn tiến trong vài phút, không phải thứ để theo dõi tại nhà.",
+    prepare: [
+      "Số 115 lưu sẵn và địa chỉ chính xác nơi mình ở, đọc được ngay khi hoảng",
+      "Biết mình hoặc người nhà đã từng dị ứng với thứ gì — ghi vào ghi chú điện thoại",
+      "Nếu bác sĩ đã kê bút tiêm cấp cứu cho người trong nhà: biết nó ở đâu và dùng thế nào",
+      "Thông tin về thuốc, thức ăn, hay vết đốt vừa tiếp xúc, để nói cho nhân viên y tế",
+    ],
+    steps: [
+      {
+        title: "Nhớ ba nhóm dấu hiệu nguy hiểm",
+        detail:
+          "Một, đường thở: khó thở, thở rít, khàn tiếng đột ngột, tức ngực. Hai, sưng: môi, lưỡi, quanh mắt, cổ họng sưng nhanh, cảm giác nghẹn. Ba, tuần hoàn: choáng váng, da tái lạnh vã mồ hôi, ngất. Chỉ cần một nhóm là đủ để gọi cấp cứu.",
+      },
+      {
+        title: "Chú ý tốc độ xuất hiện",
+        detail:
+          "Phản ứng nguy hiểm thường đến rất nhanh, trong vòng vài phút tới một giờ sau khi tiếp xúc. Một ban ngứa xuất hiện từ từ trong nhiều giờ ít đáng lo hơn một ban lan nhanh kèm sưng mặt trong vài phút.",
+      },
+      {
+        title: "Gọi 115 trước, đừng chờ xem có đỡ không",
+        detail:
+          "Đây là sai lầm hay gặp nhất: nằm chờ xem sao rồi mới gọi. Sốc phản vệ có thể diễn tiến rất nhanh. Gọi sớm mà hoá ra nhẹ thì không mất gì, gọi muộn thì mất tất cả.",
+      },
+      {
+        title: "Ngừng ngay thứ đang gây phản ứng",
+        detail:
+          "Đang truyền hay uống thuốc thì dừng. Đang ăn thì nhả ra và súc miệng. Bị ong đốt thì lấy ngòi ra bằng cách gạt ngang chứ đừng bóp. Đang tiếp xúc hoá chất thì rửa sạch dưới vòi nước.",
+      },
+      {
+        title: "Đặt người bệnh nằm và kê chân cao",
+        detail:
+          "Nằm ngửa, kê hai chân cao hơn tim để máu về não. Đừng để họ đứng dậy hay đi lại, kể cả khi họ nói mình ổn — thay đổi tư thế đột ngột trong sốc phản vệ rất nguy hiểm.",
+      },
+      {
+        title: "Trừ khi đang khó thở hoặc nôn",
+        detail:
+          "Nếu người bệnh khó thở nhiều thì cho ngồi hơi ngả ra sau cho dễ thở. Nếu đang nôn thì cho nằm nghiêng để không sặc. Còn lại thì giữ tư thế nằm kê chân cao.",
+      },
+      {
+        title: "Dùng bút tiêm cấp cứu nếu đã được bác sĩ kê sẵn",
+        detail:
+          "Người từng bị sốc phản vệ thường được kê sẵn bút tiêm mang theo người. Nếu có, dùng ngay theo hướng dẫn đã được bác sĩ dặn, tiêm vào mặt ngoài đùi. Dùng rồi vẫn phải đi cấp cứu, vì phản ứng có thể quay lại sau vài giờ.",
+      },
+      {
+        title: "Ở lại bên cạnh và theo dõi liên tục",
+        detail:
+          "Đừng để người bệnh một mình, kể cả để đi lấy đồ. Quan sát nhịp thở và ý thức. Nếu họ ngừng thở và không có mạch thì bắt đầu ép tim ngoài lồng ngực trong lúc chờ xe cấp cứu.",
+      },
+      {
+        title: "Ghi lại thứ gây phản ứng",
+        detail:
+          "Món ăn nào, thuốc gì, tiêm gì, bị con gì đốt, mấy giờ. Nếu là thuốc thì giữ lại vỏ hộp mang theo. Thông tin này quyết định hướng xử trí ở bệnh viện và tránh lặp lại lần sau.",
+      },
+      {
+        title: "Vẫn phải tới viện dù đã đỡ",
+        detail:
+          "Triệu chứng có thể lui rồi bùng lại sau vài giờ, gọi là phản ứng hai pha. Người đã có dấu hiệu nặng cần được theo dõi tại cơ sở y tế một khoảng thời gian, không được về ngay khi thấy dễ chịu.",
+      },
+      {
+        title: "Với dị ứng ngoài da nhẹ thì xử lý khác",
+        detail:
+          "Ngứa và nổi mẩn không kèm khó thở, không sưng môi lưỡi, không choáng — thường theo dõi tại nhà được. Rửa sạch vùng tiếp xúc, chườm mát, tránh gãi. Nếu cần thuốc thì hỏi dược sĩ, và đi khám nếu lan rộng hoặc kéo dài.",
+      },
+      {
+        title: "Sau khi khỏi, làm một việc quan trọng",
+        detail:
+          "Đi khám chuyên khoa để xác định chính xác tác nhân, và ghi nó vào sổ khám bệnh cùng ghi chú điện thoại. Mỗi lần đi khám hay mua thuốc về sau đều phải nói ra. Nhiều trường hợp nặng xảy ra chỉ vì người bệnh quên báo mình từng dị ứng thuốc gì.",
+      },
+    ],
+    notes: [
+      "GỌI 115 NGAY khi có bất kỳ dấu hiệu nào: khó thở, thở rít, khàn tiếng đột ngột, sưng môi lưỡi hay cổ họng, nuốt nghẹn, choáng váng, da tái lạnh, hoặc ngất.",
+      "Không cho người đang khó thở hoặc lơ mơ uống bất cứ thứ gì — nguy cơ sặc vào phổi.",
+      "Không tự tiêm thuốc chống dị ứng cho người khác nếu bạn không được hướng dẫn. Việc duy nhất người không có chuyên môn nên làm là bút tiêm cấp cứu đã được bác sĩ kê cho chính người bệnh đó.",
+      "Bài này là kiến thức nhận biết và sơ cứu ban đầu, KHÔNG PHẢI TƯ VẤN Y KHOA và không thay thế cấp cứu y tế.",
+    ],
+    faq: [
+      {
+        q: "Nổi mề đay khắp người nhưng thở bình thường, có phải cấp cứu không?",
+        a: "Nếu chỉ ngoài da và không có dấu hiệu về đường thở hay tuần hoàn thì thường theo dõi được. Nhưng phải quan sát sát trong vài giờ đầu, vì tình trạng có thể tiến triển.",
+      },
+      {
+        q: "Lần trước dị ứng nhẹ thì lần sau cũng nhẹ chứ?",
+        a: "Không. Mức độ có thể nặng hơn hẳn ở lần tiếp xúc sau. Đó là lý do phải xác định tác nhân và tránh triệt để, chứ không dựa vào việc lần trước không sao.",
+      },
+      {
+        q: "Dị ứng thuốc thì ghi vào đâu để bác sĩ biết?",
+        a: "Ghi vào sổ khám bệnh, lưu trong ghi chú điện thoại, và nói ra ở MỌI lần khám bệnh hay mua thuốc. Nhiều người mang theo một tấm thẻ nhỏ trong ví ghi rõ dị ứng gì.",
+      },
+      {
+        q: "Bị ong đốt có cần đi viện không?",
+        a: "Một vết đốt ở người không dị ứng thường xử lý tại nhà được. Nhưng nếu bị nhiều vết, đốt ở vùng đầu mặt cổ, hoặc có bất kỳ dấu hiệu nào ở phần cảnh báo thì đi cấp cứu ngay.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "dien-giat-trong-nha-cuu-nguoi-dung-cach",
+    title: "Điện giật trong nhà: cứu người mà không thành nạn nhân thứ hai",
+    excerpt:
+      "Phản xạ tự nhiên là lao vào kéo người bị nạn ra. Đó cũng chính là cách nhiều người cứu hộ trở thành người thứ hai bị giật.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "suc-khoe",
+    author: null,
+    quickAnswer:
+      "Việc đầu tiên KHÔNG phải là chạm vào nạn nhân — mà là ngắt điện. Gạt aptomat hoặc rút phích. Nếu không ngắt được ngay thì dùng vật khô không dẫn điện như cán chổi gỗ, thanh nhựa để gạt nguồn điện ra khỏi người, tuyệt đối không dùng tay không và không dùng vật ẩm hay kim loại. Ngắt điện xong mới lại gần, gọi 115, và nếu nạn nhân ngừng thở thì ép tim ngay.",
+    prepare: [
+      "Biết trước aptomat tổng nhà mình ở đâu — mọi người trong nhà đều phải biết",
+      "Một cán chổi gỗ hoặc thanh nhựa khô để ở chỗ dễ lấy",
+      "Số 115 và địa chỉ nhà chính xác, lưu sẵn",
+      "Đôi dép hoặc guốc khô để đứng lên nếu sàn ướt",
+    ],
+    steps: [
+      {
+        title: "Dừng lại một giây trước khi lao vào",
+        detail:
+          "Đây là giây quan trọng nhất. Người bị giật vẫn đang nối với nguồn điện, chạm vào họ là bạn nối tiếp vào mạch đó. Rất nhiều tai nạn có hai nạn nhân chỉ vì phản xạ chạy tới kéo tay.",
+      },
+      {
+        title: "Ngắt điện là việc số một",
+        detail:
+          "Gạt cầu dao hoặc aptomat tổng. Nếu biết chắc thiết bị nào thì rút phích cắm ra, nhưng cầm phần vỏ nhựa khô. Ngắt được nguồn thì mọi thứ sau đó trở nên an toàn.",
+      },
+      {
+        title: "Nếu không ngắt được, dùng vật khô không dẫn điện",
+        detail:
+          "Cán chổi gỗ, ghế nhựa, thanh tre khô, cuộn báo khô — gạt dây điện ra khỏi người nạn nhân hoặc đẩy nạn nhân ra khỏi nguồn. Đứng trên vật khô như dép cao su, tấm gỗ, chồng báo khô.",
+      },
+      {
+        title: "Tuyệt đối tránh mấy thứ này",
+        detail:
+          "Không dùng tay không. Không dùng vật kim loại. Không dùng vật ẩm ướt — gỗ ẩm và tre ướt vẫn dẫn điện. Không đứng chân trần trên nền ướt. Không tạt nước vào nạn nhân hay vào đám cháy điện.",
+      },
+      {
+        title: "Cẩn thận đặc biệt khi có nước",
+        detail:
+          "Nhà tắm, bếp, sàn ướt sau mưa — nước làm dòng điện lan xa hơn nhiều so với bạn tưởng. Nếu sàn ngập nước và chưa ngắt được điện tổng thì đừng bước vào, hãy tìm cách ngắt từ ngoài và gọi cứu hộ.",
+      },
+      {
+        title: "Với dây điện cao thế hoặc dây đứt ngoài đường thì đứng xa",
+        detail:
+          "Điện áp cao có thể phóng qua không khí và lan trên mặt đất. Giữ khoảng cách ít nhất chục mét, không ai được lại gần, gọi ngay điện lực và 115. Đây là tình huống người dân không tự xử lý được.",
+      },
+      {
+        title: "Gọi 115 ngay khi đã an toàn",
+        detail:
+          "Nói rõ: điện giật, còn thở hay không, có tỉnh không, địa chỉ chính xác. Gọi song song với việc sơ cứu nếu có hai người — một người gọi, một người sơ cứu.",
+      },
+      {
+        title: "Kiểm tra ý thức và hơi thở",
+        detail:
+          "Gọi to và vỗ vai. Không phản ứng thì nhìn lồng ngực có phập phồng không, ghé tai nghe hơi thở trong 10 giây. Không thở hoặc thở ngáp bất thường thì coi như ngừng thở.",
+      },
+      {
+        title: "Ép tim ngay nếu ngừng thở",
+        detail:
+          "Đặt nạn nhân nằm ngửa trên nền cứng, chồng hai tay lên giữa ngực, ép sâu và nhanh, khoảng 100–120 lần mỗi phút, để lồng ngực nảy lên hết giữa các nhịp. Ép liên tục cho tới khi nhân viên y tế tới. Điện giật là nhóm nạn nhân mà ép tim cứu được rất nhiều người.",
+      },
+      {
+        title: "Nếu còn thở nhưng lơ mơ thì đặt nằm nghiêng",
+        detail:
+          "Tư thế nằm nghiêng an toàn giúp không sặc nếu nôn. Giữ ấm, không cho ăn uống, không để họ đứng dậy đi lại, và ở bên cạnh theo dõi liên tục.",
+      },
+      {
+        title: "Không bôi gì lên vết bỏng điện",
+        detail:
+          "Không bôi kem đánh răng, mỡ trăn, nước mắm hay bất cứ thứ gì theo lời mách. Rửa nhẹ dưới nước sạch mát, che bằng gạc sạch. Bỏng điện thường sâu hơn vẻ ngoài rất nhiều.",
+      },
+      {
+        title: "Vẫn phải đi viện dù trông có vẻ ổn",
+        detail:
+          "Điện đi qua cơ thể có thể gây rối loạn nhịp tim xuất hiện muộn sau nhiều giờ, và tổn thương bên trong không nhìn thấy được. Mọi trường hợp bị điện giật đều nên được bác sĩ khám và theo dõi.",
+      },
+    ],
+    notes: [
+      "GỌI 115 NGAY với mọi trường hợp điện giật, kể cả khi nạn nhân tỉnh táo và nói mình không sao.",
+      "Việc phòng ngừa quan trọng nhất: lắp aptomat chống giật cho nhà, nhất là đường điện của bình nóng lạnh, máy giặt và ổ cắm trong nhà tắm. Kiểm nút thử trên aptomat vài tháng một lần.",
+      "Không tự sửa chữa điện khi chưa ngắt nguồn, không dùng ổ cắm nứt vỡ, không cắm nối tiếp nhiều ổ chia, không để dây điện đi qua chỗ ẩm ướt.",
+      "Bài này là kiến thức sơ cứu ban đầu, KHÔNG PHẢI TƯ VẤN Y KHOA. Hãy tham gia một khoá sơ cấp cứu thực hành nếu có điều kiện — thao tác ép tim học bằng tay khác hẳn đọc trên giấy.",
+    ],
+    faq: [
+      {
+        q: "Bị giật nhẹ tê tay rồi hết, có cần đi khám không?",
+        a: "Nên đi khám, nhất là nếu dòng điện đi qua vùng ngực hoặc bạn thấy hồi hộp, đau ngực, khó thở sau đó. Rối loạn nhịp tim có thể xuất hiện muộn.",
+      },
+      {
+        q: "Không biết ép tim thì làm gì?",
+        a: "Gọi 115 và nói rõ bạn không biết sơ cứu — nhân viên tổng đài sẽ hướng dẫn bạn từng bước qua điện thoại. Cứ làm theo, ép tim dù chưa chuẩn vẫn tốt hơn không làm gì.",
+      },
+      {
+        q: "Aptomat chống giật có khác aptomat thường không?",
+        a: "Khác. Aptomat thường bảo vệ khi quá tải hoặc chập, còn loại chống giật ngắt khi có dòng rò qua người. Đây là thiết bị nên có, đặc biệt cho khu vực ẩm ướt.",
+      },
+      {
+        q: "Trẻ nhỏ nghịch ổ cắm thì phòng thế nào?",
+        a: "Dùng nút bịt ổ cắm, đặt ổ cắm ngoài tầm với, không để dây điện thò ra chỗ trẻ kéo được, và lắp aptomat chống giật. Đây là mấy món rẻ mà hiệu quả.",
+      },
+    ],
+    sources: [],
+  },
 ];
