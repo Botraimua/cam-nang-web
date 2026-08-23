@@ -531,4 +531,536 @@ export const day20260823trua = [
     ],
     sources: [],
   },
+
+  // ═══════════════════════ NHÀ CỬA ═══════════════════════
+  {
+    slug: "an-toan-phong-chay-nha-tro-chung-cu-mini",
+    title: "Phòng cháy ở nhà trọ và chung cư mini: kiểm 15 phút trước khi ký",
+    excerpt:
+      "Chuyện này ai cũng nghĩ sẽ không xảy ra với mình. Nhưng nó quyết định trong ba phút đầu, và ba phút đó phụ thuộc vào những gì bạn đã kiểm từ hôm dọn vào.",
+    publishedAt: NGAY,
+    readTimeMinutes: 7,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Trước khi cọc, đi tìm lối thoát thứ hai — không phải cầu thang chính. Nhìn xem ban công có bị hàn kín lồng sắt không, hành lang có bị để xe và đồ chắn không, và toà nhà có bình chữa cháy còn hạn không. Sau khi dọn vào: mua một bình chữa cháy nhỏ và một thang dây nếu ở tầng cao, đừng sạc xe điện qua đêm trong phòng, và tập đường thoát trong bóng tối ít nhất một lần.",
+    prepare: [
+      "Đèn pin điện thoại để soi hành lang, cầu thang bộ, chỗ thoát hiểm",
+      "15 phút đi một vòng toà nhà TRƯỚC khi đặt cọc",
+      "Ngân sách nhỏ cho bình chữa cháy mini và thang dây — rẻ hơn một tháng tiền mạng",
+      "Số phòng, địa chỉ chính xác và số tầng, lưu sẵn trong ghi chú điện thoại",
+    ],
+    steps: [
+      {
+        title: "Tìm lối thoát THỨ HAI trước khi quan tâm tới giá thuê",
+        detail:
+          "Cầu thang chính là thứ đầu tiên bị khói lấp. Đi tìm: có cầu thang bộ thoát hiểm riêng không, có lối lên sân thượng không, sân thượng có bị khoá không. Nhà nào chỉ có đúng một đường ra thì đó là thông tin quan trọng hơn mọi thứ khác trong buổi xem phòng.",
+      },
+      {
+        title: "Nhìn ban công và cửa sổ có bị bịt kín không",
+        detail:
+          "Lồng sắt chống trộm hàn chết là thứ đã khiến nhiều người không ra được. Nếu có lồng, hỏi chủ nhà xem có ô cửa mở được không, khoá ở đâu, chìa để đâu. Không có ô mở thì hoặc thương lượng cắt một ô, hoặc tìm chỗ khác.",
+      },
+      {
+        title: "Đi thử đường thoát từ phòng mình xuống đất",
+        detail:
+          "Đi bộ đúng đường đó một lần lúc xem phòng. Đếm số cửa từ phòng bạn tới cầu thang — vì trong khói dày bạn sẽ mò tường mà đi chứ không nhìn thấy gì. Con số đó đáng nhớ hơn bạn nghĩ.",
+      },
+      {
+        title: "Xem hành lang và chân cầu thang có bị chiếm chỗ không",
+        detail:
+          "Xe máy để kín hành lang, thùng carton chất ở chiếu nghỉ, đồ cũ chắn cửa thoát hiểm — vừa là vật cản vừa là chất cháy. Nếu chỗ ở đã như vậy lúc bạn tới xem thì nó sẽ như vậy vào cái đêm bạn cần chạy.",
+      },
+      {
+        title: "Kiểm tra hệ thống điện của cả toà",
+        detail:
+          "Nhìn tủ điện chung: dây có bị đấu nối chằng chịt, hở lõi, đen khét không. Trong phòng: có aptomat riêng không, ổ cắm có bị cháy xém không. Chập điện là nguyên nhân cháy hàng đầu ở nhà cho thuê.",
+      },
+      {
+        title: "Hỏi thẳng chủ nhà bốn câu",
+        detail:
+          "Toà nhà có bình chữa cháy không, đặt ở đâu, kiểm định lần gần nhất khi nào? Có báo cháy không? Cửa lên sân thượng có khoá không, chìa ai giữ? Có quy định về sạc xe điện không? Chủ nhà trả lời lúng túng cũng đã là câu trả lời.",
+      },
+      {
+        title: "Mua một bình chữa cháy nhỏ để trong phòng",
+        detail:
+          "Loại bột hoặc CO2 cỡ nhỏ, để gần cửa ra chứ không phải trong góc sâu. Đọc hướng dẫn một lần cho biết cách giật chốt. Bình dập được đám cháy lúc nó còn bằng cái nồi — sau đó thì không.",
+      },
+      {
+        title: "Nếu ở tầng cao, sắm thang dây và biết chỗ neo",
+        detail:
+          "Thang dây thoát hiểm không đắt. Quan trọng là biết trước neo vào đâu cho chắc, và thử một lần lúc ban ngày. Một cái thang chưa từng mở ra bao giờ, nằm nguyên trong hộp, thì lúc cần cũng như không có.",
+      },
+      {
+        title: "Đừng sạc xe điện và pin qua đêm trong phòng ở",
+        detail:
+          "Đây là nguồn cháy mới và rất phổ biến trong vài năm gần đây. Sạc lúc có người thức, ở chỗ thoáng, không sạc qua đêm, không dùng sạc không rõ nguồn gốc, không để xe sạc chắn ngay lối ra cửa.",
+      },
+      {
+        title: "Giảm chất cháy trong phòng",
+        detail:
+          "Đừng tích thùng carton, quần áo cũ, giấy tờ chất đống cạnh ổ điện hay bếp. Không phơi đồ ngay trên bếp. Không cắm nối tiếp nhiều ổ chia vào cùng một ổ cắm — đó là cách làm nóng dây và gây chập.",
+      },
+      {
+        title: "Nhớ ba việc phải làm khi có cháy",
+        detail:
+          "Một, hô to cho người khác biết. Hai, cúi thấp mà đi vì khói và khí độc bốc lên cao, khói mới là thứ giết người chứ không phải lửa. Ba, sờ cửa trước khi mở — cửa nóng thì đừng mở, tìm đường khác hoặc ở lại chèn khăn ướt kín khe cửa và ra ban công báo hiệu.",
+      },
+      {
+        title: "Chuẩn bị một khăn và chai nước cạnh giường",
+        detail:
+          "Khăn thấm nước bịt mũi miệng giúp lọc bớt khói trong quãng đường ngắn. Để sẵn cạnh giường cùng đèn pin và chìa khoá. Trong tình huống thật bạn sẽ không có thời gian đi tìm.",
+      },
+      {
+        title: "Tập một lần trong bóng tối",
+        detail:
+          "Tắt đèn, đi từ giường ra tới cửa toà nhà bằng trí nhớ và tay sờ tường. Mất năm phút, và nó biến kiến thức trên giấy thành phản xạ. Nếu ở ghép, tập cùng nhau và thống nhất điểm hẹn ngoài đường.",
+      },
+    ],
+    notes: [
+      "GỌI 114 NGAY khi thấy cháy, kể cả khi nghĩ mình dập được. Gọi trước rồi dập sau — không phải dập không được rồi mới gọi.",
+      "Nói rõ với tổng đài: địa chỉ chính xác, số tầng, số phòng, có người mắc kẹt không. Học thuộc địa chỉ đầy đủ nơi mình ở — nhiều người ở trọ lâu năm vẫn không nhớ số nhà chính xác.",
+      "Không quay lại lấy đồ, không dùng thang máy khi có cháy. Không nhảy từ tầng cao — hãy ra ban công, làm dấu và chờ.",
+      "Bài này là kiến thức phòng ngừa phổ thông cho người thuê nhà, không thay thế quy định phòng cháy chữa cháy hay hướng dẫn của cơ quan chức năng.",
+    ],
+    faq: [
+      {
+        q: "Chủ nhà không cho cắt lồng sắt ban công thì sao?",
+        a: "Đề nghị làm một ô cửa nhỏ có khoá, chi phí bạn chịu cũng đáng. Chủ nhà vẫn từ chối thì hãy cân nhắc thật kỹ — đó là căn phòng chỉ có một đường ra.",
+      },
+      {
+        q: "Bình chữa cháy mini có thật sự dùng được không?",
+        a: "Dùng được cho đám cháy mới bùng: chảo dầu, ổ điện, thùng rác. Nó mua cho bạn thời gian và đường thoát. Không kỳ vọng nó dập được đám cháy đã lan ra cả phòng.",
+      },
+      {
+        q: "Ở tầng trệt thì có cần lo không?",
+        a: "Lo ít hơn về đường thoát nhưng vẫn cần: tầng trệt thường là nơi để xe máy và tủ điện — tức là nơi đám cháy hay bắt đầu, và khói sẽ đi lên chặn đường người ở trên.",
+      },
+      {
+        q: "Nên báo ai nếu thấy toà nhà mất an toàn?",
+        a: "Nói với chủ nhà trước, bằng tin nhắn để có lưu vết. Không chuyển biến thì có thể phản ánh tới công an khu vực hoặc chính quyền phường — họ có thẩm quyền kiểm tra phòng cháy.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "chong-trom-cho-phong-tro",
+    title: "Chống trộm cho phòng trọ: khoá, thói quen, và cái sai ai cũng mắc",
+    excerpt:
+      "Phần lớn vụ mất đồ ở nhà trọ không phải do trộm cạy phá, mà do cửa không khoá, chìa để hớ hênh, hoặc người quen ra vào.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Ba việc hiệu quả nhất và rẻ nhất: đổi ổ khoá ngay khi dọn vào vì bạn không biết chủ cũ còn giữ mấy chìa; luôn khoá cả khi chỉ ra ngoài năm phút; và đừng giấu chìa ở những chỗ ai cũng nghĩ ra. Đồ giá trị thì chụp ảnh kèm số máy, cất giấy tờ tách riêng khỏi tiền, và không khoe đồ đắt tiền với người mới quen trong xóm trọ.",
+    prepare: [
+      "Một ổ khoá mới để thay ngay hôm dọn vào — thương lượng chủ nhà chia tiền",
+      "Điện thoại để chụp lại toàn bộ đồ giá trị và số máy",
+      "Một chỗ cất giấy tờ tách riêng khỏi chỗ để tiền",
+      "Số điện thoại công an khu vực, lưu sẵn trong máy",
+    ],
+    steps: [
+      {
+        title: "Đổi ổ khoá ngay khi dọn vào",
+        detail:
+          "Bạn không có cách nào biết người thuê trước đã làm bao nhiêu chìa. Đây là việc đầu tiên nên làm, trước cả dọn dẹp. Nói với chủ nhà, nhiều người sẵn sàng chia tiền hoặc trừ vào tiền nhà.",
+      },
+      {
+        title: "Hỏi rõ chủ nhà giữ chìa dự phòng thế nào",
+        detail:
+          "Chủ nhà thường giữ một chìa và điều đó bình thường. Nhưng hãy hỏi họ cất ở đâu, có đưa cho quản lý hay thợ sửa chữa không, và có báo trước khi vào phòng không. Ghi lại thoả thuận này trong tin nhắn.",
+      },
+      {
+        title: "Khoá cả khi chỉ đi năm phút",
+        detail:
+          "Đi vứt rác, xuống lấy đồ ăn, sang phòng bạn — đây chính là quãng thời gian mất đồ nhiều nhất. Trộm ở khu trọ thường là người quan sát thói quen chứ không phải người phá cửa.",
+      },
+      {
+        title: "Bỏ mấy chỗ giấu chìa mà ai cũng biết",
+        detail:
+          "Trên khung cửa, dưới thảm chùi chân, trong chậu cây, dưới hòm điện. Đó là bốn chỗ đầu tiên người ta mò. Nếu cần chìa dự phòng thì gửi một người bạn tin cậy ở gần, hoặc dùng hộp khoá số gắn tường.",
+      },
+      {
+        title: "Xem lại cửa sổ và ô thoáng",
+        detail:
+          "Cửa sổ nhà vệ sinh, ô thoáng trên cao, cửa sổ tầng một sát ban công nhà bên — đều là đường vào bị bỏ quên. Kiểm chốt còn tốt không, và đừng để cửa sổ hé khi đi vắng dù chỉ vài phân.",
+      },
+      {
+        title: "Đừng để lộ rằng phòng đang trống",
+        detail:
+          "Quần áo phơi cả tuần không thu, đèn tắt liên tục nhiều ngày, hộp đồ ăn chất trước cửa, đăng ảnh du lịch lên mạng theo thời gian thực. Đi xa dài ngày thì nhờ người bạn tin cậy ghé qua, và để lại một đèn hẹn giờ.",
+      },
+      {
+        title: "Chụp ảnh và ghi số máy đồ giá trị",
+        detail:
+          "Laptop, điện thoại, xe máy, máy ảnh — chụp ảnh kèm số seri hoặc số khung số máy, lưu lên mây. Mất đồ mà có thông tin này thì việc trình báo và tìm lại khác hẳn so với chỉ mô tả bằng lời.",
+      },
+      {
+        title: "Bật tính năng tìm thiết bị trên điện thoại và laptop",
+        detail:
+          "Cả điện thoại và máy tính đều có sẵn chức năng định vị và khoá từ xa. Bật trước, vì sau khi mất thì không bật được nữa. Kèm theo đó là đặt mật khẩu màn hình — mất máy còn đỡ hơn mất luôn dữ liệu và tài khoản ngân hàng.",
+      },
+      {
+        title: "Tách giấy tờ khỏi tiền, và tách khỏi nhau",
+        detail:
+          "Đừng để CCCD, bằng lái, sổ hộ khẩu, thẻ ngân hàng cùng một chỗ với tiền mặt. Mất cả cụm thì rắc rối gấp nhiều lần. Chụp ảnh giấy tờ lưu lên mây để còn biết số mà khai báo.",
+      },
+      {
+        title: "Cẩn thận với người mới quen trong xóm trọ",
+        detail:
+          "Đa số hàng xóm là người tử tế, nhưng đừng dẫn người mới quen vào phòng rồi để họ ngồi một mình, đừng khoe đồ đắt tiền, đừng nói mình hay đi làm ca đêm nên phòng trống. Thông tin đó không cần ai biết.",
+      },
+      {
+        title: "Với xe máy: hai khoá và chỗ đỗ có người",
+        detail:
+          "Khoá cổ cộng thêm một khoá đĩa hoặc khoá càng. Đỗ chỗ có đèn và có camera, tránh góc khuất. Đừng để cốp xe đựng giấy tờ xe — mất xe kèm giấy tờ là mất luôn khả năng chứng minh xe của mình.",
+      },
+      {
+        title: "Nếu bị mất, trình báo sớm và đủ",
+        detail:
+          "Ra công an phường nơi ở trình báo, mang theo ảnh và số seri đã chụp. Đồng thời khoá ngay thẻ ngân hàng và các tài khoản đăng nhập trên thiết bị bị mất. Việc khoá tài khoản còn gấp hơn việc tìm lại đồ.",
+      },
+    ],
+    notes: [
+      "Nếu về nhà thấy cửa bị cạy hoặc có dấu hiệu người lạ còn bên trong: ĐỪNG vào. Ra chỗ đông người và gọi công an hoặc 113 ngay.",
+      "Không tự truy đuổi người lấy trộm. Tài sản có thể mua lại, và bạn không biết họ mang gì trong người.",
+      "Chủ nhà tự ý vào phòng khi bạn vắng mặt mà không báo trước là chuyện nên trao đổi thẳng và bằng tin nhắn để lưu vết.",
+      "Bài này là kinh nghiệm phòng ngừa thường ngày, không phải tư vấn pháp lý. Khi có tranh chấp hoặc mất tài sản lớn, hãy trình báo cơ quan công an.",
+    ],
+    faq: [
+      {
+        q: "Chủ nhà không cho đổi khoá thì làm sao?",
+        a: "Hỏi lý do — thường vì họ muốn giữ chìa dự phòng. Đề nghị đổi khoá nhưng làm thêm một chìa giao cho họ. Vẫn không đồng ý thì cân nhắc lắp thêm một chốt trong, ít nhất an toàn khi bạn ở nhà.",
+      },
+      {
+        q: "Có nên lắp camera trong phòng trọ không?",
+        a: "Camera hướng ra cửa thì hữu ích. Nhưng đừng lắp loại rẻ tiền không rõ nguồn gốc và đừng để camera quay vào chỗ sinh hoạt riêng tư — đã có nhiều vụ lộ hình ảnh từ chính những camera đó.",
+      },
+      {
+        q: "Mất đồ trong nhà trọ, chủ nhà có phải đền không?",
+        a: "Tuỳ thoả thuận trong hợp đồng và tuỳ nguyên nhân. Nếu mất do khu trọ không có bảo vệ như đã cam kết thì có cơ sở để thương lượng. Đây là lý do nên đọc kỹ hợp đồng và giữ tin nhắn trao đổi.",
+      },
+      {
+        q: "Ở ghép thì bảo quản đồ riêng thế nào?",
+        a: "Một tủ có khoá riêng cho mỗi người là cách đơn giản và không làm mất lòng ai — nên thống nhất ngay từ đầu như một quy tắc chung, chứ không phải khi đã nghi ngờ nhau.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "muoi-trong-phong-tro-phong-sot-xuat-huyet",
+    title: "Muỗi trong phòng trọ: diệt tận ổ và phòng sốt xuất huyết",
+    excerpt:
+      "Xịt muỗi mỗi tối mà hôm sau vẫn bị đốt, vì ổ muỗi nằm ở chỗ bạn chưa từng nghĩ tới — và nó thường cách giường chưa đầy ba mét.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Muỗi truyền sốt xuất huyết đẻ trong nước sạch đọng lại, không phải cống rãnh — nghĩa là ổ của chúng thường ở ngay trong phòng bạn: khay hứng nước tủ lạnh, chậu cây, xô nước dự trữ, chai lọ ngoài ban công. Đổ hết nước đọng mỗi tuần là việc hiệu quả hơn mọi loại thuốc xịt. Kèm theo đó là màn khi ngủ và lưới cửa sổ.",
+    prepare: [
+      "15 phút mỗi tuần đi một vòng tìm nước đọng",
+      "Một cái màn hoặc lưới chống muỗi cho cửa sổ",
+      "Bàn chải để cọ thành vật chứa nước — trứng muỗi bám vào thành, đổ nước không thôi chưa đủ",
+      "Kem chống muỗi loại dùng được cho da nếu nhà có trẻ nhỏ",
+    ],
+    steps: [
+      {
+        title: "Biết đúng loại muỗi mình đang đối phó",
+        detail:
+          "Muỗi truyền sốt xuất huyết đốt ban ngày, mạnh nhất vào sáng sớm và chiều tối, và đẻ trong NƯỚC SẠCH đọng lại. Điều này đổi hẳn cách phòng: bạn phải tìm nước sạch trong nhà chứ không phải đổ lỗi cho cống ngoài đường.",
+      },
+      {
+        title: "Đi một vòng tìm nước đọng trong phòng",
+        detail:
+          "Khay hứng nước phía sau hoặc dưới tủ lạnh, đĩa lót chậu cây, bình cắm hoa, xô nước dự trữ, chậu ngâm quần áo, khay hứng nước điều hoà. Đây là những ổ hay gặp nhất và cũng bị bỏ qua nhiều nhất.",
+      },
+      {
+        title: "Kiểm luôn ban công và ngoài cửa",
+        detail:
+          "Chai lọ cũ, vỏ hộp, lốp xe, máng nước bị tắc, nắp thùng rác ngửa lên trời. Chỉ cần một nắp chai đọng nước là đủ cho một lứa. Sau mỗi trận mưa nên đi một vòng.",
+      },
+      {
+        title: "Cọ thành vật chứa chứ đừng chỉ đổ nước",
+        detail:
+          "Trứng muỗi bám vào thành xô, thành lu và sống được nhiều tháng ở trạng thái khô, gặp nước là nở. Vì vậy đổ nước rồi cọ thành bằng bàn chải mới thật sự diệt được ổ.",
+      },
+      {
+        title: "Đậy kín những thứ buộc phải chứa nước",
+        detail:
+          "Xô, lu, bể chứa phải có nắp đậy khít. Nếu không đậy được thì thả cá bảy màu vào bể lớn, hoặc thay nước hằng tuần. Bình hoa thì đổi sang cắm khô hoặc thay nước hai ngày một lần.",
+      },
+      {
+        title: "Lắp lưới chống muỗi cho cửa sổ và ô thoáng",
+        detail:
+          "Lưới dán nam châm hoặc lưới khung đều rẻ và lắp được trong nhà thuê mà không phá tường. Đây là giải pháp một lần, hiệu quả suốt mùa, và không phải hít hoá chất mỗi tối.",
+      },
+      {
+        title: "Ngủ màn kể cả khi trời mát",
+        detail:
+          "Màn là cách chắc chắn nhất và không tốn gì thêm sau lần mua đầu. Với trẻ nhỏ ngủ ngày thì màn càng quan trọng, vì đây là loại muỗi đốt ban ngày.",
+      },
+      {
+        title: "Dùng thuốc xịt và nhang muỗi cho đúng",
+        detail:
+          "Xịt phòng lúc không có người, đóng cửa 20–30 phút rồi mở thoáng trước khi vào. Không xịt trực tiếp lên giường chiếu rồi nằm ngay. Nhang muỗi phải để chỗ thoáng, không đốt trong phòng kín khi đang ngủ.",
+      },
+      {
+        title: "Xử lý những góc tối muỗi hay đậu",
+        detail:
+          "Muỗi trú ở chỗ tối và ẩm: sau tủ, dưới gầm giường, trong đống quần áo treo, sau rèm cửa. Dọn gọn những chỗ đó và mở cửa cho sáng, thoáng vào ban ngày.",
+      },
+      {
+        title: "Rủ hàng xóm cùng làm",
+        detail:
+          "Muỗi bay qua lại giữa các phòng nên một mình bạn dọn sạch mà phòng bên cạnh có bể nước ngửa thì vẫn bị đốt. Nói với chủ nhà và hàng xóm, nhất là về khu vực chung như sân, chỗ để xe, máng nước.",
+      },
+      {
+        title: "Nhận biết dấu hiệu sốt xuất huyết sớm",
+        detail:
+          "Sốt cao đột ngột, đau đầu dữ dội, đau hốc mắt, đau mỏi cơ khớp, buồn nôn, có thể nổi ban. Đừng tự chẩn đoán là cảm cúm rồi ở nhà uống thuốc hạ sốt cho qua — hãy đi khám để được xét nghiệm.",
+      },
+      {
+        title: "Biết giai đoạn nguy hiểm nằm ở ngày thứ 3 đến thứ 7",
+        detail:
+          "Nhiều người thấy hạ sốt thì tưởng đã khỏi và chủ quan, nhưng đó lại đúng là lúc dễ trở nặng nhất. Trong giai đoạn này phải theo dõi sát và đi khám lại theo hẹn của bác sĩ.",
+      },
+    ],
+    notes: [
+      "ĐI CẤP CỨU NGAY nếu đang sốt hoặc vừa hạ sốt mà có: đau bụng dữ dội, nôn liên tục, chảy máu chân răng hoặc chảy máu cam, nôn ra máu, đi ngoài phân đen, chân tay lạnh ẩm, li bì hoặc vật vã.",
+      "KHÔNG tự dùng thuốc hạ sốt nhóm giảm đau kháng viêm khi nghi sốt xuất huyết — một số loại làm tăng nguy cơ chảy máu. Chỉ dùng thuốc theo chỉ định của bác sĩ hoặc dược sĩ khi đã nói rõ tình trạng.",
+      "Không tự truyền dịch tại nhà theo lời mách. Đây là việc phải có chỉ định và theo dõi y tế.",
+      "Bài này là kiến thức phòng bệnh phổ thông, KHÔNG PHẢI TƯ VẤN Y KHOA. Nghi ngờ mắc bệnh thì đi khám.",
+    ],
+    faq: [
+      {
+        q: "Vì sao xịt muỗi mỗi tối mà vẫn bị đốt?",
+        a: "Vì bạn đang diệt muỗi trưởng thành mà không diệt ổ. Lứa mới nở liên tục thay thế lứa cũ. Đổ nước đọng mới là việc cắt được vòng đời.",
+      },
+      {
+        q: "Đèn bắt muỗi có hiệu quả không?",
+        a: "Hiệu quả hạn chế với loại muỗi truyền sốt xuất huyết, vì chúng bị hấp dẫn bởi hơi người chứ không phải ánh sáng. Màn và lưới vẫn là cách chắc chắn hơn.",
+      },
+      {
+        q: "Khay nước sau tủ lạnh có thật sự là ổ muỗi không?",
+        a: "Có, và đó là một trong những chỗ hay bị bỏ quên nhất vì phải kéo tủ ra mới thấy. Kiểm và đổ mỗi tháng.",
+      },
+      {
+        q: "Đã bị sốt xuất huyết rồi thì có bị lại không?",
+        a: "Có. Có nhiều týp vi rút khác nhau, và lần mắc sau bởi týp khác có thể nặng hơn lần đầu. Vì vậy đã từng mắc càng phải phòng cẩn thận.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "nuoc-sinh-hoat-duc-co-mui",
+    title: "Nước sinh hoạt đục, có mùi, có cặn: kiểm ở đâu và lọc thế nào",
+    excerpt:
+      "Nước vàng, tanh mùi sắt, hay nồng mùi clo đều có nguyên nhân khác nhau — và cách xử lý cũng khác hẳn nhau.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Trước hết xác định vấn đề nằm ở đường ống nhà bạn hay ở nguồn: mở vòi ở nhiều phòng, hỏi hàng xóm, và xả nước vài phút xem có trong lại không. Nước đục do khí thì tự trong sau vài phút trong cốc. Nước vàng và tanh thường do đường ống rỉ hoặc nhiều sắt. Mùi clo nồng thì để hở một lúc là bay. Còn nếu nghi nước bẩn thật thì đừng đoán — mang mẫu đi xét nghiệm.",
+    prepare: [
+      "Một cốc thuỷ tinh trong để quan sát nước",
+      "Số điện thoại chủ nhà và của đơn vị cấp nước khu vực",
+      "Điện thoại để chụp lại màu nước và cặn làm bằng chứng",
+      "Nước đóng chai dự phòng cho ăn uống trong lúc chờ xử lý",
+    ],
+    steps: [
+      {
+        title: "Hứng một cốc và quan sát năm phút",
+        detail:
+          "Nước đục trắng như sữa mà để yên vài phút thì trong dần từ dưới lên — đó chỉ là bọt khí, vô hại. Nước đục mà lắng xuống thành cặn ở đáy, hoặc vẫn đục nguyên, thì là chuyện khác và cần xử lý.",
+      },
+      {
+        title: "Xả nước vài phút rồi hứng lại",
+        detail:
+          "Nước đọng trong ống qua đêm hoặc sau vài ngày đi vắng thường đục và tanh. Xả 2–3 phút cho nước mới về rồi hứng lại. Trong lại là do đọng ống, vẫn đục là do nguồn hoặc bể chứa.",
+      },
+      {
+        title: "So sánh giữa các vòi trong nhà",
+        detail:
+          "Chỉ một vòi bị thì lỗi ở vòi hoặc đoạn ống đó — thường là lưới lọc ở đầu vòi bị bám cặn, tháo ra rửa là xong. Cả nhà đều bị thì đi ngược lên bể chứa hoặc nguồn.",
+      },
+      {
+        title: "Hỏi hàng xóm ngay",
+        detail:
+          "Đây là bước nhanh nhất để biết vấn đề ở phạm vi nào. Cả khu cùng bị thì gọi đơn vị cấp nước. Chỉ nhà bạn bị thì làm việc với chủ nhà về bể chứa và đường ống riêng.",
+      },
+      {
+        title: "Nhận diện theo màu và mùi",
+        detail:
+          "Vàng nâu và tanh kim loại thường là sắt, hay gặp ở nước giếng khoan và ống thép cũ. Đen và nhớt thường là mangan hoặc rong trong bể. Mùi clo nồng là do khử trùng, thường tự bay khi để hở. Mùi trứng thối là dấu hiệu cần xử lý nghiêm túc và nên hỏi đơn vị cấp nước.",
+      },
+      {
+        title: "Kiểm bể chứa trên mái hoặc bồn nước",
+        detail:
+          "Đây là nguyên nhân bị bỏ quên nhiều nhất ở nhà cho thuê. Mở nắp nhìn: có cặn dày dưới đáy, có rong rêu, có xác côn trùng, nắp có kín không. Bể chứa cần thau rửa định kỳ, và đó là trách nhiệm của chủ nhà.",
+      },
+      {
+        title: "Chụp ảnh và báo chủ nhà bằng tin nhắn",
+        detail:
+          "Chụp cốc nước, chụp cặn ở đáy, chụp lưới lọc bẩn. Nhắn tin thay vì gọi để có lưu vết. Nêu rõ đề nghị: thau bể, thay đoạn ống, hay lắp lọc đầu nguồn. Có bằng chứng thì việc thương lượng dễ hơn nhiều.",
+      },
+      {
+        title: "Tháo và rửa lưới lọc đầu vòi",
+        detail:
+          "Vặn ngược đầu vòi ra, bên trong có lưới nhỏ thường đầy cặn. Ngâm giấm 30 phút rồi chà sạch, lắp lại. Việc năm phút này giải quyết được kha khá trường hợp nước yếu và có cặn.",
+      },
+      {
+        title: "Lắp lọc thô đầu nguồn nếu vấn đề là cặn",
+        detail:
+          "Loại lõi lọc bằng sợi hoặc than gắn ngay sau đồng hồ nước hoặc trước bình nóng lạnh. Không đắt, lắp được trong nhà thuê, và lọc được cặn, rỉ sắt, mùi clo. Nhớ thay lõi theo hướng dẫn chứ để bẩn thì lọc thành nơi chứa vi khuẩn.",
+      },
+      {
+        title: "Phân biệt nước dùng và nước uống",
+        detail:
+          "Nước máy thường đủ sạch để tắm giặt nhưng không có nghĩa là uống trực tiếp được. Nước uống thì đun sôi để nguội, hoặc dùng máy lọc có chức năng lọc uống trực tiếp. Đừng dùng một cái lọc thô rồi uống thẳng.",
+      },
+      {
+        title: "Nếu nghi ngờ thật sự thì đi xét nghiệm mẫu",
+        detail:
+          "Trung tâm kiểm soát bệnh tật tỉnh và một số đơn vị có dịch vụ xét nghiệm mẫu nước, chi phí không cao. Kết quả cho biết chính xác vấn đề là gì, thay vì mua máy lọc đắt tiền mà không đúng bệnh.",
+      },
+      {
+        title: "Đừng mua máy lọc theo lời người bán tận nhà",
+        detail:
+          "Nhân viên bán hàng hay dùng mấy trò thử điện phân làm nước đổi màu để doạ. Đó không phải xét nghiệm và không nói lên chất lượng nước. Biết nước mình vấn đề gì rồi hãy mua thiết bị đúng loại.",
+      },
+    ],
+    notes: [
+      "NGỪNG DÙNG ĐỂ ĂN UỐNG và báo ngay nếu nước có mùi hoá chất lạ, mùi xăng dầu, hoặc cả khu cùng đổi màu đột ngột. Dùng nước đóng chai trong lúc chờ.",
+      "ĐI KHÁM nếu nhiều người trong nhà cùng bị tiêu chảy, nôn, đau bụng sau khi dùng nguồn nước — và nói rõ với bác sĩ nghi ngờ này.",
+      "Nước giếng khoan chưa qua xử lý không nên dùng để ăn uống nếu chưa từng xét nghiệm, kể cả khi trông trong và không mùi.",
+      "Bài này là kinh nghiệm xử lý thường ngày, không thay thế kết quả xét nghiệm nước hay hướng dẫn của cơ quan y tế và đơn vị cấp nước.",
+    ],
+    faq: [
+      {
+        q: "Nước đục trắng như sữa có sao không?",
+        a: "Nếu để yên vài phút mà trong dần từ dưới lên thì đó chỉ là bọt khí do áp lực đường ống, hoàn toàn vô hại. Nếu đục mà lắng cặn thì mới cần xử lý.",
+      },
+      {
+        q: "Chủ nhà không chịu thau bể nước thì làm sao?",
+        a: "Gửi ảnh và đề nghị bằng tin nhắn, nêu rõ đây là điều kiện sinh hoạt cơ bản. Nếu vẫn không xử lý, có thể đề nghị tự thuê thợ thau và trừ vào tiền nhà — nhưng phải thoả thuận trước bằng văn bản hoặc tin nhắn.",
+      },
+      {
+        q: "Đun sôi có diệt được hết không?",
+        a: "Đun sôi diệt được vi khuẩn và ký sinh trùng, nhưng KHÔNG loại bỏ được kim loại nặng, hoá chất hay cặn. Nước có vấn đề về hoá chất thì đun sôi không giải quyết được gì.",
+      },
+      {
+        q: "Bao lâu nên thay lõi lọc?",
+        a: "Theo hướng dẫn của nhà sản xuất, thường vài tháng tuỳ loại và tuỳ chất lượng nước. Lõi quá hạn không những hết tác dụng mà còn trở thành nơi tích tụ vi khuẩn.",
+      },
+    ],
+    sources: [],
+  },
+  {
+    slug: "nuoi-thu-cung-trong-nha-thue",
+    title: "Nuôi thú cưng trong nhà thuê: xin phép, giữ hoà khí, không mất cọc",
+    excerpt:
+      "Nuôi giấu là cách nhanh nhất để mất cọc và mất chỗ ở. Có vài cách nói chuyện với chủ nhà khiến câu trả lời dễ thành đồng ý hơn.",
+    publishedAt: NGAY,
+    readTimeMinutes: 5,
+    category: "nha-cua",
+    author: null,
+    quickAnswer:
+      "Hỏi trước khi nuôi, và hỏi bằng một đề nghị cụ thể chứ không phải câu hỏi chung chung: nói rõ con gì, nặng bao nhiêu, đã tiêm phòng và triệt sản chưa, và bạn đề xuất đặt thêm bao nhiêu tiền cọc. Ghi thoả thuận vào hợp đồng hoặc ít nhất là tin nhắn. Sau đó, giữ được chỗ ở lâu dài phụ thuộc vào ba thứ: mùi, tiếng ồn, và hàng xóm.",
+    prepare: [
+      "Sổ tiêm phòng của thú cưng, ảnh chụp con vật trông sạch sẽ ngoan ngoãn",
+      "Một khoản dự phòng cho tiền cọc thêm — thường là cách gỡ bế tắc nhanh nhất",
+      "Hợp đồng thuê nhà hiện tại, đọc lại điều khoản về vật nuôi",
+      "Kế hoạch cụ thể cho chuyện vệ sinh, tiếng ồn và lúc bạn đi vắng",
+    ],
+    steps: [
+      {
+        title: "Đọc lại hợp đồng trước khi làm gì",
+        detail:
+          "Nhiều hợp đồng có sẵn điều khoản cấm nuôi vật nuôi mà người thuê không để ý. Biết mình đang đứng ở đâu rồi mới thương lượng. Nếu hợp đồng không nhắc gì thì bạn có cửa dễ hơn nhiều.",
+      },
+      {
+        title: "Hỏi trước, đừng nuôi rồi mới xin",
+        detail:
+          "Nuôi giấu rồi bị phát hiện đặt chủ nhà vào thế phải xử lý, và gần như luôn kết thúc bằng mất cọc hoặc phải chuyển đi. Hỏi trước thì tệ nhất cũng chỉ là bị từ chối, và bạn còn thời gian tìm chỗ khác.",
+      },
+      {
+        title: "Hỏi bằng đề nghị cụ thể, không hỏi chung chung",
+        detail:
+          "Đừng hỏi kiểu cho em nuôi chó được không. Hãy nói: em muốn nuôi một con mèo 4kg, đã triệt sản và tiêm phòng đầy đủ, em xin đặt thêm một tháng tiền cọc, và cam kết nếu có hư hại gì thì em chịu. Câu hỏi có sẵn giải pháp thì dễ được gật đầu hơn nhiều.",
+      },
+      {
+        title: "Đưa ra ba cam kết mà chủ nhà thật sự quan tâm",
+        detail:
+          "Chủ nhà lo ba thứ: đồ đạc bị cào hỏng, mùi ám vào tường và sàn, và hàng xóm phàn nàn. Nói thẳng vào ba thứ đó và nói bạn sẽ xử lý thế nào — đó là điều họ muốn nghe, chứ không phải chuyện con vật của bạn đáng yêu ra sao.",
+      },
+      {
+        title: "Đề xuất đặt thêm cọc",
+        detail:
+          "Đây là cách gỡ bế tắc hiệu quả nhất. Một khoản cọc thêm biến rủi ro của chủ nhà thành con số cụ thể mà họ chấp nhận được. Ghi rõ khoản này là cọc hoàn lại nếu không có hư hại, đừng để thành phí không hoàn.",
+      },
+      {
+        title: "Ghi thoả thuận lại bằng văn bản hoặc tin nhắn",
+        detail:
+          "Chủ nhà đồng ý miệng hôm nay có thể đổi ý hoặc đổi chủ sau nửa năm. Xin thêm một phụ lục hợp đồng, hoặc tối thiểu là một tin nhắn xác nhận rõ ràng để lưu lại.",
+      },
+      {
+        title: "Xử lý mùi trước khi nó thành vấn đề",
+        detail:
+          "Mùi là lý do phổ biến nhất khiến chủ nhà đổi ý. Khay vệ sinh dọn mỗi ngày, đặt chỗ thoáng, mở cửa thông gió, và giặt ổ nằm hằng tuần. Mùi ám vào tường và sàn gỗ rất khó gỡ và đó chính là thứ trừ vào tiền cọc.",
+      },
+      {
+        title: "Bảo vệ sàn, tường và cửa từ đầu",
+        detail:
+          "Thảm lót ở chỗ hay đi lại, trụ cào cho mèo đặt ngay cạnh chỗ nó thích cào, miếng dán chống cào ở góc tường và mép cửa. Rẻ hơn nhiều so với tiền đền sàn gỗ khi trả phòng.",
+      },
+      {
+        title: "Giải quyết chuyện tiếng ồn với hàng xóm",
+        detail:
+          "Chó sủa khi chủ đi vắng là nguồn phàn nàn số một. Tập cho quen dần với việc ở một mình, để lại đồ chơi và tiếng ồn trắng. Chủ động sang chào hàng xóm và đưa số điện thoại — người ta ít phàn nàn với người mình đã quen mặt.",
+      },
+      {
+        title: "Tiêm phòng, triệt sản, và giữ giấy tờ",
+        detail:
+          "Vừa là trách nhiệm với con vật, vừa là lập luận mạnh khi thương lượng. Con vật đã triệt sản ít kêu gào, ít đánh dấu lãnh thổ bằng nước tiểu, ít bỏ đi — tức là ít gây ra đúng những vấn đề chủ nhà lo.",
+      },
+      {
+        title: "Có phương án cho lúc bạn đi vắng",
+        detail:
+          "Đi công tác, về quê, nằm viện — ai trông? Chuẩn bị sẵn một người bạn hoặc một dịch vụ trông giữ. Đừng để hàng xóm phải nghe con vật kêu suốt ba ngày, vì sau lần đó thì chủ nhà sẽ nghe chuyện từ họ.",
+      },
+      {
+        title: "Dọn kỹ khi trả phòng",
+        detail:
+          "Giặt thảm, lau sàn kỹ chỗ hay đi lại, xử lý mùi, vá lại chỗ xước nếu có. Chụp ảnh phòng lúc trả để làm bằng chứng. Làm tử tế thì lấy lại được cọc, và còn được chủ nhà giới thiệu cho người khác.",
+      },
+    ],
+    notes: [
+      "ĐƯA THÚ CƯNG ĐI KHÁM THÚ Y NGAY nếu bỏ ăn trên một ngày, nôn nhiều, tiêu chảy ra máu, thở gấp, hoặc lờ đờ khác thường.",
+      "Nếu bị chó mèo cắn hoặc cào chảy máu — kể cả con vật nhà mình — hãy rửa vết thương dưới vòi nước chảy với xà phòng ít nhất 15 phút và ĐẾN CƠ SỞ Y TẾ để được tư vấn về tiêm phòng dại. Đây là việc không được chần chừ.",
+      "Nhiều khu chung cư có quy định riêng về vật nuôi ở khu vực chung, thang máy, sảnh. Đọc nội quy toà nhà chứ không chỉ hợp đồng thuê.",
+      "Bài này là kinh nghiệm thương lượng và sinh hoạt, không phải tư vấn pháp lý hay thú y.",
+    ],
+    faq: [
+      {
+        q: "Chủ nhà đồng ý miệng, có cần ghi giấy không?",
+        a: "Rất nên. Chủ nhà có thể đổi ý, bán nhà, hoặc giao lại cho người quản lý khác. Một tin nhắn xác nhận cũng đủ để bạn có cơ sở khi có tranh cãi.",
+      },
+      {
+        q: "Nuôi giấu con nhỏ như hamster hay cá thì sao?",
+        a: "Vẫn nên hỏi, nhưng thực tế những loài này ít gây vấn đề nên chủ nhà thường dễ đồng ý. Cá cảnh thì lưu ý bể lớn có thể rò nước, và đó là hư hại thật với sàn gỗ.",
+      },
+      {
+        q: "Bị hàng xóm phàn nàn thì xử lý sao?",
+        a: "Sang gặp trực tiếp, xin lỗi, hỏi cụ thể là ồn vào khung giờ nào, rồi nói rõ bạn sẽ làm gì. Đừng để họ đi thẳng tới chủ nhà — một khi chuyện lên tới đó thì bạn mất quyền chủ động.",
+      },
+      {
+        q: "Sắp chuyển nhà, tìm chỗ cho thuê chấp nhận thú cưng thế nào?",
+        a: "Nói rõ ngay từ tin nhắn đầu tiên khi liên hệ, kèm ảnh và thông tin đã tiêm phòng triệt sản. Mất công lọc hơn nhưng tránh được cảnh dọn vào rồi mới bị đuổi đi.",
+      },
+    ],
+    sources: [],
+  },
 ];
